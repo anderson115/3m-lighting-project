@@ -214,12 +214,12 @@ Provide a concise analysis focusing on pain points and solutions."""
                 frame_num = int(frame_path.stem.split('_')[1])
                 timestamp = (frame_num - 1) * FRAME_EXTRACTION_INTERVAL
 
-                # Call Qwen2.5VL via Ollama Python API
+                # Call LLaVA via Ollama Python API
                 # Set OLLAMA_MODELS env before API call
                 os.environ['OLLAMA_MODELS'] = config['models']['ollama']['base_path']
 
                 response = ollama.chat(
-                    model=config['models']['ollama']['qwen2_5_vl'],
+                    model=config['models']['ollama']['vision_model'],
                     messages=[{
                         'role': 'user',
                         'content': prompt,

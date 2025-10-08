@@ -1,48 +1,56 @@
-# Video Research Platform
-**Multi-Client YouTube Research Automation**
+# 3M Lighting Project
+**YouTube Research Automation for Lighting Pain Points**
 
 ---
 
 ## 🎯 **Overview**
 
-Research automation platform for analyzing YouTube videos using multimodal AI (Whisper + LLaVA + LLM extraction) to identify Jobs-to-be-Done insights, pain points, solutions, and product adjacencies.
+Automated YouTube video analysis platform using multimodal AI to extract Jobs-to-be-Done insights from lighting installation and home improvement content.
 
-**Current Client:** 3M Lighting Division (Command Hook adjacency research)
+**Pipeline:** Whisper large-v3 (audio transcription) + LLaVA 7B (visual analysis) + JTBD extraction
+
+**Current Status:** Production-ready, simplified architecture (HuBERT removed, dependencies reduced 56%)
 
 ---
 
 ## 🚀 **Quick Start**
 
 ### **Prerequisites**
-- Python 3.11+
-- Ollama (running locally)
-- FFmpeg
-- 64GB RAM (recommended for large models)
+- Python 3.11+ (tested on 3.13)
+- Ollama (for LLaVA vision model)
+- FFmpeg (for video/audio processing)
+- 16GB+ RAM (64GB recommended for batch processing)
 
 ### **Setup**
 ```bash
-# Clone and install
-git clone <repo>
-cd video-research-platform
+# 1. Clone repository
+git clone https://github.com/anderson115/3m-lighting-project.git
+cd 3m-lighting-project
+
+# 2. Install Python dependencies
 python -m venv venv
 source venv/bin/activate  # or: venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
-# Configure environment
-cp .env.example .env
-# Edit .env with YouTube API key
+# 3. Install Ollama and pull LLaVA model
+brew install ollama  # or download from ollama.com
+ollama pull llava:latest
 
-# Validate setup
-python scripts/validate_setup.py
+# 4. Verify Ollama is running
+ollama list  # Should show llava:latest
+
+# 5. Configure environment (optional for API models)
+cp .env.example .env
+# Edit .env if using OpenAI/Gemini/Zhipu models
 ```
 
-### **Run Research**
+### **Run Analysis**
 ```bash
-# Process videos for a client
-python scripts/run_research.py --client 3m_lighting --mode production
+# Run preflight analysis (3 test videos)
+python scripts/run_preflight_analysis.py
 
-# Run preflight test (3 videos)
-python scripts/run_research.py --client 3m_lighting --mode preflight
+# Output: data/preflight_analysis/{video_id}/analysis.json
+# Summary: data/preflight_analysis/summary_report.json
 ```
 
 ---
@@ -50,43 +58,42 @@ python scripts/run_research.py --client 3m_lighting --mode preflight
 ## 📁 **Project Structure**
 
 ```
-video-research-platform/
-├── core/                    # Client-agnostic engine
-│   ├── pipeline/
-│   │   ├── perception.py    # Whisper + LLaVA analysis
-│   │   ├── extraction.py    # LLM-based JTBD extraction
-│   │   └── reporting.py     # Report generation
-│   ├── models/
-│   │   └── model_registry.py
-│   └── utils/
-│       ├── video_processing.py
-│       └── validation.py
+3m-lighting-project/
+├── scripts/                          # Analysis pipeline
+│   ├── run_preflight_analysis.py    # MAIN: Orchestrator for 3 test videos
+│   ├── multimodal_analyzer.py       # Core: Whisper + LLaVA + JTBD extraction
+│   ├── video_downloader.py          # YouTube download + frame extraction
+│   ├── test_local_models.py         # Local model benchmarking
+│   ├── test_api_comprehensive.py    # API model testing
+│   └── validate_pipeline.py         # End-to-end validation
 │
-├── clients/                 # Client-specific configurations
+├── data/
+│   ├── preflight/                   # Input: Preflight test videos
+│   │   ├── beginner/                # Beginner-level video
+│   │   ├── intermediate/            # Intermediate-level video
+│   │   └── advanced/                # Advanced-level video
+│   ├── preflight_analysis/          # Output: Analysis results
+│   │   ├── {video_id}/              # Per-video analysis
+│   │   │   ├── analysis.json        # Full multimodal analysis
+│   │   │   ├── audio.wav            # Extracted audio (16kHz mono)
+│   │   │   └── frames/              # Keyframes (30s intervals)
+│   │   ├── summary_report.json      # Aggregated insights
+│   │   └── preflight_summary.json   # Performance metrics
 │   └── 3m_lighting/
-│       ├── config.yaml      # Search terms, JTBD framework
-│       ├── prompts.yaml     # LLM extraction prompts
-│       ├── proposals/       # Client proposals
-│       └── reports/         # Generated reports
-│
-├── data/                    # Data segregated by client
-│   └── 3m_lighting/
-│       ├── videos/          # Downloaded videos
-│       ├── analysis/        # Analysis JSON files
-│       └── archives/        # Completed research sprints
+│       └── archives/                # Completed analysis runs
 │
 ├── config/
-│   └── models.yaml          # Model paths (Whisper, LLaVA, Llama)
+│   └── model_paths.yaml             # Model configuration (Whisper + LLaVA)
 │
-├── scripts/                 # Runnable workflows
-│   ├── run_research.py      # Main entry point
-│   └── validate_setup.py    # System validation
+├── docs/
+│   ├── model-price-plan.md          # ⭐ MASTER: Vision model scorecard
+│   ├── youtube-datasource-README.md # Complete setup + usage guide
+│   ├── local-models-comparison.md   # Qualitative model comparisons
+│   └── jtbd-extraction-plan.md      # Jobs-to-be-Done methodology
 │
-├── tests/                   # Test suite
-└── docs/                    # Documentation
-    ├── ARCHITECTURE.md
-    ├── CLIENT_SETUP.md
-    └── REBUILD_PLAN.md
+├── requirements.txt                 # Python dependencies (62 packages)
+├── .env.example                     # API key template
+└── README.md                        # This file
 ```
 
 ---
@@ -96,128 +103,148 @@ video-research-platform/
 ### **Processing Pipeline**
 
 ```
-1. PERCEPTION (Multimodal Analysis)
-   ├─ Whisper large-v3: Audio → Transcript
-   └─ LLaVA 7B: Frames → Visual analysis (every 30s)
+1. VIDEO INGESTION
+   └─ yt-dlp: YouTube URL → MP4 download
 
-2. EXTRACTION (LLM-Enhanced)
-   └─ Llama 3.1 8B: Combined data → JTBD insights
-      ├─ Pain points (functional, social, emotional)
-      ├─ Solutions demonstrated
-      ├─ Verbatim quotes
-      ├─ Golden moments
-      └─ Product adjacencies
+2. PREPROCESSING
+   ├─ ffmpeg: Video → 16kHz mono WAV audio
+   └─ ffmpeg: Video → Keyframes (1 frame per 30s)
 
-3. REPORTING
-   └─ HTML + JSON + CSV outputs
+3. MULTIMODAL ANALYSIS
+   ├─ Whisper large-v3: Audio → Transcript with timestamps
+   └─ LLaVA 7B: Frames → Visual analysis (lighting fixtures, installations)
+
+4. JTBD EXTRACTION
+   └─ Keyword-based extraction from transcripts + visual data
+      ├─ Pain points (dark, dim, glare, problem, issue)
+      ├─ Solutions (LED, strip light, dimmer, fix, install)
+      ├─ Verbatim quotes (top pain points)
+      └─ Timestamp mapping
+
+5. OUTPUT GENERATION
+   ├─ Per-video analysis.json (full multimodal data)
+   ├─ summary_report.json (aggregated insights)
+   └─ preflight_summary.json (performance metrics)
 ```
 
 ### **Models Used**
 
-| Model | Purpose | Device | Size |
-|-------|---------|--------|------|
-| Whisper large-v3 | Audio transcription | CPU/MPS | 1.5GB |
-| LLaVA 7B | Visual analysis | Ollama | 4.5GB |
-| Llama 3.1 8B | JTBD extraction | Ollama | 4.7GB |
+| Model | Purpose | Device | Size | Speed |
+|-------|---------|--------|------|-------|
+| **Whisper large-v3** | Audio transcription | CPU (MPS backend) | 1.5GB | ~6 min/video |
+| **LLaVA 7B** | Visual frame analysis | Ollama (local) | 4.5GB | ~60s/frame |
 
----
-
-## 📊 **Client Setup**
-
-See `docs/CLIENT_SETUP.md` for detailed instructions on adding new clients.
-
-**Quick overview:**
-1. Create `clients/{client_name}/config.yaml`
-2. Define JTBD framework and search terms
-3. Create extraction prompts in `prompts.yaml`
-4. Run: `python scripts/run_research.py --client {client_name}`
+**Note:** HuBERT emotion analysis was removed (1.2GB savings, no functional impact). System now runs Whisper + LLaVA only.
 
 ---
 
 ## 🔍 **Current Status**
 
-### **3M Lighting Project**
+### **Preflight Complete ✅**
+- **Videos analyzed:** 3 (beginner, intermediate, advanced)
+- **Pain points found:** 11
+- **Solutions identified:** 21
+- **Verbatim quotes:** 10
+- **Processing time:** 25.3 minutes total (8.4 min avg per video)
 
-**Phase:** Preflight Complete → Production Enhancement
-- ✅ Preflight validated (3 videos, 11 pain points, 21 solutions)
-- ✅ Client HTML report delivered
-- 🔄 LLM extraction layer (in progress)
-- ⏳ Sprint 1 (50-100 videos) - pending
+### **Recent Updates**
+- ✅ **2025-10-08:** Simplified architecture (removed HuBERT, -56% dependencies)
+- ✅ **2025-10-07:** Model benchmarking complete (9 models tested)
+- ✅ **2025-10-05:** Initial preflight run successful
 
-**Archived Results:**
-- Preflight videos: `data/3m_lighting/archives/preflight_2025-10-05/`
-- HTML report: `data/3m_lighting/archives/preflight_2025-10-05/analysis/PREFLIGHT_REPORT_3M_Lighting.html`
-
----
-
-## 🧪 **Testing**
-
+### **Results Location**
 ```bash
-# Run all tests
-pytest tests/
-
-# Run specific test
-pytest tests/test_extraction.py
-
-# Validate pipeline on single video
-python scripts/validate_setup.py --video <video_id>
+data/preflight_analysis/
+├── 6YlrdMaM0dw/          # Beginner: Easy DIY LED Shelf Lighting
+├── ZoWPdtYkdCc/          # Intermediate: Baking Polymer Clay
+├── IE8iCsXYp_Y/          # Advanced: 10 HomeKit Automations
+├── summary_report.json   # Aggregated insights
+└── preflight_summary.json # Performance metrics
 ```
-
----
-
-## 📝 **Development**
-
-### **Key Files**
-
-- `core/pipeline/extraction.py` - LLM-based JTBD extraction (currently being enhanced)
-- `core/pipeline/perception.py` - Whisper + LLaVA analysis
-- `clients/3m_lighting/config.yaml` - 3M research configuration
-- `config/models.yaml` - Model paths and settings
-
-### **Adding Features**
-
-1. Update relevant `core/` module
-2. Add tests in `tests/`
-3. Update client config if needed
-4. Run validation suite
 
 ---
 
 ## 📚 **Documentation**
 
-- **Architecture:** `docs/ARCHITECTURE.md` - System design and data flow
-- **Client Setup:** `docs/CLIENT_SETUP.md` - Adding new research programs
-- **Rebuild Plan:** `docs/REBUILD_PLAN.md` - Latest enhancement plan
+| Document | Purpose |
+|----------|---------|
+| **`docs/model-price-plan.md`** | ⭐ Complete vision model scorecard (9 models tested) |
+| **`docs/youtube-datasource-README.md`** | Detailed setup guide with troubleshooting |
+| **`docs/local-models-comparison.md`** | Qualitative analysis of local models |
+| **`docs/model-output-comparison.md`** | Side-by-side model output examples |
+| **`README.md`** | This file - quick start and overview |
+
+---
+
+## 🧪 **Validation**
+
+```bash
+# Validate complete pipeline
+python scripts/validate_pipeline.py
+
+# Test vision models (benchmark 4 local models)
+python scripts/test_local_models.py
+
+# Test API models (benchmark 5 API models)
+python scripts/test_api_comprehensive.py
+```
 
 ---
 
 ## 🛠️ **Troubleshooting**
 
-**Common Issues:**
+### **Ollama Issues**
+```bash
+# Check if Ollama is running
+ollama list
 
-1. **Ollama connection errors**
-   ```bash
-   # Verify Ollama is running
-   ollama list
-   # Check models are installed
-   ollama pull llava:latest
-   ollama pull llama3.1:8b
-   ```
+# Start Ollama service
+ollama serve
 
-2. **FFmpeg not found**
-   ```bash
-   # macOS
-   brew install ffmpeg
-   # Linux
-   sudo apt install ffmpeg
-   ```
+# Pull LLaVA model if missing
+ollama pull llava:latest
 
-3. **Out of memory errors**
-   - Reduce batch size in `config/models.yaml`
-   - Process videos sequentially (set `num_workers: 1`)
+# Test LLaVA with sample image
+echo "Describe this image" | ollama run llava:latest < test_image.jpg
+```
+
+###  **FFmpeg Not Found**
+```bash
+# macOS
+brew install ffmpeg
+
+# Ubuntu/Debian
+sudo apt install ffmpeg
+
+# Verify installation
+ffmpeg -version
+```
+
+### **Memory Issues**
+- **Whisper FP16 warning:** Normal on CPU, automatically uses FP32
+- **Out of memory:** Reduce `batch_size` in `config/model_paths.yaml`
+- **LLaVA crashes:** Ensure Ollama has sufficient memory (4GB+ available)
+
+### **Import Errors**
+```bash
+# Reinstall dependencies
+pip install -r requirements.txt --force-reinstall
+
+# Check Python version (requires 3.11+)
+python --version
+```
+
+---
+
+## 📊 **Performance Notes**
+
+- **Whisper large-v3:** ~6 minutes per 9-minute video (CPU with MPS backend)
+- **LLaVA 7B:** ~60 seconds per frame (varies by complexity)
+- **Total pipeline:** ~8.4 minutes per video average (3 videos = 25 minutes)
+- **Simplified vs original:** -56% dependencies, -15s startup time, same functionality
 
 ---
 
 ## 📄 **License**
 
-Proprietary - Offbrain Insights
+Proprietary - 3M Lighting Research Project

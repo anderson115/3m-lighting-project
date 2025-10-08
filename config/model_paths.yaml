@@ -1,16 +1,19 @@
 # 3M Lighting Project - Model Paths Configuration
-# Generated: 2025-10-07
+# Last Updated: 2025-10-08
 # Hardware: Mac M2 Max, 64GB RAM
+# Architecture: Whisper (audio) + LLaVA (vision) + JTBD extraction
 
 models:
+  # Vision Model (Ollama - Local LLM serving)
   ollama:
     base_path: /Volumes/TARS/llm-models/ollama
-    qwen2_5_vl: llava:latest  # LLaVA for vision analysis
+    vision_model: llava:latest  # LLaVA 7B for visual frame analysis
 
+  # Audio Transcription (OpenAI Whisper)
   whisper:
     cache_dir: /Volumes/TARS/llm-models/whisper
-    model_size: large-v3
-    device: cpu  # MPS via PyTorch backend
+    model_size: large-v3  # 1.5GB model, best accuracy
+    device: cpu  # CPU with MPS backend via PyTorch
 
 system:
   device: mps  # Apple Silicon Metal Performance Shaders
