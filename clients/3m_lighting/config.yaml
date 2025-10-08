@@ -1,0 +1,153 @@
+# 3M Lighting Division - Research Configuration
+# Project: Command Hook Lighting Adjacencies
+# Generated: 2025-10-05
+
+client:
+  name: "3M Lighting Division"
+  project: "Command Hook Adjacency Research"
+  industry: "Home Improvement - Lighting"
+  contact: "[REDACTED]"
+
+research_scope:
+  objective: "Identify jobs-to-be-done in residential lighting installations where Command Hook products (adhesive mounting, cable management, damage-free installation) could provide value"
+
+  search_terms:
+    primary:
+      - "LED strip light installation"
+      - "under cabinet lighting DIY"
+      - "home lighting upgrade"
+      - "smart lighting installation"
+      - "LED backlighting shelves"
+      - "accent lighting DIY"
+
+    secondary:
+      - "lighting wire management"
+      - "damage free lighting install"
+      - "rental friendly lighting"
+      - "peel and stick LED lights"
+      - "LED light mounting"
+      - "hide LED wires"
+
+  target_channels:
+    - "DIY home improvement creators"
+    - "Smart home tech reviewers"
+    - "Interior design DIY"
+    - "Home automation enthusiasts"
+    - "Rental living hacks"
+
+  video_criteria:
+    min_views: 10000
+    min_duration: 300       # 5 minutes
+    max_duration: 1200      # 20 minutes
+    published_after: "2023-01-01"
+    languages: ["en"]
+
+jtbd_framework:
+  functional_jobs:
+    - "Install lighting without damaging walls (renters, homeowners concerned about resale)"
+    - "Hide/route LED wiring cleanly along surfaces"
+    - "Mount LED strips or fixtures on non-standard surfaces (glass, tile, etc.)"
+    - "Create even light distribution (reduce LED 'dot' effect)"
+    - "Control/automate lighting remotely"
+    - "Install temporary/seasonal lighting"
+
+  social_jobs:
+    - "Appear tech-savvy to guests (smart home showcase)"
+    - "Demonstrate DIY competence (home improvement pride)"
+    - "Create professional-looking installations (not 'hacky')"
+    - "Show environmental consciousness (LED efficiency)"
+
+  emotional_jobs:
+    - "Feel pride in DIY accomplishment"
+    - "Reduce stress from poor lighting (dark corners, glare)"
+    - "Create cozy/comfortable atmosphere"
+    - "Feel secure in rental (damage-free installation)"
+    - "Eliminate frustration with messy wires"
+
+  golden_moments:
+    - "Lighting 'earns its keep' - consistent daily value"
+    - "Guests notice and compliment the lighting"
+    - "Move-out without damage concerns"
+    - "Smart automation 'just works' reliably"
+    - "Clean aesthetic (no visible wires or mounting hardware)"
+
+product_categories:
+  primary:
+    - category: "Adhesive Mounting Solutions"
+      products:
+        - "Command Strips (various sizes)"
+        - "Command Hooks (small-large)"
+        - "Command Outdoor Strips"
+        - "Command Picture Hanging Strips"
+      pain_points_addressed:
+        - "Wall damage from screws/nails"
+        - "Rental restrictions"
+        - "Tile/glass surface mounting"
+
+    - category: "Cable Management"
+      products:
+        - "Command Cable Clips"
+        - "Command Cord Bundlers"
+        - "Command Wire Hooks"
+      pain_points_addressed:
+        - "Visible LED wiring"
+        - "Dangling power cables"
+        - "Wire routing along baseboards/corners"
+
+    - category: "Damage-Free Installation Tools"
+      products:
+        - "Command Mounting Tape"
+        - "Command Poster Strips"
+      pain_points_addressed:
+        - "LED diffuser mounting"
+        - "Controller/hub mounting"
+        - "Temporary installations"
+
+  secondary:
+    - "Diffusion films/lenses (if adhesive mounting needed)"
+    - "Smart home hubs/controllers (if cable management needed)"
+    - "LED accessories requiring mounting"
+
+extraction_focus:
+  prioritize:
+    - "Visible workarounds for damage-free mounting"
+    - "Cable/wire management struggles"
+    - "Rental/temporary installation contexts"
+    - "DIY mistakes leading to wall damage"
+    - "Product comparisons mentioning adhesive solutions"
+
+  deprioritize:
+    - "Professional electrician installations"
+    - "Permanent hardwired solutions"
+    - "Commercial/industrial lighting"
+    - "Outdoor landscape lighting (unless Command Outdoor relevant)"
+
+output:
+  reports_dir: "clients/3m_lighting/reports"
+  archive_dir: "data/3m_lighting/archives"
+
+  formats:
+    - html      # Client deliverable
+    - json      # Data analysis
+    - csv       # Spreadsheet import
+
+  report_sections:
+    - "Executive Summary"
+    - "Jobs-to-be-Done Analysis"
+    - "Pain Points by Category"
+    - "Solutions Demonstrated"
+    - "Golden Moments Identified"
+    - "Command Product Adjacencies"
+    - "Video Inventory"
+    - "Verbatim Quotes"
+
+  branding:
+    company: "Offbrain Insights"
+    tagline: "Research-driven product strategy"
+    colors:
+      primary: "#1a2332"      # Navy/Ink
+      secondary: "#2d3e50"    # Charcoal
+      accent: "#3b82f6"       # Blue
+    fonts:
+      heading: "Space Grotesk"
+      body: "IBM Plex Sans"

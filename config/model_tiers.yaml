@@ -1,0 +1,148 @@
+# Model Tier Configuration
+# Defines Standard and Pro tiers with ranked models within each tier
+
+tiers:
+  standard:
+    display_name: "Standard Plan"
+    description: "Cost-effective AI analysis with good quality insights"
+    models:
+      # Ranked by quality (best first)
+      - name: "togetherai"
+        display_name: "Together AI Llama 3.3 70B"
+        model_id: "meta-llama/Llama-3.3-70B-Instruct-Turbo"
+        provider: "Together AI"
+        priority: 1
+        pricing:
+          input_per_1m: 0.18   # $0.18 per 1M input tokens
+          output_per_1m: 0.18  # $0.18 per 1M output tokens
+        features:
+          - "70B parameter model"
+          - "Fast inference (Turbo)"
+          - "Strong reasoning"
+          - "JSON output support"
+        status: "active"
+
+      - name: "glm4"
+        display_name: "GLM-4 Flash"
+        model_id: "glm-4-flash"
+        provider: "Zhipu AI"
+        priority: 2
+        pricing:
+          input_per_1m: 0.001   # Nearly free
+          output_per_1m: 0.001
+        features:
+          - "Fast processing"
+          - "Multilingual support"
+          - "Low cost"
+        status: "active"
+        notes: "Slower JSON parsing - use for non-critical tasks"
+
+  pro:
+    display_name: "Pro Plan"
+    description: "Premium AI analysis with maximum insight quality and speed"
+    models:
+      # Ranked by quality + speed (best first)
+      - name: "gemini"
+        display_name: "Gemini 2.0 Flash"
+        model_id: "gemini-2.0-flash-exp"
+        provider: "Google"
+        priority: 1
+        pricing:
+          input_per_1m: 0.075   # $0.075 per 1M input tokens
+          output_per_1m: 0.30   # $0.30 per 1M output tokens
+        features:
+          - "Latest Gemini model"
+          - "3.6x faster than local"
+          - "Excellent verbatim extraction"
+          - "1M token context window"
+          - "Built-in JSON support"
+        quality_score: 27.32
+        avg_time_per_video: 28
+        status: "active"
+
+      - name: "openai"
+        display_name: "OpenAI GPT-4o Mini"
+        model_id: "gpt-4o-mini"
+        provider: "OpenAI"
+        priority: 2
+        pricing:
+          input_per_1m: 0.15
+          output_per_1m: 0.60
+        features:
+          - "Fast processing"
+          - "Reliable JSON output"
+          - "Strong general performance"
+        quality_score: 11.44
+        avg_time_per_video: 45
+        status: "active"
+        notes: "Lower 3M adjacency detection - not ideal for product research"
+
+  # Admin-only (local models)
+  local:
+    display_name: "Local (Admin Only)"
+    description: "Free local inference - admin override only"
+    models:
+      - name: "llama"
+        display_name: "Llama 3.1 8B (Local)"
+        model_id: "llama3.1:8b"
+        provider: "Meta (via Ollama)"
+        priority: 1
+        pricing:
+          input_per_1m: 0.0
+          output_per_1m: 0.0
+        features:
+          - "BEST quality (29.52 score)"
+          - "Most pain points (14)"
+          - "Strong 3M adjacency mapping"
+          - "Zero cost"
+          - "100% private (local)"
+        quality_score: 29.52
+        avg_time_per_video: 99
+        status: "active"
+
+      - name: "deepseek-local"
+        display_name: "DeepSeek R1 70B (Local)"
+        model_id: "deepseek-r1:70b"
+        provider: "DeepSeek (via Ollama)"
+        priority: 2
+        pricing:
+          input_per_1m: 0.0
+          output_per_1m: 0.0
+        features:
+          - "Advanced reasoning"
+          - "70B parameters"
+          - "Zero cost"
+        avg_time_per_video: 600
+        status: "available"
+        notes: "Too slow for batch (8-10 min/video)"
+
+# Tier access mapping
+tier_access:
+  free:
+    allowed_tiers: []
+    message: "Upgrade to Standard or Pro plan to use AI extraction"
+
+  standard:
+    allowed_tiers: ["standard"]
+    default_model: "togetherai"
+
+  pro:
+    allowed_tiers: ["standard", "pro"]
+    default_model: "gemini"
+
+  admin:
+    allowed_tiers: ["local", "standard", "pro"]
+    default_model: "llama"
+    can_override: true
+
+# Cost estimates (per 100 videos, assuming 10K input + 4K output tokens)
+cost_estimates:
+  standard:
+    togetherai: "$0.25"
+    glm4: "$0.001"
+  pro:
+    gemini: "$0.75"
+    openai: "$1.50"
+  local:
+    llama: "$0.00"
+    deepseek-local: "$0.00"

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "timestamp": "2025-10-05T12:51:54.766233",
+  "video_tested": "data/preflight/beginner/6YlrdMaM0dw.mp4",
+  "checks": {
+    "whisper": {
+      "pass": true,
+      "reason": "OK: 324 words, 25 segments",
+      "details": {
+        "word_count": 324,
+        "segment_count": 25,
+        "duration": 2.52
+      }
+    },
+    "llava": {
+      "pass": true,
+      "reason": "OK: 3/3 frames analyzed (avg 1282 chars)",
+      "details": {
+        "frames_total": 3,
+        "frames_successful": 3,
+        "sample_analysis_length": 1086,
+        "avg_analysis_length": 1282.3
+      }
+    },
+    "hubert": {
+      "pass": true,
+      "reason": "OK: Model ready, classes: neutral, happy, angry, sad",
+      "details": {
+        "model_ready": true,
+        "note": "Emotion analysis requires additional audio preprocessing"
+      }
+    },
+    "files": {
+      "pass": true,
+      "reason": "OK: All files created, 3 frames extracted",
+      "details": {
+        "frames_extracted": 3
+      }
+    },
+    "integration": {
+      "pass": true,
+      "reason": "OK: 1 pain points, 7 solutions, 1 verbatims",
+      "details": {
+        "pain_points": 1,
+        "solutions": 7,
+        "verbatims": 1
+      }
+    }
+  },
+  "recommendation": "PROCEED"
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Offbrain Insights · Insight Engine Proposal</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+    :root {
+      --navy: #0a1628;
+      --ink: #1f2a36;
+      --charcoal: #2c3e50;
+      --stone: #5b6773;
+      --sky: #e9eef3;
+      --line: #d3d8de;
+      --page: #ffffff;
+      --accent: #00b4e0;
+      --accent-soft: #7cc9e5;
+      --support: #0f9f7f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-weight: 380;
+      color: rgba(31, 42, 54, 0.82);
+    }
+
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Space Grotesk", "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+      background: var(--sky);
+      color: var(--ink);
+      padding: 48px 0 64px;
+    }
+
+    .page {
+      background: var(--page);
+      width: 920px;
+      margin: 0 auto;
+      border-radius: 12px;
+      box-shadow: 0 24px 48px rgba(15, 26, 37, 0.12);
+      overflow: hidden;
+    }
+
+    .page-header {
+      padding: 40px 54px 32px;
+      background: var(--page);
+      color: var(--navy);
+      border: 2px solid var(--accent-soft);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(10, 22, 40, 0.08);
+    }
+
+    .page-header h1 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0;
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      line-height: 1.08;
+    }
+
+    .page-header h2 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 12px 0 0;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(15, 26, 37, 0.6);
+    }
+
+    .mission {
+      margin: 16px 0 0;
+      font-size: 17px;
+      line-height: 1.6;
+      color: rgba(31, 42, 54, 0.72);
+      font-style: italic;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+      font-size: 15px;
+      color: rgba(47, 61, 75, 0.72);
+    }
+
+    .meta-label {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      font-size: 13px;
+      color: rgba(31, 42, 54, 0.55);
+    }
+
+    .body {
+      padding: 40px 54px 48px;
+      display: grid;
+      gap: 36px;
+    }
+
+    section {
+      display: grid;
+      gap: 20px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .section-heading span.rule {
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .section-heading h3 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0;
+      font-size: 23px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--navy);
+    }
+
+    .two-column {
+      display: grid;
+      gap: 28px;
+      grid-template-columns: 1.4fr 1fr;
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fafcfe;
+    }
+
+    .card-title {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0 0 12px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+
+    .card p {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--stone);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .key-points {
+      display: grid;
+      gap: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--stone);
+    }
+
+    .key-points strong {
+      color: var(--charcoal);
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--stone);
+    }
+
+    thead th {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      font-weight: 600;
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 2px solid var(--accent);
+      color: var(--navy);
+      background: rgba(0,180,224,0.06);
+    }
+
+    tbody td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:nth-child(even) td {
+      background: rgba(14, 40, 60, 0.03);
+    }
+
+
+
+    .timeline-row:nth-child(even) {
+      background: rgba(0,0,0,0.02);
+    }
+
+
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .metric-card {
+      padding: 20px 22px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #ffffff;
+    }
+
+    .metric-label {
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .metric-value {
+      margin-top: 6px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--navy);
+    }
+
+    .investment-table td:first-child {
+      font-weight: 600;
+      color: var(--charcoal);
+    }
+
+    .investment-table td:nth-child(2) {
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .team-card {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 18px 20px;
+      background: #ffffff;
+      display: grid;
+      gap: 6px;
+    }
+
+    .team-name {
+      font-weight: 600;
+      color: var(--navy);
+      letter-spacing: 0.2px;
+      font-size: 16px;
+    }
+
+    .team-title {
+      font-size: 13px;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+      color: var(--stone);
+    }
+
+    .team-bio {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--stone);
+    }
+
+    .footer {
+      padding: 32px 64px 48px;
+      background: rgba(10,22,40,0.04);
+      border-top: 1px solid var(--line);
+    }
+
+    .footer h4 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+
+    .footer ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--stone);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .footer .contact-block {
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 15px;
+      color: var(--charcoal);
+      font-weight: 600;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: #ffffff;
+      }
+      .page {
+        width: auto;
+        box-shadow: none;
+        border-radius: 0;
+      }
+      .page-header {
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    <header class="page-header">
+      <h1>Lighting Opportunity Mapping</h1>
+
+      <h2>Offbrain Insights · Insight Engine Proposal</h2>
+      <p class="mission">We turn 3M's existing lighting research into clear, confident next moves.</p>
+      <div class="meta-row">
+        <div>
+          <div class="meta-label">Prepared for</div>
+          3M Strategic Innovation Office
+        </div>
+        <div>
+          <div class="meta-label">Date</div>
+          30 September 2025
+        </div>
+        <div>
+          <div class="meta-label">Engagement Lead</div>
+          Jordan Ellett · Managing Partner
+        </div>
+      </div>
+    </header>
+
+    <div class="body">
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Executive Overview</h3></div>
+        <div class="two-column">
+          <div class="key-points">
+            <p><strong>Focus.</strong> We pull every piece of 3M lighting research into one organised home so the innovation teams, lab leads, and commercial managers make decisions from the same facts.</p>
+            <p><strong>What we deliver.</strong> A searchable evidence library aligned to the lighting innovation pipeline, three plain-language concept stories you can test with installers and buyers, and a step-by-step launch guide that fits 3M’s stage-gate process.</p>
+            <p><strong>Expected result.</strong> Your lighting squads can choose the next move without hunting for proof or waiting on another study.</p>
+          </div>
+          <aside class="card">
+            <p class="card-title">Engagement Snapshot</p>
+            <p>Fee: USD $xxxx (fixed)<br />Working style: Remote synthesis with focused in-person sessions</p>
+            <p>Governance: Weekly steering calls with chapter reviews at each hand-off.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Why This Matters</h3></div>
+        <div class="two-column">
+          <div class="key-points">
+            <p><strong>How we work.</strong> Offbrain’s approach blends Qualitative Selfie Videos, Transcripts and Text Responses, and External/Secondary Signals so we hear the raw voice, capture the words, and understand the broader lighting conversation.</p>
+            <p><strong>What 3M gains.</strong> Each insight shows who said it, how they sounded, and whether the wider market agrees, making it easier to spot unmet lighting needs and prioritise the next build.</p>
+            <p><strong>Where it helps.</strong> Research, product, and marketing stay aligned around the same evidence, cutting duplicate work and stalled decisions.</p>
+          </div>
+          <aside class="card">
+            <p class="card-title">Success Metrics</p>
+            <p>• Shared library live for all teams<br />• Three customer stories ready to use<br />• Launch guide with clear owners and next steps</p>
+          </aside>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Data Sources</h3></div>
+        <div class="card">
+          <p style="margin:0 0 12px; color: var(--charcoal);"><strong>Qualitative Selfie Videos.</strong> 3M customers and specifiers record short clips answering open questions, letting us read tone, body language, and emotion behind their lighting choices.</p>
+          <p style="margin:0 0 12px; color: var(--charcoal);"><strong>Transcripts and Text Responses.</strong> Survey and interview transcripts supply clean language data that we tag for unmet jobs, pain points, and proof moments in the pipeline.</p>
+          <p style="margin:0; color: var(--charcoal);"><strong>External/Secondary Signals.</strong> We layer in Reddit threads, YouTube reviews, and market reports to confirm patterns, flag emerging use cases, and benchmark sentiment across the category.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>How the Work Flows</h3></div>
+        <div class="card">
+          <p style="margin:0; color: var(--stone); line-height: 1.7;">We start by setting up the shared library in 3M systems and agreeing on how we will work together. We build the evidence index, then write and test the stories with lighting stakeholders. We finish by assembling the launch guide and walking leaders through the plan, with a standing weekly check-in keeping everyone aligned.</p>
+        </div>
+      </section>
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>How We Work</h3></div>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 28%;">Chapter</th>
+                <th style="width: 38%;">Focus</th>
+                <th>Key Deliverables</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Chapter 1 · Evidence Index</strong></td>
+                <td>Bring every insight into one library, label how strong each proof point is, and flag what is missing.</td>
+                <td>Organised evidence library, source log, strength labels, list of missing pieces.</td>
+              </tr>
+              <tr>
+                <td><strong>Chapter 2 · Narrative Build</strong></td>
+                <td>Write three customer stories that show how 3M solves the need, with proof beside each point.</td>
+                <td>Three customer stories, clips and quotes that support them, proof links, common questions with answers.</td>
+              </tr>
+              <tr>
+                <td><strong>Chapter 3 · Activation Plan</strong></td>
+                <td>Turn the stories into a launch plan with named owners, clear actions, and simple ways to track progress.</td>
+                <td>Step-by-step launch guide, experiment list, meeting schedule, simple tracking sheet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+
+  </article>
+</body>
+</html>

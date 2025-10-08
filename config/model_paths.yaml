@@ -1,0 +1,19 @@
+# 3M Lighting Project - Model Paths Configuration
+# Generated: 2025-10-07
+# Hardware: Mac M2 Max, 64GB RAM
+
+models:
+  ollama:
+    base_path: /Volumes/TARS/llm-models/ollama
+    qwen2_5_vl: llava:latest  # LLaVA for vision analysis
+
+  whisper:
+    cache_dir: /Volumes/TARS/llm-models/whisper
+    model_size: large-v3
+    device: cpu  # MPS via PyTorch backend
+
+system:
+  device: mps  # Apple Silicon Metal Performance Shaders
+  ram_gb: 64
+  batch_size: 4  # Optimized for 64GB RAM
+  num_workers: 8  # M2 Max has 8 performance cores

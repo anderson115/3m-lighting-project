@@ -1,0 +1,1671 @@
+{
+  "metadata": {
+    "video_id": "IE8iCsXYp_Y",
+    "title": "10 HomeKit Automations for Motion, Doors, Temp, and More!",
+    "channel": "Stephen Robles",
+    "duration": 650,
+    "analyzed_at": "2025-10-05T14:46:47.393994"
+  },
+  "transcription": {
+    "full_text": " I have over 100 HomeKit devices in my house, and a lot of them are sensors. From contact sensors to tell if a door is open, a new vibration sensor I'm trying out on a washing machine, motion sensors to turn on lights in closets and patios, a new solar-powered pool sensor that's telling me the pH, chlorine, and other data, plus water leak sensors, outdoor weather temperature, and more. So in this video, I'm going to tell you 10 of the automations I use around my house using all these sensors. And before we jump in, don't forget to subscribe to the channel before you go. So first up is an automation that runs every time I enter my office. I actually have a contact sensor down by the floor, and this reads whether or not the door is opened. The contact sensor I'm using there is actually the Aqara door and window sensor P2. It's a matter-over-thread sensor. It doesn't require the Aqara hub, and it's been super reliable because it uses thread. Now I have a bunch of automations programmed, and for this contact sensor, I'm going to go to my Home app and then over to the Automations tab. I'm going to be going over a bunch of these as we talk about the different sensors, but this P2 sensor is when the office door opens. And I have this automation run only during certain times of day, which is typically when I... enter my studio. Not only can you add a time for an automation, but you can also choose if you want this automation to run when you are home, when nobody is home, and all different combinations there. But when my door opens between 7 and 8.30 a.m., it's actually going to run my OfficeWorks Scene. It's helpful to create scenes for automations like this, because then if you add or remove devices to the scene, your automation is still going to work. And just to show you, I'll jump over to my studio room so you can see the scene. In my OfficeWorks Scene, you'll see it opens my blackout shades, turns on my ceiling fan, and the ceiling fan lights. Then I have a bunch of scenes for filming, which turns those off and turns on my filming lights. If you want to learn more about my studio automations, I'll put a video above and in the description. Next up is actually a new vibration sensor I'm trying from Aqara. This thing can detect when vibration starts and stops. I have an older washing machine and dryer, so I don't get notifications on my phone when it stops. So I put the vibration sensor on the side of the washing machine, because it doesn't make any sound. And one of the triggers you can use for a HomeKit sensor is when it detects something or when it stops detecting something. So for this vibration sensor, I chose when it stops detecting motion, which means the washing machine has stopped running. It's stopped shaking. Again, you can specify the time or people, but I want this to run whenever, because I want to know when the washing machine is done. Now, HomeKit doesn't have great built-in notifications for when sensors start or stop certain things, but you can create a shortcut based on this HomeKit automation. And then I actually use an app called PushCut to send me that notification when the washing machine stops. PushCut is a great app for customizing some notifications like this. I actually have a few of them. I have one on a mini fridge when the door is left open. So if you want to learn more about setting a PushCut with HomeKit notifications, I also have a video on that linked above and down below. Number three, I have a bunch of motion sensors around the house. This is the Philips Hue motion sensor. I have this in our pantry. Then I have other motion sensors like the Eve and others in different closets. One of the simple automations I have for this specific Philips Hue motion sensor is in the pantry. When motion is detected in that pantry, it turns the pantry light on. Super simple. I do a motion sensor rather than a contact sensor, which you could do a contact sensor. I don't know if you've seen that before. I don't know if you've seen that before. I don't know if you've seen that before. I don't know if you've seen that before. And if you walk into the pantry and the door was open just a crack, well, then that contact sensor automation is not going to run. So I find a motion sensor automation like this, especially when going into a closet that usually gets left open, is really reliable. One of my favorite sensors is this Aqara contact sensor. It's really inexpensive, super small and discreet. It does require an Aqara hub. I'll put links to one of those in the description, but you can get a three pack of these contact sensors for $42 on Amazon. It's a pretty great deal. One place where I have these contact, sensors is the door going from our master bedroom to the patio, because I want to know if that ever gets left open. Now this automation, I actually have set up in the Aqara app because it has built in when doors are left open for a certain amount of time, just built right into the app. So here for this automation, you see the bedroom patio door contact sensor if it's opened, and then you can easily set for over three minutes. So if the door opens and it's left open for three minutes or more, then the Aqara app is going to send me a notification. If you're looking for using contact sensors to know when a door is open or not, setting those automations, directly in the Aqara app is one of the easiest ways to do it. But if you just want to use the Apple home app and no third party apps, another way to do it is how I'm using an Aqara contact sensor on the mini fridge out on the patio. If the mini fridge ever gets left open, that's not a good situation. So I have another automation here that's when backyard mini fridge opens. So the contact sensor will trigger this automation whenever it detects the door is open. And I have another shortcut here, but this time I actually have it wait 60 seconds as the first action, because I want to know if the door was left open, not just every time it opens. So with that wait 60 seconds command, then I add an if statement. If the mini fridge contact sensor is still open after those 60 seconds, then I have a push cuts notification. It'll trigger the notification to send to my phone and I'll know that the mini fridge has been left open. So if you want to do everything just in the home app, push cuts again is a great way to do that. While we're out here on the patio, I've been trying to make my pool a little smarter, not only with robots, but Cactury at least sent me this seven in one pool sensor. It does have a micro USB port to charge it, but it also has a solar panel on top. And it's capable of doing that. So I'm going to go ahead and do that. So I'm going to go ahead and do that. It's kept itself charged every day. I never have to worry about charging it again. After I spent some time calibrating it for chlorine and pH, I can now jump into the app for the pool sensor. It does require a small hub that you have to have connected nearby, but now I can get all this data on my pool at a glance. I can see the temperature of the water, the pH, the salt levels and a bunch of other data for this seven in one sensor. I did test these numbers against actually taking a sample down to pinch a penny and seeing what they said. And I find the numbers that the seven in one sensor provides is very accurate. You can go in and see historical data for pH and other levels. We actually have a saltwater pool, so you can see that information here as well. And overall, it's just been nice to check these numbers whenever I want without having to get a bunch of chemicals out, water samples and all that stuff. Also out here on the patio, I have multiple sensors like this Eve weather, which will tell me the temperature outside and combine that with the Eve motion sensor. I can now run automations based on motion and temperature outside. For instance, if I walk outside and it's hot, I want the patio fans to turn on. Now, this particular automation, is difficult to build in the actual home app. So actually in the Eve app, I've built this automation and then it transfers over. So if I go to the automations tab here in the Eve app, you can then go over to rules. That's what the Eve app calls automations. And one of the ones I created was patio fans if hot. What this does is I can choose a trigger and then a condition whether or not I want action to be taken. So the trigger here is the motion. This Eve motion sensor that's typically outside will detect motion. And as soon as it does, it's going to run this, this is going to run this conditional. Now I stated if the temperature outside is above 77 degrees, which Florida summertime, it pretty much is most days, then it's actually going to turn on my patio fans. But if the temperature is below 77 degrees, it will do nothing. And even though I created it here in the Eve app, it actually shows up here in the home app automation as well. Basically what the Eve app has to do is create a scene based on those conditionals, but it's right here. I can enable it or disable it here in the home app, and even select more accessories, and I can also change the settings if I wanted to. Number eight, I have water leak sensors all over the house. These are car water leak sensors do require an Aqara hub. You can get an E1 and a water leak sensor for $43 for both of those. And these I place under pretty much every sink in the house. I have had times where water leak was detected once was actually a problem with a pipe. And so thankfully got that fixed. Sometimes it was just a drippy pipe underneath the sink. And this will give you a warning on your phone. It's a critical alert in home kit, and then you can take care of the water leak. So love these things. I put them everywhere. You can see it show up here in the home app as a leak sensor, expand it. And it basically says a simple leak detected. Yes or no. You do get the battery level here. And I've found that these batteries last almost forever. I don't know if I've ever changed a battery in one of these Aqara water leak sensors. At number nine, I have another contact sensor. This is in my kid's bathroom. They have a tendency to leave the bathroom lights on even when they leave and are not in there. So I put a contact sensor at the bottom of the door, and then I had this automation. When the kids bath, the bathroom door opens. This is another Aqara P2 contact sensor. And I do have it wait a few seconds. Cause if they open the door and they're just trying to get out, I don't want to show the lights off on them that fast. So I have it wait 15 seconds and then it turns off the lights in the bathroom. And if they go into the bathroom, turn on the lights, believe the door open, this won't run. This only runs if they had the door closed and then are leaving the bathroom and it will shut the lights off. So they're not left on all day. You can also combine that with a motion detector for when motion stops being detected, but I would recommend doing conditional, because oftentimes if you're very still in a room, motion sensors will say no motion detected and just shut the lights off on you. Now you might have heard of the Aqara present sensor and I actually have one, but have not gotten it to work super well. So I typically don't use it in automations waiting for an updated version or some firmware updates to integrate it more. On a number 10, if you have a garage, I highly recommend getting a garage camera. I actually have an Aqara G2H camera just sitting in the garage. It's a great way to tell if the garage is open or closed. Right now it's dark. So I know it's closed, but the great part about it is that it's not a problem. It's not a problem. The great part about HomeKit cameras, especially HomeKit secure video is each camera actually acts as a motion sensor as well. So this garage cam, which is the Aqara G2H actually has a motion sensor that you can then automate. So when motion is detected in the garage, or you can program any of your cameras for when motion is detected, you can then build automations off that. I also like having a camera in the garage because then I can have a quick glance as whether or not the door is actually open or closed. I do use the Maris sensor and garage door opener, and it's pretty accurate telling me whether or not it's closed, but I have had some false positives where you have to kind of open and close it again to reset it. So I just like having the camera there for peace of mind. So those are 10 of my favorite automations for HomeKit sensors, but I want to give you one bonus shortcut, which when you have these sensors, pretty cool you can do. If I go to the shortcuts app, I'm going to search for home and I have this home status shortcut. If I expand, you can see what this does. It's actually getting the current state of different contact sensors, like the garage. I have a contact sensor on my utility room door, the patio, and you can add as many as you would like. Then, I have a little text block here that basically tells me the status of each door or lock and shows that to me in Quick Look. So when I run this shortcut, I'll actually be able to know is the garage closed or open? I can see right there, utility door closed, patio door locked, and that's actually the Yale smart lock giving me that status, but you can also add a contact sensor. Then you can customize this for all of your contact sensors, even motion sensors, and it's a great way to create just kind of a current home status. If you want to learn more about building that shortcut or more shortcuts, let me know down in the comments. I actually just published a shortcuts request video. You can check it out right up here and have an entire playlist of just requests from you where I built those shortcuts. I'll link that video down below. And if you want a complete tour of my 2024 smart home with over 100 HomeKit devices, I'll put my full tour video right up here. Don't forget to subscribe before you go. Hit that like button and thank you for watching. I'll catch you next time.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.54,
+        "text": "I have over 100 HomeKit devices in my house, and a lot of them are sensors."
+      },
+      {
+        "start": 3.86,
+        "end": 8.56,
+        "text": "From contact sensors to tell if a door is open, a new vibration sensor I'm trying out on a washing machine,"
+      },
+      {
+        "start": 8.88,
+        "end": 11.4,
+        "text": "motion sensors to turn on lights in closets and patios,"
+      },
+      {
+        "start": 11.78,
+        "end": 15.74,
+        "text": "a new solar-powered pool sensor that's telling me the pH, chlorine, and other data,"
+      },
+      {
+        "start": 15.96,
+        "end": 18.92,
+        "text": "plus water leak sensors, outdoor weather temperature, and more."
+      },
+      {
+        "start": 19.22,
+        "end": 23.46,
+        "text": "So in this video, I'm going to tell you 10 of the automations I use around my house using all these sensors."
+      },
+      {
+        "start": 23.84,
+        "end": 26.38,
+        "text": "And before we jump in, don't forget to subscribe to the channel before you go."
+      },
+      {
+        "start": 26.38,
+        "end": 29.64,
+        "text": "So first up is an automation that runs every time I enter my office."
+      },
+      {
+        "start": 29.64,
+        "end": 34.26,
+        "text": "I actually have a contact sensor down by the floor, and this reads whether or not the door is opened."
+      },
+      {
+        "start": 34.480000000000004,
+        "end": 38.32,
+        "text": "The contact sensor I'm using there is actually the Aqara door and window sensor P2."
+      },
+      {
+        "start": 38.64,
+        "end": 42.18,
+        "text": "It's a matter-over-thread sensor. It doesn't require the Aqara hub,"
+      },
+      {
+        "start": 42.44,
+        "end": 44.46,
+        "text": "and it's been super reliable because it uses thread."
+      },
+      {
+        "start": 44.66,
+        "end": 47.5,
+        "text": "Now I have a bunch of automations programmed, and for this contact sensor,"
+      },
+      {
+        "start": 47.66,
+        "end": 50.06,
+        "text": "I'm going to go to my Home app and then over to the Automations tab."
+      },
+      {
+        "start": 50.3,
+        "end": 52.78,
+        "text": "I'm going to be going over a bunch of these as we talk about the different sensors,"
+      },
+      {
+        "start": 53.16,
+        "end": 55.66,
+        "text": "but this P2 sensor is when the office door opens."
+      },
+      {
+        "start": 55.72,
+        "end": 58.58,
+        "text": "And I have this automation run only during certain times of day,"
+      },
+      {
+        "start": 58.72,
+        "end": 59.620000000000005,
+        "text": "which is typically when I..."
+      },
+      {
+        "start": 59.64,
+        "end": 60.52,
+        "text": "enter my studio."
+      },
+      {
+        "start": 60.86,
+        "end": 62.64,
+        "text": "Not only can you add a time for an automation,"
+      },
+      {
+        "start": 62.980000000000004,
+        "end": 66.14,
+        "text": "but you can also choose if you want this automation to run when you are home,"
+      },
+      {
+        "start": 66.3,
+        "end": 68.8,
+        "text": "when nobody is home, and all different combinations there."
+      },
+      {
+        "start": 68.96000000000001,
+        "end": 71.62,
+        "text": "But when my door opens between 7 and 8.30 a.m.,"
+      },
+      {
+        "start": 71.62,
+        "end": 73.6,
+        "text": "it's actually going to run my OfficeWorks Scene."
+      },
+      {
+        "start": 73.8,
+        "end": 76.2,
+        "text": "It's helpful to create scenes for automations like this,"
+      },
+      {
+        "start": 76.36,
+        "end": 78.48,
+        "text": "because then if you add or remove devices to the scene,"
+      },
+      {
+        "start": 78.7,
+        "end": 80.1,
+        "text": "your automation is still going to work."
+      },
+      {
+        "start": 80.28,
+        "end": 84.0,
+        "text": "And just to show you, I'll jump over to my studio room so you can see the scene."
+      },
+      {
+        "start": 84.26,
+        "end": 86.92,
+        "text": "In my OfficeWorks Scene, you'll see it opens my blackout shades,"
+      },
+      {
+        "start": 87.06,
+        "end": 89.62,
+        "text": "turns on my ceiling fan, and the ceiling fan lights."
+      },
+      {
+        "start": 89.96,
+        "end": 91.42,
+        "text": "Then I have a bunch of scenes for filming,"
+      },
+      {
+        "start": 91.54,
+        "end": 93.62,
+        "text": "which turns those off and turns on my filming lights."
+      },
+      {
+        "start": 93.94,
+        "end": 95.72,
+        "text": "If you want to learn more about my studio automations,"
+      },
+      {
+        "start": 95.84,
+        "end": 97.54,
+        "text": "I'll put a video above and in the description."
+      },
+      {
+        "start": 97.88,
+        "end": 101.0,
+        "text": "Next up is actually a new vibration sensor I'm trying from Aqara."
+      },
+      {
+        "start": 101.32,
+        "end": 104.1,
+        "text": "This thing can detect when vibration starts and stops."
+      },
+      {
+        "start": 104.32,
+        "end": 105.72,
+        "text": "I have an older washing machine and dryer,"
+      },
+      {
+        "start": 105.82,
+        "end": 107.84,
+        "text": "so I don't get notifications on my phone when it stops."
+      },
+      {
+        "start": 108.1,
+        "end": 111.04,
+        "text": "So I put the vibration sensor on the side of the washing machine,"
+      },
+      {
+        "start": 111.12,
+        "end": 112.24000000000001,
+        "text": "because it doesn't make any sound."
+      },
+      {
+        "start": 112.52,
+        "end": 115.24000000000001,
+        "text": "And one of the triggers you can use for a HomeKit sensor is"
+      },
+      {
+        "start": 115.24000000000001,
+        "end": 118.2,
+        "text": "when it detects something or when it stops detecting something."
+      },
+      {
+        "start": 118.56,
+        "end": 119.62,
+        "text": "So for this vibration sensor,"
+      },
+      {
+        "start": 119.78,
+        "end": 122.32000000000001,
+        "text": "I chose when it stops detecting motion,"
+      },
+      {
+        "start": 122.5,
+        "end": 124.68,
+        "text": "which means the washing machine has stopped running."
+      },
+      {
+        "start": 124.78,
+        "end": 125.44,
+        "text": "It's stopped shaking."
+      },
+      {
+        "start": 125.64,
+        "end": 127.34,
+        "text": "Again, you can specify the time or people,"
+      },
+      {
+        "start": 127.34,
+        "end": 129.0,
+        "text": "but I want this to run whenever,"
+      },
+      {
+        "start": 129.26,
+        "end": 130.94,
+        "text": "because I want to know when the washing machine is done."
+      },
+      {
+        "start": 131.3,
+        "end": 133.42000000000002,
+        "text": "Now, HomeKit doesn't have great built-in notifications"
+      },
+      {
+        "start": 133.42000000000002,
+        "end": 135.96,
+        "text": "for when sensors start or stop certain things,"
+      },
+      {
+        "start": 136.18,
+        "end": 139.6,
+        "text": "but you can create a shortcut based on this HomeKit automation."
+      },
+      {
+        "start": 140.0,
+        "end": 142.06,
+        "text": "And then I actually use an app called PushCut"
+      },
+      {
+        "start": 142.06,
+        "end": 145.06,
+        "text": "to send me that notification when the washing machine stops."
+      },
+      {
+        "start": 145.4,
+        "end": 148.32,
+        "text": "PushCut is a great app for customizing some notifications like this."
+      },
+      {
+        "start": 148.38,
+        "end": 149.4,
+        "text": "I actually have a few of them."
+      },
+      {
+        "start": 149.4,
+        "end": 151.66,
+        "text": "I have one on a mini fridge when the door is left open."
+      },
+      {
+        "start": 151.96,
+        "end": 154.62,
+        "text": "So if you want to learn more about setting a PushCut with HomeKit notifications,"
+      },
+      {
+        "start": 155.02,
+        "end": 157.46,
+        "text": "I also have a video on that linked above and down below."
+      },
+      {
+        "start": 157.68,
+        "end": 159.88,
+        "text": "Number three, I have a bunch of motion sensors around the house."
+      },
+      {
+        "start": 160.0,
+        "end": 161.58,
+        "text": "This is the Philips Hue motion sensor."
+      },
+      {
+        "start": 161.78,
+        "end": 162.8,
+        "text": "I have this in our pantry."
+      },
+      {
+        "start": 163.1,
+        "end": 166.28,
+        "text": "Then I have other motion sensors like the Eve and others in different closets."
+      },
+      {
+        "start": 166.6,
+        "end": 170.08,
+        "text": "One of the simple automations I have for this specific Philips Hue motion sensor"
+      },
+      {
+        "start": 170.08,
+        "end": 170.94,
+        "text": "is in the pantry."
+      },
+      {
+        "start": 171.38,
+        "end": 174.62,
+        "text": "When motion is detected in that pantry, it turns the pantry light on."
+      },
+      {
+        "start": 174.70000000000002,
+        "end": 175.32,
+        "text": "Super simple."
+      },
+      {
+        "start": 175.5,
+        "end": 178.0,
+        "text": "I do a motion sensor rather than a contact sensor,"
+      },
+      {
+        "start": 178.0,
+        "end": 179.3,
+        "text": "which you could do a contact sensor."
+      },
+      {
+        "start": 179.4,
+        "end": 180.64000000000001,
+        "text": "I don't know if you've seen that before."
+      },
+      {
+        "start": 180.64000000000001,
+        "end": 181.78,
+        "text": "I don't know if you've seen that before."
+      },
+      {
+        "start": 181.78,
+        "end": 182.9,
+        "text": "I don't know if you've seen that before."
+      },
+      {
+        "start": 182.9,
+        "end": 183.18,
+        "text": "I don't know if you've seen that before."
+      },
+      {
+        "start": 183.18,
+        "end": 185.72,
+        "text": "And if you walk into the pantry and the door was open just a crack,"
+      },
+      {
+        "start": 185.94,
+        "end": 188.06,
+        "text": "well, then that contact sensor automation is not going to run."
+      },
+      {
+        "start": 188.18,
+        "end": 190.36,
+        "text": "So I find a motion sensor automation like this,"
+      },
+      {
+        "start": 190.4,
+        "end": 193.08,
+        "text": "especially when going into a closet that usually gets left open,"
+      },
+      {
+        "start": 193.18,
+        "end": 194.02,
+        "text": "is really reliable."
+      },
+      {
+        "start": 194.26,
+        "end": 197.02,
+        "text": "One of my favorite sensors is this Aqara contact sensor."
+      },
+      {
+        "start": 197.22,
+        "end": 199.66,
+        "text": "It's really inexpensive, super small and discreet."
+      },
+      {
+        "start": 199.94,
+        "end": 201.68,
+        "text": "It does require an Aqara hub."
+      },
+      {
+        "start": 201.76,
+        "end": 203.12,
+        "text": "I'll put links to one of those in the description,"
+      },
+      {
+        "start": 203.46,
+        "end": 207.12,
+        "text": "but you can get a three pack of these contact sensors for $42 on Amazon."
+      },
+      {
+        "start": 207.3,
+        "end": 208.0,
+        "text": "It's a pretty great deal."
+      },
+      {
+        "start": 208.0,
+        "end": 209.32,
+        "text": "One place where I have these contact,"
+      },
+      {
+        "start": 209.32,
+        "end": 212.48,
+        "text": "sensors is the door going from our master bedroom to the patio,"
+      },
+      {
+        "start": 212.48,
+        "end": 214.22,
+        "text": "because I want to know if that ever gets left open."
+      },
+      {
+        "start": 214.38,
+        "end": 215.01999999999998,
+        "text": "Now this automation,"
+      },
+      {
+        "start": 215.2,
+        "end": 218.85999999999999,
+        "text": "I actually have set up in the Aqara app because it has built in when doors are"
+      },
+      {
+        "start": 218.85999999999999,
+        "end": 221.6,
+        "text": "left open for a certain amount of time, just built right into the app."
+      },
+      {
+        "start": 221.73999999999998,
+        "end": 222.79999999999998,
+        "text": "So here for this automation,"
+      },
+      {
+        "start": 222.92,
+        "end": 226.4,
+        "text": "you see the bedroom patio door contact sensor if it's opened,"
+      },
+      {
+        "start": 226.4,
+        "end": 228.82,
+        "text": "and then you can easily set for over three minutes."
+      },
+      {
+        "start": 228.82,
+        "end": 232.18,
+        "text": "So if the door opens and it's left open for three minutes or more,"
+      },
+      {
+        "start": 232.48,
+        "end": 234.9,
+        "text": "then the Aqara app is going to send me a notification."
+      },
+      {
+        "start": 235.12,
+        "end": 238.22,
+        "text": "If you're looking for using contact sensors to know when a door is open or not,"
+      },
+      {
+        "start": 238.5,
+        "end": 239.29999999999998,
+        "text": "setting those automations,"
+      },
+      {
+        "start": 239.32,
+        "end": 242.01999999999998,
+        "text": "directly in the Aqara app is one of the easiest ways to do it."
+      },
+      {
+        "start": 242.14,
+        "end": 244.94,
+        "text": "But if you just want to use the Apple home app and no third party apps,"
+      },
+      {
+        "start": 245.01999999999998,
+        "end": 248.78,
+        "text": "another way to do it is how I'm using an Aqara contact sensor on the mini fridge"
+      },
+      {
+        "start": 248.78,
+        "end": 251.38,
+        "text": "out on the patio. If the mini fridge ever gets left open,"
+      },
+      {
+        "start": 251.42,
+        "end": 252.57999999999998,
+        "text": "that's not a good situation."
+      },
+      {
+        "start": 252.7,
+        "end": 256.18,
+        "text": "So I have another automation here that's when backyard mini fridge opens."
+      },
+      {
+        "start": 256.3,
+        "end": 259.71999999999997,
+        "text": "So the contact sensor will trigger this automation whenever it detects the door"
+      },
+      {
+        "start": 259.71999999999997,
+        "end": 261.8,
+        "text": "is open. And I have another shortcut here,"
+      },
+      {
+        "start": 261.94,
+        "end": 265.8,
+        "text": "but this time I actually have it wait 60 seconds as the first action,"
+      },
+      {
+        "start": 266.0,
+        "end": 269.18,
+        "text": "because I want to know if the door was left open, not just every time it opens."
+      },
+      {
+        "start": 269.32,
+        "end": 273.0,
+        "text": "So with that wait 60 seconds command, then I add an if statement."
+      },
+      {
+        "start": 273.34,
+        "end": 277.76,
+        "text": "If the mini fridge contact sensor is still open after those 60 seconds,"
+      },
+      {
+        "start": 278.08,
+        "end": 279.84,
+        "text": "then I have a push cuts notification."
+      },
+      {
+        "start": 280.14,
+        "end": 283.2,
+        "text": "It'll trigger the notification to send to my phone and I'll know that the mini"
+      },
+      {
+        "start": 283.2,
+        "end": 286.44,
+        "text": "fridge has been left open. So if you want to do everything just in the home app,"
+      },
+      {
+        "start": 286.44,
+        "end": 289.68,
+        "text": "push cuts again is a great way to do that. While we're out here on the patio,"
+      },
+      {
+        "start": 289.68,
+        "end": 292.36,
+        "text": "I've been trying to make my pool a little smarter, not only with robots,"
+      },
+      {
+        "start": 292.56,
+        "end": 295.2,
+        "text": "but Cactury at least sent me this seven in one pool sensor."
+      },
+      {
+        "start": 295.32,
+        "end": 297.28,
+        "text": "It does have a micro USB port to charge it,"
+      },
+      {
+        "start": 297.28,
+        "end": 298.96,
+        "text": "but it also has a solar panel on top."
+      },
+      {
+        "start": 298.96,
+        "end": 299.18,
+        "text": "And it's capable of doing that."
+      },
+      {
+        "start": 299.18,
+        "end": 299.28,
+        "text": "So I'm going to go ahead and do that."
+      },
+      {
+        "start": 299.28,
+        "end": 299.3,
+        "text": "So I'm going to go ahead and do that."
+      },
+      {
+        "start": 299.32,
+        "end": 300.64,
+        "text": "It's kept itself charged every day."
+      },
+      {
+        "start": 300.74,
+        "end": 302.24,
+        "text": "I never have to worry about charging it again."
+      },
+      {
+        "start": 302.38,
+        "end": 305.52,
+        "text": "After I spent some time calibrating it for chlorine and pH,"
+      },
+      {
+        "start": 305.8,
+        "end": 308.14,
+        "text": "I can now jump into the app for the pool sensor."
+      },
+      {
+        "start": 308.44,
+        "end": 311.32,
+        "text": "It does require a small hub that you have to have connected nearby,"
+      },
+      {
+        "start": 311.58,
+        "end": 314.68,
+        "text": "but now I can get all this data on my pool at a glance."
+      },
+      {
+        "start": 314.8,
+        "end": 317.3,
+        "text": "I can see the temperature of the water, the pH,"
+      },
+      {
+        "start": 317.53999999999996,
+        "end": 321.18,
+        "text": "the salt levels and a bunch of other data for this seven in one sensor."
+      },
+      {
+        "start": 321.38,
+        "end": 324.7,
+        "text": "I did test these numbers against actually taking a sample down to pinch a penny"
+      },
+      {
+        "start": 324.7,
+        "end": 325.7,
+        "text": "and seeing what they said."
+      },
+      {
+        "start": 325.98,
+        "end": 329.18,
+        "text": "And I find the numbers that the seven in one sensor provides is very accurate."
+      },
+      {
+        "start": 329.18,
+        "end": 332.58,
+        "text": "You can go in and see historical data for pH and other levels."
+      },
+      {
+        "start": 333.0,
+        "end": 334.14,
+        "text": "We actually have a saltwater pool,"
+      },
+      {
+        "start": 334.26,
+        "end": 335.94,
+        "text": "so you can see that information here as well."
+      },
+      {
+        "start": 336.2,
+        "end": 338.64,
+        "text": "And overall, it's just been nice to check these numbers whenever I want"
+      },
+      {
+        "start": 338.64,
+        "end": 340.36,
+        "text": "without having to get a bunch of chemicals out,"
+      },
+      {
+        "start": 340.5,
+        "end": 341.72,
+        "text": "water samples and all that stuff."
+      },
+      {
+        "start": 341.90000000000003,
+        "end": 343.14,
+        "text": "Also out here on the patio,"
+      },
+      {
+        "start": 343.3,
+        "end": 345.36,
+        "text": "I have multiple sensors like this Eve weather,"
+      },
+      {
+        "start": 345.5,
+        "end": 347.08,
+        "text": "which will tell me the temperature outside"
+      },
+      {
+        "start": 347.08,
+        "end": 349.7,
+        "text": "and combine that with the Eve motion sensor."
+      },
+      {
+        "start": 349.9,
+        "end": 353.56,
+        "text": "I can now run automations based on motion and temperature outside."
+      },
+      {
+        "start": 353.72,
+        "end": 355.86,
+        "text": "For instance, if I walk outside and it's hot,"
+      },
+      {
+        "start": 355.94,
+        "end": 357.68,
+        "text": "I want the patio fans to turn on."
+      },
+      {
+        "start": 357.68,
+        "end": 359.0,
+        "text": "Now, this particular automation,"
+      },
+      {
+        "start": 359.0,
+        "end": 361.4,
+        "text": "is difficult to build in the actual home app."
+      },
+      {
+        "start": 361.72,
+        "end": 363.28,
+        "text": "So actually in the Eve app,"
+      },
+      {
+        "start": 363.32,
+        "end": 365.8,
+        "text": "I've built this automation and then it transfers over."
+      },
+      {
+        "start": 366.12,
+        "end": 368.44,
+        "text": "So if I go to the automations tab here in the Eve app,"
+      },
+      {
+        "start": 368.56,
+        "end": 370.3,
+        "text": "you can then go over to rules."
+      },
+      {
+        "start": 370.44,
+        "end": 372.24,
+        "text": "That's what the Eve app calls automations."
+      },
+      {
+        "start": 372.62,
+        "end": 375.82,
+        "text": "And one of the ones I created was patio fans if hot."
+      },
+      {
+        "start": 375.98,
+        "end": 378.18,
+        "text": "What this does is I can choose a trigger"
+      },
+      {
+        "start": 378.18,
+        "end": 381.42,
+        "text": "and then a condition whether or not I want action to be taken."
+      },
+      {
+        "start": 381.8,
+        "end": 383.38,
+        "text": "So the trigger here is the motion."
+      },
+      {
+        "start": 383.6,
+        "end": 386.82,
+        "text": "This Eve motion sensor that's typically outside will detect motion."
+      },
+      {
+        "start": 386.82,
+        "end": 388.02,
+        "text": "And as soon as it does,"
+      },
+      {
+        "start": 388.24,
+        "end": 388.9,
+        "text": "it's going to run this,"
+      },
+      {
+        "start": 389.0,
+        "end": 391.06,
+        "text": "this is going to run this conditional."
+      },
+      {
+        "start": 391.34,
+        "end": 395.82,
+        "text": "Now I stated if the temperature outside is above 77 degrees,"
+      },
+      {
+        "start": 395.96,
+        "end": 396.98,
+        "text": "which Florida summertime,"
+      },
+      {
+        "start": 396.98,
+        "end": 398.32,
+        "text": "it pretty much is most days,"
+      },
+      {
+        "start": 398.44,
+        "end": 401.12,
+        "text": "then it's actually going to turn on my patio fans."
+      },
+      {
+        "start": 401.38,
+        "end": 404.06,
+        "text": "But if the temperature is below 77 degrees,"
+      },
+      {
+        "start": 404.12,
+        "end": 405.18,
+        "text": "it will do nothing."
+      },
+      {
+        "start": 405.26,
+        "end": 407.38,
+        "text": "And even though I created it here in the Eve app,"
+      },
+      {
+        "start": 407.6,
+        "end": 410.56,
+        "text": "it actually shows up here in the home app automation as well."
+      },
+      {
+        "start": 410.72,
+        "end": 414.6,
+        "text": "Basically what the Eve app has to do is create a scene based on those conditionals,"
+      },
+      {
+        "start": 414.86,
+        "end": 415.8,
+        "text": "but it's right here."
+      },
+      {
+        "start": 415.8,
+        "end": 417.92,
+        "text": "I can enable it or disable it here in the home app,"
+      },
+      {
+        "start": 417.92,
+        "end": 418.76,
+        "text": "and even select more accessories,"
+      },
+      {
+        "start": 418.76,
+        "end": 420.92,
+        "text": "and I can also change the settings if I wanted to."
+      },
+      {
+        "start": 420.92,
+        "end": 421.34,
+        "text": "Number eight,"
+      },
+      {
+        "start": 421.34,
+        "end": 423.34,
+        "text": "I have water leak sensors all over the house."
+      },
+      {
+        "start": 423.34,
+        "end": 426.34,
+        "text": "These are car water leak sensors do require an Aqara hub."
+      },
+      {
+        "start": 426.34,
+        "end": 430.34,
+        "text": "You can get an E1 and a water leak sensor for $43 for both of those."
+      },
+      {
+        "start": 430.34,
+        "end": 433.34,
+        "text": "And these I place under pretty much every sink in the house."
+      },
+      {
+        "start": 433.34,
+        "end": 438.34,
+        "text": "I have had times where water leak was detected once was actually a problem with a pipe."
+      },
+      {
+        "start": 438.34,
+        "end": 440.34,
+        "text": "And so thankfully got that fixed."
+      },
+      {
+        "start": 440.34,
+        "end": 443.34,
+        "text": "Sometimes it was just a drippy pipe underneath the sink."
+      },
+      {
+        "start": 443.34,
+        "end": 445.34,
+        "text": "And this will give you a warning on your phone."
+      },
+      {
+        "start": 445.34,
+        "end": 446.94,
+        "text": "It's a critical alert in home kit,"
+      },
+      {
+        "start": 446.94,
+        "end": 448.14,
+        "text": "and then you can take care of the water leak."
+      },
+      {
+        "start": 448.14,
+        "end": 450.09999999999997,
+        "text": "So love these things."
+      },
+      {
+        "start": 450.09999999999997,
+        "end": 451.03999999999996,
+        "text": "I put them everywhere."
+      },
+      {
+        "start": 451.03999999999996,
+        "end": 454.2,
+        "text": "You can see it show up here in the home app as a leak sensor,"
+      },
+      {
+        "start": 454.2,
+        "end": 455.03999999999996,
+        "text": "expand it."
+      },
+      {
+        "start": 455.03999999999996,
+        "end": 457.26,
+        "text": "And it basically says a simple leak detected."
+      },
+      {
+        "start": 457.26,
+        "end": 458.28,
+        "text": "Yes or no."
+      },
+      {
+        "start": 458.28,
+        "end": 459.8,
+        "text": "You do get the battery level here."
+      },
+      {
+        "start": 459.8,
+        "end": 462.53999999999996,
+        "text": "And I've found that these batteries last almost forever."
+      },
+      {
+        "start": 462.53999999999996,
+        "end": 466.09999999999997,
+        "text": "I don't know if I've ever changed a battery in one of these Aqara water leak sensors."
+      },
+      {
+        "start": 466.09999999999997,
+        "end": 466.91999999999996,
+        "text": "At number nine,"
+      },
+      {
+        "start": 466.91999999999996,
+        "end": 468.14,
+        "text": "I have another contact sensor."
+      },
+      {
+        "start": 468.14,
+        "end": 469.62,
+        "text": "This is in my kid's bathroom."
+      },
+      {
+        "start": 469.62,
+        "end": 473.53999999999996,
+        "text": "They have a tendency to leave the bathroom lights on even when they leave and are not in there."
+      },
+      {
+        "start": 473.53999999999996,
+        "end": 475.9,
+        "text": "So I put a contact sensor at the bottom of the door,"
+      },
+      {
+        "start": 475.9,
+        "end": 477.41999999999996,
+        "text": "and then I had this automation."
+      },
+      {
+        "start": 477.41999999999996,
+        "end": 478.12,
+        "text": "When the kids bath,"
+      },
+      {
+        "start": 478.14,
+        "end": 479.58,
+        "text": "the bathroom door opens."
+      },
+      {
+        "start": 479.58,
+        "end": 482.15999999999997,
+        "text": "This is another Aqara P2 contact sensor."
+      },
+      {
+        "start": 482.15999999999997,
+        "end": 483.59999999999997,
+        "text": "And I do have it wait a few seconds."
+      },
+      {
+        "start": 483.59999999999997,
+        "end": 485.82,
+        "text": "Cause if they open the door and they're just trying to get out,"
+      },
+      {
+        "start": 485.82,
+        "end": 487.8,
+        "text": "I don't want to show the lights off on them that fast."
+      },
+      {
+        "start": 487.8,
+        "end": 492.14,
+        "text": "So I have it wait 15 seconds and then it turns off the lights in the bathroom."
+      },
+      {
+        "start": 492.14,
+        "end": 493.14,
+        "text": "And if they go into the bathroom,"
+      },
+      {
+        "start": 493.14,
+        "end": 493.97999999999996,
+        "text": "turn on the lights,"
+      },
+      {
+        "start": 493.97999999999996,
+        "end": 495.02,
+        "text": "believe the door open,"
+      },
+      {
+        "start": 495.02,
+        "end": 496.09999999999997,
+        "text": "this won't run."
+      },
+      {
+        "start": 496.09999999999997,
+        "end": 500.8,
+        "text": "This only runs if they had the door closed and then are leaving the bathroom and it will shut the lights off."
+      },
+      {
+        "start": 500.8,
+        "end": 502.08,
+        "text": "So they're not left on all day."
+      },
+      {
+        "start": 502.08,
+        "end": 506.76,
+        "text": "You can also combine that with a motion detector for when motion stops being detected,"
+      },
+      {
+        "start": 506.76,
+        "end": 507.9,
+        "text": "but I would recommend doing conditional,"
+      },
+      {
+        "start": 507.9,
+        "end": 510.65999999999997,
+        "text": "because oftentimes if you're very still in a room,"
+      },
+      {
+        "start": 510.65999999999997,
+        "end": 514.26,
+        "text": "motion sensors will say no motion detected and just shut the lights off on you."
+      },
+      {
+        "start": 514.26,
+        "end": 518.22,
+        "text": "Now you might have heard of the Aqara present sensor and I actually have one,"
+      },
+      {
+        "start": 518.22,
+        "end": 520.1999999999999,
+        "text": "but have not gotten it to work super well."
+      },
+      {
+        "start": 520.1999999999999,
+        "end": 525.72,
+        "text": "So I typically don't use it in automations waiting for an updated version or some firmware updates to integrate it more."
+      },
+      {
+        "start": 525.72,
+        "end": 526.56,
+        "text": "On a number 10,"
+      },
+      {
+        "start": 526.56,
+        "end": 527.52,
+        "text": "if you have a garage,"
+      },
+      {
+        "start": 527.52,
+        "end": 529.8,
+        "text": "I highly recommend getting a garage camera."
+      },
+      {
+        "start": 529.8,
+        "end": 532.98,
+        "text": "I actually have an Aqara G2H camera just sitting in the garage."
+      },
+      {
+        "start": 532.98,
+        "end": 535.1999999999999,
+        "text": "It's a great way to tell if the garage is open or closed."
+      },
+      {
+        "start": 535.1999999999999,
+        "end": 536.1,
+        "text": "Right now it's dark."
+      },
+      {
+        "start": 536.1,
+        "end": 537.3,
+        "text": "So I know it's closed,"
+      },
+      {
+        "start": 537.3,
+        "end": 537.8,
+        "text": "but the great part about it is that it's not a problem."
+      },
+      {
+        "start": 537.8,
+        "end": 537.88,
+        "text": "It's not a problem."
+      },
+      {
+        "start": 537.88,
+        "end": 539.26,
+        "text": "The great part about HomeKit cameras,"
+      },
+      {
+        "start": 539.26,
+        "end": 544.24,
+        "text": "especially HomeKit secure video is each camera actually acts as a motion sensor as well."
+      },
+      {
+        "start": 544.24,
+        "end": 545.32,
+        "text": "So this garage cam,"
+      },
+      {
+        "start": 545.32,
+        "end": 549.64,
+        "text": "which is the Aqara G2H actually has a motion sensor that you can then automate."
+      },
+      {
+        "start": 549.64,
+        "end": 551.86,
+        "text": "So when motion is detected in the garage,"
+      },
+      {
+        "start": 551.86,
+        "end": 555.16,
+        "text": "or you can program any of your cameras for when motion is detected,"
+      },
+      {
+        "start": 555.16,
+        "end": 556.9,
+        "text": "you can then build automations off that."
+      },
+      {
+        "start": 556.9,
+        "end": 562.36,
+        "text": "I also like having a camera in the garage because then I can have a quick glance as whether or not the door is actually open or closed."
+      },
+      {
+        "start": 562.36,
+        "end": 565.6,
+        "text": "I do use the Maris sensor and garage door opener,"
+      },
+      {
+        "start": 565.6,
+        "end": 567.82,
+        "text": "and it's pretty accurate telling me whether or not it's closed,"
+      },
+      {
+        "start": 567.82,
+        "end": 572.2,
+        "text": "but I have had some false positives where you have to kind of open and close it again to reset it."
+      },
+      {
+        "start": 572.2,
+        "end": 574.72,
+        "text": "So I just like having the camera there for peace of mind."
+      },
+      {
+        "start": 574.72,
+        "end": 577.6600000000001,
+        "text": "So those are 10 of my favorite automations for HomeKit sensors,"
+      },
+      {
+        "start": 577.6600000000001,
+        "end": 579.5200000000001,
+        "text": "but I want to give you one bonus shortcut,"
+      },
+      {
+        "start": 579.5200000000001,
+        "end": 580.96,
+        "text": "which when you have these sensors,"
+      },
+      {
+        "start": 580.96,
+        "end": 582.1,
+        "text": "pretty cool you can do."
+      },
+      {
+        "start": 582.1,
+        "end": 583.4200000000001,
+        "text": "If I go to the shortcuts app,"
+      },
+      {
+        "start": 583.4200000000001,
+        "end": 586.6,
+        "text": "I'm going to search for home and I have this home status shortcut."
+      },
+      {
+        "start": 586.6,
+        "end": 587.6800000000001,
+        "text": "If I expand,"
+      },
+      {
+        "start": 587.6800000000001,
+        "end": 588.7,
+        "text": "you can see what this does."
+      },
+      {
+        "start": 588.7,
+        "end": 591.7600000000001,
+        "text": "It's actually getting the current state of different contact sensors,"
+      },
+      {
+        "start": 591.7600000000001,
+        "end": 592.6600000000001,
+        "text": "like the garage."
+      },
+      {
+        "start": 592.6600000000001,
+        "end": 594.82,
+        "text": "I have a contact sensor on my utility room door,"
+      },
+      {
+        "start": 594.82,
+        "end": 595.6,
+        "text": "the patio,"
+      },
+      {
+        "start": 595.6,
+        "end": 597.22,
+        "text": "and you can add as many as you would like."
+      },
+      {
+        "start": 597.22,
+        "end": 597.72,
+        "text": "Then,"
+      },
+      {
+        "start": 597.72,
+        "end": 603.12,
+        "text": "I have a little text block here that basically tells me the status of each door or lock and"
+      },
+      {
+        "start": 603.12,
+        "end": 604.5600000000001,
+        "text": "shows that to me in Quick Look."
+      },
+      {
+        "start": 604.5600000000001,
+        "end": 606.12,
+        "text": "So when I run this shortcut,"
+      },
+      {
+        "start": 606.12,
+        "end": 609.12,
+        "text": "I'll actually be able to know is the garage closed or open?"
+      },
+      {
+        "start": 609.12,
+        "end": 610.26,
+        "text": "I can see right there,"
+      },
+      {
+        "start": 610.26,
+        "end": 611.46,
+        "text": "utility door closed,"
+      },
+      {
+        "start": 611.46,
+        "end": 612.84,
+        "text": "patio door locked,"
+      },
+      {
+        "start": 612.84,
+        "end": 615.6,
+        "text": "and that's actually the Yale smart lock giving me that status,"
+      },
+      {
+        "start": 615.6,
+        "end": 617.64,
+        "text": "but you can also add a contact sensor."
+      },
+      {
+        "start": 617.64,
+        "end": 620.28,
+        "text": "Then you can customize this for all of your contact sensors,"
+      },
+      {
+        "start": 620.28,
+        "end": 621.48,
+        "text": "even motion sensors,"
+      },
+      {
+        "start": 621.48,
+        "end": 624.4200000000001,
+        "text": "and it's a great way to create just kind of a current home status."
+      },
+      {
+        "start": 624.4200000000001,
+        "end": 627.3000000000001,
+        "text": "If you want to learn more about building that shortcut or more shortcuts,"
+      },
+      {
+        "start": 627.3,
+        "end": 628.4399999999999,
+        "text": "let me know down in the comments."
+      },
+      {
+        "start": 628.4399999999999,
+        "end": 630.9,
+        "text": "I actually just published a shortcuts request video."
+      },
+      {
+        "start": 630.9,
+        "end": 635.76,
+        "text": "You can check it out right up here and have an entire playlist of just requests from you where I"
+      },
+      {
+        "start": 635.76,
+        "end": 636.4799999999999,
+        "text": "built those shortcuts."
+      },
+      {
+        "start": 636.4799999999999,
+        "end": 637.62,
+        "text": "I'll link that video down below."
+      },
+      {
+        "start": 637.62,
+        "end": 642.3599999999999,
+        "text": "And if you want a complete tour of my 2024 smart home with over 100 HomeKit devices,"
+      },
+      {
+        "start": 642.3599999999999,
+        "end": 644.4599999999999,
+        "text": "I'll put my full tour video right up here."
+      },
+      {
+        "start": 644.4599999999999,
+        "end": 646.1999999999999,
+        "text": "Don't forget to subscribe before you go."
+      },
+      {
+        "start": 646.1999999999999,
+        "end": 648.3,
+        "text": "Hit that like button and thank you for watching."
+      },
+      {
+        "start": 648.3,
+        "end": 649.4399999999999,
+        "text": "I'll catch you next time."
+      }
+    ],
+    "language": "en"
+  },
+  "emotion_analysis": {
+    "note": "Emotion analysis requires additional audio preprocessing",
+    "model_ready": true,
+    "emotion_classes": [
+      "neutral",
+      "happy",
+      "angry",
+      "sad"
+    ]
+  },
+  "visual_analysis": {
+    "total_frames": 22,
+    "analyzed_frames": 22,
+    "frame_interval": 30,
+    "frames": [
+      {
+        "frame_number": 1,
+        "timestamp": 0,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0001.jpg",
+        "analysis": "1. The image appears to be inverted colors, which suggests an incorrect white balance setting during the shoot. This could potentially make it difficult for people to accurately interpret the scene.\n\n2. In terms of lighting solutions or techniques:\n   - It's not clear if any specific lighting was used due to the color inversion.\n   - The use of a black and white filter may have been intended to correct the lighting problem, but it only addresses the white balance issue rather than the overall lighting quality in the scene.\n\n3. There are no visible lighting products mentioned or shown in this image.\n\n4. The lighting context is quite ambiguous due to the color inversion. However, based on the usual properties of water, we might infer that it could be an outdoor scene (pool), possibly taken during the day under natural light, although the exact mood of the photograph would depend on the intended use and the viewer's perception after correcting for the white balance issue.\n\nThe focus should ideally be on the lighting equipment used in this situation, but due to the color inversion, it is difficult to provide an analysis without knowing the actual lighting conditions that led to this effect."
+      },
+      {
+        "frame_number": 2,
+        "timestamp": 30,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0002.jpg",
+        "analysis": "The image shows a person pressing a button on a smartphone that has been propped up with a phone stand against a white background. The room appears to be indoors, and there are several items in the frame: a small robot vacuum cleaner, a smartwatch, and what looks like a Bluetooth speaker or charging dock.\n\n1. Lighting problems or challenges: The lighting seems well-balanced with no harsh shadows, but the ambient light appears to be soft and diffuse, which might not provide optimal conditions for precise tasks on the phone such as text input or image editing. Additionally, the color temperature of the room's lighting is a bit cooler than typical indoor light, which could affect the accuracy of colors when taking photos or viewing content on the screen.\n\n2. Lighting solutions or techniques: The person in the picture seems to be taking advantage of the built-in lighting of the smartphone itself, which suggests they are using the phone's flashlight as a source of localized light for the task at hand. This is a common technique when natural light is not sufficient or when it is necessary to use the device in low light conditions.\n\n3. Specific lighting products mentioned or shown: There are no specific lighting products visible in the image. The primary focus is on the smartphone and its integrated flashlight function.\n\n4. Lighting context (room type, task, mood): The room appears to be a casual, domestic setting. The task being performed involves using the phone's interface, possibly for texting or navigation, which suggests that the mood might be one of relaxation, routine maintenance, or leisurely browsing. The presence of the smartwatch and robot vacuum cleaner could indicate a technologically-oriented household, where individuals may prioritize modern gadgets and home automation tools."
+      },
+      {
+        "frame_number": 3,
+        "timestamp": 60,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0003.jpg",
+        "analysis": "1. Lighting Problems/Challenges:\n   - The room appears to be dimly lit, creating a challenge for visibility and comfort.\n   - There is no direct light source on the table where the phone is set up, which can make it difficult to see details on the screen clearly.\n\n2. Lighting Solutions/Techniques Demonstrated:\n   - The person seems to be adjusting the brightness or color temperature of a smart bulb, possibly using an app or remote control to customize the light quality and intensity.\n\n3. Specific Lighting Products Mentioned/Shown:\n   - A smart bulb that can be controlled via an app or device is being used for adjustable lighting.\n   - There appears to be a WiFi signal indicator, suggesting a wireless network that could be controlling the smart bulbs or other lighting devices.\n\n4. Lighting Context (Room Type, Task, Mood):\n   - The room setting suggests an indoor space that is likely being used for tasks such as work or entertainment, given the presence of a smartphone and a WiFi signal indicator.\n   - The mood appears to be one of customization or control over lighting, possibly highlighting the benefits of smart lighting solutions in terms of flexibility, energy efficiency, and ambiance setting."
+      },
+      {
+        "frame_number": 4,
+        "timestamp": 90,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0004.jpg",
+        "analysis": "1. The image shows a room with a large window that allows natural light to enter the space. However, the lighting appears to be uneven, with some areas more brightly lit than others. This could be due to the window's size or placement, as it seems to create some shadows and highlights across the room.\n2. While no specific lighting products are mentioned or shown in this frame, the presence of a large window is an effective solution for natural light. Additionally, there appears to be artificial lighting coming from the right side of the image, which helps balance the light entering the room.\n3. There's no direct mention of any specific lighting product, but the natural light from the window and the artificial light suggest that a combination of natural and artificial lighting is being utilized to create an evenly lit space.\n4. The context seems to be an indoor environment, possibly a kitchen or living room, given the presence of what appears to be a radiator on the left side of the image. However, without additional information, it's difficult to determine the exact nature of the task being performed or the mood the lighting is intended to create. The primary focus in this frame seems to be on solving the problem of uneven natural light by integrating artificial lighting and utilizing large windows for natural illumination."
+      },
+      {
+        "frame_number": 5,
+        "timestamp": 120,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0005.jpg",
+        "analysis": "1. In the image, the smartphone screen appears washed out and lacks contrast, which can be indicative of poor ambient lighting or an incorrect display setting. This makes it difficult to read text clearly.\n2. To address this issue, the person in the image is demonstrating a technique where they are pointing at the phone's screen, presumably to highlight that the smartphone's screen brightness can be adjusted for better visibility. This implies that the individual may be suggesting adjusting the display settings of the device for better readability under the current lighting conditions.\n3. The image also shows a small, compact desk lamp, which suggests that the person is recommending the use of supplementary task lighting to enhance visibility and reduce eye strain during tasks like working on a smartphone or other digital devices. The use of such a light source can help in creating a better-lit workspace or a comfortable reading environment.\n4. The context seems to be related to personal productivity, as suggested by the presence of the smartphone and the clock indicating a scheduled task or time management. The person is likely sharing tips for creating an effective workstation or improving concentration and focus during tasks on digital devices."
+      },
+      {
+        "frame_number": 6,
+        "timestamp": 150,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0006.jpg",
+        "analysis": "The image shows an indoor storage area with various items such as bins, boxes, bags, and shelves cluttered with objects. There are no visible lighting problems or challenges; the lighting appears to be adequate for the task at hand, which seems to be organizing or sorting items.\n\nAs for specific lighting products, there is a mention of LED lights and \"new\" LED lights, suggesting that LED lighting may have been upgraded or installed recently. However, without seeing the actual light bulbs or fixtures, it's hard to determine if there are any other lighting solutions or techniques being demonstrated in this context.\n\nThe lighting context appears to be functional and utilitarian, as evidenced by the items on shelves and the overall clutter suggesting an active workspace. The LED lights likely serve a practical purpose for visibility while working in the space."
+      },
+      {
+        "frame_number": 7,
+        "timestamp": 180,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0007.jpg",
+        "analysis": "1. The image shows a person speaking into a microphone with a studio light in front of them, possibly providing illumination for the speaker. There are no significant lighting problems visible from this angle; however, depending on the context, we could infer that if the speaker is meant to be the primary focus, the lighting might not be optimal for achieving dramatic or professional looks. The background lighting appears to be soft and diffused, which may not provide enough depth of field for a shallow depth effect.\n2. The lighting solutions demonstrated include the use of a studio light, which is commonly used to create a flat and even illumination for interviews or presentations. This kind of lighting reduces shadows and allows for the subject (in this case, the speaker) to be clearly visible without harsh highlights.\n3. The image does not explicitly show any specific lighting products mentioned or shown; however, it suggests that a single studio light is being used, which could indicate a need for more advanced or directional lighting setups for a professional video production.\n4. The lighting context appears to be an indoor setting designed for video recording, likely for a podcast, interview, or other form of content creation. The mood of the image seems to be casual and informal, with the person dressed in a t-shirt and glasses, which could suggest a laid-back approach to the content being created."
+      },
+      {
+        "frame_number": 8,
+        "timestamp": 210,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0008.jpg",
+        "analysis": "1. Lighting Problems: In the image, the smartphone's screen is overexposed, which indicates that there might be too much light in the room or an issue with the phone's display settings. The overexposure makes it difficult to read the text on the screen.\n\n2. Lighting Solutions: The image shows a smartphone's screen displaying a message with \"Then\" highlighted, which suggests that there might be a problem with the light sensor of the phone or an issue with the application (text editing) that is being used. To improve the lighting conditions and avoid overexposure in images and videos, it would be beneficial to adjust the room's ambient lighting or to use photo or video editing software to correct the exposure in post-processing.\n\n3. Specific Lighting Products: There are no specific lighting products mentioned or shown in this frame of the image. The focus appears to be on the smartphone and its display issue rather than on any particular lighting solution.\n\n4. Context: The context of the room is not entirely clear, but it seems to be a workspace or a living area due to the presence of a laptop computer and some personal items in the background. The mood of the image is not distinctly positive or negative, as the focus is on the technical aspect of the smartphone's screen display."
+      },
+      {
+        "frame_number": 9,
+        "timestamp": 240,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0009.jpg",
+        "analysis": "1. Lighting problems visible:\n   - The image appears to be taken in a dimly lit area with shadows cast by objects on the desk.\n   - There is an imbalance between lighting on the subject's hand and the rest of the scene, which can make it harder for the viewer to focus on the phone screen.\n\n2. Solutions or techniques demonstrated:\n   - It seems that there is no direct lighting source aimed at the person's hand, which could be addressed by adding a fill light from the side opposite the camera to ensure even illumination.\n   - There are additional lights in the background, but they do not seem to be directed towards the subject's hand, so their effectiveness is limited.\n\n3. Specific lighting products mentioned or shown:\n   - The image does not explicitly show any specific lighting products, but it does imply that there may be additional light sources out of frame or not clearly visible in this snapshot.\n\n4. Lighting context:\n   - This image likely represents a casual or informal setting where someone is using their phone.\n   - The ambient lighting suggests an indoor environment with natural light filtering through windows, but it's unclear if the artificial lights were set up intentionally for the photo shoot.\n   - The mood conveyed by the lighting appears to be candid and unposed, possibly emphasizing the use of a smartphone or the subject's interaction with it."
+      },
+      {
+        "frame_number": 10,
+        "timestamp": 270,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0010.jpg",
+        "analysis": "1. The image depicts a phone displaying a notification with the phrase \"While in focus\". There are two primary lighting challenges visible:\n    - Poor overall brightness that creates a dimly lit phone screen, which may strain the eyes or make it difficult to see details clearly.\n    - Inadequate task light for the phone itself, as there is no direct light on the phone, making the display less clear and potentially causing glare issues.\n\n2. The image shows a person's hand pointing at a notification that reads \"While in focus\", which might be an app or feature designed to adjust lighting conditions on the phone. This suggests that the user has access to tools to improve the lighting situation, possibly including adjusting screen brightness or utilizing other software solutions for better screen visibility.\n\n3. There are no specific lighting products mentioned or shown in the image. However, the mention of \"While in focus\" implies a need for better task lighting or perhaps an app or feature that can enhance the phone's display without requiring additional hardware.\n\n4. The lighting context appears to be indoors, with no clear indication of the specific room type or the ambient lighting conditions in the surrounding environment. The task at hand seems to be related to managing the phone's screen brightness and visibility settings within an application or a software feature, which is not directly influenced by environmental lighting but rather by software adjustments made on the device."
+      },
+      {
+        "frame_number": 11,
+        "timestamp": 300,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0011.jpg",
+        "analysis": "1. Lighting Problems: The video frame shows a smartphone screen displaying temperature measurements along with weather information. On the screen, there appears to be some glare or reflections on the phone's screen, which could be indicative of insufficient ambient light or direct sunlight causing unwanted light sources that disrupt visibility.\n\n2. Lighting Solutions: The image also shows a hand pointing at an object, possibly indicating a solution or product related to the lighting issue. However, without more context, it's not possible to identify the exact nature of the solution or product being demonstrated.\n\n3. Specific Lighting Products: Based on the image and description, there are no specific lighting products mentioned or visible in the frame.\n\n4. Context (Lighting): The room seems to be an office or study environment, given the presence of what appears to be a desk lamp and the smartphone screen displaying temperature information, which is typically used for indoor temperature control. The task at hand could involve monitoring temperature settings or checking weather forecasts. However, the mood of the image does not seem to suggest any immediate lighting challenges; rather, it seems more focused on explaining the use of an application for temperature and weather tracking."
+      },
+      {
+        "frame_number": 12,
+        "timestamp": 330,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0012.jpg",
+        "analysis": "1. Visible lighting problems:\n   - The video frame shows an uneven distribution of light, with one side being well-lit and the other in shadows. This suggests an unbalanced lighting setup or the subject is positioned incorrectly.\n\n2. Demonstrated solutions or techniques:\n   - Although it's not explicitly stated, the image captures a moment where a person is holding up what appears to be a light diffuser or reflector (often used for improving lighting quality by diffusing the light from a concentrated source) in front of their face. This implies that they are demonstrating how to use such equipment to improve lighting conditions on set.\n\n3. Specific lighting products:\n   - A notable product being held up is what looks like a circular light diffuser or reflector, which could be used for softening harsh light or reflecting it onto the desired subject or area of interest.\n\n4. Lighting context:\n   - The setting appears to be an indoor environment where video recording or photography is taking place. The person is likely in the process of adjusting their lighting setup for a more balanced and professional look."
+      },
+      {
+        "frame_number": 13,
+        "timestamp": 360,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0013.jpg",
+        "analysis": "In this image, we can observe a smartphone displaying what appears to be a list of items, which seems to include a smart home device like an Amazon Echo or Google Home. The person's hand is visible in the bottom right corner, touching the screen. Next to the phone, there are other objects that seem to relate to lighting:\n\n1. A small white electronic gadget with buttons and ports, possibly a remote control or a smart home controller.\n2. An air freshener dispenser.\n3. A wall clock.\n4. A piece of paper with what looks like an instructional list on it.\n\nThe lighting in the scene is bright and evenly distributed, suggesting that there may not be any major issues with the current lighting. The environment appears to be indoors, possibly a living room or office space given the casual setting.\n\nFrom this image alone, we can't determine specific lighting problems or challenges without more context about the room, task, or mood the person is trying to achieve. However, if the goal is to enhance the ambiance of the space or improve the visibility for certain tasks on the smartphone, one might consider adding adjustable lamps or using other smart home features that can change the color temperature or intensity of the lighting. The list on the piece of paper could be a guide to setting up these devices or changing settings within them."
+      },
+      {
+        "frame_number": 14,
+        "timestamp": 390,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0014.jpg",
+        "analysis": "The image shows a hand interacting with a smartphone displaying what appears to be a social media feed or a list of items in an online store. There are two main areas of interest for lighting: the phone screen and the surrounding environment.\n\n1. Lighting Problems/Challenges:\n   - The screen of the phone is not well-lit, with darker corners, which can make it difficult to see details in certain parts of the content displayed on the phone. This can be a result of either low ambient light or uneven distribution of light hitting the screen.\n   - The environment around the phone does not provide much additional lighting. The area is dimly lit, suggesting that the primary source of light is coming from the phone itself or another unseen light source.\n\n2. Lighting Solutions/Techniques:\n   - To address the low light conditions on the phone screen, a person could use an adjustable reading lamp to shine directly onto the phone. This would provide localized lighting and help brighten up the screen for better visibility.\n   - To improve the overall ambient lighting of the room, adding more sources of light or using brighter bulbs could be helpful. Proper task lighting near the desk where the phone is placed can also enhance visibility for work or study that may require additional illumination.\n\n3. Specific Lighting Products Mentioned/Shown:\n   - There are no specific lighting products visibly labeled in the image. However, given the context of a smartphone and a potential reading lamp, one could assume that any handheld LED reading lamp or a versatile tabletop lamp could be suitable solutions for the challenges faced here.\n\n4. Lighting Context:\n   - The task at hand seems to be related to work or study, as indicated by the content displayed on the phone screen. Ensuring proper lighting in this context would help prevent eye strain and enhance productivity.\n\nThe overall mood of the room appears to be casual and relaxed, with no overt signs of stress or urgency, suggesting a comfortable home environment rather than a high-pressure work setting."
+      },
+      {
+        "frame_number": 15,
+        "timestamp": 420,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0015.jpg",
+        "analysis": "1. The lighting problem visible in this image is that the room appears to be dimly lit. This can make it difficult for tasks requiring precise vision or can cause discomfort in the space.\n2. A specific lighting product being demonstrated here is a small light fixture, which is placed on top of what seems to be a counter or desk area. This fixture provides additional illumination to the room, focusing on the workspace and improving visibility.\n3. There are no other lighting products directly visible in the image. However, the presence of this small light fixture indicates that there may be more fixtures or solutions available for better illumination.\n4. The lighting context appears to be a workspace or study area, given the presence of a counter or desk and a mouse, which suggests computer use. The focus is on providing adequate lighting for these activities without over-illuminating the space."
+      },
+      {
+        "frame_number": 16,
+        "timestamp": 450,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0016.jpg",
+        "analysis": "1. Lighting problems: The image shows a smartphone screen displaying various app icons in a dark room with low ambient light. This may indicate an issue related to screen visibility or the need for additional lighting to view content comfortably.\n\n2. Solutions demonstrated: There is a clip-on flashlight attached to the phone, which appears to be used as a makeshift light source. The person holding the phone seems to be using it as a reading light rather than as a device meant for capturing photos or videos.\n\n3. Specific lighting products shown: Apart from the phone's built-in flashlight, no other specific lighting products are visible in this frame. However, it is clear that improvised solutions like using a smartphone flashlight can be effective when ambient light is insufficient for certain tasks or when trying to capture photos or videos.\n\n4. Context: The context appears to be related to technology, possibly capturing a photo or a video. The focus on the screen with various app icons suggests that the individual is either organizing their apps, testing an app's functionality, or perhaps creating content for social media platforms where visibility of detail in screenshots is important.\n\nOverall, the image highlights the use of improvised lighting solutions when natural or ambient light is not sufficient for the task at hand. The focus on the smartphone flashlight as a makeshift solution indicates that users may rely on portable devices to provide additional light rather than investing in specialized equipment."
+      },
+      {
+        "frame_number": 17,
+        "timestamp": 480,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0017.jpg",
+        "analysis": "1. There are no visible lighting problems in this image. The lighting appears to be adequate for the subject being photographed.\n\n2. The video frame is focused on demonstrating how the lighting setup works with different devices, such as a smartphone and a camera with a remote shutter release. The man is making a peace sign gesture over the smartphone screen, which suggests he might be highlighting the control feature of the smartphone, possibly for adjusting the lighting or other settings within an app.\n\n3. There are no specific lighting products mentioned or shown in this image. It seems to be more about demonstrating how to use a smartphone's camera with a remote shutter release in various lighting contexts rather than showcasing a particular product.\n\n4. The lighting context appears to be casual and informal, likely for educational purposes, possibly showing how a smartphone can be used for capturing photos or videos with different lighting conditions or with the assistance of additional light sources, as indicated by the presence of the remote shutter release device which suggests that it's a controllable light source rather than a built-in flash."
+      },
+      {
+        "frame_number": 18,
+        "timestamp": 510,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0018.jpg",
+        "analysis": "1. Visible lighting problem: The person in the image appears to have an uneven distribution of light across their face. The lighting seems to be coming from above and casting shadows on one side of their head, which suggests that there might not be sufficient or appropriate fill light or diffuser being used.\n2. Demonstrated lighting solutions or techniques: While it is difficult to determine the exact technique without more context, the person's gestures suggest they are demonstrating how to manipulate or talk about lighting for video production, which could involve adjusting lighting conditions to achieve a more even and flattering light on the subject.\n3. Specific lighting product mentioned or shown: Based on what I can see, there is no specific product being showcased or demonstrated in this image. The discussion appears to be focused on general lighting principles rather than a product review.\n4. Lighting context: The context of the room seems to be a home studio or a personal workspace where video production takes place. The task is likely to be related to creating high-quality videos, which requires careful consideration of lighting in order to achieve professional and appealing results. The mood seems casual yet informative, with the person engaging with an audience to share their knowledge on video lighting."
+      },
+      {
+        "frame_number": 19,
+        "timestamp": 540,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0019.jpg",
+        "analysis": "1. In the image provided, it appears that there is an issue with color balance or temperature in the photograph taken with a smartphone. The colors of the objects may not be accurately reproduced due to the presence of a blue or greenish hue, which suggests a potential issue with white balance or possibly a mismatch in color temperature between the camera and the ambient light.\n\n2. It seems that the person is demonstrating a lighting technique for taking better photographs using artificial light sources. The objects in the image are being lit by a small LED panel positioned on the left side of the phone, which appears to be providing a warmer and more balanced light compared to the cooler tones of the ambient light. This could be an attempt to correct or enhance the color balance of the photograph using an external light source with different color properties.\n\n3. The visible product is an LED panel, which is often used for photography to provide specific lighting conditions such as warmth, coolness, or neutrality that can be adjusted to match the desired color temperature or mood for a photograph.\n\n4. The lighting context here appears to be related to smartphone photography and adjusting for color balance and temperature issues, with a focus on indoor spaces where ambient light may not provide the ideal conditions for capturing photographs. This could be relevant to social media users who want to take high-quality photos to share on platforms like Instagram, TikTok, or Facebook."
+      },
+      {
+        "frame_number": 20,
+        "timestamp": 570,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0020.jpg",
+        "analysis": "1. There seems to be a noticeable shadow cast by the hand holding the smartphone, which might indicate that the light source is not evenly distributed or the angle of the light source is causing shadows. The lighting on the tabletop where the phone is placed also appears to be directional and potentially uneven across the surface.\n\n2. The image shows a smartphone with its flashlight turned on, which might be used as an improvised solution to provide additional lighting. The use of the smartphone's flashlight suggests that there may not be adequate ambient light or a dedicated light source for the task being performed.\n\n3. There is no specific product mentioned or shown in this image. However, it appears that the person is using their own device's flashlight as a makeshift lighting solution, which is not an ideal long-term solution and may cause strain on the smartphone's battery life.\n\n4. The context of the image suggests that the person is performing some sort of task or action related to the phone (such as charging, syncing with a device, or navigating) in a room where there might not be sufficient lighting for comfortable use or photography."
+      },
+      {
+        "frame_number": 21,
+        "timestamp": 600,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0021.jpg",
+        "analysis": "1. The image shows a phone screen displaying an application with a prompt to \"garage closed.\" This indicates that there might be an issue related to garage door functionality or security. A common problem for this situation is poor lighting in the garage, which could make it difficult to see if the door is open, closed, or locked.\n\n2. The app's prompt suggests a solution where a user can close the garage door remotely. This implies that the phone's camera (or an external camera) has been used to capture the state of the garage door and send this information to the server for processing. This shows the use of remote monitoring and control technology as a lighting solution to address visibility issues.\n\n3. There are no specific lighting products mentioned or shown in the image. However, it is implied that the phone's camera plays a role in lighting up the garage, enabling remote monitoring and control.\n\n4. The context suggests a security and convenience scenario. The person who took the photo might have encountered a problem with their garage door and has initiated the closing process remotely via the app on their phone. This is a common pain point for homeowners where poor lighting in their garage can cause inconvenience or even security risks, such as leaving the door open unintentionally. The solution demonstrated here is leveraging smart home technology to address these issues without having to physically interact with the garage door."
+      },
+      {
+        "frame_number": 22,
+        "timestamp": 630,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/data/preflight_analysis/IE8iCsXYp_Y/frames/frame_0022.jpg",
+        "analysis": "1. Visible lighting problems: The image shows a person in a room with what appears to be an uneven distribution of light. There are darker areas where shadows are more pronounced, such as under the chin and on parts of the body not facing the main light source.\n\n2. Demonstrated lighting solutions or techniques: The person is using their hands to manipulate light around them, which suggests they might be demonstrating a technique for creating dramatic lighting effects by directing light from behind or above themselves.\n\n3. Specific lighting products mentioned or shown: There are no specific lighting products visible in the image. However, the use of hands to shape light could imply that the person is either discussing the use of softboxes, reflectors, or using their body to create a diffused light effect.\n\n4. Lighting context: The lighting appears to be designed for a presentation or discussion, as the person in the foreground seems to be speaking or gesturing while making these lighting adjustments. The room is indoors and could be used for filming, photography, or even conducting seminars on lighting techniques.\n\nOverall, the image captures a moment where the person is demonstrating how to create dynamic lighting conditions by using their hands to shape light in the environment, which may involve diffusing, reflecting, or spotlighting. The lighting context appears to be one of creativity and demonstration, highlighting the versatility and immediacy of light manipulation."
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "timestamp": 197.22,
+        "text": "It's really inexpensive, super small and discreet.",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 359.0,
+        "text": "is difficult to build in the actual home app.",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 433.34,
+        "text": "I have had times where water leak was detected once was actually a problem with a pipe.",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 535.1999999999999,
+        "text": "Right now it's dark.",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 537.3,
+        "text": "but the great part about it is that it's not a problem.",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 537.8,
+        "text": "It's not a problem.",
+        "type": "pain_point"
+      }
+    ],
+    "solutions": [
+      {
+        "timestamp": 60.86,
+        "text": "Not only can you add a time for an automation,",
+        "type": "solution"
+      },
+      {
+        "timestamp": 76.36,
+        "text": "because then if you add or remove devices to the scene,",
+        "type": "solution"
+      },
+      {
+        "timestamp": 269.32,
+        "text": "So with that wait 60 seconds command, then I add an if statement.",
+        "type": "solution"
+      },
+      {
+        "timestamp": 438.34,
+        "text": "And so thankfully got that fixed.",
+        "type": "solution"
+      },
+      {
+        "timestamp": 595.6,
+        "text": "and you can add as many as you would like.",
+        "type": "solution"
+      },
+      {
+        "timestamp": 615.6,
+        "text": "but you can also add a contact sensor.",
+        "type": "solution"
+      }
+    ],
+    "verbatims": [
+      "It's really inexpensive, super small and discreet.",
+      "is difficult to build in the actual home app.",
+      "I have had times where water leak was detected once was actually a problem with a pipe.",
+      "Right now it's dark.",
+      "but the great part about it is that it's not a problem."
+    ],
+    "lighting_contexts": [
+      {
+        "timestamp": 30,
+        "context": "The image shows a person pressing a button on a smartphone that has been propped up with a phone stand against a white background. The room appears to be indoors, and there are several items in the fr"
+      },
+      {
+        "timestamp": 60,
+        "context": "1. Lighting Problems/Challenges:\n   - The room appears to be dimly lit, creating a challenge for visibility and comfort.\n   - There is no direct light source on the table where the phone is set up, wh"
+      },
+      {
+        "timestamp": 90,
+        "context": "1. The image shows a room with a large window that allows natural light to enter the space. However, the lighting appears to be uneven, with some areas more brightly lit than others. This could be due"
+      },
+      {
+        "timestamp": 210,
+        "context": "1. Lighting Problems: In the image, the smartphone's screen is overexposed, which indicates that there might be too much light in the room or an issue with the phone's display settings. The overexposu"
+      },
+      {
+        "timestamp": 270,
+        "context": "1. The image depicts a phone displaying a notification with the phrase \"While in focus\". There are two primary lighting challenges visible:\n    - Poor overall brightness that creates a dimly lit phone"
+      },
+      {
+        "timestamp": 300,
+        "context": "1. Lighting Problems: The video frame shows a smartphone screen displaying temperature measurements along with weather information. On the screen, there appears to be some glare or reflections on the "
+      },
+      {
+        "timestamp": 360,
+        "context": "In this image, we can observe a smartphone displaying what appears to be a list of items, which seems to include a smart home device like an Amazon Echo or Google Home. The person's hand is visible in"
+      },
+      {
+        "timestamp": 390,
+        "context": "The image shows a hand interacting with a smartphone displaying what appears to be a social media feed or a list of items in an online store. There are two main areas of interest for lighting: the pho"
+      },
+      {
+        "timestamp": 420,
+        "context": "1. The lighting problem visible in this image is that the room appears to be dimly lit. This can make it difficult for tasks requiring precise vision or can cause discomfort in the space.\n2. A specifi"
+      },
+      {
+        "timestamp": 450,
+        "context": "1. Lighting problems: The image shows a smartphone screen displaying various app icons in a dark room with low ambient light. This may indicate an issue related to screen visibility or the need for ad"
+      },
+      {
+        "timestamp": 510,
+        "context": "1. Visible lighting problem: The person in the image appears to have an uneven distribution of light across their face. The lighting seems to be coming from above and casting shadows on one side of th"
+      },
+      {
+        "timestamp": 570,
+        "context": "1. There seems to be a noticeable shadow cast by the hand holding the smartphone, which might indicate that the light source is not evenly distributed or the angle of the light source is causing shado"
+      },
+      {
+        "timestamp": 630,
+        "context": "1. Visible lighting problems: The image shows a person in a room with what appears to be an uneven distribution of light. There are darker areas where shadows are more pronounced, such as under the ch"
+      }
+    ]
+  }
+}

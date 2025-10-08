@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment
+.env
+*.env.local
+
+# Data
+data/*/videos/*.mp4
+data/*/videos/*.webm
+data/*/analysis/*.wav
+data/*/analysis/*/frames/*.jpg
+.DS_Store
+
+# Archives (can be large)
+.archive/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Credentials
+credentials/*.json
+!credentials/README.md
+
+# Client-specific secrets
+clients/*/credentials.py
+clients/*/.env
+
+# Reports (keep in git, but track separately if large)
+# clients/*/reports/*.html
+
+# System
+.DS_Store
+Thumbs.db

@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Offbrain Insights · Keyword Universe</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap");
+
+    :root {
+      --navy: #0a1628;
+      --ink: #1f2a36;
+      --charcoal: #2c3e50;
+      --stone: #5b6773;
+      --sky: #e9eef3;
+      --line: #d3d8de;
+      --page: #ffffff;
+      --accent: #00b4e0;
+      --accent-soft: #7cc9e5;
+      --support: #0f9f7f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-weight: 380;
+      color: rgba(31, 42, 54, 0.82);
+    }
+
+    body {
+      margin: 0;
+      font-family: "IBM Plex Sans", "Space Grotesk", "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      letter-spacing: -0.01em;
+      background: var(--sky);
+      color: var(--ink);
+      padding: 48px 0 64px;
+    }
+
+    .page {
+      background: var(--page);
+      width: 920px;
+      margin: 0 auto;
+      border-radius: 12px;
+      box-shadow: 0 24px 48px rgba(15, 26, 37, 0.12);
+      overflow: hidden;
+    }
+
+    .page-header {
+      padding: 40px 54px 32px;
+      background: var(--page);
+      color: var(--navy);
+      border: 2px solid var(--accent-soft);
+      border-radius: 16px;
+      box-shadow: 0 18px 40px rgba(10, 22, 40, 0.08);
+    }
+
+    .page-header h1 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0;
+      font-size: 36px;
+      font-weight: 600;
+      letter-spacing: -0.04em;
+      line-height: 1.08;
+    }
+
+    .page-header h2 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 12px 0 0;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(15, 26, 37, 0.6);
+    }
+
+    .mission {
+      margin: 16px 0 0;
+      font-size: 17px;
+      line-height: 1.6;
+      color: rgba(31, 42, 54, 0.72);
+      font-style: italic;
+    }
+
+    .meta-row {
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+      font-size: 15px;
+      color: rgba(47, 61, 75, 0.72);
+    }
+
+    .meta-label {
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      font-size: 13px;
+      color: rgba(31, 42, 54, 0.55);
+    }
+
+    .body {
+      padding: 40px 54px 48px;
+      display: grid;
+      gap: 36px;
+    }
+
+    section {
+      display: grid;
+      gap: 20px;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .section-heading span.rule {
+      width: 40px;
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    .section-heading h3 {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0;
+      font-size: 23px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--navy);
+    }
+
+    .subsection-heading {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 20px 0 12px;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--navy);
+    }
+
+    .card {
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fafcfe;
+    }
+
+    .card-title {
+      font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+      margin: 0 0 12px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      text-transform: uppercase;
+      color: var(--navy);
+    }
+
+    .card p {
+      margin: 0 0 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--stone);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .key-points {
+      display: grid;
+      gap: 12px;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--stone);
+    }
+
+    .key-points strong {
+      color: var(--charcoal);
+      font-weight: 600;
+    }
+
+    .note-box {
+      margin: 16px 0;
+      padding: 16px 20px;
+      background: rgba(0, 180, 224, 0.06);
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+    }
+
+    .note-box p {
+      margin: 0;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--charcoal);
+    }
+
+    .note-box strong {
+      color: var(--navy);
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--stone);
+    }
+
+    thead th {
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 0.6px;
+      font-weight: 600;
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 2px solid var(--accent);
+      color: var(--navy);
+      background: rgba(0,180,224,0.06);
+    }
+
+    tbody td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:nth-child(even) td {
+      background: rgba(14, 40, 60, 0.03);
+    }
+
+    tbody td:first-child {
+      font-weight: 500;
+      color: var(--charcoal);
+    }
+
+    ul {
+      margin: 0 0 14px;
+      padding-left: 20px;
+      color: var(--stone);
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    .sign-off-box {
+      margin: 24px 0;
+      padding: 24px;
+      border: 2px solid var(--accent-soft);
+      border-radius: 10px;
+      background: rgba(0, 180, 224, 0.03);
+    }
+
+    .sign-off-box .field-label {
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 6px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+
+    .sign-off-box .field-line {
+      border-bottom: 1px solid var(--line);
+      min-height: 30px;
+      margin-bottom: 16px;
+      color: var(--charcoal);
+    }
+
+    .footer {
+      padding: 32px 54px 40px;
+      background: rgba(10,22,40,0.04);
+      border-top: 1px solid var(--line);
+      text-align: center;
+    }
+
+    .footer p {
+      margin: 0;
+      font-size: 15px;
+      color: var(--stone);
+      font-weight: 500;
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: #ffffff;
+      }
+      .page {
+        width: auto;
+        box-shadow: none;
+        border-radius: 0;
+      }
+      .page-header {
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="page">
+    <header class="page-header">
+      <h1>Lighting Opportunity Mapping: Keyword Universe</h1>
+      <h2>Search Criteria for Content Retrieval</h2>
+      <p class="mission">Your approval checklist for what content we pull.</p>
+      <div class="meta-row">
+        <div>
+          <div class="meta-label">Prepared for</div>
+          3M Strategic Innovation Office
+        </div>
+        <div>
+          <div class="meta-label">Date</div>
+          06 October 2025
+        </div>
+        <div>
+          <div class="meta-label">Document Type</div>
+          Draft for Client Alignment
+        </div>
+      </div>
+    </header>
+
+    <div class="body">
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>What This Document Is</h3></div>
+        <div class="key-points">
+          <p>These keywords define the dragnet across Reddit, YouTube, TikTok, Amazon reviews, and other platforms. Before we retrieve thousands of posts and videos, you validate the search terms.</p>
+          <p><strong>What this is NOT:</strong> Pain points, jobs, or workarounds. We haven't found those yet. These are the words people use when they talk about home lighting. The insights come later.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>How to Use This</h3></div>
+        <div class="key-points">
+          <p><strong>1. Review the Universal Keywords</strong> (Section 1). These work everywhere.</p>
+          <p><strong>2. Scan Platform-Specific Terms</strong> (Section 2). Some words only work on certain platforms.</p>
+          <p><strong>3. Mark your adds/deletes</strong> in the sign-off section.</p>
+          <p><strong>4. We refine and execute.</strong></p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Research Questions This Serves</h3></div>
+        <div class="card">
+          <p style="margin:0 0 12px; color: var(--charcoal);">Every keyword maps to one or more core questions:</p>
+          <ul style="margin:0;">
+            <li>What lighting problems do consumers struggle to solve?</li>
+            <li>What compensating behaviors exist? (hacks, workarounds, makeshift solutions)</li>
+            <li>Where do 3M products already appear in solutions?</li>
+            <li>What does success look like when lighting finally works?</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Section 1: Universal Keywords</h3></div>
+        <p style="color: var(--stone); margin: 0 0 20px;">These terms retrieve relevant content across all platforms. Priority determines budget allocation.</p>
+
+        <h4 class="subsection-heading">P0 (Must Include) — Core Functional &amp; Pain Terms</h4>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 22%;">Category</th>
+                <th style="width: 40%;">Keywords</th>
+                <th>Why These Matter</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Functional</td>
+                <td>brightness, dimmable, warm/cool color temperature, LED strip lights, under-cabinet lights, motion sensor lights, smart bulbs, ambient lighting, USB-powered</td>
+                <td>How people describe what they want lighting to do</td>
+              </tr>
+              <tr>
+                <td>Pain/Frustration</td>
+                <td>flickering, harsh light, glare, too bright, too dim, dark corners, adhesive failure, buzzing</td>
+                <td>Direct problem language—high signal for unmet needs</td>
+              </tr>
+              <tr>
+                <td>Outcome</td>
+                <td>cozy glow, even illumination, glare-free, energy saving</td>
+                <td>Success-state language—tells us what "working" looks like</td>
+              </tr>
+              <tr>
+                <td>Workaround/Hack</td>
+                <td>LED strips, dimmer switches, diffusers, filters, Command strips, peel-and-stick</td>
+                <td>Compensating behaviors—signals of product gaps</td>
+              </tr>
+              <tr>
+                <td>Room/Context</td>
+                <td>kitchen, bedroom, living room, home office, closet, hallway, under cabinets</td>
+                <td>Situational framing—jobs vary by space</td>
+              </tr>
+              <tr>
+                <td>Installation</td>
+                <td>peel-and-stick adhesive, battery powered, USB, plug-in, no wiring, removable</td>
+                <td>Installation barriers drive product choices</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="subsection-heading">P1 (Should Include) — Nuance &amp; Specificity</h4>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 22%;">Category</th>
+                <th style="width: 40%;">Keywords</th>
+                <th>Why These Matter</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Functional</td>
+                <td>color-changing/RGB lights, remote control, voice control, rechargeable, sunset lamp, fairy lights</td>
+                <td>Emerging trends and aesthetic preferences</td>
+              </tr>
+              <tr>
+                <td>Pain/Frustration</td>
+                <td>uneven lighting, eyestrain, buzzing, adhesive residue, app glitches</td>
+                <td>Secondary pain points with strong engagement</td>
+              </tr>
+              <tr>
+                <td>Outcome</td>
+                <td>aesthetic vibe, mood lighting, safe navigation at night, productivity boost</td>
+                <td>Emotional and functional outcomes beyond basics</td>
+              </tr>
+              <tr>
+                <td>Workaround/Hack</td>
+                <td>repositioning fixtures, extra 3M tape, smart plugs, timers, mirrors to reflect light</td>
+                <td>Creative problem-solving—innovation signals</td>
+              </tr>
+              <tr>
+                <td>Room/Context</td>
+                <td>dorm room, gaming setup, vanity, pantry, garage, stairway</td>
+                <td>Niche spaces with specific needs</td>
+              </tr>
+              <tr>
+                <td>Installation</td>
+                <td>magnetic mount, cuttable strips, aluminum channels, app control</td>
+                <td>Advanced installation preferences</td>
+              </tr>
+              <tr>
+                <td>Constraint Language</td>
+                <td>renter-friendly, landlord-approved, damage-free, non-permanent, lease-safe</td>
+                <td><strong>Hypothesis to validate:</strong> Removability as decision driver</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note-box">
+          <p><strong>Note on Constraint Language:</strong> "Renter-friendly" appeared organically in preliminary scans (Reddit, YouTube, Etsy). We're testing whether this is a niche or a mainstream concern. Signal strength will be quantified during retrieval.</p>
+        </div>
+
+        <h4 class="subsection-heading">P2 (Nice to Have) — Edge Cases &amp; Trends</h4>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 22%;">Category</th>
+                <th>Keywords</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Functional</td>
+                <td>hand-wave sensors, gesture control, cove lighting, wall sconces, track lights</td>
+              </tr>
+              <tr>
+                <td>Pain/Frustration</td>
+                <td>battery drain, remote lag, connectivity issues</td>
+              </tr>
+              <tr>
+                <td>Outcome</td>
+                <td>Instagram-ready, plant growth lighting, reading-friendly</td>
+              </tr>
+              <tr>
+                <td>Workaround/Hack</td>
+                <td>power banks, micro-controllers, stacking fairy lights, jar lighting</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Section 2: Platform-Specific Keywords</h3></div>
+        <p style="color: var(--stone); margin: 0 0 20px;">Some terms only work on certain platforms. This prevents wasted retrieval.</p>
+
+        <h4 class="subsection-heading">Reddit / Forums</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Long-form problem-solving. High signal for technical failures.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>All P0 + P1 keywords</td>
+                <td>voltage drop, circuit breaker, neutral connection, appliance startup flicker, troubleshooting steps</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥10 upvotes, 2023-2025 posts, subreddits: r/HomeImprovement, r/DIY, r/Lighting</p>
+
+        <h4 class="subsection-heading">YouTube</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Visual tutorials. High signal for installation methods and product demos.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>All P0 functional + installation keywords</td>
+                <td>anti-glare products, louvers, color temperature under 3000K, LED-compatible dimmer</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥50k views, 2023-2025, comments enabled</p>
+
+        <h4 class="subsection-heading">TikTok / Instagram</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Aesthetic transformations. High signal for emotional outcomes and hacks.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P0 outcome + workaround keywords</td>
+                <td>#DIYLighting, #HomeHacks, cloud ceiling, sunset lamp, behind-TV backlight, RGB, aesthetic room</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥100k views (TikTok), ≥10k likes (Instagram), 2023-2025</p>
+
+        <h4 class="subsection-heading">Pinterest</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Aspirational ideas. High signal for desired outcomes.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P0 outcome keywords</td>
+                <td>floating shelf lights, ceiling perimeter strips, mirror backlighting, neon sign DIY, reading nook</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥500 saves, recent pins</p>
+
+        <h4 class="subsection-heading">Etsy / Amazon Reviews</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Purchase behavior. High signal for what's working/failing in products.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P0 functional + pain keywords</td>
+                <td>weak adhesive, brightness levels, motion sensor sensitivity, battery life, magnetic mount failure</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥4 stars (success), ≤2 stars (pain), verified purchase, 2023-2025</p>
+
+        <h4 class="subsection-heading">Quora</h4>
+        <p style="color: var(--stone); margin: 0 0 12px;"><strong>Why it works:</strong> Direct questions reveal specific problems.</p>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 45%;">Add to Universal</th>
+                <th>Platform-Specific</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>P0 pain keywords</td>
+                <td>how to soften LED glare, advice for renters, buzzing fluorescent lights</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style="color: var(--stone); margin: 12px 0 0; font-size: 14px;"><strong>Filters:</strong> ≥50 upvotes, 2023-2025</p>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Section 3: Exclusion Safeguards</h3></div>
+        <div class="card">
+          <p style="margin: 0 0 12px; color: var(--charcoal);"><strong>What we filter OUT to prevent noise:</strong></p>
+          <ul style="margin: 0;">
+            <li>Commercial/industrial lighting (high-bay, warehouse, office panels)</li>
+            <li>Automotive/vehicle lighting</li>
+            <li>Outdoor landscape lighting (except porch/entryway)</li>
+            <li>Photography/videography lighting (studio, ring lights for filming)</li>
+            <li>Medical/clinical lighting</li>
+            <li>Aquarium/terrarium lighting</li>
+            <li>Plant grow lights (unless home décor context)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Section 4: Quality Filters</h3></div>
+
+        <h4 class="subsection-heading">Engagement Thresholds by Platform</h4>
+        <div class="card" style="padding: 0;">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 25%;">Platform</th>
+                <th style="width: 30%;">Minimum Threshold</th>
+                <th>Why</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Reddit</td>
+                <td>≥10 upvotes</td>
+                <td>Filters spam, validates community agreement</td>
+              </tr>
+              <tr>
+                <td>YouTube</td>
+                <td>≥50k views</td>
+                <td>Ensures content reached critical mass</td>
+              </tr>
+              <tr>
+                <td>TikTok</td>
+                <td>≥100k views</td>
+                <td>Viral threshold for trends</td>
+              </tr>
+              <tr>
+                <td>Instagram</td>
+                <td>≥500 likes</td>
+                <td>Meaningful engagement</td>
+              </tr>
+              <tr>
+                <td>Amazon/Etsy</td>
+                <td>≥10 reviews</td>
+                <td>Validates purchase behavior</td>
+              </tr>
+              <tr>
+                <td>Quora</td>
+                <td>≥50 upvotes</td>
+                <td>Expertise validation</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h4 class="subsection-heading">Date Ranges</h4>
+        <p style="color: var(--stone); margin: 0;"><strong>2023-2025:</strong> Captures current LED/smart home tech. Older content risks outdated product references.</p>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Section 5: 3M Adjacency Tracking</h3></div>
+        <div class="card">
+          <p style="margin: 0 0 12px; color: var(--charcoal);"><strong>We'll flag where these already appear in consumer solutions:</strong></p>
+          <ul style="margin: 0 0 16px;">
+            <li>Command hooks/strips (mounting, cord management)</li>
+            <li>Scotch tape (reinforcement, adhesive backup)</li>
+            <li>3M adhesives (LED strip mounting)</li>
+            <li>3M films (diffusion, glare reduction—inferred)</li>
+          </ul>
+          <p style="margin: 0; color: var(--charcoal);"><strong>Tracking question:</strong> Are consumers already using 3M products to solve lighting problems? Where are the gaps?</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-heading"><span class="rule"></span><h3>Client Action Items</h3></div>
+
+        <h4 class="subsection-heading">Your Review Checklist</h4>
+        <div class="key-points">
+          <p><strong>1. Add keywords we missed.</strong> What terms does your team use internally that consumers might also use?</p>
+          <p><strong>2. Delete keywords that don't align.</strong> If a term doesn't map to a product opportunity, remove it.</p>
+          <p><strong>3. Flag platform priorities.</strong> Which platforms matter most for Command brand insights?</p>
+          <p><strong>4. Confirm renter hypothesis.</strong> Should we validate "renter-friendly" language as a distinct market signal?</p>
+        </div>
+
+        <h4 class="subsection-heading">Sign-Off</h4>
+        <div class="sign-off-box">
+          <div class="field-label">Adds:</div>
+          <div class="field-line">[Client fills in]</div>
+
+          <div class="field-label">Deletes:</div>
+          <div class="field-line">[Client fills in]</div>
+
+          <div class="field-label">Platform Priorities (rank 1-3):</div>
+          <div class="field-line">
+            Reddit: ___ &nbsp;&nbsp;&nbsp; YouTube: ___ &nbsp;&nbsp;&nbsp; TikTok/Instagram: ___ &nbsp;&nbsp;&nbsp; Amazon/Etsy: ___
+          </div>
+
+          <div class="field-label">Renter Hypothesis (Y/N):</div>
+          <div class="field-line">Should we quantify "renter-friendly" signal strength as a potential niche? ___</div>
+
+          <div style="margin-top: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div>
+              <div class="field-label">Approved by:</div>
+              <div class="field-line">___________________________</div>
+            </div>
+            <div>
+              <div class="field-label">Date:</div>
+              <div class="field-line">___________________________</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer class="footer">
+      <p><strong>Next Step:</strong> Upon approval, we execute the dragnet and return with categorized content samples for Phase 2 analysis.</p>
+    </footer>
+  </article>
+</body>
+</html>
