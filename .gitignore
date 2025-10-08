@@ -12,15 +12,46 @@ ENV/
 .env
 *.env.local
 
-# Data
-data/*/videos/*.mp4
-data/*/videos/*.webm
-data/*/analysis/*.wav
-data/*/analysis/*/frames/*.jpg
-.DS_Store
+# Data - All media files and folders
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Audio
+*.wav
+*.mp3
+*.aac
+*.flac
+*.m4a
+*.ogg
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# Media folders (anywhere in project)
+**/videos/
+**/audio/
+**/frames/
+**/keyframes/
+**/media/
+**/analysis/
 
 # Archives (can be large)
 .archive/
+data/3m_lighting/archives/
+**/archives/
+
+.DS_Store
 
 # IDE
 .vscode/
