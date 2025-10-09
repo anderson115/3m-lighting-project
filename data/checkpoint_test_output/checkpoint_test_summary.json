@@ -1,35 +1,50 @@
 {
-  "test_date": "2025-10-08T00:24:23.879707",
+  "test_date": "2025-10-08T21:36:38.618295",
   "total_videos": 5,
-  "successful": 0,
-  "failed": 5,
-  "total_duration_minutes": 0.0,
-  "average_per_video_minutes": 0,
+  "successful": 5,
+  "failed": 0,
+  "total_duration_minutes": 46.6,
+  "average_per_video_minutes": 9.3,
   "results": [
     {
       "video_id": "video1",
-      "success": false,
-      "error": "unsupported operand type(s) for //: 'str' and 'int'"
+      "success": true,
+      "duration_seconds": 525.5,
+      "pain_points": 0,
+      "solutions": 0,
+      "frames_analyzed": 0
     },
     {
       "video_id": "video2",
-      "success": false,
-      "error": "unsupported operand type(s) for //: 'str' and 'int'"
+      "success": true,
+      "duration_seconds": 468.0,
+      "pain_points": 0,
+      "solutions": 0,
+      "frames_analyzed": 0
     },
     {
       "video_id": "video3",
-      "success": false,
-      "error": "unsupported operand type(s) for //: 'str' and 'int'"
+      "success": true,
+      "duration_seconds": 580.6,
+      "pain_points": 0,
+      "solutions": 0,
+      "frames_analyzed": 0
     },
     {
       "video_id": "video4",
-      "success": false,
-      "error": "unsupported operand type(s) for //: 'str' and 'int'"
+      "success": true,
+      "duration_seconds": 663.9,
+      "pain_points": 0,
+      "solutions": 0,
+      "frames_analyzed": 0
     },
     {
       "video_id": "video5",
-      "success": false,
-      "error": "unsupported operand type(s) for //: 'str' and 'int'"
+      "success": true,
+      "duration_seconds": 556.0,
+      "pain_points": 0,
+      "solutions": 0,
+      "frames_analyzed": 0
     }
   ],
   "models": {
