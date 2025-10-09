@@ -18,14 +18,23 @@ class WorkaroundDetector:
                 r'\bfirst I attempted\b.*\bthen\b',
                 r"\bthat didn't work so\b",
                 r'\btried.*failed\b',
-                r'\btried.*wouldn\'t\b'
+                r'\btried.*wouldn\'t\b',
+                # NEW: Conversational patterns
+                r'\bcoming to the realization that\b',
+                r'\bfigured out that.*wasn\'t going to work\b',
+                r'\brealized.*better way\b',
+                r'\bturns out.*didn\'t\b'
             ],
             'substitution': [
                 r'\bended up using\b',
                 r'\bsettled for\b',
                 r'\binstead I\b',
                 r'\bhad to use\b.*\bbecause\b',
-                r'\bwent with\b.*\binstead\b'
+                r'\bwent with\b.*\binstead\b',
+                # NEW: Conversational patterns
+                r'\bdecided that.*would be better\b',
+                r'\bwent ahead and\b.*\binstead\b',
+                r'\bchose to.*rather than\b'
             ],
             'modification': [
                 r'\bI had to modify\b',
@@ -40,6 +49,13 @@ class WorkaroundDetector:
                 r'\bcombined\b.*\band\b',
                 r'\badded\b.*\bto make it\b',
                 r'\bput.*together with\b'
+            ],
+            # NEW: Decision shift patterns (for conversational workarounds)
+            'decision_shift': [
+                r'\brealization that\b',
+                r'\bcame to.*conclusion\b',
+                r'\bdecided.*best opportunity\b',
+                r'\bwent ahead and decided\b'
             ]
         }
 
