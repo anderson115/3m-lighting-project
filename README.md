@@ -67,6 +67,13 @@ python scripts/run_preflight_analysis.py
 │   ├── test_api_comprehensive.py    # API model testing
 │   └── validate_pipeline.py         # End-to-end validation
 │
+├── modules/
+│   └── consumer-video/              # 🆕 Consumer interview analysis module
+│       ├── scripts/                 # JTBD + emotion + product extraction
+│       ├── data/processed/          # Analysis outputs + client deliverables
+│       ├── docs/                    # Implementation specs
+│       └── README.md                # Module documentation
+│
 ├── data/
 │   ├── preflight/                   # Input: Preflight test videos
 │   │   ├── beginner/                # Beginner-level video

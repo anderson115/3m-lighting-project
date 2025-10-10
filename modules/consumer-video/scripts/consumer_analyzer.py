@@ -25,6 +25,9 @@ sys.path.insert(0, str(project_root))
 
 # Import EmotionAnalyzer (local import)
 from emotion_analyzer import EmotionAnalyzer
+from jtbd_extractor import JTBDExtractor
+from product_tracker import ProductTracker
+from workaround_detector import WorkaroundDetector
 
 # Load model configuration
 with open(project_root / 'config' / 'model_paths.yaml') as f:
@@ -48,6 +51,11 @@ class MultiModalAnalyzer:
         # Model instances
         self.whisper_model = None
         self.emotion_analyzer = EmotionAnalyzer(tier=emotion_tier)
+
+        # Enhancement extractors
+        self.jtbd_extractor = JTBDExtractor()
+        self.product_tracker = ProductTracker()
+        self.workaround_detector = WorkaroundDetector()
 
         print("🔧 Initializing ML models...")
         self._initialize_models()
@@ -413,6 +421,25 @@ Provide a concise analysis focusing on pain points and solutions."""
             },
             'insights': insights
         }
+
+        # Enhancement layers
+        print("\n7️⃣  Extracting JTBD patterns...")
+        print("   💡 Analyzing jobs-to-be-done...")
+        jtbd_findings = self.jtbd_extractor.extract_jtbd_from_video(analysis)
+        print(f"   ✅ Found: {len(jtbd_findings)} JTBD instances")
+        analysis['jtbd'] = jtbd_findings
+
+        print("\n8️⃣  Tracking product mentions...")
+        print("   📦 Detecting 3M products...")
+        product_mentions = self.product_tracker.extract_product_mentions(analysis)
+        print(f"   ✅ Found: {len(product_mentions)} product mentions")
+        analysis['products_3m'] = product_mentions
+
+        print("\n9️⃣  Detecting workarounds...")
+        print("   🔧 Identifying compensating behaviors...")
+        workarounds = self.workaround_detector.detect_workarounds(analysis)
+        print(f"   ✅ Found: {len(workarounds)} workarounds")
+        analysis['workarounds'] = workarounds
 
         # Save analysis
         analysis_path = work_dir / 'analysis.json'

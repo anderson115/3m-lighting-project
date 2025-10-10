@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3M Consumer Lighting Insights Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            line-height: 1.3;
+            color: #1a1a1a;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.4in;
+        }
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #0f62fe;
+            margin-bottom: 4pt;
+            text-align: center;
+        }
+        h2 {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #0f62fe;
+            margin-top: 8pt;
+            margin-bottom: 4pt;
+            border-bottom: 2px solid #0f62fe;
+            padding-bottom: 2pt;
+        }
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #0353e9;
+            margin-top: 6pt;
+            margin-bottom: 3pt;
+        }
+        h4 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-top: 4pt;
+            margin-bottom: 2pt;
+        }
+        p { margin: 3pt 0; }
+        ul, ol { margin: 3pt 0 3pt 16pt; }
+        li { margin: 1pt 0; }
+        .header {
+            background: linear-gradient(135deg, #0f62fe, #0353e9);
+            color: white;
+            padding: 8pt;
+            text-align: center;
+            margin-bottom: 8pt;
+        }
+        .header h1 { color: white; margin: 0; }
+        .header .meta { font-size: 9pt; margin-top: 3pt; }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 6pt 0;
+            text-align: center;
+        }
+        .stat { background: #f0f7ff; padding: 4pt 8pt; border-radius: 4pt; }
+        .stat-num { font-size: 18pt; font-weight: bold; color: #0f62fe; display: block; }
+        .stat-label { font-size: 8pt; color: #666; text-transform: uppercase; }
+        .insight {
+            background: #f8f9fa;
+            border-left: 3pt solid #0f62fe;
+            padding: 6pt;
+            margin: 4pt 0;
+        }
+        .pain { border-left-color: #ff6b6b; }
+        .solution { border-left-color: #51cf66; }
+        .product { border-left-color: #fd7e14; background: #fff4e6; }
+        .critical { border-left-color: #c92a2a; border-left-width: 4pt; background: #ffe0e0; }
+        .quote {
+            font-style: italic;
+            background: white;
+            padding: 4pt 6pt;
+            margin: 3pt 0;
+            border-left: 2pt solid #0f62fe;
+        }
+        .badge {
+            display: inline-block;
+            padding: 1pt 4pt;
+            border-radius: 3pt;
+            font-size: 8pt;
+            font-weight: bold;
+            margin-right: 3pt;
+        }
+        .badge-time { background: #0f62fe; color: white; }
+        .badge-person { background: #e6f2ff; color: #0353e9; }
+        .badge-conf-high { background: #d3f9d8; color: #2b8a3e; }
+        .badge-conf-med { background: #fff3bf; color: #e67700; }
+        .badge-frust { background: #ffe0e0; color: #c92a2a; }
+        .badge-sat { background: #d3f9d8; color: #2b8a3e; }
+        .highlight { background: #fff3bf; padding: 0 2pt; font-weight: bold; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin: 4pt 0;
+        }
+        th, td { padding: 3pt 6pt; text-align: left; border-bottom: 1pt solid #e9ecef; }
+        th { background: #f8f9fa; font-weight: bold; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 8pt; margin: 4pt 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>3M Consumer Lighting Insights</h1>
+        <div class="meta">October 9, 2025 | 5 Consumer Interviews | 284 Seconds of Video</div>
+    </div>
+
+    <div class="stats">
+        <div class="stat"><span class="stat-num">19</span><span class="stat-label">JTBD Instances</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Adhesive Mentions</span></div>
+        <div class="stat"><span class="stat-num">5</span><span class="stat-label">Pain Points</span></div>
+        <div class="stat"><span class="stat-num">23</span><span class="stat-label">Emotion Events</span></div>
+    </div>
+
+    <h2>Executive Summary</h2>
+    <p>Analysis of 5 consumer interviews reveals <span class="highlight">significant adhesive performance challenges in extreme heat</span> (Arizona), strong preference for battery-powered lighting due to electrical knowledge barriers, and critical need for non-electrician DIY support. All 19 Jobs-to-Be-Done are functional (task-oriented), with zero social/emotional jobs detected.</p>
+
+    <div class="insight critical">
+        <h4>🔥 Critical Discovery: Arizona Heat Adhesive Failure</h4>
+        <p>CarrieS reported multiple lighting fixtures falling off walls due to extreme Arizona heat. Developed workaround: pre-adhere tape to fixture, apply with extended manual pressure. <strong>Product gap:</strong> heat-resistant adhesive for outdoor lighting applications.</p>
+    </div>
+
+    <h2>Key Findings</h2>
+
+    <div class="two-col">
+        <div>
+            <div class="insight pain">
+                <h4>1. Electrical Knowledge Barrier</h4>
+                <p><span class="badge badge-person">AlanG</span> "I'm not an electrician... don't know how to reconvert power." Multiple participants avoid hardwiring due to complexity/safety concerns.</p>
+            </div>
+            <div class="insight solution">
+                <h4>2. Battery-Powered Preference</h4>
+                <p>Easy disconnect, repositioning, no expertise required. Drives product selection over hardwired alternatives.</p>
+            </div>
+        </div>
+        <div>
+            <div class="insight pain">
+                <h4>3. Adhesive Stress Performance</h4>
+                <p><span class="badge badge-person">CarrieS</span> Extreme heat failures required custom technique: tape-to-fixture-first, manual pressure, "knock on wood" anxiety about hold.</p>
+            </div>
+        </div>
+    </div>
+
+    <h2>3M Product Insights (2 Mentions)</h2>
+
+    <div class="insight product">
+        <h4>Generic Adhesive/Tape - Arizona Extreme Heat Application</h4>
+        <p><span class="badge badge-person">CarrieS</span> <span class="badge badge-time">0:05-0:49</span> <span class="badge badge-frust">Frustration 80%</span></p>
+        <div class="quote">"needed tape sticky enough for lighting AND wall... gets really really hot here in Arizona... wanted something that would stick and stay... had couple fall... took tape off and reinstalled... put tape on lighting first, let it adhese, then attached to wall, held hand there to push against... haven't knock on wood had problems falling"</div>
+
+        <table>
+            <tr><th>Factor</th><th>Finding</th></tr>
+            <tr><td>Environment</td><td>Arizona extreme heat</td></tr>
+            <tr><td>Surfaces</td><td>Lighting fixture (plastic/metal) + wall</td></tr>
+            <tr><td>Initial Result</td><td>Multiple failures - lights fell</td></tr>
+            <tr><td>Workaround</td><td>Pre-adhesion + extended manual pressure</td></tr>
+            <tr><td>Final Outcome</td><td>Success (with ongoing anxiety)</td></tr>
+        </table>
+    </div>
+
+    <h2>Jobs-to-Be-Done Summary (19 Total - 100% Functional)</h2>
+
+    <h3>AlanG JTBD (7 instances)</h3>
+    <ul style="font-size: 9pt;">
+        <li><span class="badge badge-time">0:22</span> <span class="badge badge-conf-med">60%</span> "deciding whether to hardwire something" - Installation method decision</li>
+        <li><span class="badge badge-time">0:33</span> <span class="badge badge-conf-high">70%</span> "not an electrician, don't know how to reconvert power" - Electrical expertise barrier</li>
+        <li><span class="badge badge-time">0:40</span> <span class="badge badge-conf-high">70%</span> "capped everything off, got back where needed" - Safe workaround (battery-operated)</li>
+        <li><span class="badge badge-time">0:00</span> <span class="badge badge-conf-med">60%</span> "would do more research" - Preparation need for electrical projects</li>
+        <li><span class="badge badge-time">0:14</span> <span class="badge badge-conf-med">50%</span> "finding time to figure out which way to go" - Time constraint in decision-making</li>
+        <li><span class="badge badge-time">0:22</span> <span class="badge badge-conf-med">50%</span> "got something different, wanted to put up, realized..." - Product incompatibility discovery</li>
+        <li><span class="badge badge-time">0:26</span> <span class="badge badge-conf-high">80%</span> "didn't have enough power... doorbell conversion" - Low-voltage incompatibility</li>
+    </ul>
+
+    <h3>CarrieS JTBD (12 instances)</h3>
+    <ul style="font-size: 9pt;">
+        <li><span class="badge badge-time">0:00</span> <span class="badge badge-conf-high">80%</span> "needed to make sure tape sticky enough" - Dark installation + adhesive selection</li>
+        <li><span class="badge badge-time">0:11</span> <span class="badge badge-conf-med">50%</span> <span class="highlight">"really hot Arizona, wanted stick and stay"</span> - Environmental performance requirement</li>
+        <li><span class="badge badge-time">0:18</span> <span class="badge badge-conf-high">70%</span> "had couple fall, challenging" - Adhesive failure problem-solving</li>
+        <li><span class="badge badge-time">0:26</span> <span class="badge badge-conf-med">50%</span> "take tape off, reinstall, put on lighting" - Workaround technique development</li>
+        <li><span class="badge badge-time">0:42</span> <span class="badge badge-conf-med">60%</span> "held hand there to push against for while" - Manual pressure for bonding</li>
+        <li><span class="badge badge-time">0:00</span> <span class="badge badge-conf-med">50%</span> "wouldn't do differently with turf" - Turf preservation priority</li>
+        <li><span class="badge badge-time">0:36</span> <span class="badge badge-conf-med">60%</span> "don't ruin turf with stakes, aesthetically pleasing" - Key benefits (no damage + appearance)</li>
+        <li><span class="badge badge-time">0:51</span> <span class="badge badge-conf-med">60%</span> "other option floodlights attached to house" - Alternative considered, rejected (distance)</li>
+        <li>+4 additional functional jobs related to solution satisfaction and aesthetic outcomes</li>
+    </ul>
+
+    <h2>Pain Points (5 Total)</h2>
+
+    <p><strong>AlanG (3):</strong> Hardwiring decision stress <span class="badge badge-frust">Frustration 50%</span> | Electrical complexity realization <span class="badge badge-sat">Satisfaction 50%</span> | Knowledge gap ("made it difficult")</p>
+
+    <p><strong>CarrieS (2):</strong> Dark installation technique challenge <span class="badge badge-sat">Satisfaction 50%</span> | Adhesive performance anxiety ("knock on wood") <span class="badge badge-frust">Frustration 50%</span></p>
+
+    <h2>Strategic Recommendations</h2>
+
+    <div class="two-col">
+        <div>
+            <div class="insight solution">
+                <h4>1. Extreme Environment Adhesives</h4>
+                <p>Develop/position heat-resistant products (100°F+ rated). Test Arizona/Texas conditions. Include heat-specific installation guidance.</p>
+            </div>
+
+            <div class="insight solution">
+                <h4>2. DIY Education Content</h4>
+                <p>Battery vs. hardwired decision tree. Non-electrician guides. Voltage compatibility resources. Partner with lighting brands.</p>
+            </div>
+
+            <div class="insight solution">
+                <h4>3. Installation Technique Formalization</h4>
+                <p>Document CarrieS "pre-adhesion" technique: apply to fixture first, partial cure, mount with pressure. Include in packaging/QR codes.</p>
+            </div>
+        </div>
+        <div>
+            <div class="insight solution">
+                <h4>4. Battery-Powered Positioning</h4>
+                <p>Position 3M as ideal for battery lighting. No expertise required, repositionable, renter-safe. Co-market with battery brands.</p>
+            </div>
+
+            <div class="insight solution">
+                <h4>5. Expand Environmental Testing</h4>
+                <p>Test across climates: Arizona (extreme heat), Florida (heat+humidity), North (freeze/thaw), Coastal (salt air).</p>
+            </div>
+
+            <div class="insight solution">
+                <h4>6. Key Messaging Themes</h4>
+                <p><strong>"Easy for non-electricians"</strong> | <strong>"Holds in extreme conditions"</strong> | <strong>"Repositionable when needed"</strong> | <strong>"No surface damage"</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center; font-size: 8pt; color: #666; margin-top: 8pt; padding-top: 6pt; border-top: 1pt solid #e9ecef;">
+        <p><strong>3M Consumer Lighting Insights Report</strong> | Generated: October 9, 2025 | offbrain video intelligence platform</p>
+        <p>Data: 5 consumer interviews (consumer01-05) | Total duration: 284 seconds | Analysis: Transcription, emotion detection, JTBD extraction, product tracking</p>
+    </div>
+</body>
+</html>
