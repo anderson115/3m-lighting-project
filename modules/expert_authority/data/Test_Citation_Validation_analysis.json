@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "tier": 1,
+    "analysis_method": "rule_based",
+    "total_discussions": 100,
+    "platforms": [
+      "reddit"
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Electrical Safety",
+      "frequency": 70,
+      "frequency_pct": 70.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.",
+          "url": "https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/",
+          "id": "f97r3p"
+        },
+        {
+          "title": "How dangerous is it to use ungrounded outlets for an office setup?",
+          "url": "https://reddit.com/r/electricians/comments/tl4653/how_dangerous_is_it_to_use_ungrounded_outlets_for/",
+          "id": "tl4653"
+        },
+        {
+          "title": "Weird electrical problem causing my monitor to shut down and back up.",
+          "url": "https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/",
+          "id": "r0szks"
+        }
+      ]
+    },
+    {
+      "theme": "Power Supply",
+      "frequency": 65,
+      "frequency_pct": 65.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.",
+          "url": "https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/",
+          "id": "f97r3p"
+        },
+        {
+          "title": "LED Lighting course, domotics",
+          "url": "https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/",
+          "id": "qinhmq"
+        },
+        {
+          "title": "Thin gloves for low voltage work?",
+          "url": "https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/",
+          "id": "3nvok8"
+        }
+      ]
+    },
+    {
+      "theme": "Dimmer Compatibility",
+      "frequency": 51,
+      "frequency_pct": 51.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "LED Lighting course, domotics",
+          "url": "https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/",
+          "id": "qinhmq"
+        },
+        {
+          "title": "Installing ceiling lights for the wife’s office",
+          "url": "https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/",
+          "id": "eyfzuf"
+        },
+        {
+          "title": "Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?",
+          "url": "https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/",
+          "id": "4z119s"
+        }
+      ]
+    },
+    {
+      "theme": "Adhesive Mounting",
+      "frequency": 38,
+      "frequency_pct": 38.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Looking for a picture of a floor mounted led strip working as a emergency exit light.",
+          "url": "https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/",
+          "id": "b9oblz"
+        },
+        {
+          "title": "In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.",
+          "url": "https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/",
+          "id": "f97r3p"
+        },
+        {
+          "title": "Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?",
+          "url": "https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/",
+          "id": "4z119s"
+        }
+      ]
+    },
+    {
+      "theme": "Installation Difficulty",
+      "frequency": 35,
+      "frequency_pct": 35.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Installing ceiling lights for the wife’s office",
+          "url": "https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/",
+          "id": "eyfzuf"
+        },
+        {
+          "title": "Upgrading Burning Man Theme Camp Power Grid - Need Some Advice",
+          "url": "https://reddit.com/r/electricians/comments/4o4mts/upgrading_burning_man_theme_camp_power_grid_need/",
+          "id": "4o4mts"
+        },
+        {
+          "title": "Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?",
+          "url": "https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/",
+          "id": "4z119s"
+        }
+      ]
+    },
+    {
+      "theme": "Heat Issues",
+      "frequency": 26,
+      "frequency_pct": 26.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Looking for a picture of a floor mounted led strip working as a emergency exit light.",
+          "url": "https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/",
+          "id": "b9oblz"
+        },
+        {
+          "title": "Weird electrical problem causing my monitor to shut down and back up.",
+          "url": "https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/",
+          "id": "r0szks"
+        },
+        {
+          "title": "Thin gloves for low voltage work?",
+          "url": "https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/",
+          "id": "3nvok8"
+        }
+      ]
+    },
+    {
+      "theme": "Color Accuracy",
+      "frequency": 22,
+      "frequency_pct": 22.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Looking for a picture of a floor mounted led strip working as a emergency exit light.",
+          "url": "https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/",
+          "id": "b9oblz"
+        },
+        {
+          "title": "Installing ceiling lights for the wife’s office",
+          "url": "https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/",
+          "id": "eyfzuf"
+        },
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        }
+      ]
+    },
+    {
+      "theme": "Durability",
+      "frequency": 13,
+      "frequency_pct": 13.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Thin gloves for low voltage work?",
+          "url": "https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/",
+          "id": "3nvok8"
+        },
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "I’m with the boomers on this one",
+          "url": "https://reddit.com/r/electricians/comments/1g0qbgw/im_with_the_boomers_on_this_one/",
+          "id": "1g0qbgw"
+        }
+      ]
+    }
+  ],
+  "consensus_patterns": [
+    {
+      "pattern": "And nobody misses them. Unlike incandescents which are better than LEDs in certain applications, LEDs are just across the board superior to fluorescents in light output, compactness, light quality, ef",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cxphu/",
+      "score": 791,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "What I did (I have deuteranopia, red/green colorblindness)\n\nI bought a headlamp with red and green LEDs that can be activated individually.\n\nUnder red light, a green wire will appear to be black (or v",
+      "source_discussion": "Apprentice who is colorblind",
+      "source_url": "https://reddit.com/r/electricians/comments/1jtljth/apprentice_who_is_colorblind/mlv9b29/",
+      "score": 523,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "T12 have been dead for a while now",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cvjct/",
+      "score": 352,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Yeah, not a fan of requiring signal to get instructions. Want a qr code on your actual instructions? Zero complaints.\n\nOn top of that I will always take any opportunity to shit on Lutron's flaming dia",
+      "source_discussion": "I’m with the boomers on this one",
+      "source_url": "https://reddit.com/r/electricians/comments/1g0qbgw/im_with_the_boomers_on_this_one/lraqj97/",
+      "score": 344,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "\"I wanted bright light, so I picked the 6500k bulbs\"",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cz8f2/",
+      "score": 317,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "And in a lot of cases that people think that is better than LED it’s because the LEDs they chose weren’t selected properly. In social situations, I am amazed at how many people ask about LED bulbs and",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cybrw/",
+      "score": 312,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "277 isn't anything to play with, especially because by your description it was probably an arm to arm shock.  \n\n\nGlad to hear he's mostly ok.",
+      "source_discussion": "Witnessed someone take 277 volts ",
+      "source_url": "https://reddit.com/r/electricians/comments/1crcfvs/witnessed_someone_take_277_volts/l3x5pna/",
+      "score": 213,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "One handed stripping wtf? Test before touch. Use a multimeter or a non contact voltage tester. If you can’t test it, assume it’s live",
+      "source_discussion": "Witnessed someone take 277 volts ",
+      "source_url": "https://reddit.com/r/electricians/comments/1crcfvs/witnessed_someone_take_277_volts/l3xizs3/",
+      "score": 187,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "I just wish it was easier to find a fixture that used replaceable bulbs and not integrated LED light strips.",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9czj9c/",
+      "score": 177,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "I think I saw you post this in another thread and was about to reference it. It's a damn good idea to mess with colour and wavelengths of light.",
+      "source_discussion": "Apprentice who is colorblind",
+      "source_url": "https://reddit.com/r/electricians/comments/1jtljth/apprentice_who_is_colorblind/mlvat61/",
+      "score": 115,
+      "platform": "reddit"
+    }
+  ],
+  "controversies": [],
+  "safety_warnings": []
+}

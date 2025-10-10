@@ -16,6 +16,12 @@ from ..scrapers.stackexchange_scraper import StackExchangeScraper
 from ..analyzers.production_analyzer import ProductionAnalyzer
 from ..reporters.html_reporter import HTMLReporter
 
+try:
+    from ..reporters.excel_reporter import ExcelReporter
+    HAS_EXCEL = True
+except ImportError:
+    HAS_EXCEL = False
+
 
 class ExpertAuthorityOrchestrator:
     """Orchestrates the complete expert authority analysis pipeline"""
@@ -173,6 +179,19 @@ class ExpertAuthorityOrchestrator:
             html_report = self.reporter.generate(analysis, all_discussions, project_name)
             results['reports']['html'] = str(html_report)
             self.logger.info(f"✅ HTML report generated: {html_report}")
+
+            # Generate Excel report (Tier 2+)
+            if self.tier >= 2 and HAS_EXCEL:
+                try:
+                    excel_reporter = ExcelReporter(self.tier, self.config)
+                    excel_report = excel_reporter.generate(analysis, all_discussions, project_name)
+                    results['reports']['excel'] = str(excel_report)
+                    self.logger.info(f"✅ Excel report generated: {excel_report}")
+                except Exception as e:
+                    self.logger.warning(f"⚠️ Excel report generation failed: {e}")
+                    results['errors'].append(f"Excel report generation failed: {e}")
+            elif self.tier >= 2 and not HAS_EXCEL:
+                self.logger.warning("⚠️ Excel export requires openpyxl: pip install openpyxl")
 
             # Success summary
             self.logger.info("=" * 60)

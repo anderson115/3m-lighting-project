@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Tier1_LED_Strip - Expert Authority Analysis</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0066cc;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .tier-1 { background: #95a5a6; color: white; }
+        .tier-2 { background: #1abc9c; color: white; }
+        .tier-3 { background: #f39c12; color: white; }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .metadata {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0066cc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section-description {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+
+        .theme-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .theme-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .theme-stats {
+            margin: 10px 0;
+        }
+
+        .frequency {
+            background: #0066cc;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .count {
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .theme-description {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .strategic-insight {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border-left: 3px solid #ffc107;
+        }
+
+        .examples {
+            margin-top: 15px;
+        }
+
+        .examples h4 {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
+        .examples ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .examples li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .examples li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+        }
+
+        .citation-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .citation-link:hover {
+            text-decoration: underline;
+        }
+
+        .view-original {
+            color: #28a745;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .view-original:hover {
+            text-decoration: underline;
+        }
+
+        .consensus-item {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .consensus-header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .consensus-number {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .consensus-score {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .platform-badge {
+            background: #6c757d;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .accepted-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .consensus-pattern {
+            margin: 10px 0;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .consensus-source {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Test_Tier1_LED_Strip</h1>
+            <div class="tier-badge tier-1">ESSENTIAL TIER</div>
+            <p class="subtitle">Expert Authority Analysis - Tier 1</p>
+            <p class="metadata">Generated: 2025-10-09 23:33:14</p>
+        </header>
+
+        <section class="summary">
+            <h2>📊 Analysis Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">100</div>
+                    <div class="stat-label">Discussions Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Themes Discovered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">7</div>
+                    <div class="stat-label">Consensus Patterns</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">reddit</div>
+                    <div class="stat-label">Data Sources</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="themes">
+            <h2>🎯 Key Themes</h2>
+            
+        <div class="theme-card">
+            <h3>1. Electrical Safety</h3>
+            <div class="theme-stats">
+                <span class="frequency">63.0%</span>
+                <span class="count">(63 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="citation-link">LED Strip Lighting</a> [<a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="citation-link">Commercial Electric LED strip lighting won't dim. Advice?</a> [<a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>2. Dimmer Compatibility</h3>
+            <div class="theme-stats">
+                <span class="frequency">61.0%</span>
+                <span class="count">(61 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="citation-link">Help with LED strip lighting under cabinets</a> [<a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="citation-link">LED Strip Lighting</a> [<a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="citation-link">Commercial Electric LED strip lighting won't dim. Advice?</a> [<a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>3. Power Supply</h3>
+            <div class="theme-stats">
+                <span class="frequency">57.0%</span>
+                <span class="count">(57 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="citation-link">Help with LED strip lighting under cabinets</a> [<a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="citation-link">LED Strip Lighting</a> [<a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>4. Installation Difficulty</h3>
+            <div class="theme-stats">
+                <span class="frequency">52.0%</span>
+                <span class="count">(52 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="citation-link">Help with LED strip lighting under cabinets</a> [<a href="https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/" target="_blank" class="citation-link">LED lighting rated for freezing temp</a> [<a href="https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>5. Adhesive Mounting</h3>
+            <div class="theme-stats">
+                <span class="frequency">46.0%</span>
+                <span class="count">(46 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="citation-link">LED Strip Lighting</a> [<a href="https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="citation-link">Commercial Electric LED strip lighting won't dim. Advice?</a> [<a href="https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/" target="_blank" class="citation-link">Can I connect LED ceiling light to tail end of LED strip? </a> [<a href="https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>6. Color Accuracy</h3>
+            <div class="theme-stats">
+                <span class="frequency">39.0%</span>
+                <span class="count">(39 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/" target="_blank" class="citation-link">LED lighting rated for freezing temp</a> [<a href="https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1dh6u5p/under_cabinet_strip_lighting/" target="_blank" class="citation-link">Under Cabinet Strip lighting</a> [<a href="https://reddit.com/r/electricians/comments/1dh6u5p/under_cabinet_strip_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>7. Heat Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">29.0%</span>
+                <span class="count">(29 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/9fxe73/love_being_an_electrician_i_was_able_to_salvage_a/" target="_blank" class="citation-link">Love being an electrician! I was able to salvage a damaged LED strip fixture and retro an old Budweiser pool light. This isn’t the final home for this bad boy but I’m pretty happy how it came out.</a> [<a href="https://reddit.com/r/electricians/comments/9fxe73/love_being_an_electrician_i_was_able_to_salvage_a/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/tozcuw/how_to_create_a_renter_friendly_geometric_wall/" target="_blank" class="citation-link">How to create a (Renter Friendly) Geometric Wall using Strip lights? Ok so I wanted to create this geometric design using washi tape on a wall in my apartment. But then I had an idea to create this design using led strip lights! The problem is that I have absolutely no clue how to do it. Any ideas?</a> [<a href="https://reddit.com/r/electricians/comments/tozcuw/how_to_create_a_renter_friendly_geometric_wall/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>8. Durability</h3>
+            <div class="theme-stats">
+                <span class="frequency">17.0%</span>
+                <span class="count">(17 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/vyl0lr/looking_for_led_strips_for_custom_bar_lighting/" target="_blank" class="citation-link">Looking for led strips for custom bar lighting</a> [<a href="https://reddit.com/r/electricians/comments/vyl0lr/looking_for_led_strips_for_custom_bar_lighting/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/vkoyj9/led_strip_lights_1x3_with_leds_on_top_and/" target="_blank" class="citation-link">LED strip lights. 1x3 with LEDs on top and under,magnets on the face. 5” Board has metal bar to be held up with magnets.</a> [<a href="https://reddit.com/r/electricians/comments/vkoyj9/led_strip_lights_1x3_with_leds_on_top_and/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="consensus">
+            <h2>✅ Consensus Patterns</h2>
+            <p class="section-description">Widely-agreed solutions and best practices from expert community</p>
+            <div class="consensus-list">
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#1</span>
+                <span class="consensus-score">Score: 790</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">And nobody misses them. Unlike incandescents which are better than LEDs in certain applications, LEDs are just across the board superior to fluorescents in light output, compactness, light quality, ef</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cxphu/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#2</span>
+                <span class="consensus-score">Score: 350</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">T12 have been dead for a while now</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cvjct/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#3</span>
+                <span class="consensus-score">Score: 313</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">And in a lot of cases that people think that is better than LED it’s because the LEDs they chose weren’t selected properly. In social situations, I am amazed at how many people ask about LED bulbs and</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cybrw/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#4</span>
+                <span class="consensus-score">Score: 313</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">"I wanted bright light, so I picked the 6500k bulbs"</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cz8f2/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#5</span>
+                <span class="consensus-score">Score: 176</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">I just wish it was easier to find a fixture that used replaceable bulbs and not integrated LED light strips.</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9czj9c/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#6</span>
+                <span class="consensus-score">Score: 145</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">My brain just flipped this to attic. I know there's an outlet up there for the exhaust fan, and I hate bringing not-enough-lights, so genius.
+
+Thanks!</p>
+            <p class="consensus-source">From: <em>Gotta work under the house? Install a basic long LED strip.</em></p>
+            <a href="https://reddit.com/r/HomeImprovement/comments/rwbxyy/gotta_work_under_the_house_install_a_basic_long/hrb4kmj/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#7</span>
+                <span class="consensus-score">Score: 70</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Here's a pic of what it looks like...
+
+[https://flic.kr/p/2mVfg7u](https://flic.kr/p/2mVfg7u)
+
+It's about 25 feet of straight run, then it takes a turn under part of the house where the main PEX manif</p>
+            <p class="consensus-source">From: <em>Gotta work under the house? Install a basic long LED strip.</em></p>
+            <a href="https://reddit.com/r/HomeImprovement/comments/rwbxyy/gotta_work_under_the_house_install_a_basic_long/hrb76ux/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+</div>
+
+        </section>
+
+        
+
+        <section class="methodology">
+            <h2>📋 Methodology</h2>
+            <p><strong>Analysis Method:</strong> rule_based</p>
+            <p><strong>Platforms:</strong> reddit</p>
+            <p><strong>Total Discussions:</strong> 100</p>
+            <p><strong>Citation Integrity:</strong> All insights are linked to original expert discussions. Click "View Original" to verify source.</p>
+        </section>
+
+        <footer>
+            <p>Expert Authority Module - 3M Lighting Project</p>
+            <p>100% Real Data - No Synthetic Content - Full Citation Validation</p>
+        </footer>
+    </div>
+</body>
+</html>

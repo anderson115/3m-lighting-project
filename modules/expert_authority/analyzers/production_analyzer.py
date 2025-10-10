@@ -153,6 +153,13 @@ class ProductionAnalyzer:
         """LLM-powered semantic theme discovery"""
         self.logger.info("🤖 Running LLM semantic analysis...")
 
+        # Get LLM configuration
+        llm_config = self.config.get_llm_config(self.tier)
+
+        if not llm_config['model']:
+            self.logger.warning("⚠️ No LLM model available - falling back to rule-based")
+            return self._rule_based_analysis(discussions)
+
         # Prepare discussion summaries for LLM
         discussion_summaries = []
         for i, d in enumerate(discussions[:50]):  # Limit to 50 for token efficiency
@@ -167,10 +174,11 @@ class ProductionAnalyzer:
         # Build LLM prompt
         prompt = self._build_theme_discovery_prompt(discussion_summaries)
 
-        # Call Claude API
+        # Call Claude API with configured model
         try:
+            self.logger.info(f"🤖 Using model: {llm_config['model']} ({llm_config['provider']})")
             response = self.anthropic_client.messages.create(
-                model=self.tier_config.get('llm_model', 'claude-sonnet-4-20250514'),
+                model=llm_config['model'],
                 max_tokens=4000,
                 messages=[{"role": "user", "content": prompt}]
             )

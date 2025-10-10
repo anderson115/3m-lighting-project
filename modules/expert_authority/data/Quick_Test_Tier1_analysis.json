@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "tier": 1,
+    "analysis_method": "rule_based",
+    "total_discussions": 100,
+    "platforms": [
+      "reddit"
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Installation Difficulty",
+      "frequency": 94,
+      "frequency_pct": 94.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Can I connect LED ceiling light to tail end of LED strip? ",
+          "url": "https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/",
+          "id": "1g9w6a1"
+        },
+        {
+          "title": "Using a universal (phase dimming) dimmer with a 0-10 dimming LED strip, possible?",
+          "url": "https://reddit.com/r/electricians/comments/1f76qxq/using_a_universal_phase_dimming_dimmer_with_a_010/",
+          "id": "1f76qxq"
+        },
+        {
+          "title": "Using 14 gauge wire to power outdoor led strips on a 20amp circuit",
+          "url": "https://reddit.com/r/electricians/comments/ewpm8r/using_14_gauge_wire_to_power_outdoor_led_strips/",
+          "id": "ewpm8r"
+        }
+      ]
+    },
+    {
+      "theme": "Electrical Safety",
+      "frequency": 75,
+      "frequency_pct": 75.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Can I connect LED ceiling light to tail end of LED strip? ",
+          "url": "https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/",
+          "id": "1g9w6a1"
+        },
+        {
+          "title": "Using 14 gauge wire to power outdoor led strips on a 20amp circuit",
+          "url": "https://reddit.com/r/electricians/comments/ewpm8r/using_14_gauge_wire_to_power_outdoor_led_strips/",
+          "id": "ewpm8r"
+        },
+        {
+          "title": "How to power a 12V led strip directly from a wall?",
+          "url": "https://reddit.com/r/electricians/comments/pvb3i0/how_to_power_a_12v_led_strip_directly_from_a_wall/",
+          "id": "pvb3i0"
+        }
+      ]
+    },
+    {
+      "theme": "Power Supply",
+      "frequency": 68,
+      "frequency_pct": 68.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Using a universal (phase dimming) dimmer with a 0-10 dimming LED strip, possible?",
+          "url": "https://reddit.com/r/electricians/comments/1f76qxq/using_a_universal_phase_dimming_dimmer_with_a_010/",
+          "id": "1f76qxq"
+        },
+        {
+          "title": "Using 14 gauge wire to power outdoor led strips on a 20amp circuit",
+          "url": "https://reddit.com/r/electricians/comments/ewpm8r/using_14_gauge_wire_to_power_outdoor_led_strips/",
+          "id": "ewpm8r"
+        },
+        {
+          "title": "How to power a 12V led strip directly from a wall?",
+          "url": "https://reddit.com/r/electricians/comments/pvb3i0/how_to_power_a_12v_led_strip_directly_from_a_wall/",
+          "id": "pvb3i0"
+        }
+      ]
+    },
+    {
+      "theme": "Dimmer Compatibility",
+      "frequency": 63,
+      "frequency_pct": 63.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Using a universal (phase dimming) dimmer with a 0-10 dimming LED strip, possible?",
+          "url": "https://reddit.com/r/electricians/comments/1f76qxq/using_a_universal_phase_dimming_dimmer_with_a_010/",
+          "id": "1f76qxq"
+        },
+        {
+          "title": "Using 14 gauge wire to power outdoor led strips on a 20amp circuit",
+          "url": "https://reddit.com/r/electricians/comments/ewpm8r/using_14_gauge_wire_to_power_outdoor_led_strips/",
+          "id": "ewpm8r"
+        },
+        {
+          "title": "What is the secret to bright LED strips?",
+          "url": "https://reddit.com/r/electricians/comments/sh2e8f/what_is_the_secret_to_bright_led_strips/",
+          "id": "sh2e8f"
+        }
+      ]
+    },
+    {
+      "theme": "Adhesive Mounting",
+      "frequency": 53,
+      "frequency_pct": 53.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Can I connect LED ceiling light to tail end of LED strip? ",
+          "url": "https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/",
+          "id": "1g9w6a1"
+        },
+        {
+          "title": "What is the secret to bright LED strips?",
+          "url": "https://reddit.com/r/electricians/comments/sh2e8f/what_is_the_secret_to_bright_led_strips/",
+          "id": "sh2e8f"
+        },
+        {
+          "title": "Had this undercabinet LED strip lighting installed last year and this is an occasional occurrence. It doesn’t happen often but does until the light is off. Also there’s a buzzing sound from the lights and the fact that even when turned off, the strip light is still on faintly with a little flicker.",
+          "url": "https://reddit.com/r/electricians/comments/ds3iol/had_this_undercabinet_led_strip_lighting/",
+          "id": "ds3iol"
+        }
+      ]
+    },
+    {
+      "theme": "Heat Issues",
+      "frequency": 30,
+      "frequency_pct": 30.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "What is the secret to bright LED strips?",
+          "url": "https://reddit.com/r/electricians/comments/sh2e8f/what_is_the_secret_to_bright_led_strips/",
+          "id": "sh2e8f"
+        },
+        {
+          "title": "Led light strips",
+          "url": "https://reddit.com/r/electricians/comments/kailps/led_light_strips/",
+          "id": "kailps"
+        },
+        {
+          "title": "LED Strip Light... Whats your preferred method?",
+          "url": "https://reddit.com/r/electricians/comments/g5pwfz/led_strip_light_whats_your_preferred_method/",
+          "id": "g5pwfz"
+        }
+      ]
+    },
+    {
+      "theme": "Color Accuracy",
+      "frequency": 30,
+      "frequency_pct": 30.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Had this undercabinet LED strip lighting installed last year and this is an occasional occurrence. It doesn’t happen often but does until the light is off. Also there’s a buzzing sound from the lights and the fact that even when turned off, the strip light is still on faintly with a little flicker.",
+          "url": "https://reddit.com/r/electricians/comments/ds3iol/had_this_undercabinet_led_strip_lighting/",
+          "id": "ds3iol"
+        },
+        {
+          "title": "Wiring LED strip light to wall switch help",
+          "url": "https://reddit.com/r/electricians/comments/fpidbb/wiring_led_strip_light_to_wall_switch_help/",
+          "id": "fpidbb"
+        },
+        {
+          "title": "Recommendations for LED strip lighting systems that could plausibly last decades? Any systems that stand out for solid connectors/installation/options?",
+          "url": "https://reddit.com/r/electricians/comments/m0xn14/recommendations_for_led_strip_lighting_systems/",
+          "id": "m0xn14"
+        }
+      ]
+    },
+    {
+      "theme": "Durability",
+      "frequency": 23,
+      "frequency_pct": 23.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "What is the secret to bright LED strips?",
+          "url": "https://reddit.com/r/electricians/comments/sh2e8f/what_is_the_secret_to_bright_led_strips/",
+          "id": "sh2e8f"
+        },
+        {
+          "title": "Had this undercabinet LED strip lighting installed last year and this is an occasional occurrence. It doesn’t happen often but does until the light is off. Also there’s a buzzing sound from the lights and the fact that even when turned off, the strip light is still on faintly with a little flicker.",
+          "url": "https://reddit.com/r/electricians/comments/ds3iol/had_this_undercabinet_led_strip_lighting/",
+          "id": "ds3iol"
+        },
+        {
+          "title": "Recommendations for LED strip lighting systems that could plausibly last decades? Any systems that stand out for solid connectors/installation/options?",
+          "url": "https://reddit.com/r/electricians/comments/m0xn14/recommendations_for_led_strip_lighting_systems/",
+          "id": "m0xn14"
+        }
+      ]
+    }
+  ],
+  "consensus_patterns": [
+    {
+      "pattern": "And nobody misses them. Unlike incandescents which are better than LEDs in certain applications, LEDs are just across the board superior to fluorescents in light output, compactness, light quality, ef",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cxphu/",
+      "score": 790,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "T12 have been dead for a while now",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cvjct/",
+      "score": 346,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "\"I wanted bright light, so I picked the 6500k bulbs\"",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cz8f2/",
+      "score": 315,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "And in a lot of cases that people think that is better than LED it’s because the LEDs they chose weren’t selected properly. In social situations, I am amazed at how many people ask about LED bulbs and",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cybrw/",
+      "score": 313,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "[deleted]",
+      "source_discussion": "350K Italian piece installed within a 3 story staircase, had to be craned in from a hole made within the ceiling. LED lights are within the feature, to this day it is still my favourite light fitting to install.",
+      "source_url": "https://reddit.com/r/electricians/comments/g4la6z/350k_italian_piece_installed_within_a_3_story/fny7flz/",
+      "score": 287,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "I just wish it was easier to find a fixture that used replaceable bulbs and not integrated LED light strips.",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9czj9c/",
+      "score": 173,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "100% they flew in two Italians who orchestrated the entire installation, all I had to do was wire it in and call it a day. Minimal effort maximum credit.",
+      "source_discussion": "350K Italian piece installed within a 3 story staircase, had to be craned in from a hole made within the ceiling. LED lights are within the feature, to this day it is still my favourite light fitting to install.",
+      "source_url": "https://reddit.com/r/electricians/comments/g4la6z/350k_italian_piece_installed_within_a_3_story/fnyr1lt/",
+      "score": 119,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "This pic taken before or after you guys touched butts on the scissor lift?",
+      "source_discussion": "A buddy of mine and I installed a bunch of LEDs at work and saw an opportunity. Lady's and gentlemen the patron saint of sparkles.",
+      "source_url": "https://reddit.com/r/electricians/comments/edii3i/a_buddy_of_mine_and_i_installed_a_bunch_of_leds/fbi4h4k/",
+      "score": 115,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "They came from the factory with thermal pads, mounted to an aluminum heatsink. It's been my experience that architectural lighting is poorly designed, and overpriced.",
+      "source_discussion": "50 Bad LEDs, installed 3 years ago.",
+      "source_url": "https://reddit.com/r/electricians/comments/qbff95/50_bad_leds_installed_3_years_ago/hh9bga1/",
+      "score": 91,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "You let your servants figure it out.",
+      "source_discussion": "350K Italian piece installed within a 3 story staircase, had to be craned in from a hole made within the ceiling. LED lights are within the feature, to this day it is still my favourite light fitting to install.",
+      "source_url": "https://reddit.com/r/electricians/comments/g4la6z/350k_italian_piece_installed_within_a_3_story/fnyfubr/",
+      "score": 87,
+      "platform": "reddit"
+    }
+  ],
+  "controversies": [],
+  "safety_warnings": []
+}

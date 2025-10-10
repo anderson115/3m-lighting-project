@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "tier": 2,
+    "analysis_method": "llm_semantic",
+    "total_discussions": 226,
+    "platforms": [
+      "reddit"
+    ]
+  },
+  "themes": [
+    {
+      "theme": "LED-Dimmer Compatibility Issues",
+      "description": "Users frequently struggle to find compatible LED dimmers or verify compatibility between existing dimmers and LED fixtures/bulbs",
+      "frequency": 35,
+      "frequency_pct": 15.5,
+      "method": "llm_semantic",
+      "strategic_insight": "Clear compatibility labeling and simplified matching systems are critical for reducing customer confusion and returns",
+      "examples": [
+        {
+          "title": "Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)",
+          "url": "https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/",
+          "id": "o3ihoa"
+        },
+        {
+          "title": "Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?",
+          "url": "https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/",
+          "id": "dx7nnf"
+        },
+        {
+          "title": "Question: Can I use single Toggle light dimmer for LED Pot lights?",
+          "url": "https://reddit.com/r/electricians/comments/nqqiq3/question_can_i_use_single_toggle_light_dimmer_for/",
+          "id": "nqqiq3"
+        }
+      ]
+    },
+    {
+      "theme": "Buzzing and Humming Issues",
+      "description": "LED lights and dimmers frequently produce unwanted buzzing or humming sounds, even when components are supposedly compatible",
+      "frequency": 15,
+      "frequency_pct": 6.6,
+      "method": "llm_semantic",
+      "strategic_insight": "Noise reduction is a major quality concern that affects user satisfaction and may require improved driver design or better dimmer compatibility",
+      "examples": [
+        {
+          "title": "3 way LED dimmer question:",
+          "url": "https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/",
+          "id": "ss8soy"
+        },
+        {
+          "title": "Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on",
+          "url": "https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/",
+          "id": "31aib9"
+        },
+        {
+          "title": "LED light buzzing with dimmer switch",
+          "url": "https://reddit.com/r/electricians/comments/l2x27l/led_light_buzzing_with_dimmer_switch/",
+          "id": "l2x27l"
+        }
+      ]
+    },
+    {
+      "theme": "Flickering and Light Quality Problems",
+      "description": "Users experience persistent flickering issues with LED lighting on dimmers, even with compatible components",
+      "frequency": 20,
+      "frequency_pct": 8.8,
+      "method": "llm_semantic",
+      "strategic_insight": "Flickering remains a critical reliability issue that undermines LED adoption and requires improved driver circuitry or dimmer technology",
+      "examples": [
+        {
+          "title": "Flickering issue with LED on dimmer",
+          "url": "https://reddit.com/r/electricians/comments/k877gi/flickering_issue_with_led_on_dimmer/",
+          "id": "k877gi"
+        },
+        {
+          "title": "Led dimmer switch flicker on cold start",
+          "url": "https://reddit.com/r/electricians/comments/dm20rt/led_dimmer_switch_flicker_on_cold_start/",
+          "id": "dm20rt"
+        },
+        {
+          "title": "LED flicker when dimmer is off.",
+          "url": "https://reddit.com/r/electricians/comments/4mevw0/led_flicker_when_dimmer_is_off/",
+          "id": "4mevw0"
+        }
+      ]
+    },
+    {
+      "theme": "Complex Wiring and Installation Challenges",
+      "description": "DIY users and even professionals encounter complex wiring scenarios that complicate LED dimmer installations",
+      "frequency": 12,
+      "frequency_pct": 5.3,
+      "method": "llm_semantic",
+      "strategic_insight": "Simplified installation processes and better documentation could expand the DIY market and reduce professional installation costs",
+      "examples": [
+        {
+          "title": "Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?",
+          "url": "https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/",
+          "id": "dx7nnf"
+        },
+        {
+          "title": "Need help wiring some LED string lights to an LED compatible dimmer.",
+          "url": "https://reddit.com/r/electricians/comments/b9lmo2/need_help_wiring_some_led_string_lights_to_an_led/",
+          "id": "b9lmo2"
+        },
+        {
+          "title": "Can Reddit explain this wiring to me?",
+          "url": "https://reddit.com/r/electricians/comments/373dp2/can_reddit_explain_this_wiring_to_me/",
+          "id": "373dp2"
+        }
+      ]
+    },
+    {
+      "theme": "Load and Wattage Compatibility Concerns",
+      "description": "Users struggle to understand minimum and maximum load requirements for LED dimmers and whether their specific setup will work",
+      "frequency": 18,
+      "frequency_pct": 8.0,
+      "method": "llm_semantic",
+      "strategic_insight": "Better load calculation tools and clearer specifications could reduce compatibility issues and improve customer confidence",
+      "examples": [
+        {
+          "title": "Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)",
+          "url": "https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/",
+          "id": "o3ihoa"
+        },
+        {
+          "title": "3 way LED dimmer question:",
+          "url": "https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/",
+          "id": "ss8soy"
+        },
+        {
+          "title": "Is this dimmer compatible with 4 number of 15W LED's?",
+          "url": "https://reddit.com/r/electricians/comments/hswf5r/is_this_dimmer_compatible_with_4_number_of_15w/",
+          "id": "hswf5r"
+        }
+      ]
+    },
+    {
+      "theme": "Smart Dimmer and Advanced Control Issues",
+      "description": "Users experience problems with smart dimmers, wireless controls, and advanced dimming features when used with LED lighting",
+      "frequency": 8,
+      "frequency_pct": 3.5,
+      "method": "llm_semantic",
+      "strategic_insight": "The integration of smart controls with LED lighting needs improvement to support growing home automation demand",
+      "examples": [
+        {
+          "title": "Is there a 0-10V smart plug in dimmer?",
+          "url": "https://reddit.com/r/electricians/comments/ozetz6/is_there_a_010v_smart_plug_in_dimmer/",
+          "id": "ozetz6"
+        },
+        {
+          "title": "multiple smart dimmers on one breaker?",
+          "url": "https://reddit.com/r/electricians/comments/se4hny/multiple_smart_dimmers_on_one_breaker/",
+          "id": "se4hny"
+        },
+        {
+          "title": "Lights on Dimmer Acting Extra Funky",
+          "url": "https://reddit.com/r/electricians/comments/lqwxro/lights_on_dimmer_acting_extra_funky/",
+          "id": "lqwxro"
+        }
+      ]
+    },
+    {
+      "theme": "Specialty Application Challenges",
+      "description": "Commercial and specialized lighting applications face unique challenges with LED dimming, including restaurant lighting and track systems",
+      "frequency": 10,
+      "frequency_pct": 4.4,
+      "method": "llm_semantic",
+      "strategic_insight": "Professional and commercial markets need specialized solutions that address higher complexity installations and performance requirements",
+      "examples": [
+        {
+          "title": "Need Advice on Dimmers for a LOT of LEDs in Our Restaurant",
+          "url": "https://reddit.com/r/electricians/comments/cru0ra/need_advice_on_dimmers_for_a_lot_of_leds_in_our/",
+          "id": "cru0ra"
+        },
+        {
+          "title": "LED track lights buzzing...with LED dimmer switches",
+          "url": "https://reddit.com/r/electricians/comments/5qacz7/led_track_lights_buzzingwith_led_dimmer_switches/",
+          "id": "5qacz7"
+        },
+        {
+          "title": "Anyone know what’s causing this ",
+          "url": "https://reddit.com/r/electricians/comments/1hw1opm/anyone_know_whats_causing_this/",
+          "id": "1hw1opm"
+        }
+      ]
+    },
+    {
+      "theme": "Product Reliability and Longevity Issues",
+      "description": "Dimmer switches and LED drivers frequently fail or degrade over time, requiring replacement",
+      "frequency": 8,
+      "frequency_pct": 3.5,
+      "method": "llm_semantic",
+      "strategic_insight": "Improving product durability and providing better warranty support could build customer trust and reduce long-term costs",
+      "examples": [
+        {
+          "title": "Dimmer switch keeps dying",
+          "url": "https://reddit.com/r/electricians/comments/lqltds/dimmer_switch_keeps_dying/",
+          "id": "lqltds"
+        },
+        {
+          "title": "Flickering recessed/pot lights !!!",
+          "url": "https://reddit.com/r/electricians/comments/wu46cj/flickering_recessedpot_lights/",
+          "id": "wu46cj"
+        },
+        {
+          "title": "Need help with dimmer",
+          "url": "https://reddit.com/r/electricians/comments/ehtoxp/need_help_with_dimmer/",
+          "id": "ehtoxp"
+        }
+      ]
+    }
+  ],
+  "consensus_patterns": [
+    {
+      "pattern": "It depends on the dimmer, and the light.\n\n>the switch diverts power to the neutral to lower the amount going to the light to acquire the dim\n\nThat would, in a sense, be true of a resistive dimmer (pot",
+      "source_discussion": "No two Journeyman will give the same answer and I want the science behind why we need a neutral to a dimmer switch. Apprentice here but not the kind you dislike.",
+      "source_url": "https://reddit.com/r/electricians/comments/qnyv8d/no_two_journeyman_will_give_the_same_answer_and_i/hjjjkur/",
+      "score": 245,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Failing capacitors in the LED power supply",
+      "source_discussion": "Light issues, I'm assuming a watt issue?",
+      "source_url": "https://reddit.com/r/electricians/comments/rub151/light_issues_im_assuming_a_watt_issue/hqy0l19/",
+      "score": 147,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "So funny how LED bulbs are sold as 20+ year bulbs, I swear I’ve replaced more leds for bad drivers than I ever did incandescent.",
+      "source_discussion": "Light issues, I'm assuming a watt issue?",
+      "source_url": "https://reddit.com/r/electricians/comments/rub151/light_issues_im_assuming_a_watt_issue/hqym94s/",
+      "score": 134,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Been like that for years. Used to be called “master” and “slave” switches",
+      "source_discussion": "Heads up. New thing to watch out for in service.",
+      "source_url": "https://reddit.com/r/electricians/comments/rlqien/heads_up_new_thing_to_watch_out_for_in_service/hphj2qy/",
+      "score": 98,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "dimmer is the issue..my bet",
+      "source_discussion": "I might have a stroke - why is this happening? More info in comments.",
+      "source_url": "https://reddit.com/r/electricians/comments/tda0dt/i_might_have_a_stroke_why_is_this_happening_more/i0i8b76/",
+      "score": 92,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Non dimmable LED on  dimmer?",
+      "source_discussion": "What could cause this flickering?",
+      "source_url": "https://reddit.com/r/electricians/comments/sn62xg/what_could_cause_this_flickering/hw0odgx/",
+      "score": 89,
+      "platform": "reddit"
+    },
+    {
+      "pattern": ">No two Journeyman will give the same answer\n\nRemember that.  It was the single most valuable lesson I learned as a teenager in my apprenticeship:  Folks will bullshit you instead of admitting they do",
+      "source_discussion": "No two Journeyman will give the same answer and I want the science behind why we need a neutral to a dimmer switch. Apprentice here but not the kind you dislike.",
+      "source_url": "https://reddit.com/r/electricians/comments/qnyv8d/no_two_journeyman_will_give_the_same_answer_and_i/hjjok7o/",
+      "score": 84,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Turns out im a god damn idiot.... On the LED package it said dimmable in large letters but underneath it it said no in small letters. Sorry for wasting peoples time",
+      "source_discussion": "Does anybody have an idea of what's happening here?( More info in comments)",
+      "source_url": "https://reddit.com/r/electricians/comments/ex7sz6/does_anybody_have_an_idea_of_whats_happening_here/fg6riup/",
+      "score": 84,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Screws in your light switch plate aren't vertical",
+      "source_discussion": "What could cause this flickering?",
+      "source_url": "https://reddit.com/r/electricians/comments/sn62xg/what_could_cause_this_flickering/hw16ra5/",
+      "score": 82,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Your driver might be gay",
+      "source_discussion": "LED fixture never goes out. Help?",
+      "source_url": "https://reddit.com/r/electricians/comments/182vc16/led_fixture_never_goes_out_help/kakwucx/",
+      "score": 82,
+      "platform": "reddit"
+    }
+  ],
+  "controversies": [
+    {
+      "topic": "Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)",
+      "url": "https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/",
+      "num_comments": 12,
+      "score": 4,
+      "platform": "reddit"
+    },
+    {
+      "topic": "Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?",
+      "url": "https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/",
+      "num_comments": 13,
+      "score": 0,
+      "platform": "reddit"
+    },
+    {
+      "topic": "Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on",
+      "url": "https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/",
+      "num_comments": 18,
+      "score": 4,
+      "platform": "reddit"
+    },
+    {
+      "topic": "LED track lights buzzing...with LED dimmer switches",
+      "url": "https://reddit.com/r/electricians/comments/5qacz7/led_track_lights_buzzingwith_led_dimmer_switches/",
+      "num_comments": 10,
+      "score": 1,
+      "platform": "reddit"
+    },
+    {
+      "topic": "Lightning ?",
+      "url": "https://reddit.com/r/electricians/comments/1nebsqv/lightning/",
+      "num_comments": 11,
+      "score": 3,
+      "platform": "reddit"
+    }
+  ],
+  "safety_warnings": [
+    {
+      "warning": "Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)",
+      "url": "https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "3 way LED dimmer question:",
+      "url": "https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "Flickering issue with LED on dimmer",
+      "url": "https://reddit.com/r/electricians/comments/k877gi/flickering_issue_with_led_on_dimmer/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on",
+      "url": "https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/",
+      "platform": "reddit",
+      "keyword": "ground"
+    },
+    {
+      "warning": "LED light buzzing with dimmer switch",
+      "url": "https://reddit.com/r/electricians/comments/l2x27l/led_light_buzzing_with_dimmer_switch/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "Is this dimmer compatible with 4 number of 15W LED's?",
+      "url": "https://reddit.com/r/electricians/comments/hswf5r/is_this_dimmer_compatible_with_4_number_of_15w/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "New chandelier light fixture with LED bulbs and dimmer switch - how to I stop the buzzing?",
+      "url": "https://reddit.com/r/electricians/comments/78ayv4/new_chandelier_light_fixture_with_led_bulbs_and/",
+      "platform": "reddit",
+      "keyword": "ground"
+    },
+    {
+      "warning": "Need help wiring some LED string lights to an LED compatible dimmer.",
+      "url": "https://reddit.com/r/electricians/comments/b9lmo2/need_help_wiring_some_led_string_lights_to_an_led/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "LED flicker when dimmer is off.",
+      "url": "https://reddit.com/r/electricians/comments/4mevw0/led_flicker_when_dimmer_is_off/",
+      "platform": "reddit",
+      "keyword": "nec"
+    },
+    {
+      "warning": "Adding a touch dimmer compatible with led bulbs to a lamp",
+      "url": "https://reddit.com/r/electricians/comments/1fvmyn/adding_a_touch_dimmer_compatible_with_led_bulbs/",
+      "platform": "reddit",
+      "keyword": "nec"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "tier": 1,
+    "analysis_method": "rule_based",
+    "total_discussions": 100,
+    "platforms": [
+      "reddit"
+    ]
+  },
+  "themes": [
+    {
+      "theme": "Electrical Safety",
+      "frequency": 63,
+      "frequency_pct": 63.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "LED Strip Lighting",
+          "url": "https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/",
+          "id": "1n2khqa"
+        },
+        {
+          "title": "Commercial Electric LED strip lighting won't dim. Advice?",
+          "url": "https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/",
+          "id": "1lvpw9d"
+        }
+      ]
+    },
+    {
+      "theme": "Dimmer Compatibility",
+      "frequency": 61,
+      "frequency_pct": 61.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Help with LED strip lighting under cabinets",
+          "url": "https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/",
+          "id": "1nnycnf"
+        },
+        {
+          "title": "LED Strip Lighting",
+          "url": "https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/",
+          "id": "1n2khqa"
+        },
+        {
+          "title": "Commercial Electric LED strip lighting won't dim. Advice?",
+          "url": "https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/",
+          "id": "1lvpw9d"
+        }
+      ]
+    },
+    {
+      "theme": "Power Supply",
+      "frequency": 57,
+      "frequency_pct": 57.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "Help with LED strip lighting under cabinets",
+          "url": "https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/",
+          "id": "1nnycnf"
+        },
+        {
+          "title": "LED Strip Lighting",
+          "url": "https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/",
+          "id": "1n2khqa"
+        }
+      ]
+    },
+    {
+      "theme": "Installation Difficulty",
+      "frequency": 52,
+      "frequency_pct": 52.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "Help with LED strip lighting under cabinets",
+          "url": "https://reddit.com/r/electricians/comments/1nnycnf/help_with_led_strip_lighting_under_cabinets/",
+          "id": "1nnycnf"
+        },
+        {
+          "title": "LED lighting rated for freezing temp",
+          "url": "https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/",
+          "id": "1j0f4f7"
+        }
+      ]
+    },
+    {
+      "theme": "Adhesive Mounting",
+      "frequency": 46,
+      "frequency_pct": 46.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "LED Strip Lighting",
+          "url": "https://reddit.com/r/electricians/comments/1n2khqa/led_strip_lighting/",
+          "id": "1n2khqa"
+        },
+        {
+          "title": "Commercial Electric LED strip lighting won't dim. Advice?",
+          "url": "https://reddit.com/r/electricians/comments/1lvpw9d/commercial_electric_led_strip_lighting_wont_dim/",
+          "id": "1lvpw9d"
+        },
+        {
+          "title": "Can I connect LED ceiling light to tail end of LED strip? ",
+          "url": "https://reddit.com/r/electricians/comments/1g9w6a1/can_i_connect_led_ceiling_light_to_tail_end_of/",
+          "id": "1g9w6a1"
+        }
+      ]
+    },
+    {
+      "theme": "Color Accuracy",
+      "frequency": 39,
+      "frequency_pct": 39.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "LED lighting rated for freezing temp",
+          "url": "https://reddit.com/r/electricians/comments/1j0f4f7/led_lighting_rated_for_freezing_temp/",
+          "id": "1j0f4f7"
+        },
+        {
+          "title": "Under Cabinet Strip lighting",
+          "url": "https://reddit.com/r/electricians/comments/1dh6u5p/under_cabinet_strip_lighting/",
+          "id": "1dh6u5p"
+        }
+      ]
+    },
+    {
+      "theme": "Heat Issues",
+      "frequency": 29,
+      "frequency_pct": 29.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "Love being an electrician! I was able to salvage a damaged LED strip fixture and retro an old Budweiser pool light. This isn’t the final home for this bad boy but I’m pretty happy how it came out.",
+          "url": "https://reddit.com/r/electricians/comments/9fxe73/love_being_an_electrician_i_was_able_to_salvage_a/",
+          "id": "9fxe73"
+        },
+        {
+          "title": "How to create a (Renter Friendly) Geometric Wall using Strip lights? Ok so I wanted to create this geometric design using washi tape on a wall in my apartment. But then I had an idea to create this design using led strip lights! The problem is that I have absolutely no clue how to do it. Any ideas?",
+          "url": "https://reddit.com/r/electricians/comments/tozcuw/how_to_create_a_renter_friendly_geometric_wall/",
+          "id": "tozcuw"
+        }
+      ]
+    },
+    {
+      "theme": "Durability",
+      "frequency": 17,
+      "frequency_pct": 17.0,
+      "method": "rule_based",
+      "examples": [
+        {
+          "title": "Florescent lighting is dead",
+          "url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/",
+          "id": "1mtnyd4"
+        },
+        {
+          "title": "Looking for led strips for custom bar lighting",
+          "url": "https://reddit.com/r/electricians/comments/vyl0lr/looking_for_led_strips_for_custom_bar_lighting/",
+          "id": "vyl0lr"
+        },
+        {
+          "title": "LED strip lights. 1x3 with LEDs on top and under,magnets on the face. 5” Board has metal bar to be held up with magnets.",
+          "url": "https://reddit.com/r/electricians/comments/vkoyj9/led_strip_lights_1x3_with_leds_on_top_and/",
+          "id": "vkoyj9"
+        }
+      ]
+    }
+  ],
+  "consensus_patterns": [
+    {
+      "pattern": "And nobody misses them. Unlike incandescents which are better than LEDs in certain applications, LEDs are just across the board superior to fluorescents in light output, compactness, light quality, ef",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cxphu/",
+      "score": 790,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "T12 have been dead for a while now",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cvjct/",
+      "score": 350,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "And in a lot of cases that people think that is better than LED it’s because the LEDs they chose weren’t selected properly. In social situations, I am amazed at how many people ask about LED bulbs and",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cybrw/",
+      "score": 313,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "\"I wanted bright light, so I picked the 6500k bulbs\"",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cz8f2/",
+      "score": 313,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "I just wish it was easier to find a fixture that used replaceable bulbs and not integrated LED light strips.",
+      "source_discussion": "Florescent lighting is dead",
+      "source_url": "https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9czj9c/",
+      "score": 176,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "My brain just flipped this to attic. I know there's an outlet up there for the exhaust fan, and I hate bringing not-enough-lights, so genius.\n\nThanks!",
+      "source_discussion": "Gotta work under the house? Install a basic long LED strip.",
+      "source_url": "https://reddit.com/r/HomeImprovement/comments/rwbxyy/gotta_work_under_the_house_install_a_basic_long/hrb4kmj/",
+      "score": 145,
+      "platform": "reddit"
+    },
+    {
+      "pattern": "Here's a pic of what it looks like...\n\n[https://flic.kr/p/2mVfg7u](https://flic.kr/p/2mVfg7u)\n\nIt's about 25 feet of straight run, then it takes a turn under part of the house where the main PEX manif",
+      "source_discussion": "Gotta work under the house? Install a basic long LED strip.",
+      "source_url": "https://reddit.com/r/HomeImprovement/comments/rwbxyy/gotta_work_under_the_house_install_a_basic_long/hrb76ux/",
+      "score": 70,
+      "platform": "reddit"
+    }
+  ],
+  "controversies": [],
+  "safety_warnings": []
+}

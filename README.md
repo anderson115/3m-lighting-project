@@ -74,11 +74,14 @@ python scripts/run_preflight_analysis.py
 │   │   └── README.md                # Full documentation
 │   ├── youtube-datasource/          # ✅ YouTube video analysis (PRODUCTION)
 │   │   └── scripts/                 # Whisper + LLaVA pipeline
-│   ├── expert-authority/            # ✅ Expert discussion analysis (PREFLIGHT COMPLETE)
-│   │   ├── scripts/                 # Preflight test + tier-based system
-│   │   ├── data/deliverables/       # HTML reports (preflight passed)
-│   │   ├── docs/                    # PRD v4.0 + implementation specs
-│   │   └── README.md                # 3-tier pricing ($299/$799/$1,999)
+│   ├── expert-authority/            # ✅ Reddit/Stack Exchange analysis (PRODUCTION)
+│   │   ├── core/                    # Orchestrator + configuration
+│   │   ├── scrapers/                # Reddit (PRAW) + Stack Exchange APIs
+│   │   ├── analyzers/               # LLM semantic analysis (Tier 2/3)
+│   │   ├── reporters/               # HTML + Excel report generation
+│   │   ├── data/                    # Cache + reports
+│   │   ├── docs/                    # PRD v4.0 + technical specs
+│   │   └── README.md                # Full documentation + usage examples
 │   ├── social-signal/               # 📋 Visual social analysis (PLANNED)
 │   │   └── README.md                # Pinterest, Instagram, TikTok trends
 │   └── creator-discovery/           # 📋 Creator identification (PLANNED)

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Tier2_LED_Dimming - Expert Authority Analysis</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0066cc;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .tier-1 { background: #95a5a6; color: white; }
+        .tier-2 { background: #1abc9c; color: white; }
+        .tier-3 { background: #f39c12; color: white; }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .metadata {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0066cc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section-description {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+
+        .theme-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .theme-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .theme-stats {
+            margin: 10px 0;
+        }
+
+        .frequency {
+            background: #0066cc;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .count {
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .theme-description {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .strategic-insight {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border-left: 3px solid #ffc107;
+        }
+
+        .examples {
+            margin-top: 15px;
+        }
+
+        .examples h4 {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
+        .examples ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .examples li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .examples li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+        }
+
+        .citation-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .citation-link:hover {
+            text-decoration: underline;
+        }
+
+        .view-original {
+            color: #28a745;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .view-original:hover {
+            text-decoration: underline;
+        }
+
+        .consensus-item {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .consensus-header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .consensus-number {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .consensus-score {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .platform-badge {
+            background: #6c757d;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .accepted-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .consensus-pattern {
+            margin: 10px 0;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .consensus-source {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Test_Tier2_LED_Dimming</h1>
+            <div class="tier-badge tier-2">PROFESSIONAL TIER</div>
+            <p class="subtitle">Expert Authority Analysis - Tier 2</p>
+            <p class="metadata">Generated: 2025-10-09 23:07:01</p>
+        </header>
+
+        <section class="summary">
+            <h2>📊 Analysis Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">182</div>
+                    <div class="stat-label">Discussions Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Themes Discovered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">1</div>
+                    <div class="stat-label">Consensus Patterns</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">reddit</div>
+                    <div class="stat-label">Data Sources</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="themes">
+            <h2>🎯 Key Themes</h2>
+            
+        <div class="theme-card">
+            <h3>1. Dimmer Compatibility</h3>
+            <div class="theme-stats">
+                <span class="frequency">91.2%</span>
+                <span class="count">(166 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="citation-link">Surge protector noise</a> [<a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>2. Electrical Safety</h3>
+            <div class="theme-stats">
+                <span class="frequency">78.0%</span>
+                <span class="count">(142 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="citation-link">Surge protector noise</a> [<a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="citation-link">Possible to have 1 dimmer control for this setup? (Canada)</a> [<a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>3. Power Supply</h3>
+            <div class="theme-stats">
+                <span class="frequency">73.6%</span>
+                <span class="count">(134 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="citation-link">Surge protector noise</a> [<a href="https://reddit.com/r/electricians/comments/lb8vgm/surge_protector_noise/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>4. Installation Difficulty</h3>
+            <div class="theme-stats">
+                <span class="frequency">51.1%</span>
+                <span class="count">(93 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="citation-link">Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</a> [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>5. Heat Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">35.7%</span>
+                <span class="count">(65 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="citation-link">Possible to have 1 dimmer control for this setup? (Canada)</a> [<a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>6. Adhesive Mounting</h3>
+            <div class="theme-stats">
+                <span class="frequency">31.3%</span>
+                <span class="count">(57 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="citation-link">Possible to have 1 dimmer control for this setup? (Canada)</a> [<a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="citation-link">Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</a> [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>7. Color Accuracy</h3>
+            <div class="theme-stats">
+                <span class="frequency">28.0%</span>
+                <span class="count">(51 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="citation-link">Need Help Figuring out LED Strip Power</a> [<a href="https://reddit.com/r/electricians/comments/da1o6t/need_help_figuring_out_led_strip_power/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="citation-link">Possible to have 1 dimmer control for this setup? (Canada)</a> [<a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>8. Durability</h3>
+            <div class="theme-stats">
+                <span class="frequency">22.0%</span>
+                <span class="count">(40 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="citation-link">What are you using for LED tape for undercabinet lighting?</a> [<a href="https://reddit.com/r/electricians/comments/f1s90k/what_are_you_using_for_led_tape_for_undercabinet/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/kw99g7/tried_half_a_dozen_led_dimmer_switch_and_bulb/" target="_blank" class="citation-link">Tried half a dozen LED dimmer Switch and Bulb brand combinations, I can not get flicker free dimming in my house.</a> [<a href="https://reddit.com/r/electricians/comments/kw99g7/tried_half_a_dozen_led_dimmer_switch_and_bulb/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/m0xn14/recommendations_for_led_strip_lighting_systems/" target="_blank" class="citation-link">Recommendations for LED strip lighting systems that could plausibly last decades? Any systems that stand out for solid connectors/installation/options?</a> [<a href="https://reddit.com/r/electricians/comments/m0xn14/recommendations_for_led_strip_lighting_systems/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="consensus">
+            <h2>✅ Consensus Patterns</h2>
+            <p class="section-description">Widely-agreed solutions and best practices from expert community</p>
+            <div class="consensus-list">
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#1</span>
+                <span class="consensus-score">Score: 50</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">You should reevaluate your relationship if this is a big problem.</p>
+            <p class="consensus-source">From: <em>I am an LED idiot. My gf may now leave me.</em></p>
+            <a href="https://reddit.com/r/electricians/comments/2ww6au/i_am_an_led_idiot_my_gf_may_now_leave_me/cous65q/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+</div>
+
+        </section>
+
+        
+        <section class="controversies">
+            <h2>⚠️ Controversial Topics</h2>
+            <p class="section-description">Topics where experts show significant disagreement</p>
+            <div class="controversy-list">
+
+                <div class="controversy-item">
+                    <h4>Need a bit of advice on putting LED strips under stair treads</h4>
+                    <p>Comments: 26 | Score: 3 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/hucvye/need_a_bit_of_advice_on_putting_led_strips_under/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>How to bend cod led strip so there wont be dim corners like that</h4>
+                    <p>Comments: 10 | Score: 1 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/xa6sox/how_to_bend_cod_led_strip_so_there_wont_be_dim/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>First year apprentice here. Many of the led can lights that came with my house look like they are fully dimmed but I don't have dimmer switches. The wire isn't damaged at the fixture and the connections are good. Should the wire in the switch be stripped? I've never dealt with switches like this.</h4>
+                    <p>Comments: 14 | Score: 6 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/s7yiou/first_year_apprentice_here_many_of_the_led_can/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>Tried half a dozen LED dimmer Switch and Bulb brand combinations, I can not get flicker free dimming in my house.</h4>
+                    <p>Comments: 20 | Score: 3 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/kw99g7/tried_half_a_dozen_led_dimmer_switch_and_bulb/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>Lutron Caseta switch, LED dim when off</h4>
+                    <p>Comments: 23 | Score: 3 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/a6ukw7/lutron_caseta_switch_led_dim_when_off/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety-warnings">
+            <h2>🚨 Safety Warnings & Code Compliance</h2>
+            <p class="section-description">Expert discussions mentioning electrical codes and safety concerns</p>
+            <ul class="warning-list">
+
+                <li>
+                    <strong>Possible to have 1 dimmer control for this setup? (Canada)</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/5ri0o3/possible_to_have_1_dimmer_control_for_this_setup/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Need a bit of advice on putting LED strips under stair treads</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/hucvye/need_a_bit_of_advice_on_putting_led_strips_under/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>How to bend cod led strip so there wont be dim corners like that</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/xa6sox/how_to_bend_cod_led_strip_so_there_wont_be_dim/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>First year apprentice here. Many of the led can lights that came with my house look like they are fully dimmed but I don't have dimmer switches. The wire isn't damaged at the fixture and the connections are good. Should the wire in the switch be stripped? I've never dealt with switches like this.</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/s7yiou/first_year_apprentice_here_many_of_the_led_can/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Lutron Caseta switch, LED dim when off</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/a6ukw7/lutron_caseta_switch_led_dim_when_off/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Feeding few addressable led strips from the same controller?</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/u7sm7t/feeding_few_addressable_led_strips_from_the_same/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Help with LED strip not displaying correct colors.</strong> (Keyword: code)
+                    [<a href="https://reddit.com/r/electricians/comments/gf4cpq/help_with_led_strip_not_displaying_correct_colors/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Having issues finding a guide to diy wiring this type of rgb led strip. Can someone explain what each of these contacts do exactly? (probably not the best sub to post to but this was the first one that came to mind, sorry and thankyou)</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/a8u1nx/having_issues_finding_a_guide_to_diy_wiring_this/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Turning on my LED strip cuts off my internet</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/mssi5n/turning_on_my_led_strip_cuts_off_my_internet/" target="_blank" class="view-original">View Original</a>]
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="methodology">
+            <h2>📋 Methodology</h2>
+            <p><strong>Analysis Method:</strong> llm_semantic</p>
+            <p><strong>Platforms:</strong> reddit</p>
+            <p><strong>Total Discussions:</strong> 182</p>
+            <p><strong>Citation Integrity:</strong> All insights are linked to original expert discussions. Click "View Original" to verify source.</p>
+        </section>
+
+        <footer>
+            <p>Expert Authority Module - 3M Lighting Project</p>
+            <p>100% Real Data - No Synthetic Content - Full Citation Validation</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick_Test_Tier2 - Expert Authority Analysis</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0066cc;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .tier-1 { background: #95a5a6; color: white; }
+        .tier-2 { background: #1abc9c; color: white; }
+        .tier-3 { background: #f39c12; color: white; }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .metadata {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0066cc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section-description {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+
+        .theme-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .theme-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .theme-stats {
+            margin: 10px 0;
+        }
+
+        .frequency {
+            background: #0066cc;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .count {
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .theme-description {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .strategic-insight {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border-left: 3px solid #ffc107;
+        }
+
+        .examples {
+            margin-top: 15px;
+        }
+
+        .examples h4 {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
+        .examples ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .examples li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .examples li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+        }
+
+        .citation-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .citation-link:hover {
+            text-decoration: underline;
+        }
+
+        .view-original {
+            color: #28a745;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .view-original:hover {
+            text-decoration: underline;
+        }
+
+        .consensus-item {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .consensus-header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .consensus-number {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .consensus-score {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .platform-badge {
+            background: #6c757d;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .accepted-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .consensus-pattern {
+            margin: 10px 0;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .consensus-source {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quick_Test_Tier2</h1>
+            <div class="tier-badge tier-2">PROFESSIONAL TIER</div>
+            <p class="subtitle">Expert Authority Analysis - Tier 2</p>
+            <p class="metadata">Generated: 2025-10-10 00:13:42</p>
+        </header>
+
+        <section class="summary">
+            <h2>📊 Analysis Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">226</div>
+                    <div class="stat-label">Discussions Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Themes Discovered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">10</div>
+                    <div class="stat-label">Consensus Patterns</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">reddit</div>
+                    <div class="stat-label">Data Sources</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="themes">
+            <h2>🎯 Key Themes</h2>
+            
+        <div class="theme-card">
+            <h3>1. LED-Dimmer Compatibility Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">15.5%</span>
+                <span class="count">(35 discussions)</span>
+            </div>
+            <p class="theme-description">Users frequently struggle to find compatible LED dimmers or verify compatibility between existing dimmers and LED fixtures/bulbs</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Clear compatibility labeling and simplified matching systems are critical for reducing customer confusion and returns</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="citation-link">Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)</a> [<a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/" target="_blank" class="citation-link">Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?</a> [<a href="https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/nqqiq3/question_can_i_use_single_toggle_light_dimmer_for/" target="_blank" class="citation-link">Question: Can I use single Toggle light dimmer for LED Pot lights?</a> [<a href="https://reddit.com/r/electricians/comments/nqqiq3/question_can_i_use_single_toggle_light_dimmer_for/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>2. Buzzing and Humming Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">6.6%</span>
+                <span class="count">(15 discussions)</span>
+            </div>
+            <p class="theme-description">LED lights and dimmers frequently produce unwanted buzzing or humming sounds, even when components are supposedly compatible</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Noise reduction is a major quality concern that affects user satisfaction and may require improved driver design or better dimmer compatibility</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/" target="_blank" class="citation-link">3 way LED dimmer question:</a> [<a href="https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/" target="_blank" class="citation-link">Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on</a> [<a href="https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/l2x27l/led_light_buzzing_with_dimmer_switch/" target="_blank" class="citation-link">LED light buzzing with dimmer switch</a> [<a href="https://reddit.com/r/electricians/comments/l2x27l/led_light_buzzing_with_dimmer_switch/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>3. Flickering and Light Quality Problems</h3>
+            <div class="theme-stats">
+                <span class="frequency">8.8%</span>
+                <span class="count">(20 discussions)</span>
+            </div>
+            <p class="theme-description">Users experience persistent flickering issues with LED lighting on dimmers, even with compatible components</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Flickering remains a critical reliability issue that undermines LED adoption and requires improved driver circuitry or dimmer technology</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/k877gi/flickering_issue_with_led_on_dimmer/" target="_blank" class="citation-link">Flickering issue with LED on dimmer</a> [<a href="https://reddit.com/r/electricians/comments/k877gi/flickering_issue_with_led_on_dimmer/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/dm20rt/led_dimmer_switch_flicker_on_cold_start/" target="_blank" class="citation-link">Led dimmer switch flicker on cold start</a> [<a href="https://reddit.com/r/electricians/comments/dm20rt/led_dimmer_switch_flicker_on_cold_start/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4mevw0/led_flicker_when_dimmer_is_off/" target="_blank" class="citation-link">LED flicker when dimmer is off.</a> [<a href="https://reddit.com/r/electricians/comments/4mevw0/led_flicker_when_dimmer_is_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>4. Complex Wiring and Installation Challenges</h3>
+            <div class="theme-stats">
+                <span class="frequency">5.3%</span>
+                <span class="count">(12 discussions)</span>
+            </div>
+            <p class="theme-description">DIY users and even professionals encounter complex wiring scenarios that complicate LED dimmer installations</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Simplified installation processes and better documentation could expand the DIY market and reduce professional installation costs</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/" target="_blank" class="citation-link">Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?</a> [<a href="https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/b9lmo2/need_help_wiring_some_led_string_lights_to_an_led/" target="_blank" class="citation-link">Need help wiring some LED string lights to an LED compatible dimmer.</a> [<a href="https://reddit.com/r/electricians/comments/b9lmo2/need_help_wiring_some_led_string_lights_to_an_led/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/373dp2/can_reddit_explain_this_wiring_to_me/" target="_blank" class="citation-link">Can Reddit explain this wiring to me?</a> [<a href="https://reddit.com/r/electricians/comments/373dp2/can_reddit_explain_this_wiring_to_me/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>5. Load and Wattage Compatibility Concerns</h3>
+            <div class="theme-stats">
+                <span class="frequency">8.0%</span>
+                <span class="count">(18 discussions)</span>
+            </div>
+            <p class="theme-description">Users struggle to understand minimum and maximum load requirements for LED dimmers and whether their specific setup will work</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Better load calculation tools and clearer specifications could reduce compatibility issues and improve customer confidence</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="citation-link">Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)</a> [<a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/" target="_blank" class="citation-link">3 way LED dimmer question:</a> [<a href="https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/hswf5r/is_this_dimmer_compatible_with_4_number_of_15w/" target="_blank" class="citation-link">Is this dimmer compatible with 4 number of 15W LED's?</a> [<a href="https://reddit.com/r/electricians/comments/hswf5r/is_this_dimmer_compatible_with_4_number_of_15w/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>6. Smart Dimmer and Advanced Control Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">3.5%</span>
+                <span class="count">(8 discussions)</span>
+            </div>
+            <p class="theme-description">Users experience problems with smart dimmers, wireless controls, and advanced dimming features when used with LED lighting</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> The integration of smart controls with LED lighting needs improvement to support growing home automation demand</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/ozetz6/is_there_a_010v_smart_plug_in_dimmer/" target="_blank" class="citation-link">Is there a 0-10V smart plug in dimmer?</a> [<a href="https://reddit.com/r/electricians/comments/ozetz6/is_there_a_010v_smart_plug_in_dimmer/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/se4hny/multiple_smart_dimmers_on_one_breaker/" target="_blank" class="citation-link">multiple smart dimmers on one breaker?</a> [<a href="https://reddit.com/r/electricians/comments/se4hny/multiple_smart_dimmers_on_one_breaker/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/lqwxro/lights_on_dimmer_acting_extra_funky/" target="_blank" class="citation-link">Lights on Dimmer Acting Extra Funky</a> [<a href="https://reddit.com/r/electricians/comments/lqwxro/lights_on_dimmer_acting_extra_funky/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>7. Specialty Application Challenges</h3>
+            <div class="theme-stats">
+                <span class="frequency">4.4%</span>
+                <span class="count">(10 discussions)</span>
+            </div>
+            <p class="theme-description">Commercial and specialized lighting applications face unique challenges with LED dimming, including restaurant lighting and track systems</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Professional and commercial markets need specialized solutions that address higher complexity installations and performance requirements</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/cru0ra/need_advice_on_dimmers_for_a_lot_of_leds_in_our/" target="_blank" class="citation-link">Need Advice on Dimmers for a LOT of LEDs in Our Restaurant</a> [<a href="https://reddit.com/r/electricians/comments/cru0ra/need_advice_on_dimmers_for_a_lot_of_leds_in_our/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/5qacz7/led_track_lights_buzzingwith_led_dimmer_switches/" target="_blank" class="citation-link">LED track lights buzzing...with LED dimmer switches</a> [<a href="https://reddit.com/r/electricians/comments/5qacz7/led_track_lights_buzzingwith_led_dimmer_switches/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1hw1opm/anyone_know_whats_causing_this/" target="_blank" class="citation-link">Anyone know what’s causing this </a> [<a href="https://reddit.com/r/electricians/comments/1hw1opm/anyone_know_whats_causing_this/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>8. Product Reliability and Longevity Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">3.5%</span>
+                <span class="count">(8 discussions)</span>
+            </div>
+            <p class="theme-description">Dimmer switches and LED drivers frequently fail or degrade over time, requiring replacement</p>
+            <p class="strategic-insight"><strong>Strategic Insight:</strong> Improving product durability and providing better warranty support could build customer trust and reduce long-term costs</p>
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/lqltds/dimmer_switch_keeps_dying/" target="_blank" class="citation-link">Dimmer switch keeps dying</a> [<a href="https://reddit.com/r/electricians/comments/lqltds/dimmer_switch_keeps_dying/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/wu46cj/flickering_recessedpot_lights/" target="_blank" class="citation-link">Flickering recessed/pot lights !!!</a> [<a href="https://reddit.com/r/electricians/comments/wu46cj/flickering_recessedpot_lights/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/ehtoxp/need_help_with_dimmer/" target="_blank" class="citation-link">Need help with dimmer</a> [<a href="https://reddit.com/r/electricians/comments/ehtoxp/need_help_with_dimmer/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="consensus">
+            <h2>✅ Consensus Patterns</h2>
+            <p class="section-description">Widely-agreed solutions and best practices from expert community</p>
+            <div class="consensus-list">
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#1</span>
+                <span class="consensus-score">Score: 245</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">It depends on the dimmer, and the light.
+
+>the switch diverts power to the neutral to lower the amount going to the light to acquire the dim
+
+That would, in a sense, be true of a resistive dimmer (pot</p>
+            <p class="consensus-source">From: <em>No two Journeyman will give the same answer and I want the science behind why we need a neutral to a dimmer switch. Apprentice here but not the kind you dislike.</em></p>
+            <a href="https://reddit.com/r/electricians/comments/qnyv8d/no_two_journeyman_will_give_the_same_answer_and_i/hjjjkur/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#2</span>
+                <span class="consensus-score">Score: 147</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Failing capacitors in the LED power supply</p>
+            <p class="consensus-source">From: <em>Light issues, I'm assuming a watt issue?</em></p>
+            <a href="https://reddit.com/r/electricians/comments/rub151/light_issues_im_assuming_a_watt_issue/hqy0l19/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#3</span>
+                <span class="consensus-score">Score: 134</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">So funny how LED bulbs are sold as 20+ year bulbs, I swear I’ve replaced more leds for bad drivers than I ever did incandescent.</p>
+            <p class="consensus-source">From: <em>Light issues, I'm assuming a watt issue?</em></p>
+            <a href="https://reddit.com/r/electricians/comments/rub151/light_issues_im_assuming_a_watt_issue/hqym94s/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#4</span>
+                <span class="consensus-score">Score: 98</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Been like that for years. Used to be called “master” and “slave” switches</p>
+            <p class="consensus-source">From: <em>Heads up. New thing to watch out for in service.</em></p>
+            <a href="https://reddit.com/r/electricians/comments/rlqien/heads_up_new_thing_to_watch_out_for_in_service/hphj2qy/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#5</span>
+                <span class="consensus-score">Score: 92</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">dimmer is the issue..my bet</p>
+            <p class="consensus-source">From: <em>I might have a stroke - why is this happening? More info in comments.</em></p>
+            <a href="https://reddit.com/r/electricians/comments/tda0dt/i_might_have_a_stroke_why_is_this_happening_more/i0i8b76/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#6</span>
+                <span class="consensus-score">Score: 89</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Non dimmable LED on  dimmer?</p>
+            <p class="consensus-source">From: <em>What could cause this flickering?</em></p>
+            <a href="https://reddit.com/r/electricians/comments/sn62xg/what_could_cause_this_flickering/hw0odgx/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#7</span>
+                <span class="consensus-score">Score: 84</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">>No two Journeyman will give the same answer
+
+Remember that.  It was the single most valuable lesson I learned as a teenager in my apprenticeship:  Folks will bullshit you instead of admitting they do</p>
+            <p class="consensus-source">From: <em>No two Journeyman will give the same answer and I want the science behind why we need a neutral to a dimmer switch. Apprentice here but not the kind you dislike.</em></p>
+            <a href="https://reddit.com/r/electricians/comments/qnyv8d/no_two_journeyman_will_give_the_same_answer_and_i/hjjok7o/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#8</span>
+                <span class="consensus-score">Score: 84</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Turns out im a god damn idiot.... On the LED package it said dimmable in large letters but underneath it it said no in small letters. Sorry for wasting peoples time</p>
+            <p class="consensus-source">From: <em>Does anybody have an idea of what's happening here?( More info in comments)</em></p>
+            <a href="https://reddit.com/r/electricians/comments/ex7sz6/does_anybody_have_an_idea_of_whats_happening_here/fg6riup/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#9</span>
+                <span class="consensus-score">Score: 82</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Screws in your light switch plate aren't vertical</p>
+            <p class="consensus-source">From: <em>What could cause this flickering?</em></p>
+            <a href="https://reddit.com/r/electricians/comments/sn62xg/what_could_cause_this_flickering/hw16ra5/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#10</span>
+                <span class="consensus-score">Score: 82</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Your driver might be gay</p>
+            <p class="consensus-source">From: <em>LED fixture never goes out. Help?</em></p>
+            <a href="https://reddit.com/r/electricians/comments/182vc16/led_fixture_never_goes_out_help/kakwucx/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+</div>
+
+        </section>
+
+        
+        <section class="controversies">
+            <h2>⚠️ Controversial Topics</h2>
+            <p class="section-description">Topics where experts show significant disagreement</p>
+            <div class="controversy-list">
+
+                <div class="controversy-item">
+                    <h4>Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)</h4>
+                    <p>Comments: 12 | Score: 4 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>Went to install a dimmer switch (confirmed compatible with my led lights) and this is what I found. Of course it’s not as simple as matching the red and black wires that correspond with the dimmer switch. Any thoughts on how to proceed?</h4>
+                    <p>Comments: 13 | Score: 0 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/dx7nnf/went_to_install_a_dimmer_switch_confirmed/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on</h4>
+                    <p>Comments: 18 | Score: 4 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>LED track lights buzzing...with LED dimmer switches</h4>
+                    <p>Comments: 10 | Score: 1 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/5qacz7/led_track_lights_buzzingwith_led_dimmer_switches/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+
+                <div class="controversy-item">
+                    <h4>Lightning ?</h4>
+                    <p>Comments: 11 | Score: 3 | Platform: reddit</p>
+                    <a href="https://reddit.com/r/electricians/comments/1nebsqv/lightning/" target="_blank" class="view-original">View Discussion</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety-warnings">
+            <h2>🚨 Safety Warnings & Code Compliance</h2>
+            <p class="section-description">Expert discussions mentioning electrical codes and safety concerns</p>
+            <ul class="warning-list">
+
+                <li>
+                    <strong>Trying to find a compatible LED dimmer for my fixture, will this work or is the max wattage too low for the LED's output? (I am not an electrician and don't want to burn my house down)</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/o3ihoa/trying_to_find_a_compatible_led_dimmer_for_my/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>3 way LED dimmer question:</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/ss8soy/3_way_led_dimmer_question/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Flickering issue with LED on dimmer</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/k877gi/flickering_issue_with_led_on_dimmer/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Installed some led light and dimmer but circuit breaker box and dimmer, makes buzzing noise when light on</strong> (Keyword: ground)
+                    [<a href="https://reddit.com/r/electricians/comments/31aib9/installed_some_led_light_and_dimmer_but_circuit/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>LED light buzzing with dimmer switch</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/l2x27l/led_light_buzzing_with_dimmer_switch/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Is this dimmer compatible with 4 number of 15W LED's?</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/hswf5r/is_this_dimmer_compatible_with_4_number_of_15w/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>New chandelier light fixture with LED bulbs and dimmer switch - how to I stop the buzzing?</strong> (Keyword: ground)
+                    [<a href="https://reddit.com/r/electricians/comments/78ayv4/new_chandelier_light_fixture_with_led_bulbs_and/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Need help wiring some LED string lights to an LED compatible dimmer.</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/b9lmo2/need_help_wiring_some_led_string_lights_to_an_led/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>LED flicker when dimmer is off.</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/4mevw0/led_flicker_when_dimmer_is_off/" target="_blank" class="view-original">View Original</a>]
+                </li>
+
+                <li>
+                    <strong>Adding a touch dimmer compatible with led bulbs to a lamp</strong> (Keyword: nec)
+                    [<a href="https://reddit.com/r/electricians/comments/1fvmyn/adding_a_touch_dimmer_compatible_with_led_bulbs/" target="_blank" class="view-original">View Original</a>]
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="methodology">
+            <h2>📋 Methodology</h2>
+            <p><strong>Analysis Method:</strong> llm_semantic</p>
+            <p><strong>Platforms:</strong> reddit</p>
+            <p><strong>Total Discussions:</strong> 226</p>
+            <p><strong>Citation Integrity:</strong> All insights are linked to original expert discussions. Click "View Original" to verify source.</p>
+        </section>
+
+        <footer>
+            <p>Expert Authority Module - 3M Lighting Project</p>
+            <p>100% Real Data - No Synthetic Content - Full Citation Validation</p>
+        </footer>
+    </div>
+</body>
+</html>

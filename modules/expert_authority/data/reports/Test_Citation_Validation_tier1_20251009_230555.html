@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Citation_Validation - Expert Authority Analysis</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #0066cc;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0066cc;
+            margin-bottom: 10px;
+        }
+
+        .tier-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .tier-1 { background: #95a5a6; color: white; }
+        .tier-2 { background: #1abc9c; color: white; }
+        .tier-3 { background: #f39c12; color: white; }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .metadata {
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0066cc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section-description {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+
+        .theme-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .theme-card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .theme-stats {
+            margin: 10px 0;
+        }
+
+        .frequency {
+            background: #0066cc;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .count {
+            color: #666;
+            margin-left: 10px;
+        }
+
+        .theme-description {
+            margin: 15px 0;
+            color: #555;
+        }
+
+        .strategic-insight {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+            border-left: 3px solid #ffc107;
+        }
+
+        .examples {
+            margin-top: 15px;
+        }
+
+        .examples h4 {
+            color: #666;
+            font-size: 1em;
+            margin-bottom: 8px;
+        }
+
+        .examples ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .examples li {
+            margin: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .examples li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #0066cc;
+        }
+
+        .citation-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .citation-link:hover {
+            text-decoration: underline;
+        }
+
+        .view-original {
+            color: #28a745;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .view-original:hover {
+            text-decoration: underline;
+        }
+
+        .consensus-item {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+        }
+
+        .consensus-header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .consensus-number {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: bold;
+        }
+
+        .consensus-score {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .platform-badge {
+            background: #6c757d;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .accepted-badge {
+            background: #28a745;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .consensus-pattern {
+            margin: 10px 0;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .consensus-source {
+            color: #666;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Test_Citation_Validation</h1>
+            <div class="tier-badge tier-1">ESSENTIAL TIER</div>
+            <p class="subtitle">Expert Authority Analysis - Tier 1</p>
+            <p class="metadata">Generated: 2025-10-09 23:05:55</p>
+        </header>
+
+        <section class="summary">
+            <h2>📊 Analysis Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">100</div>
+                    <div class="stat-label">Discussions Analyzed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">8</div>
+                    <div class="stat-label">Themes Discovered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">10</div>
+                    <div class="stat-label">Consensus Patterns</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">reddit</div>
+                    <div class="stat-label">Data Sources</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="themes">
+            <h2>🎯 Key Themes</h2>
+            
+        <div class="theme-card">
+            <h3>1. Electrical Safety</h3>
+            <div class="theme-stats">
+                <span class="frequency">70.0%</span>
+                <span class="count">(70 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="citation-link">In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.</a> [<a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/tl4653/how_dangerous_is_it_to_use_ungrounded_outlets_for/" target="_blank" class="citation-link">How dangerous is it to use ungrounded outlets for an office setup?</a> [<a href="https://reddit.com/r/electricians/comments/tl4653/how_dangerous_is_it_to_use_ungrounded_outlets_for/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/" target="_blank" class="citation-link">Weird electrical problem causing my monitor to shut down and back up.</a> [<a href="https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>2. Power Supply</h3>
+            <div class="theme-stats">
+                <span class="frequency">65.0%</span>
+                <span class="count">(65 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="citation-link">In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.</a> [<a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/" target="_blank" class="citation-link">LED Lighting course, domotics</a> [<a href="https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="citation-link">Thin gloves for low voltage work?</a> [<a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>3. Dimmer Compatibility</h3>
+            <div class="theme-stats">
+                <span class="frequency">51.0%</span>
+                <span class="count">(51 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/" target="_blank" class="citation-link">LED Lighting course, domotics</a> [<a href="https://reddit.com/r/electricians/comments/qinhmq/led_lighting_course_domotics/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="citation-link">Installing ceiling lights for the wife’s office</a> [<a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="citation-link">Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</a> [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>4. Adhesive Mounting</h3>
+            <div class="theme-stats">
+                <span class="frequency">38.0%</span>
+                <span class="count">(38 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="citation-link">Looking for a picture of a floor mounted led strip working as a emergency exit light.</a> [<a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="citation-link">In-line low voltage fuses? Easy to use fuse box? I have a 1000 amps 5V PSU feeding multiple lines which are attached to various led strips.</a> [<a href="https://reddit.com/r/electricians/comments/f97r3p/inline_low_voltage_fuses_easy_to_use_fuse_box_i/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="citation-link">Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</a> [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>5. Installation Difficulty</h3>
+            <div class="theme-stats">
+                <span class="frequency">35.0%</span>
+                <span class="count">(35 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="citation-link">Installing ceiling lights for the wife’s office</a> [<a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4o4mts/upgrading_burning_man_theme_camp_power_grid_need/" target="_blank" class="citation-link">Upgrading Burning Man Theme Camp Power Grid - Need Some Advice</a> [<a href="https://reddit.com/r/electricians/comments/4o4mts/upgrading_burning_man_theme_camp_power_grid_need/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="citation-link">Help: LED shop light glows faintly even when off, when induction motor is on the same circuit?</a> [<a href="https://reddit.com/r/electricians/comments/4z119s/help_led_shop_light_glows_faintly_even_when_off/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>6. Heat Issues</h3>
+            <div class="theme-stats">
+                <span class="frequency">26.0%</span>
+                <span class="count">(26 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="citation-link">Looking for a picture of a floor mounted led strip working as a emergency exit light.</a> [<a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/" target="_blank" class="citation-link">Weird electrical problem causing my monitor to shut down and back up.</a> [<a href="https://reddit.com/r/electricians/comments/r0szks/weird_electrical_problem_causing_my_monitor_to/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="citation-link">Thin gloves for low voltage work?</a> [<a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>7. Color Accuracy</h3>
+            <div class="theme-stats">
+                <span class="frequency">22.0%</span>
+                <span class="count">(22 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="citation-link">Looking for a picture of a floor mounted led strip working as a emergency exit light.</a> [<a href="https://reddit.com/r/electricians/comments/b9oblz/looking_for_a_picture_of_a_floor_mounted_led/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="citation-link">Installing ceiling lights for the wife’s office</a> [<a href="https://reddit.com/r/electricians/comments/eyfzuf/installing_ceiling_lights_for_the_wifes_office/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="theme-card">
+            <h3>8. Durability</h3>
+            <div class="theme-stats">
+                <span class="frequency">13.0%</span>
+                <span class="count">(13 discussions)</span>
+            </div>
+            
+            
+
+            <div class="examples">
+                <h4>Examples:</h4>
+                <ul>
+                    <li><a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="citation-link">Thin gloves for low voltage work?</a> [<a href="https://reddit.com/r/electricians/comments/3nvok8/thin_gloves_for_low_voltage_work/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="citation-link">Florescent lighting is dead</a> [<a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/" target="_blank" class="view-original">View Original</a>]</li>
+                    <li><a href="https://reddit.com/r/electricians/comments/1g0qbgw/im_with_the_boomers_on_this_one/" target="_blank" class="citation-link">I’m with the boomers on this one</a> [<a href="https://reddit.com/r/electricians/comments/1g0qbgw/im_with_the_boomers_on_this_one/" target="_blank" class="view-original">View Original</a>]</li>
+                </ul>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="consensus">
+            <h2>✅ Consensus Patterns</h2>
+            <p class="section-description">Widely-agreed solutions and best practices from expert community</p>
+            <div class="consensus-list">
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#1</span>
+                <span class="consensus-score">Score: 792</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">And nobody misses them. Unlike incandescents which are better than LEDs in certain applications, LEDs are just across the board superior to fluorescents in light output, compactness, light quality, ef</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cxphu/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#2</span>
+                <span class="consensus-score">Score: 524</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">What I did (I have deuteranopia, red/green colorblindness)
+
+I bought a headlamp with red and green LEDs that can be activated individually.
+
+Under red light, a green wire will appear to be black (or v</p>
+            <p class="consensus-source">From: <em>Apprentice who is colorblind</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1jtljth/apprentice_who_is_colorblind/mlv9b29/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#3</span>
+                <span class="consensus-score">Score: 355</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">T12 have been dead for a while now</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cvjct/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#4</span>
+                <span class="consensus-score">Score: 343</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">Yeah, not a fan of requiring signal to get instructions. Want a qr code on your actual instructions? Zero complaints.
+
+On top of that I will always take any opportunity to shit on Lutron's flaming dia</p>
+            <p class="consensus-source">From: <em>I’m with the boomers on this one</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1g0qbgw/im_with_the_boomers_on_this_one/lraqj97/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#5</span>
+                <span class="consensus-score">Score: 321</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">"I wanted bright light, so I picked the 6500k bulbs"</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cz8f2/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#6</span>
+                <span class="consensus-score">Score: 309</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">And in a lot of cases that people think that is better than LED it’s because the LEDs they chose weren’t selected properly. In social situations, I am amazed at how many people ask about LED bulbs and</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9cybrw/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#7</span>
+                <span class="consensus-score">Score: 213</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">277 isn't anything to play with, especially because by your description it was probably an arm to arm shock.  
+
+
+Glad to hear he's mostly ok.</p>
+            <p class="consensus-source">From: <em>Witnessed someone take 277 volts </em></p>
+            <a href="https://reddit.com/r/electricians/comments/1crcfvs/witnessed_someone_take_277_volts/l3x5pna/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#8</span>
+                <span class="consensus-score">Score: 185</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">One handed stripping wtf? Test before touch. Use a multimeter or a non contact voltage tester. If you can’t test it, assume it’s live</p>
+            <p class="consensus-source">From: <em>Witnessed someone take 277 volts </em></p>
+            <a href="https://reddit.com/r/electricians/comments/1crcfvs/witnessed_someone_take_277_volts/l3xizs3/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#9</span>
+                <span class="consensus-score">Score: 175</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">I just wish it was easier to find a fixture that used replaceable bulbs and not integrated LED light strips.</p>
+            <p class="consensus-source">From: <em>Florescent lighting is dead</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1mtnyd4/florescent_lighting_is_dead/n9czj9c/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+
+        <div class="consensus-item">
+            <div class="consensus-header">
+                <span class="consensus-number">#10</span>
+                <span class="consensus-score">Score: 120</span>
+                <span class="platform-badge">reddit</span>
+                
+            </div>
+            <p class="consensus-pattern">I think I saw you post this in another thread and was about to reference it. It's a damn good idea to mess with colour and wavelengths of light.</p>
+            <p class="consensus-source">From: <em>Apprentice who is colorblind</em></p>
+            <a href="https://reddit.com/r/electricians/comments/1jtljth/apprentice_who_is_colorblind/mlvat61/" target="_blank" class="view-original">View Original Discussion</a>
+        </div>
+</div>
+
+        </section>
+
+        
+
+        <section class="methodology">
+            <h2>📋 Methodology</h2>
+            <p><strong>Analysis Method:</strong> rule_based</p>
+            <p><strong>Platforms:</strong> reddit</p>
+            <p><strong>Total Discussions:</strong> 100</p>
+            <p><strong>Citation Integrity:</strong> All insights are linked to original expert discussions. Click "View Original" to verify source.</p>
+        </section>
+
+        <footer>
+            <p>Expert Authority Module - 3M Lighting Project</p>
+            <p>100% Real Data - No Synthetic Content - Full Citation Validation</p>
+        </footer>
+    </div>
+</body>
+</html>
