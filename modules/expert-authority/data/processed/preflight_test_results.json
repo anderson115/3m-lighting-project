@@ -1,0 +1,169 @@
+{
+  "test_date": "2025-10-09T18:30:27.212461",
+  "status": "passed",
+  "results": {
+    "rule_based": {
+      "method": "rule_based",
+      "themes": [
+        {
+          "theme": "Wiring/Electrical",
+          "frequency": 2,
+          "frequency_pct": 40.0,
+          "keywords": [
+            "wire",
+            "gauge",
+            "junction"
+          ],
+          "examples": [
+            "Outdoor LED lighting - waterproofing junction boxes",
+            "Wire gauge for low-voltage LED runs"
+          ]
+        },
+        {
+          "theme": "Adhesive/Mounting Issues",
+          "frequency": 1,
+          "frequency_pct": 20.0,
+          "keywords": [
+            "adhesive",
+            "tape",
+            "stick"
+          ],
+          "examples": [
+            "LED strip adhesive failing in hot garage"
+          ]
+        },
+        {
+          "theme": "Dimmer Compatibility",
+          "frequency": 1,
+          "frequency_pct": 20.0,
+          "keywords": [
+            "dimmer",
+            "flicker",
+            "compatible"
+          ],
+          "examples": [
+            "Dimmer compatibility with LED strips - flickering issue"
+          ]
+        },
+        {
+          "theme": "Outdoor/Weatherproofing",
+          "frequency": 1,
+          "frequency_pct": 20.0,
+          "keywords": [
+            "outdoor",
+            "waterproof",
+            "weather"
+          ],
+          "examples": [
+            "Outdoor LED lighting - waterproofing junction boxes"
+          ]
+        },
+        {
+          "theme": "Smart Home Integration",
+          "frequency": 1,
+          "frequency_pct": 20.0,
+          "keywords": [
+            "smart",
+            "hue",
+            "home assistant"
+          ],
+          "examples": [
+            "Smart home integration - Philips Hue vs generic LED strips"
+          ]
+        }
+      ],
+      "total_discussions": 5
+    },
+    "consensus": {
+      "consensus_patterns": [
+        {
+          "topic": "LED strip adhesive failing in hot garage",
+          "consensus": "Standard LED strip adhesive fails above 100\u00b0F. Use 3M VHB 5952 tape rated for 150\u00b0F - it's what we u...",
+          "expert": "SparkyElectrician",
+          "score": 32
+        },
+        {
+          "topic": "Dimmer compatibility with LED strips - flickering issue",
+          "consensus": "You need a PWM dimmer, not an analog dimmer. Analog dimmers work by reducing voltage which causes LE...",
+          "expert": "LightingPro",
+          "score": 45
+        },
+        {
+          "topic": "Outdoor LED lighting - waterproofing junction boxes",
+          "consensus": "Use outdoor-rated junction boxes (NEMA 3R minimum). Apply silicone sealant around cable entries. Don...",
+          "expert": "MasterElectrician",
+          "score": 56
+        },
+        {
+          "topic": "Outdoor LED lighting - waterproofing junction boxes",
+          "consensus": "Also ensure boxes are oriented correctly - opening facing down. Code violation if upward-facing....",
+          "expert": "SafetyFirst",
+          "score": 34
+        },
+        {
+          "topic": "Smart home integration - Philips Hue vs generic LED strips",
+          "consensus": "Hue is plug-and-play with better integration. Generic requires more setup but works fine with Home A...",
+          "expert": "SmartHomeGuru",
+          "score": 67
+        }
+      ]
+    },
+    "controversy": {
+      "controversies": [
+        {
+          "topic": "LED strip adhesive failing in hot garage",
+          "num_positions": 2,
+          "example_positions": [
+            "Standard LED strip adhesive fails above 100\u00b0F. Use 3M VHB 5952 tape rated for 15...",
+            "I've had success with mounting clips instead of tape. More work but never fails...."
+          ]
+        },
+        {
+          "topic": "Dimmer compatibility with LED strips - flickering issue",
+          "num_positions": 2,
+          "example_positions": [
+            "You need a PWM dimmer, not an analog dimmer. Analog dimmers work by reducing vol...",
+            "Actually both PWM and analog can work - depends on LED driver type. Check your L..."
+          ]
+        },
+        {
+          "topic": "Outdoor LED lighting - waterproofing junction boxes",
+          "num_positions": 2,
+          "example_positions": [
+            "Use outdoor-rated junction boxes (NEMA 3R minimum). Apply silicone sealant aroun...",
+            "Also ensure boxes are oriented correctly - opening facing down. Code violation i..."
+          ]
+        },
+        {
+          "topic": "Wire gauge for low-voltage LED runs",
+          "num_positions": 2,
+          "example_positions": [
+            "18 AWG is sufficient for most residential LED runs under 20 feet. Voltage drop w...",
+            "Always use 16 AWG for future-proofing. Prevents dimming and supports higher watt..."
+          ]
+        }
+      ]
+    },
+    "alignment": {
+      "validation_rate": 1.0,
+      "alignments": [
+        {
+          "consumer_pain": "Mount LED strips in hot environment",
+          "expert_discussion": "LED strip adhesive failing in hot garage",
+          "alignment_strength": "high"
+        },
+        {
+          "consumer_pain": "Dim LED strips smoothly",
+          "expert_discussion": "Dimmer compatibility with LED strips - flickering issue",
+          "alignment_strength": "high"
+        },
+        {
+          "consumer_pain": "Install outdoor lighting",
+          "expert_discussion": "Outdoor LED lighting - waterproofing junction boxes",
+          "alignment_strength": "medium"
+        }
+      ]
+    }
+  },
+  "report_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/expert-authority/data/deliverables/Preflight_Test_Report.html"
+}

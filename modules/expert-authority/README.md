@@ -1,39 +1,44 @@
 # Expert Authority Module
 
-**Purpose:** Extract insights from expert discussions on Quora, Reddit, Stack Exchange, and technical forums where professionals discuss lighting, installation, and electrical topics.
+**Purpose:** Extract authoritative insights from expert discussions on Reddit, Quora, and Stack Exchange where professionals debate lighting installation, electrical safety, and home improvement solutions.
+
+**Status:** ✅ Preflight Complete - Ready for Production Implementation
 
 ## Quick Start
 
 ```bash
-# Discover expert discussions
-python scripts/forum_scraper.py --platform reddit --subreddit homeimprovement
+# Run preflight test (no API credentials required)
+python scripts/preflight_test.py
 
-# Analyze expert threads
-python scripts/expert_analyzer.py --input data/raw/reddit_threads.json
-
-# Generate authority report
-python scripts/generate_expert_report.py
+# For production use (requires Reddit API credentials):
+# 1. Set up config/reddit_auth.json with your credentials
+# 2. Run tier-based analysis (coming in Week 2)
 ```
+
+## Preflight Test Results
+
+✅ **All 5 tests passed** (2025-10-09)
+- 5 themes extracted via rule-based method
+- 5 consensus patterns identified
+- 4 controversial topics detected
+- 100% consumer pain point validation rate
+- HTML report generated (6.4 KB)
 
 ## Module Structure
 
 ```
 expert-authority/
 ├── scripts/
-│   ├── forum_scraper.py           # Multi-platform discussion scraper
-│   ├── expert_analyzer.py         # Authority scoring + insight extraction
-│   ├── consensus_detector.py      # Identify expert consensus patterns
-│   ├── controversy_mapper.py      # Map areas of disagreement
-│   └── generate_expert_report.py  # Client deliverable generator
+│   └── preflight_test.py          # ✅ Preflight validation (complete)
 ├── data/
 │   ├── raw/                       # Scraped forum threads (JSON)
-│   ├── processed/                 # Analyzed expert insights
-│   └── deliverables/              # Expert authority reports
-├── config/
-│   ├── platforms.yaml             # Forum/platform configurations
-│   └── expert_keywords.yaml       # Authority signal keywords
+│   ├── processed/                 # Analysis outputs
+│   │   └── preflight_test_results.json
+│   └── deliverables/              # Client reports
+│       └── Preflight_Test_Report.html
+├── config/                        # Configuration files
 ├── docs/
-│   └── SPECIFICATION.md           # Implementation specs
+│   └── PRD-expert-authority.md    # ✅ Complete PRD v4.0
 └── README.md                      # This file
 ```
 
@@ -110,28 +115,70 @@ expert-authority/
 - **Authority Scoring** - Multi-factor credibility algorithm
 - **Storage** - JSON for raw data, processed insights
 
-## Status
+## Three-Tier Pricing Structure
 
-📋 **Planning Stage** - Module scaffolded, implementation pending
+### 🥉 Tier 1: Essential ($299)
+- Reddit-only, rule-based analysis
+- 100 discussions, 3-page text report
+- Top 5 consensus patterns
+- 3-day turnaround
 
-## Scope & Constraints
+### 🥈 Tier 2: Professional ($799)
+- Multi-platform (Reddit + Quora + Stack Exchange)
+- LLM-powered theme discovery (Claude Sonnet 4)
+- 10-page interactive report with charts
+- Controversy mapping + safety warnings
+- 5-day turnaround
 
-### In Scope
-- Text-based expert discussions (Reddit, Quora, forums)
-- Authority scoring based on platform metrics
-- Consensus vs. controversy detection
-- Verbatim citation extraction
+### 🥇 Tier 3: Enterprise ($1,999)
+- All platforms + professional forums
+- Extended reasoning (Claude Opus + GPT-4o)
+- 25-page strategic report + PowerPoint + Excel
+- Temporal trend analysis (2-year)
+- Competitive brand tracking
+- 7-day turnaround + 1 revision
 
-### Out of Scope
-- Video content from expert channels (use consumer-video module)
-- Real-time monitoring (batch analysis only)
-- Direct expert outreach/interviewing
-- Paid/gated expert content
+## Implementation Roadmap
 
-## Next Steps
+### ✅ Week 0: Foundation (Complete)
+- [x] PRD v4.0 finalized
+- [x] Module structure created
+- [x] Preflight test passing (100% validation rate)
 
-1. Implement Reddit scraper (PRAW integration)
-2. Design expert credibility scoring algorithm
-3. Build consensus detection (NLP-based)
-4. Create client report template
-5. Validate on 3M lighting topics
+### 📋 Week 1: Core Infrastructure (Pending)
+- [ ] Reddit scraper with PRAW + caching
+- [ ] Theme analyzer with LLM + fallback
+- [ ] Consumer alignment module
+- [ ] Unit tests
+
+### 📋 Week 2: Tier System (Pending)
+- [ ] Tier 1 Essential (rule-based)
+- [ ] Tier 2 Professional (LLM + multi-platform)
+- [ ] Tier 3 Enterprise (extended reasoning)
+- [ ] CLI tier selector
+
+### 📋 Week 3: Production (Pending)
+- [ ] Run on 100+ real discussions
+- [ ] Validate LLM vs rule-based quality
+- [ ] Test offline mode
+- [ ] Final documentation
+
+## Technical Requirements
+
+**Dependencies:**
+- Python 3.11+
+- PRAW (Reddit API) - Tier 1+
+- Anthropic SDK (Claude) - Tier 2+
+- OpenAI SDK (embeddings/GPT-4o) - Tier 2+/Tier 3
+
+**Configuration Required:**
+- Reddit API credentials (client_id, client_secret)
+- Anthropic API key
+- OpenAI API key (Tier 2+)
+
+## Integration Points
+
+### Synergy with Other Modules
+- **consumer-video**: Validate consumer pain points with expert consensus
+- **creator-discovery**: Identify expert creators (high-karma contributors)
+- **social-signal**: Cross-reference Pinterest/Instagram trends with expert recommendations
