@@ -1,0 +1,5 @@
+# Ignore actual credentials file
+.env
+
+# But keep the example
+!.env.example
