@@ -191,6 +191,39 @@ Fallback: Always succeeds (even with partial data)
 
 ---
 
+## Citation Integrity & Validation
+
+**MANDATORY:** All tiers must implement Citation Integrity Protocol.
+
+**See:** `docs/CITATION-INTEGRITY-PROTOCOL.md` for complete specification
+
+**Key Requirements:**
+- ✅ Every insight must link to original discussion (permanent URL)
+- ✅ All quotes verified against raw scraped data (no fabrication)
+- ✅ Statistics recomputed from source data (no hallucination)
+- ✅ 95%+ citations must pass validation before delivery
+- ✅ Audit trail generated for every report
+- ✅ Deleted content flagged with archive.org fallback
+
+**Validation Pipeline:**
+1. **Pre-Processing:** URL accessibility check during scraping
+2. **Post-Processing:** Quote verification against raw JSON
+3. **Pre-Delivery:** Generate citation audit trail (100% verification required)
+
+**Client Deliverable Includes:**
+- Main report with inline citations [View Original] links
+- Citation index with all source URLs
+- Validation audit trail proving integrity
+- Raw data package (Tier 3 only)
+
+**Anti-Hallucination Safeguards:**
+- LLM outputs constrained to reference only provided discussions
+- Cross-reference validation (themes must match raw data)
+- Quote authenticity verification (fuzzy matching 95%+ similarity)
+- Statistical claims recomputed from source (±1% tolerance)
+
+---
+
 ## Dependencies
 
 ### Required
@@ -198,6 +231,8 @@ Fallback: Always succeeds (even with partial data)
 - PRAW (Reddit API)
 - Anthropic SDK (Claude)
 - OpenAI SDK (embeddings, optional GPT-4o for Tier 3)
+- requests (URL validation)
+- hashlib (content integrity verification)
 
 ### Optional (Tier-Dependent)
 - Selenium (Quora scraping, Tier 2+)

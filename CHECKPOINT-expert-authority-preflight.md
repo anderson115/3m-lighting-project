@@ -71,7 +71,36 @@ modules/expert-authority/
 - **Main README.md:** Updated module status to "PREFLIGHT COMPLETE"
 - **Module README.md:** Added preflight results, 3-tier pricing, implementation roadmap
 - **PRD:** 229-line comprehensive product requirements document
+- **Citation Integrity Protocol:** Complete specification for source validation and anti-hallucination
 - **All docs synchronized** across project
+
+### **5. Citation Integrity Protocol (NEW)**
+**Location:** `modules/expert-authority/docs/CITATION-INTEGRITY-PROTOCOL.md`
+
+**Zero Tolerance for Fabrication:**
+- ✅ Every insight must link to original discussion with permanent URL
+- ✅ All quotes verified against raw scraped data (no LLM fabrication)
+- ✅ Statistics recomputed from source (±1% tolerance)
+- ✅ 95%+ citations must pass validation before delivery
+- ✅ Audit trail generated proving integrity
+- ✅ Deleted content flagged with archive.org fallback
+
+**Validation Pipeline:**
+1. **Pre-Processing:** URL accessibility check (HTTP 200) during scraping
+2. **Post-Processing:** Quote verification against raw JSON (fuzzy match 95%+)
+3. **Pre-Delivery:** Generate citation audit trail (100% verification or reject)
+
+**Anti-Hallucination Safeguards:**
+- LLM prompts constrained to reference only provided discussions
+- Cross-reference validation (themes must exist in raw data)
+- Quote authenticity verification (no fabricated quotes)
+- Statistical claims recomputed from source files
+
+**Client Deliverable Enhancements:**
+- Inline citations with [View Original] links
+- Citation index at end of report
+- Validation audit trail (proof of integrity)
+- Transparency statement: "Validation Rate: 100% (X/X citations verified)"
 
 ---
 
@@ -87,8 +116,11 @@ modules/expert-authority/
 - Are tier feature differences clear enough for sales?
 - Is anti-bias methodology (emergent discovery) a selling point or implementation detail?
 - Should Tier 3 include custom analysis requests?
+- **NEW:** Is Citation Integrity Protocol comprehensive enough? Any gaps?
 
-**Key Section to Review:** Lines 44-85 (Tier comparison table)
+**Key Sections to Review:**
+- Lines 44-85: Tier comparison table
+- Lines 194-224: Citation Integrity & Validation (NEW)
 
 #### **2. Preflight Test Report**
 **File:** `modules/expert-authority/data/deliverables/Preflight_Test_Report.html`
