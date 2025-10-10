@@ -1,0 +1,391 @@
+{
+  "analysis_timestamp": "2025-10-09T18:51:03.406896",
+  "tier": 1,
+  "tier_name": "Essential",
+  "method": "rule_based",
+  "source_file": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/expert-authority/data/raw/reddit_demo_20251009_185003.json",
+  "statistics": {
+    "total_discussions": 5,
+    "total_comments": 15,
+    "total_citations": 20,
+    "themes_extracted": 7,
+    "consensus_patterns": 8,
+    "controversies_detected": 5,
+    "subreddits": [
+      "electricians",
+      "homeautomation",
+      "DIY",
+      "homeimprovement"
+    ],
+    "validation_rate": 1.0,
+    "processing_mode": "tier1_rule_based"
+  },
+  "themes": [
+    {
+      "theme": "Heat/Temperature Issues",
+      "category": "pain_point",
+      "frequency": 3,
+      "frequency_pct": 60.0,
+      "evidence_count": 3,
+      "evidence": [
+        {
+          "discussion_id": "1a2b3c",
+          "title": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing",
+          "matched_keyword": "heat",
+          "subreddit": "homeimprovement"
+        },
+        {
+          "discussion_id": "4d5e6f",
+          "title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+          "matched_keyword": "rated",
+          "subreddit": "electricians"
+        },
+        {
+          "discussion_id": "7g8h9i",
+          "title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing",
+          "matched_keyword": "heat",
+          "subreddit": "electricians"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Product Recommendations",
+      "category": "solution",
+      "frequency": 3,
+      "frequency_pct": 60.0,
+      "evidence_count": 3,
+      "evidence": [
+        {
+          "discussion_id": "1a2b3c",
+          "title": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing",
+          "matched_keyword": "recommend",
+          "subreddit": "homeimprovement"
+        },
+        {
+          "discussion_id": "4d5e6f",
+          "title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+          "matched_keyword": "lutron",
+          "subreddit": "electricians"
+        },
+        {
+          "discussion_id": "3m4n5o",
+          "title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic",
+          "matched_keyword": "brand",
+          "subreddit": "homeautomation"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Wire Gauge/Voltage Drop",
+      "category": "pain_point",
+      "frequency": 2,
+      "frequency_pct": 40.0,
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "discussion_id": "4d5e6f",
+          "title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+          "matched_keyword": "dim",
+          "subreddit": "electricians"
+        },
+        {
+          "discussion_id": "0j1k2l",
+          "title": "Wire gauge debate - 18 AWG vs 16 AWG for LED strips under 20 feet",
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips",
+          "matched_keyword": "wire",
+          "subreddit": "DIY"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Adhesive/Mounting Issues",
+      "category": "pain_point",
+      "frequency": 1,
+      "frequency_pct": 20.0,
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "discussion_id": "1a2b3c",
+          "title": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing",
+          "matched_keyword": "adhesive",
+          "subreddit": "homeimprovement"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Dimmer Compatibility",
+      "category": "pain_point",
+      "frequency": 1,
+      "frequency_pct": 20.0,
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "discussion_id": "4d5e6f",
+          "title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+          "matched_keyword": "dimmer",
+          "subreddit": "electricians"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Outdoor/Weatherproofing",
+      "category": "pain_point",
+      "frequency": 1,
+      "frequency_pct": 20.0,
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "discussion_id": "7g8h9i",
+          "title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing",
+          "matched_keyword": "outdoor",
+          "subreddit": "electricians"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    },
+    {
+      "theme": "Smart Home Integration",
+      "category": "opportunity",
+      "frequency": 1,
+      "frequency_pct": 20.0,
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "discussion_id": "3m4n5o",
+          "title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic",
+          "matched_keyword": "smart",
+          "subreddit": "homeautomation"
+        }
+      ],
+      "validation_status": "rule_based_match"
+    }
+  ],
+  "consensus_patterns": [
+    {
+      "pattern": "Use outdoor-rated junction boxes (NEMA 3R minimum, 4X if near sprinklers). Apply silicone sealant around ALL cable entries. Don't forget weep holes for drainage - NEC requires them. Orient boxes with ...",
+      "expert": "CodeCompliance_Expert",
+      "upvotes": 156,
+      "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c7",
+      "discussion_title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+      "subreddit": "electricians",
+      "timestamp": 1704243600,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "Hue is plug-and-play with perfect color accuracy and instant response. Generic works fine with Home Assistant but requires setup. Color accuracy varies by brand - some are terrible. If you're technica...",
+      "expert": "HomeAssistant_Guru",
+      "upvotes": 134,
+      "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c13",
+      "discussion_title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+      "subreddit": "homeautomation",
+      "timestamp": 1704416400,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "You need a PWM (pulse width modulation) dimmer, not an analog dimmer. Analog dimmers work by reducing voltage which causes LEDs to flicker. PWM rapidly switches on/off which LEDs handle much better. L...",
+      "expert": "MasterElectrician_CA",
+      "upvotes": 92,
+      "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c4",
+      "discussion_title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+      "subreddit": "electricians",
+      "timestamp": 1704157200,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "Also ensure boxes are oriented correctly - opening must face down. I've failed inspections where boxes were upward-facing. Water pools and eventually gets in no matter how much silicone you use.",
+      "expert": "InspectorJoe",
+      "upvotes": 89,
+      "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c8",
+      "discussion_title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+      "subreddit": "electricians",
+      "timestamp": 1704247200,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "I've had Hue for 3 years - zero issues, still works perfectly. My generic strips (different brand) had controller failure after 18 months. Hue has better warranty and support.",
+      "expert": "Hue_Owner_3yrs",
+      "upvotes": 89,
+      "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c14",
+      "discussion_title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+      "subreddit": "homeautomation",
+      "timestamp": 1704420000,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "Standard LED strip adhesive fails above 100\u00b0F. Use 3M VHB 5952 tape rated for 150\u00b0F - it's what we use on commercial installations in Phoenix. Costs more but worth it for high-heat environments.",
+      "expert": "SparkyElectrician_AZ",
+      "upvotes": 67,
+      "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c1",
+      "discussion_title": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+      "subreddit": "homeimprovement",
+      "timestamp": 1704070800,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "Don't cheap out on connectors. Use IP68-rated waterproof connectors, not just heat shrink. Heat shrink fails within a year outdoors.",
+      "expert": "WeatherproofWizard",
+      "upvotes": 67,
+      "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c9",
+      "discussion_title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+      "subreddit": "electricians",
+      "timestamp": 1704250800,
+      "validation_status": "verified"
+    },
+    {
+      "pattern": "Color accuracy matters more than people think. Cheap strips often have terrible green tint in whites. Hue, LIFX, and higher-end generic brands (Gledopto, etc) are worth the premium for accuracy.",
+      "expert": "RGB_TechReview",
+      "upvotes": 67,
+      "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c15",
+      "discussion_title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+      "subreddit": "homeautomation",
+      "timestamp": 1704423600,
+      "validation_status": "verified"
+    }
+  ],
+  "controversies": [
+    {
+      "topic": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+      "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing",
+      "position_count": 3,
+      "positions": [
+        {
+          "expert": "SparkyElectrician_AZ",
+          "position": "Standard LED strip adhesive fails above 100\u00b0F. Use 3M VHB 5952 tape rated for 150\u00b0F - it's what we use on commercial installations in Phoenix. Costs m...",
+          "upvotes": 67,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c1"
+        },
+        {
+          "expert": "HomeDepotContractor",
+          "position": "I've had success with aluminum mounting clips instead of tape. More work to install but they never fail. You can get them at most hardware stores.",
+          "upvotes": 34,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c2"
+        },
+        {
+          "expert": "LED_enthusiast",
+          "position": "VHB tape is the answer. Also make sure your LEDs themselves are rated for high temp. Some cheap Chinese ones fail at 140\u00b0F.",
+          "upvotes": 23,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c3"
+        }
+      ],
+      "subreddit": "homeimprovement",
+      "validation_status": "verified"
+    },
+    {
+      "topic": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+      "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+      "position_count": 2,
+      "positions": [
+        {
+          "expert": "MasterElectrician_CA",
+          "position": "You need a PWM (pulse width modulation) dimmer, not an analog dimmer. Analog dimmers work by reducing voltage which causes LEDs to flicker. PWM rapidl...",
+          "upvotes": 92,
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c4"
+        },
+        {
+          "expert": "EE_student_2024",
+          "position": "Actually both PWM and analog can work - depends on your LED driver type. Check your LED spec sheet for 'dimming method'. If it says TRIAC compatible, ...",
+          "upvotes": 48,
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c5"
+        }
+      ],
+      "subreddit": "electricians",
+      "validation_status": "verified"
+    },
+    {
+      "topic": "Outdoor LED strips - proper waterproofing for junction boxes?",
+      "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing",
+      "position_count": 3,
+      "positions": [
+        {
+          "expert": "CodeCompliance_Expert",
+          "position": "Use outdoor-rated junction boxes (NEMA 3R minimum, 4X if near sprinklers). Apply silicone sealant around ALL cable entries. Don't forget weep holes fo...",
+          "upvotes": 156,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c7"
+        },
+        {
+          "expert": "InspectorJoe",
+          "position": "Also ensure boxes are oriented correctly - opening must face down. I've failed inspections where boxes were upward-facing. Water pools and eventually ...",
+          "upvotes": 89,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c8"
+        },
+        {
+          "expert": "WeatherproofWizard",
+          "position": "Don't cheap out on connectors. Use IP68-rated waterproof connectors, not just heat shrink. Heat shrink fails within a year outdoors.",
+          "upvotes": 67,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c9"
+        }
+      ],
+      "subreddit": "electricians",
+      "validation_status": "verified"
+    },
+    {
+      "topic": "Wire gauge debate - 18 AWG vs 16 AWG for LED strips under 20 feet",
+      "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips",
+      "position_count": 2,
+      "positions": [
+        {
+          "expert": "VoltageDropCalc",
+          "position": "For 12V LEDs under 20 watts, 18 AWG is sufficient for 20 feet. Voltage drop calculator shows less than 3% which is acceptable. 16 AWG gives you future...",
+          "upvotes": 34,
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips/comments/c10"
+        },
+        {
+          "expert": "Conservative_Sparky",
+          "position": "Always use 16 AWG. The cost difference is $5 and you'll never worry about it. I've seen too many DIY jobs with visible dimming because they went cheap...",
+          "upvotes": 28,
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips/comments/c11"
+        }
+      ],
+      "subreddit": "DIY",
+      "validation_status": "verified"
+    },
+    {
+      "topic": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+      "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic",
+      "position_count": 3,
+      "positions": [
+        {
+          "expert": "HomeAssistant_Guru",
+          "position": "Hue is plug-and-play with perfect color accuracy and instant response. Generic works fine with Home Assistant but requires setup. Color accuracy varie...",
+          "upvotes": 134,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c13"
+        },
+        {
+          "expert": "Hue_Owner_3yrs",
+          "position": "I've had Hue for 3 years - zero issues, still works perfectly. My generic strips (different brand) had controller failure after 18 months. Hue has bet...",
+          "upvotes": 89,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c14"
+        },
+        {
+          "expert": "RGB_TechReview",
+          "position": "Color accuracy matters more than people think. Cheap strips often have terrible green tint in whites. Hue, LIFX, and higher-end generic brands (Gledop...",
+          "upvotes": 67,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c15"
+        }
+      ],
+      "subreddit": "homeautomation",
+      "validation_status": "verified"
+    }
+  ],
+  "validation": {
+    "citation_integrity": "100%",
+    "all_citations_verified": true,
+    "total_citations": 20
+  }
+}

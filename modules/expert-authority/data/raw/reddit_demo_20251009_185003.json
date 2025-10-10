@@ -1,0 +1,235 @@
+{
+  "source": "reddit_demo",
+  "mode": "demo",
+  "note": "Synthetic data until Reddit API credentials available",
+  "scraped_at": "2025-10-09T18:50:03.171975",
+  "total_discussions": 5,
+  "subreddits": [
+    "electricians",
+    "homeautomation",
+    "homeimprovement",
+    "DIY"
+  ],
+  "discussions": [
+    {
+      "id": "1a2b3c",
+      "title": "LED strip adhesive failing in Arizona garage - need heat-resistant solution",
+      "author": "desert_DIYer",
+      "created_utc": 1704067200,
+      "score": 45,
+      "num_comments": 12,
+      "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing",
+      "subreddit": "homeimprovement",
+      "selftext": "Installed LED strips under kitchen cabinets 6 months ago. Arizona summer hit and half of them fell off. Garage gets to 120\u00b0F. The included 3M tape just doesn't hold. Any recommendations for heat-resistant mounting?",
+      "comments": [
+        {
+          "id": "c1",
+          "author": "SparkyElectrician_AZ",
+          "body": "Standard LED strip adhesive fails above 100\u00b0F. Use 3M VHB 5952 tape rated for 150\u00b0F - it's what we use on commercial installations in Phoenix. Costs more but worth it for high-heat environments.",
+          "score": 67,
+          "created_utc": 1704070800,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c1",
+          "validation_hash": "91aa8eb64211147d"
+        },
+        {
+          "id": "c2",
+          "author": "HomeDepotContractor",
+          "body": "I've had success with aluminum mounting clips instead of tape. More work to install but they never fail. You can get them at most hardware stores.",
+          "score": 34,
+          "created_utc": 1704074400,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c2",
+          "validation_hash": "7812ae5f53e6858c"
+        },
+        {
+          "id": "c3",
+          "author": "LED_enthusiast",
+          "body": "VHB tape is the answer. Also make sure your LEDs themselves are rated for high temp. Some cheap Chinese ones fail at 140\u00b0F.",
+          "score": 23,
+          "created_utc": 1704078000,
+          "url": "https://reddit.com/r/homeimprovement/comments/1a2b3c/led_strip_adhesive_failing/comments/c3",
+          "validation_hash": "151d507f981747d4"
+        }
+      ],
+      "validation_hash": "8f94627365141a49",
+      "scraped_at": "2025-10-09T18:50:03.171856",
+      "validation_status": "demo_mode",
+      "url_accessible": true
+    },
+    {
+      "id": "4d5e6f",
+      "title": "Dimmer compatibility nightmare - LEDs flickering at low brightness",
+      "author": "frustrated_homeowner",
+      "created_utc": 1704153600,
+      "score": 89,
+      "num_comments": 18,
+      "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare",
+      "subreddit": "electricians",
+      "selftext": "Installed new LED under-cabinet lighting with a cheap Amazon dimmer. Works fine at 100% but flickers like crazy below 50%. Is this a dimmer problem or LED problem? Getting frustrated.",
+      "comments": [
+        {
+          "id": "c4",
+          "author": "MasterElectrician_CA",
+          "body": "You need a PWM (pulse width modulation) dimmer, not an analog dimmer. Analog dimmers work by reducing voltage which causes LEDs to flicker. PWM rapidly switches on/off which LEDs handle much better. Lutron makes good ones.",
+          "score": 92,
+          "created_utc": 1704157200,
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c4",
+          "validation_hash": "80195d5f7da6e153"
+        },
+        {
+          "id": "c5",
+          "author": "EE_student_2024",
+          "body": "Actually both PWM and analog can work - depends on your LED driver type. Check your LED spec sheet for 'dimming method'. If it says TRIAC compatible, analog is fine. If it says 0-10V or PWM, you need different dimmer.",
+          "score": 48,
+          "created_utc": 1704160800,
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c5",
+          "validation_hash": "f67489ecac04fe7c"
+        },
+        {
+          "id": "c6",
+          "author": "Lutron_Rep",
+          "body": "Our Caseta dimmers are designed specifically for LED compatibility. We test with hundreds of LED brands. Worth the extra $20 over generic dimmers.",
+          "score": 12,
+          "created_utc": 1704164400,
+          "url": "https://reddit.com/r/electricians/comments/4d5e6f/dimmer_compatibility_nightmare/comments/c6",
+          "validation_hash": "1ac324289de9de34"
+        }
+      ],
+      "validation_hash": "fabf4ee7051be35f",
+      "scraped_at": "2025-10-09T18:50:03.171882",
+      "validation_status": "demo_mode",
+      "url_accessible": true
+    },
+    {
+      "id": "7g8h9i",
+      "title": "Outdoor LED strips - proper waterproofing for junction boxes?",
+      "author": "deck_builder_pro",
+      "created_utc": 1704240000,
+      "score": 134,
+      "num_comments": 24,
+      "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing",
+      "subreddit": "electricians",
+      "selftext": "Installing LED strips on outdoor deck for customer. What's the proper way to waterproof junction boxes? Customer had water intrusion issues last winter with previous contractor's work. Want to do this right.",
+      "comments": [
+        {
+          "id": "c7",
+          "author": "CodeCompliance_Expert",
+          "body": "Use outdoor-rated junction boxes (NEMA 3R minimum, 4X if near sprinklers). Apply silicone sealant around ALL cable entries. Don't forget weep holes for drainage - NEC requires them. Orient boxes with opening facing down.",
+          "score": 156,
+          "created_utc": 1704243600,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c7",
+          "validation_hash": "a726ca24aa0305e1"
+        },
+        {
+          "id": "c8",
+          "author": "InspectorJoe",
+          "body": "Also ensure boxes are oriented correctly - opening must face down. I've failed inspections where boxes were upward-facing. Water pools and eventually gets in no matter how much silicone you use.",
+          "score": 89,
+          "created_utc": 1704247200,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c8",
+          "validation_hash": "bb8f325c29734490"
+        },
+        {
+          "id": "c9",
+          "author": "WeatherproofWizard",
+          "body": "Don't cheap out on connectors. Use IP68-rated waterproof connectors, not just heat shrink. Heat shrink fails within a year outdoors.",
+          "score": 67,
+          "created_utc": 1704250800,
+          "url": "https://reddit.com/r/electricians/comments/7g8h9i/outdoor_led_strips_waterproofing/comments/c9",
+          "validation_hash": "a741cc311a8e957d"
+        }
+      ],
+      "validation_hash": "f2da7befb9463130",
+      "scraped_at": "2025-10-09T18:50:03.171897",
+      "validation_status": "demo_mode",
+      "url_accessible": true
+    },
+    {
+      "id": "0j1k2l",
+      "title": "Wire gauge debate - 18 AWG vs 16 AWG for LED strips under 20 feet",
+      "author": "wire_guy_asks",
+      "created_utc": 1704326400,
+      "score": 56,
+      "num_comments": 19,
+      "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips",
+      "subreddit": "DIY",
+      "selftext": "Installing LED strips 18 feet from power supply. Hardware store guy says 18 AWG is fine. My electrician neighbor says always use 16 AWG. Who's right? Don't want to waste money but also don't want dimming issues.",
+      "comments": [
+        {
+          "id": "c10",
+          "author": "VoltageDropCalc",
+          "body": "For 12V LEDs under 20 watts, 18 AWG is sufficient for 20 feet. Voltage drop calculator shows less than 3% which is acceptable. 16 AWG gives you future-proofing if you upgrade to higher wattage later.",
+          "score": 34,
+          "created_utc": 1704330000,
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips/comments/c10",
+          "validation_hash": "7fff508039d1e319"
+        },
+        {
+          "id": "c11",
+          "author": "Conservative_Sparky",
+          "body": "Always use 16 AWG. The cost difference is $5 and you'll never worry about it. I've seen too many DIY jobs with visible dimming because they went cheap on wire.",
+          "score": 28,
+          "created_utc": 1704333600,
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips/comments/c11",
+          "validation_hash": "0b914ec5e923a55c"
+        },
+        {
+          "id": "c12",
+          "author": "by_the_code_guy",
+          "body": "NEC doesn't specify gauge for low voltage, but 18 AWG is fine for under 2 amps. Calculate your load: watts / volts = amps. Most LED strips are 0.5-1.5 amps.",
+          "score": 19,
+          "created_utc": 1704337200,
+          "url": "https://reddit.com/r/DIY/comments/0j1k2l/wire_gauge_led_strips/comments/c12",
+          "validation_hash": "35c600dd9dd3eb2b"
+        }
+      ],
+      "validation_hash": "744b1872cc20e073",
+      "scraped_at": "2025-10-09T18:50:03.171911",
+      "validation_status": "demo_mode",
+      "url_accessible": true
+    },
+    {
+      "id": "3m4n5o",
+      "title": "Smart home LED integration - Philips Hue vs generic RGBW strips",
+      "author": "smart_home_newbie",
+      "created_utc": 1704412800,
+      "score": 178,
+      "num_comments": 31,
+      "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic",
+      "subreddit": "homeautomation",
+      "selftext": "Want to add LED strips to smart home setup. Philips Hue is $80 for 6 feet. Generic RGBW with Zigbee controller is $25. Is Hue really 3x better? Or marketing hype?",
+      "comments": [
+        {
+          "id": "c13",
+          "author": "HomeAssistant_Guru",
+          "body": "Hue is plug-and-play with perfect color accuracy and instant response. Generic works fine with Home Assistant but requires setup. Color accuracy varies by brand - some are terrible. If you're technical, generic is 80% as good for 30% the price.",
+          "score": 134,
+          "created_utc": 1704416400,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c13",
+          "validation_hash": "6770d56d24e9037f"
+        },
+        {
+          "id": "c14",
+          "author": "Hue_Owner_3yrs",
+          "body": "I've had Hue for 3 years - zero issues, still works perfectly. My generic strips (different brand) had controller failure after 18 months. Hue has better warranty and support.",
+          "score": 89,
+          "created_utc": 1704420000,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c14",
+          "validation_hash": "6f445565641242d6"
+        },
+        {
+          "id": "c15",
+          "author": "RGB_TechReview",
+          "body": "Color accuracy matters more than people think. Cheap strips often have terrible green tint in whites. Hue, LIFX, and higher-end generic brands (Gledopto, etc) are worth the premium for accuracy.",
+          "score": 67,
+          "created_utc": 1704423600,
+          "url": "https://reddit.com/r/homeautomation/comments/3m4n5o/hue_vs_generic/comments/c15",
+          "validation_hash": "29582fddaccb25a7"
+        }
+      ],
+      "validation_hash": "1dfb3952bf49ea1a",
+      "scraped_at": "2025-10-09T18:50:03.171927",
+      "validation_status": "demo_mode",
+      "url_accessible": true
+    }
+  ]
+}
