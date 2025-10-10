@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-**Purpose:** Extract authoritative insights from expert discussions on Reddit, Quora, and Stack Exchange where professionals debate lighting installation, electrical safety, and home improvement solutions.
+**Purpose:** Extract authoritative insights from expert discussions on Reddit and Stack Exchange where professionals debate lighting installation, electrical safety, and home improvement solutions.
 
 **Goal:** Validate consumer findings with expert consensus, discover professional-grade solutions, and identify market opportunities through emergent theme analysis.
 
@@ -55,7 +55,7 @@
 **Promise:** "Discover hidden patterns across expert communities"
 
 **Deliverable (Everything in Tier 1 PLUS):**
-- Multi-platform data (Reddit + Quora + Stack Exchange)
+- Multi-platform data (Reddit + Stack Exchange - both official APIs)
 - LLM-powered theme discovery (Claude Sonnet 4)
 - Semantic consumer alignment (embedding-based)
 - 10-page interactive HTML report with visualizations
@@ -93,9 +93,9 @@ Fallback: Cached data if API fails
 ```
 
 **Platforms:**
-- Tier 1: Reddit (PRAW API)
-- Tier 2: Reddit + Quora (Selenium) + Stack Exchange API
-- Tier 3: All above + Professional forums (custom scrapers)
+- Tier 1: Reddit (PRAW API - official, stable, free)
+- Tier 2: Reddit (PRAW) + Stack Exchange API (both official APIs, 100% stable)
+- Tier 3: All above + Professional forums (RSS feeds - legitimate, stable)
 
 ### Stage 2: Semantic Analysis (LLM-Powered)
 ```
@@ -235,7 +235,7 @@ Fallback: Always succeeds (even with partial data)
 - hashlib (content integrity verification)
 
 ### Optional (Tier-Dependent)
-- Selenium (Quora scraping, Tier 2+)
+- feedparser (Forum RSS feeds, Tier 3)
 - python-pptx (PowerPoint generation, Tier 3)
 - pandas + openpyxl (Excel export, Tier 2+)
 
