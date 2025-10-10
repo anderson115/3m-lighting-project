@@ -68,11 +68,18 @@ python scripts/run_preflight_analysis.py
 │   └── validate_pipeline.py         # End-to-end validation
 │
 ├── modules/
-│   └── consumer-video/              # 🆕 Consumer interview analysis module
-│       ├── scripts/                 # JTBD + emotion + product extraction
-│       ├── data/processed/          # Analysis outputs + client deliverables
-│       ├── docs/                    # Implementation specs
-│       └── README.md                # Module documentation
+│   ├── consumer-video/              # ✅ Consumer interview analysis (PRODUCTION)
+│   │   ├── scripts/                 # JTBD + emotion + product extraction
+│   │   ├── data/processed/          # Analysis outputs + client deliverables
+│   │   └── README.md                # Full documentation
+│   ├── youtube-datasource/          # ✅ YouTube video analysis (PRODUCTION)
+│   │   └── scripts/                 # Whisper + LLaVA pipeline
+│   ├── expert-authority/            # 📋 Expert discussion analysis (PLANNED)
+│   │   └── README.md                # Reddit, Quora, forums scraping
+│   ├── social-signal/               # 📋 Visual social analysis (PLANNED)
+│   │   └── README.md                # Pinterest, Instagram, TikTok trends
+│   └── creator-discovery/           # 📋 Creator identification (PLANNED)
+│       └── README.md                # Multi-platform creator profiling
 │
 ├── data/
 │   ├── preflight/                   # Input: Preflight test videos

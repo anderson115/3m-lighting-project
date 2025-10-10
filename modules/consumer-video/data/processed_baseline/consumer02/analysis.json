@@ -1,0 +1,398 @@
+{
+  "metadata": {
+    "video_id": "consumer02",
+    "title": "AlanG Activity8 Pain Points",
+    "channel": "3M Consumer Research",
+    "duration": 57,
+    "analyzed_at": "2025-10-09T01:10:15.407325"
+  },
+  "transcription": {
+    "full_text": " So the challenging portion of the project was really not necessarily putting the installation, but deciding how to brace it with the aforementioned hole that was behind it. Once removing the doorbell chime and having the exposed wiring, having to cap everything off, and deciding whether or not I was going to hardwire something behind that, and then coming to the realization that the hardwire just was not the best way to go about it, because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be. So I capped everything off, got everything back where it needed to go, and went ahead and decided that a piece of board behind the battery-operated light would be the best opportunity, and that was it. That was the best way to go about it.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.42,
+        "text": "So the challenging portion of the project was really not necessarily putting the installation,"
+      },
+      {
+        "start": 7.42,
+        "end": 14.040000000000001,
+        "text": "but deciding how to brace it with the aforementioned hole that was behind it."
+      },
+      {
+        "start": 14.040000000000001,
+        "end": 21.76,
+        "text": "Once removing the doorbell chime and having the exposed wiring, having to cap everything off,"
+      },
+      {
+        "start": 22.42,
+        "end": 25.86,
+        "text": "and deciding whether or not I was going to hardwire something behind that,"
+      },
+      {
+        "start": 25.86,
+        "end": 32.0,
+        "text": "and then coming to the realization that the hardwire just was not the best way to go about it,"
+      },
+      {
+        "start": 32.6,
+        "end": 39.28,
+        "text": "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be."
+      },
+      {
+        "start": 40.14,
+        "end": 43.72,
+        "text": "So I capped everything off, got everything back where it needed to go,"
+      },
+      {
+        "start": 44.56,
+        "end": 55.68,
+        "text": "and went ahead and decided that a piece of board behind the battery-operated light would be the best opportunity,"
+      },
+      {
+        "start": 55.68,
+        "end": 55.84,
+        "text": "and that was it."
+      },
+      {
+        "start": 55.86,
+        "end": 56.9,
+        "text": "That was the best way to go about it."
+      }
+    ],
+    "language": "en"
+  },
+  "emotion_analysis": {
+    "segments": [
+      {
+        "timestamp": 0.0,
+        "duration": 7.42,
+        "text": "So the challenging portion of the project was really not necessarily putting the installation,",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 201.4222412109375,
+          "pitch_variance": 12682.98046875,
+          "energy": 0.018002349883317947,
+          "spectral_centroid": 2189.6106953576027,
+          "zero_crossing_rate": 0.18192475417564655
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 7.42,
+        "duration": 6.620000000000001,
+        "text": "but deciding how to brace it with the aforementioned hole that was behind it.",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 183.00271606445312,
+          "pitch_variance": 6717.1845703125,
+          "energy": 0.015136324800550938,
+          "spectral_centroid": 1819.8373533302365,
+          "zero_crossing_rate": 0.14316311896135267
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 14.040000000000001,
+        "duration": 7.720000000000001,
+        "text": "Once removing the doorbell chime and having the exposed wiring, having to cap everything off,",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 166.83018493652344,
+          "pitch_variance": 5759.1318359375,
+          "energy": 0.01513836532831192,
+          "spectral_centroid": 1549.921180677798,
+          "zero_crossing_rate": 0.10722212357954546
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 22.42,
+        "duration": 3.4399999999999977,
+        "text": "and deciding whether or not I was going to hardwire something behind that,",
+        "indicators": [
+          {
+            "emotion": "frustration",
+            "confidence": 0.5,
+            "evidence": [
+              "Irregular pitch (var: 2263)",
+              "Long pause (0.7s)"
+            ]
+          },
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.8 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 169.4549560546875,
+          "pitch_variance": 2263.10400390625,
+          "energy": 0.0206817127764225,
+          "spectral_centroid": 1504.4831645197385,
+          "zero_crossing_rate": 0.11130551938657407
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 25.86,
+        "duration": 6.140000000000001,
+        "text": "and then coming to the realization that the hardwire just was not the best way to go about it,",
+        "indicators": [
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.1 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 151.34324645996094,
+          "pitch_variance": 5179.193359375,
+          "energy": 0.01730465143918991,
+          "spectral_centroid": 1671.8181390510342,
+          "zero_crossing_rate": 0.12357076009114583
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 32.6,
+        "duration": 6.68,
+        "text": "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be.",
+        "indicators": [
+          {
+            "emotion": "frustration",
+            "confidence": 0.5,
+            "evidence": [
+              "Irregular pitch (var: 4941)",
+              "Long pause (0.6s)"
+            ]
+          },
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.3 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 189.22581481933594,
+          "pitch_variance": 4941.70263671875,
+          "energy": 0.02120942249894142,
+          "spectral_centroid": 1660.4323143147903,
+          "zero_crossing_rate": 0.1252032558313397
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 40.14,
+        "duration": 3.5799999999999983,
+        "text": "So I capped everything off, got everything back where it needed to go,",
+        "indicators": [
+          {
+            "emotion": "frustration",
+            "confidence": 0.5,
+            "evidence": [
+              "Irregular pitch (var: 5892)",
+              "Long pause (0.9s)"
+            ]
+          },
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.6 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 179.68740844726562,
+          "pitch_variance": 5892.33740234375,
+          "energy": 0.017687933519482613,
+          "spectral_centroid": 1502.259784773987,
+          "zero_crossing_rate": 0.11699567522321429
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 44.56,
+        "duration": 11.119999999999997,
+        "text": "and went ahead and decided that a piece of board behind the battery-operated light would be the best opportunity,",
+        "indicators": [
+          {
+            "emotion": "frustration",
+            "confidence": 0.5,
+            "evidence": [
+              "Irregular pitch (var: 4511)",
+              "Long pause (0.8s)"
+            ]
+          },
+          {
+            "emotion": "uncertainty",
+            "confidence": 0.5,
+            "evidence": [
+              "Pause before (0.8s)",
+              "Slow speech (1.7 wps)",
+              "Low energy (tentative)"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 169.6508026123047,
+          "pitch_variance": 4511.70263671875,
+          "energy": 0.013706440106034279,
+          "spectral_centroid": 1526.995586444225,
+          "zero_crossing_rate": 0.10179681887571838
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 55.68,
+        "duration": 0.1600000000000037,
+        "text": "and that was it.",
+        "indicators": [
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (25.0 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 200.9810791015625,
+          "pitch_variance": 4240.97607421875,
+          "energy": 0.01458798348903656,
+          "spectral_centroid": 1168.2549179700436,
+          "zero_crossing_rate": 0.049397786458333336
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 55.86,
+        "duration": 1.0399999999999991,
+        "text": "That was the best way to go about it.",
+        "indicators": [
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (8.7 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 191.60325622558594,
+          "pitch_variance": 2683.119140625,
+          "energy": 0.01893186755478382,
+          "spectral_centroid": 1304.8207073498158,
+          "zero_crossing_rate": 0.0986624053030303
+        },
+        "confidence": 0.5
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": 22.42,
+        "emotion": "frustration",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 25.86,
+        "emotion": "satisfaction",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 32.6,
+        "emotion": "frustration",
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 55.68,
+        "emotion": "satisfaction",
+        "confidence": 0.5
+      }
+    ],
+    "key_moments": [],
+    "summary": {
+      "dominant_emotion": "frustration",
+      "emotion_distribution": {
+        "frustration": 4,
+        "satisfaction": 3
+      },
+      "total_segments_analyzed": 10,
+      "segments_with_emotions": 7
+    },
+    "analysis_tier": "FREE"
+  },
+  "visual_analysis": {
+    "total_frames": 2,
+    "analyzed_frames": 2,
+    "frame_interval": 30,
+    "frames": [
+      {
+        "frame_number": 1,
+        "timestamp": 0,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/consumer02/frames/frame_0001.jpg",
+        "analysis": "1. The video appears to be taken in an indoor setting, with the person being photographed or filmed facing towards the camera. There are no immediate signs of harsh shadows or overexposure. However, there seems to be artificial lighting coming from the upper left side of the frame, which might cause a slight underexposure on the subject's face and shoulders.\n\n2. The image shows an even distribution of light across the subject's face and torso, suggesting that there is an effort to avoid harsh shadows or overexposed areas. There are no clear indications of specific lighting techniques being demonstrated in this frame.\n\n3. From this single frame, it's not possible to identify any specific lighting products being used. However, the use of soft, diffused light appears to be the technique being employed to avoid harsh shadows and create a flattering image.\n\n4. The context provided is limited. It seems like a casual indoor setting, with no clear indication of the room's purpose or the subject's activity. The lighting seems suitable for an informal video call or interview, providing ample illumination without creating any distracting effects."
+      },
+      {
+        "frame_number": 2,
+        "timestamp": 30,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/consumer02/frames/frame_0002.jpg",
+        "analysis": "In this video frame, we see an individual indoors wearing a black tank top and a baseball cap, with a room in the background that has a lamp visible. The lighting appears to be from an overhead source or multiple sources casting onto the subject from above.\n\n1. Lighting Problem: The primary light source seems to be coming directly down on the person's face, creating harsh shadows on their upper body and face. This kind of lighting can make the individual look unflattering and is not ideal for video or photography purposes.\n\n2. Solution/Technique: To address this issue, the following changes could be made to improve the lighting quality:\n   - Use a diffuse light source (like a softbox) instead of a direct one to spread the light evenly across the subject's face without creating harsh shadows.\n   - Adjust the angle and position of the lights to create a more flattering angle for filming or photography. This can help reduce the intensity of the overhead lighting and provide softer, diffused light that contours the subject's features naturally.\n\n3. No specific products are shown in this frame, but any adjustable lighting equipment could be used to modify the direction and intensity of the lights to achieve better results.\n\n4. Lighting Context: It appears that the setting is a casual indoor environment, possibly for a video or photo shoot. The mood seems to be relaxed and informal. The task could involve a conversation with the person in front of the camera, potentially sharing personal experiences or discussing a topic of interest."
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "timestamp": 22.42,
+        "text": "and deciding whether or not I was going to hardwire something behind that,",
+        "type": "pain_point"
+      },
+      {
+        "timestamp": 25.86,
+        "text": "and then coming to the realization that the hardwire just was not the best way to go about it,",
+        "type": "pain_point"
+      }
+    ],
+    "solutions": [
+      {
+        "timestamp": 0.0,
+        "text": "So the challenging portion of the project was really not necessarily putting the installation,",
+        "type": "solution"
+      }
+    ],
+    "verbatims": [
+      "and deciding whether or not I was going to hardwire something behind that,",
+      "and then coming to the realization that the hardwire just was not the best way to go about it,"
+    ],
+    "lighting_contexts": [
+      {
+        "timestamp": 0,
+        "context": "1. The video appears to be taken in an indoor setting, with the person being photographed or filmed facing towards the camera. There are no immediate signs of harsh shadows or overexposure. However, t"
+      },
+      {
+        "timestamp": 30,
+        "context": "In this video frame, we see an individual indoors wearing a black tank top and a baseball cap, with a room in the background that has a lamp visible. The lighting appears to be from an overhead source"
+      }
+    ]
+  }
+}

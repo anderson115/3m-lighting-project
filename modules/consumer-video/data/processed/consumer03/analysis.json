@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "video_id": "consumer03",
+    "title": "AlanG Activity9 Future Improvements",
+    "channel": "3M Consumer Research",
+    "duration": 60,
+    "analyzed_at": "2025-10-09T14:08:52.964989"
+  },
+  "transcription": {
+    "full_text": " If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn't have enough power going to it because of the dambridge or the conversion of the wiring because doorbell chimes are tamped down from the amperage of the typical 110 to whatever the low voltage or low amperage that they needed to be. And having that knowledge would help. Having a little bit better electrical tools would definitely help as well. Just knowing, having the knowledge of, and the background. It's probably a little bit better next time. Leave it to the professionals, folks.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.86,
+        "text": "If I was to take on another project similar to this, again, I would do some more research,"
+      },
+      {
+        "start": 7.86,
+        "end": 14.16,
+        "text": "get a little bit more electrical knowledge, if you will, because it made it a little difficult"
+      },
+      {
+        "start": 14.16,
+        "end": 20.68,
+        "text": "when finding the time to figure out which way to go ahead and go about making the light"
+      },
+      {
+        "start": 20.68,
+        "end": 21.68,
+        "text": "illuminate."
+      },
+      {
+        "start": 21.68,
+        "end": 25.84,
+        "text": "You know, at first I was, I got something different, wanted to put it up and realized"
+      },
+      {
+        "start": 25.84,
+        "end": 30.78,
+        "text": "that I didn't have enough power going to it because of the dambridge or the conversion"
+      },
+      {
+        "start": 30.78,
+        "end": 38.5,
+        "text": "of the wiring because doorbell chimes are tamped down from the amperage of the typical"
+      },
+      {
+        "start": 38.5,
+        "end": 44.82,
+        "text": "110 to whatever the low voltage or low amperage that they needed to be."
+      },
+      {
+        "start": 44.82,
+        "end": 46.96,
+        "text": "And having that knowledge would help."
+      },
+      {
+        "start": 46.96,
+        "end": 51.32,
+        "text": "Having a little bit better electrical tools would definitely help as well."
+      },
+      {
+        "start": 51.32,
+        "end": 55.82,
+        "text": "Just knowing, having the knowledge of, and the background."
+      },
+      {
+        "start": 55.82,
+        "end": 58.26,
+        "text": "It's probably a little bit better next time."
+      },
+      {
+        "start": 58.26,
+        "end": 60.22,
+        "text": "Leave it to the professionals, folks."
+      }
+    ],
+    "language": "en"
+  },
+  "emotion_analysis": {
+    "segments": [
+      {
+        "timestamp": 0.0,
+        "duration": 7.86,
+        "text": "If I was to take on another project similar to this, again, I would do some more research,",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 175.8728485107422,
+          "pitch_variance": 10810.08984375,
+          "energy": 0.014262248761951923,
+          "spectral_centroid": 1918.5729832603458,
+          "zero_crossing_rate": 0.16304227007113822
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 7.86,
+        "duration": 6.3,
+        "text": "get a little bit more electrical knowledge, if you will, because it made it a little difficult",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 189.41957092285156,
+          "pitch_variance": 6333.64599609375,
+          "energy": 0.01612759567797184,
+          "spectral_centroid": 1459.957214569078,
+          "zero_crossing_rate": 0.10285384279822335
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 14.16,
+        "duration": 6.52,
+        "text": "when finding the time to figure out which way to go ahead and go about making the light",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 189.13832092285156,
+          "pitch_variance": 5293.07275390625,
+          "energy": 0.019532036036252975,
+          "spectral_centroid": 1535.3988049272293,
+          "zero_crossing_rate": 0.10568656173406862
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 20.68,
+        "duration": 1.0,
+        "text": "illuminate.",
+        "indicators": [
+          {
+            "emotion": "uncertainty",
+            "confidence": 0.6,
+            "evidence": [
+              "Filler words (1)",
+              "Slow speech (1.0 wps)",
+              "Low energy (tentative)"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 202.95115661621094,
+          "pitch_variance": 7693.48779296875,
+          "energy": 0.01527443341910839,
+          "spectral_centroid": 1404.5070219220424,
+          "zero_crossing_rate": 0.065582275390625
+        },
+        "confidence": 0.6
+      },
+      {
+        "timestamp": 21.68,
+        "duration": 4.16,
+        "text": "You know, at first I was, I got something different, wanted to put it up and realized",
+        "indicators": [
+          {
+            "emotion": "uncertainty",
+            "confidence": 0.4,
+            "evidence": [
+              "Filler words (1)",
+              "Low energy (tentative)"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 181.98191833496094,
+          "pitch_variance": 3836.109375,
+          "energy": 0.017978547140955925,
+          "spectral_centroid": 1520.4472345303907,
+          "zero_crossing_rate": 0.10805179508587787
+        },
+        "confidence": 0.4
+      },
+      {
+        "timestamp": 25.84,
+        "duration": 4.940000000000001,
+        "text": "that I didn't have enough power going to it because of the dambridge or the conversion",
+        "indicators": [
+          {
+            "emotion": "frustration",
+            "confidence": 0.6,
+            "evidence": [
+              "Irregular pitch (var: 4578)",
+              "Frustration language detected"
+            ]
+          },
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.2 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 159.4039306640625,
+          "pitch_variance": 4578.828125,
+          "energy": 0.01635446585714817,
+          "spectral_centroid": 1601.1714265568833,
+          "zero_crossing_rate": 0.11382308467741936
+        },
+        "confidence": 0.6
+      },
+      {
+        "timestamp": 30.78,
+        "duration": 7.719999999999999,
+        "text": "of the wiring because doorbell chimes are tamped down from the amperage of the typical",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 160.0845184326172,
+          "pitch_variance": 6286.84619140625,
+          "energy": 0.017007427290081978,
+          "spectral_centroid": 1588.7663345178446,
+          "zero_crossing_rate": 0.10502687564566116
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 38.5,
+        "duration": 6.32,
+        "text": "110 to whatever the low voltage or low amperage that they needed to be.",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 163.2915802001953,
+          "pitch_variance": 5283.56298828125,
+          "energy": 0.014838223345577717,
+          "spectral_centroid": 1597.6001681396604,
+          "zero_crossing_rate": 0.11468444207702021
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 44.82,
+        "duration": 2.1400000000000006,
+        "text": "And having that knowledge would help.",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 169.94937133789062,
+          "pitch_variance": 3208.702392578125,
+          "energy": 0.020293541252613068,
+          "spectral_centroid": 1460.5159444392345,
+          "zero_crossing_rate": 0.0947265625
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 46.96,
+        "duration": 4.359999999999999,
+        "text": "Having a little bit better electrical tools would definitely help as well.",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 155.9621124267578,
+          "pitch_variance": 4705.1337890625,
+          "energy": 0.018755272030830383,
+          "spectral_centroid": 1753.4907152898822,
+          "zero_crossing_rate": 0.11245081546532847
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 51.32,
+        "duration": 4.5,
+        "text": "Just knowing, having the knowledge of, and the background.",
+        "indicators": [],
+        "acoustic_features": {
+          "pitch_mean": 182.35646057128906,
+          "pitch_variance": 4624.87744140625,
+          "energy": 0.01833527535200119,
+          "spectral_centroid": 1647.436286414534,
+          "zero_crossing_rate": 0.12466755319148937
+        },
+        "confidence": 0
+      },
+      {
+        "timestamp": 55.82,
+        "duration": 2.4399999999999977,
+        "text": "It's probably a little bit better next time.",
+        "indicators": [
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.3 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 153.69210815429688,
+          "pitch_variance": 5635.2998046875,
+          "energy": 0.013479279354214668,
+          "spectral_centroid": 1895.2125270044587,
+          "zero_crossing_rate": 0.15582513189935066
+        },
+        "confidence": 0.5
+      },
+      {
+        "timestamp": 58.26,
+        "duration": 1.9600000000000009,
+        "text": "Leave it to the professionals, folks.",
+        "indicators": [
+          {
+            "emotion": "satisfaction",
+            "confidence": 0.5,
+            "evidence": [
+              "Fluent speech (3.1 wps)",
+              "Confident delivery",
+              "No hesitation"
+            ]
+          }
+        ],
+        "acoustic_features": {
+          "pitch_mean": 136.6717987060547,
+          "pitch_variance": 6288.57958984375,
+          "energy": 0.011798960156738758,
+          "spectral_centroid": 2189.0097507796404,
+          "zero_crossing_rate": 0.1639916204637097
+        },
+        "confidence": 0.5
+      }
+    ],
+    "timeline": [
+      {
+        "timestamp": 20.68,
+        "emotion": "uncertainty",
+        "confidence": 0.6
+      },
+      {
+        "timestamp": 25.84,
+        "emotion": "frustration",
+        "confidence": 0.6
+      },
+      {
+        "timestamp": 55.82,
+        "emotion": "satisfaction",
+        "confidence": 0.5
+      }
+    ],
+    "key_moments": [],
+    "summary": {
+      "dominant_emotion": "uncertainty",
+      "emotion_distribution": {
+        "uncertainty": 2,
+        "frustration": 1,
+        "satisfaction": 2
+      },
+      "total_segments_analyzed": 13,
+      "segments_with_emotions": 5
+    },
+    "analysis_tier": "FREE"
+  },
+  "visual_analysis": {
+    "total_frames": 2,
+    "analyzed_frames": 2,
+    "frame_interval": 30,
+    "frames": [
+      {
+        "frame_number": 1,
+        "timestamp": 0,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/consumer03/frames/frame_0001.jpg",
+        "analysis": "1. Lighting Problems/Challenges: The image shows an individual in a room with artificial lighting. There appears to be uneven lighting distribution across the subject's face, with one side being less illuminated than the other, suggesting an issue with the light source placement or directness.\n\n2. Lighting Solutions/Techniques: The person is using a cap with a built-in LED light on their head. This suggests that the individual is attempting to use a personal lighting system to even out the shadows and improve overall face illumination, which can be especially helpful for video calls or selfies where the aim is for balanced and even lighting.\n\n3. Specific Lighting Products Mentioned/Shown: The product being used is an LED cap with adjustable brightness levels. This type of product offers a portable and hands-free solution to improve personal illumination in various contexts, such as video calls, photography, or even outdoor activities where additional light may be helpful.\n\n4. Lighting Context (Room Type, Task, Mood): The room is an indoor space that appears to be a living area given the presence of a wall decoration and a window. The task at hand seems to be a personal video call or recording, as indicated by the use of a cap light for enhanced illumination. The mood of the person in the photo can be subjective, but they seem to be casually dressed, which might suggest an informal or relaxed setting."
+      },
+      {
+        "frame_number": 2,
+        "timestamp": 30,
+        "frame_path": "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/consumer03/frames/frame_0002.jpg",
+        "analysis": "This video frame captures a person sitting indoors with a background that suggests a home environment. Here are some observations related to the lighting:\n\n1. Lighting Problems or Challenges:\n   - The lighting in the room appears uneven, with shadows cast on the right side of the person's face. This could indicate that the light source is not soft or diffused enough, and it's positioned too high relative to the subject.\n   - There's a lack of fill light, which can cause one side of the face to appear darker than the other.\n\n2. Lighting Solutions or Techniques:\n   - The person is using a flashlight or LED panel in front of them, which is providing additional illumination that helps with visibility and reduces the shadows on their face. This demonstrates the use of supplementary lighting to improve the overall image quality by reducing the depth of field (DOF) and enhancing the subject's features.\n   - The person is also wearing a cap, suggesting they might be using it as an improvised lighting diffuser or reflector, although this isn't the most effective solution.\n\n3. Specific Lighting Products Mentioned or Shown:\n   - There are no visible lighting products mentioned or shown in this image frame. The solutions appear to be improvised, with a flashlight or LED panel used as makeshift lighting equipment.\n\n4. Lighting Context (Room Type, Task, Mood):\n   - The room appears to be a living space, possibly a bedroom or a study, based on the presence of what looks like artwork on the wall in the background.\n   - The task is video recording, and the mood seems casual and informal, as indicated by the person's relaxed posture and the context of them appearing in a video, potentially talking about lighting."
+      }
+    ]
+  },
+  "insights": {
+    "pain_points": [
+      {
+        "timestamp": 7.86,
+        "text": "get a little bit more electrical knowledge, if you will, because it made it a little difficult",
+        "type": "pain_point"
+      }
+    ],
+    "solutions": [],
+    "verbatims": [
+      "get a little bit more electrical knowledge, if you will, because it made it a little difficult"
+    ],
+    "lighting_contexts": [
+      {
+        "timestamp": 0,
+        "context": "1. Lighting Problems/Challenges: The image shows an individual in a room with artificial lighting. There appears to be uneven lighting distribution across the subject's face, with one side being less "
+      },
+      {
+        "timestamp": 30,
+        "context": "This video frame captures a person sitting indoors with a background that suggests a home environment. Here are some observations related to the lighting:\n\n1. Lighting Problems or Challenges:\n   - The"
+      }
+    ]
+  },
+  "jtbd": [
+    {
+      "jtbd_id": "consumer03_0",
+      "categories": [
+        "functional"
+      ],
+      "confidence": 0.6,
+      "verbatim": "If I was to take on another project similar to this, again, I would do some more research,",
+      "timestamp": 0.0,
+      "participant": "AlanG",
+      "evidence": {},
+      "video_id": "consumer03",
+      "context": "If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn't have enough power going to it because of the dambridge or the conversion"
+    },
+    {
+      "jtbd_id": "consumer03_14",
+      "categories": [
+        "functional"
+      ],
+      "confidence": 0.5,
+      "verbatim": "when finding the time to figure out which way to go ahead and go about making the light",
+      "timestamp": 14.16,
+      "participant": "AlanG",
+      "evidence": {},
+      "video_id": "consumer03",
+      "context": "If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn't have enough power going to it because of the dambridge or the conversion of the wiring because doorbell chimes are tamped down from the amperage of the typical 110 to whatever the low voltage or low amperage that they needed to be."
+    },
+    {
+      "jtbd_id": "consumer03_22",
+      "categories": [
+        "functional"
+      ],
+      "confidence": 0.5,
+      "verbatim": "You know, at first I was, I got something different, wanted to put it up and realized",
+      "timestamp": 21.68,
+      "participant": "AlanG",
+      "evidence": {
+        "functional_signal": "wanted to"
+      },
+      "video_id": "consumer03",
+      "context": "If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn't have enough power going to it because of the dambridge or the conversion of the wiring because doorbell chimes are tamped down from the amperage of the typical 110 to whatever the low voltage or low amperage that they needed to be. And having that knowledge would help. Having a little bit better electrical tools would definitely help as well. Just knowing, having the knowledge of, and the background."
+    },
+    {
+      "jtbd_id": "consumer03_26",
+      "categories": [
+        "functional"
+      ],
+      "confidence": 0.7999999999999999,
+      "verbatim": "that I didn't have enough power going to it because of the dambridge or the conversion",
+      "timestamp": 25.84,
+      "participant": "AlanG",
+      "evidence": {},
+      "video_id": "consumer03",
+      "context": "If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn't have enough power going to it because of the dambridge or the conversion of the wiring because doorbell chimes are tamped down from the amperage of the typical 110 to whatever the low voltage or low amperage that they needed to be. And having that knowledge would help. Having a little bit better electrical tools would definitely help as well. Just knowing, having the knowledge of, and the background. It's probably a little bit better next time."
+    }
+  ],
+  "products_3m": [],
+  "workarounds": []
+}
