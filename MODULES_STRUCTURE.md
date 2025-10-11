@@ -128,8 +128,73 @@ modules/youtube-datasource/
 
 ---
 
-### **creator-discovery** 📋 PLANNED
-**Purpose**: Multi-platform creator identification and profiling
+### **creator-intelligence** 📋 PRE-DEVELOPMENT (Documentation Complete)
+**Purpose**: Multi-platform creator analysis for lighting industry (YouTube, Etsy, Instagram, TikTok)
+
+**Structure**:
+```
+modules/creator-intelligence/
+├── README.md                               # Full documentation
+├── config/                                 # API credentials
+│   ├── .env.example
+│   ├── .env (gitignored)
+│   └── .gitignore
+├── core/                                   # Pipeline coordination
+│   ├── orchestrator.py                     # Main analysis pipeline
+│   ├── config.py                           # Configuration management
+│   └── database.py                         # SQLite operations
+├── scrapers/                               # Multi-platform data collection
+│   ├── youtube_scraper.py                  # YouTube Data API v3
+│   ├── etsy_scraper.py                     # Etsy API v3 (OAuth)
+│   ├── instagram_scraper.py                # Apify + Instaloader fallback
+│   ├── tiktok_scraper.py                   # Apify + Playwright fallback
+│   ├── apify_client.py                     # Apify SDK wrapper
+│   ├── failover_pool.py                    # Scraper failover logic
+│   └── __init__.py
+├── analyzers/                              # LLM-powered analysis
+│   ├── content_classifier.py               # Relevance classification
+│   ├── pain_point_detector.py              # Pain point extraction
+│   ├── language_extractor.py               # Consumer language extraction
+│   ├── trend_analyzer.py                   # Theme clustering
+│   ├── creator_scorer.py                   # Research/partnership scoring
+│   └── __init__.py
+├── reporters/                              # Report generation
+│   ├── html_reporter.py                    # HTML reports
+│   ├── excel_reporter.py                   # Excel workbooks
+│   ├── json_exporter.py                    # JSON export
+│   └── __init__.py
+├── data/                                   # Outputs
+│   ├── cache/                              # Raw scraped data (JSON)
+│   │   ├── youtube/
+│   │   ├── etsy/
+│   │   ├── instagram/
+│   │   └── tiktok/
+│   ├── database/                           # SQLite database
+│   │   └── creators.db
+│   ├── reports/                            # Generated reports
+│   │   ├── *.html
+│   │   ├── *.xlsx
+│   │   └── *.json
+│   └── logs/                               # Error logs
+├── docs/                                   # Documentation
+│   ├── PRD-creator-intelligence.md         # Product requirements v1.0
+│   ├── TECHNICAL-ARCHITECTURE.md           # System design
+│   ├── API-INTEGRATION-PREFLIGHT.md        # Setup checklist
+│   ├── RISK-ASSESSMENT.md                  # Risk mitigation
+│   └── DATABASE-SCHEMA.md                  # Database documentation
+└── tests/                                  # Test suite
+    └── (to be implemented)
+```
+
+**Key Features**:
+- 3-tier data collection (Official APIs → Managed scrapers → Aggressive scraping)
+- Hybrid 70% scripted / 30% LLM analysis
+- Triple intelligence: Creator trends, consumer language dictionary, partnership database
+- Viability scoring (Research score + Partnership score 0-100)
+- Grey-area scraping for Instagram/TikTok with risk mitigation
+- Multi-format reports (HTML + Excel + JSON)
+
+**Status**: Documentation complete (PRD, Architecture, Preflight, Risk Assessment, Database Schema, README)
 
 ---
 
