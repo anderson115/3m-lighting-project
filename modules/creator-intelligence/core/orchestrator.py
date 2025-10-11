@@ -127,29 +127,38 @@ class CreatorIntelligenceOrchestrator:
 
         # Step 2: Get content for each creator and classify
         creators_with_content = []
+        failed_creators = []
 
         for i, creator in enumerate(all_creators):
-            logger.info(f"\n📥 Processing creator {i+1}/{len(all_creators)}: {creator['username']} ({creator['platform']})")
+            try:
+                logger.info(f"\n📥 Processing creator {i+1}/{len(all_creators)}: {creator['username']} ({creator['platform']})")
 
-            # Get creator content
-            contents = self._get_creator_content(creator, limit=20)
-            logger.info(f"   Retrieved {len(contents)} pieces of content")
+                # Get creator content
+                contents = self._get_creator_content(creator, limit=20)
+                logger.info(f"   Retrieved {len(contents)} pieces of content")
 
-            if not contents:
-                logger.warning(f"   Skipping {creator['username']} - no content found")
-                continue
+                if not contents:
+                    logger.warning(f"   Skipping {creator['username']} - no content found")
+                    continue
 
-            # Classify content
-            logger.info(f"   Classifying content...")
-            classified_contents = self.classifier.classify_batch(contents)
+                # Classify content
+                logger.info(f"   Classifying content...")
+                classified_contents = self.classifier.classify_batch(contents)
 
-            # Add creator_id to contents (will be updated after DB insert)
-            for content, classification in zip(contents, classified_contents):
-                content.update(classification)
+                # Add creator_id to contents (will be updated after DB insert)
+                for content, classification in zip(contents, classified_contents):
+                    content.update(classification)
 
-            creators_with_content.append((creator, classified_contents))
+                creators_with_content.append((creator, classified_contents))
 
-        logger.info(f"\n✅ Processed {len(creators_with_content)} creators with content")
+            except Exception as e:
+                logger.error(f"   ❌ Failed processing {creator['username']}: {e}")
+                failed_creators.append((creator, str(e)))
+                continue  # Continue with remaining creators
+
+        logger.info(f"\n✅ Successfully processed {len(creators_with_content)} creators")
+        if failed_creators:
+            logger.warning(f"⚠️  Failed processing {len(failed_creators)} creators - see logs above")
 
         # Step 3: Score creators
         logger.info(f"\n📊 Scoring creators...")
@@ -211,6 +220,8 @@ class CreatorIntelligenceOrchestrator:
 
         return {
             'total_creators_analyzed': saved_count,
+            'failed_creators_count': len(failed_creators),
+            'success_rate': f"{(saved_count / len(all_creators) * 100):.1f}%" if all_creators else "0%",
             'database_stats': stats,
             'llm_tokens_used': self.classifier.total_tokens_used
         }
