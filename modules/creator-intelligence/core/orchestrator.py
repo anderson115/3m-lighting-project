@@ -9,16 +9,17 @@ from typing import List, Dict, Optional
 import sys
 
 # Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
+module_root = Path(__file__).parent.parent
+sys.path.insert(0, str(module_root))
 
-from modules.creator_intelligence.core.config import config
-from modules.creator_intelligence.core.database import CreatorDatabase
-from modules.creator_intelligence.scrapers.youtube_scraper import YouTubeScraper
-from modules.creator_intelligence.scrapers.instagram_scraper import InstagramScraper
-from modules.creator_intelligence.scrapers.tiktok_scraper import TikTokScraper, sync_search_users as tiktok_sync_search
-from modules.creator_intelligence.scrapers.pinterest_scraper import PinterestScraper, sync_search_and_capture
-from modules.creator_intelligence.analyzers.content_classifier import ContentClassifier
-from modules.creator_intelligence.analyzers.creator_scorer import CreatorScorer
+from core.config import config
+from core.database import CreatorDatabase
+from scrapers.youtube_scraper import YouTubeScraper
+from scrapers.instagram_scraper import InstagramScraper
+from scrapers.tiktok_scraper import TikTokScraper, sync_search_users as tiktok_sync_search
+from scrapers.pinterest_scraper import PinterestScraper, sync_search_and_capture
+from analyzers.content_classifier import ContentClassifier
+from analyzers.creator_scorer import CreatorScorer
 
 logging.basicConfig(
     level=logging.INFO,
@@ -75,9 +76,9 @@ class CreatorIntelligenceOrchestrator:
             # TikTok uses sync wrappers due to async architecture
             pass
 
-        if self.config.enable_pinterest:
-            # Pinterest uses sync wrappers due to async architecture
-            pass
+        # Pinterest support - uses sync wrappers (no config attribute yet)
+        # if self.config.enable_pinterest:
+        #     pass
 
         logger.info(f"✅ CreatorIntelligenceOrchestrator initialized with {len(self.scrapers)} scrapers")
 
@@ -102,8 +103,8 @@ class CreatorIntelligenceOrchestrator:
             platforms = list(self.scrapers.keys())
             if self.config.enable_tiktok and 'tiktok' not in platforms:
                 platforms.append('tiktok')
-            if self.config.enable_pinterest and 'pinterest' not in platforms:
-                platforms.append('pinterest')
+            # if self.config.enable_pinterest and 'pinterest' not in platforms:
+            #     platforms.append('pinterest')
 
         logger.info(f"🚀 Starting creator analysis")
         logger.info(f"   Keywords: {keywords}")
@@ -231,25 +232,25 @@ class CreatorIntelligenceOrchestrator:
                     rate_limit=self.config.tiktok_rate_limit
                 )
 
-            elif platform == 'pinterest' and self.config.enable_pinterest:
-                # Pinterest returns pin data, not creators
-                # Extract unique creators from pins
-                result = sync_search_and_capture(
-                    cache_dir=self.config.cache_dir / 'pinterest',
-                    screenshot_dir=self.config.module_root / 'data' / 'screenshots' / 'pinterest',
-                    query=keyword,
-                    limit=limit
-                )
-
-                # Convert pins to creator format (unique board owners)
-                creators_map = {}
-                for pin in result.get('pins', []):
-                    # Pinterest doesn't give us creator info easily
-                    # Just log that we captured visual data
-                    pass
-
-                logger.info(f"   Captured {len(result.get('pins', []))} Pinterest pins (visual data)")
-                return []  # Pinterest is visual-only, no structured creator data
+            # elif platform == 'pinterest' and self.config.enable_pinterest:
+            #     # Pinterest returns pin data, not creators
+            #     # Extract unique creators from pins
+            #     result = sync_search_and_capture(
+            #         cache_dir=self.config.cache_dir / 'pinterest',
+            #         screenshot_dir=self.config.module_root / 'data' / 'screenshots' / 'pinterest',
+            #         query=keyword,
+            #         limit=limit
+            #     )
+            #
+            #     # Convert pins to creator format (unique board owners)
+            #     creators_map = {}
+            #     for pin in result.get('pins', []):
+            #         # Pinterest doesn't give us creator info easily
+            #         # Just log that we captured visual data
+            #         pass
+            #
+            #     logger.info(f"   Captured {len(result.get('pins', []))} Pinterest pins (visual data)")
+            #     return []  # Pinterest is visual-only, no structured creator data
 
             else:
                 logger.warning(f"   Platform {platform} not enabled or not supported")
@@ -273,7 +274,7 @@ class CreatorIntelligenceOrchestrator:
 
             elif platform == 'tiktok':
                 # Use sync wrapper
-                from modules.creator_intelligence.scrapers.tiktok_scraper import sync_get_user_videos
+                from scrapers.tiktok_scraper import sync_get_user_videos
                 return sync_get_user_videos(
                     cache_dir=self.config.tiktok_cache,
                     username=creator['username'],

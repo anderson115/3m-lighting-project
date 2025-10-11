@@ -74,9 +74,13 @@ class CreatorDatabase:
                 like_count INTEGER,
                 comment_count INTEGER,
                 published_at TIMESTAMP,
+                classification TEXT,  -- 'highly_relevant', 'relevant', 'tangentially_relevant', 'not_relevant'
                 pain_points TEXT,  -- JSON array of detected pain points
                 consumer_language TEXT,  -- JSON array of consumer language phrases
                 relevance_score REAL,  -- 0-1 relevance to lighting industry
+                relevance_reasoning TEXT,  -- LLM reasoning for classification
+                lighting_topics TEXT,  -- JSON array of lighting topics mentioned
+                job_to_be_done TEXT,  -- Job the content helps with
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 metadata TEXT,  -- JSON field for additional data
                 FOREIGN KEY (creator_id) REFERENCES creators(id),
@@ -176,7 +180,7 @@ class CreatorDatabase:
         cursor = self.conn.cursor()
 
         # Convert JSON fields to strings
-        for field in ['pain_points', 'consumer_language', 'metadata']:
+        for field in ['pain_points', 'consumer_language', 'lighting_topics', 'metadata']:
             if field in content_data and isinstance(content_data[field], (list, dict)):
                 content_data[field] = json.dumps(content_data[field])
 
