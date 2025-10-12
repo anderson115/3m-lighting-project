@@ -95,9 +95,8 @@ Consumer language: Exact phrases consumers use (not technical jargon)
 
             logger.debug(f"Classification: {result.get('classification')} (score: {result.get('relevance_score')})")
 
-            return {
-                'content_id': content.get('content_id'),
-                'platform': content.get('platform'),
+            # UPDATE original content dict instead of creating new one (preserves all scraped data)
+            content.update({
                 'classification': result.get('classification'),
                 'relevance_score': result.get('relevance_score', 0.0),
                 'relevance_reasoning': result.get('relevance_reasoning', ''),
@@ -105,7 +104,9 @@ Consumer language: Exact phrases consumers use (not technical jargon)
                 'consumer_language': result.get('consumer_language', []),
                 'lighting_topics': result.get('lighting_topics', []),
                 'job_to_be_done': result.get('job_to_be_done', '')
-            }
+            })
+
+            return content
 
         except json.JSONDecodeError as e:
             logger.error(f"Failed to parse LLM response: {e}")
@@ -138,7 +139,7 @@ Consumer language: Exact phrases consumers use (not technical jargon)
         return results
 
     def _fallback_classification(self, content: Dict) -> Dict:
-        """Fallback classification using keyword matching."""
+        """Fallback classification using keyword matching. Preserves all original content data."""
         text = f"{content.get('title', '')} {content.get('description', '')}".lower()
 
         lighting_keywords = [
@@ -161,9 +162,8 @@ Consumer language: Exact phrases consumers use (not technical jargon)
 
         logger.warning(f"Using fallback classification: {classification}")
 
-        return {
-            'content_id': content.get('content_id'),
-            'platform': content.get('platform'),
+        # UPDATE original content dict instead of creating new one (preserves all scraped data)
+        content.update({
             'classification': classification,
             'relevance_score': score,
             'relevance_reasoning': 'Fallback keyword matching',
@@ -171,7 +171,9 @@ Consumer language: Exact phrases consumers use (not technical jargon)
             'consumer_language': [],
             'lighting_topics': [],
             'job_to_be_done': ''
-        }
+        })
+
+        return content
 
 
 if __name__ == "__main__":

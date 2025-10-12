@@ -149,7 +149,7 @@ class CreatorIntelligenceOrchestrator:
                 for content, classification in zip(contents, classified_contents):
                     content.update(classification)
 
-                creators_with_content.append((creator, classified_contents))
+                creators_with_content.append((creator, contents))
 
             except Exception as e:
                 logger.error(f"   ❌ Failed processing {creator['username']}: {e}")

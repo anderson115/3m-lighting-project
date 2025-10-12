@@ -49,7 +49,7 @@ class CreatorIntelligenceConfig:
 
         # LLM API (Gemini Flash for cost efficiency)
         self.llm_provider = os.getenv('LLM_PROVIDER', 'gemini')
-        self.llm_model = os.getenv('LLM_MODEL', 'gemini-1.5-flash')
+        self.llm_model = os.getenv('LLM_MODEL', 'gemini-1.5-flash-002')
         self.gemini_api_key = os.getenv('GEMINI_API_KEY')
         self.anthropic_api_key = os.getenv('ANTHROPIC_API_KEY')
         self.openai_api_key = os.getenv('OPENAI_API_KEY')
