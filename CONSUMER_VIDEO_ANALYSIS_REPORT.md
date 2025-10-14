@@ -1,155 +1,64 @@
-# 3M LIGHTING: CONSUMER VIDEO INTELLIGENCE
+# 3M LIGHTING: CONSUMER VIDEO ANALYSIS
 
-**79 videos. 305 insights. 3 strategic imperatives.**
-
----
-
-## THE TRUTH
-
-Consumers don't fear your product. They fear looking stupid installing it.
-
-**Analyzed:** 79 consumer interview videos (15 participants)
-**Extracted:** 305 jobs-to-be-done, 92 pain points, 426 emotional moments
-**Processing:** Multi-modal AI (audio + visual + emotion analysis)
+**79 videos. 305 consumer insights. Evidence-based findings.**
 
 ---
 
-## THREE MOVES THAT MATTER
+## WHAT THE DATA SHOWS
 
-### 1. KILL THE ELECTRICIAN BARRIER
-
-**The Problem:**
-> "I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be."
-
-**The Data:**
-- 36% of all pain points = electrical fear
-- Participants actively avoid hardwiring
-- First choice: battery-powered "looks hardwired"
-
-**The Move:**
-Brand battery-powered line as **"Professional Install. Zero Electrician."**
-
-**Market Size:** Every DIY lighting customer (100% addressable)
+**Most frequent topics across 305 verbatim statements:**
+- Electrical/hardwiring concerns: 38 mentions (12.5%)
+- Adhesive/mounting: 53 mentions (17.4%)
+- Spacing/alignment: 40 mentions (13.1%)
+- Battery-powered options: 33 mentions (10.8%)
 
 ---
 
-### 2. FIX THE ARIZONA PROBLEM
+## ELECTRICAL FEAR
 
-**The Problem:**
-> "It gets really hot here in Arizona so I wanted something that would stick and stay and I'd have had a couple fall."
+**Frequency:** 38 of 305 statements (12.5%)
 
-**The Data:**
-- Adhesive failures in 120°F+ climates
-- Sunbelt states = 40% of US lighting market
-- Current solutions: inadequate tape, repeated failures
-
-**The Move:**
-Develop climate-rated adhesive system. Market to AZ/TX/FL/NV/CA explicitly.
-
-**Revenue Opportunity:** 40% market x premium pricing for "guaranteed desert hold"
+**What consumers actually said:**
+- "and deciding whether or not I was going to hardwire something behind that," (AlanG)
+- "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be." (AlanG)
+- "So I capped everything off, got everything back where it needed to go," (AlanG)
+- "If I was to take on another project similar to this, again, I would do some more research," (AlanG)
+- "when finding the time to figure out which way to go ahead and go about making the light" (AlanG)
 
 ---
 
-### 3. SOLVE THE SPACING DISASTER
+## ADHESIVE & MOUNTING
 
-**The Problem:**
-> "Some sort of tool to figure out even spacing. I even googled it and it didn't make sense."
+**Frequency:** 53 of 305 statements (17.4%)
 
-**The Data:**
-- Alignment = #3 pain point (very high frequency)
-- Consumers Google solutions, find nothing useful
-- Tilted fixtures = constant re-adjustment
-
-**The Move:**
-Include paper spacing template with multi-fixture kits. (Cost: $0.08/unit. Value: priceless)
+**What consumers actually said:**
+- "any cords like the picture frame lighting." (AlysonT)
+- "So not that it, like I said, is frustrating." (AlysonT)
+- "I could only take the process so far because I have no..." (AlysonT)
+- "So I got to keep track of the idea, what's involved and how to attach it correctly with" (AlysonT)
+- "So in that way, I did feel a little bit helpless because I wasn't able to see the project all" (AlysonT)
 
 ---
 
-## WHO TO LISTEN TO
+## SPACING & ALIGNMENT
 
-**TiffanyO** → 52 insights from 2 videos (26x average)
-Use her videos for marketing verbatims.
+**Frequency:** 40 of 305 statements (13.1%)
 
-**MarkR** → 43 insights across full journey
-Use his videos for tutorial scripts.
-
-**FarahN** → 42 insights, strong emotion signals
-Use her videos for safety/accessibility messaging.
-
----
-
-## WHAT THEY ACTUALLY SAID
-
-### On Hardwiring:
-- "I'm not an electrician" (AlanG)
-- "So much more involved when you're hard wiring" (AlysonT)
-- "I probably would have just hardwired them when we had the electrician here" (DianaL)
-
-**Translation:** Hire an electrician OR avoid hardwiring entirely. No middle ground.
-
-### On Adhesives:
-- "Really really hot here in Arizona... I'd have had a couple fall" (CarrieS)
-- "Tape sticky enough to stick not only to the lighting but also to the wall" (CarrieS)
-
-**Translation:** Standard adhesives fail in extreme heat. Period.
-
-### On Alignment:
-- "This frame is just a tiny bit tilted. So I'm constantly having to fix that" (ChristianL)
-- "Making sure everything is absolutely even is the hardest part" (ChristianL)
-- "I even googled it and it didn't make sense" (ChristianL)
-
-**Translation:** Google can't teach spacing. You need a physical tool.
+**What consumers actually said:**
+- "Even looking at this, I can see that this frame is just a tiny bit tilted." (ChristianL)
+- "So I'm constantly having to fix that." (ChristianL)
+- "I don't know if our cats are going to hate him or what." (ChristianL)
+- "Obviously, I don't know if you're able to tell, but the lights themselves, they go up." (ChristianL)
+- "But that's one thing that I noticed." (ChristianL)
 
 ---
 
-## THE SEGMENTS
+## METHODOLOGY
 
-**50% - Cautious First-Timers**
-Fear failure. Need confidence. Want reversibility.
-→ Message: "You can't mess this up."
-
-**30% - Confident DIYers**
-Want pro results. Have skills. Need better tools.
-→ Message: "Pro-level accessories included."
-
-**20% - Convenience Seekers**
-Want speed. Hate complexity. Will pay premium.
-→ Message: "10 minutes. Zero tools. Done."
-
----
-
-## MESSAGING THAT WORKS
-
-**Use This:**
-- "Looks hardwired, installs in minutes"
-- "Skip the $200 electrician call"
-- "You can do this"
-- "10-minute install"
-
-**Not This:**
-- "Easy installation" (vague, not credible)
-- "Professional-grade" (intimidating)
-- "Advanced features" (irrelevant)
-
----
-
-## NEXT STEPS (4 WEEKS)
-
-**Week 1:** Extract verbatims from TiffanyO/MarkR/FarahN videos
-**Week 2:** Prototype high-temp adhesive system
-**Week 3:** Design paper spacing template
-**Week 4:** Test messaging "Looks hardwired, installs in minutes"
-
----
-
-## APPENDIX: METHODOLOGY
-
-**Corpus:** 79 videos, 15 participants, 6 activity types
-**Transcription:** Whisper Large-v3 (95%+ accuracy)
-**Emotion:** Librosa acoustic analysis (pitch, energy, pauses)
-**Visual:** LLaVA frame analysis (2-5 frames/video)
-**JTBD:** Evidence-first extraction (305 instances, 89% medium-high confidence)
-**Processing:** Sequential, ~60sec/video, 96% success rate
+**Corpus:** 79 consumer interview videos
+**Transcription:** Whisper Large-v3
+**Analysis:** JTBD extraction (305 instances)
+**Pattern Detection:** Keyword frequency analysis
 
 **Data Location:** `/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/`
 
