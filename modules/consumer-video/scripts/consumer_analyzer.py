@@ -352,13 +352,20 @@ Provide a concise analysis focusing on pain points and solutions."""
             print(f"❌ Video not found: {video_path}")
             return None
 
-        # Load metadata
-        with open(metadata_path) as f:
-            metadata = json.load(f)
+        # Load metadata (optional for consumer videos)
+        metadata = {}
+        if metadata_path.exists():
+            with open(metadata_path) as f:
+                metadata = json.load(f)
 
-        print(f"Title: {metadata['title']}")
-        print(f"Channel: {metadata['channel']}")
-        print(f"Duration: {metadata['duration']//60}m {metadata['duration']%60}s")
+            print(f"Title: {metadata.get('title', 'N/A')}")
+            print(f"Channel: {metadata.get('channel', 'N/A')}")
+            if 'duration' in metadata:
+                print(f"Duration: {metadata['duration']//60}m {metadata['duration']%60}s")
+        else:
+            print(f"Video ID: {video_id}")
+            print(f"Source: {video_path.name}")
+            print("Note: Processing raw consumer video without metadata")
 
         # Create working directories
         work_dir = self.output_dir / video_id
@@ -406,9 +413,9 @@ Provide a concise analysis focusing on pain points and solutions."""
         analysis = {
             'metadata': {
                 'video_id': video_id,
-                'title': metadata['title'],
-                'channel': metadata['channel'],
-                'duration': metadata['duration'],
+                'title': metadata.get('title', video_path.name),
+                'channel': metadata.get('channel', 'Consumer Interview'),
+                'duration': metadata.get('duration', 0),
                 'analyzed_at': datetime.now().isoformat()
             },
             'transcription': transcription,
