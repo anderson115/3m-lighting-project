@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Intelligence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+            background: #0a0e1a;
+            color: #e8eaf0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 1rem;
+        }
+
+        /* COMPACT WIDGET */
+        .widget {
+            width: 100%;
+            max-width: 480px;
+            background: linear-gradient(145deg, #1a1f2e 0%, #141824 100%);
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* HEADER ROW */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.2rem;
+        }
+
+        .title-group {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .status-light {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #10b981;
+            box-shadow: 0 0 12px rgba(16, 185, 129, 0.6),
+                        0 0 24px rgba(16, 185, 129, 0.3);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        .status-light.running {
+            background: #8b5cf6;
+            box-shadow: 0 0 12px rgba(139, 92, 246, 0.6),
+                        0 0 24px rgba(139, 92, 246, 0.3);
+        }
+
+        .status-light.waiting {
+            background: #f59e0b;
+            box-shadow: 0 0 12px rgba(245, 158, 11, 0.6),
+                        0 0 24px rgba(245, 158, 11, 0.3);
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.6;
+                transform: scale(1.1);
+            }
+        }
+
+        .title {
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            color: #f1f3f9;
+        }
+
+        .connection-badge {
+            font-size: 0.7rem;
+            padding: 0.25rem 0.6rem;
+            background: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+            border-radius: 6px;
+            font-weight: 600;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        /* PROGRESS SECTION */
+        .progress-section {
+            margin-bottom: 1rem;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-label {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #9ca3af;
+            letter-spacing: 0.3px;
+        }
+
+        .progress-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            font-feature-settings: 'tnum';
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* PROGRESS BAR */
+        .progress-track {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #8b5cf6 0%, #ec4899 100%);
+            border-radius: 3px;
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 12px rgba(139, 92, 246, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-fill::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.3) 50%,
+                transparent 100%);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        /* METRICS ROW */
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .metric {
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 1.6rem;
+            font-weight: 800;
+            font-feature-settings: 'tnum';
+            line-height: 1;
+            margin-bottom: 0.25rem;
+        }
+
+        .metric-value.success { color: #10b981; }
+        .metric-value.error { color: #ef4444; }
+        .metric-value.neutral { color: #8b5cf6; }
+        .metric-value.info { color: #06b6d4; }
+
+        .metric-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #6b7280;
+            font-weight: 600;
+        }
+
+        /* STATUS TEXT */
+        .status-text {
+            font-size: 0.8rem;
+            color: #9ca3af;
+            padding: 0.6rem 0.8rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            border-left: 2px solid #8b5cf6;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+        }
+
+        /* COMPLETION STATE */
+        .completion {
+            display: none;
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+            border-radius: 12px;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            margin-top: 1rem;
+        }
+
+        .completion.visible {
+            display: block;
+        }
+
+        .completion-icon {
+            font-size: 2rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .completion-text {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #10b981;
+            letter-spacing: -0.2px;
+            margin-bottom: 0.6rem;
+        }
+
+        .report-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .report-link:hover {
+            background: rgba(16, 185, 129, 0.25);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 480px) {
+            .metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="widget">
+        <!-- Header -->
+        <div class="header">
+            <div class="title-group">
+                <div class="status-light" id="statusLight"></div>
+                <h1 class="title">Creator Intelligence</h1>
+            </div>
+            <div class="connection-badge" id="connectionBadge">●</div>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-section">
+            <div class="progress-header">
+                <span class="progress-label">PROCESSING</span>
+                <span class="progress-value" id="progressValue">0%</span>
+            </div>
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-value success" id="metricSuccess">0</div>
+                <div class="metric-label">Success</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value error" id="metricFailed">0</div>
+                <div class="metric-label">Failed</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value neutral" id="metricTime">0s</div>
+                <div class="metric-label">Time</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value info" id="metricQuota">0</div>
+                <div class="metric-label">Quota</div>
+            </div>
+        </div>
+
+        <!-- Current Status -->
+        <div class="status-text" id="statusText">Initializing...</div>
+
+        <!-- Completion -->
+        <div class="completion" id="completion">
+            <div class="completion-icon">✓</div>
+            <div class="completion-text" id="completionText">Test Complete</div>
+            <a href="#" class="report-link" id="reportLink" style="display: none;">View Full Report →</a>
+        </div>
+    </div>
+
+    <script>
+        let ws = null;
+        const elements = {
+            statusLight: document.getElementById('statusLight'),
+            connectionBadge: document.getElementById('connectionBadge'),
+            progressValue: document.getElementById('progressValue'),
+            progressFill: document.getElementById('progressFill'),
+            metricSuccess: document.getElementById('metricSuccess'),
+            metricFailed: document.getElementById('metricFailed'),
+            metricTime: document.getElementById('metricTime'),
+            metricQuota: document.getElementById('metricQuota'),
+            statusText: document.getElementById('statusText'),
+            completion: document.getElementById('completion'),
+            completionText: document.getElementById('completionText'),
+            reportLink: document.getElementById('reportLink')
+        };
+
+        function connectWebSocket() {
+            ws = new WebSocket(`ws://${window.location.host}/ws`);
+
+            ws.onopen = () => {
+                elements.connectionBadge.textContent = '●';
+                elements.connectionBadge.style.background = 'rgba(16, 185, 129, 0.15)';
+                elements.connectionBadge.style.color = '#10b981';
+                elements.connectionBadge.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+            };
+
+            ws.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                updateWidget(data);
+            };
+
+            ws.onclose = () => {
+                elements.connectionBadge.textContent = '○';
+                elements.connectionBadge.style.background = 'rgba(239, 68, 68, 0.15)';
+                elements.connectionBadge.style.color = '#ef4444';
+                elements.connectionBadge.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+                setTimeout(connectWebSocket, 3000);
+            };
+        }
+
+        function updateWidget(data) {
+            // Status light
+            if (data.status === 'running') {
+                elements.statusLight.className = 'status-light running';
+            } else if (data.status === 'completed') {
+                elements.statusLight.className = 'status-light';
+            } else {
+                elements.statusLight.className = 'status-light waiting';
+            }
+
+            // Progress
+            const percent = data.progress_percent || 0;
+            elements.progressValue.textContent = `${percent}%`;
+            elements.progressFill.style.width = `${percent}%`;
+
+            // Metrics
+            elements.metricSuccess.textContent = data.successful || 0;
+            elements.metricFailed.textContent = data.failed || 0;
+            elements.metricTime.textContent = formatTime(data.elapsed_seconds || 0);
+            elements.metricQuota.textContent = data.api_quota_used || 0;
+
+            // Status text
+            elements.statusText.textContent = data.current_step || 'Waiting...';
+
+            // Completion
+            if (data.status === 'completed') {
+                elements.completion.classList.add('visible');
+                elements.completionText.textContent = `Processed ${data.successful} creators in ${formatTime(data.elapsed_seconds)}`;
+
+                // Show report link
+                elements.reportLink.style.display = 'inline-block';
+                elements.reportLink.href = '/report.html';
+            }
+        }
+
+        function formatTime(seconds) {
+            if (seconds < 60) return `${seconds}s`;
+            const mins = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            return `${mins}m ${secs}s`;
+        }
+
+        connectWebSocket();
+    </script>
+</body>
+</html>

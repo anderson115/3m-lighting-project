@@ -1,0 +1,78 @@
+{
+  "start_time": 1760273975.9515772,
+  "test_config": {
+    "target_creators": 50,
+    "videos_per_creator": 20,
+    "keywords": [
+      "LED lighting",
+      "smart lighting",
+      "home lighting"
+    ],
+    "platforms": [
+      "youtube"
+    ]
+  },
+  "phases": {
+    "initialization": {
+      "duration_seconds": 0.007047176361083984,
+      "status": "success"
+    },
+    "analysis": {
+      "duration_seconds": 1151.4254031181335,
+      "duration_minutes": 19.190423385302225,
+      "status": "success"
+    }
+  },
+  "results": {
+    "total_creators_analyzed": 50,
+    "failed_creators_count": 0,
+    "success_rate": "98.0%",
+    "database_stats": {
+      "creators_by_platform": {
+        "youtube": 50
+      },
+      "content_by_platform": {
+        "youtube": 712
+      },
+      "total_language_phrases": 81,
+      "classification_breakdown": {
+        "highly_relevant": 36,
+        "not_relevant": 3,
+        "relevant": 9,
+        "tangentially_relevant": 2
+      }
+    },
+    "llm_tokens_used": 409494
+  },
+  "end_time": 1760275127.384043,
+  "total_duration_seconds": 1151.4324657917023,
+  "total_duration_minutes": 19.19054109652837,
+  "performance": {
+    "total_creators_attempted": 50,
+    "creators_successfully_analyzed": 50,
+    "creators_failed": 0,
+    "success_rate": "98.0%",
+    "time_per_creator_seconds": 23.028508062362672,
+    "llm_tokens_used": 409494
+  },
+  "api_usage": {
+    "youtube_quota_used": 454,
+    "youtube_quota_limit": 10000,
+    "quota_percent_used": 4.54
+  },
+  "database": {
+    "creators_by_platform": {
+      "youtube": 50
+    },
+    "content_by_platform": {
+      "youtube": 712
+    },
+    "total_language_phrases": 81,
+    "classification_breakdown": {
+      "highly_relevant": 36,
+      "not_relevant": 3,
+      "relevant": 9,
+      "tangentially_relevant": 2
+    }
+  }
+}

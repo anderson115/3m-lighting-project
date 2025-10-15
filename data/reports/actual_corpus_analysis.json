@@ -1,0 +1,130 @@
+{
+  "total_videos": 79,
+  "total_jtbd": 305,
+  "pattern_matches": {
+    "electrician_fear": 54,
+    "battery": 17,
+    "adhesive": 53,
+    "heat_temperature": 13,
+    "spacing_alignment": 40,
+    "tool": 14
+  },
+  "top_participants": {
+    "video": {
+      "jtbd_count": 305,
+      "video_count": 79
+    }
+  },
+  "pattern_examples": {
+    "electrician_fear": [
+      {
+        "participant": "video",
+        "verbatim": "and deciding whether or not I was going to hardwire something behind that,"
+      },
+      {
+        "participant": "video",
+        "verbatim": "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So I capped everything off, got everything back where it needed to go,"
+      },
+      {
+        "participant": "video",
+        "verbatim": "If I was to take on another project similar to this, again, I would do some more research,"
+      },
+      {
+        "participant": "video",
+        "verbatim": "when finding the time to figure out which way to go ahead and go about making the light"
+      }
+    ],
+    "adhesive": [
+      {
+        "participant": "video",
+        "verbatim": "any cords like the picture frame lighting."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So not that it, like I said, is frustrating."
+      },
+      {
+        "participant": "video",
+        "verbatim": "I could only take the process so far because I have no..."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So I got to keep track of the idea, what's involved and how to attach it correctly with"
+      },
+      {
+        "participant": "video",
+        "verbatim": "So in that way, I did feel a little bit helpless because I wasn't able to see the project all"
+      }
+    ],
+    "spacing_alignment": [
+      {
+        "participant": "video",
+        "verbatim": "Even looking at this, I can see that this frame is just a tiny bit tilted."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So I'm constantly having to fix that."
+      },
+      {
+        "participant": "video",
+        "verbatim": "I don't know if our cats are going to hate him or what."
+      },
+      {
+        "participant": "video",
+        "verbatim": "Obviously, I don't know if you're able to tell, but the lights themselves, they go up."
+      },
+      {
+        "participant": "video",
+        "verbatim": "But that's one thing that I noticed."
+      }
+    ],
+    "battery": [
+      {
+        "participant": "video",
+        "verbatim": "and deciding whether or not I was going to hardwire something behind that,"
+      },
+      {
+        "participant": "video",
+        "verbatim": "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So I capped everything off, got everything back where it needed to go,"
+      },
+      {
+        "participant": "video",
+        "verbatim": "This adds a very warm tone to it and these specifically are not paintings but they are pictures of our engagement that my wife and I currently live at"
+      },
+      {
+        "participant": "video",
+        "verbatim": "just to get some ideas on what's available."
+      }
+    ],
+    "tool": [
+      {
+        "participant": "video",
+        "verbatim": "So that's one of the things that I would definitely want to do."
+      },
+      {
+        "participant": "video",
+        "verbatim": "I like to do things on my own with as little help as possible because that's like a challenge for me."
+      },
+      {
+        "participant": "video",
+        "verbatim": "So I was just glad it only took me 15 minutes, 15, 20 minutes to center that."
+      },
+      {
+        "participant": "video",
+        "verbatim": "I'm glad I did that."
+      },
+      {
+        "participant": "video",
+        "verbatim": "I'm glad I got the lighting and not an hour."
+      }
+    ]
+  }
+}

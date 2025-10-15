@@ -1,0 +1,2149 @@
+{
+  "total_jtbd": 305,
+  "total_pain_points": 0,
+  "pain_categories": {},
+  "top_participants": {
+    "Unknown": {
+      "jtbd_count": 305,
+      "video_count": 49
+    }
+  },
+  "all_jtbd": [
+    {
+      "participant": "Unknown",
+      "video_id": "video_0001",
+      "verbatim": "and deciding whether or not I was going to hardwire something behind that,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0001",
+      "verbatim": "because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0001",
+      "verbatim": "So I capped everything off, got everything back where it needed to go,",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0002",
+      "verbatim": "If I was to take on another project similar to this, again, I would do some more research,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0002",
+      "verbatim": "when finding the time to figure out which way to go ahead and go about making the light",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0002",
+      "verbatim": "You know, at first I was, I got something different, wanted to put it up and realized",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0002",
+      "verbatim": "that I didn't have enough power going to it because of the dambridge or the conversion",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "Hello, I would say the biggest, not really frustration, but difficulty with the lighting",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "a lamp or just using something that attaches to the frame of a picture and doesn't have",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "any cords like the picture frame lighting.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "So not that it, like I said, is frustrating.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "I could only take the process so far because I have no...",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "So I got to keep track of the idea, what's involved and how to attach it correctly with",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0004",
+      "verbatim": "So in that way, I did feel a little bit helpless because I wasn't able to see the project all",
+      "job_category": "unknown",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0007",
+      "verbatim": "dark it was pretty easy the technique I used I just needed to make sure that I",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0007",
+      "verbatim": "gets really really hot here we're in Arizona so I wanted something that would stick and stay",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0007",
+      "verbatim": "and I'd have had a couple fall so that was a little a little bit challenging so all I did",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0007",
+      "verbatim": "was actually just take the tape off and reinstall it and I actually had the I put the tape on the",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0007",
+      "verbatim": "and I actually held it there like held my hand there on it to push it against for a little while",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "I don't actually think I would do anything differently in my situation with my turf.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "I can't.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "I like the way it looks.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "So I don't know if I would do anything differently.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "I don't have to ruin my turf with the stakes of the lighting, and it's aesthetically pleasing.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "My other option would be to do floodlights or something that were attached to my house,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0008",
+      "verbatim": "So I don't think I would do anything differently.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "Even looking at this, I can see that this frame is just a tiny bit tilted.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "So I'm constantly having to fix that.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "I don't know if our cats are going to hate him or what.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "Obviously, I don't know if you're able to tell, but the lights themselves, they go up.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "But that's one thing that I noticed.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "And I thought my leveler was level.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "But I guess I had accidentally tweaked it just a little bit.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0010",
+      "verbatim": "If it was any more noticeable than this, then I probably would have had to redo it.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0011",
+      "verbatim": "So that's one of the things that I would definitely want to do.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0013",
+      "verbatim": "This adds a very warm tone to it and these specifically are not paintings but they are pictures of our engagement that my wife and I currently live at.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "Some of the challenges I encountered with installing both these lights is,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "honestly, I didn't really know what I was doing. I hadn't done this before, but I wanted to",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "help design this room since we had just bought the house less than two years ago now. So I did",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "have some assistance with how to actually use drywall screws and anchors, and now I feel pretty",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "comfortable that I could do it again by myself without my husband's help. But, you know, locating",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "the spot, putting...you can see the screws right there, the cord running down. So I just needed some",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "overall help on how to do it. So I was able to choose the location, and then we went to the store",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "the weight of the light. And kind of same with the one that went into the stud. So I'd used a",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "actually the installation. So I just needed a little bit of help with the electrical box",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0014",
+      "verbatim": "I had a little bit of help, but definitely for the first time needed a little bit of instruction",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0015",
+      "verbatim": "So I love the way it looks, both of the pieces.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0015",
+      "verbatim": "The floor lights, the only thing I would change, like I said before in the other video, was I'd do the step one so you could step on it and turn on the light.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0015",
+      "verbatim": "I eventually may just buy one of those and make that easier.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0015",
+      "verbatim": "The process itself wasn't too difficult once I figured out how to use the drywall screws and the anchors and it's held up.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "I know, really advanced name for that.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "I waited for one minute. I followed the instructions exactly.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "And then it said to wait for 24 hours before I stuck the light on,",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "is the waiting 24 hours before I could actually put the lights on and use them.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "Better safe than sorry, I suppose.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0017",
+      "verbatim": "But yeah, I guess that was the most time-consuming part, but it wasn't tricky.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0018",
+      "verbatim": "nothing really that I would do different um but I do have a stockpile of those lights",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0018",
+      "verbatim": "I can always find them",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0018",
+      "verbatim": "and I can use them all over the house you know um right now I'm focusing on the staircase but",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0019",
+      "verbatim": "this is the floor lamp I have pointing up at this. I like this lamp because it",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0019",
+      "verbatim": "I like this lamp because it can serve as kind of featuring this but also you can turn it and it can be just like a regular floor lamp.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0019",
+      "verbatim": "I didn't see a place to input these other two things and I did let the",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0019",
+      "verbatim": "person who called me know that my recess lighting wasn't exactly the product",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0019",
+      "verbatim": "didn't work out quite as planned but I just wanted to show these other two",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0022",
+      "verbatim": "So talking about what inspired me to put the spotlight on our artwork was essentially getting the artwork.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0022",
+      "verbatim": "I had a big wall in our master bedroom and I had a beautiful painting custom made by an artist that I found at a festival.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0022",
+      "verbatim": "And yeah, my aesthetic goal was to really just kind of shine, make the artwork the centerpiece of the room and it really is.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0022",
+      "verbatim": "When I have guests over, you know, I like to highlight my artwork in my house with the spotlight.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0022",
+      "verbatim": "I don't have a lot of lighting in the room. That's one of the reasons I wanted this spotlight.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "an adjustable one. So I knew the angle wasn't so important for me to get perfectly right,",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "which gave me a little bit of flexibility. But I definitely had to really decide on this long wall",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "of measuring wasn't too complicated. The fact that I had the adjustable light made it so that",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "it wasn't like extremely necessary for me to hit the exact angle. So anyway, we actually,",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "I tapped into an existing wire that's used for another light and controlled by the same switch.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "And then, you know, that was fairly easy. So I'm going to show you a little bit of the work that I",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "did. I've done that before, had a little help from my husband. We adjusted it to be kind of in the",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "I went down back down to this room and I mounted the spotlight and the circular plate and didn't",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "really do such a great job. It's still I see if you can tell from the video, it's not exactly",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "I just wanted to cover those jagged edges that covered you know, when I was cutting the drywall",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0024",
+      "verbatim": "also part of the process. So that's kind of what I did. So I'm going to show you a little bit of the work that I did.",
+      "job_category": "unknown",
+      "confidence": 0.5999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "So my main frustration that I mentioned in some of the text was that I really can't, it's so dark up there in the attic.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "I wish I could take you to show you, but it's just so dark and I don't have the proper tools right now to bring my phone up there without falling through the attic.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "So yeah, I mean, definitely locating the exact spot from the attic, that insulation makes it really difficult to find the hole that you cut out.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "I really should have had like a proper mold.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "I should have gotten cardboard and made a template and I didn't.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "I used a ruler, but I was like a little bit off.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0025",
+      "verbatim": "I don't know if you could see if I turn this off, but yeah, I can't zoom.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "So I wish I didn't get lazy at that point.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "Right. There's really nothing I could have done without, you know, you know, bigger crawl space, bigger attic space would have been helpful.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "Going up and down into the attic and trying to find that hole was challenging because of that insulation, as I mentioned before.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "And, you know, I'm happy with the spotlight, I guess.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "I don't regret it because I do like the simplicity of it.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "I don't have a dimmer on this.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "I also wish I did a dimmer.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "I guess I could install it now, but that might be something that I would have started with.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "But I guess if I could do it all over again, I would have definitely gotten dimmable bulbs and a dimmer switch.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0026",
+      "verbatim": "And then I guess.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "Hi there. This is the spotlight that I installed to showcase this beautiful piece of art that is a new addition to my bedroom.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "There's not a lot of light other than lamps in this room and I just absolutely love the way that this whole section of the room is illuminated, not only the artwork.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "I just got this simple spotlight off of Home Depot's website and I felt like I didn't want to hire anybody.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "Every time you get somebody to come into your house, it's $1,000.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "So I was able to do everything myself.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "Tons of help that I was able to look up online.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "And I'm just so happy with it.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "I just now need to install a dimmer because it is kind of bright.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0027",
+      "verbatim": "So that's my next step is to do something that will dim.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0035",
+      "verbatim": "That would, you know, I guess it'd have to be pretty insistent on it working because then",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0036",
+      "verbatim": "the low level brightness. So because it's rechargeable it's not on all the time and we",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0036",
+      "verbatim": "know so we chose to do. I mean it looks cool even when it's not on so that's good. Makes everything",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0039",
+      "verbatim": "So as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0039",
+      "verbatim": "And what I did want to do is to create a new picture.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0039",
+      "verbatim": "And what I didn't want to have is any type of wires hanging on the walls,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0039",
+      "verbatim": "or also I don't have any ability to create electrical work inside the walls.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0040",
+      "verbatim": "just to get some ideas on what's available.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0040",
+      "verbatim": "IKEA is one, Home Depot and Lowe's in-store.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0041",
+      "verbatim": "I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0042",
+      "verbatim": "I don't think I had any unique approach. I just selected on Amazon the items I want to buy, which is battery operated remote controlled lights that made look like spotlights.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0042",
+      "verbatim": "And they provide accent lighting for the painting. Everything else, I just had to make a little circular cut in the ceiling. And they just inserted right in. No hot wiring is required. And they need to be recharged periodically depending on use.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0042",
+      "verbatim": "So overall, this was kind of maybe a unique product design, something I didn't I couldn't find in Lowes, Home Depot or other stores because it's made to look like it's hot wired, but it's not.",
+      "job_category": "unknown",
+      "confidence": 0.5999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0044",
+      "verbatim": "But longer term, I have concerns that if I want to replace the lights or if I want to",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0044",
+      "verbatim": "change it, then that would require me patching holes in the ceiling.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0044",
+      "verbatim": "However, that's not really a big issue because I save those cutouts and I'm relatively handy.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0044",
+      "verbatim": "I can plaster them in and paint over.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0044",
+      "verbatim": "So that shouldn't be a huge issue, but that could be time consuming in the future.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0046",
+      "verbatim": "Here are the lights that I installed, picture lights for this painting over here.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0046",
+      "verbatim": "And so right now it's daylight, so you can't really see how effective they are, but I can",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0046",
+      "verbatim": "So I've installed two of them and I really like that I can control temperature, remote",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0048",
+      "verbatim": "I did a good job.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0048",
+      "verbatim": "I have no complaints.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0048",
+      "verbatim": "But definitely I would say get into the house early enough.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "I would say my design style is very modern, very open.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "I definitely like open space.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "I have a lot of mismatching, unique pieces of furniture.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "And then certainly my lighting",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "is a big component of my home.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0049",
+      "verbatim": "I just want to have a comfortable environment,",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "I have statement pieces in my bedrooms. I definitely wanted recessed lighting, which is all",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "throughout my home. So, you know, really it just was something that I knew I wanted, put forth the",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "I've got amazing lighting all throughout my house and I've extended it also to the",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "exterior. I've got amazing lighting all throughout my house and I've extended it also to the exterior.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "I've got amazing lighting all throughout my house and I've extended it also to the exterior.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0052",
+      "verbatim": "I've got amazing lighting all throughout my house and I've extended it also to the exterior of my house, too.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "So the process for me was pretty simple because my home is a new home build.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "So I had the builders put electric in the areas that I wanted to have lighting,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "whether it was for my recess lighting, whether it was for my kitchen lighting.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "I have an outdoor ceiling fan, bedroom lighting.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "So everything was put in based on my specifications.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "I'm in a new home build that I decided what I wanted, where I wanted it.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "And, you know, obviously the fixtures themselves were my decision,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "but I had the builders put electric in the areas that I knew I wanted to have lighting.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "So the process for me was pretty simple.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "It was doing some walkthroughs and pinpointing exactly where I wanted light fixtures",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "I had the recessed lighting to be placed and the builders would have their guys do the electric for me.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "As far as the pieces are concerned, those are strictly something that I did",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0053",
+      "verbatim": "and I worked with someone to install them.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0054",
+      "verbatim": "wanted my lighting.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0055",
+      "verbatim": "But 95% of what I did was pretty darn good.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0055",
+      "verbatim": "So that helps me during the process.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "My bedroom is on the right side.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I have a lot of stuff to do.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "These are my pendant lights that we install.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "I can make it bright or dim it. Love this light. It adds a great vibe to this room.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "And then finally, this light I actually got in Israel. Hopefully we can see it. Here it",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0056",
+      "verbatim": "It sits on the floor. Again, everything in my home has recessed lighting. This is the",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0057",
+      "verbatim": "So the main frustration was just making sure that everything was level, kind of like I mentioned in the previous activity.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0057",
+      "verbatim": "Yeah, I'm just a perfectionist when it comes to those things, so I'm constantly checking from afar and making sure that everything looks the same, like that every photo and light fixture look the same as the one next to it.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0057",
+      "verbatim": "I'm sure there's an easier way than just measuring with a ruler, but for me that's just kind of the basics, what I already have.",
+      "job_category": "unknown",
+      "confidence": 0.49999999999999994
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0057",
+      "verbatim": "But it does make it hard when you're installing everything and you're up close to the photo frames, and then you can't see everything from afar at the same time, if that makes sense.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0057",
+      "verbatim": "I wish that I could see everything from afar while I'm doing it or have another person standing behind me saying that it is for sure in line.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0059",
+      "verbatim": "This is my spotlight slash photo light. I have it on a set of four. So it's supposed to mimic",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0059",
+      "verbatim": "a spotlight from above on all of the frames. And I just like it because it's more of a warm",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0060",
+      "verbatim": "As far as these bar lights, there's no challenges with them. Really, there's nothing tricky about it. The charge lasts a really long time, so it's not like I'm charging them every month or anything. They last a long time.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0060",
+      "verbatim": "That was really my only frustration was back when I had those, but I discovered these and it's so much easier.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0060",
+      "verbatim": "I can switch them around.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0060",
+      "verbatim": "I can switch them around all day long and not have to worry about repainting a wall.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0062",
+      "verbatim": "Hello! For years I always installed track lighting, but when I discovered these they",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0062",
+      "verbatim": "do two things. They light up my artwork and as you can see they are also motion activated so",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0062",
+      "verbatim": "they light up my hall. So I get closer they'll light up and they attach by magnets so I can move",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0062",
+      "verbatim": "them around when I redecorate and change pictures so I don't have to uninstall anything or reinstall.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0062",
+      "verbatim": "So I love them and they charge by USB.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I like to do things on my own with as little help as possible because that's like a challenge for me.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "So I was just glad it only took me 15 minutes, 15, 20 minutes to center that.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I'm glad I did that.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I'm glad I got the lighting and not an hour.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "What are your must have options or features that I would include?",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I am definitely a huge fan of remotes.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I can't understand having too many remotes that's more batteries and then more potential to lose them or something, a wrong break.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "especially since I don't want to touch it after I've already set it,",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "especially if I can change, you know, put a timer on there or, you know, cut it off and on or change the lighting.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "That would be a huge feature that I would always look in my accent lighting.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "Like I said, remote rechargeable.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I like the rechargeable just because I'm able to make sure that I can just plug it up while it's still in one place versus having to take it down, remove the batteries, add batteries.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "Because once it's set, I don't want to touch it again, especially after I spent so much time trying to make sure that it's the lighting's perfect.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "So the rechargeable, the rechargeable accent lighting is something I would prefer.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "I can get a long USB cord, attach it to the port, and then I'll have a wall socket and just charge it that way.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0063",
+      "verbatim": "So I don't have to worry about buying batteries and removing and everything.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So my picture lights is one of my favorite projects that I did so far.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I wanted to highlight the framing of these pictures that I got done about 10 years ago.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I just wanted to be creative because I do change my different rooms in my house a",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "lot because my house is full of lots of color.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "My walls, the room wall is green.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "My dining room is red.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "My front room is brown.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So I wanted to highlight the stark contrast of the black paintings that I do have against",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I wanted to highlight them because a lot of people come visit me and everything and",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "But I feel like with the lighting, they will take notice.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I picked these picture lights because number one, they were very easy.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And even though they did come with a bracket, I'm very creative in and out because I do",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I use some, um, I use a lot of different colors.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I use a lot of different colors.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "Um, let's see if I can get the light off.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "Um, I did use some sticky tape to put on the top of the frame to make sure that the light",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "Um, and I'm really just like really proud of them.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And the reason why I like this so much is because it, number one, it comes with a remote",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "control so I can change the lighting and the tone of the, um, the lighting.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I can change the lighting.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I can change the lighting.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I can change the lighting.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I can change the light of the frame.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "I don't have to, you know, Of the",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "frame and also has a timer.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So I like that as well.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So I can add different colors by one two and just play around with it.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "Um, I do want to add some more, um, pictures and, um, framing some to my wall because I",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "open space up there that I want to add some artwork to.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So whenever I need to recharge them, I can just take them down and charge them.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I just love the fact that, again, it comes with a remote control.",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And I can just dim and change the light whenever I want to.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So I didn't do the middle one just because I wanted to see how well the other two look first.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "Because I didn't want to put too much.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "So, again, this is my picture lighting.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0064",
+      "verbatim": "And it's been my favorite and most rewarding one so far.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "Hello, so some details on the Xcent lighting project. What inspired me to take on this",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "project is to show that you don't need to invest a lot of money into your home design or your",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "lighting home design. And some aesthetic goals that I was hoping to achieve within that was to",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "that didn't require a lot of money. This project made me feel a little bit better in regards to",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "that because it helps me know that I don't need to invest in a lot of money to give me that vibe",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0067",
+      "verbatim": "and that outlook that I'm trying to reach when it comes to my space. And some personal goals of",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "and as far as this side, I have the power outlet starts there and I just charge the outlet amongst",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "this LED light. Next, I would have this LED strip. This is actually motion detected here,",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "so I have this strip going across here, so that's a pretty cool feature I love about that one.",
+      "job_category": "unknown",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "Overall, what I actually liked most about this design is it still gives me that",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "modern, more luxury aspect of it as you can tell here and I didn't have to invest much money into",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0070",
+      "verbatim": "it and as you can definitely see here, this is one of my favorite ones here, is that it is motion",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0071",
+      "verbatim": "which is definitely time consuming and more convenient when you don't have those type of",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0071",
+      "verbatim": "tools or hardware. So that's pretty much it. There was nothing else that I needed besides",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "Hello, so some difficulties that I encountered that made me very frustrated. As you can see here",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "that actually the strip actually stopped. I really really really was upset because",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "I did measure my room and they it was supposed to be enough for it to cover the hole all the",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "way around but it actually stops there which I'm very frustrated about. Another frustration",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "that I'm frustrated about is actually you can see here that the lighting in here actually is on the",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "same cord as the lighting up there so actually it's on one of these that was very frustrating",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "for me. I actually had to get an extension cord for me to do that however it definitely did come",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "so I can have both of those stay on. Another encounter that I had to do was when it came to",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "over here you might not be able to see let's see if I can do like this. This actually is on a cord",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "to the led strip light which I actually had to manually go back there and try to do. This",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "actually did run out of spots so I actually had to take something out so for me it comes to power",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "surges to be able to get the light back on. So I had to go back and try to get the light back on.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "that I didn't get to show but there is another strip here that actually still it's working only",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "half of it but I was actually have to take that strip there and connect it to this strip here",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "very hard for me to how to run another extension through that and that's pretty much it so I would",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0072",
+      "verbatim": "frustration for me as well.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "Hello, so this is a current layout design of my room as far as the LED light strips.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "I love this layout design because it looks more special as far as the LED installations",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "I find that these are more cost effective instead of actually having these built in.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "As you can see during the bed frame, instead of having the headboard come with the LED",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "lights, I actually decided to add on the LED light strips.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "And I find that the cost effect of this is way cheaper and I do still get the same results.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "So I have it all across the TV.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "I have some different LED light strips in the closet and around the room.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "I do like this layout, I would say, because, you know, it's definitely a different look",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0074",
+      "verbatim": "And also, as far as just the lighting of the home design overall, it definitely improves",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0077",
+      "verbatim": "into my son's room, what inspired me was my son wanted those type of ultralights in his",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0077",
+      "verbatim": "We just moved into this home not too long ago and he really wanted to put his own stable",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0077",
+      "verbatim": "That's why I installed it.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0077",
+      "verbatim": "I felt like a proud dad to do this for my son because he just moved there.",
+      "job_category": "unknown",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0077",
+      "verbatim": "So that's what the inspiration was and I felt like a proud dad.",
+      "job_category": "unknown",
+      "confidence": 0.8999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0078",
+      "verbatim": "Okay, the other options I explored other than what I found on Pinterest were other kids'",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0078",
+      "verbatim": "rooms, my son's friends' rooms.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0078",
+      "verbatim": "Also people I know that had kids that loved LED lights, I asked them to share with me",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "Okay, so the first thing I did was I made sure that the majority of my kids' stuff in",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "the room, TV, bed, shelves, were all in the center, so I had enough room to climb on a",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "So I had to make sure that everything was in the center of the room so I could clearly",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "And I tested it along the way to make sure nothing was disconnected, so I hit the light",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "I did it a slow piece by piece process about that.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "So the key thing was to make sure that the lights still worked as I was installing more",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "to try to figure out why certain lights didn't turn on and some did.",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "So I did that.",
+      "job_category": "unknown",
+      "confidence": 0.4
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "I did sections of it, and I'm a person that says, now I want to get it all done and have",
+      "job_category": "unknown",
+      "confidence": 0.5
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0079",
+      "verbatim": "So that's the techniques that I use to install those LED lights.",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "out to see how much I could get in one climb, if you would, was a challenge because sometimes",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "I felt unbalanced on the ladder, so I had to be patient and make sure that the LED lights",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "stayed on there as I quickly moved the ladder to the next part of the ceiling.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "Those are the biggest challenges because I don't have long arms, I'm not an NBA basketball",
+      "job_category": "unknown",
+      "confidence": 0.7999999999999999
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "player, so I had to make sure that I took the strip and installed it, went as far to",
+      "job_category": "unknown",
+      "confidence": 0.7
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0080",
+      "verbatim": "the left or right as I could, made sure it stuck, get down from the ladder, move the",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0081",
+      "verbatim": "So if I were to do this project again when I do, I'd like to see if there's a miniature version of scaffolding.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0081",
+      "verbatim": "I don't know if there's something like that around, and if there was, it'd be tough for me to store it.",
+      "job_category": "unknown",
+      "confidence": 0.6
+    },
+    {
+      "participant": "Unknown",
+      "video_id": "video_0081",
+      "verbatim": "But I think scaffolding would really help because that way I could be able to get one side of the wall most likely with that strip of LED lights because that's what my kids now want, that's in the basement.",
+      "job_category": "unknown",
+      "confidence": 0.5999999999999999
+    }
+  ],
+  "all_pain_points": []
+}

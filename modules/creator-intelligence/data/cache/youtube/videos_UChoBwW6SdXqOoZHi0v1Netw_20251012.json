@@ -1,0 +1,110 @@
+[
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "cWFle7sIHH4",
+    "content_type": "video",
+    "title": "What do we need to bring electricity to your home",
+    "description": "",
+    "url": "https://youtube.com/watch?v=cWFle7sIHH4",
+    "view_count": 2,
+    "like_count": 1,
+    "comment_count": 0,
+    "published_at": "2020-08-26T10:59:06Z",
+    "metadata": {
+      "duration": "PT1M1S",
+      "thumbnail_url": "https://i.ytimg.com/vi/cWFle7sIHH4/hqdefault.jpg",
+      "tags": [],
+      "category_id": "28",
+      "default_language": "ro",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "ikI9ZeqVfcs",
+    "content_type": "video",
+    "title": "Smart Lighting In Numere",
+    "description": "",
+    "url": "https://youtube.com/watch?v=ikI9ZeqVfcs",
+    "view_count": 2,
+    "like_count": 1,
+    "comment_count": 0,
+    "published_at": "2020-08-20T08:20:06Z",
+    "metadata": {
+      "duration": "PT31S",
+      "thumbnail_url": "https://i.ytimg.com/vi/ikI9ZeqVfcs/hqdefault.jpg",
+      "tags": [],
+      "category_id": "28",
+      "default_language": "ro",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "5B8LKNXnv2c",
+    "content_type": "video",
+    "title": "Constructions Services for Commercial Spaces",
+    "description": "",
+    "url": "https://youtube.com/watch?v=5B8LKNXnv2c",
+    "view_count": 1,
+    "like_count": 0,
+    "comment_count": 0,
+    "published_at": "2020-08-10T12:38:38Z",
+    "metadata": {
+      "duration": "PT31S",
+      "thumbnail_url": "https://i.ytimg.com/vi/5B8LKNXnv2c/hqdefault.jpg",
+      "tags": [],
+      "category_id": "28",
+      "default_language": "ro",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "6rEoK5JSRj8",
+    "content_type": "video",
+    "title": "We put your residential building in a better light ;)",
+    "description": "Check out our projects!",
+    "url": "https://youtube.com/watch?v=6rEoK5JSRj8",
+    "view_count": 3,
+    "like_count": 0,
+    "comment_count": 0,
+    "published_at": "2020-08-06T08:45:11Z",
+    "metadata": {
+      "duration": "PT28S",
+      "thumbnail_url": "https://i.ytimg.com/vi/6rEoK5JSRj8/hqdefault.jpg",
+      "tags": [],
+      "category_id": "28",
+      "default_language": "en",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "OiFrTmDUuYM",
+    "content_type": "video",
+    "title": "Smart Lighting & Installations logo",
+    "description": "Smart Lighting & Installations logo.",
+    "url": "https://youtube.com/watch?v=OiFrTmDUuYM",
+    "view_count": 56,
+    "like_count": 2,
+    "comment_count": 0,
+    "published_at": "2020-06-19T07:44:56Z",
+    "metadata": {
+      "duration": "PT11S",
+      "thumbnail_url": "https://i.ytimg.com/vi/OiFrTmDUuYM/hqdefault.jpg",
+      "tags": [
+        "Smartlighting",
+        "smartlighting&installations"
+      ],
+      "category_id": "28",
+      "default_language": "ro",
+      "favorite_count": 0
+    }
+  }
+]

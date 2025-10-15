@@ -1,0 +1,107 @@
+[
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "GN-x78rwp8k",
+    "content_type": "video",
+    "title": "23 \u043d\u043e\u044f\u0431\u0440\u044f 2023\u202f\u0433.",
+    "description": "",
+    "url": "https://youtube.com/watch?v=GN-x78rwp8k",
+    "view_count": 24,
+    "like_count": 0,
+    "comment_count": 0,
+    "published_at": "2023-11-23T17:55:16Z",
+    "metadata": {
+      "duration": "PT19S",
+      "thumbnail_url": "https://i.ytimg.com/vi/GN-x78rwp8k/hqdefault.jpg",
+      "tags": [],
+      "category_id": "22",
+      "default_language": "ru",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "V-iueTCRT08",
+    "content_type": "video",
+    "title": "20 \u043d\u043e\u044f\u0431\u0440\u044f 2023\u202f\u0433.",
+    "description": "",
+    "url": "https://youtube.com/watch?v=V-iueTCRT08",
+    "view_count": 9,
+    "like_count": 0,
+    "comment_count": 0,
+    "published_at": "2023-11-19T20:02:52Z",
+    "metadata": {
+      "duration": "PT18S",
+      "thumbnail_url": "https://i.ytimg.com/vi/V-iueTCRT08/hqdefault.jpg",
+      "tags": [],
+      "category_id": "22",
+      "default_language": "ru",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "V5y3dWvXmfQ",
+    "content_type": "video",
+    "title": "20 \u043d\u043e\u044f\u0431\u0440\u044f 2023\u202f\u0433.",
+    "description": "",
+    "url": "https://youtube.com/watch?v=V5y3dWvXmfQ",
+    "view_count": 25,
+    "like_count": 1,
+    "comment_count": 0,
+    "published_at": "2023-11-19T20:00:37Z",
+    "metadata": {
+      "duration": "PT18S",
+      "thumbnail_url": "https://i.ytimg.com/vi/V5y3dWvXmfQ/hqdefault.jpg",
+      "tags": [],
+      "category_id": "22",
+      "default_language": "ru",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "nOmnFXLKSss",
+    "content_type": "video",
+    "title": "18 \u043d\u043e\u044f\u0431\u0440\u044f 2023\u202f\u0433.",
+    "description": "",
+    "url": "https://youtube.com/watch?v=nOmnFXLKSss",
+    "view_count": 3441,
+    "like_count": 39,
+    "comment_count": 0,
+    "published_at": "2023-11-18T17:43:56Z",
+    "metadata": {
+      "duration": "PT18S",
+      "thumbnail_url": "https://i.ytimg.com/vi/nOmnFXLKSss/hqdefault.jpg",
+      "tags": [],
+      "category_id": "22",
+      "default_language": "ru",
+      "favorite_count": 0
+    }
+  },
+  {
+    "creator_id": null,
+    "platform": "youtube",
+    "content_id": "gpIP1TbBqWE",
+    "content_type": "video",
+    "title": "DI Smart Lighting",
+    "description": "",
+    "url": "https://youtube.com/watch?v=gpIP1TbBqWE",
+    "view_count": 22,
+    "like_count": 0,
+    "comment_count": 0,
+    "published_at": "2023-11-18T12:01:20Z",
+    "metadata": {
+      "duration": "PT1M1S",
+      "thumbnail_url": "https://i.ytimg.com/vi/gpIP1TbBqWE/hqdefault.jpg",
+      "tags": [],
+      "category_id": "22",
+      "default_language": "en",
+      "favorite_count": 0
+    }
+  }
+]
