@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Jobs Framework: Strategic Blueprint for Lighting Innovation</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+
+        @media print {
+            body { margin: 0; padding: 0; background: white; }
+            .container { padding: 0; box-shadow: none; max-width: 100%; }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", "Segoe UI", sans-serif;
+            font-size: 9pt;
+            line-height: 1.3;
+            color: #1a1a1a;
+            background: #fafafa;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0.35in 0.5in;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 2pt solid #000;
+            padding-bottom: 6pt;
+            margin-bottom: 8pt;
+        }
+
+        .header-title {
+            font-size: 16pt;
+            font-weight: 700;
+            color: #000;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            margin-bottom: 2pt;
+        }
+
+        .header-subtitle {
+            font-size: 8.5pt;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Problem Statement */
+        .problem-box {
+            border-left: 3pt solid #d32f2f;
+            padding: 6pt 0 6pt 10pt;
+            margin: 8pt 0;
+        }
+
+        .problem-box h2 {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #d32f2f;
+            margin-bottom: 4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .problem-box p {
+            font-size: 9pt;
+            line-height: 1.35;
+            color: #1a1a1a;
+        }
+
+        /* Solution Framework */
+        .framework-box {
+            border-left: 3pt solid #2e7d32;
+            padding: 6pt 0 6pt 10pt;
+            margin: 8pt 0;
+        }
+
+        .framework-box h2 {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #2e7d32;
+            margin-bottom: 4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .framework-box p {
+            font-size: 9pt;
+            line-height: 1.35;
+            color: #1a1a1a;
+        }
+
+        /* Jobs Grid */
+        .jobs-section {
+            margin: 8pt 0;
+        }
+
+        .jobs-section h2 {
+            font-size: 10pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 6pt;
+            border-bottom: 1pt solid #ccc;
+            padding-bottom: 2pt;
+        }
+
+        .jobs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6pt;
+            margin: 6pt 0;
+        }
+
+        .job-mini-card {
+            border-left: 2.5pt solid #333;
+            padding: 6pt 0 6pt 8pt;
+        }
+
+        .job-mini-card.foundation {
+            border-left-color: #b71c1c;
+        }
+
+        .job-mini-card.core {
+            border-left-color: #1565c0;
+        }
+
+        .job-mini-card.growth {
+            border-left-color: #2e7d32;
+        }
+
+        .job-mini-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4pt;
+        }
+
+        .job-mini-title {
+            font-size: 8.5pt;
+            font-weight: 700;
+            color: #000;
+            line-height: 1.2;
+        }
+
+        .job-mini-badge {
+            font-size: 6pt;
+            font-weight: 700;
+            padding: 2pt 4pt;
+            border-radius: 2pt;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .badge-critical {
+            background: #d32f2f;
+        }
+
+        .badge-high {
+            background: #f57c00;
+        }
+
+        .badge-medium {
+            background: #1976d2;
+        }
+
+        .job-mini-insight {
+            font-size: 8pt;
+            font-style: italic;
+            color: #444;
+            line-height: 1.25;
+            margin-bottom: 3pt;
+        }
+
+        .job-mini-impact {
+            font-size: 7pt;
+            color: #666;
+            font-weight: 600;
+        }
+
+        /* Strategic Pipeline */
+        .pipeline-section {
+            margin: 8pt 0;
+            padding: 6pt 0;
+        }
+
+        .pipeline-section h2 {
+            font-size: 10pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 6pt;
+            border-bottom: 1pt solid #ccc;
+            padding-bottom: 2pt;
+        }
+
+        .pipeline-tiers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6pt;
+            margin-top: 6pt;
+        }
+
+        .pipeline-tier {
+            border-top: 3pt solid #333;
+            padding: 6pt 0 0 0;
+        }
+
+        .pipeline-tier.tier-foundation {
+            border-top-color: #b71c1c;
+        }
+
+        .pipeline-tier.tier-core {
+            border-top-color: #1565c0;
+        }
+
+        .pipeline-tier.tier-growth {
+            border-top-color: #2e7d32;
+        }
+
+        .pipeline-tier-label {
+            font-size: 7pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 3pt;
+        }
+
+        .tier-foundation .pipeline-tier-label {
+            color: #b71c1c;
+        }
+
+        .tier-core .pipeline-tier-label {
+            color: #1565c0;
+        }
+
+        .tier-growth .pipeline-tier-label {
+            color: #2e7d32;
+        }
+
+        .pipeline-tier-title {
+            font-size: 8.5pt;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 3pt;
+            line-height: 1.2;
+        }
+
+        .pipeline-tier-desc {
+            font-size: 7.5pt;
+            color: #444;
+            line-height: 1.25;
+            margin-bottom: 4pt;
+        }
+
+        .pipeline-tier-jobs {
+            font-size: 7pt;
+            color: #666;
+            font-weight: 600;
+            line-height: 1.25;
+        }
+
+        /* Call to Action */
+        .cta-box {
+            border-left: 3pt solid #f57c00;
+            padding: 6pt 0 6pt 10pt;
+            margin: 8pt 0 0 0;
+        }
+
+        .cta-box h2 {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #f57c00;
+            margin-bottom: 4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-box p {
+            font-size: 9pt;
+            line-height: 1.35;
+            color: #1a1a1a;
+        }
+
+        .footer {
+            margin-top: 10pt;
+            padding-top: 6pt;
+            border-top: 0.5pt solid #ddd;
+            text-align: center;
+            font-size: 7pt;
+            color: #999;
+        }
+
+        .footer strong {
+            color: #000;
+            font-weight: 700;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-title">Consumer Jobs Framework: Strategic Blueprint for Lighting Innovation</div>
+            <div class="header-subtitle">How to Think About Consumer Needs, Prioritize R&D, and Build a Unified Innovation Pipeline</div>
+        </div>
+
+        <div class="problem-box">
+            <h2>The Challenge We Face</h2>
+            <p>We optimize for features (lumens, adhesive strength, dimming) without understanding the actual jobs consumers are trying to complete. This creates misalignment: <strong>Marketing promotes ease of installation, R&D focuses on technical specs, and Retail sees products returned because consumers couldn't finish the project.</strong> We lack a shared language to unite around consumer needs and prioritize investments that solve complete jobs—not just individual pain points.</p>
+        </div>
+
+        <div class="framework-box">
+            <h2>The Jobs-to-be-Done Framework</h2>
+            <p>This analysis identifies <strong>5 core consumer jobs</strong> based on 79 video interviews with actual consumers installing lighting. These aren't features they want—they're <strong>complete outcomes they're trying to achieve.</strong> Each job has measurable emotional intensity, market prevalence, and strategic tier. <strong>This framework provides the unifying structure to align Marketing messaging, R&D roadmaps, Retail training, and Analytics KPIs</strong> around what actually drives consumer behavior, retention, and category expansion.</p>
+        </div>
+
+        <div class="jobs-section">
+            <h2>The 5 Core Consumer Jobs</h2>
+            <div class="jobs-grid">
+                <!-- Foundation Jobs -->
+                <div class="job-mini-card foundation">
+                    <div class="job-mini-header">
+                        <div class="job-mini-title">Navigate Electrical Complexity</div>
+                        <span class="job-mini-badge badge-critical">CRITICAL</span>
+                    </div>
+                    <div class="job-mini-insight">"I felt helpless because I couldn't finish the project; it was like, why did I even bother starting if I have to call someone anyway"</div>
+                    <div class="job-mini-impact">Impact: Project abandonment, 0.9 helplessness • 4 videos</div>
+                </div>
+
+                <div class="job-mini-card foundation">
+                    <div class="job-mini-header">
+                        <div class="job-mini-title">Secure Mounting Reliably</div>
+                        <span class="job-mini-badge badge-high">HIGH</span>
+                    </div>
+                    <div class="job-mini-insight">"It gets 110°F here in Arizona; I wanted something that would stick and stay but a couple fell—that was really challenging"</div>
+                    <div class="job-mini-impact">Impact: Re-installation required, 0.7-0.8 frustration • 4 videos</div>
+                </div>
+
+                <!-- Core Jobs -->
+                <div class="job-mini-card core">
+                    <div class="job-mini-header">
+                        <div class="job-mini-title">Achieve Professional Alignment</div>
+                        <span class="job-mini-badge badge-medium">MEDIUM</span>
+                    </div>
+                    <div class="job-mini-insight">"Making sure everything was even was the hardest part; this frame is just a tiny bit tilted and it's slightly annoying"</div>
+                    <div class="job-mini-impact">Impact: Quality perception, 9+ frustration instances • 3 videos</div>
+                </div>
+
+                <div class="job-mini-card core">
+                    <div class="job-mini-header">
+                        <div class="job-mini-title">Optimize Timing Decisions</div>
+                        <span class="job-mini-badge badge-high">HIGH</span>
+                    </div>
+                    <div class="job-mini-insight">"Honestly I would've just hardwired them when we had the electrician here; it's been almost 2 years now and we still haven't hardwired"</div>
+                    <div class="job-mini-impact">Impact: Long-term regret, 0.8-0.9 helplessness • 2 videos</div>
+                </div>
+
+                <!-- Growth Job (spans full width) -->
+            </div>
+            <div class="job-mini-card growth" style="margin-top: 6pt;">
+                <div class="job-mini-header">
+                    <div class="job-mini-title">Balance Aesthetic Goals with Constraints</div>
+                    <span class="job-mini-badge badge-medium">MEDIUM</span>
+                </div>
+                <div class="job-mini-insight">"Our ceiling is pretty low so we really can't do pendant lights or any of the really cool lights that hang and cast that glow—had to get creative"</div>
+                <div class="job-mini-impact">Impact: Eliminates product categories, constrains choice • 5 videos (highest prevalence: 28%)</div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <h2>Strategic Innovation Pipeline: How to Prioritize R&D and Go-to-Market</h2>
+            <div class="pipeline-tiers">
+                <div class="pipeline-tier tier-foundation">
+                    <div class="pipeline-tier-label">Tier 1: Foundation</div>
+                    <div class="pipeline-tier-title">Prevent Abandonment</div>
+                    <div class="pipeline-tier-desc">If we don't solve these, consumers don't finish installations. Table stakes.</div>
+                    <div class="pipeline-tier-jobs">Jobs: Electrical Complexity, Mounting Reliability<br><br><strong>Business Impact:</strong> Reduces returns, prevents negative reviews, stops category abandonment</div>
+                </div>
+
+                <div class="pipeline-tier tier-core">
+                    <div class="pipeline-tier-label">Tier 2: Core Delivery</div>
+                    <div class="pipeline-tier-title">Build Brand Preference</div>
+                    <div class="pipeline-tier-desc">Differentiation through quality and guidance competitors don't provide.</div>
+                    <div class="pipeline-tier-jobs">Jobs: Alignment Quality, Timing Optimization<br><br><strong>Business Impact:</strong> Commands premium pricing, increases satisfaction, builds loyalty</div>
+                </div>
+
+                <div class="pipeline-tier tier-growth">
+                    <div class="pipeline-tier-label">Tier 3: Growth</div>
+                    <div class="pipeline-tier-title">Expand Addressable Market</div>
+                    <div class="pipeline-tier-desc">Opens new segments by solving for previously excluded spaces and scenarios.</div>
+                    <div class="pipeline-tier-jobs">Jobs: Aesthetic Constraints<br><br><strong>Business Impact:</strong> Unlocks low-ceiling apartments, high-traffic areas, design-conscious buyers</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h2>How This Framework Unifies Our Work</h2>
+            <p><strong>For R&D:</strong> Build complete job solutions, not feature improvements. Electrical complexity requires more than better instructions—it needs visual guides, retail training, or hardware simplification. <strong>For Marketing:</strong> Message around jobs consumers recognize ("Never call an electrician mid-project") not specs they don't understand. <strong>For Retail:</strong> Train associates to diagnose which job a consumer is solving. <strong>For Analytics:</strong> Track job completion rates, not just purchase conversion. <strong>The full report provides detailed consumer insights, sub-job breakdowns, and verbatim quotes with video evidence for each job.</strong> This is the foundation for strategic alignment.</p>
+        </div>
+
+        <div class="footer">
+            <strong>Offbrain Insights</strong> | Category Intelligence Division | Data: 79 consumer video interviews | Methodology: Jobs-to-be-Done + Behavioral Science Framework
+        </div>
+    </div>
+</body>
+</html>

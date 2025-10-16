@@ -9,6 +9,7 @@ import logging
 
 from .config import config, CategoryConfig
 from .source_tracker import SourceTracker
+from .preflight_validator import PreflightValidator
 from ..collectors.brand_discovery import BrandDiscovery
 from ..collectors.taxonomy_builder import TaxonomyBuilder
 from ..collectors.pricing_analyzer import PricingAnalyzer
@@ -108,8 +109,60 @@ class CategoryIntelligenceOrchestrator:
             logger.info("Stage 7: Validating all sources...")
             results["source_validation"] = self.source_tracker.validate_sources()
 
-            # Stage 8: Generate Report
+            # Stage 7.5: PREFLIGHT VALIDATION - ZERO FABRICATION CHECK
+            logger.info("Stage 7.5: Running preflight validation...")
+            preflight_validator = PreflightValidator(mode="production")
+            preflight_passed, preflight_issues = preflight_validator.validate_sources(
+                self.source_tracker,
+                results
+            )
+
+            # Generate preflight report
+            preflight_report = preflight_validator.generate_preflight_report(
+                preflight_passed,
+                preflight_issues,
+                self.source_tracker
+            )
+
+            # Log preflight report
+            logger.info("\n" + preflight_report)
+
+            # Store preflight results
+            results["preflight_validation"] = {
+                "passed": preflight_passed,
+                "issues": preflight_issues,
+                "report": preflight_report
+            }
+
+            # BLOCK report generation if preflight fails
+            if not preflight_passed:
+                logger.error("="*60)
+                logger.error("❌ REPORT GENERATION BLOCKED")
+                logger.error("="*60)
+                logger.error("Preflight validation failed - insufficient real sources detected.")
+                logger.error("This indicates the system is generating fabricated/hardcoded data.")
+                logger.error("")
+                logger.error("ZERO FABRICATION POLICY VIOLATION:")
+                for i, issue in enumerate(preflight_issues, 1):
+                    logger.error(f"  {i}. {issue}")
+                logger.error("")
+                logger.error("ACTION REQUIRED:")
+                logger.error("  1. Complete Stage 3: Collector Integration")
+                logger.error("  2. Integrate real data sources (WebSearch, APIs, scraping)")
+                logger.error("  3. Ensure all collectors return Source objects with URLs")
+                logger.error("  4. Re-run analysis after integration")
+                logger.error("="*60)
+
+                results["status"] = "blocked_fabrication"
+                results["error"] = "Preflight validation failed - zero fabrication policy violated"
+                results["html_path"] = None
+
+                # Do NOT generate report - return early
+                return results
+
+            # Stage 8: Generate Report (only if preflight passed)
             logger.info("Stage 8: Generating HTML report...")
+            logger.info("✅ Preflight validation passed - proceeding with report generation")
             results["html_path"] = self._generate_report(
                 category_name,
                 output_name,
