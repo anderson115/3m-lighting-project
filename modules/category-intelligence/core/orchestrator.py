@@ -9,6 +9,12 @@ import logging
 
 from .config import config, CategoryConfig
 from .source_tracker import SourceTracker
+from ..collectors.brand_discovery import BrandDiscovery
+from ..collectors.taxonomy_builder import TaxonomyBuilder
+from ..collectors.pricing_analyzer import PricingAnalyzer
+from ..collectors.market_researcher import MarketResearcher
+from ..collectors.resource_curator import ResourceCurator
+from ..generators.html_reporter import HTMLReporter
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +38,14 @@ class CategoryIntelligenceOrchestrator:
         """Initialize orchestrator with optional custom config"""
         self.config = custom_config or config
         self.source_tracker = SourceTracker(self.config.outputs_dir)
+
+        # Initialize components
+        self.brand_discovery = BrandDiscovery(self.config)
+        self.taxonomy_builder = TaxonomyBuilder(self.config)
+        self.pricing_analyzer = PricingAnalyzer(self.config)
+        self.market_researcher = MarketResearcher(self.config)
+        self.resource_curator = ResourceCurator(self.config)
+        self.html_reporter = HTMLReporter(self.config)
 
         logger.info(f"Category Intelligence Orchestrator initialized")
         logger.info(f"Output directory: {self.config.outputs_dir}")
@@ -115,64 +129,27 @@ class CategoryIntelligenceOrchestrator:
 
     def _discover_brands(self, category: str) -> Dict:
         """Stage 1: Discover major brands in category"""
-        # TODO: Implement brand discovery
-        # Will use web search + scraping
-        return {
-            "status": "not_implemented",
-            "brands_found": 0,
-            "sources": [],
-        }
+        return self.brand_discovery.discover_brands(category)
 
     def _build_taxonomy(self, category: str) -> Dict:
         """Stage 2: Build product categorization hierarchy"""
-        # TODO: Implement taxonomy building
-        # Will scrape e-commerce sites for category structures
-        return {
-            "status": "not_implemented",
-            "subcategories": [],
-            "sources": [],
-        }
+        return self.taxonomy_builder.build_taxonomy(category)
 
     def _analyze_pricing(self, category: str) -> Dict:
         """Stage 3: Analyze pricing across tiers"""
-        # TODO: Implement pricing analysis
-        # Will collect pricing data from multiple sources
-        return {
-            "status": "not_implemented",
-            "price_ranges": {},
-            "sources": [],
-        }
+        return self.pricing_analyzer.analyze_pricing(category)
 
     def _research_market_share(self, category: str) -> Dict:
         """Stage 4: Research market share data"""
-        # TODO: Implement market share research
-        # Will search industry reports and news
-        return {
-            "status": "not_implemented",
-            "market_shares": {},
-            "sources": [],
-        }
+        return self.market_researcher.research_market_share(category)
 
     def _analyze_market_size(self, category: str) -> Dict:
         """Stage 5: Analyze market size and projections"""
-        # TODO: Implement market size analysis
-        # Will search market research databases
-        return {
-            "status": "not_implemented",
-            "current_size": None,
-            "projections": [],
-            "sources": [],
-        }
+        return self.market_researcher.analyze_market_size(category)
 
     def _find_resources(self, category: str) -> Dict:
         """Stage 6: Find learning resources"""
-        # TODO: Implement resource finding
-        # Will search for authoritative sources
-        return {
-            "status": "not_implemented",
-            "resources": [],
-            "sources": [],
-        }
+        return self.resource_curator.find_resources(category)
 
     def _generate_report(
         self,
@@ -181,16 +158,7 @@ class CategoryIntelligenceOrchestrator:
         data: Dict
     ) -> Path:
         """Stage 8: Generate HTML report"""
-        # TODO: Implement HTML report generation
-        # Will use Jinja2 template with Offbrain styling
-
-        html_path = self.config.outputs_dir / f"{output_name}_Category_Intelligence.html"
-
-        # Placeholder - will generate real HTML
-        html_path.write_text(f"<html><body><h1>{category} - Report Placeholder</h1></body></html>")
-
-        logger.info(f"Report generated: {html_path}")
-        return html_path
+        return self.html_reporter.generate_report(category, output_name, data)
 
     def __repr__(self) -> str:
         return f"<CategoryIntelligenceOrchestrator sources={len(self.source_tracker)}>"
