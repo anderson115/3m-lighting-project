@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Lighting Jobs Analysis | 3M</title>
+    <style>
+        @page { size: letter; margin: 0.5in; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .header h1 { font-size: 2rem; margin-bottom: 0.5rem; font-weight: 700; }
+        .header .meta { font-size: 0.9rem; opacity: 0.95; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 2rem; }
+
+        .summary {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .metric {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 3px solid #667eea;
+        }
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #667eea;
+            line-height: 1;
+        }
+        .metric-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.3rem;
+            font-weight: 500;
+        }
+
+        .job {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            page-break-inside: avoid;
+        }
+
+        .job-header {
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        .job-title {
+            font-size: 1.4rem;
+            color: #667eea;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .job-desc {
+            color: #555;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+        .job-stats {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            color: #666;
+        }
+        .job-stats strong { color: #667eea; }
+
+        .section {
+            margin: 1.2rem 0;
+        }
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #764ba2;
+            margin-bottom: 0.8rem;
+            border-left: 4px solid #764ba2;
+            padding-left: 0.8rem;
+        }
+
+        .problem-statement {
+            background: #fff5f5;
+            border-left: 4px solid #ff6b6b;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 0.8rem 0;
+        }
+        .problem-statement strong {
+            color: #c92a2a;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .sub-jobs {
+            margin: 1rem 0;
+        }
+        .sub-job {
+            background: #fafbfc;
+            border-left: 3px solid #764ba2;
+            padding: 1rem;
+            margin: 0.8rem 0;
+            border-radius: 6px;
+        }
+        .sub-job-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+        .sub-job-stats {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .citation {
+            background: #f8f9fa;
+            border-left: 3px solid #ffa500;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+        .citation-text {
+            color: #555;
+            font-style: italic;
+            margin-bottom: 0.3rem;
+        }
+        .citation-meta {
+            font-size: 0.75rem;
+            color: #999;
+        }
+
+        .emotion-bar {
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 0.3rem 0;
+        }
+        .emotion-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            padding: 0 0.5rem;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .footer-logo {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+
+        @media print {
+            body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+            .job { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Consumer Lighting Installation Jobs</h1>
+        <div class="meta">Deep Analysis of Consumer Needs | 3M Smart Home Lighting | October 15, 2025</div>
+    </div>
+
+    <div class="container">
+        <div class="summary">
+            <h2 style="color: #667eea; font-size: 1.3rem; margin-bottom: 1rem;">Executive Summary</h2>
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-value">79</div>
+                    <div class="metric-label">Consumer Videos</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">5</div>
+                    <div class="metric-label">Core Jobs</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">15</div>
+                    <div class="metric-label">Sub-Jobs</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Citation-Backed</div>
+                </div>
+            </div>
+            <p style="margin-top: 1rem; color: #555; font-size: 0.95rem;">
+                Analysis of consumer lighting installation experiences revealing core jobs, sub-jobs,
+                consumer insights, and problem statements. Every finding citation-backed from authentic
+                consumer data (video ID + timestamp).
+            </p>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">1. Plan the Installation Approach</div>
+                <div class="job-desc">Understanding requirements, assessing space, and deciding installation method</div>
+                <div class="job-stats">
+                    <span><strong>26</strong> videos (32.9%)</span>
+                    <span><strong>112</strong> mentions</span>
+                </div>
+            </div>
+
+            <div class="problem-statement">
+                <strong>⚠️ Problem Statement</strong>
+                Consumers face challenges with resources, space, complexity when performing this job.
+<ul style='margin: 0.5rem 0 0 1.5rem; color: #555;'><li>Resources: 11 mentions</li><li>Space: 10 mentions</li><li>Complexity: 7 mentions</li></ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Consumer Insights</div>
+
+                <div class="citation">
+                    <div class="citation-text">"and deciding whether or not I was going to hardwire something behind that,"</div>
+                    <div class="citation-meta">Video video_0001 @ 22.4s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses."</div>
+                    <div class="citation-meta">Video video_0041 @ 0.0s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"I would say probably the most complicated part of all was deciding where I wanted my"</div>
+                    <div class="citation-meta">Video video_0054 @ 31.2s | Type: pain_point</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">😊 Emotional Context</div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 36.36363636363637%;">
+                        Frustration: 36.4% (36 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 34.34343434343434%;">
+                        Satisfaction: 34.3% (34 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 16.161616161616163%;">
+                        Uncertainty: 16.2% (16 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 13.131313131313133%;">
+                        Emphasis: 13.1% (13 occurrences)
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">📋 Sub-Jobs</div>
+                <div class="sub-jobs">
+
+                <div class="sub-job">
+                    <div class="sub-job-title">1.1 Assess Space & Constraints</div>
+                    <div class="sub-job-stats">
+                        18 videos · 73 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses."</div>
+                        <div class="citation-meta">Video video_0041 @ 0.0s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"I felt like a proud dad to do this for my son because he just moved there."</div>
+                        <div class="citation-meta">Video video_0077 @ 45.4s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">1.2 Choose Installation Method</div>
+                    <div class="sub-job-stats">
+                        16 videos · 61 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"and deciding whether or not I was going to hardwire something behind that,"</div>
+                        <div class="citation-meta">Video video_0001 @ 22.4s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses."</div>
+                        <div class="citation-meta">Video video_0041 @ 0.0s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">1.3 Gather Information & Instructions</div>
+                    <div class="sub-job-stats">
+                        6 videos · 28 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses."</div>
+                        <div class="citation-meta">Video video_0041 @ 0.0s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"that I didn't have enough power going to it because of the dambridge or the conversion"</div>
+                        <div class="citation-meta">Video video_0002 @ 25.8s</div>
+                    </div>
+</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">2. Prepare the Workspace</div>
+                <div class="job-desc">Getting tools, materials, and work area ready for installation</div>
+                <div class="job-stats">
+                    <span><strong>14</strong> videos (17.7%)</span>
+                    <span><strong>62</strong> mentions</span>
+                </div>
+            </div>
+
+            <div class="problem-statement">
+                <strong>⚠️ Problem Statement</strong>
+                Consumers face challenges with time, complexity, space when performing this job.
+<ul style='margin: 0.5rem 0 0 1.5rem; color: #555;'><li>Time: 10 mentions</li><li>Complexity: 7 mentions</li><li>Space: 5 mentions</li></ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Consumer Insights</div>
+
+                <div class="citation">
+                    <div class="citation-text">"So any difficulties and frustration other than trying to stay under the ladder and stretch"</div>
+                    <div class="citation-meta">Video video_0080 @ 0.0s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"There's other art pieces that I want to light up, but I'm holding off on buying any lighting fixtures at this point since we have a lot already."</div>
+                    <div class="citation-meta">Video video_0015 @ 69.4s | Type: solution</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"So being on a ladder, it wasn't like in our living room where we would have had to have gotten up 25 feet."</div>
+                    <div class="citation-meta">Video video_0027 @ 70.1s | Type: solution</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">😊 Emotional Context</div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 50.943396226415096%;">
+                        Satisfaction: 50.9% (27 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 26.41509433962264%;">
+                        Frustration: 26.4% (14 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 11.320754716981133%;">
+                        Uncertainty: 11.3% (6 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 11.320754716981133%;">
+                        Emphasis: 11.3% (6 occurrences)
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">📋 Sub-Jobs</div>
+                <div class="sub-jobs">
+
+                <div class="sub-job">
+                    <div class="sub-job-title">2.1 Acquire Necessary Tools</div>
+                    <div class="sub-job-stats">
+                        5 videos · 14 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"that I didn't have enough power going to it because of the dambridge or the conversion"</div>
+                        <div class="citation-meta">Video video_0002 @ 25.8s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"Going up and down into the attic and trying to find that hole was challenging because of that insulation, as I mentioned before."</div>
+                        <div class="citation-meta">Video video_0026 @ 43.1s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">2.2 Prepare Surface/Location</div>
+                    <div class="sub-job-stats">
+                        0 videos · 0 mentions
+                    </div>
+
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">2.3 Set Up Safely</div>
+                    <div class="sub-job-stats">
+                        5 videos · 31 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"So any difficulties and frustration other than trying to stay under the ladder and stretch"</div>
+                        <div class="citation-meta">Video video_0080 @ 0.0s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"So being on a ladder, it wasn't like in our living room where we would have had to have gotten up 25 feet."</div>
+                        <div class="citation-meta">Video video_0027 @ 70.1s</div>
+                    </div>
+</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">3. Physically Install the Fixture</div>
+                <div class="job-desc">Mounting, securing, and positioning the lighting fixture</div>
+                <div class="job-stats">
+                    <span><strong>46</strong> videos (58.2%)</span>
+                    <span><strong>277</strong> mentions</span>
+                </div>
+            </div>
+
+            <div class="problem-statement">
+                <strong>⚠️ Problem Statement</strong>
+                Consumers face challenges with complexity, time, space when performing this job.
+<ul style='margin: 0.5rem 0 0 1.5rem; color: #555;'><li>Complexity: 26 mentions</li><li>Time: 22 mentions</li><li>Space: 20 mentions</li></ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Consumer Insights</div>
+
+                <div class="citation">
+                    <div class="citation-text">"It's just a little bit more difficult to install the canned lighting."</div>
+                    <div class="citation-meta">Video video_0004 @ 46.4s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"Hello, if I were to do a similar project again, for example, the hard wiring of the recessed can lighting, I guess doing it that way is because in the area where we are installing it, we're very limited with options."</div>
+                    <div class="citation-meta">Video video_0005 @ 0.0s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"But as for the actual installation, I think making sure everything is absolutely even is the hardest part."</div>
+                    <div class="citation-meta">Video video_0010 @ 27.6s | Type: pain_point</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">😊 Emotional Context</div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 39.44954128440367%;">
+                        Satisfaction: 39.4% (86 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 31.65137614678899%;">
+                        Frustration: 31.7% (69 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 16.51376146788991%;">
+                        Emphasis: 16.5% (36 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 12.385321100917432%;">
+                        Uncertainty: 12.4% (27 occurrences)
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">📋 Sub-Jobs</div>
+                <div class="sub-jobs">
+
+                <div class="sub-job">
+                    <div class="sub-job-title">3.1 Mount Base/Bracket</div>
+                    <div class="sub-job-stats">
+                        8 videos · 39 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"The process itself wasn't too difficult once I figured out how to use the drywall screws and the anchors and it's held up."</div>
+                        <div class="citation-meta">Video video_0015 @ 49.6s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"I wanted to understand the options such as hard wire, plug-in, battery operated, remote control, floor standing, ceiling mounted, wall mounted, table stand, spotlight, floodlight, the type of light bulbs it uses."</div>
+                        <div class="citation-meta">Video video_0041 @ 0.0s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">3.2 Align & Level Fixture</div>
+                    <div class="sub-job-stats">
+                        9 videos · 34 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"But as for the actual installation, I think making sure everything is absolutely even is the hardest part."</div>
+                        <div class="citation-meta">Video video_0010 @ 27.6s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"But as for the actual installation, I think making sure everything is absolutely even is the hardest part."</div>
+                        <div class="citation-meta">Video video_0010 @ 27.6s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">3.3 Secure Permanently</div>
+                    <div class="sub-job-stats">
+                        2 videos · 6 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"I just wanted to cover those jagged edges that covered you know, when I was cutting the drywall"</div>
+                        <div class="citation-meta">Video video_0024 @ 114.6s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"Even looking at this, I can see that this frame is just a tiny bit tilted."</div>
+                        <div class="citation-meta">Video video_0010 @ 7.7s</div>
+                    </div>
+</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">4. Connect Power Source</div>
+                <div class="job-desc">Establishing electrical connection or power supply</div>
+                <div class="job-stats">
+                    <span><strong>24</strong> videos (30.4%)</span>
+                    <span><strong>112</strong> mentions</span>
+                </div>
+            </div>
+
+            <div class="problem-statement">
+                <strong>⚠️ Problem Statement</strong>
+                Consumers face challenges with complexity, time, resources when performing this job.
+<ul style='margin: 0.5rem 0 0 1.5rem; color: #555;'><li>Complexity: 27 mentions</li><li>Time: 11 mentions</li><li>Resources: 10 mentions</li></ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Consumer Insights</div>
+
+                <div class="citation">
+                    <div class="citation-text">"and deciding whether or not I was going to hardwire something behind that,"</div>
+                    <div class="citation-meta">Video video_0001 @ 22.4s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"and then coming to the realization that the hardwire just was not the best way to go about it,"</div>
+                    <div class="citation-meta">Video video_0001 @ 25.9s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"get a little bit more electrical knowledge, if you will, because it made it a little difficult"</div>
+                    <div class="citation-meta">Video video_0002 @ 7.9s | Type: pain_point</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">😊 Emotional Context</div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 33.33333333333333%;">
+                        Satisfaction: 33.3% (29 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 29.88505747126437%;">
+                        Frustration: 29.9% (26 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 21.839080459770116%;">
+                        Emphasis: 21.8% (19 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 14.942528735632186%;">
+                        Uncertainty: 14.9% (13 occurrences)
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">📋 Sub-Jobs</div>
+                <div class="sub-jobs">
+
+                <div class="sub-job">
+                    <div class="sub-job-title">4.1 Prepare Electrical Connection</div>
+                    <div class="sub-job-stats">
+                        1 videos · 3 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"because I'm not an electrician and I don't necessarily know how to reconvert the power back to where it needed to be."</div>
+                        <div class="citation-meta">Video video_0001 @ 32.6s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"So I capped everything off, got everything back where it needed to go,"</div>
+                        <div class="citation-meta">Video video_0001 @ 40.1s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">4.2 Make Wire Connections</div>
+                    <div class="sub-job-stats">
+                        2 videos · 7 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"that I didn't have enough power going to it because of the dambridge or the conversion"</div>
+                        <div class="citation-meta">Video video_0002 @ 25.8s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"I went down back down to this room and I mounted the spotlight and the circular plate and didn't"</div>
+                        <div class="citation-meta">Video video_0024 @ 97.3s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">4.3 Test Power & Function</div>
+                    <div class="sub-job-stats">
+                        12 videos · 57 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"have to kind of step up to turn it on but you know plug-in wasn't an option. Hard wiring would"</div>
+                        <div class="citation-meta">Video video_0036 @ 40.2s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"that I didn't have enough power going to it because of the dambridge or the conversion"</div>
+                        <div class="citation-meta">Video video_0002 @ 25.8s</div>
+                    </div>
+</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">5. Adjust & Finalize Setup</div>
+                <div class="job-desc">Fine-tuning position, direction, and completing installation</div>
+                <div class="job-stats">
+                    <span><strong>14</strong> videos (17.7%)</span>
+                    <span><strong>64</strong> mentions</span>
+                </div>
+            </div>
+
+            <div class="problem-statement">
+                <strong>⚠️ Problem Statement</strong>
+                Consumers face challenges with space, complexity, time when performing this job.
+<ul style='margin: 0.5rem 0 0 1.5rem; color: #555;'><li>Space: 8 mentions</li><li>Complexity: 7 mentions</li><li>Time: 4 mentions</li></ul>
+            </div>
+
+            <div class="section">
+                <div class="section-title">🎯 Consumer Insights</div>
+
+                <div class="citation">
+                    <div class="citation-text">"As far as future opportunities or things I would have done differently, honestly I probably would have just hardwired them to begin with when we had the electrician here fixing other things in the house when we just moved in."</div>
+                    <div class="citation-meta">Video video_0015 @ 0.8s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"of measuring wasn't too complicated. The fact that I had the adjustable light made it so that"</div>
+                    <div class="citation-meta">Video video_0024 @ 37.8s | Type: pain_point</div>
+                </div>
+
+                <div class="citation">
+                    <div class="citation-text">"And, you know, if you go into a museum, there's always something, right? The pieces are framed or they're in a setting or they're against a colored wall, like a little more finished. You can see like this painting. It was a cool painting. It was an original. For me, it was expensive."</div>
+                    <div class="citation-meta">Video video_0030 @ 19.1s | Type: pain_point</div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">😊 Emotional Context</div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 42.30769230769231%;">
+                        Satisfaction: 42.3% (22 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 36.53846153846153%;">
+                        Frustration: 36.5% (19 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 15.384615384615385%;">
+                        Uncertainty: 15.4% (8 occurrences)
+                    </div>
+                </div>
+
+                <div class="emotion-bar">
+                    <div class="emotion-fill" style="width: 5.769230769230769%;">
+                        Emphasis: 5.8% (3 occurrences)
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <div class="section-title">📋 Sub-Jobs</div>
+                <div class="sub-jobs">
+
+                <div class="sub-job">
+                    <div class="sub-job-title">5.1 Adjust Light Direction</div>
+                    <div class="sub-job-stats">
+                        4 videos · 12 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"of measuring wasn't too complicated. The fact that I had the adjustable light made it so that"</div>
+                        <div class="citation-meta">Video video_0024 @ 37.8s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"Going up and down into the attic and trying to find that hole was challenging because of that insulation, as I mentioned before."</div>
+                        <div class="citation-meta">Video video_0026 @ 43.1s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">5.2 Verify Installation Quality</div>
+                    <div class="sub-job-stats">
+                        3 videos · 14 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"of measuring wasn't too complicated. The fact that I had the adjustable light made it so that"</div>
+                        <div class="citation-meta">Video video_0024 @ 37.8s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"of measuring wasn't too complicated. The fact that I had the adjustable light made it so that"</div>
+                        <div class="citation-meta">Video video_0024 @ 37.8s</div>
+                    </div>
+</div>
+                </div>
+
+                <div class="sub-job">
+                    <div class="sub-job-title">5.3 Clean Up & Finish</div>
+                    <div class="sub-job-stats">
+                        4 videos · 12 mentions
+                    </div>
+<div style='margin-top: 0.5rem;'>
+                    <div class="citation">
+                        <div class="citation-text">"And, you know, if you go into a museum, there's always something, right? The pieces are framed or they're in a setting or they're against a colored wall, like a little more finished. You can see like this painting. It was a cool painting. It was an original. For me, it was expensive."</div>
+                        <div class="citation-meta">Video video_0030 @ 19.1s</div>
+                    </div>
+
+                    <div class="citation">
+                        <div class="citation-text">"But I don't know. It looks great. It makes it look more finished, makes it look nicer. You know, what expensive."</div>
+                        <div class="citation-meta">Video video_0030 @ 79.1s</div>
+                    </div>
+</div>
+                </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2 style="color: #667eea; font-size: 1.3rem; margin-bottom: 1rem;">Methodology</h2>
+            <p style="line-height: 1.7; color: #555;">
+                <strong>Data Source:</strong> 79 consumer video interviews analyzing lighting installation experiences.<br/>
+                <strong>Analysis Approach:</strong> Deep reasoning analysis of JTBD entries, pain points, solutions, and emotional signals.<br/>
+                <strong>Job Identification:</strong> Pattern matching on consumer language to identify core jobs and sub-jobs.<br/>
+                <strong>Citation Standard:</strong> Every insight linked to specific video ID and timestamp.<br/>
+                <strong>Emotional Analysis:</strong> Acoustic feature analysis matched to job timestamps (±10s window).<br/>
+                <strong>Zero Fabrication:</strong> All data derived from authentic consumer verbatims.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-logo">Offbrain Insights</div>
+        <div style="opacity: 0.9; margin-top: 0.3rem;">3M Consumer Lighting Intelligence</div>
+        <div style="opacity: 0.7; margin-top: 0.3rem; font-size: 0.85rem;">
+            Generated: October 15, 2025 at 06:08 PM | 100% Citation-Backed
+        </div>
+    </div>
+</body>
+</html>
