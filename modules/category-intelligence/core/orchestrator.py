@@ -14,6 +14,7 @@ from ..collectors.taxonomy_builder import TaxonomyBuilder
 from ..collectors.pricing_analyzer import PricingAnalyzer
 from ..collectors.market_researcher import MarketResearcher
 from ..collectors.resource_curator import ResourceCurator
+from ..collectors.consumer_insights import ConsumerInsightsCollector
 from ..generators.html_reporter import HTMLReporter
 
 logger = logging.getLogger(__name__)
@@ -30,8 +31,9 @@ class CategoryIntelligenceOrchestrator:
     4. Market Share Research
     5. Market Size Analysis
     6. Learning Resources
-    7. Source Validation
-    8. Report Generation
+    7. Consumer Insights (optional - if video data available)
+    8. Source Validation
+    9. Report Generation
     """
 
     def __init__(self, custom_config: Optional[CategoryConfig] = None):
@@ -45,6 +47,7 @@ class CategoryIntelligenceOrchestrator:
         self.pricing_analyzer = PricingAnalyzer(self.config)
         self.market_researcher = MarketResearcher(self.config)
         self.resource_curator = ResourceCurator(self.config)
+        self.consumer_insights = ConsumerInsightsCollector(self.config)
         self.html_reporter = HTMLReporter(self.config)
 
         logger.info(f"Category Intelligence Orchestrator initialized")
@@ -159,6 +162,92 @@ class CategoryIntelligenceOrchestrator:
     ) -> Path:
         """Stage 8: Generate HTML report"""
         return self.html_reporter.generate_report(category, output_name, data)
+
+    def analyze_consumer_videos(
+        self,
+        category: str,
+        video_data: list[Dict],
+        output_name: Optional[str] = None
+    ) -> Dict:
+        """
+        Analyze consumer video data to extract JTBD insights
+
+        Args:
+            category: Product category (e.g., "Lighting Installation")
+            video_data: List of processed video data with:
+                - video_id: Unique identifier
+                - transcript: Full verbatim transcript with timestamps
+                - emotions: Acoustic emotion analysis results
+                - visual_context: Frame-by-frame visual analysis
+                - pain_points: Extracted pain points
+            output_name: Optional custom output file name
+
+        Returns:
+            Dict containing consumer insights and report path
+
+        Example:
+            ```python
+            video_data = [
+                {
+                    'video_id': 'video_0001',
+                    'transcript': [{'timestamp': 32.6, 'text': '...'}],
+                    'emotions': {'timeline': [...]},
+                    'visual_context': {...},
+                    'pain_points': [...]
+                }
+            ]
+            results = orchestrator.analyze_consumer_videos(
+                'Lighting Installation',
+                video_data
+            )
+            ```
+        """
+        logger.info(f"Starting consumer insights analysis: {category}")
+        logger.info(f"Total videos: {len(video_data)}")
+
+        if not output_name:
+            output_name = f"{category.replace(' ', '_')}_Consumer_JTBD"
+
+        results = {
+            "category": category,
+            "analysis_date": self.config.current_date,
+            "status": "initialized",
+            "total_videos": len(video_data)
+        }
+
+        try:
+            # Stage 1: Analyze consumer videos with JTBD framework
+            logger.info("Stage 1: Extracting JTBD patterns from consumer videos...")
+            insights = self.consumer_insights.analyze_consumer_videos(
+                category=category,
+                video_data=video_data
+            )
+
+            results["consumer_insights"] = insights
+            results["core_jobs_count"] = len(insights.core_jobs)
+            results["framework_compliance"] = insights.framework_compliance
+
+            # Stage 2: Generate JTBD report data
+            logger.info("Stage 2: Preparing JTBD report data...")
+            report_data = self.consumer_insights.generate_jtbd_report_data(insights)
+            results["report_data"] = report_data
+
+            # Stage 3: Generate HTML report (if HTML reporter supports JTBD)
+            logger.info("Stage 3: Generating JTBD HTML report...")
+            # Note: HTML reporter would need a separate method for JTBD reports
+            # For now, store the report data for external report generation
+            results["ready_for_report"] = True
+
+            results["status"] = "completed"
+            logger.info(f"Consumer insights analysis complete")
+            logger.info(f"Framework compliance: {insights.framework_compliance['overall_score']}/100")
+
+        except Exception as e:
+            logger.error(f"Consumer insights analysis failed: {e}", exc_info=True)
+            results["status"] = "failed"
+            results["error"] = str(e)
+
+        return results
 
     def __repr__(self) -> str:
         return f"<CategoryIntelligenceOrchestrator sources={len(self.source_tracker)}>"
