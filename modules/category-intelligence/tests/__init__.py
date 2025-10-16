@@ -1,0 +1,3 @@
+"""
+Category Intelligence Test Suite
+"""
