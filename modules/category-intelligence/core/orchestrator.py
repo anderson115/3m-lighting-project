@@ -10,6 +10,7 @@ import logging
 from .config import config, CategoryConfig
 from .source_tracker import SourceTracker
 from .preflight_validator import PreflightValidator
+from .environment_checker import EnvironmentChecker
 from ..collectors.brand_discovery import BrandDiscovery
 from ..collectors.taxonomy_builder import TaxonomyBuilder
 from ..collectors.pricing_analyzer import PricingAnalyzer
@@ -41,6 +42,7 @@ class CategoryIntelligenceOrchestrator:
         """Initialize orchestrator with optional custom config"""
         self.config = custom_config or config
         self.source_tracker = SourceTracker(self.config.outputs_dir)
+        self.env_checker = EnvironmentChecker()
 
         # Initialize components
         self.brand_discovery = BrandDiscovery(self.config)
@@ -53,6 +55,26 @@ class CategoryIntelligenceOrchestrator:
 
         logger.info(f"Category Intelligence Orchestrator initialized")
         logger.info(f"Output directory: {self.config.outputs_dir}")
+
+    def check_readiness(self) -> Dict:
+        """
+        Check if environment is ready for analysis.
+
+        Returns:
+            Dict with readiness status and detailed report
+        """
+        ready, checks = self.env_checker.check_all_sources()
+        report = self.env_checker.generate_readiness_report()
+        missing = self.env_checker.get_missing_requirements()
+
+        return {
+            "ready": ready,
+            "report": report,
+            "missing_required": missing["required"],
+            "missing_recommended": missing["recommended"],
+            "missing_optional": missing["optional"],
+            "checks": checks
+        }
 
     def analyze_category(
         self,
