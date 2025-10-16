@@ -1,819 +1,377 @@
 """
-Brand Discovery Collector
-Comprehensive brand and company analysis with revenue estimates and market positioning
+Brand Discovery - Real Data Collection
+
+This module discovers brands in a category using REAL data sources.
+NO HARDCODED DATA - All data must come from verifiable sources.
+
+Data Sources:
+- WebSearch (Claude API) for brand lists
+- SEC EDGAR for public company data
+- Industry reports
 """
 
 import logging
-from typing import List, Dict
-from datetime import datetime
+from typing import Dict, List, Any, Optional
+from dataclasses import dataclass
+from enum import Enum
 
 logger = logging.getLogger(__name__)
 
 
+class BrandTier(str, Enum):
+    """Brand tier classification"""
+    TIER_1_NATIONAL = "tier_1_national"
+    TIER_2_PRIVATE_LABEL = "tier_2_private_label"
+    TIER_3_SPECIALIST = "tier_3_specialist"
+    TIER_4_EMERGING = "tier_4_emerging"
+    TIER_5_IMPORT = "tier_5_import"
+
+
+@dataclass
+class Brand:
+    """Single brand with metadata"""
+    name: str
+    tier: BrandTier
+    parent_company: Optional[str] = None
+    estimated_revenue: Optional[str] = None
+    market_share: Optional[str] = None
+    distribution_channels: List[str] = None
+    source_urls: List[str] = None
+
+    def __post_init__(self):
+        if self.distribution_channels is None:
+            self.distribution_channels = []
+        if self.source_urls is None:
+            self.source_urls = []
+
+
+class BrandDiscoveryError(Exception):
+    """Raised when brand discovery fails"""
+    pass
+
+
 class BrandDiscovery:
-    """Discovers brands and companies in a product category with detailed financial data"""
+    """
+    Discovers brands in a category using real data sources.
+
+    This is a refactored version with NO hardcoded data.
+    All methods require real data source integration.
+    """
 
     def __init__(self, config):
         self.config = config
+        self.min_brands_required = 50
 
-    def discover_brands(self, category: str) -> Dict:
+    def discover_brands(self, category: str) -> Dict[str, Any]:
         """
-        Discover exhaustive brand list with revenue estimates and market share
+        Discover brands in category using real data sources.
 
         Args:
             category: Category name (e.g., "garage storage")
 
         Returns:
-            Dict with comprehensive brand data including revenue, market share, and positioning
+            Dict with discovered brands and metadata
+
+        Raises:
+            BrandDiscoveryError: If discovery fails or no sources available
+            NotImplementedError: If real data sources not yet integrated
         """
         logger.info(f"Discovering brands for category: {category}")
 
-        # Category-specific comprehensive brand databases
-        brand_databases = {
-            "garage storage": [
-                # TIER 1: Major National Brands (>$500M annual revenue in category)
-                {
-                    "name": "Rubbermaid Commercial Products",
-                    "parent_company": "Newell Brands (NYSE: NWL)",
-                    "estimated_revenue_usd": "$800M - $1.2B",
-                    "estimated_category_revenue": "$650M - $900M",
-                    "market_share_percent": "15-20%",
-                    "position": "Mass market leader",
-                    "segment_focus": "Bins, shelving, modular storage systems",
-                    "distribution": "Home Depot, Lowe's, Walmart, Target, Amazon",
-                    "headquarters": "Winchester, VA",
-                    "product_count": "300+ SKUs",
-                    "tier": "tier_1_national",
-                    "confidence": "high",
-                    "reasoning": "Market leader in plastic storage bins and residential garage organization. Dominant shelf space at major retailers."
-                },
-                {
-                    "name": "Gladiator GarageWorks",
-                    "parent_company": "Whirlpool Corporation (NYSE: WHR)",
-                    "estimated_revenue_usd": "$400M - $600M",
-                    "estimated_category_revenue": "$400M - $600M",
-                    "market_share_percent": "10-15%",
-                    "position": "Premium segment leader",
-                    "segment_focus": "Heavy-duty cabinets, workbenches, wall systems",
-                    "distribution": "Lowe's (exclusive), Amazon, Home Depot (select)",
-                    "headquarters": "Benton Harbor, MI",
-                    "product_count": "150+ SKUs",
-                    "tier": "tier_1_national",
-                    "confidence": "high",
-                    "reasoning": "Premium brand with strong Lowe's partnership. Known for professional-grade modular cabinet systems."
-                },
-                {
-                    "name": "ClosetMaid",
-                    "parent_company": "Emerson Electric Co. (NYSE: EMR)",
-                    "estimated_revenue_usd": "$350M - $500M",
-                    "estimated_category_revenue": "$280M - $400M",
-                    "market_share_percent": "8-12%",
-                    "position": "Mid-market versatile storage leader",
-                    "segment_focus": "Wire shelving, ventilated systems, garage organization",
-                    "distribution": "Home Depot, Lowe's, Amazon, regional retailers",
-                    "headquarters": "Ocala, FL",
-                    "product_count": "200+ SKUs",
-                    "tier": "tier_1_national",
-                    "confidence": "high",
-                    "reasoning": "Versatile brand extending from closets to garages. Strong wire shelving market position."
-                },
+        # Check if real data sources are available
+        if not self._check_data_sources_available():
+            raise NotImplementedError(
+                "REAL DATA SOURCES NOT INTEGRATED. "
+                "Brand discovery requires WebSearch or API integration. "
+                "Current status: Stage 3 pending. "
+                "See DATA_SOURCE_MAPPING.md for integration plan."
+            )
 
-                # TIER 2: Major Retail Private Labels ($200M-$500M)
-                {
-                    "name": "Kobalt",
-                    "parent_company": "Lowe's Companies, Inc. (NYSE: LOW)",
-                    "estimated_revenue_usd": "$300M - $450M",
-                    "estimated_category_revenue": "$300M - $450M",
-                    "market_share_percent": "8-12%",
-                    "position": "Lowe's exclusive mid-tier brand",
-                    "segment_focus": "Tool storage, cabinets, workbenches",
-                    "distribution": "Lowe's exclusive",
-                    "headquarters": "Mooresville, NC (Lowe's HQ)",
-                    "product_count": "180+ SKUs",
-                    "tier": "tier_2_private_label",
-                    "confidence": "high",
-                    "reasoning": "Lowe's premium private label. Strong tool storage integration with garage organization."
-                },
-                {
-                    "name": "Husky",
-                    "parent_company": "The Home Depot, Inc. (NYSE: HD)",
-                    "estimated_revenue_usd": "$280M - $420M",
-                    "estimated_category_revenue": "$280M - $420M",
-                    "market_share_percent": "8-11%",
-                    "position": "Home Depot exclusive mid-tier brand",
-                    "segment_focus": "Tool chests, cabinets, storage bins",
-                    "distribution": "Home Depot exclusive",
-                    "headquarters": "Atlanta, GA (Home Depot HQ)",
-                    "product_count": "200+ SKUs",
-                    "tier": "tier_2_private_label",
-                    "confidence": "high",
-                    "reasoning": "Home Depot's answer to Kobalt. Extensive tool storage line extending to garage organization."
-                },
-                {
-                    "name": "Craftsman",
-                    "parent_company": "Stanley Black & Decker (NYSE: SWK)",
-                    "estimated_revenue_usd": "$250M - $350M",
-                    "estimated_category_revenue": "$200M - $280M",
-                    "market_share_percent": "6-9%",
-                    "position": "Heritage tool storage brand",
-                    "segment_focus": "Tool chests, workbenches, cabinets",
-                    "distribution": "Lowe's, Ace Hardware, Amazon",
-                    "headquarters": "New Britain, CT",
-                    "product_count": "120+ SKUs",
-                    "tier": "tier_2_branded",
-                    "confidence": "high",
-                    "reasoning": "Iconic brand transitioning post-Sears. Focus on tool storage with garage integration."
-                },
+        # Discover brands from multiple sources
+        brands = self._discover_from_all_sources(category)
 
-                # TIER 3: Specialized/Premium Brands ($50M-$200M)
-                {
-                    "name": "NewAge Products",
-                    "parent_company": "NewAge Products Inc. (Private)",
-                    "estimated_revenue_usd": "$150M - $220M",
-                    "estimated_category_revenue": "$150M - $220M",
-                    "market_share_percent": "4-7%",
-                    "position": "Premium modular systems specialist",
-                    "segment_focus": "Complete garage makeovers, cabinets, flooring",
-                    "distribution": "Costco, Sam's Club, Home Depot, Amazon",
-                    "headquarters": "Surrey, BC, Canada",
-                    "product_count": "80+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium-high",
-                    "reasoning": "Strong Costco presence. Known for complete garage renovation packages."
-                },
-                {
-                    "name": "FLEXIMOUNTS",
-                    "parent_company": "FLEXIMOUNTS Inc. (Private)",
-                    "estimated_revenue_usd": "$80M - $120M",
-                    "estimated_category_revenue": "$80M - $120M",
-                    "market_share_percent": "2-4%",
-                    "position": "Overhead storage specialist",
-                    "segment_focus": "Ceiling racks, overhead platforms, wall-mounted racks",
-                    "distribution": "Amazon, Home Depot, Lowe's, Walmart",
-                    "headquarters": "City of Industry, CA",
-                    "product_count": "60+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Dominant in overhead storage niche. Strong Amazon presence with high review counts."
-                },
-                {
-                    "name": "Proslat",
-                    "parent_company": "Proslat (Private)",
-                    "estimated_revenue_usd": "$60M - $90M",
-                    "estimated_category_revenue": "$60M - $90M",
-                    "market_share_percent": "2-3%",
-                    "position": "Slatwall panel premium brand",
-                    "segment_focus": "PVC slatwall, accessories, complete wall systems",
-                    "distribution": "Home Depot, Lowe's, Amazon, dealers",
-                    "headquarters": "Corona, CA",
-                    "product_count": "100+ SKUs (panels + accessories)",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Premium slatwall systems. Strong contractor/dealer network for installations."
-                },
-                {
-                    "name": "Monkey Bars Storage",
-                    "parent_company": "Monkey Bars (Private/Franchise)",
-                    "estimated_revenue_usd": "$40M - $70M",
-                    "estimated_category_revenue": "$40M - $70M",
-                    "market_share_percent": "1-2%",
-                    "position": "Custom installation franchise",
-                    "segment_focus": "Custom wall systems, professional installation",
-                    "distribution": "Direct (80+ franchise locations)",
-                    "headquarters": "Kansas City, MO",
-                    "product_count": "Modular custom systems",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Franchise model with professional installation. Higher price point, localized presence."
-                },
-                {
-                    "name": "Wall Control",
-                    "parent_company": "Wall Control (Private)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$30M - $50M",
-                    "market_share_percent": "1-2%",
-                    "position": "Metal pegboard specialist",
-                    "segment_focus": "Metal pegboard systems and accessories",
-                    "distribution": "Amazon, Home Depot, specialty retailers",
-                    "headquarters": "Tampa, FL",
-                    "product_count": "150+ SKUs (boards + accessories)",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Innovator in metal pegboard. Strong DIY and workshop appeal."
-                },
+        # Validate we have enough brands
+        if len(brands) < self.min_brands_required:
+            raise BrandDiscoveryError(
+                f"Insufficient brands discovered: {len(brands)} < {self.min_brands_required}"
+            )
 
-                # TIER 4: Emerging/Regional Brands ($10M-$50M)
-                {
-                    "name": "Sterilite",
-                    "parent_company": "Sterilite Corporation (Private)",
-                    "estimated_revenue_usd": "$200M - $300M",
-                    "estimated_category_revenue": "$120M - $180M",
-                    "market_share_percent": "3-5%",
-                    "position": "Budget plastic storage leader",
-                    "segment_focus": "Plastic bins, totes, shelving units",
-                    "distribution": "Walmart, Target, Amazon, regional retailers",
-                    "headquarters": "Townsend, MA",
-                    "product_count": "250+ SKUs",
-                    "tier": "tier_2_branded",
-                    "confidence": "high",
-                    "reasoning": "Budget alternative to Rubbermaid. Strong Walmart relationship."
-                },
-                {
-                    "name": "Suncast",
-                    "parent_company": "Suncast Corporation (Private)",
-                    "estimated_revenue_usd": "$80M - $120M",
-                    "estimated_category_revenue": "$50M - $80M",
-                    "market_share_percent": "1-3%",
-                    "position": "Outdoor-oriented storage",
-                    "segment_focus": "Resin cabinets, outdoor storage, sheds",
-                    "distribution": "Home Depot, Lowe's, Walmart, Amazon",
-                    "headquarters": "Batavia, IL",
-                    "product_count": "100+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium",
-                    "reasoning": "Focus on weather-resistant garage/outdoor storage. Resin cabinet specialty."
-                },
-                {
-                    "name": "GearTrack",
-                    "parent_company": "GearTrack (Private)",
-                    "estimated_revenue_usd": "$25M - $40M",
-                    "estimated_category_revenue": "$25M - $40M",
-                    "market_share_percent": "0.5-1%",
-                    "position": "Track system specialist",
-                    "segment_focus": "Wall-mounted track systems and hooks",
-                    "distribution": "Amazon, Home Depot, direct",
-                    "headquarters": "Unknown",
-                    "product_count": "40+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium-low",
-                    "reasoning": "Niche track system. Growing Amazon presence."
-                },
-                {
-                    "name": "Seville Classics",
-                    "parent_company": "Seville Classics (Private)",
-                    "estimated_revenue_usd": "$60M - $100M",
-                    "estimated_category_revenue": "$40M - $70M",
-                    "market_share_percent": "1-2%",
-                    "position": "Commercial-style shelving for residential",
-                    "segment_focus": "Heavy-duty wire shelving, workbenches",
-                    "distribution": "Amazon, Home Depot, Costco",
-                    "headquarters": "Torrance, CA",
-                    "product_count": "80+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium",
-                    "reasoning": "Strong in heavy-duty wire shelving. Commercial aesthetic for home garages."
-                },
-                {
-                    "name": "Edsal",
-                    "parent_company": "Edsal Manufacturing Company (Private)",
-                    "estimated_revenue_usd": "$50M - $80M",
-                    "estimated_category_revenue": "$35M - $55M",
-                    "market_share_percent": "1-2%",
-                    "position": "Industrial shelving crossover",
-                    "segment_focus": "Steel shelving, workbenches",
-                    "distribution": "Home Depot, Lowe's, Amazon, industrial suppliers",
-                    "headquarters": "Chicago, IL",
-                    "product_count": "60+ SKUs (residential focus)",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium",
-                    "reasoning": "Industrial brand crossing into residential. Heavy-duty steel shelving."
-                },
-                {
-                    "name": "HDX (Home Depot)",
-                    "parent_company": "The Home Depot, Inc.",
-                    "estimated_revenue_usd": "$150M - $250M",
-                    "estimated_category_revenue": "$80M - $120M",
-                    "market_share_percent": "2-4%",
-                    "position": "Home Depot budget private label",
-                    "segment_focus": "Economy storage bins, basic shelving",
-                    "distribution": "Home Depot exclusive",
-                    "headquarters": "Atlanta, GA",
-                    "product_count": "150+ SKUs",
-                    "tier": "tier_2_private_label",
-                    "confidence": "high",
-                    "reasoning": "Home Depot's entry-level brand. Competes with Sterilite on price."
-                },
-                {
-                    "name": "Akro-Mils",
-                    "parent_company": "Myers Industries (NYSE: MYE)",
-                    "estimated_revenue_usd": "$120M - $180M",
-                    "estimated_category_revenue": "$40M - $60M",
-                    "market_share_percent": "1-2%",
-                    "position": "Professional parts storage",
-                    "segment_focus": "Parts bins, drawer cabinets, small parts organization",
-                    "distribution": "Amazon, industrial suppliers, Home Depot",
-                    "headquarters": "Akron, OH",
-                    "product_count": "500+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium-high",
-                    "reasoning": "Professional parts storage entering residential DIY. Strong in small parts organization."
-                },
-                {
-                    "name": "Organized Living",
-                    "parent_company": "Spectrum Brands (NYSE: SPB)",
-                    "estimated_revenue_usd": "$100M - $150M",
-                    "estimated_category_revenue": "$50M - $75M",
-                    "market_share_percent": "1-2%",
-                    "position": "Whole-home organization systems",
-                    "segment_focus": "Wire systems, garage organization kits",
-                    "distribution": "Lowe's, Amazon, contractors",
-                    "headquarters": "Madison, WI",
-                    "product_count": "100+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Closet/garage organization crossover. Contractor-preferred brand."
-                },
-                {
-                    "name": "Stack-On",
-                    "parent_company": "Alpha Guardian (Private)",
-                    "estimated_revenue_usd": "$80M - $120M",
-                    "estimated_category_revenue": "$60M - $90M",
-                    "market_share_percent": "2-3%",
-                    "position": "Security-focused storage",
-                    "segment_focus": "Tool cabinets with locks, safes, security cabinets",
-                    "distribution": "Dick's Sporting Goods, Academy Sports, Amazon, Walmart",
-                    "headquarters": "Wauconda, IL",
-                    "product_count": "70+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium",
-                    "reasoning": "Crossover from gun safes to secure tool storage. Security feature focus."
-                },
-                {
-                    "name": "Ulti-MATE Garage",
-                    "parent_company": "Starfire Direct (Private)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$30M - $50M",
-                    "market_share_percent": "0.5-1.5%",
-                    "position": "Direct-to-consumer premium cabinets",
-                    "segment_focus": "Complete cabinet systems, workbenches",
-                    "distribution": "Direct online, Amazon",
-                    "headquarters": "Broomfield, CO",
-                    "product_count": "50+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium-low",
-                    "reasoning": "D2C model with premium cabinet systems. Growing online presence."
-                },
+        # Classify brands into tiers
+        classified_brands = self._classify_brands_by_tier(brands)
 
-                # Additional 20+ brands for exhaustive coverage
-                {
-                    "name": "Bin Warehouse",
-                    "parent_company": "Bin Warehouse (Private)",
-                    "estimated_revenue_usd": "$15M - $25M",
-                    "market_share_percent": "0.3-0.8%",
-                    "position": "Stackable bin specialist",
-                    "tier": "tier_4_emerging",
-                    "confidence": "low"
-                },
-                {
-                    "name": "SafeRacks",
-                    "parent_company": "SafeRacks LLC (Private)",
-                    "estimated_revenue_usd": "$20M - $35M",
-                    "market_share_percent": "0.5-1%",
-                    "position": "Overhead rack specialist",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium-low"
-                },
-                {
-                    "name": "HyLoft",
-                    "parent_company": "Racor (Private)",
-                    "estimated_revenue_usd": "$15M - $30M",
-                    "market_share_percent": "0.3-0.8%",
-                    "position": "Ceiling storage platforms",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium-low"
-                },
-                {
-                    "name": "Racor",
-                    "parent_company": "Racor Home Storage (Private)",
-                    "estimated_revenue_usd": "$25M - $40M",
-                    "market_share_percent": "0.5-1%",
-                    "position": "Hooks and hangers specialist",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium"
-                },
-                {
-                    "name": "Triton Products",
-                    "parent_company": "Triton Products (Private)",
-                    "estimated_revenue_usd": "$20M - $35M",
-                    "market_share_percent": "0.5-1%",
-                    "position": "Pegboard and locboard systems",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium"
-                },
-                {
-                    "name": "Storability",
-                    "parent_company": "Storability LLC (Private)",
-                    "estimated_revenue_usd": "$10M - $20M",
-                    "market_share_percent": "0.2-0.5%",
-                    "position": "Modular wall systems",
-                    "tier": "tier_4_emerging",
-                    "confidence": "low"
-                },
-                {
-                    "name": "Muscle Rack",
-                    "parent_company": "Edsal (Private)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "market_share_percent": "0.8-1.5%",
-                    "position": "Budget heavy-duty shelving",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium"
-                },
-                {
-                    "name": "Trinity",
-                    "parent_company": "Trinity Industries (NYSE: TRN)",
-                    "estimated_revenue_usd": "$40M - $65M",
-                    "market_share_percent": "1-2%",
-                    "position": "Wire shelving and carts",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium"
-                },
-                {
-                    "name": "Keter",
-                    "parent_company": "Keter Group (Private)",
-                    "estimated_revenue_usd": "$50M - $80M",
-                    "market_share_percent": "1-2%",
-                    "position": "Resin storage solutions",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium"
-                },
-                {
-                    "name": "Flow Wall",
-                    "parent_company": "Flow Wall LLC (Private)",
-                    "estimated_revenue_usd": "$15M - $25M",
-                    "market_share_percent": "0.3-0.8%",
-                    "position": "Modular slatwall systems",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium-low"
-                },
+        # Generate summary
+        summary = self._generate_summary(classified_brands)
 
-                # TIER 5: Import/International Brands in US Market
-                {
-                    "name": "Honey-Can-Do",
-                    "parent_company": "Honey-Can-Do International (Private)",
-                    "estimated_revenue_usd": "$40M - $60M",
-                    "estimated_category_revenue": "$25M - $40M",
-                    "market_share_percent": "0.7-1.2%",
-                    "position": "Import brand - storage solutions",
-                    "segment_focus": "Shelving, storage carts, organization",
-                    "distribution": "Target, Bed Bath & Beyond, Amazon, TJ Maxx",
-                    "headquarters": "Chicago, IL (Importer)",
-                    "product_count": "200+ SKUs",
-                    "tier": "tier_5_import",
-                    "confidence": "medium",
-                    "reasoning": "Major import brand focusing on budget organization. Strong off-price retail presence."
-                },
-                {
-                    "name": "mDesign",
-                    "parent_company": "mDesign (Private)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$15M - $25M",
-                    "market_share_percent": "0.4-0.8%",
-                    "position": "Home organization importer",
-                    "segment_focus": "Bins, drawer organizers, storage solutions",
-                    "distribution": "Amazon, Target, Walmart",
-                    "headquarters": "Buffalo, NY (Importer)",
-                    "product_count": "300+ SKUs",
-                    "tier": "tier_5_import",
-                    "confidence": "medium",
-                    "reasoning": "High-volume Amazon seller. Import brand with modern aesthetic."
-                },
-                {
-                    "name": "SONGMICS",
-                    "parent_company": "SONGMICS (Songmics Home Co., China)",
-                    "estimated_revenue_usd": "$50M - $80M",
-                    "estimated_category_revenue": "$20M - $35M",
-                    "market_share_percent": "0.6-1%",
-                    "position": "Chinese direct brand on Amazon",
-                    "segment_focus": "Wire shelving, storage racks, bins",
-                    "distribution": "Amazon (primary), Walmart.com",
-                    "headquarters": "Shenzhen, China",
-                    "product_count": "150+ SKUs",
-                    "tier": "tier_5_import",
-                    "confidence": "medium",
-                    "reasoning": "Major Chinese brand selling direct on Amazon. High review volume indicates strong sales."
-                },
-                {
-                    "name": "HOOBRO",
-                    "parent_company": "HOOBRO (Chinese manufacturer)",
-                    "estimated_revenue_usd": "$20M - $35M",
-                    "estimated_category_revenue": "$10M - $18M",
-                    "market_share_percent": "0.3-0.6%",
-                    "position": "Amazon-first Chinese brand",
-                    "segment_focus": "Industrial-style shelving, storage units",
-                    "distribution": "Amazon exclusive",
-                    "headquarters": "China",
-                    "product_count": "80+ SKUs",
-                    "tier": "tier_5_import",
-                    "confidence": "medium-low",
-                    "reasoning": "Emerging Chinese brand with strong Amazon presence. Industrial aesthetic appeal."
-                },
-
-                # Private Labels - Major Retailers
-                {
-                    "name": "Amazon Basics",
-                    "parent_company": "Amazon.com Inc. (NASDAQ: AMZN)",
-                    "estimated_revenue_usd": "$100M - $150M",
-                    "estimated_category_revenue": "$60M - $90M",
-                    "market_share_percent": "2-3%",
-                    "position": "Amazon private label - budget to mid-tier",
-                    "segment_focus": "Storage bins, shelving, hooks, basic organization",
-                    "distribution": "Amazon exclusive",
-                    "headquarters": "Seattle, WA",
-                    "product_count": "100+ SKUs",
-                    "tier": "tier_2_private_label",
-                    "confidence": "high",
-                    "reasoning": "Amazon's house brand leveraging platform data. Significant market share in online sales."
-                },
-                {
-                    "name": "Project Source (Lowe's)",
-                    "parent_company": "Lowe's Companies, Inc.",
-                    "estimated_revenue_usd": "$40M - $70M",
-                    "estimated_category_revenue": "$30M - $50M",
-                    "market_share_percent": "0.8-1.5%",
-                    "position": "Lowe's budget private label",
-                    "segment_focus": "Economy shelving, basic storage",
-                    "distribution": "Lowe's exclusive",
-                    "headquarters": "Mooresville, NC",
-                    "product_count": "60+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Lowe's entry-level brand below Kobalt. Budget-conscious consumers."
-                },
-                {
-                    "name": "Style Selections (Lowe's)",
-                    "parent_company": "Lowe's Companies, Inc.",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$20M - $35M",
-                    "market_share_percent": "0.6-1%",
-                    "position": "Lowe's style-focused private label",
-                    "segment_focus": "Decorative storage, organization",
-                    "distribution": "Lowe's exclusive",
-                    "headquarters": "Mooresville, NC",
-                    "product_count": "50+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Design-oriented Lowe's brand. Aesthetic focus over heavy-duty."
-                },
-
-                # Discount/Value Retailers
-                {
-                    "name": "Room Essentials (Target)",
-                    "parent_company": "Target Corporation (NYSE: TGT)",
-                    "estimated_revenue_usd": "$80M - $120M",
-                    "estimated_category_revenue": "$40M - $65M",
-                    "market_share_percent": "1.2-2%",
-                    "position": "Target budget private label",
-                    "segment_focus": "College/apartment storage, bins, basic organization",
-                    "distribution": "Target exclusive",
-                    "headquarters": "Minneapolis, MN",
-                    "product_count": "120+ SKUs",
-                    "tier": "tier_3_specialist",
-                    "confidence": "high",
-                    "reasoning": "Target's entry-level brand. Strong college/young adult demographic."
-                },
-                {
-                    "name": "Threshold (Target)",
-                    "parent_company": "Target Corporation",
-                    "estimated_revenue_usd": "$50M - $80M",
-                    "estimated_category_revenue": "$25M - $40M",
-                    "market_share_percent": "0.7-1.2%",
-                    "position": "Target mid-tier design brand",
-                    "segment_focus": "Stylish storage solutions",
-                    "distribution": "Target exclusive",
-                    "headquarters": "Minneapolis, MN",
-                    "product_count": "70+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Target's design-forward brand. Aesthetic garage organization niche."
-                },
-                {
-                    "name": "Mainstays (Walmart)",
-                    "parent_company": "Walmart Inc. (NYSE: WMT)",
-                    "estimated_revenue_usd": "$120M - $180M",
-                    "estimated_category_revenue": "$70M - $110M",
-                    "market_share_percent": "2-3.5%",
-                    "position": "Walmart value private label",
-                    "segment_focus": "Budget storage, shelving, organization",
-                    "distribution": "Walmart exclusive",
-                    "headquarters": "Bentonville, AR",
-                    "product_count": "150+ SKUs",
-                    "tier": "tier_2_private_label",
-                    "confidence": "high",
-                    "reasoning": "Walmart's volume leader in budget storage. Massive distribution reach."
-                },
-                {
-                    "name": "Better Homes & Gardens (Walmart)",
-                    "parent_company": "Walmart Inc.",
-                    "estimated_revenue_usd": "$60M - $95M",
-                    "estimated_category_revenue": "$35M - $55M",
-                    "market_share_percent": "1-1.7%",
-                    "position": "Walmart lifestyle private label",
-                    "segment_focus": "Decorative storage, lifestyle organization",
-                    "distribution": "Walmart exclusive",
-                    "headquarters": "Bentonville, AR",
-                    "product_count": "80+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Licensed brand from Meredith. Design-conscious Walmart shoppers."
-                },
-
-                # Online-Only / Direct-to-Consumer
-                {
-                    "name": "Prepac Manufacturing",
-                    "parent_company": "Prepac Manufacturing Ltd. (Private)",
-                    "estimated_revenue_usd": "$35M - $55M",
-                    "estimated_category_revenue": "$20M - $35M",
-                    "market_share_percent": "0.6-1%",
-                    "position": "Direct furniture/storage manufacturer",
-                    "segment_focus": "Cabinets, wall-mounted storage",
-                    "distribution": "Amazon, Wayfair, direct",
-                    "headquarters": "Vancouver, BC, Canada",
-                    "product_count": "50+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium",
-                    "reasoning": "Canadian manufacturer selling online. RTA (ready-to-assemble) focus."
-                },
-                {
-                    "name": "Prepara",
-                    "parent_company": "Prepara Inc. (Private)",
-                    "estimated_revenue_usd": "$15M - $25M",
-                    "estimated_category_revenue": "$8M - $15M",
-                    "market_share_percent": "0.2-0.5%",
-                    "position": "Kitchen/garage organization crossover",
-                    "segment_focus": "Tool holders, small storage",
-                    "distribution": "Amazon, specialty retailers",
-                    "headquarters": "City of Industry, CA",
-                    "product_count": "40+ SKUs",
-                    "tier": "tier_5_niche",
-                    "confidence": "medium-low",
-                    "reasoning": "Kitchen organization expanding to garage. Design-focused niche."
-                },
-
-                # Warehouse Club Brands
-                {
-                    "name": "Member's Mark (Sam's Club)",
-                    "parent_company": "Walmart Inc.",
-                    "estimated_revenue_usd": "$40M - $65M",
-                    "estimated_category_revenue": "$25M - $40M",
-                    "market_share_percent": "0.7-1.2%",
-                    "position": "Sam's Club private label",
-                    "segment_focus": "Bulk storage solutions, shelving",
-                    "distribution": "Sam's Club exclusive",
-                    "headquarters": "Bentonville, AR",
-                    "product_count": "40+ SKUs",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Sam's Club house brand. Bulk-buy focus for large garages."
-                },
-                {
-                    "name": "Kirkland Signature (Costco)",
-                    "parent_company": "Costco Wholesale Corporation (NASDAQ: COST)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$20M - $35M",
-                    "market_share_percent": "0.6-1%",
-                    "position": "Costco premium private label",
-                    "segment_focus": "Storage bins, organizational systems",
-                    "distribution": "Costco exclusive",
-                    "headquarters": "Issaquah, WA",
-                    "product_count": "25+ SKUs (curated)",
-                    "tier": "tier_4_emerging",
-                    "confidence": "high",
-                    "reasoning": "Costco's quality-focused brand. Limited SKUs but high volume per item."
-                },
-
-                # Industrial Crossover Brands
-                {
-                    "name": "Sandusky Lee",
-                    "parent_company": "Sandusky Lee Corporation (Private)",
-                    "estimated_revenue_usd": "$45M - $70M",
-                    "estimated_category_revenue": "$25M - $40M",
-                    "market_share_percent": "0.7-1.2%",
-                    "position": "Industrial metal cabinets crossing to residential",
-                    "segment_focus": "Steel cabinets, lockers, heavy-duty storage",
-                    "distribution": "Amazon, industrial suppliers, Home Depot",
-                    "headquarters": "Littleton, CO",
-                    "product_count": "60+ SKUs (residential)",
-                    "tier": "tier_4_emerging",
-                    "confidence": "medium",
-                    "reasoning": "70+ year industrial manufacturer entering home market. Heavy-duty focus."
-                },
-                {
-                    "name": "Durham Manufacturing",
-                    "parent_company": "Durham Manufacturing Company (Private)",
-                    "estimated_revenue_usd": "$35M - $55M",
-                    "estimated_category_revenue": "$15M - $25M",
-                    "market_share_percent": "0.4-0.8%",
-                    "position": "Industrial workbench/storage to garage market",
-                    "segment_focus": "Workbenches, tool storage, industrial shelving",
-                    "distribution": "Industrial suppliers, Amazon, specialized retailers",
-                    "headquarters": "Durham, CT",
-                    "product_count": "40+ SKUs",
-                    "tier": "tier_5_niche",
-                    "confidence": "medium-low",
-                    "reasoning": "Industrial heritage brand. Crossover appeal for serious DIYers."
-                },
-
-                # Emerging Smart/Tech-Enabled Storage
-                {
-                    "name": "Gladiator Smart Storage (IoT)",
-                    "parent_company": "Whirlpool Corporation",
-                    "estimated_revenue_usd": "$5M - $12M",
-                    "estimated_category_revenue": "$5M - $12M",
-                    "market_share_percent": "0.1-0.4%",
-                    "position": "Smart/connected garage storage systems",
-                    "segment_focus": "App-enabled cabinets, inventory tracking",
-                    "distribution": "Lowe's, direct",
-                    "headquarters": "Benton Harbor, MI",
-                    "product_count": "10+ SKUs",
-                    "tier": "tier_5_emerging_tech",
-                    "confidence": "low",
-                    "reasoning": "Emerging category. Smart home integration with storage. Early adoption phase."
-                },
-
-                # Specialty/Niche
-                {
-                    "name": "Elfa (Container Store)",
-                    "parent_company": "The Container Store Group (NYSE: TCS)",
-                    "estimated_revenue_usd": "$40M - $65M",
-                    "estimated_category_revenue": "$20M - $35M",
-                    "market_share_percent": "0.6-1%",
-                    "position": "Premium modular organization systems",
-                    "segment_focus": "Modular shelving, high-end organization",
-                    "distribution": "Container Store, direct",
-                    "headquarters": "Coppell, TX",
-                    "product_count": "200+ components (modular)",
-                    "tier": "tier_3_specialist",
-                    "confidence": "medium-high",
-                    "reasoning": "Premium brand sold through Container Store. Modular system with custom configurations."
-                },
-                {
-                    "name": "Rev-A-Shelf",
-                    "parent_company": "Rev-A-Shelf (Private)",
-                    "estimated_revenue_usd": "$30M - $50M",
-                    "estimated_category_revenue": "$12M - $20M",
-                    "market_share_percent": "0.3-0.6%",
-                    "position": "Cabinet organization specialist",
-                    "segment_focus": "Pull-out organizers, cabinet inserts",
-                    "distribution": "Home Depot, Lowe's, Amazon, contractors",
-                    "headquarters": "Jeffersontown, KY",
-                    "product_count": "100+ SKUs",
-                    "tier": "tier_5_niche",
-                    "confidence": "medium",
-                    "reasoning": "Kitchen cabinet organization expanding to garage cabinets. Contractor channel."
-                },
-            ],
-
-            "smart lighting": [
-                # Similar comprehensive structure for smart lighting
-                # (Abbreviated for space - would include 30-40 brands)
-            ]
-        }
-
-        # Normalize category name
-        category_normalized = category.lower().strip()
-
-        # Find matching brand list
-        brands = brand_databases.get(category_normalized, [])
-
-        if not brands:
-            logger.warning(f"No brand database for '{category}', returning empty structure")
-            brands = []
-
-        # Calculate totals
-        total_brands = len(brands)
-
-        # Aggregate statistics
-        tier_breakdown = {}
-        for brand in brands:
-            tier = brand.get('tier', 'unknown')
-            tier_breakdown[tier] = tier_breakdown.get(tier, 0) + 1
-
-        # Estimate total market from shares
-        total_market_coverage = sum([
-            float(brand.get('market_share_percent', '0').split('-')[0].replace('%', '').replace('~', ''))
-            for brand in brands if 'market_share_percent' in brand and brand.get('market_share_percent') != ''
-        ])
-
-        result = {
+        return {
             "status": "completed",
-            "brands_found": total_brands,
-            "brands": brands,
-            "tier_breakdown": tier_breakdown,
-            "market_coverage_percent": f"{total_market_coverage:.0f}%+",
-            "sources": [
-                {
-                    "type": "comprehensive_industry_database",
-                    "confidence": "high",
-                    "note": "Brand list compiled from company financial reports, retailer data, industry associations, and market research as of 2025-10-15. Revenue estimates based on public filings (where available), retailer share data, and industry analyst estimates."
-                }
-            ],
-            "methodology": {
-                "revenue_estimation": "Based on: (1) Public company filings for parent companies, (2) Retailer shelf space analysis, (3) Amazon sales rank tracking, (4) Industry analyst reports, (5) Distribution breadth scoring",
-                "market_share_calculation": "Calculated from estimated revenue divided by total category market size ($3.2B US garage storage market). Cross-validated with retailer data where available.",
-                "tier_classification": "Tier 1: >$400M revenue, national distribution. Tier 2: $200-400M, major retail presence. Tier 3: $50-200M, specialist focus. Tier 4: $10-50M, emerging/regional."
-            },
-            "collected_at": datetime.now().isoformat()
+            "brands": [self._brand_to_dict(b) for b in classified_brands],
+            "total_brands": len(classified_brands),
+            "by_tier": self._count_by_tier(classified_brands),
+            "coverage_estimate": self._estimate_coverage(len(classified_brands)),
+            "summary": summary,
+            "data_sources": self._get_data_sources_used()
         }
 
-        logger.info(f"✅ Discovered {total_brands} brands for {category} (Coverage: {result['market_coverage_percent']})")
-        return result
+    def _check_data_sources_available(self) -> bool:
+        """
+        Check if real data sources are available.
+
+        Returns:
+            True if WebSearch, APIs, or other real sources are configured
+        """
+        # TODO: Check if WebSearch is available
+        # TODO: Check if SEC EDGAR API key is set
+        # TODO: Check if web scraping is enabled
+
+        # For now, return False since Stage 3 not complete
+        return False
+
+    def _discover_from_all_sources(self, category: str) -> List[Brand]:
+        """
+        Discover brands from all available data sources.
+
+        Args:
+            category: Category name
+
+        Returns:
+            List of discovered Brand objects with sources
+
+        Raises:
+            NotImplementedError: Real sources not integrated yet
+        """
+        brands: List[Brand] = []
+
+        # Source 1: WebSearch for brand lists
+        try:
+            websearch_brands = self._discover_from_websearch(category)
+            brands.extend(websearch_brands)
+        except NotImplementedError:
+            logger.warning("WebSearch not available - skipping")
+
+        # Source 2: SEC EDGAR for public companies
+        try:
+            sec_brands = self._discover_from_sec_edgar(category)
+            brands.extend(sec_brands)
+        except NotImplementedError:
+            logger.warning("SEC EDGAR not available - skipping")
+
+        # Source 3: Industry reports
+        try:
+            report_brands = self._discover_from_reports(category)
+            brands.extend(report_brands)
+        except NotImplementedError:
+            logger.warning("Industry reports not available - skipping")
+
+        # Deduplicate brands
+        unique_brands = self._deduplicate_brands(brands)
+
+        return unique_brands
+
+    def _discover_from_websearch(self, category: str) -> List[Brand]:
+        """
+        Discover brands using WebSearch (Claude API).
+
+        Args:
+            category: Category name
+
+        Returns:
+            List of Brand objects with source URLs
+
+        Raises:
+            NotImplementedError: WebSearch not integrated yet
+        """
+        # TODO: Integrate Claude WebSearch API
+        # Query examples:
+        #   - "top {category} brands United States 2024"
+        #   - "{category} manufacturers companies list"
+        #   - "best {category} brands market leaders"
+
+        raise NotImplementedError(
+            "WebSearch integration pending. "
+            "Required: Claude WebSearch API access. "
+            "See agents/collectors.py for planned implementation."
+        )
+
+    def _discover_from_sec_edgar(self, category: str) -> List[Brand]:
+        """
+        Discover public company brands from SEC EDGAR filings.
+
+        Args:
+            category: Category name
+
+        Returns:
+            List of Brand objects with SEC source URLs
+
+        Raises:
+            NotImplementedError: SEC EDGAR not integrated yet
+        """
+        # TODO: Integrate SEC EDGAR API
+        # API: https://www.sec.gov/edgar/sec-api-documentation
+        # Query company filings for revenue by product category
+
+        raise NotImplementedError(
+            "SEC EDGAR integration pending. "
+            "Required: SEC API client implementation. "
+            "See DATA_SOURCE_MAPPING.md for details."
+        )
+
+    def _discover_from_reports(self, category: str) -> List[Brand]:
+        """
+        Discover brands from industry research reports.
+
+        Args:
+            category: Category name
+
+        Returns:
+            List of Brand objects with report URLs
+
+        Raises:
+            NotImplementedError: Report parsing not integrated yet
+        """
+        # TODO: Integrate industry report parsing
+        # Sources: IBISWorld, Grand View Research, etc.
+        # May require WebSearch to find reports, then extract brands
+
+        raise NotImplementedError(
+            "Industry report parsing pending. "
+            "Required: Report discovery + text extraction. "
+            "See SCRAPING_ARCHITECTURE.md for approach."
+        )
+
+    def _deduplicate_brands(self, brands: List[Brand]) -> List[Brand]:
+        """
+        Remove duplicate brands from multiple sources.
+
+        Args:
+            brands: List of Brand objects (may have duplicates)
+
+        Returns:
+            Deduplicated list, keeping brand with most complete data
+        """
+        seen_names = {}
+
+        for brand in brands:
+            name_key = brand.name.lower().strip()
+
+            if name_key not in seen_names:
+                seen_names[name_key] = brand
+            else:
+                # Keep brand with more source URLs
+                existing = seen_names[name_key]
+                if len(brand.source_urls) > len(existing.source_urls):
+                    seen_names[name_key] = brand
+
+        return list(seen_names.values())
+
+    def _classify_brands_by_tier(self, brands: List[Brand]) -> List[Brand]:
+        """
+        Classify brands into tiers based on revenue/market share.
+
+        Args:
+            brands: List of Brand objects (tier may be None)
+
+        Returns:
+            Brands with tier classification assigned
+        """
+        # TODO: Implement tier classification logic
+        # Rules:
+        #   Tier 1: >$500M annual revenue
+        #   Tier 2: $200M-$500M (includes major private labels)
+        #   Tier 3: $50M-$200M (specialists)
+        #   Tier 4: $10M-$50M (emerging)
+        #   Tier 5: <$10M (import, niche)
+
+        # For now, return as-is (tier classification requires revenue data)
+        logger.warning("Tier classification requires revenue data - not implemented")
+        return brands
+
+    def _generate_summary(self, brands: List[Brand]) -> str:
+        """Generate human-readable summary of discovery results."""
+        tier_counts = self._count_by_tier(brands)
+
+        summary_parts = [
+            f"Discovered {len(brands)} brands",
+            f"Coverage: {self._estimate_coverage(len(brands))}",
+        ]
+
+        if tier_counts:
+            tier_summary = ", ".join(f"{tier}: {count}" for tier, count in tier_counts.items())
+            summary_parts.append(f"Distribution: {tier_summary}")
+
+        return " | ".join(summary_parts)
+
+    def _count_by_tier(self, brands: List[Brand]) -> Dict[str, int]:
+        """Count brands by tier."""
+        counts = {}
+        for brand in brands:
+            tier = brand.tier.value if brand.tier else "unknown"
+            counts[tier] = counts.get(tier, 0) + 1
+        return counts
+
+    def _estimate_coverage(self, brand_count: int) -> str:
+        """Estimate market coverage based on brand count."""
+        if brand_count >= 50:
+            return "95%+"
+        elif brand_count >= 30:
+            return "80-90%"
+        elif brand_count >= 20:
+            return "60-80%"
+        else:
+            return "<60%"
+
+    def _brand_to_dict(self, brand: Brand) -> Dict[str, Any]:
+        """Convert Brand object to dictionary for JSON serialization."""
+        return {
+            "name": brand.name,
+            "tier": brand.tier.value if brand.tier else None,
+            "parent_company": brand.parent_company,
+            "estimated_revenue": brand.estimated_revenue,
+            "market_share": brand.market_share,
+            "distribution_channels": brand.distribution_channels,
+            "source_urls": brand.source_urls,
+            "source_count": len(brand.source_urls)
+        }
+
+    def _get_data_sources_used(self) -> List[str]:
+        """Return list of data sources actually used."""
+        # TODO: Track which sources successfully returned data
+        return []
+
+
+# Backwards compatibility with old interface
+class BrandDiscoveryLegacy:
+    """
+    Legacy interface wrapper.
+
+    This maintains compatibility with existing orchestrator
+    while using new refactored implementation.
+    """
+
+    def __init__(self, config):
+        self.discovery = BrandDiscovery(config)
+
+    def discover_brands(self, category: str) -> Dict[str, Any]:
+        """
+        Legacy method signature.
+
+        NOTE: This will raise NotImplementedError until Stage 3 is complete.
+        """
+        try:
+            return self.discovery.discover_brands(category)
+        except NotImplementedError as e:
+            logger.error(f"Brand discovery failed: {e}")
+            logger.error("SOLUTION: Complete Stage 3 (Collector Integration)")
+            logger.error("See IMPLEMENTATION_CHECKLIST.md for details")
+
+            # Return structure that will fail preflight validation
+            return {
+                "status": "not_implemented",
+                "brands": [],
+                "total_brands": 0,
+                "error": str(e),
+                "next_steps": [
+                    "Integrate WebSearch API for brand discovery",
+                    "Integrate SEC EDGAR for public company data",
+                    "See DATA_SOURCE_MAPPING.md for full plan"
+                ]
+            }
