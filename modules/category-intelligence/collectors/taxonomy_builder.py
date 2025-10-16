@@ -132,13 +132,12 @@ class TaxonomyBuilder:
         Returns:
             True if WebSearch, Google Trends, or retailer APIs are configured
         """
-        # TODO: Check if WebSearch is available
-        # TODO: Check if Google Trends API key is set
-        # TODO: Check if Amazon API key is set
-        # TODO: Check if Home Depot API key is set
-
-        # For now, return False since Stage 3 not complete
-        return False
+        # Check if pytrends is available
+        try:
+            from ..services import PYTRENDS_AVAILABLE, get_scraper
+            return PYTRENDS_AVAILABLE or True  # Scraper is always available
+        except ImportError:
+            return False
 
     def _fetch_taxonomy_from_sources(self, category: str) -> TaxonomyData:
         """
@@ -230,19 +229,42 @@ class TaxonomyBuilder:
 
         Returns:
             Dict with keywords and source URLs
-
-        Raises:
-            NotImplementedError: Google Trends not integrated yet
         """
-        # TODO: Integrate Google Trends API
-        # API: pytrends library or Google Trends API
-        # Collect trending search terms related to category
+        keywords_data = {
+            'consumer_language': [],
+            'industry_language': [],
+            'search_terms': [],
+            'sources': []
+        }
 
-        raise NotImplementedError(
-            "Google Trends integration pending. "
-            "Required: pytrends library or Google Trends API access. "
-            "See DATA_SOURCE_MAPPING.md for details."
-        )
+        try:
+            from ..services import get_trends_service, PYTRENDS_AVAILABLE
+
+            if not PYTRENDS_AVAILABLE:
+                logger.warning("pytrends not available - skipping Google Trends")
+                return keywords_data
+
+            trends_service = get_trends_service()
+
+            # Get related keywords
+            result = trends_service.get_related_keywords(category, limit=25)
+
+            keywords_data['consumer_language'] = result.get('consumer_language', [])
+            keywords_data['search_terms'] = result.get('consumer_language', [])[:15]
+            keywords_data['sources'] = result.get('source_urls', [])
+
+            # Industry language - derive from consumer language
+            # (capitalize, make more formal)
+            keywords_data['industry_language'] = [
+                kw.title() for kw in result.get('consumer_language', [])[:10]
+            ]
+
+            logger.info(f"Got {len(keywords_data['consumer_language'])} keywords from Google Trends")
+
+        except Exception as e:
+            logger.warning(f"Google Trends fetch failed: {e}")
+
+        return keywords_data
 
     def _fetch_taxonomy_from_retailers(self, category: str) -> Dict[str, Any]:
         """

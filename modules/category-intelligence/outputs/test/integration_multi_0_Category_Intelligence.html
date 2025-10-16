@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Category 0 - Category Intelligence</title>
+    <style>
+        @page {
+            margin: 0.5in 0.75in;
+            size: letter;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.35;
+            color: #1a1a1a;
+            background: #ffffff;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.25in;
+        }
+
+        /* Consistent 11pt typography - only bold and color for hierarchy */
+        h1, h2, h3, h4, p, td, th, li, .metric-label, .metric-value, .metric-context {
+            font-size: 11pt;
+        }
+
+        h1 {
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 0 0 3pt 0;
+        }
+
+        h2 {
+            font-weight: 700;
+            color: #0066cc;
+            margin: 16pt 0 6pt 0;
+            padding: 6pt 0 6pt 10pt;
+            border-left: 3pt solid #0066cc;
+            background: #f8f9fa;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-weight: 700;
+            color: #1a1a1a;
+            margin: 12pt 0 4pt 0;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            font-weight: 600;
+            color: #4a4a4a;
+            margin: 10pt 0 3pt 0;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin: 0 0 6pt 0;
+            line-height: 1.35;
+        }
+
+        /* Header - compact */
+        .report-header {
+            border-bottom: 2pt solid #0066cc;
+            padding-bottom: 8pt;
+            margin-bottom: 12pt;
+            page-break-after: avoid;
+        }
+
+        .report-title {
+            font-size: 11pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 2pt;
+        }
+
+        .report-subtitle {
+            font-size: 11pt;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .report-meta {
+            font-size: 11pt;
+            color: #999;
+            margin-top: 4pt;
+        }
+
+        /* Executive Summary - compact */
+        .executive-summary {
+            background: #f8f9fa;
+            padding: 10pt;
+            margin: 0 0 12pt 0;
+            border-left: 3pt solid #0066cc;
+            page-break-inside: avoid;
+        }
+
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8pt;
+            margin: 8pt 0;
+        }
+
+        .metric {
+            text-align: center;
+            padding: 6pt;
+            background: #ffffff;
+        }
+
+        .metric-label {
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2pt;
+            font-weight: 600;
+        }
+
+        .metric-value {
+            font-weight: 700;
+            color: #0066cc;
+        }
+
+        .metric-context {
+            color: #666;
+            margin-top: 2pt;
+        }
+
+        /* Tables - maximum space efficiency */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 4pt 0 8pt 0;
+            font-size: 11pt;
+            page-break-inside: avoid;
+        }
+
+        thead {
+            background: #f0f0f0;
+        }
+
+        th {
+            padding: 3pt 6pt;
+            text-align: left;
+            font-weight: 700;
+            font-size: 11pt;
+            color: #1a1a1a;
+            border-bottom: 1pt solid #d0d0d0;
+        }
+
+        td {
+            padding: 3pt 6pt;
+            border-bottom: 0.5pt solid #e8e8e8;
+            vertical-align: top;
+            font-size: 11pt;
+        }
+
+        tbody tr:hover {
+            background: #fafafa;
+        }
+
+        /* Keep table headers with content */
+        thead {
+            page-break-after: avoid;
+        }
+
+        tbody tr {
+            page-break-inside: avoid;
+        }
+
+        /* Tier badges - same size as body text */
+        .tier {
+            display: inline-block;
+            padding: 1pt 4pt;
+            font-size: 11pt;
+            font-weight: 600;
+            border-radius: 2pt;
+        }
+
+        .tier-1 { background: #d4edda; color: #155724; }
+        .tier-2 { background: #d1ecf1; color: #0c5460; }
+        .tier-3 { background: #fff3cd; color: #856404; }
+        .tier-4 { background: #f8d7da; color: #721c24; }
+        .tier-5 { background: #e2e3e5; color: #383d41; }
+
+        /* Confidence - same size */
+        .confidence {
+            display: inline-block;
+            padding: 1pt 4pt;
+            font-size: 11pt;
+            font-weight: 600;
+            border-radius: 2pt;
+        }
+
+        .confidence-high { background: #d4edda; color: #155724; }
+        .confidence-medium { background: #fff3cd; color: #856404; }
+        .confidence-medium-high { background: #d4edda; color: #155724; }
+        .confidence-medium-low { background: #fff3cd; color: #856404; }
+        .confidence-low { background: #f8d7da; color: #721c24; }
+
+        /* Keywords - same size */
+        .keywords {
+            margin: 4pt 0;
+        }
+
+        .keyword {
+            display: inline-block;
+            padding: 1pt 4pt;
+            margin: 1pt 2pt 1pt 0;
+            background: #e8f4f8;
+            color: #0066cc;
+            font-size: 11pt;
+            border-radius: 2pt;
+        }
+
+        .keyword.industry {
+            background: #f3e8f8;
+            color: #6610cc;
+        }
+
+        /* Lists - compact */
+        ul {
+            margin: 4pt 0 8pt 18pt;
+            padding: 0;
+        }
+
+        li {
+            margin: 2pt 0;
+            line-height: 1.35;
+            font-size: 11pt;
+        }
+
+        /* Subsections */
+        .subsection {
+            margin: 10pt 0;
+            page-break-inside: avoid;
+        }
+
+        /* Two-column layout - compact */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12pt;
+            margin: 6pt 0;
+            page-break-inside: avoid;
+        }
+
+        /* Footer */
+        .report-footer {
+            margin-top: 16pt;
+            padding-top: 8pt;
+            border-top: 1pt solid #d0d0d0;
+            font-size: 11pt;
+            color: #666;
+            text-align: center;
+            page-break-before: avoid;
+        }
+
+        .footer-brand {
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 3pt;
+        }
+
+        /* Compact spacing */
+        .compact-section {
+            margin: 8pt 0;
+            page-break-inside: avoid;
+        }
+
+        /* Section breaks for logical flow */
+        .section {
+            page-break-inside: avoid;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            .no-print {
+                display: none;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+            table {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="report-header">
+        <div class="report-title">Test Category 0</div>
+        <div class="report-subtitle">Category Intelligence Report</div>
+        <div class="report-meta">
+            Generated: October 16, 2025 | Offbrain Insights
+        </div>
+    </div>
+
+<div class="executive-summary">
+    <h3 style="margin-top: 0;">Executive Summary</h3>
+
+    <div class="key-metrics">
+        <div class="metric">
+            <div class="metric-label">Market Size</div>
+            <div class="metric-value">$1.85B</div>
+            <div class="metric-context">2024, United States</div>
+        </div>
+        <div class="metric">
+            <div class="metric-label">Projected Growth</div>
+            <div class="metric-value">13.5%</div>
+            <div class="metric-context">2025 Forecast</div>
+        </div>
+        <div class="metric">
+            <div class="metric-label">Market Leader</div>
+            <div class="metric-value">35%</div>
+            <div class="metric-context">Philips Hue</div>
+        </div>
+        <div class="metric">
+            <div class="metric-label">Market Concentration</div>
+            <div class="metric-value">68%</div>
+            <div class="metric-context">Top 4 Brands</div>
+        </div>
+    </div>
+
+    <p style="margin-top: 12pt;"><strong>Research Scope:</strong> This analysis covers 2 brands across 1 subcategories, with comprehensive pricing analysis, market share estimates for 1 top brands, and forward projections through 2028.</p>
+</div><h2>Brand Landscape & Market Share</h2>
+
+<p><strong>Coverage:</strong> 2 brands identified across 5 market tiers, from national leaders (>$500M) to import and niche players. Market share estimates validated through multi-source triangulation.</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Tier</th>
+            <th>Market Share</th>
+            <th>Category Revenue</th>
+            <th>Market Position</th>
+            <th>Confidence</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Philips Hue</strong></td>
+            <td><span class="tier tier-1">T1</span></td>
+            <td>35%</td>
+            <td>$450M</td>
+            <td>#1</td>
+            <td><span class="confidence confidence-high">High</span></td>
+        </tr>
+        <tr>
+            <td><strong>LIFX</strong></td>
+            <td><span class="tier tier-3">T3</span></td>
+            <td>8%</td>
+            <td>$95M</td>
+            <td>#4</td>
+            <td><span class="confidence confidence-medium">Medium</span></td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="two-col" style="margin-top: 12pt;">
+    <div>
+        <h4>Key Competitive Factors</h4>
+        <ul>
+            <li>Smart home integration</li>
+            <li>Color accuracy</li>
+        </ul>
+    </div>
+    <div>
+        <h4>Emerging Threats</h4>
+        <ul>
+            <li>Budget LED brands</li>
+        </ul>
+    </div>
+</div>
+<h2>Category Structure & Taxonomy</h2>
+
+<p><strong>Category Overview:</strong> 1 primary subcategories identified with comprehensive quantitative metrics including market size, unit volumes, brand counts, and growth rates.</p>
+
+<div class="keywords">
+    <strong>Consumer Language:</strong>
+    <span class="keyword">smart lights</span>
+    <span class="keyword">wifi bulbs</span>
+    <br>
+    <strong>Industry Language:</strong>
+    <span class="keyword industry">connected lighting</span>
+    <span class="keyword industry">IoT illumination</span>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Subcategory</th>
+            <th>Market Size</th>
+            <th>% of Category</th>
+            <th>Units/Year</th>
+            <th>Brands</th>
+            <th>Avg Price</th>
+            <th>Growth</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Smart Bulbs</strong></td>
+            <td>$850M</td>
+            <td>45%</td>
+            <td>12M units</td>
+            <td>50+</td>
+            <td>$35</td>
+            <td>12%</td>
+        </tr>
+        <tr style="background: #fafafa;">
+            <td colspan="7" style="color: #666;">
+                <em>Keywords:</em> smart bulb, wifi bulb, alexa lights
+            </td>
+        </tr>
+    </tbody>
+</table><h2>Pricing Analysis</h2>
+
+<p><strong>Category Pricing:</strong> Price range $15-$250 | Average transaction value $65</p>
+<p><strong>Dominant Retailers:</strong> Amazon, Home Depot</p>
+
+<p><strong>Methodology:</strong> Product-level pricing data collected from 10,000+ SKUs across major retailers (Home Depot, Lowe's, Amazon, Walmart). Prices represent P10-P90 percentiles to exclude outliers.</p>
+
+<div class="compact-section">
+    <h4>Smart Bulbs</h4>
+    <p style="margin: 4pt 0;"><strong>Top Brands:</strong> Philips Hue ($40-$60)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Product Type</th>
+                <th>Price Range</th>
+                <th>Average</th>
+                <th>Units/Year</th>
+                <th>Top 3 Brands</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A19 Color Bulb</td>
+                <td>$40-$60</td>
+                <td>$48</td>
+                <td>5M</td>
+                <td>Philips Hue</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h2>Market Size & Growth Analysis</h2>
+
+<p><strong>Current Market Size:</strong> $1.85B (2024), United States</p>
+
+<div class="two-col">
+    <div>
+        <h3>Historical Growth (2020-2024)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Market Size</th>
+                    <th>YoY Growth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023</td>
+                    <td>$1.68B</td>
+                    <td>8.4%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>Projections (2025-2028)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Projected Value</th>
+                    <th>Growth Rate</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025</td>
+                    <td>$2.1B</td>
+                    <td>13.5%</td>
+                    <td><span class="confidence confidence-high">High</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="two-col">
+    <div>
+        <h4>Growth Drivers</h4>
+        <ul>
+            <li><strong>Smart home adoption</strong> (high) — Increasing adoption of smart home ecosystems</li>
+        </ul>
+    </div>
+    <div>
+        <h4>Growth Inhibitors</h4>
+        <ul>
+            <li><strong>High entry price</strong> (medium) — Premium pricing limiting penetration</li>
+        </ul>
+    </div>
+</div><h2>Appendix: Key Resources & References</h2>
+
+<p><em>Total of 5 curated sources across 1 categories. Top resources shown below for space efficiency. All sources validated for authority, relevance, and recency.</em></p>
+
+<div class="compact-section">
+    <h4>Market Research</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Resource</th>
+                <th>Provider</th>
+                <th>URL</th>
+                <th>Relevance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Smart Lighting Report 2024</strong></td>
+                <td>Allied Market Research</td>
+                <td><a href="https://example.com/report" target="_blank" style="color: #0066cc; text-decoration: none;">https://example.com/report...</a></td>
+                <td>High</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <div class="report-footer">
+        <div class="footer-brand">Offbrain Insights</div>
+        <div>Authentic Consumer Intelligence | Zero Fabrication Tolerance</div>
+        <div style="margin-top: 6pt;">© 2025 Offbrain Insights. All data sourced and cited.</div>
+    </div>
+</body>
+</html>
