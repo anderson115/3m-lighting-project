@@ -1,5 +1,14 @@
 """
-Category Intelligence Orchestrator
+Category Intelligence Orchestrator - LEGACY SYSTEM (Currently Active)
+
+⚠️ IMPORTANT: This is the LEGACY pipeline coordinator
+   - Currently used by: run_analysis.py (main entry point)
+   - Status: Active and production-ready
+   - Migration: Will be replaced by agents/orchestrator.py in Stage 8
+
+   See AGENTIC_ARCHITECTURE.md for migration roadmap.
+   See agents/orchestrator.py for the new AI-guided system.
+
 Main coordinator for category research pipeline
 """
 

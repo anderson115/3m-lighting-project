@@ -1,5 +1,15 @@
 """
-OrchestratorAgent - Master Coordinator for Category Intelligence System
+OrchestratorAgent - NEW AGENTIC SYSTEM (Not Yet Active)
+
+🔄 MIGRATION STATUS: This is the NEW AI-guided orchestrator
+   - Status: Built and ready (Stages 1-2 complete)
+   - Usage: Not yet active (will replace core/orchestrator.py)
+   - Activation: Stage 8 of migration (see AGENTIC_ARCHITECTURE.md)
+
+   See core/orchestrator.py for the LEGACY system currently in use.
+   See AGENTIC_ARCHITECTURE.md for full migration roadmap.
+
+Master Coordinator for Category Intelligence System
 
 This agent coordinates all data collection and validation activities,
 making ACCEPT/REJECT/REFINE decisions on submissions, and ensuring
