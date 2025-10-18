@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer JTBD Analysis - 3M Lighting Research</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #0066cc;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #0066cc;
+            font-size: 1.8em;
+            margin: 30px 0 15px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 1.3em;
+            margin: 20px 0 10px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .metadata {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .stat-label {
+            display: block;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th {
+            background: #0066cc;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .quadrant-must-solve {
+            background: #dc3545;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .quadrant-important {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .quadrant-strategic {
+            background: #17a2b8;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .quadrant-niche {
+            background: #6c757d;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .job-detail {
+            background: #f8f9fa;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0066cc;
+        }
+
+        .job-statement {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+
+        .statement {
+            font-size: 1.1em;
+            font-style: italic;
+            color: #555;
+            white-space: pre-line;
+        }
+
+        .job-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .metric {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .metric-label {
+            display: block;
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .metric-value {
+            display: block;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #0066cc;
+        }
+
+        .consumer-ids {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+
+        .evidence {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+
+        .verbatim {
+            display: flex;
+            gap: 10px;
+            margin: 15px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 3px solid #0066cc;
+        }
+
+        .verbatim-number {
+            font-weight: bold;
+            color: #0066cc;
+            flex-shrink: 0;
+        }
+
+        .verbatim p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .mece-validation {
+            margin: 30px 0;
+        }
+
+        .validation-result {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .validation-pass {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .validation-warning {
+            color: #ffc107;
+            font-weight: bold;
+        }
+
+        .validation-fail {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .evidence-chain {
+            margin: 30px 0;
+        }
+
+        .chain-overview, .traceability, .citation-audit {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        ul, ol {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jobs-to-be-Done Analysis</h1>
+            <h2>3M Consumer Lighting Research</h2>
+            <p class="meta">Generated: 2025-10-17 21:13:23</p>
+        </header>
+
+        <section class="executive-summary">
+            <h2>Executive Summary</h2>
+
+            <div class="metadata">
+                <div class="stat">
+                    <span class="stat-value">79</span>
+                    <span class="stat-label">Consumers Analyzed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">305</span>
+                    <span class="stat-label">JTBD Signals</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">4</span>
+                    <span class="stat-label">Core Jobs</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">28%</span>
+                    <span class="stat-label">Signal Coverage</span>
+                </div>
+            </div>
+
+            <h3>The 4 Core Consumer Jobs</h3>
+            <table class="jobs-summary">
+                <thead>
+                    <tr>
+                        <th>Priority</th>
+                        <th>Job</th>
+                        <th>Consumers</th>
+                        <th>Commonality</th>
+                        <th>Pain</th>
+                        <th>Quadrant</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><strong>Illuminate Task Workspaces</strong></td>
+                        <td>24</td>
+                        <td>30%</td>
+                        <td>50/100</td>
+                        <td class="quadrant-strategic">Strategic</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><strong>Create Intentional Atmosphere</strong></td>
+                        <td>14</td>
+                        <td>18%</td>
+                        <td>46/100</td>
+                        <td class="quadrant-strategic">Strategic</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><strong>Navigate Safely in Dark Spaces</strong></td>
+                        <td>10</td>
+                        <td>13%</td>
+                        <td>40/100</td>
+                        <td class="quadrant-strategic">Strategic</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><strong>Locate Items Quickly</strong></td>
+                        <td>5</td>
+                        <td>6%</td>
+                        <td>43/100</td>
+                        <td class="quadrant-strategic">Strategic</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="job-detail">
+            <h2>JOB 1: Illuminate Task Workspaces</h2>
+
+            <div class="job-statement">
+                <h3>Job Statement</h3>
+                <p class="statement">When I'm working in areas that lack adequate light for detailed tasks,
+I want to illuminate specific spots where I need visibility,
+So I can complete tasks safely and efficiently without struggling to see.</p>
+            </div>
+
+            <div class="job-metrics">
+                <div class="metric">
+                    <span class="metric-label">Unique Consumers:</span>
+                    <span class="metric-value">24 (30% of sample)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals:</span>
+                    <span class="metric-value">40</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Pain Level:</span>
+                    <span class="metric-value">50/100</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Priority:</span>
+                    <span class="metric-value">Strategic</span>
+                </div>
+            </div>
+
+            <div class="consumer-ids">
+                <h4>Source Consumer IDs:</h4>
+                <p>C004, C010, C013, C014, C019, C022, C024, C025, C027, C034, C037, C044, C050, C053, C054, C059, C061, C064, C067, C069, C071, C076, C077, C078</p>
+            </div>
+
+            <div class="evidence">
+                <h3>Supporting Evidence (Top 6 Verbatims)</h3>
+                <div class="verbatim">
+                    <span class="verbatim-number">1.</span>
+                    <p>[C004 | video_0004 | 01:07 | video_0004/video_0004/analysis.json]: "So in that way, I did feel a little bit helpless because I wasn't able to see the project all"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">2.</span>
+                    <p>[C034 | video_0035 | 00:06 | video_0035/video_0035/analysis.json]: "That would, you know, I guess it'd have to be pretty insistent on it working because then"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">3.</span>
+                    <p>[C061 | video_0064 | 02:51 | video_0064/video_0064/analysis.json]: "So I didn't do the middle one just because I wanted to see how well the other two look first."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">4.</span>
+                    <p>[C077 | video_0080 | 00:10 | video_0080/video_0080/analysis.json]: "out to see how much I could get in one climb, if you would, was a challenge because sometimes"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">5.</span>
+                    <p>[C022 | video_0022 | 00:33 | video_0022/video_0022/analysis.json]: "When I have guests over, you know, I like to highlight my artwork in my house with the spotlight."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">6.</span>
+                    <p>[C024 | video_0024 | 01:54 | video_0024/video_0024/analysis.json]: "I just wanted to cover those jagged edges that covered you know, when I was cutting the drywall"</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-detail">
+            <h2>JOB 2: Create Intentional Atmosphere</h2>
+
+            <div class="job-statement">
+                <h3>Job Statement</h3>
+                <p class="statement">When I want my space to feel more complete or intentional,
+I want to add lighting that enhances the mood or aesthetic,
+So I can feel satisfied with my environment and show it off to others.</p>
+            </div>
+
+            <div class="job-metrics">
+                <div class="metric">
+                    <span class="metric-label">Unique Consumers:</span>
+                    <span class="metric-value">14 (18% of sample)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals:</span>
+                    <span class="metric-value">21</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Pain Level:</span>
+                    <span class="metric-value">46/100</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Priority:</span>
+                    <span class="metric-value">Strategic</span>
+                </div>
+            </div>
+
+            <div class="consumer-ids">
+                <h4>Source Consumer IDs:</h4>
+                <p>C008, C014, C015, C027, C035, C037, C040, C054, C056, C059, C060, C061, C064, C071</p>
+            </div>
+
+            <div class="evidence">
+                <h3>Supporting Evidence (Top 6 Verbatims)</h3>
+                <div class="verbatim">
+                    <span class="verbatim-number">1.</span>
+                    <p>[C064 | video_0067 | 00:41 | video_0067/video_0067/analysis.json]: "and that outlook that I'm trying to reach when it comes to my space. And some personal goals of"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">2.</span>
+                    <p>[C071 | video_0074 | 00:12 | video_0074/video_0074/analysis.json]: "I love this layout design because it looks more special as far as the LED installations"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">3.</span>
+                    <p>[C035 | video_0036 | 00:55 | video_0036/video_0036/analysis.json]: "know so we chose to do. I mean it looks cool even when it's not on so that's good. Makes everything"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">4.</span>
+                    <p>[C054 | video_0057 | 00:06 | video_0057/video_0057/analysis.json]: "Yeah, I'm just a perfectionist when it comes to those things, so I'm constantly checking from afar and making sure that everything looks the same, like that every photo and light fixture look the same as the one next to it."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">5.</span>
+                    <p>[C056 | video_0059 | 00:10 | video_0059/video_0059/analysis.json]: "a spotlight from above on all of the frames. And I just like it because it's more of a warm"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">6.</span>
+                    <p>[C071 | video_0074 | 00:58 | video_0074/video_0074/analysis.json]: "I do like this layout, I would say, because, you know, it's definitely a different look"</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-detail">
+            <h2>JOB 3: Navigate Safely in Dark Spaces</h2>
+
+            <div class="job-statement">
+                <h3>Job Statement</h3>
+                <p class="statement">When I'm moving through dark areas like hallways, stairs, or yards at night,
+I want to see where I'm going without fumbling for switches,
+So I can avoid tripping, falling, or feeling unsafe in my own home.</p>
+            </div>
+
+            <div class="job-metrics">
+                <div class="metric">
+                    <span class="metric-label">Unique Consumers:</span>
+                    <span class="metric-value">10 (13% of sample)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals:</span>
+                    <span class="metric-value">17</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Pain Level:</span>
+                    <span class="metric-value">40/100</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Priority:</span>
+                    <span class="metric-value">Strategic</span>
+                </div>
+            </div>
+
+            <div class="consumer-ids">
+                <h4>Source Consumer IDs:</h4>
+                <p>C007, C017, C018, C025, C050, C067, C069, C071, C077, C078</p>
+            </div>
+
+            <div class="evidence">
+                <h3>Supporting Evidence (Top 6 Verbatims)</h3>
+                <div class="verbatim">
+                    <span class="verbatim-number">1.</span>
+                    <p>[C067 | video_0070 | 00:29 | video_0070/video_0070/analysis.json]: "so I have this strip going across here, so that's a pretty cool feature I love about that one."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">2.</span>
+                    <p>[C007 | video_0007 | 00:00 | video_0007/video_0007/analysis.json]: "dark it was pretty easy the technique I used I just needed to make sure that I"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">3.</span>
+                    <p>[C069 | video_0072 | 00:05 | video_0072/video_0072/analysis.json]: "that actually the strip actually stopped. I really really really was upset because"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">4.</span>
+                    <p>[C007 | video_0007 | 00:18 | video_0007/video_0007/analysis.json]: "and I'd have had a couple fall so that was a little a little bit challenging so all I did"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">5.</span>
+                    <p>[C025 | video_0025 | 00:00 | video_0025/video_0025/analysis.json]: "So my main frustration that I mentioned in some of the text was that I really can't, it's so dark up there in the attic."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">6.</span>
+                    <p>[C025 | video_0025 | 00:11 | video_0025/video_0025/analysis.json]: "I wish I could take you to show you, but it's just so dark and I don't have the proper tools right now to bring my phone up there without falling through the attic."</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="job-detail">
+            <h2>JOB 4: Locate Items Quickly</h2>
+
+            <div class="job-statement">
+                <h3>Job Statement</h3>
+                <p class="statement">When I'm searching for items in dark storage areas, closets, or cabinets,
+I want to see clearly what I'm looking for,
+So I can find what I need without wasting time or making a mess.</p>
+            </div>
+
+            <div class="job-metrics">
+                <div class="metric">
+                    <span class="metric-label">Unique Consumers:</span>
+                    <span class="metric-value">5 (6% of sample)</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Total Signals:</span>
+                    <span class="metric-value">7</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Pain Level:</span>
+                    <span class="metric-value">43/100</span>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Priority:</span>
+                    <span class="metric-value">Strategic</span>
+                </div>
+            </div>
+
+            <div class="consumer-ids">
+                <h4>Source Consumer IDs:</h4>
+                <p>C002, C018, C025, C026, C071</p>
+            </div>
+
+            <div class="evidence">
+                <h3>Supporting Evidence (Top 6 Verbatims)</h3>
+                <div class="verbatim">
+                    <span class="verbatim-number">1.</span>
+                    <p>[C026 | video_0026 | 00:43 | video_0026/video_0026/analysis.json]: "Going up and down into the attic and trying to find that hole was challenging because of that insulation, as I mentioned before."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">2.</span>
+                    <p>[C025 | video_0025 | 00:34 | video_0025/video_0025/analysis.json]: "So yeah, I mean, definitely locating the exact spot from the attic, that insulation makes it really difficult to find the hole that you cut out."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">3.</span>
+                    <p>[C002 | video_0002 | 00:00 | video_0002/video_0002/analysis.json]: "If I was to take on another project similar to this, again, I would do some more research,"</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">4.</span>
+                    <p>[C071 | video_0074 | 00:28 | video_0074/video_0074/analysis.json]: "I find that these are more cost effective instead of actually having these built in."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">5.</span>
+                    <p>[C071 | video_0074 | 00:44 | video_0074/video_0074/analysis.json]: "And I find that the cost effect of this is way cheaper and I do still get the same results."</p>
+                </div>
+                <div class="verbatim">
+                    <span class="verbatim-number">6.</span>
+                    <p>[C002 | video_0002 | 00:14 | video_0002/video_0002/analysis.json]: "when finding the time to figure out which way to go ahead and go about making the light"</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mece-validation">
+            <h2>MECE Validation Report</h2>
+
+            <div class="validation-result">
+                <h3>Collective Exhaustiveness</h3>
+                <p><strong>Total signals extracted:</strong> 305</p>
+                <p><strong>Signals mapped to jobs:</strong> 85</p>
+                <p><strong>Coverage:</strong> 27.9%</p>
+                <p class="validation-warning">
+                    ⚠️ Below 90% coverage threshold
+                </p>
+            </div>
+
+            <div class="validation-result">
+                <h3>Mutual Exclusivity</h3>
+                <p>Jobs tested for overlap using pairwise comparison:</p>
+                <ul>
+                    <li>Job 1 vs Job 2: 33% consumer overlap (expected with multi-job consumers)</li>
+                    <li>Job 1 vs Job 3: 29% consumer overlap (expected with multi-job consumers)</li>
+                    <li>Job 1 vs Job 4: 8% consumer overlap (expected with multi-job consumers)</li>
+                    <li>Job 2 vs Job 3: 7% consumer overlap (expected with multi-job consumers)</li>
+                    <li>Job 2 vs Job 4: 7% consumer overlap (expected with multi-job consumers)</li>
+                    <li>Job 3 vs Job 4: 30% consumer overlap (expected with multi-job consumers)</li>
+                </ul>
+                <p class="validation-pass">✅ All jobs represent distinct progress types</p>
+            </div>
+
+            <div class="validation-result">
+                <h3>Evidence Quality Metrics</h3>
+                <table class="quality-metrics">
+                    <thead>
+                        <tr>
+                            <th>Job</th>
+                            <th>Consumers</th>
+                            <th>Signals</th>
+                            <th>Avg per Consumer</th>
+                            <th>Meets Threshold</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Job 1</td>
+                            <td>24</td>
+                            <td>40</td>
+                            <td>1.7</td>
+                            <td class="validation-pass">
+                                ✅ Yes
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Job 2</td>
+                            <td>14</td>
+                            <td>21</td>
+                            <td>1.5</td>
+                            <td class="validation-pass">
+                                ✅ Yes
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Job 3</td>
+                            <td>10</td>
+                            <td>17</td>
+                            <td>1.7</td>
+                            <td class="validation-pass">
+                                ✅ Yes
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Job 4</td>
+                            <td>5</td>
+                            <td>7</td>
+                            <td>1.4</td>
+                            <td class="validation-pass">
+                                ✅ Yes
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="evidence-chain">
+            <h2>Evidence Chain Documentation</h2>
+
+            <div class="chain-overview">
+                <h3>Data Source Inventory</h3>
+                <p><strong>Video Analysis Files:</strong></p>
+                <ul>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0001/video_0001/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0002/video_0002/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0003/video_0003/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0004/video_0004/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0005/video_0005/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0006/video_0006/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0007/video_0007/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0008/video_0008/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0009/video_0009/analysis.json</code></li>
+                    <li><code>/Volumes/DATA/consulting/3m-lighting-processed/full_corpus/video_0010/video_0010/analysis.json</code></li>
+                    <li><em>... and 69 more</em></li>
+                </ul>
+                <p><strong>Total consumers:</strong> 79</p>
+                <p><strong>Total JTBD signals extracted:</strong> 305</p>
+            </div>
+
+            <div class="traceability">
+                <h3>Processing Pipeline</h3>
+                <ol>
+                    <li><strong>Raw Data:</strong> Consumer video recordings → Video analysis files (JSON)</li>
+                    <li><strong>Signal Extraction:</strong> JTBD signals identified from transcripts and behavioral cues</li>
+                    <li><strong>Pattern Recognition:</strong> Signals clustered by circumstance-motivation-outcome patterns</li>
+                    <li><strong>Job Assignment:</strong> Patterns mapped to 4 core functional jobs</li>
+                    <li><strong>MECE Validation:</strong> Jobs tested for mutual exclusivity and collective exhaustiveness</li>
+                </ol>
+            </div>
+
+            <div class="citation-audit">
+                <h3>Citation Quality Audit</h3>
+                <p><strong>Citation Format:</strong> [Consumer_ID | Video_ID | Timestamp | File_Path]</p>
+                <p><strong>All verbatims include complete citations:</strong> ✅ Yes</p>
+                <p><strong>All jobs meet 4+ verbatim threshold:</strong> ✅ Yes</p>
+                <p><strong>Citation completeness:</strong> 100%</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
