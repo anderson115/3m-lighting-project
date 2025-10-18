@@ -56,8 +56,14 @@ data/3m_lighting/archives/
 # IDE
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
 
 # Logs
 *.log
