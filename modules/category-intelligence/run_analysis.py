@@ -9,10 +9,10 @@ import logging
 import sys
 from pathlib import Path
 
-# Add parent directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# Add current directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
 
-from modules.category_intelligence.core.orchestrator import CategoryIntelligenceOrchestrator
+from core.orchestrator import CategoryIntelligenceOrchestrator
 
 # Configure logging
 logging.basicConfig(

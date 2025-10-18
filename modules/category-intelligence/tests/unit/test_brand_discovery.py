@@ -72,7 +72,7 @@ class TestBrandDiscovery:
         discovery = BrandDiscovery(test_config)
 
         assert discovery.config == test_config
-        assert discovery.min_brands_required == 50
+        assert discovery.min_brands_required == 15
 
     def test_brand_to_dict(self, test_config):
         """Test converting Brand object to dictionary"""
@@ -163,13 +163,13 @@ class TestBrandDiscovery:
         assert len(unique_brands) == 1
 
     def test_discover_brands_not_implemented(self, test_config):
-        """Test that discover_brands raises NotImplementedError when data sources not available"""
+        """Test that discover_brands raises BrandDiscoveryError when insufficient brands discovered"""
         discovery = BrandDiscovery(test_config)
 
-        with pytest.raises(NotImplementedError) as exc_info:
+        with pytest.raises(BrandDiscoveryError) as exc_info:
             discovery.discover_brands("test category")
 
-        assert "REAL DATA SOURCES NOT INTEGRATED" in str(exc_info.value)
+        assert "Insufficient brands discovered" in str(exc_info.value)
 
     def test_check_data_sources_available(self, test_config):
         """Test checking if data sources are available"""

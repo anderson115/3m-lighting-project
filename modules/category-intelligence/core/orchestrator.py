@@ -15,18 +15,19 @@ Main coordinator for category research pipeline
 from pathlib import Path
 from typing import Dict, Optional
 import logging
+import sys
 
-from .config import config, CategoryConfig
-from .source_tracker import SourceTracker
-from .preflight_validator import PreflightValidator
-from .environment_checker import EnvironmentChecker
-from ..collectors.brand_discovery import BrandDiscovery
-from ..collectors.taxonomy_builder import TaxonomyBuilder
-from ..collectors.pricing_analyzer import PricingAnalyzer
-from ..collectors.market_researcher import MarketResearcher
-from ..collectors.resource_curator import ResourceCurator
-from ..collectors.consumer_insights import ConsumerInsightsCollector
-from ..generators.html_reporter import HTMLReporter
+from core.config import config, CategoryConfig
+from core.source_tracker import SourceTracker
+from core.preflight_validator import PreflightValidator
+from core.environment_checker import EnvironmentChecker
+from collectors.brand_discovery import BrandDiscovery
+from collectors.taxonomy_builder import TaxonomyBuilder
+from collectors.pricing_analyzer import PricingAnalyzer
+from collectors.market_researcher import MarketResearcher
+from collectors.resource_curator import ResourceCurator
+from collectors.consumer_insights import ConsumerInsightsCollector
+from generators.html_reporter import HTMLReporter
 
 logger = logging.getLogger(__name__)
 
