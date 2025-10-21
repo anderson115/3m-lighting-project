@@ -1,7 +1,7 @@
 # 3M Lighting Project - Module Status Overview
 
-**Last Updated**: 2025-10-16
-**Project Version**: v2.0.0
+**Last Updated**: 2025-10-21
+**Project Version**: v2.0.1
 
 ---
 
@@ -62,24 +62,45 @@ This project consists of 9 intelligence modules organized under `/modules/`:
 
 **Purpose**: Consumer video analysis with JTBD extraction
 
-**Status**: Production-ready
+**Status**: Production-ready (v2.0.0 released October 21, 2025)
 
-**Key Features**:
-- Multimodal analysis (audio + visual + transcript)
-- Emotion tracking (acoustic analysis)
-- Jobs-to-be-Done extraction
-- Pain point identification
-- Workaround detection
-- Product tracking
-- Client-ready HTML reports
+**Current Version**: v2.0.0 (Multimodal Pipeline) - **RECOMMENDED**
+**Location**: `modules/consumer-video/v2/`
 
-**Deliverables**:
-- Consumer insights reports (HTML)
-- Baseline vs enhanced comparison
-- Video corpus analysis
+**v2 Key Features**:
+- **Integrated multimodal analysis** (Visual + Audio + Transcript cross-modal synthesis)
+- **Qwen2.5-VL-7B** for behavioral observation and struggle detection
+- **HuBERT-Large** for emotional context and prosodic analysis
+- **Whisper Large-V3-Turbo** for high-accuracy transcription
+- **Cross-modal confidence scoring** and validation framework
+- **82 video file manifest** with complete participant breakdown
+- **Three-tier processing** (FREE/PLUS/PRO)
+- Evidence-first methodology with zero-hallucination enforcement
+- Ulwick 8-step JTBD framework mapping
+
+**v2 Deliverables**:
+- Ranked pain points with severity scores (top 5-7)
+- Curated quotes library with multimodal citations (15-20 high-impact)
+- 3M adjacency map (Command/Scotch product touchpoints)
+- Golden moments documentation (success language)
+- Workaround inventory (compensating behaviors)
+- Final synthesis report with multimodal evidence
+
+**v1 (Legacy)**: Available in main `modules/consumer-video/` directory
+- Transcript-based JTBD analysis
+- Basic emotion tracking
+- Initial 82-video corpus analysis complete
+
+**Source Data**: `/Volumes/Data/consulting/3m-lighting-consumer-videos/` (82 videos, 8.5GB)
+**Processing Workspace**: `/Volumes/Data/consulting/3m-lighting-processed/`
 
 **Location**: `modules/consumer-video/`
-**Documentation**: `modules/consumer-video/README.md`
+**Documentation**:
+- v2: `modules/consumer-video/v2/MASTER_PLAN_Consumer_Video_Analysis.md`
+- v2: `modules/consumer-video/v2/VERSION_HISTORY.md`
+- v1: `modules/consumer-video/README.md`
+
+**Git Tag**: `consumer-video-v2.0.0`
 
 ---
 
@@ -220,6 +241,25 @@ modules/<module-name>/
 ---
 
 ## 📈 **VERSION HISTORY**
+
+### **v2.0.1** (2025-10-21) - Consumer Video v2.0 Release
+
+**Changes**:
+- Released Consumer Video Analysis Module v2.0.0
+- Complete methodology overhaul: multimodal analysis pipeline
+- Added visual analysis (Qwen2.5-VL), audio emotion (HuBERT), enhanced transcription
+- Cross-modal synthesis engine with temporal alignment
+- 82 video file manifest with participant breakdown
+- Three-tier processing system (FREE/PLUS/PRO)
+- Confidence scoring framework with zero-hallucination enforcement
+
+**New Files**:
+- `modules/consumer-video/v2/MASTER_PLAN_Consumer_Video_Analysis.md`
+- `modules/consumer-video/v2/config.py`
+- `modules/consumer-video/v2/README.md`
+- `modules/consumer-video/v2/VERSION_HISTORY.md`
+
+**Git Tag**: `consumer-video-v2.0.0`
 
 ### **v2.0.0** (2025-10-16) - P0 Refactoring Complete
 
