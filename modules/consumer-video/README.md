@@ -2,7 +2,33 @@
 
 **Purpose:** Multimodal analysis of consumer lighting installation interviews extracting JTBD, product insights, emotions, and workarounds
 
-## Quick Start
+## Version Information
+
+This module has two implementations:
+
+### Version 2.0 (Current - October 21, 2025) - **RECOMMENDED**
+**Location:** `v2/` subdirectory
+
+Complete methodology overhaul with integrated multimodal analysis pipeline:
+- **Visual + Audio + Transcript** cross-modal synthesis
+- **Qwen2.5-VL** for behavioral observation
+- **HuBERT-Large** for emotional context
+- **Whisper Large-V3-Turbo** for high-accuracy transcription
+- **Confidence scoring** across all modalities
+- **82 videos cataloged** with complete file manifest
+- **Processing workspace:** `/Volumes/Data/consulting/3m-lighting-processed/`
+
+📖 **See:** `v2/MASTER_PLAN_Consumer_Video_Analysis.md` for complete execution plan
+📖 **See:** `v2/VERSION_HISTORY.md` for detailed v2 improvements
+
+### Version 1.0 (October 6-20, 2025) - Legacy
+**Location:** Main module directory (this folder)
+
+Initial transcript-based implementation with basic JTBD extraction. Files and scripts in the main directory represent the v1 baseline analysis.
+
+---
+
+## v1 Quick Start (Legacy Implementation)
 
 ```bash
 # Analyze single video
