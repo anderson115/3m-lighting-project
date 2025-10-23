@@ -6,6 +6,8 @@ import logging
 from pathlib import Path
 
 from src.pipeline.collectors.shopify import ShopifyAPI, ShopifyBrandCollector, ShopifyProductCatalog, ShopifyStoreConfig
+from src.pipeline.collectors.target import TargetBrandCollector, TargetProductCatalog, TargetScraper, TargetParser
+from src.pipeline.collectors import CompositeBrandCollector, CompositeProductCatalog
 from src.pipeline.orchestrator import CategoryIntelligencePipeline
 from src.reporting.markdown_report import MarkdownReporter
 from src.storage.filesystem import FilesystemWriter
@@ -38,7 +40,11 @@ def main() -> None:
     api = ShopifyAPI()
     brand_collector = ShopifyBrandCollector(stores, api)
     product_catalog = ShopifyProductCatalog(stores, api)
-    pipeline = CategoryIntelligencePipeline(brand_collector, product_catalog, min_brands=10)
+    target_brand = TargetBrandCollector(TargetScraper(), TargetParser())
+    target_catalog = TargetProductCatalog(TargetScraper(), TargetParser())
+    composite_brand = CompositeBrandCollector([brand_collector, target_brand])
+    composite_catalog = CompositeProductCatalog([product_catalog, target_catalog])
+    pipeline = CategoryIntelligencePipeline(composite_brand, composite_catalog, min_brands=10)
 
     _LOGGER.info("Collecting live data for category '%s' across %d Shopify stores", args.category, len(stores))
     results = pipeline.run(args.category)
