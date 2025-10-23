@@ -97,7 +97,7 @@ class TargetParser:
     def _extract_title(self, lines: List[str]) -> str:
         for line in lines[1:6]:
             match = self.LINK_TEXT_RE.match(line.strip())
-            if match and 'target.com/p/' in line and 'scroll_to_review_section' not in line:
+            if match and not line.startswith('[!') and 'target.com/p/' in line and 'scroll_to_review_section' not in line:
                 return match.group(1)
         header_match = self.LINK_TEXT_RE.match(lines[0].strip())
         return header_match.group(1) if header_match else lines[0]
