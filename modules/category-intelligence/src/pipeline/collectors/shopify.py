@@ -110,6 +110,27 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
         haystack = title.lower() + ' ' + ' '.join(tags)
         return any(token in haystack for token in ("rail", "slat", "track system", "wall track"))
 
+    def _derive_segment(
+        self,
+        title: str,
+        tags: list[str],
+        product_type: str | None,
+        is_hook: bool,
+        is_rail: bool,
+    ) -> str:
+        title_lower = title.lower()
+        if is_rail:
+            return "Rail & Slat Systems"
+        if is_hook:
+            return "Hooks & Hangers"
+        if "basket" in title_lower or "basket" in tags:
+            return "Bins & Baskets"
+        if product_type:
+            return product_type.title()
+        if "rack" in title_lower:
+            return "Racks"
+        return "Accessories"
+
     @staticmethod
     def _extract_load_capacity(description: str) -> float | None:
         match = re.findall(r'(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)', description, flags=re.IGNORECASE)
@@ -149,15 +170,17 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
                 except (TypeError, ValueError):
                     price = None
                 sku = variant.get("sku") or str(variant.get("id")) if variant else product.get("id")
-                taxonomy = tuple(filter(None, [store.name, product_type])) or (store.name,)
                 description = (product.get("body_html") or "")
                 load_capacity = self._extract_load_capacity(description)
+                is_hook = self._classify_hook(title, tags)
+                is_rail = self._classify_rail(title, tags)
+                segment = self._derive_segment(title, tags, product_type, is_hook, is_rail)
                 attributes = {
                     "vendor": vendor,
                     "product_type": product_type,
                     "tags": tags,
-                    "is_hook_or_hanger": self._classify_hook(title, tags),
-                    "is_rail_or_slat_system": self._classify_rail(title, tags),
+                    "is_hook_or_hanger": is_hook,
+                    "is_rail_or_slat_system": is_rail,
                     "load_capacity_lbs": load_capacity,
                 }
                 yield ProductRecord(
@@ -167,6 +190,6 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
                     url=product_url,
                     price=price,
                     rating=None,
-                    taxonomy_path=taxonomy,
+                    taxonomy_path=(store.name, segment),
                     attributes=attributes,
                 )

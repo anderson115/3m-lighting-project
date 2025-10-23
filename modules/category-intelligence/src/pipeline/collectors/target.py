@@ -148,12 +148,26 @@ class TargetProductCatalog(ProductCatalogBuilder):
         self._scraper = scraper or TargetScraper()
         self._parser = parser or TargetParser()
 
+    @staticmethod
+    def _classify_hook(title: str) -> bool:
+        title_lower = title.lower()
+        return any(token in title_lower for token in ("hook", "hanger"))
+
+    @staticmethod
+    def _classify_rail(title: str) -> bool:
+        title_lower = title.lower()
+        return any(token in title_lower for token in ("rail", "track", "slat"))
+
     def collect(self, category: str) -> Iterable[ProductRecord]:  # pylint: disable=unused-argument
         for page in self._scraper.fetch_pages():
             for product in self._parser.parse(page):
+                is_hook = self._classify_hook(product.title)
+                is_rail = self._classify_rail(product.title)
                 attributes = {
                     "brand": product.brand,
                     "rating": product.rating,
+                    "is_hook_or_hanger": is_hook,
+                    "is_rail_or_slat_system": is_rail,
                 }
                 price_value = None
                 if product.price:
@@ -168,6 +182,6 @@ class TargetProductCatalog(ProductCatalogBuilder):
                     url=product.url,
                     price=price_value,
                     rating=None,
-                    taxonomy_path=("Target", "Hooks"),
+                    taxonomy_path=("Target", "Hooks & Hangers" if is_hook else "Rail & Slat Systems" if is_rail else "Accessories"),
                     attributes=attributes,
                 )
