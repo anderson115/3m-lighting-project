@@ -38,6 +38,8 @@ def main() -> None:
     parser.add_argument("--output", required=True, help="Output stem for markdown report")
     parser.add_argument("--data-dir", default="/Volumes/DATA/consulting/category-intelligence/garage_organizer_beta/data", help="Filesystem directory for JSON exports")
     parser.add_argument("--postgres-dsn", default=None, help="Optional Postgres DSN for persistence (e.g., postgresql://user:pass@host/db)")
+    parser.add_argument("--min-brands", type=int, default=15, help="Minimum number of brands required for a successful run")
+    parser.add_argument("--min-products", type=int, default=150, help="Minimum number of products required for a successful run")
     args = parser.parse_args()
 
     stores = _default_shopify_stores()
@@ -48,12 +50,17 @@ def main() -> None:
     target_catalog = TargetProductCatalog(TargetScraper(), TargetParser())
     composite_brand = CompositeBrandCollector([brand_collector, target_brand])
     composite_catalog = CompositeProductCatalog([product_catalog, target_catalog])
-    pipeline = CategoryIntelligencePipeline(composite_brand, composite_catalog, min_brands=10)
+    pipeline = CategoryIntelligencePipeline(composite_brand, composite_catalog, min_brands=args.min_brands)
 
-    _LOGGER.info("Collecting live data for category '%s' across %d Shopify stores", args.category, len(stores))
+    _LOGGER.info("Collecting live data for category '%s' across %d Shopify stores + Target", args.category, len(stores))
     results = pipeline.run(args.category)
     brands = list(results["brands"])
     products = list(results["products"])
+
+    if len(brands) < args.min_brands:
+        raise RuntimeError(f"Insufficient brands: {len(brands)} < {args.min_brands}")
+    if len(products) < args.min_products:
+        raise RuntimeError(f"Insufficient products: {len(products)} < {args.min_products}")
 
     # Persist structured data
     data_dir = Path(args.data_dir)
@@ -64,6 +71,10 @@ def main() -> None:
     summary = compute_summary(brands, products)
     summary_path = data_dir / f"{args.category.replace(' ', '_')}_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+    _LOGGER.info("Retailer coverage: %s", summary.get("retailer_counts"))
+    _LOGGER.info("Segment mix: %s", summary.get("segment_counts"))
+    load_info = summary.get("load_capacity", {})
+    _LOGGER.info("Products with load capacity: %s (max %s lbs)", load_info.get("with_capacity"), load_info.get("max_capacity"))
 
     if args.postgres_dsn:
         try:
