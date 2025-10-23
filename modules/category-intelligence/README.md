@@ -10,6 +10,7 @@ category-intelligence/
 ├── claude-category-intel.md   # Development blueprint (updated)
 ├── docs/                      # Architecture, data source guidance (moved from legacy files)
 ├── outputs/                   # Empty by default; report exports land here
+├── scripts/                   # Utility scripts (e.g., Apify task configuration)
 └── src/
     ├── pipeline/              # Brand + product orchestrators
     ├── reporting/             # Markdown/deck renderers
@@ -21,6 +22,7 @@ category-intelligence/
 - Aggregate top products per retailer with transparent ordering and citations.
 - Persist data to `/Volumes/DATA/…` Postgres + parquet caches.
 - Generate lightweight Markdown summaries (full HTML/PPTX deferred until Phase 2).
+- Configure Apify tasks programmatically via `python scripts/apify_config.py` (dry-run by default).
 
 ## Deferred (Phase 2)
 - Keyword opportunity engine (multi-source harvesting + novelty scoring).
