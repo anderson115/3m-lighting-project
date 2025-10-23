@@ -28,23 +28,38 @@ class TargetRequestConfig:
 class TargetScraper:
     """Retrieves markdown snapshots of Target search results via jina.ai."""
 
-    def __init__(self, config: TargetRequestConfig | None = None, session: requests.Session | None = None) -> None:
+    def __init__(
+        self,
+        config: TargetRequestConfig | None = None,
+        session: requests.Session | None = None,
+        max_retries: int = 3,
+        retry_delay: float = 1.0,
+    ) -> None:
         self._config = config or TargetRequestConfig()
         self._session = session or requests.Session()
+        self._max_retries = max_retries
+        self._retry_delay = retry_delay
 
     def fetch_pages(self) -> Iterable[str]:
         query = self._config.query.replace(" ", "+")
         for page in range(self._config.max_pages):
             offset = page * _PAGE_SIZE
             url = _TARGET_TEMPLATE.format(query=query, offset=offset)
-            try:
-                resp = self._session.get(url, timeout=30)
-                resp.raise_for_status()
-            except Exception as exc:  # pylint: disable=broad-except
-                _LOGGER.warning("Failed to fetch Target page %s: %s", url, exc)
-                break
-            yield resp.text
-            time.sleep(self._config.delay_seconds)
+            attempt = 0
+            while True:
+                try:
+                    resp = self._session.get(url, timeout=30)
+                    resp.raise_for_status()
+                    yield resp.text
+                    time.sleep(self._config.delay_seconds)
+                    break
+                except Exception as exc:  # pylint: disable=broad-except
+                    attempt += 1
+                    if attempt >= self._max_retries:
+                        _LOGGER.warning("Failed to fetch Target page %s after retries: %s", url, exc)
+                        return
+                    _LOGGER.warning("Retrying Target page %s (%s/%s) due to %s", url, attempt, self._max_retries, exc)
+                    time.sleep(self._retry_delay)
 
 
 @dataclass

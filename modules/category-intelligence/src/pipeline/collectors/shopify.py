@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from dataclasses import dataclass
 from typing import Iterable, List
 
@@ -30,22 +31,33 @@ class ShopifyStoreConfig:
 class ShopifyAPI:
     """Thin wrapper around Shopify collection/product JSON endpoints."""
 
-    def __init__(self, session: requests.Session | None = None) -> None:
+    def __init__(self, session: requests.Session | None = None, max_retries: int = 3, retry_delay: float = 1.0) -> None:
         self._session = session or requests.Session()
         self._session.headers.update({
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0 Safari/537.36",
             "Accept": "application/json",
             "Accept-Language": "en-US,en;q=0.9",
         })
+        self._max_retries = max_retries
+        self._retry_delay = retry_delay
 
     def fetch_products(self, endpoint: str) -> List[dict]:
-        resp = self._session.get(endpoint, timeout=30)
-        resp.raise_for_status()
-        payload = resp.json()
-        products = payload.get("products", [])
-        if not isinstance(products, list):
-            raise ValueError(f"Unexpected response structure from {endpoint}")
-        return products
+        attempt = 0
+        while True:
+            try:
+                resp = self._session.get(endpoint, timeout=30)
+                resp.raise_for_status()
+                payload = resp.json()
+                products = payload.get("products", [])
+                if not isinstance(products, list):
+                    raise ValueError(f"Unexpected response structure from {endpoint}")
+                return products
+            except Exception as exc:  # pylint: disable=broad-except
+                attempt += 1
+                if attempt >= self._max_retries:
+                    raise
+                _LOGGER.warning("Retrying Shopify fetch (%s/%s) for %s due to %s", attempt, self._max_retries, endpoint, exc)
+                time.sleep(self._retry_delay)
 
 
 class ShopifyBrandCollector(BrandCollector):
