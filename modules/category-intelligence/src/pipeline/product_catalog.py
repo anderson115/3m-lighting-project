@@ -11,7 +11,7 @@ class ProductRecord:
     price: float | None
     rating: float | None
     taxonomy_path: tuple[str, ...]
-    attributes: dict[str, str]
+    attributes: dict[str, object]
 
 class ProductCatalogBuilder:
     """Aggregates top-performing SKUs from retailer catalogs.

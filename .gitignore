@@ -45,6 +45,8 @@ ENV/
 **/keyframes/
 **/media/
 **/analysis/
+!modules/category-intelligence/src/analysis/
+!modules/category-intelligence/src/analysis/**
 
 # Archives (can be large)
 .archive/

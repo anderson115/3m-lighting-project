@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 from pathlib import Path
 
+from src.analysis.summary import compute_summary
 from src.pipeline.collectors.shopify import ShopifyAPI, ShopifyBrandCollector, ShopifyProductCatalog, ShopifyStoreConfig
 from src.pipeline.collectors.target import TargetBrandCollector, TargetProductCatalog, TargetScraper, TargetParser
 from src.pipeline.collectors import CompositeBrandCollector, CompositeProductCatalog
@@ -59,6 +61,10 @@ def main() -> None:
     writer.write_brands(args.category, brands)
     writer.write_products(args.category, products)
 
+    summary = compute_summary(brands, products)
+    summary_path = data_dir / f"{args.category.replace(' ', '_')}_summary.json"
+    summary_path.write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+
     if args.postgres_dsn:
         try:
             pg_writer = PostgresWriter(args.postgres_dsn)
@@ -74,7 +80,7 @@ def main() -> None:
     outputs_dir = Path('outputs')
     outputs_dir.mkdir(exist_ok=True)
     reporter = MarkdownReporter()
-    reporter.render(args.category, brands, products, outputs_dir / f"{args.output}.md")
+    reporter.render(args.category, brands, products, outputs_dir / f"{args.output}.md", summary=summary)
 
     _LOGGER.info("Collected %d brands and %d products", len(brands), len(products))
     _LOGGER.info("Markdown report written to %s", outputs_dir / f"{args.output}.md")
