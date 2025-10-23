@@ -12,18 +12,17 @@ from ..product_catalog import ProductCatalogBuilder, ProductRecord
 
 _LOGGER = logging.getLogger(__name__)
 
+
 @dataclass(frozen=True)
 class ShopifyStoreConfig:
     name: str
     base_url: str  # e.g. https://totalgarage.myshopify.com
     collection_path: str | None = None  # e.g. '/collections/hooks-hardware'
     tag_filter: str | None = None  # optional tag to filter products
+    include_only: tuple[str, ...] = ()  # keywords required in title/tags
 
     def products_endpoint(self) -> str:
-        if self.collection_path:
-            path = self.collection_path.rstrip('/') + '/products.json'
-        else:
-            path = '/products.json'
+        path = self.collection_path.rstrip('/') + '/products.json' if self.collection_path else '/products.json'
         return f"{self.base_url.rstrip('/')}{path}"
 
 
@@ -87,6 +86,29 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
         self._stores = stores
         self._api = api or ShopifyAPI()
 
+    @staticmethod
+    def _normalize_tags(raw: str | list[str] | None) -> list[str]:
+        if raw is None:
+            return []
+        if isinstance(raw, list):
+            return [t.strip().lower() for t in raw if t]
+        return [part.strip().lower() for part in raw.split(',') if part.strip()]
+
+    @staticmethod
+    def _contains_keywords(text: str, keywords: Iterable[str]) -> bool:
+        haystack = text.lower()
+        return any(keyword.lower() in haystack for keyword in keywords)
+
+    @staticmethod
+    def _classify_hook(title: str, tags: list[str]) -> bool:
+        haystack = title.lower() + ' ' + ' '.join(tags)
+        return any(token in haystack for token in ("hook", "hanger"))
+
+    @staticmethod
+    def _classify_rail(title: str, tags: list[str]) -> bool:
+        haystack = title.lower() + ' ' + ' '.join(tags)
+        return any(token in haystack for token in ("rail", "slat", "track system", "wall track"))
+
     def collect(self, category: str) -> Iterable[ProductRecord]:
         for store in self._stores:
             endpoint = store.products_endpoint()
@@ -97,28 +119,33 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
                 continue
 
             for product in products:
-                if store.tag_filter and store.tag_filter not in product.get("tags", ""):
-                    continue
+                tags = self._normalize_tags(product.get("tags"))
                 title = product.get("title", "").strip()
+                if store.tag_filter and store.tag_filter.lower() not in tags:
+                    continue
+                if store.include_only and not self._contains_keywords(title + ' ' + ' '.join(tags), store.include_only):
+                    continue
+
                 handle = product.get("handle", "")
                 product_url = f"{store.base_url.rstrip('/')}/products/{handle}" if handle else endpoint
                 vendor = product.get("vendor")
                 product_type = product.get("product_type")
-                tags = product.get("tags", "")
                 variants = product.get("variants") or []
                 variant = variants[0] if variants else {}
                 price_str = variant.get("price") or variant.get("compare_at_price")
                 try:
                     price = float(price_str) if price_str else None
-                except ValueError:
+                except (TypeError, ValueError):
                     price = None
                 sku = variant.get("sku") or str(variant.get("id")) if variant else product.get("id")
+                taxonomy = tuple(filter(None, [store.name, product_type])) or (store.name,)
                 attributes = {
                     "vendor": vendor,
                     "product_type": product_type,
                     "tags": tags,
+                    "is_hook_or_hanger": self._classify_hook(title, tags),
+                    "is_rail_or_slat_system": self._classify_rail(title, tags),
                 }
-                taxonomy = tuple(filter(None, [store.name, product_type]))
                 yield ProductRecord(
                     retailer=store.name,
                     sku=str(sku) if sku else "",

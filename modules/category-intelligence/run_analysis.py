@@ -20,6 +20,10 @@ def _default_shopify_stores() -> list[ShopifyStoreConfig]:
         ShopifyStoreConfig(name="Hello Garage Shop", base_url="https://hellogarageshop.myshopify.com"),
         ShopifyStoreConfig(name="HomeSmart", base_url="https://homesmart.myshopify.com", collection_path="/collections/hooks-hardware"),
         ShopifyStoreConfig(name="Garage Variety", base_url="https://xr1m6f-te.myshopify.com", collection_path="/collections/hooks"),
+        ShopifyStoreConfig(name="Moonlight Industries", base_url="https://moonlight-inds.myshopify.com"),
+        ShopifyStoreConfig(name="Garage Essentials", base_url="https://0cj1ie-gg.myshopify.com"),
+        ShopifyStoreConfig(name="Compact Storage", base_url="https://0jftst-ey.myshopify.com"),
+        ShopifyStoreConfig(name="Minimal Hooks", base_url="https://sg6wp1-zk.myshopify.com"),
     ]
 
 
