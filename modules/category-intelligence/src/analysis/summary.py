@@ -17,6 +17,7 @@ def compute_summary(brands: Iterable[BrandRecord], products: Iterable[ProductRec
     segment_counts = Counter()
     load_values = []
     retailer_prices: dict[str, list[float]] = defaultdict(list)
+    segment_prices: dict[str, list[float]] = defaultdict(list)
     vendor_counts = Counter()
 
     for product in product_list:
@@ -26,7 +27,9 @@ def compute_summary(brands: Iterable[BrandRecord], products: Iterable[ProductRec
         if isinstance(load_capacity, (int, float)):
             load_values.append(float(load_capacity))
         if product.price is not None:
-            retailer_prices[product.retailer].append(float(product.price))
+            price_value = float(product.price)
+            retailer_prices[product.retailer].append(price_value)
+            segment_prices[segment].append(price_value)
         vendor = product.attributes.get("vendor") or product.attributes.get("brand")
         if isinstance(vendor, str) and vendor.strip():
             vendor_counts[vendor.strip()] += 1
@@ -40,6 +43,15 @@ def compute_summary(brands: Iterable[BrandRecord], products: Iterable[ProductRec
         for retailer, values in retailer_prices.items()
     }
 
+    segment_price_stats = {
+        segment: {
+            "avg_price": round(mean(values), 2) if values else None,
+            "min_price": round(min(values), 2) if values else None,
+            "max_price": round(max(values), 2) if values else None,
+        }
+        for segment, values in segment_prices.items()
+    }
+
     summary: dict[str, Any] = {
         "total_brands": len(brand_list),
         "total_products": len(product_list),
@@ -47,6 +59,7 @@ def compute_summary(brands: Iterable[BrandRecord], products: Iterable[ProductRec
         "segment_counts": dict(sorted(segment_counts.items(), key=lambda x: (-x[1], x[0]))),
         "top_vendors": vendor_counts.most_common(10),
         "retailer_price_stats": retailer_price_stats,
+        "segment_price_stats": segment_price_stats,
         "load_capacity": {
             "with_capacity": len(load_values),
             "max_capacity": round(max(load_values), 2) if load_values else None,
@@ -54,4 +67,3 @@ def compute_summary(brands: Iterable[BrandRecord], products: Iterable[ProductRec
     }
 
     return summary
-
