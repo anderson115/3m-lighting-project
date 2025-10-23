@@ -30,5 +30,11 @@ class CompositeProductCatalog(ProductCatalogBuilder):
         self._catalogs = catalogs
 
     def collect(self, category: str) -> Iterable[ProductRecord]:
+        seen: set[tuple[str, str]] = set()
         for catalog in self._catalogs:
-            yield from catalog.collect(category)
+            for product in catalog.collect(category):
+                identifier = (product.retailer or "", product.url)
+                if identifier in seen:
+                    continue
+                seen.add(identifier)
+                yield product

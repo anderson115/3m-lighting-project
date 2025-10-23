@@ -11,6 +11,7 @@ from src.pipeline.collectors import CompositeBrandCollector, CompositeProductCat
 from src.pipeline.orchestrator import CategoryIntelligencePipeline
 from src.reporting.markdown_report import MarkdownReporter
 from src.storage.filesystem import FilesystemWriter
+from src.storage.postgres import PostgresWriter
 
 _LOGGER = logging.getLogger("category_intelligence")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
@@ -34,6 +35,7 @@ def main() -> None:
     parser.add_argument("--category", required=True, help="Category label (e.g. 'garage organization')")
     parser.add_argument("--output", required=True, help="Output stem for markdown report")
     parser.add_argument("--data-dir", default="/Volumes/DATA/consulting/category-intelligence/garage_organizer_beta/data", help="Filesystem directory for JSON exports")
+    parser.add_argument("--postgres-dsn", default=None, help="Optional Postgres DSN for persistence (e.g., postgresql://user:pass@host/db)")
     args = parser.parse_args()
 
     stores = _default_shopify_stores()
@@ -56,6 +58,17 @@ def main() -> None:
     writer = FilesystemWriter(data_dir)
     writer.write_brands(args.category, brands)
     writer.write_products(args.category, products)
+
+    if args.postgres_dsn:
+        try:
+            pg_writer = PostgresWriter(args.postgres_dsn)
+            pg_writer.write_brands(args.category, brands)
+            pg_writer.write_products(args.category, products)
+            _LOGGER.info("Persisted records to Postgres")
+        except RuntimeError as err:
+            _LOGGER.error("Postgres writer unavailable: %s", err)
+        except Exception as exc:  # pragma: no cover - unexpected DB error
+            _LOGGER.error("Failed to persist to Postgres: %s", exc)
 
     # Render markdown summary
     outputs_dir = Path('outputs')
