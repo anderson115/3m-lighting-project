@@ -14,6 +14,7 @@ from src.pipeline.orchestrator import CategoryIntelligencePipeline
 from src.reporting.markdown_report import MarkdownReporter
 from src.storage.filesystem import FilesystemWriter
 from src.storage.postgres import PostgresWriter
+from src.storage.duckdb_writer import DuckDBWriter
 
 _LOGGER = logging.getLogger("category_intelligence")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
@@ -38,6 +39,7 @@ def main() -> None:
     parser.add_argument("--output", required=True, help="Output stem for markdown report")
     parser.add_argument("--data-dir", default="/Volumes/DATA/consulting/category-intelligence/garage_organizer_beta/data", help="Filesystem directory for JSON exports")
     parser.add_argument("--postgres-dsn", default=None, help="Optional Postgres DSN for persistence (e.g., postgresql://user:pass@host/db)")
+    parser.add_argument("--duckdb-path", default="/Volumes/DATA/storage/duckdb/category_intel.duckdb", help="Optional DuckDB file path for persistence")
     parser.add_argument("--min-brands", type=int, default=15, help="Minimum number of brands required for a successful run")
     parser.add_argument("--min-products", type=int, default=150, help="Minimum number of products required for a successful run")
     args = parser.parse_args()
@@ -67,6 +69,18 @@ def main() -> None:
     writer = FilesystemWriter(data_dir)
     writer.write_brands(args.category, brands)
     writer.write_products(args.category, products)
+
+    duckdb_writer = None
+    if args.duckdb_path:
+        duckdb_path = Path(args.duckdb_path)
+        try:
+            duckdb_writer = DuckDBWriter(duckdb_path)
+            duckdb_writer.write_brands(args.category, brands)
+            duckdb_writer.write_products(args.category, products)
+            duckdb_writer.close()
+            _LOGGER.info("Persisted records to DuckDB at %s", duckdb_path)
+        except Exception as exc:  # pragma: no cover
+            _LOGGER.error("Failed to persist to DuckDB: %s", exc)
 
     summary = compute_summary(brands, products)
     summary_path = data_dir / f"{args.category.replace(' ', '_')}_summary.json"
