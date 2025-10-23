@@ -1,95 +1,34 @@
-#!/usr/bin/env python3
-"""
-Category Intelligence Test Runner
-Run category analysis with a test category
-"""
-
+"""Entry point for the streamlined Category Intelligence pipeline."""
 import argparse
-import logging
-import sys
 from pathlib import Path
+from src.pipeline.orchestrator import CategoryIntelligencePipeline
+from src.pipeline.brand_collector import BrandCollector
+from src.pipeline.product_catalog import ProductCatalogBuilder
+from src.reporting.markdown_report import MarkdownReporter
 
-# Add current directory to path for imports
-sys.path.insert(0, str(Path(__file__).parent))
+class NotImplementedCollector(BrandCollector, ProductCatalogBuilder):
+    def collect(self, category: str):
+        raise NotImplementedError("Collector implementation pending. Please provide live data sources before running the pipeline.")
 
-from core.orchestrator import CategoryIntelligenceOrchestrator
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-
-logger = logging.getLogger(__name__)
-
-
-def main():
-    parser = argparse.ArgumentParser(
-        description="Run Category Intelligence Analysis"
-    )
-    parser.add_argument(
-        "--category",
-        type=str,
-        required=True,
-        help="Category to analyze (e.g., 'Smart Home Lighting')"
-    )
-    parser.add_argument(
-        "--output",
-        type=str,
-        default=None,
-        help="Output file name (optional, defaults to category name)"
-    )
-
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Run Category Intelligence pipeline")
+    parser.add_argument("--category", required=True)
+    parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    logger.info("="*60)
-    logger.info("CATEGORY INTELLIGENCE ANALYSIS")
-    logger.info("="*60)
-    logger.info(f"Category: {args.category}")
-    logger.info(f"Output: {args.output or 'auto-generated'}")
-    logger.info("="*60)
-
-    # Initialize orchestrator
-    orchestrator = CategoryIntelligenceOrchestrator()
-
-    # Run analysis
+    collector = NotImplementedCollector()
+    pipeline = CategoryIntelligencePipeline(collector, collector)
     try:
-        results = orchestrator.analyze_category(
-            category_name=args.category,
-            output_name=args.output
-        )
+        results = pipeline.run(args.category)
+    except RuntimeError as err:
+        raise SystemExit(str(err))
+    except NotImplementedError as err:
+        raise SystemExit(f"Pipeline not yet configured: {err}")
 
-        logger.info("="*60)
-        logger.info("ANALYSIS COMPLETE")
-        logger.info("="*60)
-        logger.info(f"Status: {results['status']}")
-
-        if results["status"] == "completed":
-            logger.info(f"HTML Report: {results.get('html_path')}")
-            logger.info(f"Audit Trail: {results.get('audit_path')}")
-            logger.info(f"Citations: {results.get('citations_path')}")
-            logger.info(f"Total Sources: {len(orchestrator.source_tracker)}")
-
-            # Show validation summary
-            validation = results.get("source_validation", {})
-            logger.info("\nSource Validation:")
-            logger.info(f"  Total Sources: {validation.get('total_sources', 0)}")
-            logger.info(f"  High Confidence: {validation.get('by_confidence', {}).get('high', 0)}")
-            logger.info(f"  Medium Confidence: {validation.get('by_confidence', {}).get('medium', 0)}")
-            logger.info(f"  Low Confidence: {validation.get('by_confidence', {}).get('low', 0)}")
-
-            logger.info("\n✅ Analysis complete! Check outputs directory for results.")
-
-        else:
-            logger.error(f"Analysis failed: {results.get('error')}")
-            return 1
-
-    except Exception as e:
-        logger.error(f"Fatal error during analysis: {e}", exc_info=True)
-        return 1
-
-    return 0
-
+    reporter = MarkdownReporter()
+    output_dir = Path('outputs')
+    output_dir.mkdir(exist_ok=True)
+    reporter.render(args.category, results["brands"], results["products"], output_dir / f"{args.output}.md")
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()

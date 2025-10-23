@@ -12,7 +12,7 @@
 | Output | Description | Format | Storage |
 | --- | --- | --- | --- |
 | Category Intelligence Report | Consulting-style narrative with data tables, charts, and citations; supports conversion to PowerPoint/GSlides | Markdown (`reports/{category}/{timestamp}.md`) | Versioned + archived in Postgres (see §8) |
-| Keyword Opportunity Addendum | "Hidden keyword gems" surfaced with context, CPC gap, and validation | Markdown section + CSV | Same as above |
+| Keyword Opportunity Addendum | deferred to Phase 2 once core product intelligence is live | Markdown section + CSV | Same as above |
 | Product Intelligence Workbook | Up to 400 best-selling SKUs per retailer with enriched attributes | Excel (`workbooks/{category}_{date}.xlsx`) + Parquet snapshot | Stored & indexed in Postgres + file cache |
 | Source Audit | Complete list of URLs, retrieval timestamps, extraction confidence | JSON + SQL tables | Postgres (`/Volumes/DATA/storage/postgresql`) |
 
@@ -87,7 +87,7 @@ All stages write structured outputs (JSON/Parquet) plus audit metadata into Post
 | Reviewer QA | Analyst reviews evidence before release | Mandatory approval; rejects slop |
 | Output Writer | Append to Markdown + CSV; push to Postgres | Fails if <10 validated terms |
 
-Outputs feed both the narrative (dedicated section) and structured files for downstream teams.
+Deferred: keyword opportunity outputs will be added in Phase 2; current scope focuses on product & brand data.
 
 ---
 
