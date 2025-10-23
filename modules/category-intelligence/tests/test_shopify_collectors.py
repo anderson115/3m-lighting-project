@@ -73,5 +73,7 @@ def test_shopify_product_catalog_emits_product_records():
     assert first.attributes["vendor"] == "GaragePro"
     assert first.attributes["is_hook_or_hanger"] is True
     assert first.attributes["is_rail_or_slat_system"] is False
+    assert first.attributes["load_capacity_lbs"] is None
     assert second.attributes["is_rail_or_slat_system"] is True
+    assert second.attributes["load_capacity_lbs"] is None
     assert first.url.endswith("heavy-duty-garage-hook")

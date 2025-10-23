@@ -30,4 +30,4 @@ def test_target_parser_extracts_products():
     assert first.title == 'Sample Product'
     assert first.price == '$9.99'
     assert first.brand == 'Sample Brand'
-    assert '4.5 out of 5 stars' in (first.rating or '')
+    assert first.rating.startswith('[4.5 out of 5 stars')

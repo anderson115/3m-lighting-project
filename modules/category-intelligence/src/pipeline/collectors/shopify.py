@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import logging
+import re
 from dataclasses import dataclass
 from typing import Iterable, List
 
@@ -109,6 +110,16 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
         haystack = title.lower() + ' ' + ' '.join(tags)
         return any(token in haystack for token in ("rail", "slat", "track system", "wall track"))
 
+    @staticmethod
+    def _extract_load_capacity(description: str) -> float | None:
+        match = re.findall(r'(\d+(?:\.\d+)?)\s*(?:lb|lbs|pound|pounds)', description, flags=re.IGNORECASE)
+        if not match:
+            return None
+        try:
+            return max(float(value) for value in match)
+        except ValueError:
+            return None
+
     def collect(self, category: str) -> Iterable[ProductRecord]:
         for store in self._stores:
             endpoint = store.products_endpoint()
@@ -139,12 +150,15 @@ class ShopifyProductCatalog(ProductCatalogBuilder):
                     price = None
                 sku = variant.get("sku") or str(variant.get("id")) if variant else product.get("id")
                 taxonomy = tuple(filter(None, [store.name, product_type])) or (store.name,)
+                description = (product.get("body_html") or "")
+                load_capacity = self._extract_load_capacity(description)
                 attributes = {
                     "vendor": vendor,
                     "product_type": product_type,
                     "tags": tags,
                     "is_hook_or_hanger": self._classify_hook(title, tags),
                     "is_rail_or_slat_system": self._classify_rail(title, tags),
+                    "load_capacity_lbs": load_capacity,
                 }
                 yield ProductRecord(
                     retailer=store.name,
