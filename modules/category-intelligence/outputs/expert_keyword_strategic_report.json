@@ -1,0 +1,444 @@
+{
+  "report_type": "expert_keyword_strategic_analysis",
+  "quality_tier": "top_2_percent",
+  "analyses": {
+    "language_gap": {
+      "high_opportunity_keywords": [
+        {
+          "keyword": "garage organization",
+          "consumer_freq": 111,
+          "retailer_freq": 207,
+          "preference_score": 151.93236714975848
+        },
+        {
+          "keyword": "of the",
+          "consumer_freq": 333,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "https www",
+          "consumer_freq": 321,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "in the",
+          "consumer_freq": 296,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "on the",
+          "consumer_freq": 266,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "french cleat",
+          "consumer_freq": 244,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "if you",
+          "consumer_freq": 243,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "to the",
+          "consumer_freq": 238,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "you can",
+          "consumer_freq": 232,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "the garage",
+          "consumer_freq": 200,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "my garage",
+          "consumer_freq": 162,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "with a",
+          "consumer_freq": 158,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "for the",
+          "consumer_freq": 149,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "the wall",
+          "consumer_freq": 148,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "have a",
+          "consumer_freq": 145,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "i have",
+          "consumer_freq": 134,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "in my",
+          "consumer_freq": 129,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "french cleats",
+          "consumer_freq": 120,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "https amzn",
+          "consumer_freq": 120,
+          "retailer_freq": 0,
+          "preference_score": 100
+        },
+        {
+          "keyword": "amzn to",
+          "consumer_freq": 120,
+          "retailer_freq": 0,
+          "preference_score": 100
+        }
+      ],
+      "oversaturated_keywords": [
+        {
+          "keyword": "heavy duty",
+          "consumer_freq": 0,
+          "retailer_freq": 3560,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "hooks for",
+          "consumer_freq": 0,
+          "retailer_freq": 2599,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "wall mount",
+          "consumer_freq": 0,
+          "retailer_freq": 1414,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "for garage",
+          "consumer_freq": 0,
+          "retailer_freq": 1262,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "w x",
+          "consumer_freq": 0,
+          "retailer_freq": 1224,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "wall mounted",
+          "consumer_freq": 0,
+          "retailer_freq": 1156,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "for hanging",
+          "consumer_freq": 0,
+          "retailer_freq": 1033,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "in w",
+          "consumer_freq": 0,
+          "retailer_freq": 1012,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "in h",
+          "consumer_freq": 0,
+          "retailer_freq": 900,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "stainless steel",
+          "consumer_freq": 0,
+          "retailer_freq": 852,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "pegboard hooks",
+          "consumer_freq": 0,
+          "retailer_freq": 819,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "in d",
+          "consumer_freq": 0,
+          "retailer_freq": 797,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "utility hooks",
+          "consumer_freq": 0,
+          "retailer_freq": 763,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "wall hooks",
+          "consumer_freq": 0,
+          "retailer_freq": 751,
+          "preference_score": 0.0
+        },
+        {
+          "keyword": "hook for",
+          "consumer_freq": 0,
+          "retailer_freq": 662,
+          "preference_score": 0.0
+        }
+      ]
+    },
+    "jobs_to_be_done": {
+      "functional_jobs": [
+        [
+          "garage storage",
+          128
+        ],
+        [
+          "garage organization",
+          111
+        ],
+        [
+          "to hang",
+          64
+        ]
+      ],
+      "emotional_jobs": [
+        [
+          "garage makeover",
+          112
+        ]
+      ],
+      "social_jobs": [
+        [
+          "diy garage",
+          62
+        ]
+      ]
+    },
+    "subcategory_ecosystems": {
+      "Wall Storage Systems": {
+        "keywords": [
+          "slatwall",
+          "pegboard",
+          "french cleat",
+          "wall mount",
+          "wall storage",
+          "grid wall"
+        ],
+        "consumer_volume": 354,
+        "retailer_volume": 3485
+      },
+      "Hooks & Hangers": {
+        "keywords": [
+          "hooks",
+          "heavy duty",
+          "utility hook",
+          "bike hook",
+          "ladder hook",
+          "hanger"
+        ],
+        "consumer_volume": 431,
+        "retailer_volume": 10861
+      },
+      "Shelving": {
+        "keywords": [
+          "shelf",
+          "shelving",
+          "shelves",
+          "rack",
+          "storage rack",
+          "wire shelf"
+        ],
+        "consumer_volume": 388,
+        "retailer_volume": 5651
+      },
+      "Cabinets": {
+        "keywords": [
+          "cabinet",
+          "garage cabinet",
+          "storage cabinet",
+          "locker",
+          "tool cabinet"
+        ],
+        "consumer_volume": 0,
+        "retailer_volume": 1527
+      },
+      "Workbenches": {
+        "keywords": [
+          "workbench",
+          "work bench",
+          "work table",
+          "tool storage",
+          "work surface"
+        ],
+        "consumer_volume": 0,
+        "retailer_volume": 644
+      },
+      "Overhead Storage": {
+        "keywords": [
+          "overhead",
+          "ceiling",
+          "ceiling storage",
+          "overhead rack",
+          "ceiling rack"
+        ],
+        "consumer_volume": 132,
+        "retailer_volume": 290
+      },
+      "Bins & Containers": {
+        "keywords": [
+          "bin",
+          "container",
+          "tote",
+          "storage bin",
+          "stackable"
+        ],
+        "consumer_volume": 0,
+        "retailer_volume": 296
+      }
+    },
+    "emerging_trends": [
+      {
+        "keyword": "of the",
+        "frequency": 333
+      },
+      {
+        "keyword": "https www",
+        "frequency": 321
+      },
+      {
+        "keyword": "in the",
+        "frequency": 296
+      },
+      {
+        "keyword": "on the",
+        "frequency": 266
+      },
+      {
+        "keyword": "french cleat",
+        "frequency": 244
+      },
+      {
+        "keyword": "if you",
+        "frequency": 243
+      },
+      {
+        "keyword": "to the",
+        "frequency": 238
+      },
+      {
+        "keyword": "you can",
+        "frequency": 232
+      },
+      {
+        "keyword": "the garage",
+        "frequency": 200
+      },
+      {
+        "keyword": "my garage",
+        "frequency": 162
+      },
+      {
+        "keyword": "with a",
+        "frequency": 158
+      },
+      {
+        "keyword": "for the",
+        "frequency": 149
+      },
+      {
+        "keyword": "the wall",
+        "frequency": 148
+      },
+      {
+        "keyword": "have a",
+        "frequency": 145
+      },
+      {
+        "keyword": "i have",
+        "frequency": 134
+      },
+      {
+        "keyword": "in my",
+        "frequency": 129
+      },
+      {
+        "keyword": "french cleats",
+        "frequency": 120
+      },
+      {
+        "keyword": "https amzn",
+        "frequency": 120
+      },
+      {
+        "keyword": "amzn to",
+        "frequency": 120
+      },
+      {
+        "keyword": "your garage",
+        "frequency": 114
+      },
+      {
+        "keyword": "garage makeover",
+        "frequency": 112
+      },
+      {
+        "keyword": "a french",
+        "frequency": 108
+      },
+      {
+        "keyword": "it s",
+        "frequency": 103
+      },
+      {
+        "keyword": "with the",
+        "frequency": 99
+      },
+      {
+        "keyword": "i can",
+        "frequency": 98
+      }
+    ],
+    "brand_competitive_intelligence": {
+      "brand_mentions": [],
+      "retailer_mentions": []
+    }
+  },
+  "data_quality": {
+    "retailer_products": 12929,
+    "consumer_sources": 1300,
+    "retailer_keywords_analyzed": 187578,
+    "consumer_keywords_analyzed": 65999
+  }
+}

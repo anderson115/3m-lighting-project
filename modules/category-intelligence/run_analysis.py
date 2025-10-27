@@ -7,6 +7,10 @@ import logging
 from pathlib import Path
 
 from src.analysis.summary import compute_summary
+from src.analysis.keyword_language import (
+    compute_keyword_language_summary,
+    write_keyword_language_summary,
+)
 from src.pipeline.collectors.shopify import ShopifyAPI, ShopifyBrandCollector, ShopifyProductCatalog, ShopifyStoreConfig
 from src.pipeline.collectors.target import TargetBrandCollector, TargetProductCatalog, TargetScraper, TargetParser
 from src.pipeline.collectors import CompositeBrandCollector, CompositeProductCatalog
@@ -42,6 +46,18 @@ def main() -> None:
     parser.add_argument("--duckdb-path", default="/Volumes/DATA/storage/duckdb/category_intel.duckdb", help="Optional DuckDB file path for persistence")
     parser.add_argument("--min-brands", type=int, default=15, help="Minimum number of brands required for a successful run")
     parser.add_argument("--min-products", type=int, default=150, help="Minimum number of products required for a successful run")
+    parser.add_argument(
+        "--ad-snapshots",
+        nargs="*",
+        default=[],
+        help="Optional Bright Data ad snapshot JSON files for keyword analysis",
+    )
+    parser.add_argument(
+        "--community-snapshots",
+        nargs="*",
+        default=[],
+        help="Optional community language JSON files (e.g., Reddit) for keyword analysis",
+    )
     args = parser.parse_args()
 
     stores = _default_shopify_stores()
@@ -109,6 +125,22 @@ def main() -> None:
 
     _LOGGER.info("Collected %d brands and %d products", len(brands), len(products))
     _LOGGER.info("Markdown report written to %s", outputs_dir / f"{args.output}.md")
+
+    if args.ad_snapshots and args.community_snapshots:
+        ad_paths = [Path(p) for p in args.ad_snapshots]
+        community_paths = [Path(p) for p in args.community_snapshots]
+        keyword_summary = compute_keyword_language_summary(ad_paths, community_paths)
+        keyword_output = outputs_dir / f"{args.output}_keyword_language.json"
+        keyword_payload = write_keyword_language_summary(keyword_summary, keyword_output)
+        keyword_store_path = writer.write_keyword_summary(
+            args.category,
+            keyword_payload,
+        )
+        _LOGGER.info(
+            "Keyword & language summary written to %s and %s",
+            keyword_output,
+            keyword_store_path,
+        )
 
 
 if __name__ == "__main__":

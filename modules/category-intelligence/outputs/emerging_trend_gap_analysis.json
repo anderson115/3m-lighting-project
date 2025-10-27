@@ -1,0 +1,246 @@
+{
+  "analysis_type": "emerging_trend_gaps",
+  "methodology": "Google Trends rising queries vs retailer product availability",
+  "total_queries_analyzed": 21,
+  "total_retailer_products": 12929,
+  "tier1_opportunities": [],
+  "tier2_opportunities": [],
+  "all_gaps": [
+    {
+      "query": "french cleat picture hanger",
+      "trend_value": 80,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Primary: french cleat",
+      "category": "primary",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "slatwall systems",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 23,
+      "gap_score": 0.0,
+      "source": "Primary: slatwall",
+      "category": "primary",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "naturewall slatwall",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Primary: slatwall",
+      "category": "primary",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage makeover company",
+      "trend_value": 70,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Primary: garage makeover",
+      "category": "primary",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage makeover ideas on a budget",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Primary: garage makeover",
+      "category": "primary",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "double garage organization",
+      "trend_value": 170,
+      "trend_score": 0,
+      "product_count": 12,
+      "gap_score": 0.0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "richelieu garage organization system",
+      "trend_value": 150,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization installation",
+      "trend_value": 120,
+      "trend_score": 0,
+      "product_count": 9,
+      "gap_score": 0.0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization products",
+      "trend_value": 90,
+      "trend_score": 0,
+      "product_count": 3,
+      "gap_score": 0.0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization near me",
+      "trend_value": 80,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization company",
+      "trend_value": 80,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "best garage organization systems",
+      "trend_value": 70,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization tampa",
+      "trend_value": 60,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage organization companies",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage organization",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "lifetime 60226 home & garage storage locker",
+      "trend_value": 250,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage storage",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "custom garage storage",
+      "trend_value": 70,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage storage",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage storage solutions",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 21,
+      "gap_score": 0.0,
+      "source": "Discovery: garage storage",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "best garage storage",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 15,
+      "gap_score": 0.0,
+      "source": "Discovery: garage storage",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "best garage storage systems",
+      "trend_value": 40,
+      "trend_score": 0,
+      "product_count": 0,
+      "gap_score": 0,
+      "source": "Discovery: garage storage",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "garage hooks and hangers",
+      "trend_value": 130,
+      "trend_score": 0,
+      "product_count": 116,
+      "gap_score": 0.0,
+      "source": "Discovery: garage hooks",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    },
+    {
+      "query": "metal shelving for garage",
+      "trend_value": 50,
+      "trend_score": 0,
+      "product_count": 103,
+      "gap_score": 0.0,
+      "source": "Discovery: garage shelving",
+      "category": "discovery",
+      "opportunity_type": "LOW"
+    }
+  ],
+  "category_insights": {
+    "Installation Services": {
+      "total_queries": 1,
+      "avg_gap_score": 0.0
+    },
+    "Double/Two-Car Garage": {
+      "total_queries": 1,
+      "avg_gap_score": 0.0
+    },
+    "Brand-Specific": {
+      "total_queries": 2,
+      "avg_gap_score": 0.0
+    },
+    "Custom/Premium": {
+      "total_queries": 1,
+      "avg_gap_score": 0.0
+    },
+    "Local Services": {
+      "total_queries": 2,
+      "avg_gap_score": 0.0
+    },
+    "Budget Solutions": {
+      "total_queries": 0,
+      "avg_gap_score": 0.0
+    }
+  }
+}

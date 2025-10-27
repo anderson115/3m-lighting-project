@@ -1,0 +1,468 @@
+[
+  {
+    "asin": "B0D8VTC9JS",
+    "calculated_at": "2025-10-25T20:30:14.380712",
+    "bsr": 15480,
+    "bsr_tracked_at": "2025-10-25T20:30:14.367751",
+    "estimated_sales_bsr": 84,
+    "bsr_confidence": "low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 42,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0FKMXKW1L",
+    "calculated_at": "2025-10-25T20:30:18.232682",
+    "bsr": 94972,
+    "bsr_tracked_at": "2025-10-25T20:30:18.220507",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 25,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0DG331T49",
+    "calculated_at": "2025-10-25T20:30:22.154164",
+    "bsr": 14559,
+    "bsr_tracked_at": "2025-10-25T20:30:22.141762",
+    "estimated_sales_bsr": 85,
+    "bsr_confidence": "low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 42,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0FS19RCG5",
+    "calculated_at": "2025-10-25T20:30:26.144888",
+    "bsr": 69358,
+    "bsr_tracked_at": "2025-10-25T20:30:26.132672",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 25,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0DJ6YG9K7",
+    "calculated_at": "2025-10-25T20:30:30.128846",
+    "bsr": 228,
+    "bsr_tracked_at": "2025-10-25T20:30:30.115552",
+    "estimated_sales_bsr": 2044,
+    "bsr_confidence": "high",
+    "reviews_per_day": 82.77,
+    "estimated_sales_velocity": 124149,
+    "estimated_sales_combined": 63096,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0FB3SNCMQ",
+    "calculated_at": "2025-10-25T20:30:34.318077",
+    "bsr": 40758,
+    "bsr_tracked_at": "2025-10-25T20:30:34.301953",
+    "estimated_sales_bsr": 59,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 59,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0BW13XTMD",
+    "calculated_at": "2025-10-25T20:30:38.289406",
+    "bsr": 212673,
+    "bsr_tracked_at": "2025-10-25T20:30:38.276659",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FRXP2TQW",
+    "calculated_at": "2025-10-25T20:30:42.200222",
+    "bsr": 141216,
+    "bsr_tracked_at": "2025-10-25T20:30:42.188118",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0F9V47WM1",
+    "calculated_at": "2025-10-25T20:30:46.354795",
+    "bsr": 113664,
+    "bsr_tracked_at": "2025-10-25T20:30:46.340770",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B085LQ5N1T",
+    "calculated_at": "2025-10-25T20:30:50.416950",
+    "bsr": 27665,
+    "bsr_tracked_at": "2025-10-25T20:30:50.403896",
+    "estimated_sales_bsr": 72,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 72,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0DSFNFGMN",
+    "calculated_at": "2025-10-25T20:30:54.239886",
+    "bsr": 172118,
+    "bsr_tracked_at": "2025-10-25T20:30:54.226304",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0D5M839JN",
+    "calculated_at": "2025-10-25T20:30:58.304609",
+    "bsr": 31054,
+    "bsr_tracked_at": "2025-10-25T20:30:58.294135",
+    "estimated_sales_bsr": 68,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 68,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CX8W7WBP",
+    "calculated_at": "2025-10-25T20:31:02.394744",
+    "bsr": 7564,
+    "bsr_tracked_at": "2025-10-25T20:31:02.381970",
+    "estimated_sales_bsr": 365,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 365,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CVTRL6M8",
+    "calculated_at": "2025-10-25T20:31:06.289766",
+    "bsr": 87181,
+    "bsr_tracked_at": "2025-10-25T20:31:06.277175",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0D22RG98X",
+    "calculated_at": "2025-10-25T20:31:10.320798",
+    "bsr": 27637,
+    "bsr_tracked_at": "2025-10-25T20:31:10.307527",
+    "estimated_sales_bsr": 72,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 72,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B082XQ6SQL",
+    "calculated_at": "2025-10-25T20:31:14.370515",
+    "bsr": 274337,
+    "bsr_tracked_at": "2025-10-25T20:31:14.358346",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0DRK7XBDD",
+    "calculated_at": "2025-10-25T20:31:18.238954",
+    "bsr": 250101,
+    "bsr_tracked_at": "2025-10-25T20:31:18.227437",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CLFY57C8",
+    "calculated_at": "2025-10-25T20:31:22.348984",
+    "bsr": 81319,
+    "bsr_tracked_at": "2025-10-25T20:31:22.334676",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0B16PF4G6",
+    "calculated_at": "2025-10-25T20:31:26.232427",
+    "bsr": 32871,
+    "bsr_tracked_at": "2025-10-25T20:31:26.219818",
+    "estimated_sales_bsr": 67,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 67,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FSZ551LK",
+    "calculated_at": "2025-10-25T20:31:30.009128",
+    "bsr": 64128,
+    "bsr_tracked_at": "2025-10-25T20:31:29.996134",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B091XWMXSV",
+    "calculated_at": "2025-10-25T20:31:33.888767",
+    "bsr": 8783,
+    "bsr_tracked_at": "2025-10-25T20:31:33.875833",
+    "estimated_sales_bsr": 182,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 182,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0DCG7Z5QF",
+    "calculated_at": "2025-10-25T20:31:37.821248",
+    "bsr": 102754,
+    "bsr_tracked_at": "2025-10-25T20:31:37.808076",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0D46WYXBH",
+    "calculated_at": "2025-10-25T20:31:41.949036",
+    "bsr": 22509,
+    "bsr_tracked_at": "2025-10-25T20:31:41.935442",
+    "estimated_sales_bsr": 77,
+    "bsr_confidence": "low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 38,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0B8746JP4",
+    "calculated_at": "2025-10-25T20:31:45.988385",
+    "bsr": 4624,
+    "bsr_tracked_at": "2025-10-25T20:31:45.975779",
+    "estimated_sales_bsr": 806,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 806,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CN92X66S",
+    "calculated_at": "2025-10-25T20:31:49.888528",
+    "bsr": 128203,
+    "bsr_tracked_at": "2025-10-25T20:31:49.875602",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0BQBQ5X57",
+    "calculated_at": "2025-10-25T20:31:53.721110",
+    "bsr": 92889,
+    "bsr_tracked_at": "2025-10-25T20:31:53.708245",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0948RBKSP",
+    "calculated_at": "2025-10-25T20:31:57.875700",
+    "bsr": 165535,
+    "bsr_tracked_at": "2025-10-25T20:31:57.861583",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0DQSNBY94",
+    "calculated_at": "2025-10-25T20:32:01.843332",
+    "bsr": 102895,
+    "bsr_tracked_at": "2025-10-25T20:32:01.831011",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B09CCQY551",
+    "calculated_at": "2025-10-25T20:32:05.701092",
+    "bsr": 25691,
+    "bsr_tracked_at": "2025-10-25T20:32:05.688324",
+    "estimated_sales_bsr": 74,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 74,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FBRRWPB7",
+    "calculated_at": "2025-10-25T20:32:09.593401",
+    "bsr": 7458,
+    "bsr_tracked_at": "2025-10-25T20:32:09.581132",
+    "estimated_sales_bsr": 381,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 381,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B09YMGQG7H",
+    "calculated_at": "2025-10-25T20:32:13.464160",
+    "bsr": 65446,
+    "bsr_tracked_at": "2025-10-25T20:32:13.451746",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CX8W7WBP",
+    "calculated_at": "2025-10-25T20:32:17.300194",
+    "bsr": 7564,
+    "bsr_tracked_at": "2025-10-25T20:32:17.287216",
+    "estimated_sales_bsr": 365,
+    "bsr_confidence": "medium",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 182,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B09B3F1FMX",
+    "calculated_at": "2025-10-25T20:32:21.176450",
+    "bsr": 214559,
+    "bsr_tracked_at": "2025-10-25T20:32:21.163470",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FPX4JWFP",
+    "calculated_at": "2025-10-25T20:32:25.141761",
+    "bsr": 7083,
+    "bsr_tracked_at": "2025-10-25T20:32:25.127939",
+    "estimated_sales_bsr": 437,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 437,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FLP4H45F",
+    "calculated_at": "2025-10-25T20:32:29.213578",
+    "bsr": 114133,
+    "bsr_tracked_at": "2025-10-25T20:32:29.200042",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "reviews_per_day": 0,
+    "estimated_sales_velocity": 0,
+    "estimated_sales_combined": 25,
+    "estimation_method": "combined"
+  },
+  {
+    "asin": "B0FK5DMX2D",
+    "calculated_at": "2025-10-25T20:32:33.135988",
+    "bsr": 6861,
+    "bsr_tracked_at": "2025-10-25T20:32:33.123097",
+    "estimated_sales_bsr": 470,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 470,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CFDVHNYZ",
+    "calculated_at": "2025-10-25T20:32:36.972447",
+    "bsr": 15326,
+    "bsr_tracked_at": "2025-10-25T20:32:36.959401",
+    "estimated_sales_bsr": 84,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 84,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B087MG35SC",
+    "calculated_at": "2025-10-25T20:32:41.292979",
+    "bsr": 744,
+    "bsr_tracked_at": "2025-10-25T20:32:41.280008",
+    "estimated_sales_bsr": 1012,
+    "bsr_confidence": "high",
+    "estimated_sales_combined": 1012,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CT36XND2",
+    "calculated_at": "2025-10-25T20:32:45.276827",
+    "bsr": 19975,
+    "bsr_tracked_at": "2025-10-25T20:32:45.263433",
+    "estimated_sales_bsr": 80,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 80,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0F9JZ5LRL",
+    "calculated_at": "2025-10-25T20:32:49.289134",
+    "bsr": 80241,
+    "bsr_tracked_at": "2025-10-25T20:32:49.275039",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0FLP8XS3B",
+    "calculated_at": "2025-10-25T20:32:53.126362",
+    "bsr": 35053,
+    "bsr_tracked_at": "2025-10-25T20:32:53.112940",
+    "estimated_sales_bsr": 64,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 64,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0B3SYQMFG",
+    "calculated_at": "2025-10-25T20:32:57.371955",
+    "bsr": 23324,
+    "bsr_tracked_at": "2025-10-25T20:32:57.359157",
+    "estimated_sales_bsr": 76,
+    "bsr_confidence": "low",
+    "estimated_sales_combined": 76,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0C4Q8XXGN",
+    "calculated_at": "2025-10-25T20:33:01.454384",
+    "bsr": 1833,
+    "bsr_tracked_at": "2025-10-25T20:33:01.441787",
+    "estimated_sales_bsr": 1225,
+    "bsr_confidence": "medium",
+    "estimated_sales_combined": 1225,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0CL4MBVM7",
+    "calculated_at": "2025-10-25T20:33:05.256744",
+    "bsr": 191994,
+    "bsr_tracked_at": "2025-10-25T20:33:05.244499",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  },
+  {
+    "asin": "B0BKSPWK5J",
+    "calculated_at": "2025-10-25T20:33:09.219126",
+    "bsr": 93580,
+    "bsr_tracked_at": "2025-10-25T20:33:09.206687",
+    "estimated_sales_bsr": 50,
+    "bsr_confidence": "very_low",
+    "estimated_sales_combined": 50,
+    "estimation_method": "bsr_only"
+  }
+]

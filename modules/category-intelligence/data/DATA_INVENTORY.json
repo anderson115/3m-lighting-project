@@ -1,0 +1,71 @@
+{
+  "last_updated": "2025-10-26",
+  "data_sources": {
+    "retailers": {
+      "amazon": {
+        "products": 514,
+        "file": "amazon_garage_organizers_mined.json"
+      },
+      "walmart": {
+        "products": 8218,
+        "file": "walmart_garage_organizers_mined.json"
+      },
+      "homedepot": {
+        "products": 1022,
+        "file": "homedepot_garage_organizers_mined.json"
+      },
+      "target": {
+        "products": 430,
+        "file": "target_products.json"
+      },
+      "etsy": {
+        "products": 104,
+        "file": "etsy_listings.json"
+      }
+    },
+    "video_content": {
+      "teardown_videos": {
+        "count": 221,
+        "location": "data/teardown_transcripts/"
+      },
+      "youtube_consumer": {
+        "count": 119,
+        "location": "data/youtube_transcripts/"
+      },
+      "tiktok_consumer": {
+        "count": 231,
+        "location": "data/tiktok_transcripts/"
+      }
+    }
+  },
+  "analysis_outputs": {
+    "teardown": [
+      "all_teardown_reports.json",
+      "top20_bestsellers_for_teardown.json",
+      "teardown_videos_search_results.json",
+      "curated_teardown_videos.json",
+      "additional_teardown_videos.json"
+    ],
+    "keyword": [
+      "garage_keyword_language.json",
+      "comprehensive_keyword_analysis_full.json",
+      "expert_keyword_strategic_report.json"
+    ],
+    "bsr": [
+      "bsr_estimates_remaining.json",
+      "bsr_complete_analysis.json"
+    ],
+    "trends": [
+      "emerging_trend_gap_analysis.json"
+    ],
+    "reviews": [
+      "benefit_taxonomy_analysis.json"
+    ]
+  },
+  "statistics": {
+    "total_transcripts": 571,
+    "teardown_videos": 221,
+    "youtube_consumer_videos": 119,
+    "tiktok_consumer_videos": 231
+  }
+}

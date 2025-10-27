@@ -1,0 +1,45 @@
+# Data files (too large for git)
+data/
+*.db
+*.json
+
+# Except important output files
+!outputs/*.json
+!outputs/*.md
+!data/DATA_INVENTORY.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+*~
+
+# Media files
+*.mp4
+*.wav
+*.mp3
+
+# Large text files
+*.txt
+!requirements.txt
+!README.txt
+
+# Cookies and scraping test files
+cookies/
+scraping/

@@ -1,0 +1,270 @@
+{
+  "summary": {
+    "total_benefits": 14,
+    "avg_importance": 16.56,
+    "avg_satisfaction": 12.81
+  },
+  "quadrants": {
+    "maintain": [
+      {
+        "benefit": "space_saving",
+        "importance": 80.05,
+        "satisfaction": 20.67,
+        "total_mentions": 207,
+        "positive_mentions": 47,
+        "negative_mentions": 1,
+        "sources": 2
+      },
+      {
+        "benefit": "durability",
+        "importance": 61.48,
+        "satisfaction": 18.97,
+        "total_mentions": 156,
+        "positive_mentions": 40,
+        "negative_mentions": 2,
+        "sources": 2
+      },
+      {
+        "benefit": "appearance",
+        "importance": 22.32,
+        "satisfaction": 25.64,
+        "total_mentions": 57,
+        "positive_mentions": 20,
+        "negative_mentions": 0,
+        "sources": 2
+      },
+      {
+        "benefit": "adjustable",
+        "importance": 20.91,
+        "satisfaction": 31.85,
+        "total_mentions": 58,
+        "positive_mentions": 12,
+        "negative_mentions": 0,
+        "sources": 2
+      }
+    ],
+    "improve": [],
+    "promote": [
+      {
+        "benefit": "weight_capacity",
+        "importance": 16.2,
+        "satisfaction": 23.42,
+        "total_mentions": 40,
+        "positive_mentions": 6,
+        "negative_mentions": 2,
+        "sources": 2
+      },
+      {
+        "benefit": "versatility",
+        "importance": 11.76,
+        "satisfaction": 14.29,
+        "total_mentions": 14,
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "sources": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "importance": 5.89,
+        "satisfaction": 25.0,
+        "total_mentions": 15,
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "sources": 2
+      },
+      {
+        "benefit": "price_value",
+        "importance": 5.08,
+        "satisfaction": 19.45,
+        "total_mentions": 15,
+        "positive_mentions": 3,
+        "negative_mentions": 0,
+        "sources": 2
+      }
+    ],
+    "monitor": [
+      {
+        "benefit": "falls_off",
+        "importance": 2.31,
+        "satisfaction": 0.0,
+        "total_mentions": 6,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 2
+      },
+      {
+        "benefit": "no_wall_damage",
+        "importance": 1.68,
+        "satisfaction": 0.0,
+        "total_mentions": 2,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 1
+      },
+      {
+        "benefit": "quantity",
+        "importance": 1.68,
+        "satisfaction": 0.0,
+        "total_mentions": 2,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 1
+      },
+      {
+        "benefit": "strong_adhesion",
+        "importance": 0.85,
+        "satisfaction": 0.0,
+        "total_mentions": 3,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 2
+      },
+      {
+        "benefit": "poor_quality",
+        "importance": 0.84,
+        "satisfaction": 0.0,
+        "total_mentions": 1,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 1
+      },
+      {
+        "benefit": "color_options",
+        "importance": 0.84,
+        "satisfaction": 0.0,
+        "total_mentions": 1,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "sources": 1
+      }
+    ]
+  },
+  "all_benefits": [
+    {
+      "benefit": "space_saving",
+      "importance": 80.05,
+      "satisfaction": 20.67,
+      "total_mentions": 207,
+      "positive_mentions": 47,
+      "negative_mentions": 1,
+      "sources": 2
+    },
+    {
+      "benefit": "durability",
+      "importance": 61.48,
+      "satisfaction": 18.97,
+      "total_mentions": 156,
+      "positive_mentions": 40,
+      "negative_mentions": 2,
+      "sources": 2
+    },
+    {
+      "benefit": "appearance",
+      "importance": 22.32,
+      "satisfaction": 25.64,
+      "total_mentions": 57,
+      "positive_mentions": 20,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "adjustable",
+      "importance": 20.91,
+      "satisfaction": 31.85,
+      "total_mentions": 58,
+      "positive_mentions": 12,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "weight_capacity",
+      "importance": 16.2,
+      "satisfaction": 23.42,
+      "total_mentions": 40,
+      "positive_mentions": 6,
+      "negative_mentions": 2,
+      "sources": 2
+    },
+    {
+      "benefit": "versatility",
+      "importance": 11.76,
+      "satisfaction": 14.29,
+      "total_mentions": 14,
+      "positive_mentions": 2,
+      "negative_mentions": 0,
+      "sources": 1
+    },
+    {
+      "benefit": "easy_installation",
+      "importance": 5.89,
+      "satisfaction": 25.0,
+      "total_mentions": 15,
+      "positive_mentions": 1,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "price_value",
+      "importance": 5.08,
+      "satisfaction": 19.45,
+      "total_mentions": 15,
+      "positive_mentions": 3,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "falls_off",
+      "importance": 2.31,
+      "satisfaction": 0.0,
+      "total_mentions": 6,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "no_wall_damage",
+      "importance": 1.68,
+      "satisfaction": 0.0,
+      "total_mentions": 2,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 1
+    },
+    {
+      "benefit": "quantity",
+      "importance": 1.68,
+      "satisfaction": 0.0,
+      "total_mentions": 2,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 1
+    },
+    {
+      "benefit": "strong_adhesion",
+      "importance": 0.85,
+      "satisfaction": 0.0,
+      "total_mentions": 3,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 2
+    },
+    {
+      "benefit": "poor_quality",
+      "importance": 0.84,
+      "satisfaction": 0.0,
+      "total_mentions": 1,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 1
+    },
+    {
+      "benefit": "color_options",
+      "importance": 0.84,
+      "satisfaction": 0.0,
+      "total_mentions": 1,
+      "positive_mentions": 0,
+      "negative_mentions": 0,
+      "sources": 1
+    }
+  ]
+}

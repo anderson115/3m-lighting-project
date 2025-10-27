@@ -39,3 +39,8 @@ class FilesystemWriter:
         output = self.base_dir / f"{category.replace(' ', '_')}_products.json"
         output.write_text(json.dumps(data, indent=2, ensure_ascii=False))
         return output
+
+    def write_keyword_summary(self, category: str, summary: dict) -> Path:
+        output = self.base_dir / f"{category.replace(' ', '_')}_keyword_language.json"
+        output.write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+        return output
