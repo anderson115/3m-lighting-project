@@ -1,0 +1,87 @@
+{
+  "batch_start": "2025-10-21T23:14:04.908625",
+  "total_videos": 5,
+  "videos": [
+    {
+      "video_id": "MarkR_Activity8_PainPoints",
+      "participant": "MarkR",
+      "activity": "Activity8_PainPoints",
+      "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity8PainPoints_2025-06-30_115448_1.mov",
+      "processed_at": "2025-10-21T23:14:04.908703",
+      "status": {
+        "audio": "success",
+        "transcript": "success",
+        "frames": "success",
+        "emotion": "success"
+      },
+      "errors": [],
+      "frame_count": 11,
+      "processing_time_seconds": 92.31
+    },
+    {
+      "video_id": "TylrD_Activity8_PainPoints",
+      "participant": "TylrD",
+      "activity": "Activity8_PainPoints",
+      "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity8PainPoints_2025-06-30_052938_1.MOV",
+      "processed_at": "2025-10-21T23:15:37.218867",
+      "status": {
+        "audio": "success",
+        "transcript": "success",
+        "frames": "success",
+        "emotion": "success"
+      },
+      "errors": [],
+      "frame_count": 26,
+      "processing_time_seconds": 280.91
+    },
+    {
+      "video_id": "GeneK_Activity8_PainPoints",
+      "participant": "GeneK",
+      "activity": "Activity8_PainPoints",
+      "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity8PainPoints_2025-06-30_010218_1.webm",
+      "processed_at": "2025-10-21T23:20:18.131624",
+      "status": {
+        "audio": "success",
+        "transcript": "success",
+        "frames": "success",
+        "emotion": "success"
+      },
+      "errors": [],
+      "frame_count": 1,
+      "processing_time_seconds": 57.59
+    },
+    {
+      "video_id": "FarahN_Activity8_PainPoints",
+      "participant": "FarahN",
+      "activity": "Activity8_PainPoints",
+      "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/FarahN_Activity8PainPoints_2025-07-02_083153_1.MOV",
+      "processed_at": "2025-10-21T23:21:15.724385",
+      "status": {
+        "audio": "success",
+        "transcript": "success",
+        "frames": "success",
+        "emotion": "success"
+      },
+      "errors": [],
+      "frame_count": 27,
+      "processing_time_seconds": 277.11
+    },
+    {
+      "video_id": "FrederickK_Activity7_ToolsandMaterials",
+      "participant": "FrederickK",
+      "activity": "Activity7_ToolsandMaterials",
+      "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/FrederickK_Activity7ToolsandMaterials_2025-07-03_042614_1.mp4",
+      "processed_at": "2025-10-21T23:25:52.829675",
+      "status": {
+        "audio": "success",
+        "transcript": "success",
+        "frames": "success",
+        "emotion": "success"
+      },
+      "errors": [],
+      "frame_count": 11,
+      "processing_time_seconds": 51.17
+    }
+  ],
+  "batch_end": "2025-10-21T23:26:43.996791"
+}

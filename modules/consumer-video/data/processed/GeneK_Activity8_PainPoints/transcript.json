@@ -1,0 +1,66 @@
+{
+  "language": "en",
+  "duration": 59.1,
+  "segments": [
+    {
+      "start": 1.219999999999998,
+      "end": 13.06,
+      "text": "Well, the challenge was selecting spaces in the ceiling that are symmetrical to a fireplace.",
+      "confidence": -0.18156800464707978
+    },
+    {
+      "start": 13.84,
+      "end": 24.36,
+      "text": "And since it's first floor, there was no issues cutting little holes in the ceiling for the",
+      "confidence": -0.18156800464707978
+    },
+    {
+      "start": 24.36,
+      "end": 25.3,
+      "text": "lights to be inserted.",
+      "confidence": -0.18156800464707978
+    },
+    {
+      "start": 25.3,
+      "end": 32.0,
+      "text": "But longer term, I have concerns that if I want to replace the lights or if I want to",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 32.0,
+      "end": 36.34,
+      "text": "change it, then that would require me patching holes in the ceiling.",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 37.019999999999996,
+      "end": 46.34,
+      "text": "However, that's not really a big issue because I save those cutouts and I'm relatively handy.",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 46.56,
+      "end": 49.0,
+      "text": "I can plaster them in and paint over.",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 50.1,
+      "end": 52.68,
+      "text": "So that shouldn't be a huge issue.",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 52.82,
+      "end": 54.54,
+      "text": "But that could be time consuming.",
+      "confidence": -0.20345484739855715
+    },
+    {
+      "start": 54.54,
+      "end": 57.54,
+      "text": "In the future, if necessary.",
+      "confidence": -0.3958310723304749
+    }
+  ]
+}

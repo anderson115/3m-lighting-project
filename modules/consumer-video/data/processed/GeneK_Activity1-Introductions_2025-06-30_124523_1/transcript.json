@@ -1,0 +1,14 @@
+{
+  "source_video": "GeneK_Activity1-Introductions_2025-06-30_124523_1.webm",
+  "text": "I live in a house with wife and two teenage kids.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 8.64,
+  "segments": [
+    {
+      "start": 1.55,
+      "end": 7.55,
+      "text": "I live in a house with wife and two teenage kids."
+    }
+  ]
+}

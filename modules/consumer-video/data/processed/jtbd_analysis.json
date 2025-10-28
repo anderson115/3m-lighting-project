@@ -1,0 +1,999 @@
+{
+  "summary": {
+    "total_consumers": 15,
+    "total_jobs": 152,
+    "by_rung": {
+      "functional": 51,
+      "emotional": 58,
+      "social": 43
+    }
+  },
+  "jobs": {
+    "functional": [
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "So I capped everything off, got everything back where it needed to go, and went ahead and decided that a piece of board behind the battery-operated light would be the best opportunity, and the best way to go about it",
+        "consumer": "AlanG",
+        "source": "AlanG_Activity8PainPoints_2025-07-07_114433_1",
+        "context": "everything back where it needed to go, and went ahead and decided that a piece of board behind the battery-operated light would be the best opportunity, and the best way to go about it."
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "Hello, this is an example of a picture light that is rechargeable with batteries or also can connect to a USB cord for power also",
+        "consumer": "AlysonT",
+        "source": "AlysonT_Q1_2025-06-23_021844_1",
+        "context": "Hello, this is an example of a picture light that is rechargeable with batteries or also can connect to a USB cord for power also. And I have it illuminating a class"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "So these are the photo lights that we have we wanted a space to fill this very big wall that we have Just to make it feel a little bit more homey This adds a very warm tone to it and these specifically are not paintings, but they are pictures of our engagement That my wife and I currently live at their battery-powered So basically it's just four double-a batteries inside each one So 16 total and that is pretty much the space We chose to do it in this space because again, this is the living room we want to make sure it is You know homey enough and it's well lit at night, especially when these are closed It has a very warm feel with this and the candles on up there",
+        "consumer": "ChristianL",
+        "source": "ChristianL_Q1_2025-06-17_065739_1",
+        "context": "e not paintings, but they are pictures of our engagement That my wife and I currently live at their battery-powered So basically it's just four double-a batteries inside each one So 16 total and that is pret"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "Then these are on battery so it's also on a timer so they will turn on I think around five or six at night and stay on for a few hours and they are on a timer",
+        "consumer": "DianaL",
+        "source": "DianaL_Q1_2025-06-16_031723_1",
+        "context": "gged in in an outlet and I can turn it on and off really easily with this switch. Then these are on battery so it's also on a timer so they will turn on I think around five or six at night and stay on for a"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "a rechargeable battery and we have two of them here and here and then real quick down the hall we have a floor lamp in my daughter's bedroom that is a hardwired or plug-in excuse me and I can turn it on and off here and it has two brightness settings so go all in and brighten and I can turn it off and that's it thanks",
+        "consumer": "DianaL",
+        "source": "DianaL_Q1_2025-06-16_031723_1",
+        "context": "and they are on a timer. So they are on a timer and they are on a timer and they are on a timer. a rechargeable battery and we have two of them here and here and then real quick down the hall we have a floor lam"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "And this one is rechargeable",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity3ProjectMotivation_2025-07-03_041631_1",
+        "context": "ve. And then, you know, you turn on the light. It helps. It doesn't do a huge deal. And this one is rechargeable. So the light. It's not on all the time. Maybe not as much as we would like. It feels good. It feel"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "So because it's rechargeable, it's not on all the time, and we have to kind of step up to turn it on",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Q1_2025-06-18_065110_1",
+        "context": "charge it in. It has different brightnesses. This is just the low-level brightness. So because it's rechargeable, it's not on all the time, and we have to kind of step up to turn it on. But plug-in wasn't an opti"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "I think I've looked in some social media sites as well, just to see what possibilities exist and what's available, you know, like hot wired, plugged in, battery operated",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1",
+        "context": "l, just to see what possibilities exist and what's available, you know, like hot wired, plugged in, battery operated. We also went to several stores, IKEA is one, Home Depot and Lowe's in-store, Cosco has a"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "I wanted to understand the options such as hardwire, plug-in, battery-operated, remote control, floor standing, ceiling-mounted, wall-mounted, table stand, spotlight, floodlight, the type of light bulbs it uses",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity5LightingChoices_2025-06-30_125644_1",
+        "context": "I wanted to understand the options such as hardwire, plug-in, battery-operated, remote control, floor standing, ceiling-mounted, wall-mounted, table stand, spotlight, fl"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "I just selected on Amazon the items I want to buy, which is battery-operated remote-controlled lights that may look like spotlights, and they provide accent lighting for the painting",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1",
+        "context": "don't think I had any unique approach. I just selected on Amazon the items I want to buy, which is battery-operated remote-controlled lights that may look like spotlights, and they provide accent lighting f"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "Meaning, if this is a rechargeable battery, how do you get to remove them to recharge",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity7ToolsandMaterials_2025-06-30_010022_1",
+        "context": "hat would not be a challenge, but then I think that defeats the whole design. Meaning, if this is a rechargeable battery, how do you get to remove them to recharge?"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "So I've installed two of them and I really like that I can control temperature, remote control, and the battery lasts a really long time",
+        "consumer": "GeneK",
+        "source": "GeneK_Q1_2025-06-20_045554_1",
+        "context": "'ve installed two of them and I really like that I can control temperature, remote control, and the battery lasts a really long time. So they attach to the ceiling, but no wiring is required."
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "um would i do a similar project again definitely yes um what i do differently um i may just actually use different lighting um i do like to test out and experiment with different products that offer let's say the same result but just to see how it works better or differently um so i probably would just use a different accent lighting um do i wish do i have a wish list of features or tools that can make the processes easier or more enjoyable for this part um i probably would use a leveler or um a tape measure um i'm pretty sure it made it a whole lot easier but because i was just so in my head and just so focused on doing this most easiest and simple way possible that it didn't even dawn on me to use a tape measure to measure the width of the picture and then try to do it that way um i like to do things on my own with as little help as possible because that's that's like a challenge for me so i was just i'm glad it only took me 15 minutes between 20 minutes to center the um lighting and not an hour um what are your must-have options or features that i would include i am definitely a huge fan of remotes um they make things so much easier i can't understand having two too many remotes that's more batteries and then more potential to lose them or something around break but when it comes to something like that um especially since i don't want to touch it after after i've already said it i'm not going to touch it after i've already said it i'm not going to touch it after i've already said it just having remote makes things so much easier especially if i can change you know put a timer on there or you know cut it off and on or change the plug the lighting that's that's that would be a huge feature that i would always look in my accent lighting um are there features or options that you wish you could include but are difficult to make happen um no just because this lighting was it's pretty simple like i said remote um rechargeable i like the rechargeable just because i'm able to make sure that i can just plug it up while it's still in one place versus having to take it down remove the batteries add batteries um because like once it's set i don't want to touch it again especially after i spent so much time trying to make sure that it's um the lighting's perfect so the rechargeable um the rechargeable exit landing is something i would prefer um i can get a long usb cord attach it to the port and then i'll have a wall socket and just charge it that way so i don't have to worry about buying batteries and removing and everything",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Activity9FutureImprovements_2025-07-07_051823_1",
+        "context": "ficult to make happen um no just because this lighting was it's pretty simple like i said remote um rechargeable i like the rechargeable just because i'm able to make sure that i can just plug it up while it's st"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "Off Amazon and their USB rechargeable",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1",
+        "context": "t I want to add some artwork to and these picture frames were super cheap. Off Amazon and their USB rechargeable. So whenever I need to recharge them, I can just take them down and charge them and I just love the"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "And in regards to, they don't require battery changes or anything like that as such",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1",
+        "context": "em. And they're a strip so they can go across the whole room. And in regards to, they don't require battery changes or anything like that as such. So they're battery-operated and they're just a plug-in light"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "However, again, the battery parts for those",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity8PainPoints_2025-06-30_052938_1",
+        "context": "se lights kind of are dimming out, so I will have to be getting those replaced. However, again, the battery parts for those. They have to connect on one. So that was very hard for me to how to run another ex"
+      },
+      {
+        "job": "Avoid Cords/Wiring",
+        "quote": "Okay, so that LED project is battery powered",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Q1_2025-06-16_052959_1",
+        "context": "Okay, so that LED project is battery powered. It's installed in my son's bedroom. He really wanted it for better vibes, and so I worked"
+      },
+      {
+        "job": "Illuminate Space",
+        "quote": "If I was to take on another project similar to this, again, I would do some more research, get a little bit more electrical knowledge, if you will, because it made it a little difficult when finding the time to figure out which way to go ahead and go about making the light illuminate",
+        "consumer": "AlanG",
+        "source": "AlanG_Activity9FutureImprovements_2025-07-07_114608_1",
+        "context": "e difficult when finding the time to figure out which way to go ahead and go about making the light illuminate. You know, at first I was, I got something different, wanted to put it up and realized that I didn'"
+      },
+      {
+        "job": "Illuminate Space",
+        "quote": "Hello, this canned spotlight is in a hallway to illuminate various pieces of art",
+        "consumer": "AlysonT",
+        "source": "AlysonT_Q1_2025-06-23_021844_1",
+        "context": "eally comes to life and you can see all the colors. Hello, this canned spotlight is in a hallway to illuminate various pieces of art. For example, this sculpture on the wall. And then also this picture diorama"
+      },
+      {
+        "job": "Illuminate Space",
+        "quote": "We like it in this corner and it is a plug-in so we have to go down here and plug it in every time we want to illuminate the art",
+        "consumer": "DianaL",
+        "source": "DianaL_Q1_2025-06-16_031723_1",
+        "context": "in this corner and it is a plug-in so we have to go down here and plug it in every time we want to illuminate the art. We have it's hard to see in the daytime but we have a spotlight over here that spotlights"
+      },
+      {
+        "job": "Illuminate Space",
+        "quote": "And yeah, I basically decided to kind of illuminate this art",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1",
+        "context": "autiful piece of art that is a new addition to my bedroom. And yeah, I basically decided to kind of illuminate this art. There's not a lot of light other than lamps in this room. And I just absolutely love the"
+      },
+      {
+        "job": "Illuminate Space",
+        "quote": "There is a light behind the mirror here which illuminates this room at night",
+        "consumer": "MarkR",
+        "source": "MarkR_Q1_2025-06-17_020436_1",
+        "context": "brightness. So you can see everything is on a dimmer. There is a light behind the mirror here which illuminates this room at night. It's hidden behind the mirror and it gives off just a reflective glow that rea"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "A combo of recessed can lighting, but still having track lighting features that you can adjust it a little bit more subtle or have it multiple lights moving different directions, but then not taking away from the ceiling height",
+        "consumer": "AlysonT",
+        "source": "AlysonT_Activity9FutureImprovements_2025-07-06_102808_1",
+        "context": "s, concept. A combo of recessed can lighting, but still having track lighting features that you can adjust it a little bit more subtle or have it multiple lights moving different directions, but then not ta"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So, um, I wanted that sort of direction, that control, the directionality of the light to go right onto the artwork and sort of render just a pop of brightness on the artwork",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity5LightingChoices_2025-07-02_080337_1",
+        "context": "tic because the decor of the room is very simplistic. So, um, I wanted that sort of direction, that control, the directionality of the light to go right onto the artwork and sort of render just a pop of brig"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "Um, and you know, just the textures, the color, the dimension of the artwork really just lended itself to the simplistic way of just having that spotlight right on it",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity5LightingChoices_2025-07-02_080337_1",
+        "context": "t integrates well with the environment overall. Um, and you know, just the textures, the color, the dimension of the artwork really just lended itself to the simplistic way of just having that spotlight"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "I knew I wanted to get an adjustable one so I knew the angle wasn't so important for me to get perfectly right which gave me a little bit of flexibility but I definitely had to really decide on this long wall and really just centered it sort of like mid between these two windows so just a little bit of measuring wasn't too complicated",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1",
+        "context": "t above the artwork I kind of started to plan a placement on the ceiling. I knew I wanted to get an adjustable one so I knew the angle wasn't so important for me to get perfectly right which gave me a littl"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So anyway we actually I tapped into an existing wire that's used for another light and controlled by the same switch so this just made the project a lot easier rather than having to you know basically drop wire and sort of reinvent the wheel",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1",
+        "context": "exact angle. So anyway we actually I tapped into an existing wire that's used for another light and controlled by the same switch so this just made the project a lot easier rather than having to you know bas"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "Um, I don't have a dimmer on this",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity9FutureImprovements_2025-07-02_083559_1",
+        "context": "shadows that I wish that I maybe. Maybe had, um, had picked out a better light. Um, I don't have a dimmer on this. I also wish I did a dimmer. I guess I could install it now, but, um, that might be some"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "Maybe have it a little more flexible, so, um, so yeah, some things I can control some things I can't",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity9FutureImprovements_2025-07-02_083559_1",
+        "context": "then, um, I guess try to. Maybe have it a little more flexible, so, um, so yeah, some things I can control some things I can't. Um, but all in all, you know, it went, went fairly easy."
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "I just now need to install a dimmer because it is kind of bright",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1",
+        "context": "installer. And I'm just so happy with it. I think it's super awesome. I just now need to install a dimmer because it is kind of bright. So, that's my next step is to do something that will dim. So, I'll"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So, I'll have full control over all of the lighting in the room",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1",
+        "context": "it is kind of bright. So, that's my next step is to do something that will dim. So, I'll have full control over all of the lighting in the room."
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "I wanted to understand the options such as hardwire, plug-in, battery-operated, remote control, floor standing, ceiling-mounted, wall-mounted, table stand, spotlight, floodlight, the type of light bulbs it uses",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity5LightingChoices_2025-06-30_125644_1",
+        "context": "I wanted to understand the options such as hardwire, plug-in, battery-operated, remote control, floor standing, ceiling-mounted, wall-mounted, table stand, spotlight, floodlight, the type of lig"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "I just selected on Amazon the items I want to buy, which is battery-operated remote-controlled lights that may look like spotlights, and they provide accent lighting for the painting",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1",
+        "context": "nique approach. I just selected on Amazon the items I want to buy, which is battery-operated remote-controlled lights that may look like spotlights, and they provide accent lighting for the painting. Everyth"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "They're remotely controlled by this app",
+        "consumer": "GeneK",
+        "source": "GeneK_Q1_2025-06-20_045554_1",
+        "context": "Here are the lights that I installed, picture lights, for this painting over here. They're remotely controlled by this app. And so right now it's daylight, so you can't really see how effective they are, but"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So I've installed two of them and I really like that I can control temperature, remote control, and the battery lasts a really long time",
+        "consumer": "GeneK",
+        "source": "GeneK_Q1_2025-06-20_045554_1",
+        "context": "bove our fireplace. So I've installed two of them and I really like that I can control temperature, remote control, and the battery lasts a really long time. So they attach to the ceiling, but no wiring is required"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "And try and get in as early as possible so you can get an idea of what it's going to look like before it's final and complete so you can make any alterations and adjustments along the way",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity10Writealetter_2025-06-30_120240_1",
+        "context": "of what it's going to look like before it's final and complete so you can make any alterations and adjustments along the way."
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "And I usually keep my lights dimmed",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity3ProjectMotivation_2025-06-30_113730_1",
+        "context": "s a key component, very subtle. I like warm white versus bright white. And I usually keep my lights dimmed. All my lights are on dimmers. But yeah, lighting is very important. It speaks volumes of your h"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "I actually have recessed lighting all around my home and everything is actually on a dimmer because though I like it bright, I also like the ability to adjust the brightness",
+        "consumer": "MarkR",
+        "source": "MarkR_Q1_2025-06-17_020436_1",
+        "context": "guest bedroom. I actually have recessed lighting all around my home and everything is actually on a dimmer because though I like it bright, I also like the ability to adjust the brightness. So you can se"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "Dim it",
+        "consumer": "MarkR",
+        "source": "MarkR_Q1_2025-06-17_020436_1",
+        "context": "re. Then in the dining area, we've got this light. Again, it's on a dimmer so I can make it bright. Dim it. Love this light. It adds a great vibe to this room. And then finally, this light I actually got"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "It's because it one number one, it comes with a remote control so I can change the lighting and the tone of the frame",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1",
+        "context": "ud of them. And the reason why I like this so much. It's because it one number one, it comes with a remote control so I can change the lighting and the tone of the frame. And also has a timer. So I like that as wel"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So whenever I need to recharge them, I can just take them down and charge them and I just love the fact that, again, it comes with a remote control and I can just dim and change the light whenever I want to, so I didn't do the middle one, just because I want to see how well the other two look first",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1",
+        "context": "and charge them and I just love the fact that, again, it comes with a remote control and I can just dim and change the light whenever I want to, so I didn't do the middle one, just because I want to see"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "uh-oh so the installation process starts there right there and then it comes across and the power outlet is right there and I kind of just swerved it all the way around here and as far as this side um I have the power outlet starts there and I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that one um overall what I've actually liked most about this design is it still gives me that modern more luxury aspect of it as you can tell here and I didn't have to invest much money into it and as you can definitely see here this is one of my favorite ones here is that it is motion detected and I still get that same look as a modern and a classic design as well when it comes to my design thanks thanks so much",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity6Step-by-StepWalkthrough_2025-06-30_051551_1",
+        "context": "I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that on"
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "Enough power surges to actually be able to connect this one, that one, and there's actually another strip here that I didn't get to show, but there is another strip here that actually still it's working only half of it, but I actually have to take that strip there and connect it to this strip here, which all that does turn on, but those lights kind of are dimming out, so I will have to be getting those replaced",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity8PainPoints_2025-06-30_052938_1",
+        "context": "there and connect it to this strip here, which all that does turn on, but those lights kind of are dimming out, so I will have to be getting those replaced. However, again, the battery parts for those."
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "So where I place the strip, I don't have to replace the batteries or anything of the such, so the lights won't dimmer",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity9FutureImprovements_2025-06-30_055741_1",
+        "context": "place the strip, I don't have to replace the batteries or anything of the such, so the lights won't dimmer. And as well as the lights would be last through long. Thanks so much."
+      },
+      {
+        "job": "Control Lighting",
+        "quote": "He shared his room with his brother, so to be able to go in there and put those lights in there for him that he can control",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1",
+        "context": "om with his brother, so to be able to go in there and put those lights in there for him that he can control. And have his own vibe there, those LEDs were really, really cool. So that's what the inspiration w"
+      },
+      {
+        "job": "Highlight Features",
+        "quote": "When I have guests over, I like to highlight my artwork in my house with the spotlight",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity3ProjectMotivation_2025-07-02_075539_1",
+        "context": "really makes me feel just invited to sort of enjoy the artwork. When I have guests over, I like to highlight my artwork in my house with the spotlight. And it kind of brings this element of this like focal po"
+      },
+      {
+        "job": "Highlight Features",
+        "quote": "So yeah once everything was secure you know we we mounted it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was made pretty easy because we were able to tap into that existing lighting and use that switch",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1",
+        "context": "nted it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was m"
+      },
+      {
+        "job": "Highlight Features",
+        "quote": "And so right now it's daylight, so you can't really see how effective they are, but I can change the temperature and they will highlight this painting that we have on the wall above our fireplace",
+        "consumer": "GeneK",
+        "source": "GeneK_Q1_2025-06-20_045554_1",
+        "context": "ght, so you can't really see how effective they are, but I can change the temperature and they will highlight this painting that we have on the wall above our fireplace. So I've installed two of them and I rea"
+      },
+      {
+        "job": "Highlight Features",
+        "quote": "I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative because I do change my different rooms in my house a lot because my house is full of lots of color",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1",
+        "context": "So my picture lights is one of my favorite projects that I did so far. I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative b"
+      },
+      {
+        "job": "Light Up Art/Features",
+        "quote": "So yeah once everything was secure you know we we mounted it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was made pretty easy because we were able to tap into that existing lighting and use that switch",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1",
+        "context": "it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was made pret"
+      },
+      {
+        "job": "Draw Attention",
+        "quote": "So, as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel, as well as the new art that hangs right above it",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1",
+        "context": ". There's no light source. So, as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel, as well as the new art that hangs right above it. And we also hear family pho"
+      }
+    ],
+    "emotional": [
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "And I have it illuminating a classic art piece print that I got",
+        "consumer": "AlysonT",
+        "source": "AlysonT_Q1_2025-06-23_021844_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "My house is kind of traditional, but my style is modern, so I kind of like meet it in the middle",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity2YourStyleandPhilosophy_2025-07-02_012820_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "So I've always liked modern, lean modern",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity2YourStyleandPhilosophy_2025-07-03_041309_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "We like everything modern, but maybe a mix of modern and traditional",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "I would say my design style is very modern, very open",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "So I would describe my style as a little bit more elegant, more sophisticated, but a modern vibe",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "Specific goals that when it comes to me decorating my space is I want something to make it look a little minimalistic, but also a little bit more open spaced, but with a luxury approach",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "And some aesthetic goals that I was hoping to achieve within that was to show more of a luxury, more of a minimalist, and a more sophisticated type of lighting that didn't require a lot of money",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "So I decided that they had a variety of different looks to them, and I still got that modern vibe to them",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      {
+        "job": "Achieve Desired Aesthetic",
+        "quote": "uh-oh so the installation process starts there right there and then it comes across and the power outlet is right there and I kind of just swerved it all the way around here and as far as this side um I have the power outlet starts there and I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that one um overall what I've actually liked most about this design is it still gives me that modern more luxury aspect of it as you can tell here and I didn't have to invest much money into it and as you can definitely see here this is one of my favorite ones here is that it is motion detected and I still get that same look as a modern and a classic design as well when it comes to my design thanks thanks so much",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity6Step-by-StepWalkthrough_2025-06-30_051551_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "it was pretty easy the technique I used I just needed to make sure that I used tape that was sticky enough to stick not only to the lighting but also to the wall it gets really really hot here we're in Arizona so I wanted something that would stick and stay and I'd have had a couple fall so that was a little a little bit challenging so all I did was actually just take the tape off and reinstall it and I actually had the I put the tape on the lighting itself let it sit kind of adhesed to the lighting itself and then I attached it to the wall and I actually held it there like held my hand there on it to push it against for a little while just for it to adhese and I haven't knock on wood had any problems with them falling um but that was my only alternative to not having them on the ground which I did not want",
+        "consumer": "CarrieS",
+        "source": "CarrieS_Activity8PainPoints_2025-06-30_094337_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "as far as future opportunities or things I would have done differently honestly I probably would have just hardwired them to begin with when we had the electrician here fixing other things in the house when we just moved in we thought we have the lighting let's just use it and then eventually down the road but it's been almost two years now and we haven't hardwired so I love the way it looks um both of the pieces you see it over there but hardwiring would just make more sense um the floor lights the only thing I would change like I said before in a the other video was I do like the um step one so you could step on it and turn on the light I eventually may just buy one of those um and make that easier um the process itself wasn't too difficult once I figured out how to use the drywall screws and the anchors and it's held up we we chose the right weight you know for the screws and the anchors and then obviously the stud stays where it's supposed to be but it really wasn't too hard of a process um there's other art pieces that I want to light up but I'm holding off on buying any lighting fixtures at this point since we have a lot already but I probably will hardwire those once I do um but yeah overall the process wasn't too difficult and I really like the way they turned out",
+        "consumer": "DianaL",
+        "source": "DianaL_Activity9FutureImprovements_2025-07-02_105111_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "So yeah once everything was secure you know we we mounted it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was made pretty easy because we were able to tap into that existing lighting and use that switch",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "As you can imagine, tools are pretty easy",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity7ToolsandMaterials_2025-07-03_042614_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "But again, didn't run into any issues, so that part was pretty easy for me, the install",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity8PainPoints_2025-06-30_115448_1"
+      },
+      {
+        "job": "Feel Capable",
+        "quote": "Let's see if I can do like this",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity8PainPoints_2025-06-30_052938_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "it was pretty easy the technique I used I just needed to make sure that I used tape that was sticky enough to stick not only to the lighting but also to the wall it gets really really hot here we're in Arizona so I wanted something that would stick and stay and I'd have had a couple fall so that was a little a little bit challenging so all I did was actually just take the tape off and reinstall it and I actually had the I put the tape on the lighting itself let it sit kind of adhesed to the lighting itself and then I attached it to the wall and I actually held it there like held my hand there on it to push it against for a little while just for it to adhese and I haven't knock on wood had any problems with them falling um but that was my only alternative to not having them on the ground which I did not want",
+        "consumer": "CarrieS",
+        "source": "CarrieS_Activity8PainPoints_2025-06-30_094337_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "um surprisingly there were no real challenges or um I mean I didn't think that was really time consuming when putting up these lights um it was very idiot proof um as I like to call it I'm definitely not the handiest person um so I try and look for like the easy ways to do things um and one of the things that kind of finalized my decision to buy these lights was that they had the adhesive strip um the optional adhesive strip um so because I feel like I'm gonna want to rearrange the photos eventually um make room for more or do something different because I like to change things up every once in a while um and honestly hanging them up was just as it was as easy as taking the strip sticking it to the back of the the light holder thing um I know really advanced name for that but and then um taking off the other side of the strip sticking it to the wall um I waited for one minute I followed the instructions exactly uh and then it said to wait for 24 hours before I stuck the light on kind of like how I explained in my last video um so I guess all in all that was probably the most time consuming part is the waiting 24 hours before I stuck the light on kind of like how I explained in my last video um so I guess all in all that was probably the most time consuming part is the waiting um so I guess all in all that was probably the most time consuming part is the waiting 24 hours before I could actually put the lights on and use them um I probably could have done it beforehand but I just wanted to err on the side of caution be on the safe side um know better safe than sorry I suppose um but yeah I guess that was the most time-consuming part but it wasn't tricky it wasn't time consuming well it wasn't challenging yeah",
+        "consumer": "EllenB",
+        "source": "EllenB_Activity8PainPoints_2025-07-03_042058_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "So I would say my style is pretty simple",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity2YourStyleandPhilosophy_2025-07-02_012820_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "We already just we kind of just went up to the attic and tapped into an existing wire so made it easier from that from that electrical standpoint and then connecting the wires to the light housing and attaching the housing to the ceiling joists and then you know that was fairly easy",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "And drywall is not so easy to cut either",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity8PainPoints_2025-07-02_083153_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "Um, but all in all, you know, it went, went fairly easy",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity9FutureImprovements_2025-07-02_083559_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "I just got this simple spotlight off of Home Depot's website",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "As you can imagine, tools are pretty easy",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity7ToolsandMaterials_2025-07-03_042614_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "For me, it's an easy process",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity10Writealetter_2025-06-30_120240_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "So my goal for lighting is pretty simple",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity3ProjectMotivation_2025-06-30_113730_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "Nothing over the top, just something sort of simple, warm, and I feel as though I've accomplished it",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity5LightingChoices_2025-06-30_114454_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "So the process for me was pretty simple because my home is a new home build",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity6Step-by-StepWalkthrough_2025-06-30_114818_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "Same with the kitchen, light over the dining table, very, very easy to do, nothing complicated",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity8PainPoints_2025-06-30_115448_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "um as far as doing a similar project again with these lights um what i would do differently is you know honestly i would get a whole bunch more of these so um yeah i've got a bunch now in different areas of the home but um i would get a bunch more i'm i'm thinking about it actually i might even get i don't know maybe 15 of them more and they also double as uh lighting the floor as you're walking down a dark hallway so in case you don't want to turn all the lights on you know so they they actually do other things um but you know they're mostly just for decor but i'm um uh exploring other options uh using these things so really as far as uh the features um i like them because they are motion so they detect motion so i can walk by my uh displays my artwork or whatever and they just light up and it's just kind of nice you know having that um you know as far as any other uh tools that can make it easier that's about as easy as it gets and i'm very happy uh to have found those",
+        "consumer": "RobinL",
+        "source": "RobinL_Activity9FutureImprovements_2025-06-30_064350_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "um would i do a similar project again definitely yes um what i do differently um i may just actually use different lighting um i do like to test out and experiment with different products that offer let's say the same result but just to see how it works better or differently um so i probably would just use a different accent lighting um do i wish do i have a wish list of features or tools that can make the processes easier or more enjoyable for this part um i probably would use a leveler or um a tape measure um i'm pretty sure it made it a whole lot easier but because i was just so in my head and just so focused on doing this most easiest and simple way possible that it didn't even dawn on me to use a tape measure to measure the width of the picture and then try to do it that way um i like to do things on my own with as little help as possible because that's that's like a challenge for me so i was just i'm glad it only took me 15 minutes between 20 minutes to center the um lighting and not an hour um what are your must-have options or features that i would include i am definitely a huge fan of remotes um they make things so much easier i can't understand having two too many remotes that's more batteries and then more potential to lose them or something around break but when it comes to something like that um especially since i don't want to touch it after after i've already said it i'm not going to touch it after i've already said it i'm not going to touch it after i've already said it just having remote makes things so much easier especially if i can change you know put a timer on there or you know cut it off and on or change the plug the lighting that's that's that would be a huge feature that i would always look in my accent lighting um are there features or options that you wish you could include but are difficult to make happen um no just because this lighting was it's pretty simple like i said remote um rechargeable i like the rechargeable just because i'm able to make sure that i can just plug it up while it's still in one place versus having to take it down remove the batteries add batteries um because like once it's set i don't want to touch it again especially after i spent so much time trying to make sure that it's um the lighting's perfect so the rechargeable um the rechargeable exit landing is something i would prefer um i can get a long usb cord attach it to the port and then i'll have a wall socket and just charge it that way so i don't have to worry about buying batteries and removing and everything",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Activity9FutureImprovements_2025-07-07_051823_1"
+      },
+      {
+        "job": "Keep It Simple",
+        "quote": "And I picked these picture lights because number one, they were very easy",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1"
+      },
+      {
+        "job": "Avoid Regret",
+        "quote": "as far as future opportunities or things I would have done differently honestly I probably would have just hardwired them to begin with when we had the electrician here fixing other things in the house when we just moved in we thought we have the lighting let's just use it and then eventually down the road but it's been almost two years now and we haven't hardwired so I love the way it looks um both of the pieces you see it over there but hardwiring would just make more sense um the floor lights the only thing I would change like I said before in a the other video was I do like the um step one so you could step on it and turn on the light I eventually may just buy one of those um and make that easier um the process itself wasn't too difficult once I figured out how to use the drywall screws and the anchors and it's held up we we chose the right weight you know for the screws and the anchors and then obviously the stud stays where it's supposed to be but it really wasn't too hard of a process um there's other art pieces that I want to light up but I'm holding off on buying any lighting fixtures at this point since we have a lot already but I probably will hardwire those once I do um but yeah overall the process wasn't too difficult and I really like the way they turned out",
+        "consumer": "DianaL",
+        "source": "DianaL_Activity9FutureImprovements_2025-07-02_105111_1"
+      },
+      {
+        "job": "Avoid Regret",
+        "quote": "I really should have had like",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity8PainPoints_2025-07-02_083153_1"
+      },
+      {
+        "job": "Avoid Regret",
+        "quote": "Um, I don't regret it because I do like the simplicity of it, but I do have some track lighting in my house that I think that I really do need light in this room",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity9FutureImprovements_2025-07-02_083559_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "Every time you get somebody to come into your house, it's a thousand dollars",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "No need to hire an expensive installer",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "For me, it was expensive",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity3ProjectMotivation_2025-07-03_041631_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "But, you know, we used a level to get it straight, rather inexpensive",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity6Step-by-StepWalkthrough_2025-07-03_042414_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "I mean, I guess that could be cool and maybe an inexpensive thing you could add",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity9FutureImprovements_2025-07-03_043026_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "Hard wiring would have been expensive",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Q1_2025-06-18_065110_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "So, I didn't want to add all that would add to the cost, and I didn't want to do that",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "And I didn't decide to go through it the cost-effective way, especially when it really didn't need that",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      {
+        "job": "Avoid High Costs",
+        "quote": "I find that these are more cost-effective instead of actually having these built in",
+        "consumer": "TylrD",
+        "source": "TylrD_Q1_2025-06-20_075938_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "I don't know if I have a philosophy so much as it just it all looks good",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity2YourStyleandPhilosophy_2025-07-03_041309_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "It looks great",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity3ProjectMotivation_2025-07-03_041631_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "It makes it look more finished, makes it look nicer",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity3ProjectMotivation_2025-07-03_041631_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "I like to find a picture of something I like, and then put it into the search and find similar ideas, try and replicate it, try and find something that I can buy, that looks good, that I can also afford",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity4SourcesofInspiration_2025-07-03_041850_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "so you know a big choice was color really i mean silver or gold well i guess black was a choice too um we went with gold i know gold might be in and out but i like kind of the gold accents now it matches in in the rest of the room um you know we didn't do a hard wire just because you'd have to pay to install it and there's a there's an outlet down low but you know no need to change that uh it'd be nice it'd be cool be more finished but i also like the idea of we could change it out right so if we want to put a silver one up we can just go get a silver one and if we want to put a black one up we can get a black one and that way it's not a huge investment but you can still stay with you know your look that you want stay with the times right um and and pick the colors you need uh you know charging is you know it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's it's not so hot but it still looks good even if it's not on so you know kind of turn it on when we know we're going to be in the area for a while and or if there are people coming over um and you know it's priced really well so you know kind of made it a no-brainer uh you know give it a shot and if you don't like it then you know you're not out a lot of money",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity5LightingChoices_2025-07-03_042134_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "I mean, it looks cool even when it's not on, so that's good",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Q1_2025-06-18_065110_1"
+      },
+      {
+        "job": "Looks Good/Finished",
+        "quote": "so the main frustration was just making sure that everything was level kind of like I mentioned in the previous activity um yeah I'm just a perfectionist when it comes to those things so I'm constantly checking from afar and making sure that everything looks the same like that every photo and light fixture look the same as the one next to it um I'm sure there's an easier way than just measuring with a ruler but for me that's just kind of the basics what I already have um but it does make it hard when you're installing everything and you're up close to the photo frames and then you can't see everything from afar at the same time if that makes sense so I'm just kind of looking at up close one photo one light fixture I wish that I could see everything from afar while I'm doing it or have another person standing behind me saying that it is for sure in line um I'm just constantly having to kind of move back and forth between up close and far away to make sure that everything looks good and that is definitely a frustration for me you",
+        "consumer": "RachelL",
+        "source": "RachelL_Activity8PainPoints_2025-07-01_031621_1"
+      },
+      {
+        "job": "Save Money/Be Frugal",
+        "quote": "But, you know, we used a level to get it straight, rather inexpensive",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity6Step-by-StepWalkthrough_2025-07-03_042414_1"
+      },
+      {
+        "job": "Save Money/Be Frugal",
+        "quote": "I mean, I guess that could be cool and maybe an inexpensive thing you could add",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity9FutureImprovements_2025-07-03_043026_1"
+      },
+      {
+        "job": "Save Money/Be Frugal",
+        "quote": "It was inexpensive, so if it didn't even work, we could return it, or even if we had to take the hit, it wasn't a big deal",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Q1_2025-06-18_065110_1"
+      },
+      {
+        "job": "Save Money/Be Frugal",
+        "quote": "uh-oh so the installation process starts there right there and then it comes across and the power outlet is right there and I kind of just swerved it all the way around here and as far as this side um I have the power outlet starts there and I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that one um overall what I've actually liked most about this design is it still gives me that modern more luxury aspect of it as you can tell here and I didn't have to invest much money into it and as you can definitely see here this is one of my favorite ones here is that it is motion detected and I still get that same look as a modern and a classic design as well when it comes to my design thanks thanks so much",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity6Step-by-StepWalkthrough_2025-06-30_051551_1"
+      },
+      {
+        "job": "Feel Accomplished",
+        "quote": "Nothing over the top, just something sort of simple, warm, and I feel as though I've accomplished it",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity5LightingChoices_2025-06-30_114454_1"
+      },
+      {
+        "job": "Feel Accomplished",
+        "quote": "And I'm really just like really proud of them",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1"
+      },
+      {
+        "job": "Feel Accomplished",
+        "quote": "I felt like a proud dad to do this for my son, because, you know, he just moved there, he was in a new home, still a little intimidated because he never had his own room",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1"
+      }
+    ],
+    "social": [
+      {
+        "job": "Display Personal Identity",
+        "quote": "That's probably the main thing that I would personally want to make it a little bit easier to do the actual installing of the lights, or of the frames",
+        "consumer": "ChristianL",
+        "source": "ChristianL_Activity9FutureImprovements_2025-07-02_084957_1"
+      },
+      {
+        "job": "Display Personal Identity",
+        "quote": "And we also hear family photos standing up on the mantel",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1"
+      },
+      {
+        "job": "Display Personal Identity",
+        "quote": "And some personal goals of mine, of course, was to keep on that minimalist design and keep on that sophisticated and luxury design as well when it comes to my home lighting",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1"
+      },
+      {
+        "job": "Display Personal Identity",
+        "quote": "So I decided to choose the setup that I did based on personal preference",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "I hadn't done this before but I wanted to help design this room since we had just bought the house less than two years ago now",
+        "consumer": "DianaL",
+        "source": "DianaL_Activity8PainPoints_2025-07-02_104321_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "You don't have to be all of the same design or style or even of the time period",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity2YourStyleandPhilosophy_2025-07-03_041309_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "We also went to several stores, IKEA is one, Home Depot and Lowe's in-store, Cosco has a selection of lighting, we all went there to look for ideas, inspiration, options and design",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "So overall, this was kind of maybe a unique product design, something I couldn't find in Lowe's, Home Depot, or other stores because it's made to look like it's hot-wired, but it's not",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "So nothing else is needed since they are designed to be removable and then you recharge them",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity7ToolsandMaterials_2025-06-30_010022_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "I have no complaints, but I have that sense of kind of design style that helps me to decide what works and what doesn't work",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity10Writealetter_2025-06-30_120240_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "I would say my design style is very modern, very open",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "My design style came from me",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity4SourcesofInspiration_2025-06-30_114107_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "I have kind of a knack for design and how things are going to look before things are installed, so that helps me during the process",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity9FutureImprovements_2025-06-30_115819_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative because I do change my different rooms in my house a lot because my house is full of lots of color",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "What inspired me to take on this project is to show that you don't need to invest a lot of money into your home design or your lighting home design",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "Other options that I explored was to install actual lights in my room, whether this was home-based lights or interior design lights",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "uh-oh so the installation process starts there right there and then it comes across and the power outlet is right there and I kind of just swerved it all the way around here and as far as this side um I have the power outlet starts there and I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that one um overall what I've actually liked most about this design is it still gives me that modern more luxury aspect of it as you can tell here and I didn't have to invest much money into it and as you can definitely see here this is one of my favorite ones here is that it is motion detected and I still get that same look as a modern and a classic design as well when it comes to my design thanks thanks so much",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity6Step-by-StepWalkthrough_2025-06-30_051551_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "Hello, so this is a current layout design of my room as far as the LED light strips",
+        "consumer": "TylrD",
+        "source": "TylrD_Q1_2025-06-20_075938_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "We have some pieces there and they have lots of styles and material designs that we are impressed by as well",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity2YourStyleandPhilosophy_2025-06-30_100112_1"
+      },
+      {
+        "job": "Be Seen as Creative",
+        "quote": "So those were the kind of things that were inspiring from design aspects and exploring other ideas of how to install these",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity5LightingChoices_2025-06-30_101913_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "My house is kind of traditional, but my style is modern, so I kind of like meet it in the middle",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity2YourStyleandPhilosophy_2025-07-02_012820_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "So I've always liked modern, lean modern",
+        "consumer": "FrederickK",
+        "source": "FrederickK_Activity2YourStyleandPhilosophy_2025-07-03_041309_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "We like everything modern, but maybe a mix of modern and traditional",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "I would say my design style is very modern, very open",
+        "consumer": "MarkR",
+        "source": "MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "So I would describe my style as a little bit more elegant, more sophisticated, but a modern vibe",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "Specific goals that when it comes to me decorating my space is I want something to make it look a little minimalistic, but also a little bit more open spaced, but with a luxury approach",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "And some aesthetic goals that I was hoping to achieve within that was to show more of a luxury, more of a minimalist, and a more sophisticated type of lighting that didn't require a lot of money",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "So I decided that they had a variety of different looks to them, and I still got that modern vibe to them",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      {
+        "job": "Appear Modern/Sophisticated",
+        "quote": "uh-oh so the installation process starts there right there and then it comes across and the power outlet is right there and I kind of just swerved it all the way around here and as far as this side um I have the power outlet starts there and I just charged the outlet amongst this led light next I would have this led strip this is actually motion detected here so I have this strip going across here um so that's pretty cool feature I love about that one um overall what I've actually liked most about this design is it still gives me that modern more luxury aspect of it as you can tell here and I didn't have to invest much money into it and as you can definitely see here this is one of my favorite ones here is that it is motion detected and I still get that same look as a modern and a classic design as well when it comes to my design thanks thanks so much",
+        "consumer": "TylrD",
+        "source": "TylrD_Activity6Step-by-StepWalkthrough_2025-06-30_051551_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "When I have guests over, I like to highlight my artwork in my house with the spotlight",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity3ProjectMotivation_2025-07-02_075539_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "It really helps to kind of showcase the artwork and almost bring the whole space to life, which is really great",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity3ProjectMotivation_2025-07-02_075539_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "It really showcases the beauty of this new painting that we got and really to install it above the artwork I kind of started to plan a placement on the ceiling",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "So yeah once everything was secure you know we we mounted it and and turned the power back on and tested it and just adjusted the beam a couple times to highlight the artwork without you know casting shadows and stuff so but I think overall the the project was made pretty easy because we were able to tap into that existing lighting and use that switch",
+        "consumer": "FarahN",
+        "source": "FarahN_Activity6Step-by-StepWalkthrough_2025-07-02_082330_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "This is the spotlight that I installed to showcase this beautiful piece of art that is a new addition to my bedroom",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "And so right now it's daylight, so you can't really see how effective they are, but I can change the temperature and they will highlight this painting that we have on the wall above our fireplace",
+        "consumer": "GeneK",
+        "source": "GeneK_Q1_2025-06-20_045554_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "The only frustration I ever had was having to rewire and repaint walls for lighting, wired and tracked lighting and, you know, other kind of lighting displays, you know, like the spotlights or things like that",
+        "consumer": "RobinL",
+        "source": "RobinL_Activity8PainPoints_2025-06-30_064019_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "um as far as doing a similar project again with these lights um what i would do differently is you know honestly i would get a whole bunch more of these so um yeah i've got a bunch now in different areas of the home but um i would get a bunch more i'm i'm thinking about it actually i might even get i don't know maybe 15 of them more and they also double as uh lighting the floor as you're walking down a dark hallway so in case you don't want to turn all the lights on you know so they they actually do other things um but you know they're mostly just for decor but i'm um uh exploring other options uh using these things so really as far as uh the features um i like them because they are motion so they detect motion so i can walk by my uh displays my artwork or whatever and they just light up and it's just kind of nice you know having that um you know as far as any other uh tools that can make it easier that's about as easy as it gets and i'm very happy uh to have found those",
+        "consumer": "RobinL",
+        "source": "RobinL_Activity9FutureImprovements_2025-06-30_064350_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative because I do change my different rooms in my house a lot because my house is full of lots of color",
+        "consumer": "TiffanyO",
+        "source": "TiffanyO_Q1_2025-06-19_112125_1"
+      },
+      {
+        "job": "Showcase Home",
+        "quote": "They show off homes that are amazing, but they have very unique decorative styles",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity2YourStyleandPhilosophy_2025-06-30_100112_1"
+      },
+      {
+        "job": "Demonstrate DIY Competence",
+        "quote": "No need to hire an expensive installer",
+        "consumer": "FarahN",
+        "source": "FarahN_Q1_2025-06-20_064419_1"
+      },
+      {
+        "job": "Impress Visitors",
+        "quote": "So, as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel, as well as the new art that hangs right above it",
+        "consumer": "GeneK",
+        "source": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1"
+      },
+      {
+        "job": "Impress Visitors",
+        "quote": "Okay, so my approach to home decor is one that meets our tastes, my wife and I's tastes, but also one in which people would notice when they come into our home, family or friends, meaning, wow, that's different, that's unique, that's something I might want to do",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity2YourStyleandPhilosophy_2025-06-30_100112_1"
+      },
+      {
+        "job": "Impress Visitors",
+        "quote": "We have some pieces there and they have lots of styles and material designs that we are impressed by as well",
+        "consumer": "WilliamS",
+        "source": "WilliamS_Activity2YourStyleandPhilosophy_2025-06-30_100112_1"
+      }
+    ]
+  },
+  "consumer_participation": {
+    "AlanG": 2,
+    "AlysonT": 5,
+    "CarrieS": 2,
+    "ChristianL": 2,
+    "DianaL": 10,
+    "EllenB": 2,
+    "FarahN": 44,
+    "FrederickK": 34,
+    "GeneK": 33,
+    "MarkR": 27,
+    "RachelL": 1,
+    "RobinL": 3,
+    "TiffanyO": 20,
+    "TylrD": 50,
+    "WilliamS": 9
+  }
+}

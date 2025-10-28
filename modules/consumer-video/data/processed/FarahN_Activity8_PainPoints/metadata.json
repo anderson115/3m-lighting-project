@@ -1,0 +1,16 @@
+{
+  "video_id": "FarahN_Activity8_PainPoints",
+  "participant": "FarahN",
+  "activity": "Activity8_PainPoints",
+  "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/FarahN_Activity8PainPoints_2025-07-02_083153_1.MOV",
+  "processed_at": "2025-10-21T23:21:15.724385",
+  "status": {
+    "audio": "success",
+    "transcript": "success",
+    "frames": "success",
+    "emotion": "success"
+  },
+  "errors": [],
+  "frame_count": 27,
+  "processing_time_seconds": 277.11
+}

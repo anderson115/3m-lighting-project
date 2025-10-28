@@ -1,0 +1,44 @@
+{
+  "source_video": "GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1.webm",
+  "text": "I look in magazines, I look online on sites like Amazon, Wayfair, Home Depot, Lowe's, just to get some ideas on what's available. I think I've looked in some social media sites as well, just to see what possibilities exist and what's available, you know, like hot wired, plugged in, battery operated. We also went to several stores, IKEA is one, Home Depot and Lowe's in-store, Cosco has a selection of lighting, we all went there to look for ideas, inspiration, options and design.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 51.66,
+  "segments": [
+    {
+      "start": 1.49,
+      "end": 15.17,
+      "text": "I look in magazines, I look online on sites like Amazon, Wayfair, Home Depot, Lowe's,"
+    },
+    {
+      "start": 15.17,
+      "end": 17.93,
+      "text": "just to get some ideas on what's available."
+    },
+    {
+      "start": 17.93,
+      "end": 27.55,
+      "text": "I think I've looked in some social media sites as well, just to see what possibilities exist"
+    },
+    {
+      "start": 27.55,
+      "end": 34.63,
+      "text": "and what's available, you know, like hot wired, plugged in, battery operated."
+    },
+    {
+      "start": 34.63,
+      "end": 42.05,
+      "text": "We also went to several stores, IKEA is one, Home Depot and Lowe's in-store, Cosco has"
+    },
+    {
+      "start": 42.05,
+      "end": 50.61,
+      "text": "a selection of lighting, we all went there to look for ideas, inspiration, options and"
+    },
+    {
+      "start": 50.61,
+      "end": 51.05,
+      "text": "design."
+    }
+  ]
+}

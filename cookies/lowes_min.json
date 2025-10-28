@@ -1,0 +1,83 @@
+[
+  {
+    "name": "ak_bmsc",
+    "value": "CCA414A5E2AB7C5B662A8FA9FBEC7712~000000000000000000000000000000~YAAQOQw0F4nYwPOZAQAAVstiFx0NySIM3fUxB+QKtblAdBik3lU1l7pT7oMKqLZ6+Uh9h6gNYZY5evMk3ZR/oFCQeuW+tceqW7MM9jFxt7bvcIlN/+ZIt0mGEflf+gACzj10jPSG+TY1rfpbfjo3uekWN24nYpJTAMBU4EbLEhU5XEvYQAp/w8toMzx2ZlCdry5kWkG6eejsmz3g3dBYHRKVYtxBD9WySsGhwAdsJvoB0Pod2blWGULkRMt4Y2AjBukbTO5tCIajWFs8BvnGGfvDqGZ4seNRgVFYCfvUgbvNqck+VPPRI3gkoSzaTgnHDQqkfoKA3z8vyBK85devi9yoRZQ1rmWqh0fRg0R1MO+iE3+0b+TviJ3lPkl37n+ENvYxDZPG/KNa4zUdzZTGRmJ6unoqis8zch2ANcJRXQZKHvXHaGz/igSOWNgODMzdnfAjY1OotOXQrdRYddLVTPDoHxS1SO1pz8SkhTDP00+AlHOo",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1761333997,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "_abck",
+    "value": "DE61254F26123168B3070DBB55BDE931~0~YAAQOQw0F4fcwPOZAQAAp9RiFw6ltBnt3oEWkEwvyTDZF0qDvk0zgfqe3ajhbkItsFqLeDAuKs0+kPy7ApDzUAN5++vxlrxgD9bclJ0LZSEiDTuOPHqsh42HN5Suz/w8zJkOerx7ovpsp0NwlxQekJayNCK9vfSPrmbmzf213hKUWBaZ1xoyGVq3nezqik8ast7OdnXteU6OscpMiK7McljgeE7kqGxUZYlx+/DugSa6SolpqTCFXWcoMvgHEVLM8Ra7pu6NKFRQl6RTFDCBT3u3Mo5g+TgWQuKMbv1JO5fG4mOUDIUI/68D9EiFtlm6xZ5Nh+RC+6dgKgfGD33NB6TTPYOvAWs9oRgDt7zr1jrt3LcDux83JD9Q6gyFbepF/DSO9h+ypmRiVoaDUDZHwH+g2Io1m9Mvrv17ccXkwqV+NIEIj+p4XfsHA/wkbnxpaXzBNJcc2fOGLgsPAPQ1RepsemiqFsnb0ViK1avZLb/XsaWob4DBOhjxIjFpbxKW/dBb2kfWr+hlev9Oqg8udp8UBmVOSAtSrV6priKCRwE4H4mW5DUnrdd/IiLXwDNFR/ElP5BOWkDJ2bAB/jb5PXs+Bv7HIiGkZpuYmeenGnKi3hAvd+CiYOxvm47Ea5/UsNffHL71SOJlDTM+aIGcRNa/tUpZE8hTmHAapVW+7qiV2nlyhrL6sny5xQQcI3Z9YDBYzy1V5LqxvvtnSXRAWLXN8pjTtWiVPynr26LFk9v3LlugloSFXP+r4mUKri6cddwMTfWfzFn4r3xaQsSA33FOyueb/+RbYKTaj0dvz2Tzrxjj53lSLsObIoaifFHY70Wf5HnlA6OvZ3As7HCIxg4usOtdnIVW5witYx6Ezj8KivrvwJ+Pk2pM9hN4NcpH4i2TN4dJFlDRNVcxAXNeGZKyygBIvWeL+KBhfQ==~-1~-1~-1~AAQAAAAE/////5v6cUvRKf3d/M2KDUqfCjiJb/lVqvCm4P/af9SAvgaNJdJtP0lznh01cMj3/wEeQHSeiPd10nwN8oALLgZ8PuQAl2Y+NtJBAG7HJ3xeVXZqmMjUr313liRR149gJzgNz1zA04w%3d~-1",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1792864944,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "bm_sv",
+    "value": "EAD621C1B2F1735E385D81D5CF4DAD42~YAAQOQw0FzNIwfOZAQAAg+1jFx1QjcL3+tpMTXEhDCpbw8uYiwbrn/HQk3CqWNZ8sPxolUgH3frKRGgH+rplIRD9Ti+tX2Dkz5SenYs3e4iMAIgOJWPDQ4EdLZV5rELWr2ElcESGWKFAKC5qrjZnoQMaIbykb3OOJGIv5W3P2m3fW6vbbslEBWcSW0q/3PHvshmG1AOBMXfnplSfKaym+NW6jXSUTK1Y0eue4isHX4sfu0NdU626FlN6RyrvTuSiFw==~1",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1761334031,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "bm_sz",
+    "value": "D25321FD4EDD3547CA039CD7EFD11166~YAAQOQw0F43XwPOZAQAAy8hiFx3IGldf9v7CvPzZ7n9gTh/tEwizgRArTpCCYapk0SY6KAXQNf7epwSXfFpwqqewTeUDmxf/bM9X3Ud16Y8MJ0vhvbd0d6S/BH8SmLeY2v5CvJJTfJ60IIeizib+Gl8ICdnnUOFigdlBEW/gBhITIdUMkKKUlzK65T8lMrQIsxj5YKbSAc6QVgpDKKxwV3ce/nos5SKeY8sUzC0DEsDJW1aFlWVqfHncyNh2yt00t8twXIjPi/QyTFoTgVYV3hLhFxEJuvYnObZkfgZIpIjO8DrNUnBUjHQnjBaJTKynU8OKAqZpcdWla2oCZKtqyuqxb31CcggXETlJINYQF/W4j554ues/AougMadqXJcvDcl87p6ju0II6s5hAh8W+IxT4kHn3J2tG12/C4enVf6w1uxaGgRdMD5nwlj6pckcvAN9KbuHu7P1yQMfKHUd5mzbKFYdjdCI+w==~4277057~4338229",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1764007416,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "bm_lso",
+    "value": "3BD3DEC6A178EBE85DE6629C59E919BF4B919F170FF762EAB3D9114584678BD0~YAAQOQw0F4vXwPOZAQAAy8hiFwWQwz7UzDmU+ilivamTJXnf3I86qZS1ut2z3Il/MA+2cKg6O+h1l2NcArioRc5WQvqy2X+5OoyJyHkACQAvK/7pHm6Kg68NHY68rfgP/l8b3PoGI2nZ/zWsbM6EQYkU2eiGwbQz3Gk13UaI9SVFTWQjs1818j5hm2x6Y9Hq+lTWuf94Khsy18TheZrzDt8qD89eTjPyKonL1ymllTqr8vPPlW7kUFAsskHSMSNsLtTyM4vI5UcDcMLxI9djm01m4Zh93YDbsZS+YFecdc0/7xMlMLXmdY55J1pMvPK/Jt5IceSgdD97FMOS+4pZv4KjKyMxl7hLGe4o0o2J6dTWXmkUMmHattikiEs2ZcuQ9gNnChv69G3KqY9gTu9E4GbU4s6v0NgG46xqwAzuiG9AKUeLBuGoWFqswQBG61+qNxbX4rhrrlooEsw=^1761328942711",
+    "domain": ".www.lowes.com",
+    "path": "/",
+    "expires": 1763920942,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "bm_mi",
+    "value": "EC72A3F9426F6473A92390D5FC4C9F87~YAAQlJTYF2swpfOZAQAAuz5CFx3cWcSKQGfYaI/ONABJTMXQLbefNbR6BHYXgtRtQ6lfSUHzrQrqI5yS2BEuKPZKgbbAVnAW2M0byhLqJHei+pcRjyI9FMg7OiM3KxKL6nDoe84RqG8oWBsLDYXb8iAdS6Ab4eiX9hXnVjNMucZNblMH8/MWzPgCf981Qka5WKaB+gdIeFqw1g30raJ0Ikfb/yyexLHk4M+VHjjaY/WY2VEJ6+0nO/NV2mO9obR87bpLBCClxOBYnT/b6PFw5R20/6v7xt43aqzIGWnVU9lqMcwqpL7si4tvufn5EJdPnLvV~1",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1761333998,
+    "httpOnly": false,
+    "secure": false
+  },
+  {
+    "name": "AKA_A2",
+    "value": "A",
+    "domain": ".lowes.com",
+    "path": "/",
+    "expires": 1761330397,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "akaalb_prod_single",
+    "value": "1761415350~op=PROD_GCP_EAST_DFLT:PROD_DEFAULT_EAST|~rv=1~m=PROD_DEFAULT_EAST:0|~os=352fb8a62db4e37e16b221fb4cefd635~id=61be14ceffa17abc92f95d83c3fb02e0",
+    "domain": "www.lowes.com",
+    "path": "/",
+    "expires": 1761415350,
+    "httpOnly": true,
+    "secure": true
+  },
+  {
+    "name": "akaalb_prod_dual",
+    "value": "1761415415~op=PROD_GCP_EAST_CTRL_DFLT:PROD_DEFAULT_CTRL|~rv=31~m=PROD_DEFAULT_CTRL:0|~os=352fb8a62db4e37e16b221fb4cefd635~id=5a7b486356e4bce54afe1cc2e71bf083",
+    "domain": "www.lowes.com",
+    "path": "/",
+    "expires": 1761415415,
+    "httpOnly": true,
+    "secure": true
+  }
+]

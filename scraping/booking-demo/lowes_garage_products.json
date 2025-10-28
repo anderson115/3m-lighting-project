@@ -1,0 +1,995 @@
+{
+  "retailer": "Lowes",
+  "collected_at": "2025-10-24T21:55:13.089Z",
+  "method": "search_based_extraction",
+  "search_queries": [
+    "garage organization system",
+    "garage wall organizer",
+    "garage shelving unit",
+    "garage storage cabinet",
+    "garage hooks and hangers"
+  ],
+  "product_count": 98,
+  "products": [
+    {
+      "title": "Kobalt 32 in Black Plastic Multipurpose Storage Rail",
+      "link": "https://www.lowes.com/pd/Kobalt-32-in-Black-Plastic-Multipurpose-Storage-Rail/5002039549",
+      "sku": "5002039549",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator 2 Pack 48 in x 0 75 in Slatwall Insert",
+      "link": "https://www.lowes.com/pd/Gladiator-2-Pack-48-in-x-0-75-in-Slatwall-Insert/50098530",
+      "sku": "50098530",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "CRAFTSMAN VersaTrack 20 Piece White and Black Composite Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VersaTrack-20-Piece-White-and-Black-Composite-Multipurpose-Storage-Rail-System/1000462541",
+      "sku": "1000462541",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator GearTrack 31 Piece Gladiator Grey Steel Multipurpose Accessory Kit",
+      "link": "https://www.lowes.com/pd/Gladiator-GearTrack-31-Piece-Gladiator-Grey-Steel-Multipurpose-Accessory-Kit/4196367",
+      "sku": "4196367",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator Twin Granite Steel Hook",
+      "link": "https://www.lowes.com/pd/Gladiator-Twin-Granite-Steel-Hook/3142567",
+      "sku": "3142567",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Fleximounts Adjustable Height Overhead Garage Storage 1000 lb in Black Steel 48 in W x 96 in D",
+      "link": "https://www.lowes.com/pd/Fleximounts-Adjustable-Height-Overhead-Garage-Storage-1000-lb-in-Black-Steel-48-in-W-x-96-in-D/5015569391",
+      "sku": "5015569391",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator GearTrack Light Gray Composite Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Gladiator-GearTrack-Light-Gray-Composite-Multipurpose-Storage-Rail-System/4196257",
+      "sku": "4196257",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "CRAFTSMAN VersaTrack White Composite Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VersaTrack-White-Composite-Multipurpose-Storage-Rail-System/1000756414",
+      "sku": "1000756414",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 16 375 in Satin Nickel Steel Multipurpose Bracket",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-16-375-in-Satin-Nickel-Steel-Multipurpose-Bracket/5014169079",
+      "sku": "5014169079",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 48 in Satin Nickel Steel Hose Wire Shelf",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-48-in-Satin-Nickel-Steel-Hose-Wire-Shelf/5014169089",
+      "sku": "5014169089",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 24 Piece Black Steel Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-24-Piece-Black-Steel-Multipurpose-Storage-Rail-System/5014169135",
+      "sku": "5014169135",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 12 Piece Black Silver Steel Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-12-Piece-Black-Silver-Steel-Multipurpose-Storage-Rail-System/5014169141",
+      "sku": "5014169141",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "CRAFTSMAN VERSATRACK 2 3 in Black Composite Multipurpose Wire Shelf",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VERSATRACK-2-3-in-Black-Composite-Multipurpose-Wire-Shelf/5013943553",
+      "sku": "5013943553",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "CRAFTSMAN VersaTrack Black Steel Multipurpose Large Hook",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VersaTrack-Black-Steel-Multipurpose-Large-Hook/1000756484",
+      "sku": "1000756484",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator GearWall 2 Piece 48 in Smoke Composite Multipurpose Wall Panel",
+      "link": "https://www.lowes.com/pd/Gladiator-GearWall-2-Piece-48-in-Smoke-Composite-Multipurpose-Wall-Panel/5013556797",
+      "sku": "5013556797",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 20 Piece Black Silver Steel Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-20-Piece-Black-Silver-Steel-Multipurpose-Storage-Rail-System/5014169113",
+      "sku": "5014169113",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Gladiator 1 in Black Steel S Hook",
+      "link": "https://www.lowes.com/pd/Gladiator-1-in-Black-Steel-S-Hook/1000373017",
+      "sku": "1000373017",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "CRAFTSMAN VersaTrack Black Steel Multipurpose Hook",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VersaTrack-Black-Steel-Multipurpose-Hook/1000756464",
+      "sku": "1000756464",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Kobalt K Rail 8 in Multiple Colors Finishes Steel Multipurpose Hook",
+      "link": "https://www.lowes.com/pd/Kobalt-K-Rail-8-in-Multiple-Colors-Finishes-Steel-Multipurpose-Hook/5013871715",
+      "sku": "5013871715",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "ClosetMaid Closet Accessories 16 375 in W x 8 25 in H x 15 75 in D White Steel Basket",
+      "link": "https://www.lowes.com/pd/ClosetMaid-Closet-Accessories-16-375-in-W-x-8-25-in-H-x-15-75-in-D-White-Steel-Basket/1001097500",
+      "sku": "1001097500",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage organization system"
+    },
+    {
+      "title": "Project Source Utility Shelving Particleboard Heavy Duty 5 Tier Utility Shelving Unit 48 in W x 24 in D x 72 in H Black 800 lb Capacity Per Shelf",
+      "link": "https://www.lowes.com/pd/Project-Source-Utility-Shelving-Particleboard-Heavy-Duty-5-Tier-Utility-Shelving-Unit-48-in-W-x-24-in-D-x-72-in-H-Black-800-lb-Capacity-Per-Shelf/5015180971",
+      "sku": "5015180971",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Kobalt Kobalt 24 in D x 84 in W x 84 in H Heavy Duty 4 Tier Steel Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-24-in-D-x-84-in-W-x-84-in-H-Heavy-Duty-4-Tier-Steel-Freestanding-Shelving-Unit/1003125234",
+      "sku": "1003125234",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Gladiator 24 in D x 77 in W x 72 in H 4 Tier Steel Freestanding Shelving Unit NSF Safety Listing",
+      "link": "https://www.lowes.com/pd/Gladiator-24-in-D-x-77-in-W-x-72-in-H-4-Tier-Steel-Freestanding-Shelving-Unit-NSF-Safety-Listing/1000003004",
+      "sku": "1000003004",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Blue Hawk 52 625 in H x 34 75 in W x 14 63 in D 4 Tier Plastic Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-52-625-in-H-x-34-75-in-W-x-14-63-in-D-4-Tier-Plastic-Freestanding-Shelving-Unit/50061465",
+      "sku": "50061465",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "COMMANDER 20 in D x 48 in W x 72 in H 5 Tier Plastic Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/COMMANDER-20-in-D-x-48-in-W-x-72-in-H-5-Tier-Plastic-Freestanding-Shelving-Unit/1000626245",
+      "sku": "1000626245",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Gladiator Steel Heavy Duty 4 Tier Utility Shelving Unit 60 in W x 18 in D x 72 in H",
+      "link": "https://www.lowes.com/pd/Gladiator-Steel-Heavy-Duty-4-Tier-Utility-Shelving-Unit-60-in-W-x-18-in-D-x-72-in-H/5013870311",
+      "sku": "5013870311",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Winado Steel Heavy Duty 5 Tier Utility Shelving Unit 43 31 in W x 17 72 in D x 70 87 in H Silver 800 lb Capacity Per Shelf",
+      "link": "https://www.lowes.com/pd/Winado-Steel-Heavy-Duty-5-Tier-Utility-Shelving-Unit-43-31-in-W-x-17-72-in-D-x-70-87-in-H-Silver-800-lb-Capacity-Per-Shelf/5015235439",
+      "sku": "5015235439",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "VEIKOUS 5 Tier Heavy Duty Black Metal Utility shelving unit 48 in W x 20 in D x 72 in H",
+      "link": "https://www.lowes.com/pd/VEIKOUS-5-Tier-Heavy-Duty-Black-Metal-Utility-shelving-unit-48-in-W-x-20-in-D-x-72-in-H/7150742",
+      "sku": "7150742",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Project Source 72 in H x 36 in W x 18 in D 5 Tier White Plastic Utility Shelving Unit",
+      "link": "https://www.lowes.com/pd/Project-Source-72-in-H-x-36-in-W-x-18-in-D-5-Tier-White-Plastic-Utility-Shelving-Unit/5001749049",
+      "sku": "5001749049",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Kobalt Kobalt 24 in D x 77 in W x 72 in H Heavy Duty 4 Tier Steel Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-24-in-D-x-77-in-W-x-72-in-H-Heavy-Duty-4-Tier-Steel-Freestanding-Shelving-Unit/1003094276",
+      "sku": "1003094276",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Style Selections 18 in D x 47 7 in W x 72 in H 5 Tier Steel Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Style-Selections-18-in-D-x-47-7-in-W-x-72-in-H-5-Tier-Steel-Freestanding-Shelving-Unit/999990408",
+      "sku": "999990408",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Style Selections 18 in D x 47 7 in W x 72 in H 5 Tier Steel Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Style-Selections-18-in-D-x-47-7-in-W-x-72-in-H-5-Tier-Steel-Freestanding-Shelving-Unit/999990410",
+      "sku": "999990410",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "COMMANDER 27 Gallon 108 Quart Black Yellow Tote with Standard Snap Lid",
+      "link": "https://www.lowes.com/pd/COMMANDER-27-Gallon-108-Quart-Black-Yellow-Tote-with-Standard-Snap-Lid/3551290",
+      "sku": "3551290",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Blue Hawk 72 in H x 36 in W x 18 in D 5 Tier Plastic Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-72-in-H-x-36-in-W-x-18-in-D-5-Tier-Plastic-Freestanding-Shelving-Unit/3432386",
+      "sku": "3432386",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Blue Hawk 24 in D x 36 in W x 72 in H 5 Tier Plastic Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-24-in-D-x-36-in-W-x-72-in-H-5-Tier-Plastic-Freestanding-Shelving-Unit/3432388",
+      "sku": "3432388",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Project Source Utility Shelving Metal Heavy Duty 5 Tier Utility Shelving Unit 48 in W x 24 in D x 72 in H Black 1000 lb Capacity Per Shelf",
+      "link": "https://www.lowes.com/pd/Project-Source-Utility-Shelving-Metal-Heavy-Duty-5-Tier-Utility-Shelving-Unit-48-in-W-x-24-in-D-x-72-in-H-Black-1000-lb-Capacity-Per-Shelf/5015180977",
+      "sku": "5015180977",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Project Source 5 Tier 20x24 Commander Ventilated Shelf",
+      "link": "https://www.lowes.com/pd/Project-Source-5-Tier-20x24-Commander-Ventilated-Shelf/5013943285",
+      "sku": "5013943285",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "ToolCat Bookcases",
+      "link": "https://www.lowes.com/pd/ToolCat-Bookcases/5015748713",
+      "sku": "5015748713",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Style Selections 14 in D x 35 7 in W x 53 in H 4 Tier Steel Freestanding Shelving Unit",
+      "link": "https://www.lowes.com/pd/Style-Selections-14-in-D-x-35-7-in-W-x-53-in-H-4-Tier-Steel-Freestanding-Shelving-Unit/999990404",
+      "sku": "999990404",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 25 in Satin Nickel Steel Multipurpose Shelving Upright",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-25-in-Satin-Nickel-Steel-Multipurpose-Shelving-Upright/5014169093",
+      "sku": "5014169093",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage shelving unit"
+    },
+    {
+      "title": "Gladiator Ready to Assemble Large GearBox 36 in W x 72 in H x 18 in D Steel Freestanding or Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-Large-GearBox-36-in-W-x-72-in-H-x-18-in-D-Steel-Freestanding-or-Wall-Mounted-Garage-Cabinet/3773589",
+      "sku": "3773589",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Gladiator Ready to Assemble Large GearBox 36 in W x 72 in H x 18 in D Steel Freestanding or Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-Large-GearBox-36-in-W-x-72-in-H-x-18-in-D-Steel-Freestanding-or-Wall-Mounted-Garage-Cabinet/5013794319",
+      "sku": "5013794319",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Gladiator Ready to Assemble Large GearBox 36 in W x 72 in H x 18 in D Steel Freestanding or Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-Large-GearBox-36-in-W-x-72-in-H-x-18-in-D-Steel-Freestanding-or-Wall-Mounted-Garage-Cabinet/5013766623",
+      "sku": "5013766623",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "ESTATE by RSI 38 5 in W Wood Composite Freestanding Utility Storage Cabinet",
+      "link": "https://www.lowes.com/pd/ESTATE-by-RSI-38-5-in-W-Wood-Composite-Freestanding-Utility-Storage-Cabinet/3400038",
+      "sku": "3400038",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "ESTATE by RSI 38 5 in W Wood Composite Freestanding Utility Storage Cabinet",
+      "link": "https://www.lowes.com/pd/ESTATE-by-RSI-38-5-in-W-Wood-Composite-Freestanding-Utility-Storage-Cabinet/1002648486",
+      "sku": "1002648486",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN Steel Freestanding Garage Cabinet in Black 48 in W x 74 in H x 18 in D",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-Steel-Freestanding-Garage-Cabinet-in-Black-48-in-W-x-74-in-H-x-18-in-D/5014676401",
+      "sku": "5014676401",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN Steel Freestanding Garage Cabinet in Black 48 in W x 74 in H x 18 in D",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-Steel-Freestanding-Garage-Cabinet-in-Black-48-in-W-x-74-in-H-x-18-in-D/1000756384",
+      "sku": "1000756384",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN 1000 Series 26 5 in W x 32 5 in H 4 Drawer Steel Rolling Tool Cabinet Black",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-1000-Series-26-5-in-W-x-32-5-in-H-4-Drawer-Steel-Rolling-Tool-Cabinet-Black/1000746798",
+      "sku": "1000746798",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN CFT 52 In Blk 10 Drwr Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-CFT-52-In-Blk-10-Drwr-Cabinet/5002905279",
+      "sku": "5002905279",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN 2000 Series 32 in W x 74 in H x 18 in D Steel Freestanding Garage Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-2000-Series-32-in-W-x-74-in-H-x-18-in-D-Steel-Freestanding-Garage-Cabinet/1000476967",
+      "sku": "1000476967",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN 2000 Series 32 in W x 74 in H x 18 in D Steel Freestanding Garage Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-2000-Series-32-in-W-x-74-in-H-x-18-in-D-Steel-Freestanding-Garage-Cabinet/5014676407",
+      "sku": "5014676407",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN CFT 52 IN 10 Drwr Cabinet Red",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-CFT-52-IN-10-Drwr-Cabinet-Red/5002904163",
+      "sku": "5002904163",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN CFT 27 In Blk 5 Drwr Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-CFT-27-In-Blk-5-Drwr-Cabinet/5002904809",
+      "sku": "5002904809",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN CFT 27 In Blk 5 Drwr Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-CFT-27-In-Blk-5-Drwr-Cabinet/5002905283",
+      "sku": "5002905283",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Kobalt Kobalt 36 in 2 Door Cabinet",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-36-in-2-Door-Cabinet/5000045513",
+      "sku": "5000045513",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN 2000 Series 48 in W x 74 in H x 18 in D Steel Freestanding Garage Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-2000-Series-48-in-W-x-74-in-H-x-18-in-D-Steel-Freestanding-Garage-Cabinet/1000756384",
+      "sku": "1000756384",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Gladiator Ready to Assemble Extra Large GearBox 48 in W x 72 in H x 18 in D Steel Freestanding or Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-Extra-Large-GearBox-48-in-W-x-72-in-H-x-18-in-D-Steel-Freestanding-or-Wall-Mounted-Garage-Cabinet/3593768",
+      "sku": "3593768",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Project Source Project Source 35 x74 XL Pro Resin Cabinet",
+      "link": "https://www.lowes.com/pd/Project-Source-Project-Source-35-x74-XL-Pro-Resin-Cabinet/5014964341",
+      "sku": "5014964341",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Kobalt Kobalt 48 in 2 Door Cabinet",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-48-in-2-Door-Cabinet/5000045521",
+      "sku": "5000045521",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Gladiator Ready to Assemble Full Door Wall GearBox 28 in W x 28 in H x 12 in D Steel Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-Full-Door-Wall-GearBox-28-in-W-x-28-in-H-x-12-in-D-Steel-Wall-Mounted-Garage-Cabinet/3830573",
+      "sku": "3830573",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "CRAFTSMAN 2000 Series 28 in W x 28 in H x 12 in D Steel Wall Mounted Garage Cabinet",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-2000-Series-28-in-W-x-28-in-H-x-12-in-D-Steel-Wall-Mounted-Garage-Cabinet/1000756394",
+      "sku": "1000756394",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Stor It All 38 5 in W Wood Composite Freestanding Utility Storage Cabinet",
+      "link": "https://www.lowes.com/pd/Stor-It-All-38-5-in-W-Wood-Composite-Freestanding-Utility-Storage-Cabinet/50098570",
+      "sku": "50098570",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Klair Living Nova Composite Wood Wall mounted Garage Cabinet in Gray",
+      "link": "https://www.lowes.com/pd/Klair-Living-Nova-Composite-Wood-Wall-mounted-Garage-Cabinet-in-Gray/5014737279",
+      "sku": "5014737279",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Project Source Project Source 27 x 36 Resin Stackable Base Cabinet",
+      "link": "https://www.lowes.com/pd/Project-Source-Project-Source-27-x-36-Resin-Stackable-Base-Cabinet/5014964339",
+      "sku": "5014964339",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Gladiator Ready to Assemble 3 4 Door GearBox 28 in W x 31 in H x 18 in D Steel Freestanding Garage Cabinet",
+      "link": "https://www.lowes.com/pd/Gladiator-Ready-to-Assemble-3-4-Door-GearBox-28-in-W-x-31-in-H-x-18-in-D-Steel-Freestanding-Garage-Cabinet/3733809",
+      "sku": "3733809",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Project Source Project Source 35 x 72 Resin Cabinet",
+      "link": "https://www.lowes.com/pd/Project-Source-Project-Source-35-x-72-Resin-Cabinet/5014964337",
+      "sku": "5014964337",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Kobalt Kobalt 28 in 2 Door Base Cabinet",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-28-in-2-Door-Base-Cabinet/5000045523",
+      "sku": "5000045523",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Kobalt Kobalt 28 in 2 Door Wall Cabinet",
+      "link": "https://www.lowes.com/pd/Kobalt-Kobalt-28-in-2-Door-Wall-Cabinet/5000045519",
+      "sku": "5000045519",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Estate 39 in Shaker Gray MP Cabinet",
+      "link": "https://www.lowes.com/pd/Estate-39-in-Shaker-Gray-MP-Cabinet/1002648486",
+      "sku": "1002648486",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage storage cabinet"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 10 in Silver Steel Multipurpose Hook",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-10-in-Silver-Steel-Multipurpose-Hook/5014169043",
+      "sku": "5014169043",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Project Source Multipurpose Hook 10 Pack Gray Steel",
+      "link": "https://www.lowes.com/pd/Project-Source-Multipurpose-Hook-10-Pack-Gray-Steel/1000344007",
+      "sku": "1000344007",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 6 Piece Black and Silver Steel Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-6-Piece-Black-and-Silver-Steel-Multipurpose-Storage-Rail-System/5014169115",
+      "sku": "5014169115",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "AOBEN Garage Hooks Heavy Duty Steel Garage Storage Hooks Utility Tool Hangers and Combinable Wall Mount for Organizing Ladder Hold Chairs Heavy Tools 4 Pack Large U",
+      "link": "https://www.lowes.com/pd/AOBEN-Garage-Hooks-Heavy-Duty-Steel-Garage-Storage-Hooks-Utility-Tool-Hangers-and-Combinable-Wall-Mount-for-Organizing-Ladder-Hold-Chairs-Heavy-Tools-4-Pack-Large-U/7174188",
+      "sku": "7174188",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Kobalt Multipurpose Hook 2 Pack 4 9 in Multiple Colors Finishes Steel",
+      "link": "https://www.lowes.com/pd/Kobalt-Multipurpose-Hook-2-Pack-4-9-in-Multiple-Colors-Finishes-Steel/5013871679",
+      "sku": "5013871679",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 10 83 in Silver Steel Utility Hook",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-10-83-in-Silver-Steel-Utility-Hook/50218529",
+      "sku": "50218529",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Sttoraboks Multi tool Hanger 51 in Black Steel",
+      "link": "https://www.lowes.com/pd/Sttoraboks-Multi-tool-Hanger-51-in-Black-Steel/5014821397",
+      "sku": "5014821397",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 8 Pack Black Steel Multipurpose Hook",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-8-Pack-Black-Steel-Multipurpose-Hook/1000344015",
+      "sku": "1000344015",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "AOBEN Garage Hooks Heavy Duty Steel Garage Storage Hooks Utility Tool Hangers and Combinable Wall Mount for Organizing Ladder Hold Chairs Heavy Tools 4 Pack Large U",
+      "link": "https://www.lowes.com/pd/AOBEN-Garage-Hooks-Heavy-Duty-Steel-Garage-Storage-Hooks-Utility-Tool-Hangers-and-Combinable-Wall-Mount-for-Organizing-Ladder-Hold-Chairs-Heavy-Tools-4-Pack-Large-U/7174188?vid=507164",
+      "sku": "7174188",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 4 53 in Gray Steel Utility Hook",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-4-53-in-Gray-Steel-Utility-Hook/50218515",
+      "sku": "50218515",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "AOBEN Garage Hooks 24Pack Heavy Duty Garage Hanger Organizer AntiSlip Double Wall Garage Storage Hooks for Ladder Power Tool Bike Ropes 23 Hooks 1 hoder Strap Gray",
+      "link": "https://www.lowes.com/pd/AOBEN-Garage-Hooks-24Pack-Heavy-Duty-Garage-Hanger-Organizer-AntiSlip-Double-Wall-Garage-Storage-Hooks-for-Ladder-Power-Tool-Bike-Ropes-23-Hooks-1-hoder-Strap-Gray/7174175?vid=507164",
+      "sku": "7174175",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Gladiator Entryway GearTrack Pack 9 Piece Light Grey Multipurpose Storage Rail System",
+      "link": "https://www.lowes.com/pd/Gladiator-Entryway-GearTrack-Pack-9-Piece-Light-Grey-Multipurpose-Storage-Rail-System/1000402685",
+      "sku": "1000402685",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 2 Pack 7 in Gray Steel Multi Tool Hangers",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-2-Pack-7-in-Gray-Steel-Multi-Tool-Hangers/50218513",
+      "sku": "50218513",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk Gray Steel Multi Tool Hanger",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-Gray-Steel-Multi-Tool-Hanger/50218521",
+      "sku": "50218521",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "AOBEN Garage Hooks Heavy Duty Steel Garage Storage Hooks Utility Tool Hangers and Combinable Wall Mount for Organizing Ladder Hold Chairs Heavy Tools Medium U 10 Pack",
+      "link": "https://www.lowes.com/pd/AOBEN-Garage-Hooks-Heavy-Duty-Steel-Garage-Storage-Hooks-Utility-Tool-Hangers-and-Combinable-Wall-Mount-for-Organizing-Ladder-Hold-Chairs-Heavy-Tools-Medium-U-10-Pack/7174162?vid=507164",
+      "sku": "7174162",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Rubbermaid FastTrack Garage 48 in Black Silver Steel Multipurpose Storage Rail",
+      "link": "https://www.lowes.com/pd/Rubbermaid-FastTrack-Garage-48-in-Black-Silver-Steel-Multipurpose-Storage-Rail/5014169057",
+      "sku": "5014169057",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Hillman 0 25 in Zinc plated Steel S hook",
+      "link": "https://www.lowes.com/pd/Hillman-0-25-in-Zinc-plated-Steel-S-hook/3823307",
+      "sku": "3823307",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "AOBEN Garage Hooks Heavy Duty Steel Garage Storage Hooks Utility Tool Hangers and Combinable Wall Mount for Organizing Ladders Bikes Hoses and More Equipment Small J 4 Pack",
+      "link": "https://www.lowes.com/pd/AOBEN-Garage-Hooks-Heavy-Duty-Steel-Garage-Storage-Hooks-Utility-Tool-Hangers-and-Combinable-Wall-Mount-for-Organizing-Ladders-Bikes-Hoses-and-More-Equipment-Small-J-4-Pack/7174173?vid=507164",
+      "sku": "7174173",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 12 4 in Gray Steel Shelf Hanger",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-12-4-in-Gray-Steel-Shelf-Hanger/50218553",
+      "sku": "50218553",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 1 Piece Steel Pegboard Hook Actual 6 in x 1 38 in",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-1-Piece-Steel-Pegboard-Hook-Actual-6-in-x-1-38-in/50218543",
+      "sku": "50218543",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Gladiator Utility Hook 4 5 in Black Steel Utility Hanger",
+      "link": "https://www.lowes.com/pd/Gladiator-Utility-Hook-4-5-in-Black-Steel-Utility-Hanger/3051817",
+      "sku": "3051817",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Gladiator Deep Hook 11 in Black Steel Multipurpose Hook",
+      "link": "https://www.lowes.com/pd/Gladiator-Deep-Hook-11-in-Black-Steel-Multipurpose-Hook/3015022",
+      "sku": "3015022",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Gladiator GearTrack GearWall 1 Bike Black Steel Vertical Bike Hook",
+      "link": "https://www.lowes.com/pd/Gladiator-GearTrack-GearWall-1-Bike-Black-Steel-Vertical-Bike-Hook/50042354",
+      "sku": "50042354",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Style Selections Steel Multi Tool Hanger",
+      "link": "https://www.lowes.com/pd/Style-Selections-Steel-Multi-Tool-Hanger/3192445",
+      "sku": "3192445",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Project Source Utility Hook 4 1 in Gray Steel",
+      "link": "https://www.lowes.com/pd/Project-Source-Utility-Hook-4-1-in-Gray-Steel/5013871697",
+      "sku": "5013871697",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "CRAFTSMAN VersaTrack Black Steel Bike Hook",
+      "link": "https://www.lowes.com/pd/CRAFTSMAN-VersaTrack-Black-Steel-Bike-Hook/1000756554",
+      "sku": "1000756554",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 1 Piece Steel Pegboard Hook Actual 8 in x 1 38 in",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-1-Piece-Steel-Pegboard-Hook-Actual-8-in-x-1-38-in/50220689",
+      "sku": "50220689",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 12 8 in Gray Steel Utility Hook",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-12-8-in-Gray-Steel-Utility-Hook/50218517",
+      "sku": "50218517",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    },
+    {
+      "title": "Blue Hawk 3 94 in Black Steel Wheelbarrow Hanger",
+      "link": "https://www.lowes.com/pd/Blue-Hawk-3-94-in-Black-Steel-Wheelbarrow-Hanger/50258759",
+      "sku": "50258759",
+      "price": null,
+      "brand": null,
+      "rating": null,
+      "reviews": null,
+      "search_query": "garage hooks and hangers"
+    }
+  ]
+}

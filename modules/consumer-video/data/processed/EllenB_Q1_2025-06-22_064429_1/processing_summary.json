@@ -1,0 +1,25 @@
+{
+  "source_video": {
+    "filename": "EllenB_Q1_2025-06-22_064429_1.mp4",
+    "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/EllenB_Q1_2025-06-22_064429_1.mp4",
+    "stem": "EllenB_Q1_2025-06-22_064429_1"
+  },
+  "processed_at": "2025-10-22T00:20:40.994561",
+  "status": {
+    "audio": "\u2713",
+    "transcript": "\u2713",
+    "frames": "on_demand"
+  },
+  "processing_time": {
+    "audio_extraction": 0.27,
+    "transcription": 46.59,
+    "total": 46.86
+  },
+  "video_metadata": {
+    "duration_seconds": 77.95,
+    "fps": 29.88,
+    "total_frames": 2329
+  },
+  "transcript_word_count": 195,
+  "transcript_segment_count": 20
+}

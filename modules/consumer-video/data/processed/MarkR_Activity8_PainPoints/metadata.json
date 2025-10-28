@@ -1,0 +1,16 @@
+{
+  "video_id": "MarkR_Activity8_PainPoints",
+  "participant": "MarkR",
+  "activity": "Activity8_PainPoints",
+  "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity8PainPoints_2025-06-30_115448_1.mov",
+  "processed_at": "2025-10-21T23:14:04.908703",
+  "status": {
+    "audio": "success",
+    "transcript": "success",
+    "frames": "success",
+    "emotion": "success"
+  },
+  "errors": [],
+  "frame_count": 11,
+  "processing_time_seconds": 92.31
+}

@@ -1,0 +1,78 @@
+{
+  "language": "en",
+  "duration": 54.72,
+  "segments": [
+    {
+      "start": 0.6399999999999983,
+      "end": 3.3,
+      "text": "As you can imagine, the tools are pretty easy.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 3.52,
+      "end": 10.14,
+      "text": "A level, although we've had some bad levels, so we've had to invest in a nice level.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 11.72,
+      "end": 16.68,
+      "text": "And then we used, you know, measuring tape, pencils.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 19.56,
+      "end": 24.1,
+      "text": "I think we used screws for the hanging, although it could have been nails.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 24.18,
+      "end": 27.3,
+      "text": "I honestly can't quite remember that.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 27.56,
+      "end": 28.9,
+      "text": "I think it might just be nails.",
+      "confidence": -0.1401802455330943
+    },
+    {
+      "start": 31.119999999999997,
+      "end": 33.68,
+      "text": "But then that thing just hangs on there.",
+      "confidence": -0.12227264853084789
+    },
+    {
+      "start": 36.14,
+      "end": 41.7,
+      "text": "So, you know, we had to measure from the painting and level it out.",
+      "confidence": -0.12227264853084789
+    },
+    {
+      "start": 41.8,
+      "end": 43.96,
+      "text": "But it marks the screws.",
+      "confidence": -0.12227264853084789
+    },
+    {
+      "start": 44.72,
+      "end": 49.1,
+      "text": "And I think we redid it a little bit, like had to make it work.",
+      "confidence": -0.12227264853084789
+    },
+    {
+      "start": 49.2,
+      "end": 51.3,
+      "text": "But yeah, everything's fine once you get a good level.",
+      "confidence": -0.12227264853084789
+    },
+    {
+      "start": 52.24,
+      "end": 53.76,
+      "text": "It just takes a little bit of care.",
+      "confidence": -0.12227264853084789
+    }
+  ]
+}

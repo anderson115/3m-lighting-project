@@ -1,0 +1,25 @@
+{
+  "source_video": {
+    "filename": "AlanG_Activity8PainPoints_2025-07-07_114433_1.MOV",
+    "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/AlanG_Activity8PainPoints_2025-07-07_114433_1.MOV",
+    "stem": "AlanG_Activity8PainPoints_2025-07-07_114433_1"
+  },
+  "processed_at": "2025-10-22T00:31:57.419100",
+  "status": {
+    "audio": "\u2713",
+    "transcript": "\u2713",
+    "frames": "on_demand"
+  },
+  "processing_time": {
+    "audio_extraction": 0.25,
+    "transcription": 272.87,
+    "total": 273.12
+  },
+  "video_metadata": {
+    "duration_seconds": 57.98,
+    "fps": 24.01,
+    "total_frames": 1392
+  },
+  "transcript_word_count": 138,
+  "transcript_segment_count": 9
+}

@@ -1,0 +1,208 @@
+{
+  "batch_number": 4,
+  "videos_processed": 8,
+  "batch_time_seconds": 1586.52,
+  "average_time_per_video": 198.31,
+  "results": [
+    {
+      "source_video": {
+        "filename": "MarkR_Activity8PainPoints_2025-06-30_115448_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity8PainPoints_2025-06-30_115448_1.mov",
+        "stem": "MarkR_Activity8PainPoints_2025-06-30_115448_1"
+      },
+      "processed_at": "2025-10-22T00:26:06.876972",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.23,
+        "transcription": 73.06,
+        "total": 73.29
+      },
+      "video_metadata": {
+        "duration_seconds": 54.7,
+        "fps": 30.0,
+        "total_frames": 1641
+      },
+      "transcript_word_count": 114,
+      "transcript_segment_count": 9
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity9FutureImprovements_2025-06-30_115819_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity9FutureImprovements_2025-06-30_115819_1.mov",
+        "stem": "MarkR_Activity9FutureImprovements_2025-06-30_115819_1"
+      },
+      "processed_at": "2025-10-22T00:27:20.288525",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.46,
+        "transcription": 330.93,
+        "total": 331.4
+      },
+      "video_metadata": {
+        "duration_seconds": 68.8,
+        "fps": 30.0,
+        "total_frames": 2064
+      },
+      "transcript_word_count": 174,
+      "transcript_segment_count": 10
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity1-Introductions_2025-06-30_044104_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity1-Introductions_2025-06-30_044104_1.mov",
+        "stem": "TylrD_Activity1-Introductions_2025-06-30_044104_1"
+      },
+      "processed_at": "2025-10-22T00:32:51.887234",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.25,
+        "transcription": 82.13,
+        "total": 82.38
+      },
+      "video_metadata": {
+        "duration_seconds": 15.17,
+        "fps": 30.0,
+        "total_frames": 455
+      },
+      "transcript_word_count": 40,
+      "transcript_segment_count": 1
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1.mov",
+        "stem": "TylrD_Activity2YourStyleandPhilosophy_2025-06-30_044304_1"
+      },
+      "processed_at": "2025-10-22T00:34:14.426407",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.38,
+        "transcription": 192.78,
+        "total": 193.15
+      },
+      "video_metadata": {
+        "duration_seconds": 51.97,
+        "fps": 30.0,
+        "total_frames": 1559
+      },
+      "transcript_word_count": 125,
+      "transcript_segment_count": 7
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity3ProjectMotivation_2025-06-30_045957_1.mov",
+        "stem": "TylrD_Activity3ProjectMotivation_2025-06-30_045957_1"
+      },
+      "processed_at": "2025-10-22T00:37:27.898202",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.37,
+        "transcription": 252.16,
+        "total": 252.53
+      },
+      "video_metadata": {
+        "duration_seconds": 58.24,
+        "fps": 30.0,
+        "total_frames": 1747
+      },
+      "transcript_word_count": 163,
+      "transcript_segment_count": 10
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity4SourcesofInspiration_2025-06-30_050252_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity4SourcesofInspiration_2025-06-30_050252_1.mov",
+        "stem": "TylrD_Activity4SourcesofInspiration_2025-06-30_050252_1"
+      },
+      "processed_at": "2025-10-22T00:41:40.594148",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.31,
+        "transcription": 179.02,
+        "total": 179.33
+      },
+      "video_metadata": {
+        "duration_seconds": 41.77,
+        "fps": 30.0,
+        "total_frames": 1253
+      },
+      "transcript_word_count": 132,
+      "transcript_segment_count": 3
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity5LightingChoices_2025-06-30_050610_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity5LightingChoices_2025-06-30_050610_1.mov",
+        "stem": "TylrD_Activity5LightingChoices_2025-06-30_050610_1"
+      },
+      "processed_at": "2025-10-22T00:44:40.012401",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.58,
+        "transcription": 366.17,
+        "total": 366.75
+      },
+      "video_metadata": {
+        "duration_seconds": 83.67,
+        "fps": 30.0,
+        "total_frames": 2510
+      },
+      "transcript_word_count": 244,
+      "transcript_segment_count": 12
+    },
+    {
+      "source_video": {
+        "filename": "TylrD_Activity7ToolsandMaterials_2025-06-30_051720_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity7ToolsandMaterials_2025-06-30_051720_1.mov",
+        "stem": "TylrD_Activity7ToolsandMaterials_2025-06-30_051720_1"
+      },
+      "processed_at": "2025-10-22T00:50:46.975143",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.21,
+        "transcription": 106.08,
+        "total": 106.29
+      },
+      "video_metadata": {
+        "duration_seconds": 26.8,
+        "fps": 30.0,
+        "total_frames": 804
+      },
+      "transcript_word_count": 70,
+      "transcript_segment_count": 4
+    }
+  ]
+}

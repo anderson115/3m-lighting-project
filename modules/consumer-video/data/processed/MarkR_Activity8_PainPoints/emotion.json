@@ -1,0 +1,93 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.99,
+      "energy_mean": 0.028569240123033524,
+      "energy_std": 0.026422753930091858,
+      "pitch_variance": 898743.25,
+      "zero_crossing_rate": 0.1041416266025641
+    },
+    {
+      "start": 4.99,
+      "end": 9.98,
+      "energy_mean": 0.026572441682219505,
+      "energy_std": 0.02015947736799717,
+      "pitch_variance": 1057841.5,
+      "zero_crossing_rate": 0.11075220352564102
+    },
+    {
+      "start": 9.98,
+      "end": 14.98,
+      "energy_mean": 0.03273944556713104,
+      "energy_std": 0.025507496669888496,
+      "pitch_variance": 637859.125,
+      "zero_crossing_rate": 0.09594100560897435
+    },
+    {
+      "start": 14.98,
+      "end": 19.97,
+      "energy_mean": 0.02070828340947628,
+      "energy_std": 0.01682877168059349,
+      "pitch_variance": 601211.375,
+      "zero_crossing_rate": 0.10162510016025642
+    },
+    {
+      "start": 19.97,
+      "end": 24.96,
+      "energy_mean": 0.010677551850676537,
+      "energy_std": 0.014564006589353085,
+      "pitch_variance": 521057.9375,
+      "zero_crossing_rate": 0.0849609375
+    },
+    {
+      "start": 24.96,
+      "end": 29.95,
+      "energy_mean": 0.0344584658741951,
+      "energy_std": 0.03275749832391739,
+      "pitch_variance": 307085.4375,
+      "zero_crossing_rate": 0.07081330128205128
+    },
+    {
+      "start": 29.95,
+      "end": 34.94,
+      "energy_mean": 0.03429132699966431,
+      "energy_std": 0.028783287853002548,
+      "pitch_variance": 586900.1875,
+      "zero_crossing_rate": 0.09200971554487179
+    },
+    {
+      "start": 34.94,
+      "end": 39.94,
+      "energy_mean": 0.0263802632689476,
+      "energy_std": 0.02031891420483589,
+      "pitch_variance": 801433.875,
+      "zero_crossing_rate": 0.09016927083333333
+    },
+    {
+      "start": 39.94,
+      "end": 44.93,
+      "energy_mean": 0.02386416122317314,
+      "energy_std": 0.015096865594387054,
+      "pitch_variance": 855393.8125,
+      "zero_crossing_rate": 0.1070087139423077
+    },
+    {
+      "start": 44.93,
+      "end": 49.92,
+      "energy_mean": 0.022103115916252136,
+      "energy_std": 0.016888244077563286,
+      "pitch_variance": 1012874.75,
+      "zero_crossing_rate": 0.09572816506410256
+    },
+    {
+      "start": 49.92,
+      "end": 54.78,
+      "energy_mean": 0.009563757106661797,
+      "energy_std": 0.009195118211209774,
+      "pitch_variance": 971702.625,
+      "zero_crossing_rate": 0.08309775904605263
+    }
+  ],
+  "total_duration": 54.70475
+}

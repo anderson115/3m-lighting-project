@@ -1,0 +1,44 @@
+{
+  "source_video": "AlysonT_Q1_2025-06-23_021844_1.mov",
+  "text": "Hello, this is an example of a picture light that is rechargeable with batteries or also can connect to a USB cord for power also. And I have it illuminating a classic art piece print that I got. And it's very subtle, but it does give some spotlight just to accent the picture without any direct overhead light on it. Thank you. Hello, this is an example of a floor lamp that I put under a piece of art so it would shine up. On the artwork, it's a little hard to tell, but the artwork, the background in between the squares is a iridescent metal. So when the light shines on it is when it really comes to life and you can see all the colors. Hello, this canned spotlight is in a hallway to illuminate various pieces of art. For example, this sculpture on the wall. And then also this picture diorama of a live bat. Also in this area to have illuminated by this canned spotlight. Thank you.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 95.64,
+  "segments": [
+    {
+      "start": 1.58,
+      "end": 18.26,
+      "text": "Hello, this is an example of a picture light that is rechargeable with batteries or also can connect to a USB cord for power also."
+    },
+    {
+      "start": 18.26,
+      "end": 39.76,
+      "text": "And I have it illuminating a classic art piece print that I got. And it's very subtle, but it does give some spotlight just to accent the picture without any direct overhead light on it. Thank you."
+    },
+    {
+      "start": 40.9,
+      "end": 48.76,
+      "text": "Hello, this is an example of a floor lamp that I put under a piece of art so it would shine up."
+    },
+    {
+      "start": 48.78,
+      "end": 59.78,
+      "text": "On the artwork, it's a little hard to tell, but the artwork, the background in between the squares is a iridescent metal."
+    },
+    {
+      "start": 60.68,
+      "end": 66.12,
+      "text": "So when the light shines on it is when it really comes to life and you can see all the colors."
+    },
+    {
+      "start": 66.48,
+      "end": 79.86,
+      "text": "Hello, this canned spotlight is in a hallway to illuminate various pieces of art. For example, this sculpture on the wall."
+    },
+    {
+      "start": 80.22,
+      "end": 94.45,
+      "text": "And then also this picture diorama of a live bat. Also in this area to have illuminated by this canned spotlight. Thank you."
+    }
+  ]
+}

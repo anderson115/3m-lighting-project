@@ -1,0 +1,208 @@
+{
+  "batch_number": 3,
+  "videos_processed": 8,
+  "batch_time_seconds": 2000.57,
+  "average_time_per_video": 250.07,
+  "results": [
+    {
+      "source_video": {
+        "filename": "DianaL_Activity9FutureImprovements_2025-07-02_105111_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/DianaL_Activity9FutureImprovements_2025-07-02_105111_1.mov",
+        "stem": "DianaL_Activity9FutureImprovements_2025-07-02_105111_1"
+      },
+      "processed_at": "2025-10-22T00:26:06.848427",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.34,
+        "transcription": 461.68,
+        "total": 462.02
+      },
+      "video_metadata": {
+        "duration_seconds": 89.87,
+        "fps": 30.0,
+        "total_frames": 2696
+      },
+      "transcript_word_count": 256,
+      "transcript_segment_count": 15
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity1-Introductions_2025-06-30_113105_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity1-Introductions_2025-06-30_113105_1.mov",
+        "stem": "MarkR_Activity1-Introductions_2025-06-30_113105_1"
+      },
+      "processed_at": "2025-10-22T00:33:48.963636",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.5,
+        "transcription": 55.84,
+        "total": 56.34
+      },
+      "video_metadata": {
+        "duration_seconds": 9.43,
+        "fps": 30.0,
+        "total_frames": 283
+      },
+      "transcript_word_count": 22,
+      "transcript_segment_count": 2
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity10Writealetter_2025-06-30_120240_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity10Writealetter_2025-06-30_120240_1.mov",
+        "stem": "MarkR_Activity10Writealetter_2025-06-30_120240_1"
+      },
+      "processed_at": "2025-10-22T00:34:45.596659",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.75,
+        "transcription": 417.04,
+        "total": 417.79
+      },
+      "video_metadata": {
+        "duration_seconds": 100.03,
+        "fps": 30.0,
+        "total_frames": 3001
+      },
+      "transcript_word_count": 286,
+      "transcript_segment_count": 14
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1.mov",
+        "stem": "MarkR_Activity2YourStyleandPhilosophy_2025-06-30_113356_1"
+      },
+      "processed_at": "2025-10-22T00:41:43.531037",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.32,
+        "transcription": 98.7,
+        "total": 99.02
+      },
+      "video_metadata": {
+        "duration_seconds": 28.73,
+        "fps": 30.0,
+        "total_frames": 862
+      },
+      "transcript_word_count": 61,
+      "transcript_segment_count": 8
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity3ProjectMotivation_2025-06-30_113730_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity3ProjectMotivation_2025-06-30_113730_1.mov",
+        "stem": "MarkR_Activity3ProjectMotivation_2025-06-30_113730_1"
+      },
+      "processed_at": "2025-10-22T00:43:22.731023",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.58,
+        "transcription": 291.16,
+        "total": 291.74
+      },
+      "video_metadata": {
+        "duration_seconds": 75.6,
+        "fps": 30.0,
+        "total_frames": 2268
+      },
+      "transcript_word_count": 148,
+      "transcript_segment_count": 22
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity4SourcesofInspiration_2025-06-30_114107_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity4SourcesofInspiration_2025-06-30_114107_1.mov",
+        "stem": "MarkR_Activity4SourcesofInspiration_2025-06-30_114107_1"
+      },
+      "processed_at": "2025-10-22T00:48:14.781664",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.52,
+        "transcription": 186.1,
+        "total": 186.62
+      },
+      "video_metadata": {
+        "duration_seconds": 37.73,
+        "fps": 30.0,
+        "total_frames": 1132
+      },
+      "transcript_word_count": 95,
+      "transcript_segment_count": 13
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity5LightingChoices_2025-06-30_114454_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity5LightingChoices_2025-06-30_114454_1.mov",
+        "stem": "MarkR_Activity5LightingChoices_2025-06-30_114454_1"
+      },
+      "processed_at": "2025-10-22T00:51:21.638842",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.68,
+        "transcription": 194.69,
+        "total": 195.37
+      },
+      "video_metadata": {
+        "duration_seconds": 55.27,
+        "fps": 30.0,
+        "total_frames": 1658
+      },
+      "transcript_word_count": 129,
+      "transcript_segment_count": 16
+    },
+    {
+      "source_video": {
+        "filename": "MarkR_Activity6Step-by-StepWalkthrough_2025-06-30_114818_1.mov",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/MarkR_Activity6Step-by-StepWalkthrough_2025-06-30_114818_1.mov",
+        "stem": "MarkR_Activity6Step-by-StepWalkthrough_2025-06-30_114818_1"
+      },
+      "processed_at": "2025-10-22T00:54:37.118383",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 1.63,
+        "transcription": 288.45,
+        "total": 290.08
+      },
+      "video_metadata": {
+        "duration_seconds": 71.77,
+        "fps": 30.0,
+        "total_frames": 2153
+      },
+      "transcript_word_count": 166,
+      "transcript_segment_count": 22
+    }
+  ]
+}

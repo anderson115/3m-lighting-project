@@ -1,0 +1,208 @@
+{
+  "batch_number": 9,
+  "videos_processed": 8,
+  "batch_time_seconds": 1969.78,
+  "average_time_per_video": 246.22,
+  "results": [
+    {
+      "source_video": {
+        "filename": "GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1.webm",
+        "stem": "GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1"
+      },
+      "processed_at": "2025-10-22T00:27:07.972019",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.19,
+        "transcription": 139.57,
+        "total": 139.77
+      },
+      "video_metadata": {
+        "duration_seconds": 35.61,
+        "fps": 1000.0,
+        "total_frames": 35609
+      },
+      "transcript_word_count": 58,
+      "transcript_segment_count": 2
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1.webm",
+        "stem": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1"
+      },
+      "processed_at": "2025-10-22T00:29:27.846084",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.65,
+        "transcription": 622.04,
+        "total": 622.69
+      },
+      "video_metadata": {
+        "duration_seconds": 100.12,
+        "fps": 1000.0,
+        "total_frames": 100116
+      },
+      "transcript_word_count": 200,
+      "transcript_segment_count": 11
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1.webm",
+        "stem": "GeneK_Activity4SourcesofInspiration_2025-06-30_125118_1"
+      },
+      "processed_at": "2025-10-22T00:39:50.764857",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.24,
+        "transcription": 153.96,
+        "total": 154.21
+      },
+      "video_metadata": {
+        "duration_seconds": 51.63,
+        "fps": 1000.0,
+        "total_frames": 51631
+      },
+      "transcript_word_count": 84,
+      "transcript_segment_count": 7
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity5LightingChoices_2025-06-30_125644_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity5LightingChoices_2025-06-30_125644_1.webm",
+        "stem": "GeneK_Activity5LightingChoices_2025-06-30_125644_1"
+      },
+      "processed_at": "2025-10-22T00:42:25.274563",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.25,
+        "transcription": 140.75,
+        "total": 141.0
+      },
+      "video_metadata": {
+        "duration_seconds": 45.18,
+        "fps": 1000.0,
+        "total_frames": 45180
+      },
+      "transcript_word_count": 69,
+      "transcript_segment_count": 4
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1.webm",
+        "stem": "GeneK_Activity6Step-by-StepWalkthrough_2025-06-30_125859_1"
+      },
+      "processed_at": "2025-10-22T00:44:46.498956",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.32,
+        "transcription": 287.06,
+        "total": 287.38
+      },
+      "video_metadata": {
+        "duration_seconds": 83.14,
+        "fps": 1000.0,
+        "total_frames": 83138
+      },
+      "transcript_word_count": 139,
+      "transcript_segment_count": 17
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity7ToolsandMaterials_2025-06-30_010022_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity7ToolsandMaterials_2025-06-30_010022_1.webm",
+        "stem": "GeneK_Activity7ToolsandMaterials_2025-06-30_010022_1"
+      },
+      "processed_at": "2025-10-22T00:49:34.260783",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.25,
+        "transcription": 162.33,
+        "total": 162.58
+      },
+      "video_metadata": {
+        "duration_seconds": 52.93,
+        "fps": 1000.0,
+        "total_frames": 52932
+      },
+      "transcript_word_count": 97,
+      "transcript_segment_count": 4
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity8PainPoints_2025-06-30_010218_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity8PainPoints_2025-06-30_010218_1.webm",
+        "stem": "GeneK_Activity8PainPoints_2025-06-30_010218_1"
+      },
+      "processed_at": "2025-10-22T00:52:17.024091",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.21,
+        "transcription": 187.22,
+        "total": 187.43
+      },
+      "video_metadata": {
+        "duration_seconds": 59.07,
+        "fps": 1000.0,
+        "total_frames": 59066
+      },
+      "transcript_word_count": 108,
+      "transcript_segment_count": 8
+    },
+    {
+      "source_video": {
+        "filename": "GeneK_Activity9FutureImprovements_2025-06-30_010407_1.webm",
+        "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity9FutureImprovements_2025-06-30_010407_1.webm",
+        "stem": "GeneK_Activity9FutureImprovements_2025-06-30_010407_1"
+      },
+      "processed_at": "2025-10-22T00:55:24.746936",
+      "status": {
+        "audio": "\u2713",
+        "transcript": "\u2713",
+        "frames": "on_demand"
+      },
+      "processing_time": {
+        "audio_extraction": 0.32,
+        "transcription": 272.49,
+        "total": 272.81
+      },
+      "video_metadata": {
+        "duration_seconds": 82.74,
+        "fps": 1000.0,
+        "total_frames": 82742
+      },
+      "transcript_word_count": 160,
+      "transcript_segment_count": 11
+    }
+  ]
+}

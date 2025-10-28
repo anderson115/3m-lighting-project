@@ -1,0 +1,14 @@
+{
+  "source_video": "TylrD_Activity1-Introductions_2025-06-30_044104_1.mov",
+  "text": "Hello, my name is Tyler and I stay with my sibling. I am 21 years old and I'm currently in college in South Florida. I stay with my sibling here. We stay in a single detached home. Thanks so much.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 15.13,
+  "segments": [
+    {
+      "start": 0.53,
+      "end": 14.77,
+      "text": "Hello, my name is Tyler and I stay with my sibling. I am 21 years old and I'm currently in college in South Florida. I stay with my sibling here. We stay in a single detached home. Thanks so much."
+    }
+  ]
+}

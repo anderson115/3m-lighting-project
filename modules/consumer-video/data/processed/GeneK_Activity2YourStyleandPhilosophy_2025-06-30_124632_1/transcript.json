@@ -1,0 +1,19 @@
+{
+  "source_video": "GeneK_Activity2YourStyleandPhilosophy_2025-06-30_124632_1.webm",
+  "text": "We like everything modern, but maybe a mix of modern and traditional. We live in a newer home, house, with a lot of open spaces. We have an open floor plan downstairs, not a lot of walls, high ceilings. We really like a clean, modern look. Something that may be timeless, that will stand the test of time.",
+  "language": "en",
+  "language_probability": 1,
+  "duration": 35.64,
+  "segments": [
+    {
+      "start": 1.71,
+      "end": 21.71,
+      "text": "We like everything modern, but maybe a mix of modern and traditional. We live in a newer home, house, with a lot of open spaces. We have an open floor plan downstairs, not a lot of walls, high ceilings."
+    },
+    {
+      "start": 21.71,
+      "end": 34.71,
+      "text": "We really like a clean, modern look. Something that may be timeless, that will stand the test of time."
+    }
+  ]
+}

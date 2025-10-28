@@ -1,0 +1,213 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.99,
+      "energy_mean": 0.03028140962123871,
+      "energy_std": 0.021533139050006866,
+      "pitch_variance": 1050700.375,
+      "zero_crossing_rate": 0.1068584735576923
+    },
+    {
+      "start": 4.99,
+      "end": 9.98,
+      "energy_mean": 0.04225046560168266,
+      "energy_std": 0.03453128784894943,
+      "pitch_variance": 1346120.75,
+      "zero_crossing_rate": 0.1510166266025641
+    },
+    {
+      "start": 9.98,
+      "end": 14.98,
+      "energy_mean": 0.04041508957743645,
+      "energy_std": 0.022578289732336998,
+      "pitch_variance": 436112.0625,
+      "zero_crossing_rate": 0.10639523237179487
+    },
+    {
+      "start": 14.98,
+      "end": 19.97,
+      "energy_mean": 0.040049441158771515,
+      "energy_std": 0.025262515991926193,
+      "pitch_variance": 602057.6875,
+      "zero_crossing_rate": 0.09791917067307693
+    },
+    {
+      "start": 19.97,
+      "end": 24.96,
+      "energy_mean": 0.038604676723480225,
+      "energy_std": 0.02152540348470211,
+      "pitch_variance": 704071.3125,
+      "zero_crossing_rate": 0.09322415865384616
+    },
+    {
+      "start": 24.96,
+      "end": 29.95,
+      "energy_mean": 0.03088400699198246,
+      "energy_std": 0.025639262050390244,
+      "pitch_variance": 1041243.875,
+      "zero_crossing_rate": 0.12049278846153846
+    },
+    {
+      "start": 29.95,
+      "end": 34.94,
+      "energy_mean": 0.0364532396197319,
+      "energy_std": 0.030139954760670662,
+      "pitch_variance": 917604.0625,
+      "zero_crossing_rate": 0.10236378205128205
+    },
+    {
+      "start": 34.94,
+      "end": 39.94,
+      "energy_mean": 0.03598945587873459,
+      "energy_std": 0.03148375451564789,
+      "pitch_variance": 962401.6875,
+      "zero_crossing_rate": 0.09930889423076923
+    },
+    {
+      "start": 39.94,
+      "end": 44.93,
+      "energy_mean": 0.048214059323072433,
+      "energy_std": 0.02513936720788479,
+      "pitch_variance": 1167804.125,
+      "zero_crossing_rate": 0.10846103766025642
+    },
+    {
+      "start": 44.93,
+      "end": 49.92,
+      "energy_mean": 0.036895811557769775,
+      "energy_std": 0.02410001866519451,
+      "pitch_variance": 961035.9375,
+      "zero_crossing_rate": 0.10813551682692307
+    },
+    {
+      "start": 49.92,
+      "end": 54.91,
+      "energy_mean": 0.042202290147542953,
+      "energy_std": 0.024905527010560036,
+      "pitch_variance": 999242.25,
+      "zero_crossing_rate": 0.09930889423076923
+    },
+    {
+      "start": 54.91,
+      "end": 59.9,
+      "energy_mean": 0.03417082130908966,
+      "energy_std": 0.018076103180646896,
+      "pitch_variance": 237469.484375,
+      "zero_crossing_rate": 0.08175580929487179
+    },
+    {
+      "start": 59.9,
+      "end": 64.9,
+      "energy_mean": 0.02573990449309349,
+      "energy_std": 0.020898371934890747,
+      "pitch_variance": 870313.25,
+      "zero_crossing_rate": 0.11281800881410256
+    },
+    {
+      "start": 64.9,
+      "end": 69.89,
+      "energy_mean": 0.04228568822145462,
+      "energy_std": 0.021834498271346092,
+      "pitch_variance": 870137.875,
+      "zero_crossing_rate": 0.09805689102564102
+    },
+    {
+      "start": 69.89,
+      "end": 74.88,
+      "energy_mean": 0.034783244132995605,
+      "energy_std": 0.022030368447303772,
+      "pitch_variance": 788331.75,
+      "zero_crossing_rate": 0.13373898237179488
+    },
+    {
+      "start": 74.88,
+      "end": 79.87,
+      "energy_mean": 0.030484765768051147,
+      "energy_std": 0.022895753383636475,
+      "pitch_variance": 196438.046875,
+      "zero_crossing_rate": 0.10127453926282051
+    },
+    {
+      "start": 79.87,
+      "end": 84.86,
+      "energy_mean": 0.04214434698224068,
+      "energy_std": 0.023729965090751648,
+      "pitch_variance": 529802.75,
+      "zero_crossing_rate": 0.12468699919871795
+    },
+    {
+      "start": 84.86,
+      "end": 89.86,
+      "energy_mean": 0.03925269842147827,
+      "energy_std": 0.022870825603604317,
+      "pitch_variance": 1320176.375,
+      "zero_crossing_rate": 0.14165164262820512
+    },
+    {
+      "start": 89.86,
+      "end": 94.85,
+      "energy_mean": 0.03114255517721176,
+      "energy_std": 0.02114773914217949,
+      "pitch_variance": 1167259.0,
+      "zero_crossing_rate": 0.11468349358974358
+    },
+    {
+      "start": 94.85,
+      "end": 99.84,
+      "energy_mean": 0.035019781440496445,
+      "energy_std": 0.03223330155014992,
+      "pitch_variance": 1392836.5,
+      "zero_crossing_rate": 0.10718399439102565
+    },
+    {
+      "start": 99.84,
+      "end": 104.83,
+      "energy_mean": 0.040908344089984894,
+      "energy_std": 0.023362811654806137,
+      "pitch_variance": 1537715.625,
+      "zero_crossing_rate": 0.1280799278846154
+    },
+    {
+      "start": 104.83,
+      "end": 109.82,
+      "energy_mean": 0.03660054877400398,
+      "energy_std": 0.0248266588896513,
+      "pitch_variance": 948280.375,
+      "zero_crossing_rate": 0.10765975560897435
+    },
+    {
+      "start": 109.82,
+      "end": 114.82,
+      "energy_mean": 0.054743602871894836,
+      "energy_std": 0.02790425717830658,
+      "pitch_variance": 707027.5625,
+      "zero_crossing_rate": 0.09135867387820513
+    },
+    {
+      "start": 114.82,
+      "end": 119.81,
+      "energy_mean": 0.038543444126844406,
+      "energy_std": 0.02697013132274151,
+      "pitch_variance": 1228702.75,
+      "zero_crossing_rate": 0.11452073317307693
+    },
+    {
+      "start": 119.81,
+      "end": 124.8,
+      "energy_mean": 0.0414370633661747,
+      "energy_std": 0.028572391718626022,
+      "pitch_variance": 787582.6875,
+      "zero_crossing_rate": 0.11393229166666667
+    },
+    {
+      "start": 124.8,
+      "end": 128.26,
+      "energy_mean": 0.030795948579907417,
+      "energy_std": 0.021775055676698685,
+      "pitch_variance": 1005823.75,
+      "zero_crossing_rate": 0.12760416666666666
+    }
+  ],
+  "total_duration": 128.192
+}

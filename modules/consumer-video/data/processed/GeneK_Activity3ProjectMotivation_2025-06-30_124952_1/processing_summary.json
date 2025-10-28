@@ -1,0 +1,25 @@
+{
+  "source_video": {
+    "filename": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1.webm",
+    "full_path": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1.webm",
+    "stem": "GeneK_Activity3ProjectMotivation_2025-06-30_124952_1"
+  },
+  "processed_at": "2025-10-22T00:29:27.846084",
+  "status": {
+    "audio": "\u2713",
+    "transcript": "\u2713",
+    "frames": "on_demand"
+  },
+  "processing_time": {
+    "audio_extraction": 0.65,
+    "transcription": 622.04,
+    "total": 622.69
+  },
+  "video_metadata": {
+    "duration_seconds": 100.12,
+    "fps": 1000.0,
+    "total_frames": 100116
+  },
+  "transcript_word_count": 200,
+  "transcript_segment_count": 11
+}

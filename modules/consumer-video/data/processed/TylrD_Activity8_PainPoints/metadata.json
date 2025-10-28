@@ -1,0 +1,16 @@
+{
+  "video_id": "TylrD_Activity8_PainPoints",
+  "participant": "TylrD",
+  "activity": "Activity8_PainPoints",
+  "source_file": "/Volumes/DATA/consulting/3m-lighting-consumer-videos/Intro Videos/core videos/TylrD_Activity8PainPoints_2025-06-30_052938_1.MOV",
+  "processed_at": "2025-10-21T23:15:37.218867",
+  "status": {
+    "audio": "success",
+    "transcript": "success",
+    "frames": "success",
+    "emotion": "success"
+  },
+  "errors": [],
+  "frame_count": 26,
+  "processing_time_seconds": 280.91
+}
