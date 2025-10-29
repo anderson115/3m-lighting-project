@@ -3,12 +3,16 @@
 Get image URLs for existing products using Apify web scraper.
 """
 import json
+import os
 from pathlib import Path
 from apify_client import ApifyClient
 import time
 
-# Use provided credentials
-APIFY_TOKEN = "apify_api_u6xDYU2xS9ybONHAqy42NFMiYIFOQc2FsOUY"
+# Load credentials from environment
+APIFY_TOKEN = os.getenv('APIFY_TOKEN')
+if not APIFY_TOKEN:
+    raise ValueError("APIFY_TOKEN environment variable not set. Run with: op run -- python get_images_apify.py")
+
 client = ApifyClient(APIFY_TOKEN)
 
 print("="*70)

@@ -4,9 +4,12 @@ Scrape Lowe's using Bright Data API.
 """
 import requests
 import json
+import os
 from pathlib import Path
 
-BRIGHTDATA_API_TOKEN = "22b7b4d3fee88152f1784843adb5f1fbdb28f9e5fde7dc3ad6468f62f5425750"
+BRIGHTDATA_API_TOKEN = os.getenv('BRIGHTDATA_API_TOKEN')
+if not BRIGHTDATA_API_TOKEN:
+    raise ValueError("BRIGHTDATA_API_TOKEN environment variable not set. Run with: op run -- python scrape_lowes_brightdata.py")
 
 print("="*70)
 print("SCRAPING LOWE'S WITH BRIGHT DATA")

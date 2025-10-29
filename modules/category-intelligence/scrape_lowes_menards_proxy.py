@@ -4,9 +4,13 @@ Scrape Lowe's and Menards using Bright Data proxy or direct Apify actors.
 """
 from apify_client import ApifyClient
 import json
+import os
 from pathlib import Path
 
-APIFY_TOKEN = "apify_api_u6xDYU2xS9ybONHAqy42NFMiYIFOQc2FsOUY"
+APIFY_TOKEN = os.getenv('APIFY_TOKEN')
+if not APIFY_TOKEN:
+    raise ValueError("APIFY_TOKEN environment variable not set. Run with: op run -- python scrape_lowes_menards_proxy.py")
+
 client = ApifyClient(APIFY_TOKEN)
 
 print("="*70)

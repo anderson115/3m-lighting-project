@@ -172,9 +172,9 @@ Status: ✅ INSTALLED (October 28, 2025)
 **OAuth Credentials:**
 ```
 File: /Users/anderson115/.config/google-drive-credentials.json
-Client ID: 331228229843-vg0jemvvqdfvfrg5d94rcdn1plk42o6p.apps.googleusercontent.com
-Client Secret: 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
-Status: ✅ CREATED (October 28, 2025)
+Stored in: 1Password → Development vault → "Google OAuth - 3M Lighting"
+Access via: op item get "Google OAuth - 3M Lighting" --vault Development
+Status: ✅ CREATED (October 28, 2025) → Secured in 1Password (October 29, 2025)
 ```
 
 **Claude Code Configuration:**

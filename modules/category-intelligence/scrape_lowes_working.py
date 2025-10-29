@@ -3,10 +3,14 @@
 Scrape Lowe's using working Apify actor with provided credentials.
 """
 import json
+import os
 from pathlib import Path
 from apify_client import ApifyClient
 
-APIFY_TOKEN = "apify_api_u6xDYU2xS9ybONHAqy42NFMiYIFOQc2FsOUY"
+APIFY_TOKEN = os.getenv('APIFY_TOKEN')
+if not APIFY_TOKEN:
+    raise ValueError("APIFY_TOKEN environment variable not set. Run with: op run -- python scrape_lowes_working.py")
+
 client = ApifyClient(APIFY_TOKEN)
 
 print("="*70)
