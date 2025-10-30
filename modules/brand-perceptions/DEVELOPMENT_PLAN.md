@@ -1,7 +1,7 @@
 # Brand Perceptions Module - Development Plan
 
-**Last Updated:** 2024-10-30
-**Status:** Preflight - Ready for Phase 1 Development
+**Last Updated:** 2025-10-30
+**Status:** Phase 2 Development - Data Collection Architecture Design Complete
 
 ---
 
@@ -321,15 +321,38 @@ with open('data/outputs/test.json', 'w') as f:
 ```json
 {
   "phase1_brand_scoping": {
-    "status": "not_started",
+    "status": "completed",
+    "checkpoint_approved": true,
+    "output_files": [
+      "config/brands.yaml",
+      "data/outputs/phase1_brand_scoping.md"
+    ],
+    "date_completed": "2025-10-30",
+    "brands_identified": ["Command", "Scotch-Brite", "Scotch", "Post-it Extreme", "Scotchgard"]
+  },
+  "phase2_data_collection": {
+    "status": "in_progress",
+    "stage": "architecture_design",
     "checkpoint_approved": false,
-    "output_files": []
+    "strategy": "free_first_with_brightdata_backfill",
+    "budget_limit": "$25",
+    "output_files": [
+      "PHASE2_DATA_COLLECTION_PLAN.md",
+      "/tmp/scraping_tools_comparison.md"
+    ],
+    "next_action": "Begin Stage 1: Setup & Preflight"
   },
   "phase2_perception_discovery": {
-    "status": "not_started",
-    "checkpoint_approved": false,
-    "brands_completed": [],
-    "output_files": []
+    "status": "exploratory_completed",
+    "checkpoint_approved": true,
+    "brands_completed": ["Command"],
+    "output_files": [
+      "data/raw/command/sources.json (20 sources)",
+      "data/processed/command/verbatims.json (15 quotes)",
+      "data/processed/command/verbatims_expanded.json (52 quotes)",
+      "data/processed/command/perception_notes.md"
+    ],
+    "notes": "Exploratory research complete for Command brand. Production pipeline to be built in Phase 2."
   },
   "phase3_perception_synthesis": {
     "status": "not_started",
