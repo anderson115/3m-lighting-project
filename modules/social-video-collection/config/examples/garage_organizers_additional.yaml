@@ -1,0 +1,73 @@
+project_name: "3M Lighting Project"
+collection_name: "Garage Organizers Pain Points - Additional TikTok Collection"
+created_date: "2025-10-29"
+
+category: "garage organizers"
+platform: "tiktok"
+
+collection_target:
+  min_videos: 50
+  max_videos: 60
+  priority: "engagement"
+  test_limit: null
+
+search_strategy:
+  keywords:
+    - "garage organization problems"
+    - "garage storage fails"
+    - "garage clutter issues"
+    - "messy garage before after"
+    - "garage organizing hacks"
+    - "garage storage ideas"
+    - "garage makeover problems"
+    - "garage organization frustration"
+
+  hashtags:
+    - "garageorganization"
+    - "garagestorage"
+    - "garagedisaster"
+
+  emotional_triggers:
+    - "fail"
+    - "broken"
+    - "frustration"
+
+filters:
+  min_views: 5000
+  min_likes: 50
+  min_author_followers: 1000
+  has_audio: true
+  language: "en"
+  duration:
+    min: 10
+    max: 180
+
+output:
+  base_dir: "data/processed/garage-organizers-additional"
+  format: "json"
+  preserve_metadata: true
+  include_raw_video: true
+
+apify:
+  actor_id: "clockworks/free-tiktok-scraper"
+  max_items: 100
+  results_per_page: 20
+
+# Processing configurations (for batch_processor.py)
+transcription:
+  model: "whisper-1"
+  language: "en"
+  response_format: "verbose_json"
+
+visual_extraction:
+  model: "gpt-4o"
+  frame_interval: 5  # Extract 1 frame every 5 seconds
+  max_frames: 10
+
+audio_extraction:
+  sample_rate: 22050
+  features:
+    - pitch
+    - energy
+    - tempo
+    - spectral

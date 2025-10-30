@@ -6,6 +6,11 @@ This document describes the organization of the social video collection module.
 
 ```
 social-video-collection/
+├── .claude/                     # Claude Code configuration
+│   └── commands/                # Custom slash commands
+│       ├── status-catintel.md   # /status-catintel command for progress reports
+│       └── README.md            # Command documentation
+│
 ├── config/                      # Configuration files
 │   ├── collection_config.yaml   # Base configuration template
 │   └── examples/               # Example configurations
@@ -115,6 +120,27 @@ social-video-collection/
 3. Download: `python scripts/02_download_videos.py --search-results ...`
 4. Process: `python scripts/batch_processor.py --config config/examples/{new-collection}.yaml`
 5. Consolidate: `python scripts/04_consolidate_data.py --input ... --output ...`
+
+## Monitoring Progress
+
+### Slash Command (Recommended)
+```
+/status-catintel                          # All collections
+/status-catintel garage-organizers-additional  # Specific collection
+```
+
+### Direct Script Execution
+```bash
+python3.13 scripts/status_report.py
+python3.13 scripts/status_report.py garage-organizers-additional
+```
+
+The status report shows:
+- Processing progress for all collections
+- Completion rates for each stage
+- Failed/incomplete videos with specific missing components
+- Combined summary across all collections
+- Notification when all processing is complete
 
 ## Environment Variables
 

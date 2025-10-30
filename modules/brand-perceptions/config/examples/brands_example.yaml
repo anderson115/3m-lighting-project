@@ -1,0 +1,77 @@
+# Example Brand Configuration
+# Copy this to ../brands.yaml and customize
+
+brands:
+  - name: "Command"
+    priority: 1
+    rationale: "Market leader in damage-free hanging, strong DIY/home organization heritage"
+    search_terms:
+      - "Command hooks"
+      - "Command strips"
+      - "Command garage"
+      - "Command storage"
+    collection_targets:
+      reddit_min: 50
+      youtube_min: 50
+      amazon_min: 100
+      social_min: 50
+
+  - name: "Scotch"
+    priority: 2
+    rationale: "Adhesive technology platform with mounting/fastening adjacency"
+    search_terms:
+      - "Scotch mounting"
+      - "Scotch heavy duty"
+      - "Scotch garage"
+      - "Scotch storage"
+    collection_targets:
+      reddit_min: 30
+      youtube_min: 30
+      amazon_min: 80
+      social_min: 30
+
+  - name: "Post-it"
+    priority: 3
+    rationale: "Organization/productivity brand with potential stretch into physical organization"
+    search_terms:
+      - "Post-it organization"
+      - "Post-it garage"
+      - "Post-it DIY"
+    collection_targets:
+      reddit_min: 20
+      youtube_min: 20
+      amazon_min: 50
+      social_min: 20
+
+# Collection parameters
+collection:
+  timeframe_months: 18
+  min_total_per_brand: 200
+  sources:
+    reddit:
+      subreddits:
+        - "HomeImprovement"
+        - "organization"
+        - "DIY"
+        - "homeowners"
+        - "Garages"
+    youtube:
+      search_categories:
+        - "home organization"
+        - "garage makeover"
+        - "DIY storage"
+    amazon:
+      rating_filters:
+        - 1  # 1-star reviews (hate)
+        - 5  # 5-star reviews (love)
+      categories:
+        - "Home Improvement"
+        - "Storage & Organization"
+    social:
+      platforms:
+        - "tiktok"
+        - "instagram"
+      hashtags:
+        - "#garageorganization"
+        - "#homeorganization"
+        - "#diystorage"

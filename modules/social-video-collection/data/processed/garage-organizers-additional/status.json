@@ -1,0 +1,39 @@
+{
+  "last_updated": "2025-10-29T23:42:00.401423",
+  "total_videos": 59,
+  "stages": {
+    "search": {
+      "total": 59,
+      "complete": 59,
+      "status": "complete"
+    },
+    "download": {
+      "total": 59,
+      "complete": 59,
+      "status": "complete"
+    },
+    "metadata": {
+      "total": 59,
+      "complete": 54,
+      "status": "processing"
+    },
+    "transcription": {
+      "total": 59,
+      "complete": 54,
+      "status": "processing"
+    },
+    "visual": {
+      "total": 59,
+      "complete": 53,
+      "status": "processing"
+    },
+    "audio": {
+      "total": 59,
+      "complete": 53,
+      "status": "processing"
+    }
+  },
+  "current_batch": 3,
+  "total_batches": 3,
+  "errors": []
+}
