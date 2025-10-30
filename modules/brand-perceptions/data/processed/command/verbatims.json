@@ -1,0 +1,184 @@
+{
+  "brand": "Command",
+  "verbatims": [
+    {
+      "id": 1,
+      "quote": "They are holding up very well at the moment and so far have not suddenly dropped off",
+      "context": "Reviewer comparing Command to inferior brands, expressing relief at reliability",
+      "sentiment": "positive",
+      "theme": "reliability",
+      "source_id": 1,
+      "source_url": "https://whatsgoodtodo.com/3m-command-hooks-review/",
+      "use_case": "small wall décor, jewellery, keys, belts, small handbags",
+      "weight_context": "up to 225g (metallic hooks)"
+    },
+    {
+      "id": 2,
+      "quote": "so easy to apply and easy to remove if you need to reposition them",
+      "context": "Praising ease of use and repositioning capability",
+      "sentiment": "positive",
+      "theme": "ease_of_use",
+      "source_id": 1,
+      "source_url": "https://whatsgoodtodo.com/3m-command-hooks-review/"
+    },
+    {
+      "id": 3,
+      "quote": "I love my command tape with hooks, just forgot to order for the larger weight ones",
+      "context": "Reddit user expressing satisfaction BUT needing higher weight capacity",
+      "sentiment": "mixed",
+      "theme": "weight_capacity_gap",
+      "source_id": 4,
+      "source_url": "Reddit aggregation",
+      "innovation_insight": "Consumers want Command's convenience for heavier applications"
+    },
+    {
+      "id": 4,
+      "quote": "may be too heavy",
+      "context": "Reddit users expressing concern that plant + pot + water exceeds Command capacity",
+      "sentiment": "concern",
+      "theme": "weight_limit_anxiety",
+      "source_id": 4,
+      "source_url": "Reddit discussions"
+    },
+    {
+      "id": 5,
+      "quote": "just does not work reliably",
+      "context": "User complaint about Command strips in real-world conditions",
+      "sentiment": "negative",
+      "theme": "reliability_failure",
+      "source_id": 6,
+      "source_url": "Weight limit complaints research"
+    },
+    {
+      "id": 6,
+      "quote": "expensive pictures fell off the wall",
+      "context": "User reported failure despite using heavy duty strips and exceeding recommended quantity",
+      "sentiment": "negative",
+      "theme": "catastrophic_failure",
+      "source_id": 6,
+      "source_url": "Weight limit complaints research",
+      "impact": "valuable items damaged"
+    },
+    {
+      "id": 7,
+      "quote": "adhesive properties may deteriorate, causing the hooks to fail unexpectedly",
+      "context": "Warning about factors like wall texture, humidity, temperature changes affecting performance over time",
+      "sentiment": "cautionary",
+      "theme": "long_term_reliability",
+      "source_id": 6,
+      "source_url": "Weight limit complaints research"
+    },
+    {
+      "id": 8,
+      "quote": "not designed to be a long-term solution for hanging valuable or weighty items",
+      "context": "Expert advice about limitations of Command hooks",
+      "sentiment": "cautionary",
+      "theme": "use_case_limitations",
+      "source_id": 6,
+      "source_url": "Weight limit complaints research"
+    },
+    {
+      "id": 9,
+      "quote": "the biggest knock on Command strips is that, compared to nails, they are expensive",
+      "context": "Price concern relative to traditional alternatives",
+      "sentiment": "negative",
+      "theme": "price_value",
+      "source_id": 6,
+      "source_url": "Weight limit complaints research"
+    },
+    {
+      "id": 10,
+      "quote": "Complete false advertisement",
+      "context": "User complaint despite following all manufacturer instructions",
+      "sentiment": "negative",
+      "theme": "trust_broken",
+      "source_id": 3,
+      "source_url": "https://prudentreviews.com/picture-hanging-strips-review/"
+    },
+    {
+      "id": 11,
+      "quote": "Frames falling unexpectedly, damaging artwork",
+      "context": "Consumer complaint pattern from review site",
+      "sentiment": "negative",
+      "theme": "damage_risk",
+      "source_id": 3,
+      "source_url": "https://prudentreviews.com/picture-hanging-strips-review/"
+    },
+    {
+      "id": 12,
+      "quote": "avoid Command for antiques, heirlooms, or other valuable items",
+      "context": "Warning from packaging fine print",
+      "sentiment": "cautionary",
+      "theme": "valuable_items_warning",
+      "source_id": 3,
+      "source_url": "https://prudentreviews.com/picture-hanging-strips-review/",
+      "innovation_insight": "Consumers need Command-style convenience they can trust with valuable items"
+    },
+    {
+      "id": 13,
+      "quote": "strips will last much longer if items remain below the recommended weight limit",
+      "context": "Advice on proper usage to avoid failure",
+      "sentiment": "cautionary",
+      "theme": "weight_discipline_required",
+      "source_id": 2,
+      "source_url": "https://homelyville.com/command-strips-weight-limits/"
+    },
+    {
+      "id": 14,
+      "quote": "Should not be used on wallpapered walls, textured surfaces or brick",
+      "context": "Surface limitations that exclude many garage environments",
+      "sentiment": "limiting",
+      "theme": "surface_restrictions",
+      "source_id": 1,
+      "source_url": "https://whatsgoodtodo.com/3m-command-hooks-review/",
+      "garage_implication": "Garage surfaces often textured/rough - limits applicability"
+    },
+    {
+      "id": 15,
+      "quote": "For garage storage durability, screws are the superior choice for most applications, especially for heavier items like bikes, ladders, and tools",
+      "context": "Comparative analysis of Command vs screw-in hooks for garage use",
+      "sentiment": "comparative_negative",
+      "theme": "garage_durability_gap",
+      "source_id": 7,
+      "source_url": "Command vs screws comparison",
+      "innovation_insight": "Clear gap in market for damage-free heavy-duty garage solutions"
+    }
+  ],
+  "thematic_summary": {
+    "love_themes": [
+      "Damage-free removal (highly valued)",
+      "Ease of application and repositioning",
+      "Clean aesthetic (clear variants barely visible)",
+      "Works well for light applications when properly applied"
+    ],
+    "hate_themes": [
+      "Weight capacity insufficient for heavier needs",
+      "Reliability concerns / unexpected failures",
+      "Too expensive relative to nails",
+      "Cannot trust with valuable items",
+      "Surface limitations (textured/brick excluded)"
+    ],
+    "perception_gaps": [
+      "Consumers WANT damage-free convenience BUT NEED heavy-duty capacity",
+      "Love the philosophy, frustrated by limitations",
+      "Viewed as 'light-duty convenience' not 'heavy-duty durability'",
+      "Garage market dominated by screw-in alternatives despite damage-free appeal"
+    ]
+  },
+  "garage_specific_insights": {
+    "current_perception": "Not considered suitable for typical garage storage (bikes, tools, ladders)",
+    "barriers": [
+      "Weight capacity (max 16 lbs vs 50-100+ lb garage needs)",
+      "Surface compatibility (textured garage walls problematic)",
+      "Long-term reliability in temperature/humidity fluctuating environments",
+      "Cannot trust with expensive tools/equipment"
+    ],
+    "opportunity": "IF Command could deliver 50-100 lb capacity with same damage-free promise, would fill major market gap"
+  },
+  "innovation_direction": {
+    "consumer_need": "Heavy-duty damage-free mounting for garage (bikes, tools, ladders 50-100+ lbs)",
+    "current_solution": "Screw-in steel hooks (permanent, requires drilling, leaves holes)",
+    "ideal_solution": "Command-style damage-free convenience + heavy-duty capacity + garage surface compatibility",
+    "market_validation": "Consumers explicitly wanting 'larger weight' Command options (quote #3)"
+  }
+}
