@@ -1,0 +1,12 @@
+{
+  "preflight_sample": {
+    "file": "data/raw/pass1_free/preflight_sample.json",
+    "expected_min": 10,
+    "required_fields": ["id", "text", "date", "brand", "url"],
+    "text_field": "text",
+    "date_field": "date",
+    "id_field": "id",
+    "location_field": "location",
+    "brand_name": "Command"
+  }
+}
