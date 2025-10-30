@@ -1,0 +1,73 @@
+# Social Video Collection Configuration Template
+# Copy this file and customize for your specific use case
+
+# Project Metadata
+project_name: "3M Lighting Project"
+collection_name: "Example Collection"
+created_date: "2025-10-29"
+
+# Category Configuration
+category: "example category"
+platform: "tiktok"  # Options: tiktok, instagram, youtube_shorts
+
+# Collection Targets
+collection_target:
+  min_videos: 50
+  max_videos: 500
+  priority: "relevance"  # Options: relevance, engagement, recent
+
+# Search Strategy
+search_strategy:
+  # Keywords for search (platform-specific syntax)
+  keywords:
+    - "example keyword 1"
+    - "example keyword 2"
+
+  # Hashtags (without # prefix)
+  hashtags:
+    - "examplehashtag"
+
+  # Emotional triggers (for problem-focused research)
+  emotional_triggers:
+    - "fail"
+    - "broken"
+    - "disaster"
+    - "frustrated"
+
+# Filters
+filters:
+  min_views: 1000
+  min_likes: 50
+  has_audio: true
+  language: "en"
+  duration:
+    min: 5      # seconds
+    max: 180    # seconds (3 minutes)
+
+# Processing Configuration
+processing:
+  transcription:
+    model: "large-v3"
+    language: "en"
+    device: "cpu"  # cpu, cuda, or mps
+
+  visual_extraction:
+    frame_interval: 3  # Extract 1 frame every N seconds
+    frame_quality: "high"
+
+  audio_features:
+    sample_rate: 16000
+    extract_prosody: true
+
+# Output Configuration
+output:
+  base_dir: "data/processed"
+  format: "json"
+  preserve_metadata: true
+  include_raw_video: true
+
+# Apify Configuration (TikTok)
+apify:
+  actor_id: "clockworks/free-tiktok-scraper"
+  max_items: 500
+  results_per_page: 20

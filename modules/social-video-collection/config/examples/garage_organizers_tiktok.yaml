@@ -1,0 +1,96 @@
+# Garage Organizers - TikTok Pain Point Collection
+# Use Case: Find consumer problems with garage organization products
+
+project_name: "3M Lighting Project"
+collection_name: "Garage Organizers Pain Points - TikTok"
+created_date: "2025-10-29"
+
+category: "garage organizers"
+platform: "tiktok"
+
+collection_target:
+  min_videos: 250
+  max_videos: 300
+  priority: "engagement"
+  test_limit: 10  # For test runs only
+
+search_strategy:
+  keywords:
+    # Product failure keywords
+    - "garage hooks fail"
+    - "garage hooks fell off"
+    - "command strips broken"
+    - "command strips garage"
+    - "garage organization fail"
+    - "garage storage broken"
+    - "pegboard fell down"
+    - "garage hooks not sticking"
+    - "adhesive hooks failed"
+
+    # Problem-focused keywords
+    - "garage organization disaster"
+    - "garage organization problems"
+    - "garage hooks won't stick"
+    - "garage storage frustration"
+
+    # Complaint keywords
+    - "garage organizer review bad"
+    - "worst garage hooks"
+    - "garage organization mistake"
+
+  hashtags:
+    - "garagefail"
+    - "organizationfail"
+    - "garagedisaster"
+    - "commandstripfail"
+    - "diyfail"
+    - "homefail"
+    - "garageorganization"
+    - "garagestorage"
+
+  emotional_triggers:
+    - "fail"
+    - "failed"
+    - "broke"
+    - "broken"
+    - "fell"
+    - "disaster"
+    - "frustrated"
+    - "annoying"
+    - "won't stick"
+    - "doesn't work"
+
+filters:
+  min_views: 5000
+  min_likes: 100
+  min_author_followers: 2000
+  has_audio: true
+  language: "en"
+  duration:
+    min: 10
+    max: 180
+
+processing:
+  transcription:
+    model: "whisper-1"  # OpenAI Whisper API
+    language: "en"
+
+  visual_extraction:
+    model: "gpt-4o"  # GPT-4 Vision for frame analysis
+    frame_interval: 3  # Extract keyframes every 3 seconds
+    frame_quality: "high"
+
+  audio_features:
+    sample_rate: 16000
+    extract_prosody: true
+
+output:
+  base_dir: "data/processed/garage-organizers-tiktok"
+  format: "json"
+  preserve_metadata: true
+  include_raw_video: true
+
+apify:
+  actor_id: "clockworks/free-tiktok-scraper"
+  max_items: 500
+  results_per_page: 20

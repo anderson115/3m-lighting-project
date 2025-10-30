@@ -1,0 +1,21 @@
+# Social Video Collection Module - Python Dependencies
+
+# Video Scraping & Download
+apify-client>=1.7.0
+yt-dlp>=2023.11.0
+
+# Audio Transcription (Whisper API)
+openai>=1.0.0  # OpenAI API for Whisper + GPT-4 Vision
+
+# Audio Feature Extraction
+librosa>=0.10.0
+soundfile>=0.12.0
+numba>=0.58.0  # librosa dependency
+pyannote.audio>=3.0.0  # Optional: Speaker diarization and emotion
+
+# Configuration & Utilities
+pyyaml>=6.0
+numpy>=1.24.0
+
+# Optional: Progress bars
+tqdm>=4.65.0
