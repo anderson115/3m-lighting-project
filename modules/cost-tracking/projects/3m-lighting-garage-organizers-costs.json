@@ -1,0 +1,103 @@
+{
+  "project_name": "3M Lighting - Garage Organizers Category Intelligence",
+  "client": "3M Lighting Division",
+  "date_calculated": "2025-10-30T14:19:09.649400",
+  "breakdown": {
+    "labor": {
+      "by_category": {
+        "discovery_research": 1200.0,
+        "data_collection": 4375.0,
+        "data_analysis": 6000.0,
+        "report_writing": 2250.0,
+        "presentation_design": 1500.0,
+        "client_meetings": 1050.0,
+        "project_management": 600.0
+      },
+      "total": 16975.0,
+      "total_hours": 120.0
+    },
+    "subscriptions": {
+      "by_service": {
+        "ai_tools.claude_max": 200.0,
+        "ai_tools.chatgpt_pro": 20.0,
+        "ai_tools.cursor_ai_pro": 20.0,
+        "ai_tools.gemini_pro": 20.0,
+        "ai_tools.grok": 40.0,
+        "development_platforms.vercel_pro": 20.0,
+        "development_platforms.replit_core": 25.0,
+        "development_platforms.lovable_pro": 25.0,
+        "data_scraping.bright_data": 500.0,
+        "data_scraping.apify": 49.0,
+        "cloud_infrastructure.google_cloud": 50.0
+      },
+      "total": 969.0,
+      "allocation_factor": 1.0,
+      "notes": "Allocated 100.0% of subscription costs"
+    },
+    "hardware": {
+      "by_device": {
+        "mac_studio": 62.4825,
+        "macbook_pro_2024": 54.675000000000004,
+        "synology_nas": 15.0,
+        "samsung_s24_ultra": 27.06
+      },
+      "total": 159.2175,
+      "allocation_factor": 0.75,
+      "notes": "Allocated 75.0% of hardware costs"
+    },
+    "operational": {
+      "total_monthly_operational": 230.0,
+      "hourly_rate": 1.4375,
+      "project_hours": 120.0,
+      "total": 172.5
+    },
+    "api_costs": {
+      "by_service": {
+        "openai_whisper": {
+          "units": 42.0,
+          "unit_type": "minutes",
+          "cost": 0.252
+        },
+        "openai_gpt4_vision": {
+          "units": 504,
+          "unit_type": "images",
+          "cost": 3.8556
+        },
+        "anthropic_claude": {
+          "input_tokens": 250000,
+          "output_tokens": 75000,
+          "cost": 1.875
+        },
+        "apify": {
+          "units": 150,
+          "unit_type": "results",
+          "cost": 0.0,
+          "notes": "Included in subscription"
+        },
+        "brightdata": {
+          "units": 500,
+          "unit_type": "requests",
+          "cost": 1.5
+        }
+      },
+      "total": 7.4826
+    }
+  },
+  "summary": {
+    "total_labor": 16975.0,
+    "total_subscriptions": 969.0,
+    "total_hardware": 159.2175,
+    "total_operational": 172.5,
+    "total_api": 7.4826,
+    "total_direct_costs": 18283.2001,
+    "markup_percentage": 50,
+    "markup_amount": 9141.60005,
+    "quoted_price": 27424.800149999995,
+    "total_hours": 120.0
+  },
+  "metrics": {
+    "effective_hourly_rate": 228.54000124999996,
+    "cost_per_hour": 152.36000083333332,
+    "overhead_percentage": 7.706627982326941
+  }
+}

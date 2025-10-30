@@ -1,0 +1,94 @@
+{
+  "project_name": "Cost Tracking Module - R&D Development",
+  "client": "Internal / Business Operations",
+  "date_calculated": "2025-10-30T14:26:38.774129",
+  "breakdown": {
+    "labor": {
+      "by_category": {
+        "discovery_research": 300.0,
+        "data_collection": 0.0,
+        "data_analysis": 0.0,
+        "report_writing": 0.0,
+        "presentation_design": 0.0,
+        "client_meetings": 1312.5,
+        "project_management": 300.0
+      },
+      "total": 1912.5,
+      "total_hours": 11.5
+    },
+    "subscriptions": {
+      "by_service": {
+        "ai_tools.claude_max": 10.0,
+        "ai_tools.cursor_ai_pro": 1.0
+      },
+      "total": 11.0,
+      "allocation_factor": 0.05,
+      "notes": "Allocated 5.0% of subscription costs"
+    },
+    "hardware": {
+      "by_device": {
+        "mac_studio": 5.98790625,
+        "macbook_pro_2024": 5.2396875,
+        "synology_nas": 1.4375,
+        "samsung_s24_ultra": 2.59325
+      },
+      "total": 15.25834375,
+      "allocation_factor": 0.071875,
+      "notes": "Allocated 7.2% of hardware costs"
+    },
+    "operational": {
+      "total_monthly_operational": 230.0,
+      "hourly_rate": 1.4375,
+      "project_hours": 11.5,
+      "total": 16.53125
+    },
+    "api_costs": {
+      "by_service": {
+        "openai_whisper": {
+          "units": 0.0,
+          "unit_type": "minutes",
+          "cost": 0.0
+        },
+        "openai_gpt4_vision": {
+          "units": 0,
+          "unit_type": "images",
+          "cost": 0.0
+        },
+        "anthropic_claude": {
+          "input_tokens": 150000,
+          "output_tokens": 100000,
+          "cost": 1.95
+        },
+        "apify": {
+          "units": 0,
+          "unit_type": "results",
+          "cost": 0.0,
+          "notes": "Included in subscription"
+        },
+        "brightdata": {
+          "units": 0,
+          "unit_type": "requests",
+          "cost": 0.0
+        }
+      },
+      "total": 1.95
+    }
+  },
+  "summary": {
+    "total_labor": 1912.5,
+    "total_subscriptions": 11.0,
+    "total_hardware": 15.25834375,
+    "total_operational": 16.53125,
+    "total_api": 1.95,
+    "total_direct_costs": 1957.23959375,
+    "markup_percentage": 0,
+    "markup_amount": 0.0,
+    "quoted_price": 1957.23959375,
+    "total_hours": 11.5
+  },
+  "metrics": {
+    "effective_hourly_rate": 170.1947472826087,
+    "cost_per_hour": 170.1947472826087,
+    "overhead_percentage": 2.339325163398695
+  }
+}
