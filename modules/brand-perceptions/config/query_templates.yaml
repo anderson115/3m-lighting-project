@@ -1,0 +1,233 @@
+# Balanced Query Templates - Brand Perceptions Data Collection
+# Purpose: Prevent negativity bias with balanced positive/neutral/negative searches
+# Status: LOCKED IN
+# Last Updated: 2025-10-30
+
+brands:
+  Command:
+    primary_terms:
+      - "Command hooks"
+      - "Command strips"
+      - "3M Command"
+    
+    queries:
+      youtube:
+        positive:
+          - "Command hooks garage organization tutorial"
+          - "Command hooks works great garage"
+          - "Command hooks garage storage success"
+          - "how to use Command hooks garage"
+          - "Command hooks garage organization 2024"
+        neutral:
+          - "Command hooks garage storage review"
+          - "Command hooks garage organization 2024"
+          - "Command hooks garage test"
+          - "Command hooks garage comparison"
+          - "best garage hooks Command"
+        negative:
+          - "Command hooks garage failed"
+          - "Command hooks garage complaints"
+          - "Command hooks fell off garage"
+          - "Command hooks not working garage"
+          - "Command hooks garage problems"
+      
+      tiktok:
+        positive:
+          - "site:tiktok.com Command garage organization hack"
+          - "site:tiktok.com Command hooks garage life hack"
+          - "site:tiktok.com #commandhooks #garageorganization success"
+        neutral:
+          - "site:tiktok.com #garageorganization Command"
+          - "site:tiktok.com Command garage storage"
+          - "site:tiktok.com Command hooks garage review"
+        negative:
+          - "site:tiktok.com Command garage fail"
+          - "site:tiktok.com Command hooks disaster"
+          - "site:tiktok.com Command garage fell off"
+      
+      reddit:
+        positive:
+          - "site:reddit.com Command garage recommend OR love OR works"
+          - "site:reddit.com r/HomeImprovement Command garage success"
+          - "site:reddit.com r/organization Command hooks recommend"
+        neutral:
+          - "site:reddit.com r/HomeImprovement Command garage"
+          - "site:reddit.com r/garageporn Command hooks"
+          - "site:reddit.com Command garage storage"
+        negative:
+          - "site:reddit.com Command garage fail OR disappointed OR fell"
+          - "site:reddit.com Command hooks garage not working"
+          - "site:reddit.com Command garage complaints"
+      
+      retailer_reviews:
+        amazon:
+          positive:
+            - "site:amazon.com Command garage hooks 5 stars"
+            - "site:amazon.com Command utility hooks 4 stars review"
+            - "site:amazon.com Command garage organization positive"
+          neutral:
+            - "site:amazon.com Command garage utility hooks reviews"
+            - "site:amazon.com Command hooks garage 3 stars"
+            - "site:amazon.com Command garage storage review"
+          negative:
+            - "site:amazon.com Command garage hooks 1 star"
+            - "site:amazon.com Command hooks garage failed 2 stars"
+            - "site:amazon.com Command garage complaints review"
+        
+        homedepot:
+          positive:
+            - "site:homedepot.com Command hooks garage 5 stars"
+            - "site:homedepot.com Command garage storage positive"
+          neutral:
+            - "site:homedepot.com Command hooks garage review"
+            - "site:homedepot.com Command garage organization"
+          negative:
+            - "site:homedepot.com Command hooks garage 1 star"
+            - "site:homedepot.com Command garage failed review"
+        
+        lowes:
+          positive:
+            - "site:lowes.com Command hooks garage 5 stars"
+            - "site:lowes.com Command garage storage positive review"
+          neutral:
+            - "site:lowes.com Command hooks garage review"
+            - "site:lowes.com Command garage organization"
+          negative:
+            - "site:lowes.com Command hooks garage 1 star"
+            - "site:lowes.com Command garage failed review"
+      
+      expert_reviews:
+        positive:
+          - "Command hooks garage organization expert review 2024"
+          - "best garage hooks Command professional review"
+        neutral:
+          - "Command hooks garage review expert 2024 OR 2023"
+          - "Command garage organization blog review"
+        negative:
+          - "Command hooks garage problems expert review"
+          - "Command garage storage complaints professional"
+
+  Scotch-Brite:
+    primary_terms:
+      - "Scotch-Brite"
+      - "Scotch Brite scrubber"
+    
+    queries:
+      youtube:
+        positive:
+          - "Scotch-Brite garage cleaning tutorial"
+          - "Scotch-Brite works great garage"
+          - "Scotch-Brite garage organization 2024"
+        neutral:
+          - "Scotch-Brite garage cleaning review"
+          - "Scotch-Brite garage storage"
+          - "best garage cleaning Scotch-Brite"
+        negative:
+          - "Scotch-Brite garage failed"
+          - "Scotch-Brite garage complaints"
+          - "Scotch-Brite not working garage"
+      
+      reddit:
+        positive:
+          - "site:reddit.com Scotch-Brite garage recommend"
+          - "site:reddit.com Scotch Brite garage works"
+        neutral:
+          - "site:reddit.com r/HomeImprovement Scotch-Brite garage"
+          - "site:reddit.com Scotch Brite garage cleaning"
+        negative:
+          - "site:reddit.com Scotch-Brite garage fail OR disappointed"
+          - "site:reddit.com Scotch Brite garage complaints"
+
+  Scotch:
+    primary_terms:
+      - "Scotch tape"
+      - "Scotch heavy duty"
+    
+    queries:
+      youtube:
+        positive:
+          - "Scotch tape garage organization tutorial"
+          - "Scotch heavy duty garage works"
+          - "Scotch tape garage storage 2024"
+        neutral:
+          - "Scotch tape garage review"
+          - "Scotch heavy duty garage"
+          - "best garage tape Scotch"
+        negative:
+          - "Scotch tape garage failed"
+          - "Scotch garage complaints"
+          - "Scotch tape not working garage"
+      
+      reddit:
+        positive:
+          - "site:reddit.com Scotch tape garage recommend"
+          - "site:reddit.com Scotch heavy duty garage works"
+        neutral:
+          - "site:reddit.com r/HomeImprovement Scotch tape garage"
+          - "site:reddit.com Scotch garage organization"
+        negative:
+          - "site:reddit.com Scotch tape garage fail"
+          - "site:reddit.com Scotch garage complaints"
+
+# Stage-specific query allocations
+stage1_preflight:
+  brand: "Command"
+  targets:
+    youtube: 10  # 5 positive, 5 negative
+    reddit: 10   # Balanced across subreddits
+    retailer: 10 # Amazon only, balanced star ratings
+  
+  query_selection:
+    youtube:
+      - queries.youtube.positive[0]  # "Command hooks garage organization tutorial"
+      - queries.youtube.positive[1]  # "Command hooks works great garage"
+      - queries.youtube.positive[2]  # "Command hooks garage storage success"
+      - queries.youtube.positive[3]  # "how to use Command hooks garage"
+      - queries.youtube.positive[4]  # "Command hooks garage organization 2024"
+      - queries.youtube.negative[0]  # "Command hooks garage failed"
+      - queries.youtube.negative[1]  # "Command hooks garage complaints"
+      - queries.youtube.negative[2]  # "Command hooks fell off garage"
+      - queries.youtube.negative[3]  # "Command hooks not working garage"
+      - queries.youtube.negative[4]  # "Command hooks garage problems"
+    
+    reddit:
+      - queries.reddit.positive[0]   # Recommend/love/works
+      - queries.reddit.positive[1]   # HomeImprovement success
+      - queries.reddit.positive[2]   # Organization recommend
+      - queries.reddit.neutral[0]    # HomeImprovement general
+      - queries.reddit.neutral[1]    # Garageporn
+      - queries.reddit.neutral[2]    # General storage
+      - queries.reddit.negative[0]   # Fail/disappointed
+      - queries.reddit.negative[1]   # Not working
+      - queries.reddit.negative[2]   # Complaints
+      - queries.reddit.neutral[0]    # Extra neutral for balance
+    
+    retailer:
+      - queries.retailer_reviews.amazon.positive[0]   # 5 stars
+      - queries.retailer_reviews.amazon.positive[1]   # 4 stars
+      - queries.retailer_reviews.amazon.positive[2]   # Positive mentions
+      - queries.retailer_reviews.amazon.neutral[0]    # General reviews
+      - queries.retailer_reviews.amazon.neutral[1]    # 3 stars
+      - queries.retailer_reviews.amazon.neutral[2]    # Review search
+      - queries.retailer_reviews.amazon.negative[0]   # 1 star
+      - queries.retailer_reviews.amazon.negative[1]   # Failed 2 stars
+      - queries.retailer_reviews.amazon.negative[2]   # Complaints
+      - queries.retailer_reviews.amazon.neutral[0]    # Extra neutral
+
+stage2_command_sample:
+  brand: "Command"
+  targets:
+    youtube: 25   # 10 positive, 10 neutral, 5 negative
+    tiktok: 25    # Balanced
+    reddit: 25    # Balanced subreddits
+    amazon: 25    # 10 high stars, 10 mid stars, 5 low stars
+    expert: 5     # Balanced
+
+stage3_multi_brand:
+  brands: ["Command", "Scotch-Brite", "Scotch"]
+  targets_per_brand:
+    youtube: 25
+    tiktok: 25
+    reddit: 25
+    retailer: 25
+    expert: 5

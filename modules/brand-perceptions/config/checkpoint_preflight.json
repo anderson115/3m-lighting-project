@@ -1,6 +1,6 @@
 {
   "preflight_sample": {
-    "file": "data/raw/pass1_free/preflight_sample.json",
+    "file": "modules/brand-perceptions/data/raw/pass1_free/preflight_sample.json",
     "expected_min": 10,
     "required_fields": ["id", "text", "date", "brand", "url"],
     "text_field": "text",
