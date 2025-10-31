@@ -331,16 +331,23 @@ with open('data/outputs/test.json', 'w') as f:
     "brands_identified": ["Command", "Scotch-Brite", "Scotch", "Post-it Extreme", "Scotchgard"]
   },
   "phase2_data_collection": {
-    "status": "in_progress",
-    "stage": "architecture_design",
-    "checkpoint_approved": false,
-    "strategy": "free_first_with_brightdata_backfill",
+    "status": "locked_in_ready_to_execute",
+    "stage": "plan_finalized_with_bias_mitigation",
+    "checkpoint_approved": true,
+    "strategy": "bias_mitigated_free_first_with_brightdata_backfill",
     "budget_limit": "$25",
+    "bias_mitigation_strategy": {
+      "negativity_bias": "balanced_query_strategy_positive_neutral_negative",
+      "temporal_bias": "2023_2024_prioritized_3x_weighting",
+      "platform_bias": "youtube_tiktok_reddit_added",
+      "geographic_bias": "us_sources_prioritized_80_percent",
+      "sample_size": "200_plus_verbatims_per_brand"
+    },
     "output_files": [
-      "PHASE2_DATA_COLLECTION_PLAN.md",
-      "/tmp/scraping_tools_comparison.md"
+      "PHASE2_DATA_COLLECTION_PLAN.md (LOCKED IN)",
+      "config/checkpoint_rules.yaml (pending creation)"
     ],
-    "next_action": "Begin Stage 1: Setup & Preflight"
+    "next_action": "Create config/checkpoint_rules.yaml, then run Stage 1: Setup & Preflight"
   },
   "phase2_perception_discovery": {
     "status": "exploratory_completed",

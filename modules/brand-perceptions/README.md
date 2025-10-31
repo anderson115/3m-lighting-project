@@ -87,6 +87,42 @@ python scripts/04_collect_amazon.py
 python scripts/05_collect_social.py
 ```
 
+## API Keys & Authentication
+
+### Stored in 1Password (Development Vault)
+
+All API credentials are stored in 1Password for security. Access them using the 1password CLI:
+
+#### Apify API
+```bash
+# Retrieve Apify API token
+op item get "Apify API - Brand Perceptions Module" --reveal --fields "API Token"
+
+# Or set as environment variable
+export APIFY_API_TOKEN=$(op item get "Apify API - Brand Perceptions Module" --reveal --fields "API Token")
+```
+
+#### BrightData Scraping Browser
+```bash
+# Auth string is stored in project config (not sensitive)
+# Located at: scripts/collect_amazon_brightdata_browser.py
+# Default: brd-customer-hl_694870e0-zone-scraping_api_3m_lighting:hpgmxk27dafu
+```
+
+#### YouTube Data API
+```bash
+# YouTube API key (found via grep in project)
+# Stored in archived configs, extracted as needed by collectors
+```
+
+### Alternative: Legacy Config Files
+
+If 1Password is unavailable, API keys are also stored at:
+- `/Volumes/DATA/config/offbrain/category-intelligence/apify.env`
+- `/Volumes/DATA/config/offbrain/category-intelligence/brightdata.env`
+
+**Note**: These files are for local development only and are not committed to git.
+
 ## Data Collection Parameters
 
 - **Minimum per brand**: 200 data points
