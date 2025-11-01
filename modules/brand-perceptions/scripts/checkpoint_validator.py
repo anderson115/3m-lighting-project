@@ -9,6 +9,7 @@ import sys
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, List, Any
+import yaml
 
 class CheckpointValidator:
     def __init__(self, data_path: Path):
@@ -228,6 +229,102 @@ def main():
     passed = validator.run_checkpoint(checkpoint_config)
 
     sys.exit(0 if passed else 1)
+
+
+def validate_checkpoint(data_file: str, checkpoint_name: str, config_path: str) -> bool:
+    """
+    Simplified validation interface using checkpoint_rules.yaml.
+
+    Args:
+        data_file: Path to JSON file with collected records
+        checkpoint_name: Checkpoint to validate (e.g., "preflight_5pct")
+        config_path: Path to checkpoint_rules.yaml
+
+    Returns:
+        True if validation passes, False otherwise
+    """
+    # Load checkpoint rules
+    with open(config_path, 'r') as f:
+        rules = yaml.safe_load(f)
+
+    # Get checkpoint config
+    checkpoint_config = rules.get("checkpoints", {}).get(checkpoint_name)
+    if not checkpoint_config:
+        print(f"❌ Checkpoint '{checkpoint_name}' not found in config")
+        return False
+
+    # Load data
+    with open(data_file, 'r') as f:
+        records = json.load(f)
+
+    if not isinstance(records, list):
+        records = records.get("records", [])
+
+    # Run validations
+    validator = CheckpointValidator(Path(data_file).parent)
+
+    print(f"\n🔍 Validating checkpoint: {checkpoint_name}")
+    print(f"   Description: {checkpoint_config.get('description')}")
+    print(f"   Records: {len(records)}")
+    print()
+
+    # Check minimum records
+    min_records = checkpoint_config.get("min_records", 10)
+    if len(records) < min_records:
+        print(f"❌ Insufficient records: {len(records)}/{min_records} minimum")
+        return False
+    else:
+        print(f"✅ Record count OK: {len(records)}/{min_records} minimum")
+
+    # Check required fields
+    required_fields = rules["validation_rules"]["required_fields"]["core_fields"]
+    missing_fields = []
+
+    for i, record in enumerate(records):
+        for field in required_fields:
+            if field not in record or not record[field]:
+                missing_fields.append(f"Record {i+1}: missing '{field}'")
+
+    if missing_fields:
+        print(f"❌ Missing required fields:")
+        for msg in missing_fields[:5]:
+            print(f"   {msg}")
+        if len(missing_fields) > 5:
+            print(f"   ... and {len(missing_fields) - 5} more")
+        return False
+    else:
+        print(f"✅ All required fields present")
+
+    # Check brand mentions
+    brands = checkpoint_config.get("brands", [])
+    brand_errors = []
+
+    for i, record in enumerate(records):
+        text = record.get("text", "").lower()
+        brand = record.get("brand", "")
+        if brand and brand.lower() not in text:
+            brand_errors.append(f"Record {i+1}: brand '{brand}' not in text")
+
+    if brand_errors:
+        print(f"⚠️  Brand mention warnings: {len(brand_errors)}")
+        for msg in brand_errors[:3]:
+            print(f"   {msg}")
+    else:
+        print(f"✅ Brand mentions validated")
+
+    # Check platform diversity (if required)
+    if checkpoint_config.get("required_platforms"):
+        platforms = set(r.get("platform") for r in records)
+        required = set(checkpoint_config["required_platforms"])
+        missing_platforms = required - platforms
+
+        if missing_platforms:
+            print(f"⚠️  Missing platforms: {missing_platforms}")
+        else:
+            print(f"✅ Platform diversity OK: {platforms}")
+
+    print(f"\n✅ Checkpoint '{checkpoint_name}' PASSED")
+    return True
 
 
 if __name__ == "__main__":

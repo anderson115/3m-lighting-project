@@ -1,13 +1,13 @@
 # 3M Lighting Project - Module Status Overview
 
-**Last Updated**: 2025-10-21
+**Last Updated**: 2025-10-31
 **Project Version**: v2.0.1
 
 ---
 
 ## 📊 **MODULE OVERVIEW**
 
-This project consists of 9 intelligence modules organized under `/modules/`:
+This project consists of 9 intelligence modules + 1 internal operations module organized under `/modules/`:
 
 | Module | Status | Grade | Description |
 |--------|--------|-------|-------------|
@@ -19,6 +19,7 @@ This project consists of 9 intelligence modules organized under `/modules/`:
 | **creator-discovery** | 📝 Placeholder | - | Creator discovery system (planned) |
 | **social-signal** | 📝 Placeholder | - | Social media signal analysis (planned) |
 | **youtube-datasource** | 📝 Minimal | - | YouTube data collection (minimal implementation) |
+| **cost-tracking** (Internal) | ✅ Production | A | Automated cost tracking from chat logs |
 
 ---
 
@@ -203,6 +204,65 @@ This project consists of 9 intelligence modules organized under `/modules/`:
 **Purpose**: YouTube data collection and processing
 
 **Location**: `modules/youtube-datasource/`
+
+---
+
+## 🔧 **INTERNAL OPERATIONS MODULES**
+
+### **9. cost-tracking** (A)
+
+**Purpose**: Automated cost tracking for internal R&D and client projects
+
+**Status**: Production-ready
+
+**Key Features**:
+- Automatic time extraction from Claude Code chat logs (~/.claude/projects/)
+- API cost calculation (Claude Sonnet token usage)
+- Session duration tracking with ISO timestamp parsing
+- Module/project attribution based on file paths
+- CSV export for database integration
+- Internal R&D cost reporting
+- Fixed cost per report pricing model ($4,100)
+
+**Technology Stack**:
+- Python 3.13+
+- JSONL parsing (Claude Code conversation logs)
+- YAML configuration (API pricing data)
+
+**Data Sources**:
+- Claude Code conversation logs (JSONL format)
+- Token usage data (input/output tokens)
+- File modification records (for attribution)
+- Timestamp data (for duration calculations)
+
+**Cost Model**:
+- Development time: Tracked automatically from chat sessions
+- API costs: $3/M input tokens, $15/M output tokens (Claude Sonnet)
+- Fixed report pricing: $4,100 per report (2x monthly costs + 8 hours consulting)
+- Subscription tracking: 11+ services (Claude Max, ChatGPT Pro, Cursor AI, etc.)
+- Operational costs: Internet, hardware, utilities
+
+**Entry Points**:
+- `scripts/analyze_costs.py` - Full cost analysis across all sessions
+- `scripts/internal_rd_report.py` - R&D investment report
+
+**Outputs**:
+- Console reports with session summaries
+- CSV exports (`internal_rd_costs.csv`, `project_costs.csv`)
+- Module-level cost breakdowns
+- Database-ready format
+
+**Current Results** (Internal R&D):
+- 203.3 hours development time (Oct 18-30, 2025)
+- $21.51 in API costs
+- 45 sessions across 13 modules
+- Top module: category-intelligence (189.8 hrs, $19.98)
+
+**Location**: `modules/cost-tracking/`
+**Documentation**: `modules/cost-tracking/README.md`
+**Configuration**: `modules/cost-tracking/config/pricing.yaml`
+
+**Note**: Non-client-facing module - for internal operations and financial tracking only. Transitioning from internal R&D tracking to client project tracking in Q4 2025.
 
 ---
 

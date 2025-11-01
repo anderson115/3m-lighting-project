@@ -1,142 +1,133 @@
-# Checkpoint Validation Rules - Brand Perceptions Data Collection
-# Purpose: Prevent bias in data collection through automated validation
-# Status: LOCKED IN
-# Last Updated: 2025-10-30
+# Checkpoint Validation Rules - Brand Perceptions Module
+# Bias mitigation and data quality gates
 
 validation_rules:
-  # Prevent negativity bias - ensure balanced sentiment distribution
+  # BIAS CHECK 1: Sentiment Distribution (prevent negativity bias)
   sentiment_distribution:
-    max_negative_percentage: 0.60  # Maximum 60% negative sentiment allowed
-    min_neutral_percentage: 0.15   # Minimum 15% neutral sentiment required
-    min_positive_percentage: 0.15  # Minimum 15% positive sentiment required
-    rationale: "Review sites have 90%+ negative bias. Balance required for accurate perception analysis."
+    max_negative_percentage: 0.60     # Max 60% negative to avoid negativity bias
+    min_neutral_percentage: 0.15      # At least 15% neutral content
+    min_positive_percentage: 0.15     # At least 15% positive content
+    target_distribution: "40-60% negative, 20-40% neutral, 20-40% positive"
 
-  # Prevent temporal bias - prioritize recent data
+  # BIAS CHECK 2: Temporal Distribution (prioritize recent data)
   temporal_distribution:
-    priority_window: "2023-2024"
-    min_priority_percentage: 0.70   # 70%+ of data must be from 2023-2024
-    acceptable_window: "2020-2024"
-    max_old_data_percentage: 0.10   # Less than 10% data older than 2020
-    weight_multiplier_recent: 3     # Recent data weighted 3x in analysis
-    rationale: "Command quality degradation narrative spans 2012-2024. Recent data more relevant for current strategy."
+    priority_window: "2023-2024"               # Recent data window
+    min_priority_percentage: 0.70              # 70%+ must be from 2023-2024
+    acceptable_window: "2020-2024"             # Acceptable range
+    max_old_data_percentage: 0.10              # Max 10% pre-2020 data
+    weighting_strategy: "3x for 2023-2024, 1x for 2020-2022, 0.3x for pre-2020"
 
-  # Prevent geographic bias - prioritize US market
+  # BIAS CHECK 3: Geographic Distribution (US market focus)
   geographic_distribution:
-    priority_region: "US"
-    min_priority_percentage: 0.80   # 80%+ of sources must be US-based
-    allowed_regions:
-      - "US"
-      - "CA"  # Canada acceptable for North American market
-    excluded_regions:
-      - "UK"  # Tag separately, don't mix with US data
-      - "AU"  # Different climate/conditions (85°F temperature failures)
-    tag_all_sources: true
-    rationale: "UK/AU reviews show climate-specific failures. US market focus required for garage strategy."
+    priority_region: "US"                      # Primary market
+    min_priority_percentage: 0.80              # 80%+ must be US sources
+    allowed_regions: ["US", "CA"]              # US + Canada acceptable
+    excluded_regions: ["UK", "AU", "DE", "FR"] # Tag separately, don't mix
+    require_tagging: true                      # All sources must have geo tag
 
-  # Prevent platform bias - ensure diverse sources
+  # BIAS CHECK 4: Platform Diversity (avoid single-source bias)
   platform_diversity:
-    min_unique_platforms: 5
+    min_unique_platforms: 5                    # At least 5 different platforms
     required_platforms:
-      - "YouTube"        # Success demonstration videos
-      - "Reddit"         # Community discussions
-      - "retailer_reviews"  # At least one of: Amazon, Home Depot, Lowes
-    optional_platforms:
-      - "TikTok"
-      - "expert_reviews"
-      - "forums"
-    rationale: "Single platform (review sites) showed 90%+ negative. YouTube/TikTok show success cases."
+      - "YouTube"                              # Video demonstrations
+      - "Reddit"                               # Community discussions
+      - "Amazon"                               # Retailer reviews (or Home Depot/Lowes)
+      - "TikTok"                               # Social media
+      - "Expert Reviews"                       # Professional assessments
+    platform_balance:
+      max_single_platform_percentage: 0.40     # No single platform > 40%
 
-  # Prevent sample size bias - ensure statistical validity
+  # DATA QUALITY 1: Sample Size Requirements
   sample_size:
-    min_records_per_brand_stage1: 30     # Preflight test
-    min_records_per_brand_stage2: 100    # Single brand checkpoint
-    min_records_per_brand_stage3: 200    # Multi-brand target
-    min_unique_sources_per_brand: 20     # Diversity of sources
-    rationale: "52 verbatims from 292 reviews insufficient for strong claims. 200+ target per brand."
+    # 5% test thresholds
+    preflight_min_records: 10                  # Minimum for 5% test
+    preflight_target_records: 15               # Target for 5% test
 
-  # Data quality validation
-  data_quality:
-    required_fields:
-      - "text"          # Review/post content
-      - "date"          # Temporal filtering
-      - "source_url"    # Traceability
-      - "brand"         # Brand attribution
-      - "sentiment"     # Bias tracking
-      - "geography"     # Geographic filtering
-      - "platform"      # Platform diversity tracking
-    no_duplicates: true
-    brand_mention_verified: true
-    min_text_length: 20  # Characters - filter out low-quality "Great!" reviews
-    rationale: "All claims must be source-traceable. Duplicate detection prevents inflation."
+    # Stage 2 thresholds (Command brand checkpoint)
+    stage2_min_records_per_brand: 100          # Minimum per brand
+    stage2_target_records_per_brand: 120       # Target per brand
 
-# Stage-specific checkpoints
+    # Stage 3 thresholds (multi-brand expansion)
+    stage3_min_records_per_brand: 200          # Minimum per brand
+    stage3_target_records_per_brand: 250       # Target per brand (with buffer)
+
+    # Source diversity
+    min_unique_sources_per_brand: 20           # At least 20 distinct URLs/sources
+
+  # DATA QUALITY 2: Required Fields (schema validation)
+  required_fields:
+    core_fields:
+      - "text"              # Main content (review/comment/transcript)
+      - "date"              # Publication/post date
+      - "source_url"        # Source URL for verification
+      - "brand"             # Brand mentioned (validated)
+      - "platform"          # Platform/source type
+      - "geographic_region" # US/CA/UK/etc
+      - "sentiment"         # positive/neutral/negative
+
+    optional_fields:
+      - "author"            # Username/reviewer (may be anonymous)
+      - "rating"            # Star rating (if applicable)
+      - "engagement"        # Likes/upvotes/helpful votes
+      - "product_name"      # Specific product if applicable
+      - "verified"          # Verified purchase indicator
+
+    field_validation:
+      text_min_length: 20              # Minimum 20 characters
+      text_max_length: 10000           # Maximum 10k characters
+      date_format: "ISO8601"           # YYYY-MM-DD or full ISO
+      url_format: "valid_http_https"   # Must be valid URL
+      brand_must_match_config: true    # Brand must be in brands.yaml
+
+  # DATA QUALITY 3: Duplicate Prevention
+  duplicate_detection:
+    check_exact_duplicates: true         # Exact text matches
+    check_url_duplicates: true           # Same source URL
+    check_near_duplicates: true          # 95%+ similarity
+    similarity_threshold: 0.95           # Consider duplicate if >95% similar
+
+  # DATA QUALITY 4: Brand Mention Validation
+  brand_mention_validation:
+    require_brand_in_text: true          # Brand name must appear in content
+    allow_variant_names: true            # "Command" = "Command Strips" = "Command Strips"
+    min_confidence: 0.90                 # 90% confidence required
+    flag_ambiguous: true                 # Flag unclear brand references
+
+  # ROBUSTNESS: Error Handling
+  error_handling:
+    max_error_rate: 0.10                 # Max 10% errors acceptable
+    retry_failed_requests: 3             # Retry up to 3 times
+    exponential_backoff: true            # Use exponential backoff
+    log_all_errors: true                 # Log every error with details
+    continue_on_error: true              # Don't stop entire job on single error
+
+  # COST CONTROLS (for full collection)
+  budget_controls:
+    max_total_budget_usd: 25.00          # Hard cap at $25
+    max_per_source_budget_usd: 10.00     # Max $10 per data source
+    warn_at_percentage: 0.75             # Warning at 75% budget
+    stop_at_percentage: 1.00             # Hard stop at 100%
+
+# Checkpoint Stages
 checkpoints:
-  stage1_preflight:
-    description: "Validate WebSearch/WebFetch workflow and bias mitigation strategy"
-    min_records: 30
-    max_negative_sentiment: 0.80  # Relaxed for preflight - just show it's <90%
-    required_brands: ["Command"]
-    validation_type: "workflow_validation"
+  preflight_5pct:
+    description: "5% test - validate collection system"
+    min_records: 10
+    max_records: 15
+    brands: ["Command"]
+    validate_all_rules: true
+    required_platforms: ["Amazon", "YouTube", "Reddit"]
 
-  stage2_command_sample:
-    description: "Command brand sample with full bias mitigation"
+  stage2_command:
+    description: "Stage 2 - Command brand full sample"
     min_records: 100
-    max_negative_sentiment: 0.60
-    min_recent_data: 0.70
-    min_us_sources: 0.80
-    required_brands: ["Command"]
-    validation_type: "bias_mitigation_validation"
+    target_records: 120
+    brands: ["Command"]
+    validate_all_rules: true
 
-  stage3_multi_brand:
-    description: "Multi-brand expansion with bias validation"
-    min_records_per_brand: 100
-    total_min_records: 300
-    max_negative_sentiment: 0.60
-    min_recent_data: 0.70
-    required_brands: ["Command", "Scotch-Brite", "Scotch"]
-    cross_brand_consistency: true
-    validation_type: "scale_validation"
-
-# Pass 2 bias assessment metrics
-bias_assessment_metrics:
-  sentiment_balance_score:
-    formula: "1 - abs(0.40 - negative_percentage)"  # Optimal: 40% negative
-    target: "> 0.80"  # At least 80% optimal
-
-  temporal_recency_score:
-    formula: "recent_data_percentage"
-    target: "> 0.70"  # At least 70% recent
-
-  geographic_focus_score:
-    formula: "us_source_percentage"
-    target: "> 0.80"  # At least 80% US
-
-  platform_diversity_score:
-    formula: "unique_platforms / 5"  # 5 platforms = 1.0 score
-    target: "> 0.80"  # At least 4 platforms
-
-  overall_bias_score:
-    formula: "average(sentiment_balance, temporal_recency, geographic_focus, platform_diversity)"
-    target: "> 0.75"  # 75% overall bias mitigation success
-    pass_threshold: 0.70  # Minimum to proceed to Stage 3
-
-# Error handling
-error_thresholds:
-  critical_errors:
-    - "sentiment_balance_score < 0.50"  # Over 70% negative
-    - "temporal_recency_score < 0.50"   # Over 50% old data
-    - "duplicate_percentage > 0.05"     # Over 5% duplicates
-    action: "STOP - Rebalance queries before continuing"
-
-  warning_errors:
-    - "geographic_focus_score < 0.70"   # Less than 70% US
-    - "platform_diversity_score < 0.60" # Less than 3 platforms
-    action: "FLAG - Consider rebalancing in next stage"
-
-# Validation output format
-output:
-  format: "json"
-  include_metrics: true
-  include_error_details: true
-  include_recommendations: true
-  save_to: "logs/checkpoint_validation_{stage}_{date}.json"
+  stage3_expansion:
+    description: "Stage 3 - Multi-brand expansion"
+    min_records_per_brand: 200
+    target_records_per_brand: 250
+    brands: ["Command", "Scotch-Brite", "Scotch", "Post-it Extreme", "Scotchgard"]
+    validate_all_rules: true

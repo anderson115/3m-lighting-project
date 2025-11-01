@@ -1,0 +1,61 @@
+date,module,summary,duration_min,tokens_in,tokens_out,cost
+2025-10-22,category-intelligence,Claude Code CLI Tool Documentation,68.1,48916,4807,0.2189
+2025-10-18,category-intelligence,Untitled,1334.7,202847,113930,2.3175
+2025-10-20,category-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-19,category-intelligence,Untitled,50.2,475703,303,1.4317
+2025-10-24,category-intelligence,Untitled,4584.7,267186,442139,7.4336
+2025-10-29,category-intelligence,Emotion Detection System Using Claude API,2510.9,205519,287842,4.9342
+2025-10-24,category-intelligence,PowerPoint Presentation Layout Fix Using Offbrain ,97.4,54013,6757,0.2634
+2025-10-30,category-intelligence,AI-First Brand Perception Analysis Architecture,155.2,20862,3483,0.1148
+2025-10-28,category-intelligence,"10,584 Products Category Data Pushed Successfully",46.4,5330,1103,0.0325
+2025-10-29,category-intelligence,Google Cloud OAuth credentials setup and API enabl,249.9,1615,16325,0.2497
+2025-10-28,general,Untitled,0.1,559,149,0.0039
+2025-10-29,general,Untitled,6.3,4063,3153,0.0595
+2025-10-29,general,Untitled,4.4,502,1648,0.0262
+2025-10-29,general,Untitled,0.1,881,128,0.0046
+2025-10-29,general,Untitled,0.1,788,133,0.0044
+2025-10-25,general,Testing Requirements and Strict Code Quality Stand,0.1,1869,179,0.0083
+2025-10-30,general,Untitled,0.1,3,142,0.0021
+2025-10-28,general,Untitled,0.1,777,160,0.0047
+2025-10-29,general,Untitled,0.1,673,273,0.0061
+2025-10-28,general,Untitled,0.1,788,151,0.0046
+2025-10-29,general,Untitled,0.1,777,123,0.0042
+2025-10-28,general,Untitled,0.0,777,145,0.0045
+2025-10-30,general,Untitled,0.1,643,107,0.0035
+2025-10-28,general,Untitled,0.1,570,159,0.0041
+2025-10-28,general,Untitled,91.5,5932,3184,0.0656
+2025-10-19,general,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",0.1,2061,213,0.0094
+2025-10-30,general,Untitled,0.1,728,137,0.0042
+2025-10-30,general,Untitled,0.1,632,141,0.004
+2025-10-29,general,Untitled,0.1,788,149,0.0046
+2025-10-29,general,Untitled,0.1,805,123,0.0043
+2025-10-29,general,Untitled,0.1,816,133,0.0044
+2025-10-29,general,Untitled,0.1,870,199,0.0056
+2025-10-29,general,Untitled,0.1,684,105,0.0036
+2025-10-29,general,Untitled,0.0,805,132,0.0044
+2025-10-29,general,Google OAuth Integration Setup for Claude Code,6.6,709,1389,0.023
+2025-10-29,general,Untitled,0.1,816,135,0.0045
+2025-10-30,general,Untitled,0.1,3,219,0.0033
+2025-10-30,general,Untitled,0.1,1090,131,0.0052
+2025-10-30,general,Untitled,0.3,739,184,0.005
+2025-10-29,general,Untitled,0.1,805,204,0.0055
+2025-10-30,general,Untitled,0.1,1100,195,0.0062
+2025-10-29,general,Untitled,0.1,777,209,0.0055
+2025-10-18,expert_authority,Untitled,1334.7,202847,113930,2.3175
+2025-10-20,expert_authority,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-20,creator-discovery,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-20,consumer-video,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-19,consumer-video,Untitled,384.0,139315,2650,0.4577
+2025-10-28,consumer-video,"10,584 Products Category Data Pushed Successfully",46.4,5330,1103,0.0325
+2025-10-22,consumer-video,Untitled,130.6,7119,48431,0.7478
+2025-10-20,social-signal,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-20,youtube-datasource,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-29,youtube-datasource,Emotion Detection System Using Claude API,2510.9,205519,287842,4.9342
+2025-10-20,patent-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-20,creator-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""au",2263.4,94660,173064,2.8799
+2025-10-30,social-video-collection,Claude CLI Development and Implementation Guide,186.3,755,831,0.0147
+2025-10-29,social-video-collection,Emotion Detection System Using Claude API,2510.9,205519,287842,4.9342
+2025-10-30,social-video-collection,AI-First Brand Perception Analysis Architecture,155.2,20862,3483,0.1148
+2025-10-19,consumer-insights,Untitled,384.0,139315,2650,0.4577
+2025-10-29,brand-perceptions,Emotion Detection System Using Claude API,2510.9,205519,287842,4.9342
+2025-10-30,cost-tracking,AI-First Brand Perception Analysis Architecture,155.2,20862,3483,0.1148

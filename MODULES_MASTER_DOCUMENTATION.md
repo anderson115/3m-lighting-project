@@ -1,10 +1,10 @@
 # 3M Lighting Project - Master Module Documentation
 
-**Project Version:** 2.0.0 | **Last Updated:** 2025-10-19
+**Project Version:** 2.0.0 | **Last Updated:** 2025-10-31
 
 ## Overview
 
-The 3M Lighting Project is a production-ready research automation platform that extracts Jobs-to-be-Done (JTBD) consumer insights from diverse data sources using multimodal AI analysis. The platform is built with a modular architecture consisting of 8 specialized intelligence modules.
+The 3M Lighting Project is a production-ready research automation platform that extracts Jobs-to-be-Done (JTBD) consumer insights from diverse data sources using multimodal AI analysis. The platform is built with a modular architecture consisting of 8 specialized intelligence modules plus 1 internal operations module.
 
 ## Module Architecture
 
@@ -232,6 +232,52 @@ modules/
 
 ---
 
+## Internal Operations Modules
+
+### 9. Cost Tracking Module
+**Version:** 1.0.0 | **Status:** ✅ Production Ready | **Type:** Internal Operations
+
+**Purpose:** Automated cost tracking for internal R&D and client projects
+
+**Key Features:**
+- Automatic time extraction from Claude Code chat logs
+- API cost calculation (Claude Sonnet token usage)
+- Session duration tracking
+- Module/project attribution
+- CSV export for database integration
+- Internal R&D cost reporting
+
+**Technology Stack:**
+- Python 3.13+
+- JSONL parsing (Claude Code conversation logs)
+- YAML configuration (pricing data)
+
+**Entry Points:**
+- `scripts/analyze_costs.py` - Full cost analysis across all sessions
+- `scripts/internal_rd_report.py` - R&D investment report
+
+**Documentation:** `modules/cost-tracking/README.md`
+
+**Data Sources:**
+- `~/.claude/projects/` - Claude Code conversation logs (JSONL)
+- `config/pricing.yaml` - API pricing and fixed cost configuration
+
+**Cost Model:**
+- Development time tracked automatically from chat sessions
+- API costs: $3/M input tokens, $15/M output tokens (Claude Sonnet)
+- Fixed report pricing: $4,100 per report (2x monthly costs + 8 hours consulting)
+- Tracks 11+ subscriptions and operational costs
+
+**Use Cases:**
+1. Internal R&D investment tracking (capability development)
+2. Client project cost attribution (starting Q4 2025)
+3. Module cost breakdown and optimization
+4. Database export for financial systems
+
+**Note:** Non-client-facing module - for internal operations and financial tracking only
+
+---
+
 ## Core Technology Stack
 
 ### AI/ML Models
@@ -267,6 +313,7 @@ modules/
 | Creator Discovery | 0.1.0 | 📝 Planning | TBD | ⭐⭐⭐ |
 | Social Signal | 0.1.0 | 📝 Planning | TBD | ⭐⭐⭐ |
 | YouTube Data Source | 1.0.0 | ✅ Production | YouTube API | ⭐⭐ |
+| Cost Tracking (Internal) | 1.0.0 | ✅ Production | Claude Code logs | ⭐⭐⭐⭐ |
 
 ---
 

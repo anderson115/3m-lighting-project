@@ -1,0 +1,61 @@
+project_type,date,module,summary,duration_hours,tokens_in,tokens_out,api_cost
+Internal R&D,2025-10-18,expert_authority,Untitled,22.24,202847,113930,2.3175
+Internal R&D,2025-10-18,category-intelligence,Untitled,22.24,202847,113930,2.3175
+Internal R&D,2025-10-19,category-intelligence,Untitled,0.84,475703,303,1.4317
+Internal R&D,2025-10-19,consumer-video,Untitled,6.4,139315,2650,0.4577
+Internal R&D,2025-10-19,consumer-insights,Untitled,6.4,139315,2650,0.4577
+Internal R&D,2025-10-19,general,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",0.0,2061,213,0.0094
+Internal R&D,2025-10-20,youtube-datasource,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,social-signal,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,creator-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,creator-discovery,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,patent-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,category-intelligence,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,expert_authority,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-20,consumer-video,"API Error: 401 {""type"":""error"",""error"":{""type"":""authenticati",37.72,94660,173064,2.8799
+Internal R&D,2025-10-22,consumer-video,Untitled,2.18,7119,48431,0.7478
+Internal R&D,2025-10-22,category-intelligence,Claude Code CLI Tool Documentation,1.13,48916,4807,0.2189
+Internal R&D,2025-10-24,category-intelligence,PowerPoint Presentation Layout Fix Using Offbrain Template,1.62,54013,6757,0.2634
+Internal R&D,2025-10-24,category-intelligence,Untitled,76.41,267186,442139,7.4336
+Internal R&D,2025-10-25,general,Testing Requirements and Strict Code Quality Standards,0.0,1869,179,0.0083
+Internal R&D,2025-10-28,general,Untitled,0.0,559,149,0.0039
+Internal R&D,2025-10-28,general,Untitled,0.0,570,159,0.0041
+Internal R&D,2025-10-28,consumer-video,"10,584 Products Category Data Pushed Successfully",0.77,5330,1103,0.0325
+Internal R&D,2025-10-28,category-intelligence,"10,584 Products Category Data Pushed Successfully",0.77,5330,1103,0.0325
+Internal R&D,2025-10-28,general,Untitled,0.0,777,145,0.0045
+Internal R&D,2025-10-28,general,Untitled,0.0,777,160,0.0047
+Internal R&D,2025-10-28,general,Untitled,0.0,788,151,0.0046
+Internal R&D,2025-10-28,general,Untitled,1.53,5932,3184,0.0656
+Internal R&D,2025-10-29,general,Untitled,0.0,777,123,0.0042
+Internal R&D,2025-10-29,general,Untitled,0.0,788,149,0.0046
+Internal R&D,2025-10-29,general,Google OAuth Integration Setup for Claude Code,0.11,709,1389,0.023
+Internal R&D,2025-10-29,general,Untitled,0.0,788,133,0.0044
+Internal R&D,2025-10-29,general,Untitled,0.0,777,209,0.0055
+Internal R&D,2025-10-29,general,Untitled,0.11,4063,3153,0.0595
+Internal R&D,2025-10-29,general,Untitled,0.0,805,132,0.0044
+Internal R&D,2025-10-29,general,Untitled,0.0,805,123,0.0043
+Internal R&D,2025-10-29,general,Untitled,0.0,816,133,0.0044
+Internal R&D,2025-10-29,general,Untitled,0.07,502,1648,0.0262
+Internal R&D,2025-10-29,general,Untitled,0.0,816,135,0.0045
+Internal R&D,2025-10-29,general,Untitled,0.0,805,204,0.0055
+Internal R&D,2025-10-29,category-intelligence,Google Cloud OAuth credentials setup and API enablement,4.17,1615,16325,0.2497
+Internal R&D,2025-10-29,general,Untitled,0.0,881,128,0.0046
+Internal R&D,2025-10-29,general,Untitled,0.0,870,199,0.0056
+Internal R&D,2025-10-29,youtube-datasource,Emotion Detection System Using Claude API,42.1,207181,294512,5.0392
+Internal R&D,2025-10-29,brand-perceptions,Emotion Detection System Using Claude API,42.1,207181,294512,5.0392
+Internal R&D,2025-10-29,social-video-collection,Emotion Detection System Using Claude API,42.1,207181,294512,5.0392
+Internal R&D,2025-10-29,category-intelligence,Emotion Detection System Using Claude API,42.1,207181,294512,5.0392
+Internal R&D,2025-10-29,general,Untitled,0.0,673,273,0.0061
+Internal R&D,2025-10-29,general,Untitled,0.0,684,105,0.0036
+Internal R&D,2025-10-30,general,Untitled,0.0,643,107,0.0035
+Internal R&D,2025-10-30,general,Untitled,0.0,632,141,0.004
+Internal R&D,2025-10-30,general,Untitled,0.0,728,137,0.0042
+Internal R&D,2025-10-30,general,Untitled,0.0,739,184,0.005
+Internal R&D,2025-10-30,general,Untitled,0.0,3,142,0.0021
+Internal R&D,2025-10-30,general,Untitled,0.0,1090,131,0.0052
+Internal R&D,2025-10-30,social-video-collection,Claude CLI Development and Implementation Guide,3.1,755,831,0.0147
+Internal R&D,2025-10-30,general,Untitled,0.0,3,219,0.0033
+Internal R&D,2025-10-30,general,Untitled,0.0,1100,195,0.0062
+Internal R&D,2025-10-30,cost-tracking,AI-First Brand Perception Analysis Architecture,2.76,21006,3524,0.1159
+Internal R&D,2025-10-30,social-video-collection,AI-First Brand Perception Analysis Architecture,2.76,21006,3524,0.1159
+Internal R&D,2025-10-30,category-intelligence,AI-First Brand Perception Analysis Architecture,2.76,21006,3524,0.1159
