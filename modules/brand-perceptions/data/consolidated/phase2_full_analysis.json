@@ -1,0 +1,8563 @@
+[
+  {
+    "video_id": "xUJ6VqeYfeU",
+    "title": "Top 5 Picture Hanging Tips",
+    "brand": "Command",
+    "views": 1006509,
+    "upload_date": "20190815",
+    "url": "https://www.youtube.com/watch?v=xUJ6VqeYfeU",
+    "video_type": [
+      "problem",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "problem"
+    },
+    "features": {
+      "max_weight_capacity_lb": 3,
+      "weight_range_lb": "3",
+      "removable": true,
+      "size_variants": [
+        "small",
+        "xl"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "docWg4iJvBU",
+    "title": "How To Use Command Strips\u2014 Applying Picture Hanging Strips",
+    "brand": "Command",
+    "views": 789117,
+    "upload_date": "20220818",
+    "url": "https://www.youtube.com/watch?v=docWg4iJvBU",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 4
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "MXLYTvEB9M0",
+    "title": "How To Install A Command Hook-Hang Stuff On The Wall",
+    "brand": "Command",
+    "views": 672878,
+    "upload_date": "20160404",
+    "url": "https://www.youtube.com/watch?v=MXLYTvEB9M0",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "leLpogi2ytI",
+    "title": "Install Acoustic Foam Fast! Without damaging your wall!",
+    "brand": "Command",
+    "views": 645280,
+    "upload_date": "20171114",
+    "url": "https://www.youtube.com/watch?v=leLpogi2ytI",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 3
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "PsjtpXSuBwo",
+    "title": "Will Acoustic Foam Soundproof a Room?",
+    "brand": "Command",
+    "views": 596015,
+    "upload_date": "20210928",
+    "url": "https://www.youtube.com/watch?v=PsjtpXSuBwo",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.4,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "mY9QLFR6Ji8",
+    "title": "Home Staging Tips: Using Command Strips to Hang Wall Art by Tori Toth",
+    "brand": "Command",
+    "views": 516325,
+    "upload_date": "20141215",
+    "url": "https://www.youtube.com/watch?v=mY9QLFR6Ji8",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "RXqcH1Cot6k",
+    "title": "How To Use The 3M Command Strips To Hang Pictures Planners Chalk Boards And More",
+    "brand": "Command",
+    "views": 478420,
+    "upload_date": "20200129",
+    "url": "https://www.youtube.com/watch?v=RXqcH1Cot6k",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 16,
+      "weight_range_lb": "16",
+      "size_variants": [
+        "small",
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "V_lfoIByA7g",
+    "title": "How to hang an IKEA pegboard without screws, using Command Strips",
+    "brand": "Command",
+    "views": 388152,
+    "upload_date": "20190730",
+    "url": "https://www.youtube.com/watch?v=V_lfoIByA7g",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "1nG4IVnVQdI",
+    "title": "3M Command\u2122 Picture Hanging Strips - How To Use",
+    "brand": "Command",
+    "views": 289494,
+    "upload_date": "20170717",
+    "url": "https://www.youtube.com/watch?v=1nG4IVnVQdI",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "medium",
+        "small",
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 2,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "-7969X2nffo",
+    "title": "How to Use 3M Command Strips & hang Pictures on your walls without Damage (Instructions)",
+    "brand": "Command",
+    "views": 285309,
+    "upload_date": "20221224",
+    "url": "https://www.youtube.com/watch?v=-7969X2nffo",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "f_2CGR_EopU",
+    "title": "Hang Heavy Frames up to 9kg with Command\u2122 XL Picture Hanging Strips",
+    "brand": "Command",
+    "views": 263046,
+    "upload_date": "20250415",
+    "url": "https://www.youtube.com/watch?v=f_2CGR_EopU",
+    "video_type": [
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "problem"
+    },
+    "features": {
+      "max_weight_capacity_kg": 9,
+      "size_variants": [
+        "xl"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "TYWZgfwzr9Y",
+    "title": "Removing Command Strips without Stripping Paint",
+    "brand": "Command",
+    "views": 221650,
+    "upload_date": "20221018",
+    "url": "https://www.youtube.com/watch?v=TYWZgfwzr9Y",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "hR1bKoU1b04",
+    "title": "15+ BRILLIANT Home Hacks Using Command Hooks!",
+    "brand": "Command",
+    "views": 216185,
+    "upload_date": "20210219",
+    "url": "https://www.youtube.com/watch?v=hR1bKoU1b04",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true,
+      "waterproof": true
+    },
+    "use_cases": [
+      {
+        "use_case": "organization",
+        "mentions": 3
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "kitchen",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "1E_421pfNr4",
+    "title": "The Holy Grail of Wall Hooks! Why Damage Your Walls?",
+    "brand": "Command",
+    "views": 147681,
+    "upload_date": "20211126",
+    "url": "https://www.youtube.com/watch?v=1E_421pfNr4",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "GLMYF90YFTk",
+    "title": "HOW TO HANG CURTAINS WITH COMMAND HOOKS | hanging curtains with no drill-curtain hack",
+    "brand": "Command",
+    "views": 145027,
+    "upload_date": "20221114",
+    "url": "https://www.youtube.com/watch?v=GLMYF90YFTk",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "curtains",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "V1xFBYqS5uw",
+    "title": "How to remove a BROKEN Command Strip | Ed Tchoi",
+    "brand": "Command",
+    "views": 143306,
+    "upload_date": "20190509",
+    "url": "https://www.youtube.com/watch?v=V1xFBYqS5uw",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 1.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 3,
+        "in_title": true
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "STiJxtkNckI",
+    "title": "My first time using monkey hooks!  2019 | LIVING GRATEFULLY | HOW TO USE MONKEY HOOKS",
+    "brand": "Command",
+    "views": 141370,
+    "upload_date": "20190923",
+    "url": "https://www.youtube.com/watch?v=STiJxtkNckI",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 50,
+      "weight_range_lb": "35-50"
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "hooks",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "YLyCJppyXJ4",
+    "title": "How to Install a Command Hook - The OFFICIAL Method",
+    "brand": "Command",
+    "views": 112452,
+    "upload_date": "20190704",
+    "url": "https://www.youtube.com/watch?v=YLyCJppyXJ4",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.6,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "adhesion_failure",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "YEU7jh2szDQ",
+    "title": "Testing Command Picture Hangers - Do They Really Work?",
+    "brand": "Command",
+    "views": 108860,
+    "upload_date": "20240804",
+    "url": "https://www.youtube.com/watch?v=YEU7jh2szDQ",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.6,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "uIxHEvSm2IU",
+    "title": "\u2605\u2605\u2605\u2605\u2605 \"Tin Foil Hack\" - Command Strip Trick: How to Hang Command Strips without them failing",
+    "brand": "Command",
+    "views": 106317,
+    "upload_date": "20220206",
+    "url": "https://www.youtube.com/watch?v=uIxHEvSm2IU",
+    "video_type": [
+      "tutorial",
+      "review",
+      "problem",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.6,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "dzekfXx-NHA",
+    "title": "How to Use Command Hooks | How to Remove Command Hooks | Ryman",
+    "brand": "Command",
+    "views": 94086,
+    "upload_date": "20190319",
+    "url": "https://www.youtube.com/watch?v=dzekfXx-NHA",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "kitchen",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "4TtFXgbbncU",
+    "title": "How to use Command Picture Hanging Strips",
+    "brand": "Command",
+    "views": 76550,
+    "upload_date": "20170314",
+    "url": "https://www.youtube.com/watch?v=4TtFXgbbncU",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "tCEQXnlwBMw",
+    "title": "DIY How to install 3M command hooks (super easy!) #3M #commandhooks #commandstrips",
+    "brand": "Command",
+    "views": 74906,
+    "upload_date": "20220821",
+    "url": "https://www.youtube.com/watch?v=tCEQXnlwBMw",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "qEa_nByTsK0",
+    "title": "3M Command Strips \u2013 How to apply",
+    "brand": "Command",
+    "views": 63147,
+    "upload_date": "20201223",
+    "url": "https://www.youtube.com/watch?v=qEa_nByTsK0",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "LlFDgYj65fk",
+    "title": "Hanging a Picture Without Hooks, Holes or Nails - Using 3M Command Strips on Concrete",
+    "brand": "Command",
+    "views": 62440,
+    "upload_date": "20220425",
+    "url": "https://www.youtube.com/watch?v=LlFDgYj65fk",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "QLw_k3qsmj0",
+    "title": "Best IKEA Playroom Hacks\ud83d\udee0\ufe0f\u2728",
+    "brand": "Command",
+    "views": 62284,
+    "upload_date": "20240727",
+    "url": "https://www.youtube.com/watch?v=QLw_k3qsmj0",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "X3P2BtttNS8",
+    "title": "Hanging Holiday Lights with Command Hooks. Command Decorating Clips [373]",
+    "brand": "Command",
+    "views": 55074,
+    "upload_date": "20211207",
+    "url": "https://www.youtube.com/watch?v=X3P2BtttNS8",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "i_yu38Moi7Q",
+    "title": "3M Command Jumbo Utility Hook",
+    "brand": "Command",
+    "views": 54843,
+    "upload_date": "20170517",
+    "url": "https://www.youtube.com/watch?v=i_yu38Moi7Q",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.4,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 5,
+      "weight_range_lb": "2-5",
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "f6S4sSKiQ8o",
+    "title": "Organizing with Command Hooks | Genius Ideas!",
+    "brand": "Command",
+    "views": 51766,
+    "upload_date": "20210325",
+    "url": "https://www.youtube.com/watch?v=f6S4sSKiQ8o",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "removable": true,
+      "size_variants": [
+        "small",
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "organization",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "kitchen",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "WwNg3QAlTt0",
+    "title": "How to use 3M Command Hanging Strips\u200b\u2060\u200b\u2060\u200b\u2060\u200b\u2060@CommandANZ #homedecor #ad #diy #bunnings #shortsviral",
+    "brand": "Command",
+    "views": 48885,
+    "upload_date": "20230522",
+    "url": "https://www.youtube.com/watch?v=WwNg3QAlTt0",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "X9v2gQS76PQ",
+    "title": "How to install 3M Command Wall Hook and Strips - Good for apartments",
+    "brand": "Command",
+    "views": 47809,
+    "upload_date": "20150817",
+    "url": "https://www.youtube.com/watch?v=X9v2gQS76PQ",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "HBryj3fht9k",
+    "title": "Gadget Organization Tips using 3M COMMAND STRIPS",
+    "brand": "Command",
+    "views": 45549,
+    "upload_date": "20160203",
+    "url": "https://www.youtube.com/watch?v=HBryj3fht9k",
+    "video_type": [
+      "tutorial",
+      "problem",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "removable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "kitchen",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "UcjRnaIY370",
+    "title": "3M Command Strips 1 Year Later \u2013 Do They Still Hold?",
+    "brand": "Command",
+    "views": 40874,
+    "upload_date": "20221205",
+    "url": "https://www.youtube.com/watch?v=UcjRnaIY370",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "FRNCcXooxlA",
+    "title": "How to Install Monkey Hooks - An Alternative to 3M Command Strips",
+    "brand": "Command",
+    "views": 40056,
+    "upload_date": "20210426",
+    "url": "https://www.youtube.com/watch?v=FRNCcXooxlA",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "hooks",
+        "mentions": 1
+      },
+      {
+        "use_case": "kitchen",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "TrnbGQhgbMc",
+    "title": "3M Command Strips 5 Reasons they wont Stick & Peel Paint off walls.How to Fix this",
+    "brand": "Command",
+    "views": 37628,
+    "upload_date": "20230116",
+    "url": "https://www.youtube.com/watch?v=TrnbGQhgbMc",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 3,
+        "in_title": true
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "jWLQADP5wfg",
+    "title": "HOW TO HANG CURTAINS WITH THE NEW COMMAND CURTAIN HOOKS| NO HOLES OR TOOLS| APARTMENT FRIENDLY",
+    "brand": "Command",
+    "views": 34988,
+    "upload_date": "20240909",
+    "url": "https://www.youtube.com/watch?v=jWLQADP5wfg",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "curtains",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 3
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "cjCVR_j14XQ",
+    "title": "5 Reasons Your Command Strips Are Not Sticking To The Wall",
+    "brand": "Command",
+    "views": 32527,
+    "upload_date": "20230623",
+    "url": "https://www.youtube.com/watch?v=cjCVR_j14XQ",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 2
+      }
+    ]
+  },
+  {
+    "video_id": "4RJu41zSWbY",
+    "title": "Battle of the Wall Hangers! 3M Claw vs. 3M Command Strips vs. Basic Wall Anchors!",
+    "brand": "Command",
+    "views": 27926,
+    "upload_date": "20210825",
+    "url": "https://www.youtube.com/watch?v=4RJu41zSWbY",
+    "video_type": [
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "positive_score": 0.8,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      }
+    ]
+  },
+  {
+    "video_id": "8o0kwEFSI6s",
+    "title": "How To Use Command Picture Hanging Strips-Easy Tutorial",
+    "brand": "Command",
+    "views": 26250,
+    "upload_date": "20210624",
+    "url": "https://www.youtube.com/watch?v=8o0kwEFSI6s",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "2FuXFREKuLA",
+    "title": "Command Strips: Picture Hanging Solution! #commandstrips #amazon #AmazonFinds #amazonhome #lifehacks",
+    "brand": "Command",
+    "views": 24610,
+    "upload_date": "20230621",
+    "url": "https://www.youtube.com/watch?v=2FuXFREKuLA",
+    "video_type": [
+      "tutorial",
+      "review",
+      "demo",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "fxiu7gBwI2A",
+    "title": "Easy Picture Ledge No Screws No Nails! 3M Command Strips Only  #diy #3m #pictureledge",
+    "brand": "Command",
+    "views": 23658,
+    "upload_date": "20231228",
+    "url": "https://www.youtube.com/watch?v=fxiu7gBwI2A",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "no_tools_required": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "po0CoRCZIuY",
+    "title": "3M Command Strips X-Large Heavy Duty Hooks \u2013 Strong or Fail?",
+    "brand": "Command",
+    "views": 22278,
+    "upload_date": "20230322",
+    "url": "https://www.youtube.com/watch?v=po0CoRCZIuY",
+    "video_type": [
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "positive_score": 0.6,
+      "negative_score": 0.6,
+      "video_type_context": "problem"
+    },
+    "features": {
+      "heavy_duty": true,
+      "size_variants": [
+        "small",
+        "large",
+        "xl"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "curtains",
+        "mentions": 1
+      },
+      {
+        "use_case": "kitchen",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "TWRhvB8RRvQ",
+    "title": "Does the Dollar Tree Version of a Command Hook Actually Work? | Dollar Tree Removable Hook",
+    "brand": "Command",
+    "views": 20222,
+    "upload_date": "20200912",
+    "url": "https://www.youtube.com/watch?v=TWRhvB8RRvQ",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.4,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "removable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "E82Z4LulJ5U",
+    "title": "Command Hook Large",
+    "brand": "Command",
+    "views": 14961,
+    "upload_date": "20230525",
+    "url": "https://www.youtube.com/watch?v=E82Z4LulJ5U",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "jDH_oJMGP_4",
+    "title": "15 lb Capacity Command Hooks #commandhooks #wallhook #commandstrips",
+    "brand": "Command",
+    "views": 12635,
+    "upload_date": "20240920",
+    "url": "https://www.youtube.com/watch?v=jDH_oJMGP_4",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "max_weight_capacity_lb": 15,
+      "weight_range_lb": "15-15"
+    },
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "SPTwwbN2HDo",
+    "title": "Command Strips Hooks for Lights | Indoor or Outdoor Use with 3M How to Install, Review & Removal",
+    "brand": "Command",
+    "views": 11104,
+    "upload_date": "20221124",
+    "url": "https://www.youtube.com/watch?v=SPTwwbN2HDo",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "outdoor_rated": true
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "KMPy704-UgE",
+    "title": "Command hooks and Picture hanging strips, used and reviewed.",
+    "brand": "Command",
+    "views": 10586,
+    "upload_date": "20200813",
+    "url": "https://www.youtube.com/watch?v=KMPy704-UgE",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "reusable": true,
+      "no_tools_required": true
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 2,
+        "in_title": false
+      },
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "FbR1szrW6YE",
+    "title": "How to use 3M Command Sticky Nails Photo Hanger / Universal Picture Hanger",
+    "brand": "Command",
+    "views": 10463,
+    "upload_date": "20171024",
+    "url": "https://www.youtube.com/watch?v=FbR1szrW6YE",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Tf60O7s_1hQ",
+    "title": "Anyone else tired of wall hooks that keep damaging your walls? The Command damage-free hook uses adh",
+    "brand": "Command",
+    "views": 9373,
+    "upload_date": "20230710",
+    "url": "https://www.youtube.com/watch?v=Tf60O7s_1hQ",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "IJ5aea7G8Wc",
+    "title": "3M Command Strips Mop & Broom Holder Review \u2013 Worth It?",
+    "brand": "Command",
+    "views": 8582,
+    "upload_date": "20220820",
+    "url": "https://www.youtube.com/watch?v=IJ5aea7G8Wc",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "V6EYRAUpWIQ",
+    "title": "3M Command Strip Shower Caddy Review \u2013 Does It Really Hold?",
+    "brand": "Command",
+    "views": 7059,
+    "upload_date": "20230611",
+    "url": "https://www.youtube.com/watch?v=V6EYRAUpWIQ",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "bathroom",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "MAJczST-ygg",
+    "title": "3M Command Hooks - Can They Hold Curtain Rods? #shorts",
+    "brand": "Command",
+    "views": 6841,
+    "upload_date": "20230323",
+    "url": "https://www.youtube.com/watch?v=MAJczST-ygg",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "curtains",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "OUB_KFvVEd0",
+    "title": "Introducing Scotch-Mount\u2122 Multipurpose Gel Tape (:30)",
+    "brand": "Scotch",
+    "views": 7804334,
+    "upload_date": "20250521",
+    "url": "https://www.youtube.com/watch?v=OUB_KFvVEd0",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 20,
+      "weight_range_lb": "20",
+      "removable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "UbXy3c2oAfA",
+    "title": "Which Duct Tape Brand is the Best?  Let's find out!",
+    "brand": "Scotch",
+    "views": 4851719,
+    "upload_date": "20180128",
+    "url": "https://www.youtube.com/watch?v=UbXy3c2oAfA",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "u5BBfK-P1XM",
+    "title": "3M Scotch\u00ae Extreme Double-Sided Mounting Tape\u0e1e\u0e25\u0e31\u0e07\u0e01\u0e32\u0e23\u0e22\u0e36\u0e14\u0e15\u0e34\u0e14\u0e17\u0e35\u0e48\u0e41\u0e02\u0e47\u0e07\u0e41\u0e01\u0e23\u0e48\u0e07",
+    "brand": "Scotch",
+    "views": 2813638,
+    "upload_date": "20250811",
+    "url": "https://www.youtube.com/watch?v=u5BBfK-P1XM",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "2__lmMVYS6A",
+    "title": "Which Masking Tape is the Best?  Frog Tape ve Duck Pro, Stik Tek, 3M, Scotch, Dollar General",
+    "brand": "Scotch",
+    "views": 1089538,
+    "upload_date": "20190930",
+    "url": "https://www.youtube.com/watch?v=2__lmMVYS6A",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 2.6,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 2
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "_sBVEPslwZY",
+    "title": "Best Electrical Tape (Vinyl Tape)?  Lets find out!",
+    "brand": "Scotch",
+    "views": 634604,
+    "upload_date": "20180528",
+    "url": "https://www.youtube.com/watch?v=_sBVEPslwZY",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 2,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "KWbjd2I8fJQ",
+    "title": "Scotch\u00ae Shipping Packaging Tape Dispenser \u2013 Commercial Grade",
+    "brand": "Scotch",
+    "views": 462707,
+    "upload_date": "20220413",
+    "url": "https://www.youtube.com/watch?v=KWbjd2I8fJQ",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "i5aqYXTrqdc",
+    "title": "How To Change Scotch Shipping Tape (Packaging Dispenser)",
+    "brand": "Scotch",
+    "views": 201150,
+    "upload_date": "20200714",
+    "url": "https://www.youtube.com/watch?v=i5aqYXTrqdc",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "YMXvXbIkNFU",
+    "title": "How to start a roll of Scotch\u00ae Double-Sided Tape",
+    "brand": "Scotch",
+    "views": 189647,
+    "upload_date": "20220114",
+    "url": "https://www.youtube.com/watch?v=YMXvXbIkNFU",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "HwwvVfH_5qU",
+    "title": "Mounting Tape Showdown: Gorilla V. Scotch - the strongest of the strongest, and the winner is....",
+    "brand": "Scotch",
+    "views": 129896,
+    "upload_date": "20190212",
+    "url": "https://www.youtube.com/watch?v=HwwvVfH_5qU",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "JTSZhp4PwqA",
+    "title": "3M Scotch\u00ae Extreme Double Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 67419,
+    "upload_date": "20230923",
+    "url": "https://www.youtube.com/watch?v=JTSZhp4PwqA",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "outdoor_rated": true
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "u_0mhJhY8_M",
+    "title": "How To Use The Best Packing Tape Dispenser by Scotch Packaging Tape Review",
+    "brand": "Scotch",
+    "views": 65715,
+    "upload_date": "20221216",
+    "url": "https://www.youtube.com/watch?v=u_0mhJhY8_M",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "U6fEGFssPHY",
+    "title": "3M Scotch\u00ae Extreme Double Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 64150,
+    "upload_date": "20240402",
+    "url": "https://www.youtube.com/watch?v=U6fEGFssPHY",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "SnAyDm1ugGk",
+    "title": "How to Use : Scotch-Mount Extreme Double-Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 55022,
+    "upload_date": "20220731",
+    "url": "https://www.youtube.com/watch?v=SnAyDm1ugGk",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "saQ7JV-5TL4",
+    "title": "Scotch Tape Packing Tape Dispenser Gun Review & How To Use It",
+    "brand": "Scotch",
+    "views": 51817,
+    "upload_date": "20230502",
+    "url": "https://www.youtube.com/watch?v=saQ7JV-5TL4",
+    "video_type": [
+      "tutorial",
+      "review",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "vmyhOPlnrUE",
+    "title": "Scotch Extreme Mounting Tape | The Home Team S2 E44",
+    "brand": "Scotch",
+    "views": 42376,
+    "upload_date": "20160713",
+    "url": "https://www.youtube.com/watch?v=vmyhOPlnrUE",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "CqAiWubhvgM",
+    "title": "NEED TO HANG SOME HEAVY WALL ART? #SCOTCH MOUNTING TAPE IS WHERE ITS AT!",
+    "brand": "Scotch",
+    "views": 40303,
+    "upload_date": "20201201",
+    "url": "https://www.youtube.com/watch?v=CqAiWubhvgM",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "UklK8Qrodqw",
+    "title": "Easy & Perfect 3M Double Sided Tape Mounting Hack | Quick Tip #3m #mountingtape #scotch #doubleside",
+    "brand": "Scotch",
+    "views": 26096,
+    "upload_date": "20240602",
+    "url": "https://www.youtube.com/watch?v=UklK8Qrodqw",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 3
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "yk2erH1aRVk",
+    "title": "3M Scotch\u00ae Double Sided Adhesive Roller Video Demo",
+    "brand": "Scotch",
+    "views": 26084,
+    "upload_date": "20170218",
+    "url": "https://www.youtube.com/watch?v=yk2erH1aRVk",
+    "video_type": [
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "demo"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "w1kvBic5yvQ",
+    "title": "Difference Between 3M Super 88 & Super 33+ Electrical Tape Comparison",
+    "brand": "Scotch",
+    "views": 19047,
+    "upload_date": "20230718",
+    "url": "https://www.youtube.com/watch?v=w1kvBic5yvQ",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "7TTMSrpPjxQ",
+    "title": "Scotch Heavy Duty Packing Tape",
+    "brand": "Scotch",
+    "views": 16613,
+    "upload_date": "20210920",
+    "url": "https://www.youtube.com/watch?v=7TTMSrpPjxQ",
+    "video_type": [
+      "tutorial",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "bJK7QkLL3uc",
+    "title": "Scotch Packing Tape - Review",
+    "brand": "Scotch",
+    "views": 14549,
+    "upload_date": "20211101",
+    "url": "https://www.youtube.com/watch?v=bJK7QkLL3uc",
+    "video_type": [
+      "tutorial",
+      "review",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Nq_2ga1H5sk",
+    "title": "Scotch Double Sided Tape Review",
+    "brand": "Scotch",
+    "views": 13877,
+    "upload_date": "20230717",
+    "url": "https://www.youtube.com/watch?v=Nq_2ga1H5sk",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "permanent": true
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "rzcl7XKq_Mg",
+    "title": "Scotch Double Sided Tape Review!",
+    "brand": "Scotch",
+    "views": 13086,
+    "upload_date": "20230716",
+    "url": "https://www.youtube.com/watch?v=rzcl7XKq_Mg",
+    "video_type": [
+      "tutorial",
+      "review",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "DBFhEoMVHsM",
+    "title": "Scotch Permanent Outdoor Mounting Tape Review for Mouting Acoustic Sound Foam! [4K]",
+    "brand": "Scotch",
+    "views": 11999,
+    "upload_date": "20171205",
+    "url": "https://www.youtube.com/watch?v=DBFhEoMVHsM",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "permanent": true,
+      "outdoor_rated": true
+    },
+    "use_cases": [
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 3
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "SBOV7Nyb3So",
+    "title": "Ultimate Painter's Tape SHOWDOWN: Find the Best Tape for Your Project",
+    "brand": "Scotch",
+    "views": 11994,
+    "upload_date": "20240202",
+    "url": "https://www.youtube.com/watch?v=SBOV7Nyb3So",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.4,
+      "negative_score": 0.4,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "kitchen",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "noHOnO00p8Q",
+    "title": "Scotch Magic Tape Review - Honest Review",
+    "brand": "Scotch",
+    "views": 8798,
+    "upload_date": "20230705",
+    "url": "https://www.youtube.com/watch?v=noHOnO00p8Q",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "removable": true,
+      "permanent": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "XFnzQwmynAs",
+    "title": "3M Scotch Heavy Duty Mounting Tape Unboxing in 4K UltraHD",
+    "brand": "Scotch",
+    "views": 8337,
+    "upload_date": "20150221",
+    "url": "https://www.youtube.com/watch?v=XFnzQwmynAs",
+    "video_type": [
+      "tutorial",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "permanent": true,
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "uvoU1e7CLzY",
+    "title": "Honest Review of this Scotch Shipping Tape Dispenser",
+    "brand": "Scotch",
+    "views": 8117,
+    "upload_date": "20240707",
+    "url": "https://www.youtube.com/watch?v=uvoU1e7CLzY",
+    "video_type": [
+      "review",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "heavy_duty": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "6bL6lutWZls",
+    "title": "SCOTCH DOUBLE SIDED TAPE @ Dollar Tree #scotch #dollartree #dollartreehaul #namebrand",
+    "brand": "Scotch",
+    "views": 8085,
+    "upload_date": "20240814",
+    "url": "https://www.youtube.com/watch?v=6bL6lutWZls",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "46oijES5arQ",
+    "title": "Scotch Heavy Duty Tape Dispenser Review \ud83d\udee0\ufe0f Best Packing Tape Tool for Heavy Boxes!",
+    "brand": "Scotch",
+    "views": 6062,
+    "upload_date": "20250515",
+    "url": "https://www.youtube.com/watch?v=46oijES5arQ",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "ZPVViZqULWk",
+    "title": "Scotch 3M VHB  Waterproof Double Sided Tape Review & Unboxing Sanka",
+    "brand": "Scotch",
+    "views": 6019,
+    "upload_date": "20210903",
+    "url": "https://www.youtube.com/watch?v=ZPVViZqULWk",
+    "video_type": [
+      "tutorial",
+      "review",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "waterproof": true,
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "ws12tLMRKCQ",
+    "title": "Scotch vs Amazon Basics Packing Tape Comparison",
+    "brand": "Scotch",
+    "views": 5568,
+    "upload_date": "20221215",
+    "url": "https://www.youtube.com/watch?v=ws12tLMRKCQ",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "4MxBshW4gAo",
+    "title": "Pro-Level Gift Wrapping with 3M Scotch Permanent Double-Sided Tape!",
+    "brand": "Scotch",
+    "views": 5100,
+    "upload_date": "20241108",
+    "url": "https://www.youtube.com/watch?v=4MxBshW4gAo",
+    "video_type": [
+      "demo",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "demo"
+    },
+    "features": {
+      "permanent": true
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "GJuYkyqWbME",
+    "title": "Scotch tape for watercolor. Will it work? #watercolour #watercolortips #watercolorhack #artsupplies",
+    "brand": "Scotch",
+    "views": 4989,
+    "upload_date": "20220415",
+    "url": "https://www.youtube.com/watch?v=GJuYkyqWbME",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tips"
+    },
+    "features": {
+      "removable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "u_ukApEogxs",
+    "title": "Unboxing:Scotch double sided tape applicator",
+    "brand": "Scotch",
+    "views": 3800,
+    "upload_date": "20201023",
+    "url": "https://www.youtube.com/watch?v=u_ukApEogxs",
+    "video_type": [
+      "problem",
+      "demo",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "problem"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "DAYluUr0aDo",
+    "title": "Scotch 3M - Double Sided Foam Tape",
+    "brand": "Scotch",
+    "views": 3320,
+    "upload_date": "20180513",
+    "url": "https://www.youtube.com/watch?v=DAYluUr0aDo",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "3f_wiipt0SE",
+    "title": "Scotch Duct Tape vs Duck Tape",
+    "brand": "Scotch",
+    "views": 3240,
+    "upload_date": "20130810",
+    "url": "https://www.youtube.com/watch?v=3f_wiipt0SE",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "office",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "1S6WkBR-eT8",
+    "title": "Duct Tape vs Gaffer Tape vs Cloth Tape",
+    "brand": "Scotch",
+    "views": 2939,
+    "upload_date": "20241227",
+    "url": "https://www.youtube.com/watch?v=1S6WkBR-eT8",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "t4iUiHvMjRU",
+    "title": "Scotch Mount Clear Double Sided Mounting Tape 410H MED Review",
+    "brand": "Scotch",
+    "views": 2858,
+    "upload_date": "20240628",
+    "url": "https://www.youtube.com/watch?v=t4iUiHvMjRU",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "G2bcsKJ2Ohs",
+    "title": "Transform Your Packaging Game with Scotch Heavy Duty Tape",
+    "brand": "Scotch",
+    "views": 2742,
+    "upload_date": "20240322",
+    "url": "https://www.youtube.com/watch?v=G2bcsKJ2Ohs",
+    "video_type": [
+      "tutorial",
+      "review",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "xsm6fWCDoLs",
+    "title": "REVIEW: Scotch-Mount Indoor Double-Sided Mounting White Tape,  3M Industrial Strength Adhesive",
+    "brand": "Scotch",
+    "views": 2563,
+    "upload_date": "20241019",
+    "url": "https://www.youtube.com/watch?v=xsm6fWCDoLs",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "5ER_2YeE1Rc",
+    "title": "\ud83c\udf35 10 Best Mounting Putties (Faber-Castell, Gorilla, and More)",
+    "brand": "Scotch",
+    "views": 2238,
+    "upload_date": "20220904",
+    "url": "https://www.youtube.com/watch?v=5ER_2YeE1Rc",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "removable": true,
+      "reusable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Id1D6-wiO_Y",
+    "title": "Frog Tape vs Scotch Delicate tape | Tape and caulk for straight Paint lines",
+    "brand": "Scotch",
+    "views": 1680,
+    "upload_date": "20220830",
+    "url": "https://www.youtube.com/watch?v=Id1D6-wiO_Y",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "dnNMh2-YK7k",
+    "title": "Full review of Scotch wall safe tape",
+    "brand": "Scotch",
+    "views": 1501,
+    "upload_date": "20240316",
+    "url": "https://www.youtube.com/watch?v=dnNMh2-YK7k",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "847dh87hrxY",
+    "title": "Scotch Double Sided Tape",
+    "brand": "Scotch",
+    "views": 1406,
+    "upload_date": "20240103",
+    "url": "https://www.youtube.com/watch?v=847dh87hrxY",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.4,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "permanent": true
+    },
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "zfJ_WS6zajc",
+    "title": "3M Scotch Extremely Strong Double Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 1019,
+    "upload_date": "20241120",
+    "url": "https://www.youtube.com/watch?v=zfJ_WS6zajc",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "7uxHoi0Whus",
+    "title": "3M Scotch Extreme Double Sided Tape, 1m Holds 6.7kg, Works on Uneven Surfaces ll #fyp\u30b7 #fyp",
+    "brand": "Scotch",
+    "views": 1016,
+    "upload_date": "20230605",
+    "url": "https://www.youtube.com/watch?v=7uxHoi0Whus",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_kg": 7,
+      "outdoor_rated": true
+    },
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "0nWnGzXlEiY",
+    "title": "\ud83c\udfe0 Home Improvement Helper: REVIEW 3M Scotch-Mount Indoor Mounting Tape",
+    "brand": "Scotch",
+    "views": 946,
+    "upload_date": "20231025",
+    "url": "https://www.youtube.com/watch?v=0nWnGzXlEiY",
+    "video_type": [
+      "tutorial",
+      "review",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "s1K8a9Tk1pI",
+    "title": "Painters Scotch blue tape versus green frogtape - part two",
+    "brand": "Scotch",
+    "views": 757,
+    "upload_date": "20241227",
+    "url": "https://www.youtube.com/watch?v=s1K8a9Tk1pI",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "1_FNhtMrFOs",
+    "title": "Scotch Box Lock Packing Tape, Clear, Extreme Grip Moving Tape, 1.88 in x 1000 in Review",
+    "brand": "Scotch",
+    "views": 744,
+    "upload_date": "20240806",
+    "url": "https://www.youtube.com/watch?v=1_FNhtMrFOs",
+    "video_type": [
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "YYtWVHFgBQQ",
+    "title": "Scotch\u00ae Double-Sided Mounting Tape Projects - Home & Office Store Packaging",
+    "brand": "Scotch",
+    "views": 722,
+    "upload_date": "20220422",
+    "url": "https://www.youtube.com/watch?v=YYtWVHFgBQQ",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 3,
+        "in_title": true
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Bv6rOD_O280",
+    "title": "Scotch Heavy Duty Shipping Packaging Tape with Dispenser",
+    "brand": "Scotch",
+    "views": 710,
+    "upload_date": "20230910",
+    "url": "https://www.youtube.com/watch?v=Bv6rOD_O280",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "AGhkgwLopMk",
+    "title": "Scotch Rough Surface Painter's Tape Review",
+    "brand": "Scotch",
+    "views": 708,
+    "upload_date": "20211220",
+    "url": "https://www.youtube.com/watch?v=AGhkgwLopMk",
+    "video_type": [
+      "tutorial",
+      "review",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 2,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "QlFtbcJWZ9I",
+    "title": "Unleashing the Power of Scotch Vinyl 700 Electrical Tape: 3 Must-See Features!",
+    "brand": "Scotch",
+    "views": 692,
+    "upload_date": "20241008",
+    "url": "https://www.youtube.com/watch?v=QlFtbcJWZ9I",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "g9mo0SeTuXA",
+    "title": "Unboxing Scotch Tough Duct Tape, No Residue, 1 88 Inch by 25 Yard",
+    "brand": "Scotch",
+    "views": 684,
+    "upload_date": "20170626",
+    "url": "https://www.youtube.com/watch?v=g9mo0SeTuXA",
+    "video_type": [
+      "problem",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "problem"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 3,
+        "in_title": true
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "sSUtjpY9gaE",
+    "title": "Picture Hanging Hack \u2013 Hanging Pictures Level",
+    "brand": "3M Claw",
+    "views": 8394682,
+    "upload_date": "20231211",
+    "url": "https://www.youtube.com/watch?v=sSUtjpY9gaE",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tips"
+    },
+    "features": {
+      "max_weight_capacity_lb": 65,
+      "weight_range_lb": "65",
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "hDxebMTfAo8",
+    "title": "3M\u2122 CLAW Drywall Picture Hanger Video 45 seconds",
+    "brand": "3M Claw",
+    "views": 3581255,
+    "upload_date": "20201009",
+    "url": "https://www.youtube.com/watch?v=hDxebMTfAo8",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 45,
+      "weight_range_lb": "45"
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "WFAOxhKARvA",
+    "title": "The Easiest and Fastest Way to Hang Heavy Things",
+    "brand": "3M Claw",
+    "views": 3029323,
+    "upload_date": "20230923",
+    "url": "https://www.youtube.com/watch?v=WFAOxhKARvA",
+    "video_type": [
+      "comparison",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.4,
+      "negative_score": 0.4,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "E66puf77Lbk",
+    "title": "The END Of Drywall Anchors?! Fastest And Easiest Way To Hang Heavy Items! LETS TEST IT! How To DIY",
+    "brand": "3M Claw",
+    "views": 843290,
+    "upload_date": "20240128",
+    "url": "https://www.youtube.com/watch?v=E66puf77Lbk",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.8,
+      "negative_score": 0.4,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 65,
+      "weight_range_lb": "15-65"
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "_6n7sBQbuTQ",
+    "title": "3M CLAW\u2122 Plasterboard and Drywall Picture Hanger - Strength and Ease English Video",
+    "brand": "3M Claw",
+    "views": 694822,
+    "upload_date": "20230511",
+    "url": "https://www.youtube.com/watch?v=_6n7sBQbuTQ",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_kg": 30
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Zpxcu25aevA",
+    "title": "The Best Drywall Anchor Plug Inserts // Tested",
+    "brand": "3M Claw",
+    "views": 417395,
+    "upload_date": "20220917",
+    "url": "https://www.youtube.com/watch?v=Zpxcu25aevA",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.8,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "uYZA2PFk9yE",
+    "title": "This could be the best picture hanging system ever! 3M Claw",
+    "brand": "3M Claw",
+    "views": 322808,
+    "upload_date": "20230709",
+    "url": "https://www.youtube.com/watch?v=uYZA2PFk9yE",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 4,
+      "weight_range_lb": "1-4",
+      "max_weight_capacity_kg": 20,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "3Ii0UGiRqO0",
+    "title": "3M Wallclaw",
+    "brand": "3M Claw",
+    "views": 303406,
+    "upload_date": "20220923",
+    "url": "https://www.youtube.com/watch?v=3Ii0UGiRqO0",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "m3Zl0hbkOfU",
+    "title": "Hang Heavy Items on Drywall - Without Drilling Large Holes!",
+    "brand": "3M Claw",
+    "views": 247348,
+    "upload_date": "20230101",
+    "url": "https://www.youtube.com/watch?v=m3Zl0hbkOfU",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 65,
+      "weight_range_lb": "15-65",
+      "max_weight_capacity_kg": 30,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 2,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "tEWIVzV78WI",
+    "title": "I Ditched Basic Anchors \u2014 Here's Why",
+    "brand": "3M Claw",
+    "views": 181916,
+    "upload_date": "20240310",
+    "url": "https://www.youtube.com/watch?v=tEWIVzV78WI",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.4,
+      "negative_score": 0.4,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "adhesion_failure",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "2EUbx6HB9eU",
+    "title": "Hang\u00a0Pictures\u00a0And\u00a0Artwork\u00a0Without\u00a0Nails\u00a0#homehacks #picturehanging #hottohangartwork",
+    "brand": "3M Claw",
+    "views": 153263,
+    "upload_date": "20241020",
+    "url": "https://www.youtube.com/watch?v=2EUbx6HB9eU",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tips"
+    },
+    "features": {
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "weight_limitations",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "kulMYLbGcgE",
+    "title": "Every Drywall Anchor from The Home Depot Tested - You will be SHOCKED at how some of these did",
+    "brand": "3M Claw",
+    "views": 144473,
+    "upload_date": "20211117",
+    "url": "https://www.youtube.com/watch?v=kulMYLbGcgE",
+    "video_type": [
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.6,
+      "negative_score": 0.6,
+      "video_type_context": "review"
+    },
+    "features": {
+      "size_variants": [
+        "small",
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "hooks",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "DCbDhkbB1xQ",
+    "title": "3M Claw Drywall Picture Hangers Are the Smartest Way to Hang Pictures",
+    "brand": "3M Claw",
+    "views": 100626,
+    "upload_date": "20240904",
+    "url": "https://www.youtube.com/watch?v=DCbDhkbB1xQ",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "jT07Bwi-Bis",
+    "title": "3M CLAW\u2122 Heavy Weight Hanging Solution with Kiva",
+    "brand": "3M Claw",
+    "views": 99794,
+    "upload_date": "20240530",
+    "url": "https://www.youtube.com/watch?v=jT07Bwi-Bis",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "no_tools_required": true
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "iZnXYuNieuc",
+    "title": "3M Claw vs. Drywall Anchor - Hanging Heavy Items on Drywall",
+    "brand": "3M Claw",
+    "views": 90232,
+    "upload_date": "20230115",
+    "url": "https://www.youtube.com/watch?v=iZnXYuNieuc",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 75,
+      "weight_range_lb": "15-75",
+      "max_weight_capacity_kg": 34
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "4M_hC9UIjcs",
+    "title": "Installing 3M Claw drywall picture hanger #diy #shorts",
+    "brand": "3M Claw",
+    "views": 73047,
+    "upload_date": "20241207",
+    "url": "https://www.youtube.com/watch?v=4M_hC9UIjcs",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "sMUl3UEXfPk",
+    "title": "How to Hang Heavy Stuff on JUST DRYWALL!",
+    "brand": "3M Claw",
+    "views": 70524,
+    "upload_date": "20240511",
+    "url": "https://www.youtube.com/watch?v=sMUl3UEXfPk",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.8,
+      "negative_score": 1.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "reusable": true,
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      }
+    ]
+  },
+  {
+    "video_id": "xKfM10_83DA",
+    "title": "Easy DIY wall hangers // 3M CLAW\u2122 Drywall Picture Hanger",
+    "brand": "3M Claw",
+    "views": 69612,
+    "upload_date": "20240521",
+    "url": "https://www.youtube.com/watch?v=xKfM10_83DA",
+    "video_type": [
+      "tutorial",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "4hZt9IeAIys",
+    "title": "3M CLAW Drywall Picture Hangers (3 Pack)",
+    "brand": "3M Claw",
+    "views": 64406,
+    "upload_date": "20220211",
+    "url": "https://www.youtube.com/watch?v=4hZt9IeAIys",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_kg": 20,
+      "no_tools_required": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "9r8SWWZz8Gg",
+    "title": "#ad Hanging our 60lb antique mirror with ease using 3M CLAW\u2122 Drywall Picture Hanger NO tools  needed",
+    "brand": "3M Claw",
+    "views": 52213,
+    "upload_date": "20250518",
+    "url": "https://www.youtube.com/watch?v=9r8SWWZz8Gg",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 60,
+      "weight_range_lb": "60",
+      "no_tools_required": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "iFK2GMzjGy0",
+    "title": "The Worlds Strongest Picture Hangers for Drywall????",
+    "brand": "3M Claw",
+    "views": 50755,
+    "upload_date": "20210310",
+    "url": "https://www.youtube.com/watch?v=iFK2GMzjGy0",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "zBM3943UPSE",
+    "title": "3M Claw Spot Marker - Does it Work?",
+    "brand": "3M Claw",
+    "views": 30878,
+    "upload_date": "20240402",
+    "url": "https://www.youtube.com/watch?v=zBM3943UPSE",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "B6qphqiFMyU",
+    "title": "3M CLAW\u2122 Heavy Weight Hanging Solution",
+    "brand": "3M Claw",
+    "views": 21204,
+    "upload_date": "20240524",
+    "url": "https://www.youtube.com/watch?v=B6qphqiFMyU",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "H_kFRPu21sI",
+    "title": "Best Drywall Anchors with Minimal Damage! (New Information)",
+    "brand": "3M Claw",
+    "views": 17533,
+    "upload_date": "20241016",
+    "url": "https://www.youtube.com/watch?v=H_kFRPu21sI",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 20,
+      "weight_range_lb": "20",
+      "reusable": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "hooks",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "qUIDQEkCQqk",
+    "title": "The Easiest Way to Hang Heavy Things!",
+    "brand": "3M Claw",
+    "views": 15151,
+    "upload_date": "20240508",
+    "url": "https://www.youtube.com/watch?v=qUIDQEkCQqk",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "PSbcjSwnodo",
+    "title": "#ad the 3M\u2122 CLAW\u2122 Drywall Picture Hangers from @3MCorporate since it makes decorating much easier!",
+    "brand": "3M Claw",
+    "views": 14746,
+    "upload_date": "20250522",
+    "url": "https://www.youtube.com/watch?v=PSbcjSwnodo",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "LoNGiq25ddI",
+    "title": "Can the 3M Claw Hold Heavy Items on Drywall?",
+    "brand": "3M Claw",
+    "views": 14729,
+    "upload_date": "20240330",
+    "url": "https://www.youtube.com/watch?v=LoNGiq25ddI",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "v8jGGEntxCo",
+    "title": "Top 6 Drywall Anchors Put to the TEST Can They Hold Heavy Objects",
+    "brand": "3M Claw",
+    "views": 13508,
+    "upload_date": "20250226",
+    "url": "https://www.youtube.com/watch?v=v8jGGEntxCo",
+    "video_type": [
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.9,
+      "positive_score": 0.4,
+      "negative_score": 1.0,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "max_weight_capacity_lb": 143,
+      "weight_range_lb": "50-143"
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "p1HXJCNiY60",
+    "title": "The easiest way to hang things up!!! Love 3m Claw so much!!! #homedecor #homediy #eclectic",
+    "brand": "3M Claw",
+    "views": 10939,
+    "upload_date": "20231025",
+    "url": "https://www.youtube.com/watch?v=p1HXJCNiY60",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "44xh9C1P-3I",
+    "title": "Hanging Pictures Made Easy with the 3M Claw #diy #diytools #tools #homedecoration",
+    "brand": "3M Claw",
+    "views": 10820,
+    "upload_date": "20250726",
+    "url": "https://www.youtube.com/watch?v=44xh9C1P-3I",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "0lO8iZHUel4",
+    "title": "Strength Testing The Best Drywall Anchors",
+    "brand": "3M Claw",
+    "views": 9452,
+    "upload_date": "20250219",
+    "url": "https://www.youtube.com/watch?v=0lO8iZHUel4",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "positive_score": 2.4,
+      "negative_score": 0.8,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 40,
+      "weight_range_lb": "40"
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "adhesion_failure",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "Lx2H-vEmxDY",
+    "title": "Tim Cruise LOVES The 3M CLAW",
+    "brand": "3M Claw",
+    "views": 8351,
+    "upload_date": "20201219",
+    "url": "https://www.youtube.com/watch?v=Lx2H-vEmxDY",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 45,
+      "weight_range_lb": "45"
+    },
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "kdWg_AC5RN4",
+    "title": "Stripped Drywall Anchor? I Tested 2 Fixes\u2026The Winner SHOCKED Me!",
+    "brand": "3M Claw",
+    "views": 6868,
+    "upload_date": "20250302",
+    "url": "https://www.youtube.com/watch?v=kdWg_AC5RN4",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 2.2,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 5,
+        "in_title": true
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 5,
+        "in_title": true
+      },
+      {
+        "pain_point": "weight_limitations",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "EnIJh6WcjTE",
+    "title": "How to Use Claw Drywall Hangers | 3M Claw DIY Tutorial",
+    "brand": "3M Claw",
+    "views": 5903,
+    "upload_date": "20250430",
+    "url": "https://www.youtube.com/watch?v=EnIJh6WcjTE",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "rXCD67bZBy4",
+    "title": "3m Claw drywall anchors useless",
+    "brand": "3M Claw",
+    "views": 4636,
+    "upload_date": "20240927",
+    "url": "https://www.youtube.com/watch?v=rXCD67bZBy4",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 1.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "3TN-BebizVE",
+    "title": "How To Install The Wall Claw Drywall Anchors. Game Changer? (Detailed Directions and Review)",
+    "brand": "3M Claw",
+    "views": 4486,
+    "upload_date": "20220401",
+    "url": "https://www.youtube.com/watch?v=3TN-BebizVE",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "removable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "AsNxaTmn_4k",
+    "title": "365 Days of DIY - The Hangman Bear Claw Really Grabs Ya",
+    "brand": "3M Claw",
+    "views": 2856,
+    "upload_date": "20170920",
+    "url": "https://www.youtube.com/watch?v=AsNxaTmn_4k",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "fdclF_hOUHk",
+    "title": "Best Way To Hang Heavy Things on Drywall. 3M Drywall Anchor Review.",
+    "brand": "3M Claw",
+    "views": 2162,
+    "upload_date": "20230518",
+    "url": "https://www.youtube.com/watch?v=fdclF_hOUHk",
+    "video_type": [
+      "tutorial",
+      "review",
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 3
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "EpjMsEEcYW0",
+    "title": "Hang Anything Heavy FAST! (Really Strong Hooks!)",
+    "brand": "3M Claw",
+    "views": 2084,
+    "upload_date": "20240929",
+    "url": "https://www.youtube.com/watch?v=EpjMsEEcYW0",
+    "video_type": [
+      "comparison",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "max_weight_capacity_lb": 65,
+      "weight_range_lb": "65"
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "6NjGAFBBT0E",
+    "title": "Wall Claw Drywall Anchors",
+    "brand": "3M Claw",
+    "views": 1876,
+    "upload_date": "20250302",
+    "url": "https://www.youtube.com/watch?v=6NjGAFBBT0E",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "4Ty9KMMc7Jc",
+    "title": "#diy the easiest hack to hanging artwork or mirrors. and the spot marker is actu",
+    "brand": "3M Claw",
+    "views": 1693,
+    "upload_date": "20230729",
+    "url": "https://www.youtube.com/watch?v=4Ty9KMMc7Jc",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tips"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "3Ugypvy6PMs",
+    "title": "Drywall Anchors, How to Hang Heavy Pictures and Mirrors",
+    "brand": "3M Claw",
+    "views": 1167,
+    "upload_date": "20230219",
+    "url": "https://www.youtube.com/watch?v=3Ugypvy6PMs",
+    "video_type": [
+      "tutorial",
+      "comparison",
+      "problem"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 30,
+      "weight_range_lb": "30"
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 3
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "hooks",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "gE_S9LeqpaQ",
+    "title": "3M CLAW Drywall Picture Hanger with Temporary Spot Marker, Holds 15 lbs, 6 Hangers, 6 Markers/Pack",
+    "brand": "3M Claw",
+    "views": 734,
+    "upload_date": "20220831",
+    "url": "https://www.youtube.com/watch?v=gE_S9LeqpaQ",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.4,
+      "negative_score": 0.6,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 15,
+      "weight_range_lb": "15-15",
+      "no_tools_required": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "yJEo7OV9NwI",
+    "title": "3M Claw Drywall Picture Hangers, 8 Hangers Amazon Review",
+    "brand": "3M Claw",
+    "views": 134,
+    "upload_date": "20230511",
+    "url": "https://www.youtube.com/watch?v=yJEo7OV9NwI",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "9osBL0LDnsU",
+    "title": "Best way to hang a picture? 3M CLAW 15, 25 and 45 lb. Drywall Picture Hanger Variety Pack",
+    "brand": "3M Claw",
+    "views": 92,
+    "upload_date": "20240810",
+    "url": "https://www.youtube.com/watch?v=9osBL0LDnsU",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 45,
+      "weight_range_lb": "45"
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "yBLylXf7ijs",
+    "title": "The Top 5 Best Claw Hangers in 2025 - Must Watch Before Buying!",
+    "brand": "3M Claw",
+    "views": 24,
+    "upload_date": "20250314",
+    "url": "https://www.youtube.com/watch?v=yBLylXf7ijs",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 2.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "reusable": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "versatile",
+        "emphasis": 3
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "msiaV0Vnwms",
+    "title": "1500lbs Claw Hook 25inch Steel Log Lifting Tongs,Heavy Duty Grapple Timber Claw,Forestry Pliers Tree",
+    "brand": "3M Claw",
+    "views": 1,
+    "upload_date": "20251023",
+    "url": "https://www.youtube.com/watch?v=msiaV0Vnwms",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "SN3ojo_NjQI",
+    "title": "How to Hang a Heavy Mirror on Drywall!",
+    "brand": "3M Claw",
+    "views": 227108,
+    "upload_date": "20230212",
+    "url": "https://www.youtube.com/watch?v=SN3ojo_NjQI",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "15OvpxJJU3s",
+    "title": "How To Use A Plastic Disgorger To Unhook Fish - Snelled Fish Hook Remover Tool 2 in 1 [4K]",
+    "brand": "3M Claw",
+    "views": 176698,
+    "upload_date": "20210426",
+    "url": "https://www.youtube.com/watch?v=15OvpxJJU3s",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "waterproof": true
+    },
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "P8eblEGN7go",
+    "title": "How Much Can a Drywall Anchor Actually Hold?",
+    "brand": "3M Claw",
+    "views": 138046,
+    "upload_date": "20230609",
+    "url": "https://www.youtube.com/watch?v=P8eblEGN7go",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.4,
+      "negative_score": 0.8,
+      "video_type_context": "general"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "o0EQAi8Z5pA",
+    "title": "Seamless wall hook nail hang photo hangers brick DIY install how #shorts #shortsvideo #viral #hook",
+    "brand": "3M Claw",
+    "views": 111875,
+    "upload_date": "20240719",
+    "url": "https://www.youtube.com/watch?v=o0EQAi8Z5pA",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "utmHFPZl_zU",
+    "title": "Best Way To Rig Your Lure Weedless: Weed Guards vs. Weedless Hooks",
+    "brand": "3M Claw",
+    "views": 64767,
+    "upload_date": "20201221",
+    "url": "https://www.youtube.com/watch?v=utmHFPZl_zU",
+    "video_type": [
+      "comparison",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "qmgB0_PDfGI",
+    "title": "How to use a snell hook holder",
+    "brand": "3M Claw",
+    "views": 22429,
+    "upload_date": "20200212",
+    "url": "https://www.youtube.com/watch?v=qmgB0_PDfGI",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "KexjqfkOn0Y",
+    "title": "Can You Hammer the 3M Claw Into the Wall?",
+    "brand": "3M Claw",
+    "views": 16150,
+    "upload_date": "20230711",
+    "url": "https://www.youtube.com/watch?v=KexjqfkOn0Y",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "fnaVV9O0RHo",
+    "title": "10 Quick Winch Claw Tips!",
+    "brand": "3M Claw",
+    "views": 5887,
+    "upload_date": "20250127",
+    "url": "https://www.youtube.com/watch?v=fnaVV9O0RHo",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.0,
+      "negative_score": 0.0,
+      "video_type_context": "tips"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "gfULFCQmkOY",
+    "title": "\ud83d\uddbc\ufe0f 3M CLAW 15, 25 and 45 lb. Drywall Picture Hanger | Best 3M Claw Drywall Picture Hangers \ud83d\uddbc\ufe0f",
+    "brand": "3M Claw",
+    "views": 211,
+    "upload_date": "20240904",
+    "url": "https://www.youtube.com/watch?v=gfULFCQmkOY",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 45,
+      "weight_range_lb": "45-45"
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "7ZEk5YH2PFo",
+    "title": "How To Use Command Strips - Ace Hardware",
+    "brand": "Command",
+    "views": 475828,
+    "upload_date": "20190430",
+    "url": "https://www.youtube.com/watch?v=7ZEk5YH2PFo",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "medium"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "pPTjPvYZlFY",
+    "title": "3M Command Cord Clips 17017CLR Review",
+    "brand": "Command",
+    "views": 79647,
+    "upload_date": "20140520",
+    "url": "https://www.youtube.com/watch?v=pPTjPvYZlFY",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "installation_difficulty",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "-UmORPvchf8",
+    "title": "Quick & Easy Wall hooks using Command Hooks! Didn\u2019t know these really worked!",
+    "brand": "Command",
+    "views": 70708,
+    "upload_date": "20230625",
+    "url": "https://www.youtube.com/watch?v=-UmORPvchf8",
+    "video_type": [
+      "tutorial",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "krflOpx_H7M",
+    "title": "90 Second How-to & Review: 3M - Command Brand Damage Free Hanging - Clear Plastic Hooks",
+    "brand": "Command",
+    "views": 8809,
+    "upload_date": "20150310",
+    "url": "https://www.youtube.com/watch?v=krflOpx_H7M",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.6,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "damage_free": true
+    },
+    "use_cases": [
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "damage_free",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "PWFP6Wjw7qo",
+    "title": "How to Hang a Frame without Nails! - Command Strip Review and Demo",
+    "brand": "Command",
+    "views": 5641,
+    "upload_date": "20241113",
+    "url": "https://www.youtube.com/watch?v=PWFP6Wjw7qo",
+    "video_type": [
+      "tutorial",
+      "review",
+      "demo"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 15,
+      "weight_range_lb": "15"
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "e1l0MtJQMCo",
+    "title": "Command 20 Lb XL Heavyweight Picture Hanging Strips Review?",
+    "brand": "Command",
+    "views": 4447,
+    "upload_date": "20250104",
+    "url": "https://www.youtube.com/watch?v=e1l0MtJQMCo",
+    "video_type": [
+      "tutorial",
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 20,
+      "weight_range_lb": "20-20",
+      "size_variants": [
+        "xl"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "F1KWzgSb57c",
+    "title": "Best 3M Command Adhesive (and other Sticky) Products for your RV or Trailer \u2014 Trailer Organization!",
+    "brand": "Command",
+    "views": 2918,
+    "upload_date": "20220613",
+    "url": "https://www.youtube.com/watch?v=F1KWzgSb57c",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "jVQtxLEnpmM",
+    "title": "Best Adhesive For Hanging Mirrors 2022 | You Check On Amazon Today",
+    "brand": "Command",
+    "views": 553,
+    "upload_date": "20220127",
+    "url": "https://www.youtube.com/watch?v=jVQtxLEnpmM",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 2.2,
+      "negative_score": 0.4,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 3
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "mDmy7WG8NCs",
+    "title": "3M Strips for Hanging Wall Art--Product Review",
+    "brand": "Command",
+    "views": 31,
+    "upload_date": "20210310",
+    "url": "https://www.youtube.com/watch?v=mDmy7WG8NCs",
+    "video_type": [
+      "review",
+      "demo",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "size_variants": [
+        "medium",
+        "small",
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "AxktFi2jf_E",
+    "title": "The Top 5 Best Wall Hanger in 2025 - Must Watch Before Buying!",
+    "brand": "Command",
+    "views": 30,
+    "upload_date": "20250218",
+    "url": "https://www.youtube.com/watch?v=AxktFi2jf_E",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.8,
+      "negative_score": 0.4,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 15,
+      "weight_range_lb": "15",
+      "outdoor_rated": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "EqsXLBBBbQg",
+    "title": "3M Scotch\u00ae Extreme Double-Sided Mounting Tape \u0e1e\u0e25\u0e31\u0e07\u0e01\u0e32\u0e23\u0e22\u0e36\u0e14\u0e15\u0e34\u0e14\u0e17\u0e35\u0e48\u0e41\u0e02\u0e47\u0e07\u0e41\u0e01\u0e23\u0e48\u0e07",
+    "brand": "Scotch",
+    "views": 19400,
+    "upload_date": "20250813",
+    "url": "https://www.youtube.com/watch?v=EqsXLBBBbQg",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "QKPniJZAOrE",
+    "title": "3M Scotch\u00ae Extreme Double-Sided Mounting Tape \u0e1e\u0e25\u0e31\u0e07\u0e01\u0e32\u0e23\u0e22\u0e36\u0e14\u0e15\u0e34\u0e14\u0e17\u0e35\u0e48\u0e41\u0e02\u0e47\u0e07\u0e41\u0e01\u0e23\u0e48\u0e07",
+    "brand": "Scotch",
+    "views": 9666,
+    "upload_date": "20250813",
+    "url": "https://www.youtube.com/watch?v=QKPniJZAOrE",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "MpQ-NBzD49w",
+    "title": "3M Scotch\u00ae Extreme Double-Sided Mounting Tape \u0e1e\u0e25\u0e31\u0e07\u0e01\u0e32\u0e23\u0e22\u0e36\u0e14\u0e15\u0e34\u0e14\u0e17\u0e35\u0e48\u0e41\u0e02\u0e47\u0e07\u0e41\u0e01\u0e23\u0e48\u0e07",
+    "brand": "Scotch",
+    "views": 8151,
+    "upload_date": "20250813",
+    "url": "https://www.youtube.com/watch?v=MpQ-NBzD49w",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.6,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {},
+    "use_cases": [],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "Qk2mo_ISWC0",
+    "title": "BEST MOUNTING TAPE FOR PAINTED WALLS",
+    "brand": "Scotch",
+    "views": 1022,
+    "upload_date": "20221019",
+    "url": "https://www.youtube.com/watch?v=Qk2mo_ISWC0",
+    "video_type": [
+      "tutorial"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 2.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "heavy_duty": true,
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 2,
+        "in_title": false
+      },
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "3hNZ3MwqyPo",
+    "title": "Top 5 Best Double Sided Tapes for Arts, Crafts, Photography, Scrapbooking Review in 2023",
+    "brand": "Scotch",
+    "views": 550,
+    "upload_date": "20220203",
+    "url": "https://www.youtube.com/watch?v=3hNZ3MwqyPo",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "permanent": true,
+      "outdoor_rated": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "SjMgTbDogd4",
+    "title": "The Top 5 Best Auto Tape in 2025 - Must Watch Before Buying!",
+    "brand": "Scotch",
+    "views": 480,
+    "upload_date": "20250413",
+    "url": "https://www.youtube.com/watch?v=SjMgTbDogd4",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 3.0,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "permanent": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 2,
+        "in_title": false
+      },
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      },
+      {
+        "pain_point": "price_too_high",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 3
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 2
+      },
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "z4whmGZ-HkM",
+    "title": "Double Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 294,
+    "upload_date": "20200125",
+    "url": "https://www.youtube.com/watch?v=z4whmGZ-HkM",
+    "video_type": [
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.4,
+      "video_type_context": "tips"
+    },
+    "features": {
+      "max_weight_capacity_lb": 2,
+      "weight_range_lb": "2",
+      "max_weight_capacity_kg": 1
+    },
+    "use_cases": [
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "3AptajVFJ_Y",
+    "title": "Double Sided Mounting Tape",
+    "brand": "Scotch",
+    "views": 153,
+    "upload_date": "20191205",
+    "url": "https://www.youtube.com/watch?v=3AptajVFJ_Y",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 2,
+      "weight_range_lb": "2"
+    },
+    "use_cases": [
+      {
+        "use_case": "curtains",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "RZUUmm5voB0",
+    "title": "The Top 5 Best Double Sided Tape in 2025 - Must Watch Before Buying!",
+    "brand": "Scotch",
+    "views": 138,
+    "upload_date": "20250909",
+    "url": "https://www.youtube.com/watch?v=RZUUmm5voB0",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 2.8,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "removable": true,
+      "permanent": true,
+      "outdoor_rated": true,
+      "heavy_duty": true,
+      "reusable": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "decoration",
+        "mentions": 1
+      },
+      {
+        "use_case": "office",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "versatile",
+        "emphasis": 3
+      },
+      {
+        "benefit": "strong_hold",
+        "emphasis": 2
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "l-zOFF_xvWk",
+    "title": "Best Double Sided Tape for Heavy Duty Projects",
+    "brand": "Scotch",
+    "views": 135,
+    "upload_date": "20241123",
+    "url": "https://www.youtube.com/watch?v=l-zOFF_xvWk",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 2.2,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "removable": true,
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 3
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 2
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 2
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "iF1Se9C1elk",
+    "title": "Scotch Extreme Double Sided Tape - 2025",
+    "brand": "Scotch",
+    "views": 59,
+    "upload_date": "20250314",
+    "url": "https://www.youtube.com/watch?v=iF1Se9C1elk",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 0.6,
+      "negative_score": 0.0,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_kg": 7,
+      "outdoor_rated": true
+    },
+    "use_cases": [],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "uUsMFvmIt38",
+    "title": "Scotch 3M Scotch Extreme Double Sided Tape|| #jiawell #shortvideo #viralvideo",
+    "brand": "Scotch",
+    "views": 22,
+    "upload_date": "20250413",
+    "url": "https://www.youtube.com/watch?v=uUsMFvmIt38",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.75,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "max_weight_capacity_kg": 7,
+      "outdoor_rated": true
+    },
+    "use_cases": [
+      {
+        "use_case": "tv_mounting",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "temperature_sensitive",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": []
+  },
+  {
+    "video_id": "1uZNleOkXlU",
+    "title": "The Top 5 Best Permanent Tape in 2025 - Must Watch Before Buying!",
+    "brand": "Scotch",
+    "views": 13,
+    "upload_date": "20250812",
+    "url": "https://www.youtube.com/watch?v=1uZNleOkXlU",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.7,
+      "positive_score": 2.6,
+      "negative_score": 0.4,
+      "video_type_context": "general"
+    },
+    "features": {
+      "permanent": true,
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "diy_projects",
+        "mentions": 2
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "acoustic_treatment",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "surface_damage",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 3
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "16JMdE-gMVM",
+    "title": "Best Artificial Baits for Salt Water",
+    "brand": "3M Claw",
+    "views": 12143,
+    "upload_date": "20200621",
+    "url": "https://www.youtube.com/watch?v=16JMdE-gMVM",
+    "video_type": [
+      "tutorial",
+      "problem",
+      "tips"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 1.2,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "professional_results",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "3f1HcQj2850",
+    "title": "WallClaw Hammer-In Drywall Anchor",
+    "brand": "3M Claw",
+    "views": 6269,
+    "upload_date": "20191007",
+    "url": "https://www.youtube.com/watch?v=3f1HcQj2850",
+    "video_type": [
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "mixed",
+      "confidence": 0.8,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "comparison"
+    },
+    "features": {
+      "max_weight_capacity_lb": 125,
+      "weight_range_lb": "125",
+      "heavy_duty": true,
+      "no_tools_required": true,
+      "size_variants": [
+        "medium",
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      },
+      {
+        "benefit": "rental_friendly",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "ajOVps2P2tE",
+    "title": "2025 Swift Carrera 144 Walkround, Review & Comparison with our Elddis CV40",
+    "brand": "3M Claw",
+    "views": 5323,
+    "upload_date": "20240920",
+    "url": "https://www.youtube.com/watch?v=ajOVps2P2tE",
+    "video_type": [
+      "review",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 0.4,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "size_variants": [
+        "small"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "organization",
+        "mentions": 1
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "bathroom",
+        "mentions": 1
+      },
+      {
+        "use_case": "renter_friendly",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "MEg2kZ3Zeqo",
+    "title": "3M CLAW\u2122 Plasterboard and Drywall Picture Hanger - HERO English Video (POTY)",
+    "brand": "3M Claw",
+    "views": 2107,
+    "upload_date": "20240410",
+    "url": "https://www.youtube.com/watch?v=MEg2kZ3Zeqo",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.4,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_kg": 30
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "versatile",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "iYkwumvD5Ws",
+    "title": "3M Claw Heavyweight Drywall Picture Hanger",
+    "brand": "3M Claw",
+    "views": 1847,
+    "upload_date": "20201019",
+    "url": "https://www.youtube.com/watch?v=iYkwumvD5Ws",
+    "video_type": [
+      "general"
+    ],
+    "sentiment": {
+      "sentiment": "negative",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.6,
+      "video_type_context": "general"
+    },
+    "features": {
+      "max_weight_capacity_lb": 45,
+      "weight_range_lb": "45"
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "diy_projects",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": []
+  },
+  {
+    "video_id": "JtnqrJyFj2U",
+    "title": "3M CLAW\u2122 Drywall Picture Hanger vs. Traditional Drywall Anchor.",
+    "brand": "3M Claw",
+    "views": 1637,
+    "upload_date": "20241211",
+    "url": "https://www.youtube.com/watch?v=JtnqrJyFj2U",
+    "video_type": [
+      "tutorial",
+      "comparison"
+    ],
+    "sentiment": {
+      "sentiment": "neutral",
+      "confidence": 0.7,
+      "positive_score": 0.0,
+      "negative_score": 0.0,
+      "video_type_context": "tutorial"
+    },
+    "features": {
+      "max_weight_capacity_lb": 65,
+      "weight_range_lb": "65",
+      "no_tools_required": true,
+      "size_variants": [
+        "large"
+      ]
+    },
+    "use_cases": [
+      {
+        "use_case": "heavy_items",
+        "mentions": 2
+      },
+      {
+        "use_case": "picture_hanging",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "easy_installation",
+        "emphasis": 1
+      }
+    ]
+  },
+  {
+    "video_id": "2L7sWqmPm-Y",
+    "title": "Top 5 Best Drywall Anchors Reviews of 2023",
+    "brand": "3M Claw",
+    "views": 312,
+    "upload_date": "20230510",
+    "url": "https://www.youtube.com/watch?v=2L7sWqmPm-Y",
+    "video_type": [
+      "review"
+    ],
+    "sentiment": {
+      "sentiment": "positive",
+      "confidence": 0.85,
+      "positive_score": 1.8,
+      "negative_score": 0.0,
+      "video_type_context": "review"
+    },
+    "features": {
+      "heavy_duty": true
+    },
+    "use_cases": [
+      {
+        "use_case": "picture_hanging",
+        "mentions": 2
+      },
+      {
+        "use_case": "shelving",
+        "mentions": 1
+      },
+      {
+        "use_case": "mirror",
+        "mentions": 1
+      },
+      {
+        "use_case": "heavy_items",
+        "mentions": 1
+      }
+    ],
+    "pain_points": [
+      {
+        "pain_point": "durability_issues",
+        "severity": 1,
+        "in_title": false
+      }
+    ],
+    "benefits": [
+      {
+        "benefit": "strong_hold",
+        "emphasis": 1
+      },
+      {
+        "benefit": "time_saving",
+        "emphasis": 1
+      },
+      {
+        "benefit": "value_for_money",
+        "emphasis": 1
+      }
+    ]
+  }
+]
