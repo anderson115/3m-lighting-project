@@ -1,0 +1,12 @@
+{
+  "collection_date": "2025-11-02",
+  "total_videos": 113,
+  "with_transcripts": 113,
+  "comparison_videos": 3,
+  "quality_note": "Insufficient explicit comparisons found. GPT-4 analysis will extract implicit comparisons from transcripts.",
+  "next_steps": [
+    "Use GPT-4 to analyze all 113 transcripts for implicit brand comparisons",
+    "Extract trade-off discussions, SWOT elements from review content",
+    "Cross-reference with product reviews for comprehensive brand perception"
+  ]
+}
