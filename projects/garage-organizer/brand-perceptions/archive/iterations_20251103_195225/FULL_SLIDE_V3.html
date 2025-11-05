@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Version 3 - Centered Minimal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FFFFFF;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        .slide { width: 1760px; height: 920px; margin: 80px; position: relative; }
+
+        :root {
+            --primary: #2D3748;
+            --accent: #14B8A6;
+            --text: #1A202C;
+            --text-light: #4A5568;
+        }
+
+        .content-wrapper {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .headline {
+            font-size: 38pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 44pt;
+            margin-bottom: 48pt;
+            letter-spacing: -0.04em;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        .section-divider {
+            width: 120px;
+            height: 4pt;
+            background: linear-gradient(to right, transparent, var(--accent), transparent);
+            margin: 32pt auto;
+        }
+
+        /* Pattern Section */
+        .pattern-section {
+            text-align: center;
+            margin-bottom: 40pt;
+            max-width: 840px;
+        }
+
+        .pattern-header {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 16pt;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10pt;
+        }
+
+        .pattern-icon {
+            font-size: 18pt;
+            font-weight: 400;
+        }
+
+        .pattern-text {
+            font-size: 14pt;
+            font-weight: 500;
+            color: var(--text);
+            line-height: 24pt;
+            text-align: center;
+        }
+
+        /* Hard Truth Callout */
+        .hard-truth-callout {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-radius: 16pt;
+            padding: 40px 48px;
+            margin: 0 auto 40pt;
+            max-width: 840px;
+            box-shadow: 0 12px 40px rgba(45, 55, 72, 0.4);
+            text-align: center;
+            position: relative;
+            border: 4pt solid var(--accent);
+        }
+
+        .hard-truth-badge {
+            position: absolute;
+            top: -16pt;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: #FFFFFF;
+            font-size: 10pt;
+            font-weight: 900;
+            padding: 8pt 24pt;
+            border-radius: 24pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            box-shadow: 0 6px 20px rgba(20, 184, 166, 0.5);
+        }
+
+        .hard-truth-statement {
+            font-size: 18pt;
+            font-weight: 800;
+            color: #FFFFFF;
+            line-height: 27pt;
+            margin-bottom: 20pt;
+            margin-top: 8pt;
+        }
+
+        .hard-truth-context {
+            font-size: 12pt;
+            color: rgba(255,255,255,0.85);
+            line-height: 20pt;
+        }
+
+        .hard-truth-context strong {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Data Pills */
+        .data-pills {
+            display: flex;
+            justify-content: center;
+            gap: 24pt;
+            margin-bottom: 40pt;
+        }
+
+        .data-pill {
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            border: 3pt solid var(--accent);
+            border-radius: 48pt;
+            padding: 20pt 36pt;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(20, 184, 166, 0.2);
+            min-width: 240px;
+        }
+
+        .pill-label {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .pill-value {
+            font-size: 42pt;
+            font-weight: 900;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        /* Provocation Box */
+        .provocation-box {
+            background: #FFFFFF;
+            border: 3pt solid #E5E7EB;
+            border-radius: 16pt;
+            padding: 36px 44px;
+            margin-bottom: 40pt;
+            max-width: 840px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .provocation-question-centered {
+            font-size: 19pt;
+            font-weight: 800;
+            color: var(--text);
+            line-height: 28pt;
+            margin-bottom: 24pt;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 14pt;
+        }
+
+        .provocation-icon-centered {
+            width: 36pt;
+            height: 36pt;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 3pt solid var(--primary);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            flex-shrink: 0;
+            box-shadow: 0 8px 20px rgba(20, 184, 166, 0.4);
+        }
+
+        .provocation-subheader-centered {
+            font-size: 11pt;
+            color: var(--accent);
+            margin-bottom: 16pt;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .provocation-list-centered {
+            list-style: none;
+            padding-left: 0;
+            text-align: left;
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .provocation-list-centered li {
+            font-size: 12pt;
+            color: var(--text);
+            line-height: 21pt;
+            margin-bottom: 12pt;
+            padding-left: 22pt;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .provocation-list-centered li:before {
+            content: "▸";
+            color: var(--accent);
+            font-size: 15pt;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+
+        /* Conversation Starters */
+        .conversation-section {
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            border-top: 4pt solid var(--accent);
+            border-radius: 12pt;
+            padding: 32px 40px;
+            margin-bottom: 32pt;
+            max-width: 840px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+        }
+
+        .conversation-header {
+            font-size: 12pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 20pt;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .conversation-list-centered {
+            list-style: none;
+            text-align: left;
+        }
+
+        .conversation-list-centered li {
+            font-size: 13pt;
+            color: var(--text);
+            line-height: 22pt;
+            margin-bottom: 16pt;
+            display: flex;
+            gap: 12pt;
+            align-items: flex-start;
+            font-weight: 600;
+        }
+
+        .arrow-icon-centered {
+            color: var(--accent);
+            font-size: 18pt;
+            flex-shrink: 0;
+            font-weight: 900;
+            margin-top: 2pt;
+        }
+
+        /* Sentiment Visual */
+        .sentiment-section-centered {
+            max-width: 680px;
+            margin: 0 auto 32pt;
+        }
+
+        .sentiment-title-centered {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 14pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            text-align: center;
+        }
+
+        .sentiment-bar-centered {
+            width: 100%;
+            height: 52pt;
+            display: flex;
+            border-radius: 32pt;
+            overflow: hidden;
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25);
+            border: 3pt solid var(--primary);
+        }
+
+        .sentiment-segment-centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13pt;
+            font-weight: 900;
+        }
+
+        .sentiment-segment-centered.neutral {
+            background: linear-gradient(180deg, #4B5563 0%, #374151 100%);
+            color: white;
+            width: 84%;
+        }
+
+        .sentiment-segment-centered.positive {
+            background: linear-gradient(180deg, var(--accent) 0%, #0d9488 100%);
+            color: white;
+            width: 6.5%;
+        }
+
+        .sentiment-segment-centered.negative {
+            background: linear-gradient(180deg, var(--primary) 0%, #1a2332 100%);
+            color: white;
+            width: 9.5%;
+        }
+
+        .sentiment-labels-centered {
+            font-size: 10pt;
+            font-weight: 700;
+            color: #374151;
+            margin-top: 12pt;
+            display: flex;
+            justify-content: center;
+            gap: 28pt;
+        }
+
+        .sentiment-dot-centered {
+            width: 10pt;
+            height: 10pt;
+            border-radius: 50%;
+            margin-right: 8pt;
+            display: inline-block;
+            border: 1.5pt solid var(--primary);
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 52px;
+            border-top: 2pt solid var(--accent);
+            padding-top: 13pt;
+            display: flex;
+            justify-content: space-between;
+            font-size: 10pt;
+            color: #6B7280;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="content-wrapper">
+            <div class="headline">Command's Market Presence is Strong, But Creator Discussions Reveal a Tension Worth Exploring</div>
+
+            <div class="pattern-section">
+                <div class="pattern-header"><span class="pattern-icon">✱</span><span>The Pattern</span></div>
+                <div class="pattern-text">Command appears frequently in YouTube content—particularly in instructional videos where creators demonstrate picture hanging and organization techniques. However, surface damage appears as a topic in creator feedback more frequently than damage-free benefits are highlighted as an advantage.</div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="hard-truth-callout">
+                <div class="hard-truth-badge">Hard Truth</div>
+                <div class="hard-truth-statement">In YouTube creator content, surface damage concerns outweigh damage-free benefit emphasis.</div>
+                <div class="hard-truth-context"><strong>This matters because:</strong> When creator feedback contradicts positioning, marketing ROI is compromised. Command's damage-free claims may be setting expectations so high that any surface marking feels like brand promise failure.</div>
+            </div>
+
+            <div class="data-pills">
+                <div class="data-pill">
+                    <div class="pill-label">Surface Damage</div>
+                    <div class="pill-value">24</div>
+                </div>
+                <div class="data-pill">
+                    <div class="pill-label">Damage-Free</div>
+                    <div class="pill-value">11</div>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <div class="provocation-box">
+                <div class="provocation-question-centered"><span class="provocation-icon-centered">?</span><span>Are claims setting expectations too high?</span></div>
+                <div class="provocation-subheader-centered">Consider:</div>
+                <ul class="provocation-list-centered">
+                    <li>Surface compatibility guidance could reduce damage instances</li>
+                    <li>Conditional claims: "damage-free on properly prepared smooth surfaces"</li>
+                    <li>Focus on proper installation education vs. absolute promises</li>
+                </ul>
+            </div>
+
+            <div class="conversation-section">
+                <div class="conversation-header">Conversation Starters</div>
+                <ul class="conversation-list-centered">
+                    <li><span class="arrow-icon-centered">→</span><span>What's the actual ROI on damage-free messaging if creator content tells a different story?</span></li>
+                    <li><span class="arrow-icon-centered">→</span><span>Should we shift from absolute claims to contextual guidance?</span></li>
+                    <li><span class="arrow-icon-centered">→</span><span>Can we identify failure patterns and address them proactively?</span></li>
+                </ul>
+            </div>
+
+            <div class="sentiment-section-centered">
+                <div class="sentiment-title-centered">Sentiment Distribution</div>
+                <div class="sentiment-bar-centered">
+                    <div class="sentiment-segment-centered neutral">Neutral 84%</div>
+                    <div class="sentiment-segment-centered positive"></div>
+                    <div class="sentiment-segment-centered negative"></div>
+                </div>
+                <div class="sentiment-labels-centered">
+                    <span><span class="sentiment-dot-centered" style="background: #14B8A6;"></span>Positive 6.5%</span>
+                    <span><span class="sentiment-dot-centered" style="background: #2D3748;"></span>Negative 6.5%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>Source: Phase 2 Analysis, 62 Command videos</div>
+            <div>Slide 1 of 3</div>
+        </div>
+    </div>
+</body>
+</html>

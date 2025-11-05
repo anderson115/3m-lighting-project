@@ -1,0 +1,1381 @@
+{
+  "brand": "Hyper Tough",
+  "total_products": 55,
+  "products": [
+    {
+      "product_id": "113850082",
+      "name": "Hyper Tough Pegboard Hook Kit for 1/8 & 1/4-Inch Pegboard Holes, 50-Piece, 8251",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 14.97,
+      "rating": 4.2,
+      "review_count": 99,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Pegboard-Hook-Kit-for-1-8-1-4-Inch-Pegboard-Holes-50-Piece-8251/113850082",
+      "sku": "113850082",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 6,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693632",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "106836209",
+      "name": "Hyper Tough Heavy Duty Wall Mount U-Hook, 40 lb. Capacity, Metal, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 6.68,
+      "rating": 4.7,
+      "review_count": 97,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Heavy-Duty-Wall-Mount-U-Hook-40-lb-Capacity-Metal-Black/106836209",
+      "sku": "106836209",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 40,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693641",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3850717176",
+      "name": "Hyper Tough Screwin Heavy Duty Steel Garage Bicycle Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.86,
+      "rating": 4.6,
+      "review_count": 73,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screwin-Heavy-Duty-Steel-Garage-Bicycle-Hook-Black/3850717176",
+      "sku": "3850717176",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693687",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1396662602",
+      "name": "Hyper Tough Wall Mounted Adjustable Steel Spring Grip Hook Tool Organizer",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.97,
+      "rating": 4.5,
+      "review_count": 71,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Adjustable-Steel-Spring-Grip-Hook-Tool-Organizer/1396662602",
+      "sku": "1396662602",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 2,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693693",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48003219",
+      "name": "Hyper Tough Screw-in Vinyl Coated Bicycle Hook Value Pack, Red (6 Pack)",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.7,
+      "rating": 4.8,
+      "review_count": 67,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Bicycle-Hook-Value-Pack-Red-6-Pack/48003219",
+      "sku": "48003219",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": 843,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693704",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48901095",
+      "name": "Hyper Tough Quick Release 6-Inch Steel Straight Hook, Wall Mount, Snap Rail System, Organizer Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 6.9,
+      "rating": 4.9,
+      "review_count": 59,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Quick-Release-6-Inch-Steel-Straight-Hook-Wall-Mount-Snap-Rail-System-Organizer-Rail/48901095",
+      "sku": "48901095",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693730",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "15007774242",
+      "name": "(2 pack) Hyper Tough 6 in. Wall Mounted Garage Utility J Hook, Gray",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.84,
+      "rating": 4.8,
+      "review_count": 58,
+      "url": "https://www.walmart.com/ip/2-pack-Hyper-Tough-6-in-Wall-Mounted-Garage-Utility-J-Hook-Gray/15007774242",
+      "sku": "15007774242",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": 17,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693734",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "739239962",
+      "name": "Hyper Tough 4-inch Pegboard Hooks, Zinc Plated, 3-pack, Fits 1/8 and 1/4-inch Holes, Model 8775",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.27,
+      "rating": 4.8,
+      "review_count": 52,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-4-inch-Pegboard-Hooks-Zinc-Plated-3-pack-Fits-1-8-and-1-4-inch-Holes-Model-8775/739239962",
+      "sku": "739239962",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 12,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693750",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1805980684",
+      "name": "Hyper Tough Screw-in Vinyl Coated Bicycle Hook Value Pack, Red, 6 Pack",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 8.97,
+      "rating": 4.8,
+      "review_count": 51,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Bicycle-Hook-Value-Pack-Red-6-Pack/1805980684",
+      "sku": "1805980684",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693756",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "491384321",
+      "name": "Hyper Tough Multi-Hook Rack Organizer, Wall Mount, Snap Rail System, Organizer Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 19.68,
+      "rating": 4.5,
+      "review_count": 51,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Multi-Hook-Rack-Organizer-Wall-Mount-Snap-Rail-System-Organizer-Rail/491384321",
+      "sku": "491384321",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 63,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693764",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17474047",
+      "name": "Hyper Tough Peghook Value Pack Assortment, Zinc Plated Steel (20 Pack)",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.47,
+      "rating": 4.6,
+      "review_count": 50,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Peg-Hook-Value-Pack-Assortment-20-Pack/17474047",
+      "sku": "17474047",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 47,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693770",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3887494270",
+      "name": "Hyper Tough Screw-in Vinyl Coated Bicycle Hook, Red",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 1.24,
+      "rating": 4.8,
+      "review_count": 50,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Bicycle-Hook-Red/3887494270",
+      "sku": "3887494270",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693773",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48901096",
+      "name": "Hyper Tough Quick Release 3-inch U Hook, Wall Mount, Organizer Rail, Snap Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.97,
+      "rating": 4.9,
+      "review_count": 50,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Quick-Release-3-inch-U-Hook-Wall-Mount-Organizer-Rail-Snap-Rail/48901096",
+      "sku": "48901096",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693779",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "208663615",
+      "name": "Hyper Tough Quick-Release Mop & Broom Holder, Wall Mount, Snap Rail System, Organizer Rail, New",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 19.68,
+      "rating": 4.46,
+      "review_count": 48,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Quick-Release-Mop-Broom-Holder-Wall-Mount-Snap-Rail-System-Organizer-Rail-New/208663615",
+      "sku": "208663615",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693798",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2890461915",
+      "name": "Hyper Tough Heavy Duty Steel Double-Arm Utility Hook Wall Mount Garage Storage, Gray",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.47,
+      "rating": 4.86,
+      "review_count": 44,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Heavy-Duty-Steel-Double-Arm-Utility-Hook-Wall-Mount-Garage-Storage-Gray/2890461915",
+      "sku": "2890461915",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": 82,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693808",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "15045108039",
+      "name": "(2 pack) Hyper Tough Wall Mounted Large Utility Garage Storage Hook, Zinc Plated Steel",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.96,
+      "rating": 4.73,
+      "review_count": 44,
+      "url": "https://www.walmart.com/ip/2-pack-Hyper-Tough-Wall-Mounted-Large-Utility-Garage-Storage-Hook-Zinc-Plated-Steel/15045108039",
+      "sku": "15045108039",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693815",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17474044",
+      "name": "Hyper Tough Screw-in Heavy Duty Garage Bicycle Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.86,
+      "rating": 4.77,
+      "review_count": 44,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Heavy-Duty-Garage-Bicycle-Hook-Black/17474044",
+      "sku": "17474044",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 45,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693818",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5547019534",
+      "name": "Hyper Tough Hyper Stack Garage Storage J Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.24,
+      "rating": 4.64,
+      "review_count": 42,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Garage-Storage-J-Hook-Black/5547019534",
+      "sku": "5547019534",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 44,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693825",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "214773342",
+      "name": "Hyper Tough Screw Mounted Steel Utility V-Hook Hanger, Black Powder Coat Finish",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.98,
+      "rating": 4.77,
+      "review_count": 39,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-Mounted-Steel-Utility-V-Hook-Hanger-Black-Powder-Coat-Finish/214773342",
+      "sku": "214773342",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693835",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3727441686",
+      "name": "Hyper Tough Wall Mounted Heavy Duty Multi Hook Organizer, Gray, 17 inch",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 10.93,
+      "rating": 4.68,
+      "review_count": 38,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Heavy-Duty-Multi-Hook-Organizer-Gray-17-inch/3727441686",
+      "sku": "3727441686",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": 0,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693843",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17474046",
+      "name": "Hyper Tough Screw-in Vinyl Coated Storage Hook Assortment, Red (8 Pack)",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.68,
+      "rating": 4.82,
+      "review_count": 38,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Storage-Hook-Assortment-Red-8-Pack/17474046",
+      "sku": "17474046",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": 95,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693846",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1735007401",
+      "name": "Hyper Tough Screw-in Vinyl Coated Storage Hook Assortment, Red, 8 Pack",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.68,
+      "rating": 4.92,
+      "review_count": 37,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Storage-Hook-Assortment-Red-8-Pack/1735007401",
+      "sku": "1735007401",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": 0,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693859",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5504816108",
+      "name": "Hyper Tough Pegboard Hook Kit for 1/8 & 1/4-in Pegboard Holes, 50-Piece",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 14.97,
+      "rating": 4.59,
+      "review_count": 37,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Pegboard-Hook-Kit-for-1-8-1-4-in-Pegboard-Holes-50-Piece/5504816108",
+      "sku": "5504816108",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": 6,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693862",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17474039",
+      "name": "Hyper Tough 2 in. Heavy Duty Double Peg Hooks, Zinc Plated Steel (3 Pack)",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.68,
+      "rating": 4.78,
+      "review_count": 37,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-2-in-Heavy-Duty-Double-Peg-Hooks-Zinc-Plated-Steel-3-Pack/17474039",
+      "sku": "17474039",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 156,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693866",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5557152012",
+      "name": "Hyper Tough Hyper Stack Compact Heavy Duty Steel Utility Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.24,
+      "rating": 4.97,
+      "review_count": 36,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Compact-Heavy-Duty-Steel-Utility-Hook-Black/5557152012",
+      "sku": "5557152012",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 44,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693869",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5621455778",
+      "name": "Hyper Tough Hyper Stack 32-Inch Wall Storage System, 6-Piece Set with Hooks and Bin, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 26.57,
+      "rating": 4.97,
+      "review_count": 36,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-32-Inch-Wall-Storage-System-6-Piece-Set-with-Hooks-and-Bin-Black/5621455778",
+      "sku": "5621455778",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 34,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693872",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3986120951",
+      "name": "Hyper Tough Magnetic Tool Holder Wall Mounted Storage, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.97,
+      "rating": 4.89,
+      "review_count": 36,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Magnetic-Tool-Holder-Wall-Mounted-Storage-Black/3986120951",
+      "sku": "3986120951",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 2,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693878",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "738347532",
+      "name": "Hyper Tough Magnetic Tool Holder Wall Mounted Storage, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.97,
+      "rating": 4.77,
+      "review_count": 35,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Magnetic-Tool-Holder-Wall-Mounted-Storage-Black/738347532",
+      "sku": "738347532",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693895",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1088655625",
+      "name": "Hyper Tough 25 lb Wall Mounted Steel Utility U-Hook",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.73,
+      "review_count": 33,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-25-lb-Wall-Mounted-Steel-Utility-U-Hook/1088655625",
+      "sku": "1088655625",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 25,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693908",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48003222",
+      "name": "Hyper Tough Wall Mounted Large Utility Garage Storage Hook, Zinc Plated Steel",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.73,
+      "review_count": 33,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Large-Utility-Garage-Storage-Hook-Zinc-Plated-Steel/48003222",
+      "sku": "48003222",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 56,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693911",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17474056",
+      "name": "Hyper Tough Screw-in Heavy Duty Tool Holder, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 1.98,
+      "rating": 4.82,
+      "review_count": 33,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Heavy-Duty-Tool-Holder-Black/17474056",
+      "sku": "17474056",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 3,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693914",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5557152775",
+      "name": "Hyper Tough Hyper Stack Heavy Duty Steel Long Utility Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.97,
+      "rating": 4.84,
+      "review_count": 31,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Heavy-Duty-Steel-Long-Utility-Hook-Black/5557152775",
+      "sku": "5557152775",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 57,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693924",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "798520804",
+      "name": "Hyper Tough 17 in. Wall Mounted Heavy Duty Multi Hook Organizer, Gray",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 10.93,
+      "rating": 4.72,
+      "review_count": 29,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-17-in-Wall-Mounted-Heavy-Duty-Multi-Hook-Organizer-Gray/798520804",
+      "sku": "798520804",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": 22,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693942",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48901104",
+      "name": "Hyper Tough Quick Release 2-in-1 Hook, Wall Mount, Snap Rail System, Organizer Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 16.53,
+      "rating": 4.71,
+      "review_count": 28,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Quick-Release-2-in-1-Hook-Wall-Mount-Snap-Rail-System-Organizer-Rail/48901104",
+      "sku": "48901104",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693949",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2803963475",
+      "name": "Hyper Tough 6 in. Wall Mounted Steel Garage Utility J Hook, Gray",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.54,
+      "review_count": 28,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-6-in-Wall-Mounted-Steel-Garage-Utility-J-Hook-Gray/2803963475",
+      "sku": "2803963475",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": 0,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694082",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5472989015",
+      "name": "Hyper Tough Hyper Stack 16-Inch Heavy Duty Steel Wall Storage Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.87,
+      "rating": 4.96,
+      "review_count": 27,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-16-Inch-Heavy-Duty-Steel-Wall-Storage-Rail/5472989015",
+      "sku": "5472989015",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 44,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694098",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "17208861",
+      "name": "Hyper Tough 4 in. Heavy Duty Single Peg Hooks, Zinc Plated Steel (3 Pack)",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.27,
+      "rating": 4.7,
+      "review_count": 27,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-4-in-Heavy-Duty-Single-Peg-Hooks-Zinc-Plated-Steel-3-Pack/17208861",
+      "sku": "17208861",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 275,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694107",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "433091699",
+      "name": "Hyper Tough Wall Mounted Steel Multi-Tool Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.85,
+      "review_count": 27,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Steel-Multi-Tool-Hook-Black/433091699",
+      "sku": "433091699",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694110",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5502853531",
+      "name": "Hyper Tough Screw Mounted Steel Multi-Hook Rack, Black Finish, 2.5 in x 5.72 in x 17 in",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 6.97,
+      "rating": 4.69,
+      "review_count": 26,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-Mounted-Steel-Multi-Hook-Rack-Black-Finish-2-5-in-x-5-72-in-x-17-in/5502853531",
+      "sku": "5502853531",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694116",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48901112",
+      "name": "Hyper Tough Quick Release 11-inch Ladder Hook, Wall Mount, Snap Rail, Organizer Rail",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 19.68,
+      "rating": 4.64,
+      "review_count": 25,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Quick-Release-11-inch-Ladder-Hook-Wall-Mount-Snap-Rail-Organizer-Rail/48901112",
+      "sku": "48901112",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694119",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "300586918",
+      "name": "Hyper Tough Wall Mounted Steel Extended Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.8,
+      "review_count": 25,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Steel-Extended-Hook-Black/300586918",
+      "sku": "300586918",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694125",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5560959275",
+      "name": "Hyper Tough Hyper Stack Heavy Duty Power Equipment Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 6.68,
+      "rating": 5.0,
+      "review_count": 23,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Heavy-Duty-Power-Equipment-Hook-Black/5560959275",
+      "sku": "5560959275",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 55,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694137",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2536217832",
+      "name": "Hyper Tough 4 in, Heavy Duty Steel Pegboard Hook, 3 Pack",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 2.27,
+      "rating": 4.91,
+      "review_count": 22,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-4-in-Heavy-Duty-Steel-Pegboard-Hook-3-Pack/2536217832",
+      "sku": "2536217832",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": 0,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694151",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5652868512",
+      "name": "Hyper Tough Hyper Stack Velcro Strap Wall Storage Accessory, 50lb Capacity, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 5.97,
+      "rating": 4.91,
+      "review_count": 22,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Velcro-Strap-Wall-Storage-Accessory-50lb-Capacity-Black/5652868512",
+      "sku": "5652868512",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694155",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5365583549",
+      "name": "Hyper Tough Wall Mounted Large Utility Storage Hook, Steel, 1.75 in x 10.55 in x 11.5 in",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.85,
+      "review_count": 20,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Large-Utility-Storage-Hook-Steel-1-75-in-x-10-55-in-x-11-5-in/5365583549",
+      "sku": "5365583549",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694176",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5560709642",
+      "name": "Hyper Tough Hyper Stack Heavy Duty Dual Handle Double S Hook, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.96,
+      "rating": 4.83,
+      "review_count": 18,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Heavy-Duty-Dual-Handle-Double-S-Hook-Black/5560709642",
+      "sku": "5560709642",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 55,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694193",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "580745440",
+      "name": "Hyper Tough Heavy Duty Steel Double-Arm Utility Hook Wall Mount Garage Storage, Gray",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.47,
+      "rating": 4.94,
+      "review_count": 18,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Heavy-Duty-Steel-Double-Arm-Utility-Hook-Wall-Mount-Garage-Storage-Gray/580745440",
+      "sku": "580745440",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": 6,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694199",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5363295975",
+      "name": "Hyper Tough 12-inch Flip-up Wall Mount Tool Hanger",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.68,
+      "rating": 4.71,
+      "review_count": 17,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-12-inch-Flip-up-Wall-Mount-Tool-Hanger/5363295975",
+      "sku": "5363295975",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 4,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694208",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5362786113",
+      "name": "Hyper Tough Screw-in Vinyl Coated Bicycle Hook, Red, 2.75\" x 0.8\" x 6\"",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 1.24,
+      "rating": 4.56,
+      "review_count": 16,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Vinyl-Coated-Bicycle-Hook-Red-2-75-x-0-8-x-6/5362786113",
+      "sku": "5362786113",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "red",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694225",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3370688726",
+      "name": "Hyper Tough Screw-in Steel Heavy Duty Tool Holder, Black",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 1.98,
+      "rating": 5.0,
+      "review_count": 15,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Steel-Heavy-Duty-Tool-Holder-Black/3370688726",
+      "sku": "3370688726",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": 3,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694232",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5364444372",
+      "name": "Hyper Tough Heavy Duty Steel Double-Arm Utility Hook, Gray, 9.45 in x 9 in x 12.2 in",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 7.47,
+      "rating": 4.83,
+      "review_count": 12,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Heavy-Duty-Steel-Double-Arm-Utility-Hook-Gray-9-45-in-x-9-in-x-12-2-in/5364444372",
+      "sku": "5364444372",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": 82,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694248",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5373792431",
+      "name": "Hyper Tough 8-Pack Wall-Mount Storage Hooks, Non-Marring Vinyl Coating",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 19.98,
+      "rating": 4.6,
+      "review_count": 10,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-8-Pack-Wall-Mount-Storage-Hooks-Non-Marring-Vinyl-Coating/5373792431",
+      "sku": "5373792431",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 24,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694263",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5365147992",
+      "name": "Hyper Tough Wall Mounted Steel Multi-Tool Hook, Black, 2.25 in x 4.25 in x 4 in",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 3.98,
+      "rating": 4.11,
+      "review_count": 9,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Wall-Mounted-Steel-Multi-Tool-Hook-Black-2-25-in-x-4-25-in-x-4-in/5365147992",
+      "sku": "5365147992",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694276",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5373792430",
+      "name": "Hyper Tough Screw Mounted Steel Utility V-Hook Hook, Black, 3 in x 4.3 in x 7 in",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 9.98,
+      "rating": 4.5,
+      "review_count": 2,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-Mounted-Steel-Utility-V-Hook-Hook-Black-3-in-x-4-3-in-x-7-in/5373792430",
+      "sku": "5373792430",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694436",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "13450817207",
+      "name": "Hyper Tough Hyper Stack Wall Mounted Utility Hook 3-Pack",
+      "brand": "Hyper Tough",
+      "retailer": "Walmart",
+      "price": 17.97,
+      "rating": 5.0,
+      "review_count": 1,
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Wall-Mounted-Utility-Hook-3-Pack/13450817207",
+      "sku": "13450817207",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694599",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    }
+  ]
+}

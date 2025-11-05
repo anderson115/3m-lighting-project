@@ -1,0 +1,51 @@
+{
+  "product": {
+    "rank": 8,
+    "asin": "B0F32Z97H6",
+    "title": "MIKEDE Magnetic Hooks, 40LB+ Heavy Duty Magnet Hooks for Cruise Cabins, Super Neodymium Hanging Hooks Black Strong Magnets with Hook for Fridge, Magnetic Hanger for Grill, Toolbox - Pack of 4",
+    "brand": "MIKEDE",
+    "price": 9.29,
+    "bsr": 317,
+    "estimated_monthly_sales": 1866,
+    "total_reviews": 3218,
+    "avg_rating": 4.6,
+    "amazon_url": "https://www.amazon.com/dp/B0F32Z97H6"
+  },
+  "analysis": {
+    "videos_analyzed": 5,
+    "materials": {
+      "primary_materials": {
+        "magnets/generic_magnet": 25,
+        "metals/steel": 15,
+        "magnets/neodymium": 1
+      },
+      "all_materials": {
+        "metals/steel": 15,
+        "magnets/generic_magnet": 25,
+        "magnets/neodymium": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "welding": true,
+        "fasteners": true
+      },
+      "primary_method": "welding"
+    },
+    "quality_signals": {
+      "positive": {
+        "well_made": true
+      },
+      "negative": {},
+      "overall_sentiment": "positive"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        175
+      ],
+      "max_mentioned": 175,
+      "avg_mentioned": 175.0
+    },
+    "value_perception": {}
+  }
+}

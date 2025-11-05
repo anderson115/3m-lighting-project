@@ -1,0 +1,44 @@
+{
+  "product": {
+    "rank": 4,
+    "asin": "B0BBW4KS95",
+    "title": "Metal Garden Hose Holder - Heavy Duty Hose Hanger Wall Mounted Water Hose Holder for Outside Yard, Sturdy Hose Reel Hose Hooks for Water Hose, Extension Cords",
+    "brand": "PeoMev",
+    "price": 9.99,
+    "bsr": 160,
+    "estimated_monthly_sales": 2180,
+    "total_reviews": 8396,
+    "avg_rating": 4.6,
+    "amazon_url": "https://www.amazon.com/dp/B0BBW4KS95"
+  },
+  "analysis": {
+    "videos_analyzed": 2,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 7,
+        "metals/stainless_steel": 1,
+        "plastics/generic_plastic": 1
+      },
+      "all_materials": {
+        "metals/steel": 7,
+        "metals/stainless_steel": 1,
+        "plastics/generic_plastic": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {},
+      "primary_method": null
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [],
+      "max_mentioned": null,
+      "avg_mentioned": null
+    },
+    "value_perception": {}
+  }
+}

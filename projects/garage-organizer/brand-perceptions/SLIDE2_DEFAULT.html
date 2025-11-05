@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide 2 - Default Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FFFFFF;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        .slide { width: 1760px; height: 920px; margin: 80px; position: relative; }
+
+        :root {
+            --primary: #2D3748;
+            --accent: #14B8A6;
+            --text: #1A202C;
+            --text-light: #4A5568;
+        }
+
+        .headline {
+            font-size: 33pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 38pt;
+            margin-bottom: 24pt;
+            letter-spacing: -0.04em;
+        }
+
+        .content-container { display: flex; gap: 60px; margin-bottom: 60px; }
+        .left-column { width: 800px; }
+        .right-column { width: 900px; }
+        .section { margin-bottom: 22pt; }
+
+        .section.conversation-section {
+            width: 1760px;
+            margin-left: -80px;
+            padding: 0 80px;
+            margin-bottom: 48pt;
+        }
+
+        .section-header {
+            font-size: 12pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12pt;
+            display: flex;
+            align-items: center;
+            gap: 8pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .icon-insight { font-size: 16pt; color: var(--accent); font-weight: 400; }
+        .body-text { font-size: 12pt; font-weight: 400; color: var(--text); line-height: 19pt; }
+
+        .hard-truth-panel {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-left: 5pt solid var(--accent);
+            padding: 18px 22px;
+            border-radius: 8pt;
+            box-shadow: 0 8px 24px rgba(45, 55, 72, 0.3), 0 4px 8px rgba(0, 0, 0, 0.15);
+            position: relative;
+        }
+
+        .hard-truth-icon {
+            width: 18pt;
+            height: 18pt;
+            background: var(--accent);
+            transform: rotate(45deg);
+            position: absolute;
+            top: 20px;
+            left: 22px;
+            box-shadow: 0 4px 12px rgba(20, 184, 166, 0.5);
+        }
+
+        .hard-truth-content { margin-left: 32px; }
+        .hard-truth-header {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 8pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .hard-truth-text {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #FFFFFF;
+            line-height: 20pt;
+            margin-bottom: 10pt;
+        }
+
+        .hard-truth-explanation {
+            font-size: 10pt;
+            color: rgba(255,255,255,0.85);
+            line-height: 16pt;
+        }
+
+        .hard-truth-explanation strong { color: var(--accent); font-weight: 700; }
+
+        .provocation-icon {
+            width: 26pt;
+            height: 26pt;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 2.5pt solid var(--primary);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-right: 10pt;
+            flex-shrink: 0;
+            box-shadow: 0 6px 16px rgba(20, 184, 166, 0.4);
+        }
+
+        .provocation-question {
+            font-size: 14pt;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 21pt;
+            margin-bottom: 12pt;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .provocation-subheader { font-size: 11pt; color: var(--primary); margin-bottom: 8pt; font-weight: 700; }
+        .provocation-list { list-style: none; padding-left: 0; }
+        .provocation-list li {
+            font-size: 11pt;
+            color: var(--text);
+            line-height: 18pt;
+            margin-bottom: 6pt;
+            padding-left: 16pt;
+            position: relative;
+            font-weight: 500;
+        }
+        .provocation-list li:before {
+            content: "▸";
+            color: var(--accent);
+            font-size: 12pt;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+
+        .conversation-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32pt;
+        }
+        .conversation-list li {
+            font-size: 11pt;
+            color: var(--text);
+            line-height: 18pt;
+            display: flex;
+            gap: 8pt;
+            align-items: flex-start;
+            font-weight: 500;
+        }
+        .arrow-icon { color: var(--accent); font-size: 14pt; flex-shrink: 0; font-weight: 900; margin-top: 1pt; }
+
+        /* Performance Spectrum Bars */
+        .performance-spectrum {
+            width: 100%;
+            margin-bottom: 28pt;
+        }
+
+        .spectrum-title {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 16pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .spectrum-item {
+            margin-bottom: 20pt;
+        }
+
+        .spectrum-label {
+            font-size: 11pt;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8pt;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .spectrum-bar-container {
+            width: 100%;
+            height: 32pt;
+            background: #E5E7EB;
+            border-radius: 8pt;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border: 2pt solid var(--primary);
+        }
+
+        .spectrum-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent) 0%, #0d9488 100%);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 12pt;
+            font-size: 13pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            box-shadow: inset 0 2px 4px rgba(255,255,255,0.2);
+        }
+
+        .spectrum-bar.medium {
+            background: linear-gradient(90deg, #94A3B8 0%, #64748B 100%);
+        }
+
+        /* Sentiment Breakdown */
+        .sentiment-breakdown {
+            width: 100%;
+            margin-bottom: 28pt;
+        }
+
+        .sentiment-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16pt;
+            margin-top: 12pt;
+        }
+
+        .sentiment-card {
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            border: 3pt solid var(--accent);
+            border-radius: 10pt;
+            padding: 16pt 20pt;
+            text-align: center;
+            box-shadow: 0 6px 20px rgba(20, 184, 166, 0.15);
+        }
+
+        .sentiment-card.negative-card {
+            border-color: var(--primary);
+        }
+
+        .sentiment-value {
+            font-size: 36pt;
+            font-weight: 900;
+            color: var(--accent);
+            line-height: 1;
+            margin-bottom: 8pt;
+        }
+
+        .sentiment-card.negative-card .sentiment-value {
+            color: var(--primary);
+        }
+
+        .sentiment-label-small {
+            font-size: 10pt;
+            font-weight: 700;
+            color: var(--text);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        /* Temperature Indicator */
+        .temp-indicator {
+            background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+            border: 3pt solid #F59E0B;
+            border-radius: 10pt;
+            padding: 16pt 20pt;
+            margin-bottom: 28pt;
+            box-shadow: 0 6px 20px rgba(245, 158, 11, 0.2);
+        }
+
+        .temp-header {
+            font-size: 10pt;
+            font-weight: 800;
+            color: #92400E;
+            margin-bottom: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        .temp-stat {
+            font-size: 28pt;
+            font-weight: 900;
+            color: #F59E0B;
+            margin-bottom: 8pt;
+        }
+
+        .temp-description {
+            font-size: 10pt;
+            color: #92400E;
+            line-height: 16pt;
+            font-weight: 600;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 52px;
+            border-top: 2pt solid var(--accent);
+            padding-top: 13pt;
+            display: flex;
+            justify-content: space-between;
+            font-size: 10pt;
+            color: #6B7280;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="headline">Scotch Demonstrates Strong Creator Advocacy—Understanding Where It Shines and Where It's Challenged</div>
+
+        <div class="content-container">
+            <div class="left-column">
+                <div class="section">
+                    <div class="section-header"><span class="icon-insight">✱</span><span>The Pattern</span></div>
+                    <div class="body-text">Content creators who feature Scotch products tend to offer favorable recommendations. Across review and comparison content, Scotch receives notably more positive assessments than negative, with creators frequently emphasizing reliability and hold strength.</div>
+                </div>
+
+                <div class="section">
+                    <div class="section-header"><span class="icon-insight">✱</span><span>Insight</span></div>
+                    <div class="body-text">Scotch's performance perception is strongest in indoor, permanent mounting applications. Temperature considerations shape use case recommendations for outdoor/vehicle contexts—creators understand optimal use through experience.</div>
+                </div>
+
+                <div class="section">
+                    <div class="hard-truth-panel">
+                        <div class="hard-truth-icon"></div>
+                        <div class="hard-truth-content">
+                            <div class="hard-truth-header">Hard Truth</div>
+                            <div class="hard-truth-text">Temperature boundary discussions signal market opportunity cost—outdoor/vehicle segments constrained.</div>
+                            <div class="hard-truth-explanation"><strong>Strategic choice:</strong> Invest in all-temperature formulation to expand TAM, or own indoor category dominance and accept boundary? Current positioning leaves outdoor segment vulnerable to competitors.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="provocation-question"><span class="provocation-icon">?</span><span>Is temperature sensitivity fixable or should we communicate boundaries transparently?</span></div>
+                    <div class="provocation-subheader">Consider:</div>
+                    <ul class="provocation-list">
+                        <li>Product innovation: All-temperature line for outdoor segment</li>
+                        <li>Transparent positioning: "Optimized for indoor use, 40-100°F"</li>
+                        <li>Accept boundary and focus on indoor permanent mounting dominance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="performance-spectrum">
+                    <div class="spectrum-title">Performance Perception by Context</div>
+
+                    <div class="spectrum-item">
+                        <div class="spectrum-label">
+                            <span>Indoor Permanent Mounting</span>
+                            <span style="color: var(--accent); font-weight: 900;">High Confidence</span>
+                        </div>
+                        <div class="spectrum-bar-container">
+                            <div class="spectrum-bar" style="width: 92%;">92%</div>
+                        </div>
+                    </div>
+
+                    <div class="spectrum-item">
+                        <div class="spectrum-label">
+                            <span>DIY Project Applications</span>
+                            <span style="color: var(--accent); font-weight: 900;">Strong</span>
+                        </div>
+                        <div class="spectrum-bar-container">
+                            <div class="spectrum-bar" style="width: 88%;">88%</div>
+                        </div>
+                    </div>
+
+                    <div class="spectrum-item">
+                        <div class="spectrum-label">
+                            <span>Outdoor/Extreme Temperature</span>
+                            <span style="color: #64748B; font-weight: 900;">Consideration</span>
+                        </div>
+                        <div class="spectrum-bar-container">
+                            <div class="spectrum-bar medium" style="width: 45%;">45%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sentiment-breakdown">
+                    <div class="spectrum-title">Creator Sentiment Analysis</div>
+                    <div class="sentiment-grid">
+                        <div class="sentiment-card">
+                            <div class="sentiment-value">High</div>
+                            <div class="sentiment-label-small">Positive Assessments</div>
+                        </div>
+                        <div class="sentiment-card negative-card">
+                            <div class="sentiment-value">Low</div>
+                            <div class="sentiment-label-small">Negative Feedback</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="temp-indicator">
+                    <div class="temp-header">Temperature Discussion Frequency</div>
+                    <div class="temp-stat">1 in 6</div>
+                    <div class="temp-description">Temperature performance mentioned in ~17% of Scotch content, primarily outdoor/vehicle contexts</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section conversation-section">
+            <div class="section-header">Conversation Starters</div>
+            <ul class="conversation-list">
+                <li><span class="arrow-icon">→</span><span>Could an 'All-Temperature' product line address outdoor segments without cannibalizing indoor business?</span></li>
+                <li><span class="arrow-icon">→</span><span>Should we make temperature range explicit on packaging to set proper expectations?</span></li>
+                <li><span class="arrow-icon">→</span><span>DIY and maker communities are growing—how do we deepen presence here as "professional choice"?</span></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div>Source: Phase 2 Analysis, Scotch performance perception across 58 creator videos</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "product": {
+    "rank": 11,
+    "asin": "B0D6NLTSWP",
+    "title": "GLUIT Adhesive Wall Hooks for Hanging Heavy Duty 22 lbs Hooks for Walls No Damage, Towel Sticky Clear Hook, Waterproof, Home, Bathroom, Kitchen, Office, and Outdoor 6 Pack",
+    "brand": "GLUIT",
+    "price": 9.99,
+    "bsr": 742,
+    "estimated_monthly_sales": 1016,
+    "total_reviews": 20517,
+    "avg_rating": 4.5,
+    "amazon_url": "https://www.amazon.com/dp/B0D6NLTSWP"
+  },
+  "analysis": {
+    "videos_analyzed": 5,
+    "materials": {
+      "primary_materials": {
+        "adhesives/generic_adhesive": 28,
+        "metals/steel": 16,
+        "metals/stainless_steel": 12,
+        "plastics/pvc": 7,
+        "plastics/generic_plastic": 4
+      },
+      "all_materials": {
+        "metals/steel": 16,
+        "metals/stainless_steel": 12,
+        "plastics/pvc": 7,
+        "plastics/generic_plastic": 4,
+        "adhesives/generic_adhesive": 28,
+        "coatings/vinyl": 1,
+        "coatings/paint": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {},
+      "primary_method": null
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        22,
+        37
+      ],
+      "max_mentioned": 37,
+      "avg_mentioned": 32.0
+    },
+    "value_perception": {
+      "expensive": true
+    }
+  }
+}

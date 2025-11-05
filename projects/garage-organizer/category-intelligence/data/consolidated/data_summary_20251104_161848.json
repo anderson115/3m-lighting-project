@@ -1,0 +1,3113 @@
+{
+  "consolidated_at": "2025-11-04T16:18:48.601156",
+  "summary": {
+    "total_products": 2211,
+    "total_videos": 182,
+    "total_reddit_posts": 0,
+    "products_with_ratings": 1736,
+    "products_with_reviews": 0,
+    "total_review_count": 0,
+    "video_total_views": 47602560
+  },
+  "brand_breakdown": {
+    "Unknown": {
+      "product_count": 813,
+      "avg_rating": 4.487178670012547,
+      "rating_count": 797
+    },
+    "Rubbermaid": {
+      "product_count": 61,
+      "avg_rating": 4.511694464819219,
+      "rating_count": 48
+    },
+    "Unique Bargains": {
+      "product_count": 59,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Hyper Tough": {
+      "product_count": 55,
+      "avg_rating": 4.746023714481261,
+      "rating_count": 55
+    },
+    "Command": {
+      "product_count": 44,
+      "avg_rating": 4.554545454545455,
+      "rating_count": 11
+    },
+    "Gladiator": {
+      "product_count": 43,
+      "avg_rating": 4.716279069767442,
+      "rating_count": 43
+    },
+    "Everbilt": {
+      "product_count": 31,
+      "avg_rating": 4.506451612903225,
+      "rating_count": 31
+    },
+    "RYOBI": {
+      "product_count": 29,
+      "avg_rating": 4.668968965517242,
+      "rating_count": 29
+    },
+    "Brightroom": {
+      "product_count": 22,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Sussex Home": {
+      "product_count": 20,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "RoomMates": {
+      "product_count": 19,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "HUHOLE": {
+      "product_count": 18,
+      "avg_rating": 4.699226407121144,
+      "rating_count": 18
+    },
+    "Olivia & May": {
+      "product_count": 18,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "HomeRoots": {
+      "product_count": 18,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "ZZERHUOO": {
+      "product_count": 17,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Milwaukee": {
+      "product_count": 17,
+      "avg_rating": 4.470588235294118,
+      "rating_count": 17
+    },
+    "Threshold": {
+      "product_count": 17,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "SOIMISS": {
+      "product_count": 16,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Husky": {
+      "product_count": 15,
+      "avg_rating": 4.746666666666667,
+      "rating_count": 15
+    },
+    "OOK": {
+      "product_count": 14,
+      "avg_rating": 4.730564784053156,
+      "rating_count": 14
+    },
+    "SSWBasics": {
+      "product_count": 13,
+      "avg_rating": 4.48974358974359,
+      "rating_count": 13
+    },
+    "Better Homes & Gardens": {
+      "product_count": 13,
+      "avg_rating": 4.722719600660778,
+      "rating_count": 13
+    },
+    "Wideskall": {
+      "product_count": 13,
+      "avg_rating": 4.464075396044706,
+      "rating_count": 13
+    },
+    "Nsxcdh": {
+      "product_count": 13,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Tetra-Teknica": {
+      "product_count": 12,
+      "avg_rating": 4.672398399014779,
+      "rating_count": 12
+    },
+    "Triton Products": {
+      "product_count": 12,
+      "avg_rating": 4.671306471306472,
+      "rating_count": 12
+    },
+    "Wall Control": {
+      "product_count": 12,
+      "avg_rating": 4.658333333333333,
+      "rating_count": 12
+    },
+    "Qaailabf": {
+      "product_count": 10,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Proslat": {
+      "product_count": 10,
+      "avg_rating": 4.39,
+      "rating_count": 10
+    },
+    "StoreYourBoard": {
+      "product_count": 9,
+      "avg_rating": 4.7196428571428575,
+      "rating_count": 7
+    },
+    "HART": {
+      "product_count": 9,
+      "avg_rating": 4.853326097770542,
+      "rating_count": 9
+    },
+    "HUPBIPY": {
+      "product_count": 8,
+      "avg_rating": 4.6375,
+      "rating_count": 8
+    },
+    "niffgaff": {
+      "product_count": 8,
+      "avg_rating": 4.635714285714286,
+      "rating_count": 7
+    },
+    "TSV": {
+      "product_count": 8,
+      "avg_rating": 4.534248697497546,
+      "rating_count": 8
+    },
+    "Slickblue": {
+      "product_count": 8,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "BeapTcely": {
+      "product_count": 7,
+      "avg_rating": 4.242857142857143,
+      "rating_count": 7
+    },
+    "Incly": {
+      "product_count": 7,
+      "avg_rating": 4.8428571428571425,
+      "rating_count": 7
+    },
+    "Liberty": {
+      "product_count": 7,
+      "avg_rating": 4.757142857142857,
+      "rating_count": 7
+    },
+    "PYBTOOL": {
+      "product_count": 6,
+      "avg_rating": 4.6499999999999995,
+      "rating_count": 6
+    },
+    "INCLY": {
+      "product_count": 6,
+      "avg_rating": 4.6499999999999995,
+      "rating_count": 6
+    },
+    "MQKIWAO": {
+      "product_count": 6,
+      "avg_rating": 4.7,
+      "rating_count": 6
+    },
+    "VEVOR": {
+      "product_count": 6,
+      "avg_rating": 4.38,
+      "rating_count": 5
+    },
+    "Dinosam": {
+      "product_count": 6,
+      "avg_rating": 4.565315315315315,
+      "rating_count": 6
+    },
+    "Duck Brand": {
+      "product_count": 6,
+      "avg_rating": 4.558394607843137,
+      "rating_count": 6
+    },
+    "Crawford": {
+      "product_count": 6,
+      "avg_rating": 3.8517543859649126,
+      "rating_count": 6
+    },
+    "Crawford Products": {
+      "product_count": 6,
+      "avg_rating": 4.5,
+      "rating_count": 6
+    },
+    "Sunhuiii": {
+      "product_count": 6,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Home Decorators Collection": {
+      "product_count": 6,
+      "avg_rating": 4.6000000000000005,
+      "rating_count": 6
+    },
+    "La Roche Posay": {
+      "product_count": 6,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "FLEXIMOUNTS": {
+      "product_count": 5,
+      "avg_rating": 4.619999999999999,
+      "rating_count": 5
+    },
+    "3-H": {
+      "product_count": 5,
+      "avg_rating": 4.6,
+      "rating_count": 5
+    },
+    "SEDY": {
+      "product_count": 5,
+      "avg_rating": 4.6,
+      "rating_count": 5
+    },
+    "PROSLAT": {
+      "product_count": 5,
+      "avg_rating": 4.4,
+      "rating_count": 5
+    },
+    "Juformin": {
+      "product_count": 5,
+      "avg_rating": 4.62,
+      "rating_count": 5
+    },
+    "Whrsinlor": {
+      "product_count": 5,
+      "avg_rating": 4.64,
+      "rating_count": 5
+    },
+    "PeerBasics": {
+      "product_count": 5,
+      "avg_rating": 4.64530612244898,
+      "rating_count": 5
+    },
+    "Pillowfort": {
+      "product_count": 5,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Safavieh": {
+      "product_count": 5,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Tresemme": {
+      "product_count": 5,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "HORUSDY": {
+      "product_count": 4,
+      "avg_rating": 4.55,
+      "rating_count": 4
+    },
+    "KURUI": {
+      "product_count": 4,
+      "avg_rating": 4.6,
+      "rating_count": 4
+    },
+    "ULIBERMAGNET": {
+      "product_count": 4,
+      "avg_rating": 4.675,
+      "rating_count": 4
+    },
+    "SunVFaFa": {
+      "product_count": 4,
+      "avg_rating": 4.6,
+      "rating_count": 4
+    },
+    "Wallavant": {
+      "product_count": 4,
+      "avg_rating": 4.7,
+      "rating_count": 4
+    },
+    "LUPYJI": {
+      "product_count": 4,
+      "avg_rating": 4.725,
+      "rating_count": 4
+    },
+    "Heavdace": {
+      "product_count": 4,
+      "avg_rating": 4.525,
+      "rating_count": 4
+    },
+    "FRAYSCENT": {
+      "product_count": 4,
+      "avg_rating": 4.4,
+      "rating_count": 4
+    },
+    "Suprom": {
+      "product_count": 4,
+      "avg_rating": 4.800000000000001,
+      "rating_count": 4
+    },
+    "Unbranded": {
+      "product_count": 4,
+      "avg_rating": 4.425,
+      "rating_count": 4
+    },
+    "Monkey Bars": {
+      "product_count": 4,
+      "avg_rating": 4.475,
+      "rating_count": 4
+    },
+    "Stalwart": {
+      "product_count": 4,
+      "avg_rating": 4.300000000000001,
+      "rating_count": 4
+    },
+    "NewAge Products": {
+      "product_count": 4,
+      "avg_rating": 4.45,
+      "rating_count": 4
+    },
+    "Onward": {
+      "product_count": 4,
+      "avg_rating": 4.5,
+      "rating_count": 4
+    },
+    "TOOLFLEX": {
+      "product_count": 4,
+      "avg_rating": 4.7,
+      "rating_count": 4
+    },
+    "Hillman": {
+      "product_count": 4,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Gulches": {
+      "product_count": 4,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "KISS Products": {
+      "product_count": 4,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "DIYMAG": {
+      "product_count": 3,
+      "avg_rating": 4.433333333333334,
+      "rating_count": 3
+    },
+    "Wallmaster": {
+      "product_count": 3,
+      "avg_rating": 4.6000000000000005,
+      "rating_count": 3
+    },
+    "GeeWatom": {
+      "product_count": 3,
+      "avg_rating": 4.666666666666667,
+      "rating_count": 3
+    },
+    "Sinoer": {
+      "product_count": 3,
+      "avg_rating": 4.566666666666666,
+      "rating_count": 3
+    },
+    "Econoco": {
+      "product_count": 3,
+      "avg_rating": 4.5,
+      "rating_count": 3
+    },
+    "WALMANN": {
+      "product_count": 3,
+      "avg_rating": 4.6000000000000005,
+      "rating_count": 3
+    },
+    "Naikozmo": {
+      "product_count": 3,
+      "avg_rating": 4.633333333333334,
+      "rating_count": 3
+    },
+    "SINCHEEWAY": {
+      "product_count": 3,
+      "avg_rating": 4.566666666666666,
+      "rating_count": 3
+    },
+    "Nacial": {
+      "product_count": 3,
+      "avg_rating": 4.666666666666667,
+      "rating_count": 3
+    },
+    "BFPeaky": {
+      "product_count": 3,
+      "avg_rating": 4.266666666666667,
+      "rating_count": 3
+    },
+    "CRXCRC": {
+      "product_count": 3,
+      "avg_rating": 4.633333333333334,
+      "rating_count": 3
+    },
+    "HUZJIEHUI": {
+      "product_count": 3,
+      "avg_rating": 4.6,
+      "rating_count": 3
+    },
+    "Trianu": {
+      "product_count": 3,
+      "avg_rating": 3.4166666666666665,
+      "rating_count": 3
+    },
+    "DEWALT": {
+      "product_count": 3,
+      "avg_rating": 4.566666666666666,
+      "rating_count": 3
+    },
+    "GarageEscape": {
+      "product_count": 3,
+      "avg_rating": 4.366666666666667,
+      "rating_count": 3
+    },
+    "RAD Cycle": {
+      "product_count": 3,
+      "avg_rating": 4.333333333333333,
+      "rating_count": 3
+    },
+    "Hephastu": {
+      "product_count": 3,
+      "avg_rating": 3.733333333333333,
+      "rating_count": 3
+    },
+    "Norsk": {
+      "product_count": 3,
+      "avg_rating": 4.3999999999999995,
+      "rating_count": 3
+    },
+    "Room Essentials": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Bullseye's Playground": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "society6": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Dsane": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "tagltd": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Cheungs": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Plum & Post": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "up&up": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Figmint": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Everspring": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Clean & Clear": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Garnier": {
+      "product_count": 3,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "ESFUN": {
+      "product_count": 2,
+      "avg_rating": 4.7,
+      "rating_count": 2
+    },
+    "IMILLET": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "Dirza": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "REMIAWY": {
+      "product_count": 2,
+      "avg_rating": 4.550000000000001,
+      "rating_count": 2
+    },
+    "DINGEE": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "SMARTOLOGY": {
+      "product_count": 2,
+      "avg_rating": 4.7,
+      "rating_count": 2
+    },
+    "KOFANI": {
+      "product_count": 2,
+      "avg_rating": 4.8,
+      "rating_count": 2
+    },
+    "SWANLAKE GARDEN TOOLS": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "monTEK": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "TORACK": {
+      "product_count": 2,
+      "avg_rating": 4.7,
+      "rating_count": 2
+    },
+    "AOBEN": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "GURADESIGN": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "Yisunnan": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "Ihomepark": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "klasit": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "HOME MASTER HARDWARE": {
+      "product_count": 2,
+      "avg_rating": 4.65,
+      "rating_count": 2
+    },
+    "WMK": {
+      "product_count": 2,
+      "avg_rating": 4.8,
+      "rating_count": 2
+    },
+    "unp": {
+      "product_count": 2,
+      "avg_rating": 4.75,
+      "rating_count": 2
+    },
+    "ENUODA": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "G.CORE": {
+      "product_count": 2,
+      "avg_rating": 4.7,
+      "rating_count": 2
+    },
+    "NeatiEase": {
+      "product_count": 2,
+      "avg_rating": 4.3,
+      "rating_count": 2
+    },
+    "HOSKO": {
+      "product_count": 2,
+      "avg_rating": 4.6,
+      "rating_count": 2
+    },
+    "Oudain": {
+      "product_count": 2,
+      "avg_rating": 4.2,
+      "rating_count": 2
+    },
+    "CRAFTSMAN": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "DLDIRECT": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "Heevir": {
+      "product_count": 2,
+      "avg_rating": 4.55,
+      "rating_count": 2
+    },
+    "ZexHok": {
+      "product_count": 2,
+      "avg_rating": 4.699999999999999,
+      "rating_count": 2
+    },
+    "Moneek's Hardware": {
+      "product_count": 2,
+      "avg_rating": 4.9,
+      "rating_count": 2
+    },
+    "Tcevily": {
+      "product_count": 2,
+      "avg_rating": 4.7,
+      "rating_count": 2
+    },
+    "Yaocom": {
+      "product_count": 2,
+      "avg_rating": 3.8499999999999996,
+      "rating_count": 2
+    },
+    "Barydat": {
+      "product_count": 2,
+      "avg_rating": 4.4,
+      "rating_count": 2
+    },
+    "Alffun": {
+      "product_count": 2,
+      "avg_rating": 4.45,
+      "rating_count": 2
+    },
+    "Fondpen": {
+      "product_count": 2,
+      "avg_rating": 4.25,
+      "rating_count": 2
+    },
+    "Hohuqeri": {
+      "product_count": 2,
+      "avg_rating": 4.1,
+      "rating_count": 2
+    },
+    "Niyattn": {
+      "product_count": 2,
+      "avg_rating": 4.3,
+      "rating_count": 2
+    },
+    "Concord Bikes": {
+      "product_count": 2,
+      "avg_rating": 4.571171171171171,
+      "rating_count": 2
+    },
+    "generic": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "DOLLAR BOSS": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "ProCraft": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "Ziediop": {
+      "product_count": 2,
+      "avg_rating": 1.5,
+      "rating_count": 2
+    },
+    "RAD Sportz": {
+      "product_count": 2,
+      "avg_rating": 4.449999999999999,
+      "rating_count": 2
+    },
+    "Liberty Hardware": {
+      "product_count": 2,
+      "avg_rating": 4.65,
+      "rating_count": 2
+    },
+    "CROWNWALL": {
+      "product_count": 2,
+      "avg_rating": 4.9,
+      "rating_count": 2
+    },
+    "E900 HARDWARE": {
+      "product_count": 2,
+      "avg_rating": 4.55,
+      "rating_count": 2
+    },
+    "Kaikeeqli": {
+      "product_count": 2,
+      "avg_rating": 3.55,
+      "rating_count": 2
+    },
+    "Garage Essentials": {
+      "product_count": 2,
+      "avg_rating": 4.5,
+      "rating_count": 2
+    },
+    "Richelieu Hardware": {
+      "product_count": 2,
+      "avg_rating": 4.3,
+      "rating_count": 2
+    },
+    "Only Hangers": {
+      "product_count": 2,
+      "avg_rating": 4.4,
+      "rating_count": 2
+    },
+    "VELCRO": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Under the Roof Decorating": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Hearth & Hand with Magnolia": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Transpac": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Kate & Laurel All Things Decor": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Beachcombers Coastal Life": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Haus and Hues": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Trademark Fine Art": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "The Lord of the Rings": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "MAYEERTY": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Creative Products": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Storied Home": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Climbing Man Wall Art": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "OXO": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Clear Eyes": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Clear Care": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Clorox": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "SnapLock": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Batiste": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Wet Line": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Odele": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "L'Oreal Paris": {
+      "product_count": 2,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Berry Ave": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "JINSHUNFA": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "HOME IT": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "FRIMOONY": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "GLUIT": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "RAD Cycle Products": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "reliahom": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "LOVIMAG": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "AceMining": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "PeoMev": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Shepherd Hardware": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Amazon Basics": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "ZTSXLLIM": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "TVKB": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Intpro": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "MIKEDE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "ZONGOOL": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Sageme": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Vahodegn": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Dorisy": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "FINDMAG": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "IMPRESA": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "ROJASOP": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "Buelkmag": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "PHUNAYA": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "CSXGBAB": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "VELCRO Brand": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Dreecy": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "GEEDAR": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "voze": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "BREYDROK": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "YIBOSS": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Etoolia": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Housolution": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "HyLoft": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Laxama": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Antimbee": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "UUP": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "HSTMYFS": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Aking Ace": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "TIDYME": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "ALWORG": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "QcoQce": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Menecor": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "ATOOLA": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Trilancer": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Lusheer": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "AIYoo": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "BOBOKA": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Shimeyao": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "TICONN": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "OSROENE": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "FELLER": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "PIYILO": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Tahikem": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "GWAAZXGZ": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Zacool": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Mutilife": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "EVOULTES": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "WORKPRO": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Proslat Inc": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Dobures": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Trusscore": {
+      "product_count": 1,
+      "avg_rating": 4.0,
+      "rating_count": 1
+    },
+    "MAQIHAN": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Ultrawall": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "ZICANYCO": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "KINOMI": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Lvoess": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "EZ COZY": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "NACETURE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "TSUYA": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "YYR": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Rlipily": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Huthbrother": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "Gueryee": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "bussdis": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "IBERDE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Scartink": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "BELLO YON": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "GUDEMAY": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Cozihom": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Gocenyi": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "LANDNEOO": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "BONTEC": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Febwind": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Hotop": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Moxweyeni": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "LBT": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "XIHIRCD": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "HAISHINE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Kodreat": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "FancyEagle": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Nlmyt": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "HNBun": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Racor": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "YIFRO": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Neoaider": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "Cpais": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Jikro": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Tandefio": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Covlongyu": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Fosiweelo": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "KeaJuidy": {
+      "product_count": 1,
+      "avg_rating": 4.1,
+      "rating_count": 1
+    },
+    "Pmsanzay": {
+      "product_count": 1,
+      "avg_rating": 4.1,
+      "rating_count": 1
+    },
+    "COCOYA": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "RELIANCER": {
+      "product_count": 1,
+      "avg_rating": 4.1,
+      "rating_count": 1
+    },
+    "Raaz365": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "HANDYPRIME": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "maobutte": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Swpeet": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "RARAYC": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "PVZZRKL": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Laowu": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Brightown": {
+      "product_count": 1,
+      "avg_rating": 4.0,
+      "rating_count": 1
+    },
+    "SNOGSWOG": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "sihden": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Unittype": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "zoele": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Saderoy": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "HJW": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Electron Whale": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Solid As Mountain": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "zjdbset": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Landhoow": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Cutadash": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Hanaive": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "AUXPhome": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Maitys": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "YPJIAJV": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "SUKIZZ": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "BRITINE": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "MUKLEI": {
+      "product_count": 1,
+      "avg_rating": 4.1,
+      "rating_count": 1
+    },
+    "OLDVIND": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "INDECKMO": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "JBscoop": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "CHOWZZ": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Yauhar": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Skipwall": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "Eaasty": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "BOBIBAN": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "YOUNITA": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "KAROSOM": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "SBGGRL": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "MUZIK": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Tlence": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "vivicreate": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "zacurter": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "Greenleaf Industries": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "Froidesente": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Ginchain": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "HODURWALL": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "Duzzy": {
+      "product_count": 1,
+      "avg_rating": 3.9,
+      "rating_count": 1
+    },
+    "Feanron": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "RACK YOUR GARAGE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "StoreWALL": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Gisafai": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Polmart": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Solutions Murales Proslat Inc": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "ZORUNNA": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "DLBEEM": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "AYAYGD": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "AQOVOR": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "X-CUIRASS": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "WHMYZHL": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "Sumnacon": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "FNFAI": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "CiaoHER": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Coume": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "XGPMTBD": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Mifoci": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "GSYJMRH": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Gintenco": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "stusgo": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "LANNEY": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "ValueMax": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Expert Gardener": {
+      "product_count": 1,
+      "avg_rating": 4.1,
+      "rating_count": 1
+    },
+    "NEWEEN": {
+      "product_count": 1,
+      "avg_rating": 4.791666666666667,
+      "rating_count": 1
+    },
+    "Fkszll": {
+      "product_count": 1,
+      "avg_rating": 4.875,
+      "rating_count": 1
+    },
+    "WFX Utility": {
+      "product_count": 1,
+      "avg_rating": 3.8,
+      "rating_count": 1
+    },
+    "WeituSports": {
+      "product_count": 1,
+      "avg_rating": 2.6666666666666665,
+      "rating_count": 1
+    },
+    "KFFKFF": {
+      "product_count": 1,
+      "avg_rating": 3.6666666666666665,
+      "rating_count": 1
+    },
+    "Superdant": {
+      "product_count": 1,
+      "avg_rating": 4.5,
+      "rating_count": 1
+    },
+    "Museya": {
+      "product_count": 1,
+      "avg_rating": 2.5,
+      "rating_count": 1
+    },
+    "LACKUST": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "National Hardware": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "Zoro Select": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "STOBOK": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "Trjgtas": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "WRISTBIQUE": {
+      "product_count": 1,
+      "avg_rating": 1.0,
+      "rating_count": 1
+    },
+    "TOSEERY": {
+      "product_count": 1,
+      "avg_rating": 1.0,
+      "rating_count": 1
+    },
+    "Xianers": {
+      "product_count": 1,
+      "avg_rating": 3.0,
+      "rating_count": 1
+    },
+    "CrownWall": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "SKYSHALO": {
+      "product_count": 1,
+      "avg_rating": 4.0,
+      "rating_count": 1
+    },
+    "Homemaxs": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "Clopay": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "ruiling": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "Wrap-It Storage": {
+      "product_count": 1,
+      "avg_rating": 5.0,
+      "rating_count": 1
+    },
+    "Nite Ize": {
+      "product_count": 1,
+      "avg_rating": 4.8,
+      "rating_count": 1
+    },
+    "Robtec": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Jifram Easy Living": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "Lifetime": {
+      "product_count": 1,
+      "avg_rating": 3.7,
+      "rating_count": 1
+    },
+    "Sttoraboks": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "LTL Home Products": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Arrow": {
+      "product_count": 1,
+      "avg_rating": 3.2,
+      "rating_count": 1
+    },
+    "Genuine Joe": {
+      "product_count": 1,
+      "avg_rating": 4.3,
+      "rating_count": 1
+    },
+    "LTMATE": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "GATOR MAGNETICS": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "KING'S RACK": {
+      "product_count": 1,
+      "avg_rating": 4.4,
+      "rating_count": 1
+    },
+    "EFINE": {
+      "product_count": 1,
+      "avg_rating": 4.6,
+      "rating_count": 1
+    },
+    "Spectrum": {
+      "product_count": 1,
+      "avg_rating": 4.9,
+      "rating_count": 1
+    },
+    "Montezuma": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "Litton Lane": {
+      "product_count": 1,
+      "avg_rating": 3.7,
+      "rating_count": 1
+    },
+    "Hardware Essentials": {
+      "product_count": 1,
+      "avg_rating": 4.2,
+      "rating_count": 1
+    },
+    "Suncast": {
+      "product_count": 1,
+      "avg_rating": 3.2,
+      "rating_count": 1
+    },
+    "Acekool": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Sud Scrub": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "COWLOWN": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Kitcheniva": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Simple Living Solutions": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Juvale": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Duck": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "HAROLD'S KITCHEN": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "3M Claw": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "John Derian for Target": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "SDHOME Products": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Madison Park": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Elegant Designs": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Smartstandard": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "The Lakeside Collection": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Hercules": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Wooakway": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "GDFStudio": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "YOOCOZZ": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "iCanvas": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Stupell Industries": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Happy Hour": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "RAZ Imports": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Star Wars": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Soscooter": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Leviton": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Warlord Games": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Toynk": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Dexmalle": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "TopComfy": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Uttermost": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Jim Shore": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Ergotron": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "All": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Seventh Generation": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Cottonelle": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Bar Keepers Friend": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Finish": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Downy": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Pyrex": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Lemi Shine": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Method": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Lysol": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Dealworthy": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Neutrogena": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Clearasil": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Sally Hansen": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Ball": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "POND'S": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "PanOxyl": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Aunt Jackie's": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Thayers Natural Remedies": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    },
+    "Style Selections": {
+      "product_count": 1,
+      "avg_rating": 4.7,
+      "rating_count": 1
+    },
+    "Brand": {
+      "product_count": 1,
+      "avg_rating": null,
+      "rating_count": 0
+    }
+  },
+  "top_rated_products": [
+    {
+      "retailer": "Amazon",
+      "name": "WALMANN Wall Mounted Garage Hooks, Heavy Duty 12-inch Tool Hooks for Hanging, Tool Hangers for Car Tires, Ladders, Folding Chairs, Strollers, Garden Tools (Pack of 4)",
+      "url": "https://www.amazon.com/WALMANN-Mounted-12-inch-Hanging-Strollers/dp/B0DZT8GW16?th=1&psc=1&language=en_US&currency=USD",
+      "price": 21.09,
+      "rating": 5,
+      "brand": "WALMANN",
+      "sku": "B0F8BSVJZY",
+      "reviews": 33,
+      "attributes": {
+        "seller": "WALMANN",
+        "availability": "In Stock",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ]
+      },
+      "taxonomy_path": [
+        "Amazon",
+        "Tools & Home Improvement",
+        "Storage & Home Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Amazon",
+      "name": "Heavy Duty Garage Storage Hooks, 2 Pack Utility Steel Garage Tool Organizer Wall Mount for Hanging Power and Garden Tools Ladders Hoses Bikes Ropes & Bulk Items",
+      "url": "https://www.amazon.com/FNFAI-Storage-Utility-Organizer-Hanging/dp/B0FHFTYTYQ?th=1&psc=1&language=en_US&currency=USD",
+      "price": 5.99,
+      "rating": 5,
+      "brand": "FNFAI",
+      "sku": "B0FHFTPNZ4",
+      "reviews": 15,
+      "attributes": {
+        "seller": "Shuogege",
+        "availability": "In Stock",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ]
+      },
+      "taxonomy_path": [
+        "Amazon",
+        "Tools & Home Improvement",
+        "Storage & Home Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Hyper Tough Hyper Stack Heavy Duty Power Equipment Hook, Black",
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Hyper-Stack-Heavy-Duty-Power-Equipment-Hook-Black/5560959275",
+      "price": 6.68,
+      "rating": 5,
+      "brand": "Hyper Tough",
+      "sku": "5560959275",
+      "reviews": 23,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation, Made Of Heavy-Duty Material, Wall-Mountable"
+          },
+          {
+            "name": "Brand",
+            "value": "Hyper Tough"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "0.55 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "803-515-151"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "7.36 x 8.07 x 4.57 Inches"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "black",
+      "weight_capacity_lbs": 55,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Hyper Tough Screw-in Steel Heavy Duty Tool Holder, Black",
+      "url": "https://www.walmart.com/ip/Hyper-Tough-Screw-in-Steel-Heavy-Duty-Tool-Holder-Black/3370688726",
+      "price": 1.98,
+      "rating": 5,
+      "brand": "Hyper Tough",
+      "sku": "3370688726",
+      "reviews": 15,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation"
+          },
+          {
+            "name": "Brand",
+            "value": "Hyper Tough"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "0.3 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "HyperTough"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "black",
+      "weight_capacity_lbs": 3,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HART Garage Storage J Hook, Durable Steel Hook with Rubber Coating, Garage Storage Rail, New Condition",
+      "url": "https://www.walmart.com/ip/HART-Garage-Storage-J-Hook-Durable-Steel-Hook-with-Rubber-Coating-Garage-Storage-Rail-New-Condition/254525073",
+      "price": 5.98,
+      "rating": 5,
+      "brand": "HART",
+      "sku": "254525073",
+      "reviews": 10,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Garage Storage"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "4.72 x 1.50 x 2.28 in"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HART Garage Storage Equipment Hook, Durable Steel with Rubber Grip, New Condition",
+      "url": "https://www.walmart.com/ip/HART-Garage-Storage-Equipment-Hook-Durable-Steel-with-Rubber-Grip-New-Condition/594492780",
+      "price": 8.98,
+      "rating": 5,
+      "brand": "HART",
+      "sku": "594492780",
+      "reviews": 9,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Adjustable, Easy Installation, High Holding Power, Made Of Heavy-Duty Material, No Gluing, Reusable, Secure Hold, Wall-Mountable"
+          },
+          {
+            "name": "Brand",
+            "value": "HART"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "0.73 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "HSGA307S"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "TTI"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "black",
+      "weight_capacity_lbs": 73,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HART Garage Storage Single Hook, Durable Steel Hook with Rubber Grip, New Condition",
+      "url": "https://www.walmart.com/ip/HART-Garage-Storage-Single-Hook-Durable-Steel-Hook-with-Rubber-Grip-New-Condition/922496668",
+      "price": 6.98,
+      "rating": 5,
+      "brand": "HART",
+      "sku": "922496668",
+      "reviews": 9,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Garage Storage"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "1.50 x 5.28 x 3.46 in"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HART Garage Storage Double Hook, Durable Steel with Rubber Grip, New Condition",
+      "url": "https://www.walmart.com/ip/HART-Garage-Storage-Double-Hook-Durable-Steel-with-Rubber-Grip-New-Condition/762980030",
+      "price": 9.68,
+      "rating": 5,
+      "brand": "HART",
+      "sku": "762980030",
+      "reviews": 8,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": true,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy-to-Use, High Holding Power, Made Of Heavy-Duty Material, Reusable, Secure Hold, Wall-Mountable"
+          },
+          {
+            "name": "Brand",
+            "value": "HART"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "0.72 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "HSGA301S"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "TTI"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "black",
+      "weight_capacity_lbs": 72,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Crawford Multi-Tool Hanger - 2-Pack, Black, Model# CMDH2-6",
+      "url": "https://www.walmart.com/ip/Crawford-Multi-Tool-Hanger-2-Pack-Black-Model-CMDH2-6/47413326",
+      "price": 20.95,
+      "rating": 5,
+      "brand": "Crawford Products",
+      "sku": "47413326",
+      "reviews": 6,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Brand",
+            "value": "Crawford Products"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "1.44 Pounds"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "CMDH2-6"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "LEHIGH CONSUMER PRODUCTS LLC"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "7.00 x 3.50 x 4.50 Inches"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "black",
+      "weight_capacity_lbs": 44,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HUHOLE Ladder Hooks, Bike Hooks, 4 Pack Heavy Duty Garage Hooks for Ladder,",
+      "url": "https://www.walmart.com/ip/HUHOLE-Ladder-Hooks-Bike-Hooks-4-Pack-Heavy-Duty-Garage-Hooks-for-Ladder/2584983693",
+      "price": 16.99,
+      "rating": 5,
+      "brand": "HUHOLE",
+      "sku": "2584983693",
+      "reviews": 5,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (4 Pack)",
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-4-Pack/778518573",
+      "price": 65.99,
+      "rating": 5,
+      "brand": "Rubbermaid",
+      "sku": "778518573",
+      "reviews": 5,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Brand",
+            "value": "Rubbermaid"
+          },
+          {
+            "name": "Color",
+            "value": "Gray"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "4 x 1784461"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Rubbermaid"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "gray",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "SSWBasics - 10 inch Black Slatwall Peg Hook - Pack of 50 - For use with 3\u201d on center",
+      "url": "https://www.walmart.com/ip/SSWBasics-10-inch-Black-Slatwall-Peg-Hook-Pack-of-50-For-use-with-3-on-center/994419208",
+      "price": 43.49,
+      "rating": 5,
+      "brand": "SSWBasics",
+      "sku": "994419208",
+      "reviews": 5,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation"
+          },
+          {
+            "name": "Brand",
+            "value": "SSWBasics"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "12.12 lb"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "11.25 x 10.00 x 8.75 in"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "black",
+      "weight_capacity_lbs": 12,
+      "is_rail_or_slatwall": "yes",
+      "rail_type": "rail",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "CRAWFORD SR16 Storage System, 16 in W, Steel",
+      "url": "https://www.walmart.com/ip/CRAWFORD-SR16-Storage-System-16-in-W-Steel/19870565",
+      "price": 20.18,
+      "rating": 5,
+      "brand": "Crawford",
+      "sku": "19870565",
+      "reviews": 4,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Adjustable"
+          },
+          {
+            "name": "Brand",
+            "value": "Crawford"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "0.75000 Pounds"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "SR16"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Wellington"
+          },
+          {
+            "name": "Color",
+            "value": "White"
+          },
+          {
+            "name": "Assembled Product Dimensions (L x W x H)",
+            "value": "20.00 x 8.00 x 1.00 Inches"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "white",
+      "weight_capacity_lbs": 75000,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "no"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Better Homes & Gardens Wall Mounted Cut Out Key Tidy Hook Rack, 4 Hooks, Stain Nickel",
+      "url": "https://www.walmart.com/ip/Better-Homes-Gardens-Wall-Mounted-Cut-Out-Key-Tidy-Hook-Rack-4-Hooks-Stain-Nickel/759910173",
+      "price": 14.65,
+      "rating": 5,
+      "brand": "Better Homes & Gardens",
+      "sku": "759910173",
+      "reviews": 4,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Brand",
+            "value": "Better Homes & Gardens"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "R16862L-SN-U"
+          },
+          {
+            "name": "Color",
+            "value": "Silver"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "silver",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "INCLY 30Pcs Peg Board Organizer Accessories Kit, Pegboard Hooks Assortment with Bins, Cups, Wire Baskets and Paper Towel Holder for 1/8\u201c and 1/4\u201d Pegboard Garage Workbench Craft Room Organizing Tools",
+      "url": "https://www.walmart.com/ip/INCLY-30Pcs-Peg-Board-Organizer-Accessories-Kit-Pegboard-Hooks-Assortment-Bins-Cups-Wire-Baskets-Paper-Towel-Holder-1-8-1-4-Pegboard-Garage-Workbench/6615852995",
+      "price": 34.99,
+      "rating": 5,
+      "brand": "Incly",
+      "sku": "6615852995",
+      "reviews": 3,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation"
+          },
+          {
+            "name": "Brand",
+            "value": "Incly"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "4.41 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "NC0019"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Incly"
+          },
+          {
+            "name": "Color",
+            "value": "Silver"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "silver",
+      "weight_capacity_lbs": 41,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (6 Pack)",
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-6-Pack/315478065",
+      "price": 94.99,
+      "rating": 5,
+      "brand": "Rubbermaid",
+      "sku": "315478065",
+      "reviews": 3,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Adjustable"
+          },
+          {
+            "name": "Brand",
+            "value": "Rubbermaid"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "6 x 1784461"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Rubbermaid"
+          },
+          {
+            "name": "Color",
+            "value": "Silver"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "silver",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "HUHOLE Slatwall Accessories, Slatwall Hooks, Made of  Alloy Steel, Vinyl-Coated, 12PC, Black",
+      "url": "https://www.walmart.com/ip/HUHOLE-Slatwall-Accessories-Slatwall-Hooks-Made-of-Alloy-Steel-Vinyl-Coated-12PC-Black/1048495005",
+      "price": 24.29,
+      "rating": 5,
+      "brand": "HUHOLE",
+      "sku": "1048495005",
+      "reviews": 3,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Rust Resistant"
+          },
+          {
+            "name": "Brand",
+            "value": "HUHOLE"
+          },
+          {
+            "name": "Assembled Product Weight",
+            "value": "2.95 lb"
+          },
+          {
+            "name": "Manufacturer Part Number",
+            "value": "Huhole-SWA-12"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "HUHOLE"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "black",
+      "weight_capacity_lbs": 95,
+      "is_rail_or_slatwall": "yes",
+      "rail_type": "rail",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "StoreYourBoard Chair Storage Rack Single \u2013 Heavy Duty Folding Chair Rack for Garage Organization, Holds 50 lbs, Chair Hangers for Folding, Patio, Beach & Camping Chairs",
+      "url": "https://www.walmart.com/ip/BLAT-Chair-Compact-Storage-Rack-Holds-10-Chairs-Wall-Mount-Hooks/2899792665",
+      "price": 39.98,
+      "rating": 5,
+      "brand": "StoreYourBoard",
+      "sku": "2899792665",
+      "reviews": 3,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Easy Installation"
+          },
+          {
+            "name": "Brand",
+            "value": "StoreYourBoard"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "black",
+      "weight_capacity_lbs": 50,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "SSWBasics Slatwall Hook Bundle - 50 chrome slat hooks (2\" 4\" 6\" 8\" 10\")- Chrome Metal",
+      "url": "https://www.walmart.com/ip/SSWBasics-Slatwall-Hook-Bundle-50-chrome-slat-hooks-2-4-6-8-10-Chrome-Metal/324264429",
+      "price": 40.13,
+      "rating": 5,
+      "brand": "SSWBasics",
+      "sku": "324264429",
+      "reviews": 3,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Brand",
+            "value": "SSWBasics"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Store Supply Warehouse"
+          },
+          {
+            "name": "Color",
+            "value": "Chrome"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "metal",
+      "color": "unknown",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "yes",
+      "rail_type": "rail",
+      "is_hook_or_hanger": "yes"
+    },
+    {
+      "retailer": "Walmart",
+      "name": "INCLY 60 Pack 2/4/6 Inch Black Pegboard Hooks, Heavy Duty Peg Board Shelving Hooks Accessories, Peg Board Tool Hangers Fit for 1/4\" Pegboard Hanging Tools Garage, Craft Organizing, Kitchen, Store",
+      "url": "https://www.walmart.com/ip/INCLY-60-Pack-2-4-6-Inch-Black-Pegboard-Hooks-Heavy-Duty-Peg-Board-Shelving-Hooks-Accessories-Peg-Board-Tool-Hangers-Fit-1-4-Pegboard-Hanging-Tools-G/6616865217",
+      "price": 19.99,
+      "rating": 5,
+      "brand": "Incly",
+      "sku": "6616865217",
+      "reviews": 2,
+      "attributes": {
+        "available_delivery": true,
+        "available_pickup": false,
+        "specs": [
+          {
+            "name": "Features",
+            "value": "Rust Resistant"
+          },
+          {
+            "name": "Brand",
+            "value": "Incly"
+          },
+          {
+            "name": "Manufacturer",
+            "value": "Incly"
+          },
+          {
+            "name": "Color",
+            "value": "Black"
+          }
+        ]
+      },
+      "taxonomy_path": [
+        "Walmart",
+        "Garage Organization"
+      ],
+      "scraped_at": null,
+      "material": "unknown",
+      "color": "black",
+      "weight_capacity_lbs": null,
+      "is_rail_or_slatwall": "no",
+      "rail_type": "none",
+      "is_hook_or_hanger": "yes"
+    }
+  ]
+}

@@ -1,0 +1,1393 @@
+{
+  "brand": "Gladiator",
+  "total_products": 55,
+  "products": [
+    {
+      "product_id": "B000Q3DUD0",
+      "name": "J & L Hooks (8-Pack)",
+      "brand": "Gladiator",
+      "retailer": "Amazon",
+      "price": 16.99,
+      "rating": 4.7,
+      "review_count": 450,
+      "url": "https://www.amazon.com/Gladiator-GAWAJL8PPH-Hooks-8-Pack/dp/B000Q3DUD0?th=1&psc=1&language=en_US&currency=USD",
+      "sku": "B000Q3DUD0",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ],
+        "seller": "Amazon.com",
+        "availability": "In Stock"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.691752",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "B01LYHSF5G",
+      "name": "Gladiator GarageWorks GAWEXXTWSH Twin Hook by Gladiator",
+      "brand": "Gladiator",
+      "retailer": "Amazon",
+      "price": 15.54,
+      "rating": 4.7,
+      "review_count": 142,
+      "url": "https://www.amazon.com/Gladiator-GarageWorks-GAWEXXTWSH-Twin-Hook/dp/B01LYHSF5G?th=1&psc=1&language=en_US&currency=USD",
+      "sku": "B01LYHSF5G",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ],
+        "seller": "SalesSizzle",
+        "availability": "In Stock"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.692059",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001165105",
+      "name": "48 in. W Garage Wall Storage GearTrack Channel (2-pack)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 29.99,
+      "rating": 4.8,
+      "review_count": 768,
+      "url": "https://www.homedepot.com/p/Gladiator-48-in-W-Garage-Wall-Storage-GearTrack-Channel-2-pack-GAWC042PZY/204280493",
+      "sku": "1001165105",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695173",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002075835",
+      "name": "2 in. Color Matched Screws for Garage GearTrack Channels and GearWall Panels - 32/pack",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 4.99,
+      "rating": 4.6,
+      "review_count": 225,
+      "url": "https://www.homedepot.com/p/Gladiator-2-in-Color-Matched-Screws-for-Garage-GearTrack-Channels-and-GearWall-Panels-32-pack-GAAC0232YY/300230492",
+      "sku": "1002075835",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695398",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001492033",
+      "name": "48 in. W Garage Wall Storage GearWall Panel (2-Pack)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 69.99,
+      "rating": 4.8,
+      "review_count": 190,
+      "url": "https://www.homedepot.com/p/Gladiator-48-in-W-Garage-Wall-Storage-GearWall-Panel-2-Pack-GAWP042PBY/204648992",
+      "sku": "1001492033",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695457",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001166771",
+      "name": "Twin Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 11.99,
+      "rating": 4.8,
+      "review_count": 155,
+      "url": "https://www.homedepot.com/p/Gladiator-Twin-Garage-Hook-for-GearTrack-or-GearWall-GAWEXXTWSH/204284976",
+      "sku": "1001166771",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695525",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1004327051",
+      "name": "Rack GearTrack Pack",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 39.99,
+      "rating": 4.8,
+      "review_count": 141,
+      "url": "https://www.homedepot.com/p/Gladiator-Rack-GearTrack-Pack-GAGP24WRHY/309483996",
+      "sku": "1004327051",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695547",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001166397",
+      "name": "Utility 50 lb. Steel Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 11.99,
+      "rating": 5.0,
+      "review_count": 115,
+      "url": "https://www.homedepot.com/p/Gladiator-Utility-50-lb-Steel-Garage-Hook-for-GearTrack-or-GearWall-GAWEXXUHSH/204284987",
+      "sku": "1001166397",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695642",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001166527",
+      "name": "Vertical Bike Hook Garage Storage for GearTrack or GearWall (1 Bike)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 11.99,
+      "rating": 4.4,
+      "review_count": 110,
+      "url": "https://www.homedepot.com/p/Gladiator-Vertical-Bike-Hook-Garage-Storage-for-GearTrack-or-GearWall-1-Bike-GAWEXXVBSH/204284982",
+      "sku": "1001166527",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695662",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001762881",
+      "name": "32 in. L GearTrack Garage Wall Storage Kit with 6-Hooks",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 39.99,
+      "rating": 4.7,
+      "review_count": 99,
+      "url": "https://www.homedepot.com/p/Gladiator-32-in-L-GearTrack-Garage-Wall-Storage-Kit-with-6-Hooks-GAGP32PAEY/206961693",
+      "sku": "1001762881",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695678",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360499",
+      "name": "Advanced Ceiling Mount Claw Bike Hook",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 39.99,
+      "rating": 4.6,
+      "review_count": 89,
+      "url": "https://www.homedepot.com/p/Gladiator-Advanced-Ceiling-Mount-Claw-Bike-Hook-GACEXXCPVK/204285018",
+      "sku": "1001360499",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695747",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360492",
+      "name": "Scoop 25 lb. Steel Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 10.99,
+      "rating": 4.8,
+      "review_count": 73,
+      "url": "https://www.homedepot.com/p/Gladiator-Scoop-25-lb-Steel-Garage-Hook-for-GearTrack-or-GearWall-GAWEXXSCSH/204280788",
+      "sku": "1001360492",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": 25,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695859",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001694305",
+      "name": "42 in. L GearTrack Garage Wall Storage Kit with 5-Hooks",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 54.99,
+      "rating": 4.7,
+      "review_count": 68,
+      "url": "https://www.homedepot.com/p/Gladiator-42-in-L-GearTrack-Garage-Wall-Storage-Kit-with-5-Hooks-GAGP42PBEY/206801985",
+      "sku": "1001694305",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695885",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1000299820",
+      "name": "Cradle Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 13.99,
+      "rating": 4.9,
+      "review_count": 64,
+      "url": "https://www.homedepot.com/p/Gladiator-Cradle-Garage-Hook-for-GearTrack-or-GearWall-GAWEXXCLSH/204284980",
+      "sku": "1000299820",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695918",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360493",
+      "name": "Loop Garage Hook for GearTrack or GearWall (8-Pack)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 17.99,
+      "rating": 4.9,
+      "review_count": 55,
+      "url": "https://www.homedepot.com/p/Gladiator-Loop-Garage-Hook-for-GearTrack-or-GearWall-8-Pack-GAWALP8PPH/204284991",
+      "sku": "1001360493",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696080",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001491940",
+      "name": "24 in. W x 12 in. D Mesh Basket Garage Storage for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 38.37,
+      "rating": 5.0,
+      "review_count": 49,
+      "url": "https://www.homedepot.com/p/Gladiator-24-in-W-x-12-in-D-Mesh-Basket-Garage-Storage-for-GearTrack-or-GearWall-GAWE24MBSH/204280774",
+      "sku": "1001491940",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696123",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360498",
+      "name": "Fishing Rod Holder Garage Hook for GearTrack or GearWall (2-Pack)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 24.99,
+      "rating": 4.8,
+      "review_count": 47,
+      "url": "https://www.homedepot.com/p/Gladiator-Fishing-Rod-Holder-Garage-Hook-for-GearTrack-or-GearWall-2-Pack-GAWVXXFHTH/204285006",
+      "sku": "1001360498",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696157",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360496",
+      "name": "Dual Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 16.99,
+      "rating": 4.7,
+      "review_count": 47,
+      "url": "https://www.homedepot.com/p/Gladiator-Dual-Garage-Hook-for-GearTrack-or-GearWall-GAWAXXWHRH/204284997",
+      "sku": "1001360496",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696166",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1007887689",
+      "name": "GearWall 12 in. H x 96 in. W Slatwall Kit in Smoke (2-Pack)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 129.99,
+      "rating": 4.3,
+      "review_count": 45,
+      "url": "https://www.homedepot.com/p/Gladiator-GearWall-12-in-H-x-96-in-W-Slatwall-Kit-in-Smoke-2-Pack-GAWP8S2PLM/320407318",
+      "sku": "1007887689",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696175",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360500",
+      "name": "Garage Wall Storage Accessory Starter Kit 1 for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 74.99,
+      "rating": 4.7,
+      "review_count": 44,
+      "url": "https://www.homedepot.com/p/Gladiator-Garage-Wall-Storage-Accessory-Starter-Kit-1-for-GearTrack-or-GearWall-GAWA18SKRH/204285034",
+      "sku": "1001360500",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696188",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1004852465",
+      "name": "Boot Rack Shelf for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 39.99,
+      "rating": 4.9,
+      "review_count": 42,
+      "url": "https://www.homedepot.com/p/Gladiator-Boot-Rack-Shelf-for-GearTrack-or-GearWall-GAWA4PBSJG/311703123",
+      "sku": "1004852465",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696207",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360483",
+      "name": "30 in. W x 15 in. D Ventilated Shoe Shelf for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 29.99,
+      "rating": 4.5,
+      "review_count": 31,
+      "url": "https://www.homedepot.com/p/Gladiator-30-in-W-x-15-in-D-Ventilated-Shoe-Shelf-for-GearTrack-or-GearWall-GAWA30SRRH/204280729",
+      "sku": "1001360483",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696320",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "GAPK32A6FG",
+      "name": "17-Piece Steel Garage Storage System in Silver (186 in. W x 83 in. H x 18 in. D)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 1789.84,
+      "rating": 4.0,
+      "review_count": 29,
+      "url": "https://www.homedepot.com/p/Gladiator-17-Piece-Steel-Garage-Storage-System-in-Silver-186-in-W-x-83-in-H-x-18-in-D-GAPK32A6FG/304488309",
+      "sku": "GAPK32A6FG",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696327",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1001360487",
+      "name": "Bottle Opener Garage Hook for GearTrack or GearWall",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 12.99,
+      "rating": 4.8,
+      "review_count": 21,
+      "url": "https://www.homedepot.com/p/Gladiator-Bottle-Opener-Garage-Hook-for-GearTrack-or-GearWall-GAWEXXBOVX/204280756",
+      "sku": "1001360487",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696468",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2",
+      "name": "Ready-to-Assemble Large GearBox 36.0-in W x 72.0-in H x 18.0-in D Freestanding or wall-mounted Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 429.99,
+      "rating": 4.4,
+      "review_count": 1105,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "2",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "25",
+      "name": "Ready-to-Assemble 3/4 Door GearBox 28.0-in W x 31.0-in H x 18.0-in D Freestanding Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 329.99,
+      "rating": 4.2,
+      "review_count": 345,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "25",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "16",
+      "name": "GearTrack 48.0-in Light Gray Composite Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 15.99,
+      "rating": 4.8,
+      "review_count": 289,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "16",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "247",
+      "name": "5 -Tier Heavy Duty Gray Steel Utility shelving unit ( 48.0-in W x 24.0-in D x 72.0-in H )",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 211.17,
+      "rating": 4.6,
+      "review_count": 268,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "247",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "20",
+      "name": "GearTrack 12 -Piece 48.0-in Light Gray Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 69.99,
+      "rating": 4.8,
+      "review_count": 204,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "20",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "363",
+      "name": "5 -Tier Heavy Duty Gray Steel Utility shelving unit ( 48.0000-in W x 18.0-in D x 72.0000-in H )",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 199.99,
+      "rating": 4.5,
+      "review_count": 181,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "363",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "81",
+      "name": "Heavy Duty 4 -Tier Heavy Duty Gray Steel Utility shelving unit ( 90-in W x 24-in D x 90-in H )",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 480.0,
+      "rating": 4.9,
+      "review_count": 157,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "81",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "28",
+      "name": "GearWall 2 -Piece 96-in Gray Composite Multipurpose Wall panel",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 129.99,
+      "rating": 4.6,
+      "review_count": 134,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "28",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "13",
+      "name": "GearWall 2 -Piece 48-in White Plastic Multipurpose Wall panel",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 69.99,
+      "rating": 4.4,
+      "review_count": 124,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "13",
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "36",
+      "name": "GearTrack 4 -Piece Smoke Plastic Multipurpose End cap",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 10.99,
+      "rating": 4.7,
+      "review_count": 123,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "36",
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "46",
+      "name": "Ready-to-Assemble 3/4 Door Wall GearBox 28-in W x 28-in H x 12-in D Wall-mounted Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 219.99,
+      "rating": 4.5,
+      "review_count": 115,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "46",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "55",
+      "name": "Ready-to-Assemble Jumbo GearBox 36.0-Inches W x 72.0-Inches H x 24.0-Inches D Freestanding or wall-mounted Steel Garage Cabinet in White",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 529.99,
+      "rating": 4.4,
+      "review_count": 96,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "55",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "27",
+      "name": "Small Item Bins 3 -Piece 4.37-in Smoke Plastic Multipurpose Bin",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 9.99,
+      "rating": 4.8,
+      "review_count": 93,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "27",
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "56",
+      "name": "Golf GearTrack Pack 3 -Piece 32.0-in Light Grey Golf bag Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 152.75,
+      "rating": 4.8,
+      "review_count": 63,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "56",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "61",
+      "name": "Ready-to-Assemble Mobile Storage Cabinet 36.0-in W x 66.0-in H x 18.0-in D Freestanding or wall-mounted Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 449.99,
+      "rating": 4.5,
+      "review_count": 58,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "61",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "34",
+      "name": "Multipurpose GearTrack Pack 8 -Piece 42.0-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 54.99,
+      "rating": 4.7,
+      "review_count": 53,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "34",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "51",
+      "name": "Entryway GearTrack Pack 9 -Piece 32.0000-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 39.99,
+      "rating": 4.7,
+      "review_count": 52,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "51",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "24",
+      "name": "GearWall 2 -Piece 48-in Smoke Composite Multipurpose Wall panel",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 69.99,
+      "rating": 4.6,
+      "review_count": 42,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "24",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "33",
+      "name": "GearTrack 2 -Piece 48-in Light Gray Composite Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 29.99,
+      "rating": 4.9,
+      "review_count": 40,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "33",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "38",
+      "name": "Lawn GearTrack Pack 7 -Piece 48.0000-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 62.9,
+      "rating": 4.7,
+      "review_count": 39,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "38",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "47",
+      "name": "Bike GearTrack Pack 7 -Piece 48-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 79.99,
+      "rating": 4.7,
+      "review_count": 38,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "47",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "50",
+      "name": "GearWall 6 -Piece 96-in Light Grey Plastic Multipurpose Panel trim",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 54.99,
+      "rating": 3.8,
+      "review_count": 38,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "50",
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "40",
+      "name": "Sports Caddy GearTrack Pack 6 -Piece 48-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 99.99,
+      "rating": 4.8,
+      "review_count": 35,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "40",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "43",
+      "name": "Gardening GearTrack Pack 8 -Piece 32-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 89.99,
+      "rating": 4.8,
+      "review_count": 35,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "43",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "39",
+      "name": "Sports GearTrack Pack 7 -Piece 48-in Light Grey Multipurpose Storage rail system",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 89.99,
+      "rating": 5.0,
+      "review_count": 28,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "39",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "grey",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "76",
+      "name": "Premier Tall GearLocker 30-Inches W x 65.25-Inches H x 18-Inches D Freestanding or wall-mounted Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 859.99,
+      "rating": 4.1,
+      "review_count": 22,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "76",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "74",
+      "name": "GearWall 4 -Piece 96.0000-in Gray PVC Multipurpose Panel trim",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 132.99,
+      "rating": 4.7,
+      "review_count": 6,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "74",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "57",
+      "name": "Premier Wall GearBox 30-in W x 65.25-in H x 18-in D Freestanding Steel Garage Cabinet in Gray",
+      "brand": "Gladiator",
+      "retailer": "Lowes",
+      "price": 779.99,
+      "rating": 1.7,
+      "review_count": 3,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "57",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "GAPK28H1DG",
+      "name": "8-Piece Steel Garage Storage System in Silver Tread Plate (144 in. W x 100 in. H x 18 in. D)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 2104.33,
+      "rating": 5.0,
+      "review_count": 3,
+      "url": "https://www.homedepot.com/p/Gladiator-8-Piece-Steel-Garage-Storage-System-in-Silver-Tread-Plate-144-in-W-x-100-in-H-x-18-in-D-GAPK28H1DG/205789224",
+      "sku": "GAPK28H1DG",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.824144",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    },
+    {
+      "product_id": "1001254026",
+      "name": "Wall Bracket Kit for Premier Series Garage Cabinets",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 39.99,
+      "rating": 4.7,
+      "review_count": 18,
+      "url": "https://www.homedepot.com/p/Gladiator-Wall-Bracket-Kit-for-Premier-Series-Garage-Cabinets-GABK301PRS/205855781",
+      "sku": "1001254026",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.824312",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    },
+    {
+      "product_id": "GAPK32A5FG",
+      "name": "16-Piece Steel Garage Storage System in Silver (182 in. W x 81 in. H x 18 in. D)",
+      "brand": "Gladiator",
+      "retailer": "Home Depot",
+      "price": 1490.84,
+      "rating": 4.7,
+      "review_count": 6,
+      "url": "https://www.homedepot.com/p/Gladiator-16-Piece-Steel-Garage-Storage-System-in-Silver-182-in-W-x-81-in-H-x-18-in-D-GAPK32A5FG/304488305",
+      "sku": "GAPK32A5FG",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.825909",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    }
+  ]
+}

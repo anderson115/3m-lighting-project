@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Corporate Color Schemes - Comparison</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+            background: #0a0a0a;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 36px;
+            font-weight: 200;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: #999;
+            text-align: center;
+            margin-bottom: 60px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            max-width: 7000px;
+            margin: 0 auto;
+        }
+
+        .color-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.7);
+            transition: transform 0.2s;
+        }
+
+        .color-card:hover {
+            transform: scale(1.02);
+        }
+
+        .color-header {
+            padding: 24px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .color-header h2 {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .color-header p {
+            font-size: 12px;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+
+        /* Individual color scheme styles */
+        .navy-gold { background: linear-gradient(135deg, #0F1E3D 0%, #1a2e52 100%); }
+        .charcoal-teal { background: linear-gradient(135deg, #2D3748 0%, #1a2332 100%); }
+        .plum-sage { background: linear-gradient(135deg, #4C3A51 0%, #5d4963 100%); }
+        .forest-copper { background: linear-gradient(135deg, #1B4332 0%, #2d5a42 100%); }
+        .burgundy-rose { background: linear-gradient(135deg, #6B1C3D 0%, #7d2d50 100%); }
+
+        .color-swatches {
+            display: flex;
+            height: 60px;
+        }
+
+        .swatch {
+            flex: 1;
+            position: relative;
+        }
+
+        .swatch-label {
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 9px;
+            font-weight: 700;
+            color: rgba(255,255,255,0.9);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            display: block;
+            background: white;
+        }
+
+        .features {
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .features h3 {
+            font-size: 11px;
+            font-weight: 800;
+            color: #333;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 6px 0;
+            font-size: 11px;
+            color: #555;
+            display: flex;
+            align-items: flex-start;
+            line-height: 1.4;
+        }
+
+        .features li:before {
+            content: "•";
+            color: #999;
+            font-weight: bold;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 3500px) {
+            .comparison-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 2200px) {
+            .comparison-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 1400px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+            iframe {
+                height: 800px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>offbrain Design System</h1>
+    <p class="subtitle">5 Corporate Color Schemes — Bold Aesthetic, Executive Polish</p>
+
+    <div class="comparison-grid">
+        <!-- NAVY/GOLD -->
+        <div class="color-card">
+            <div class="color-header navy-gold">
+                <h2>Navy/Gold</h2>
+                <p>Classic Executive</p>
+            </div>
+            <div class="color-swatches">
+                <div class="swatch" style="background: #0F1E3D;"><span class="swatch-label">Navy</span></div>
+                <div class="swatch" style="background: #C9A961;"><span class="swatch-label">Gold</span></div>
+            </div>
+            <iframe src="color_NAVY_GOLD.html"></iframe>
+            <div class="features">
+                <h3>Use Cases</h3>
+                <ul>
+                    <li>Traditional corporate clients</li>
+                    <li>Financial services, banking</li>
+                    <li>Timeless, authoritative</li>
+                    <li>High-trust industries</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- CHARCOAL/TEAL -->
+        <div class="color-card">
+            <div class="color-header charcoal-teal">
+                <h2>Charcoal/Teal</h2>
+                <p>Modern Tech Corporate</p>
+            </div>
+            <div class="color-swatches">
+                <div class="swatch" style="background: #2D3748;"><span class="swatch-label">Charcoal</span></div>
+                <div class="swatch" style="background: #14B8A6;"><span class="swatch-label">Teal</span></div>
+            </div>
+            <iframe src="color_CHARCOAL_TEAL.html"></iframe>
+            <div class="features">
+                <h3>Use Cases</h3>
+                <ul>
+                    <li>Tech companies, SaaS</li>
+                    <li>Modern corporate brands</li>
+                    <li>Innovation-focused</li>
+                    <li>Forward-thinking positioning</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- PLUM/SAGE -->
+        <div class="color-card">
+            <div class="color-header plum-sage">
+                <h2>Plum/Sage</h2>
+                <p>Sophisticated Premium</p>
+            </div>
+            <div class="color-swatches">
+                <div class="swatch" style="background: #4C3A51;"><span class="swatch-label">Plum</span></div>
+                <div class="swatch" style="background: #87A96B;"><span class="swatch-label">Sage</span></div>
+            </div>
+            <iframe src="color_PLUM_SAGE.html"></iframe>
+            <div class="features">
+                <h3>Use Cases</h3>
+                <ul>
+                    <li>Unique, memorable branding</li>
+                    <li>Creative/design industries</li>
+                    <li>Premium positioning</li>
+                    <li>Stands out from competitors</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FOREST/COPPER -->
+        <div class="color-card">
+            <div class="color-header forest-copper">
+                <h2>Forest/Copper</h2>
+                <p>Organic Premium</p>
+            </div>
+            <div class="color-swatches">
+                <div class="swatch" style="background: #1B4332;"><span class="swatch-label">Forest</span></div>
+                <div class="swatch" style="background: #B87333;"><span class="swatch-label">Copper</span></div>
+            </div>
+            <iframe src="color_FOREST_COPPER.html"></iframe>
+            <div class="features">
+                <h3>Use Cases</h3>
+                <ul>
+                    <li>Sustainability-focused</li>
+                    <li>Natural/organic brands</li>
+                    <li>Environmental consulting</li>
+                    <li>Grounded, trustworthy</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BURGUNDY/ROSE -->
+        <div class="color-card">
+            <div class="color-header burgundy-rose">
+                <h2>Burgundy/Rose Gold</h2>
+                <p>Luxury Consulting</p>
+            </div>
+            <div class="color-swatches">
+                <div class="swatch" style="background: #6B1C3D;"><span class="swatch-label">Burgundy</span></div>
+                <div class="swatch" style="background: #B76E79;"><span class="swatch-label">Rose</span></div>
+            </div>
+            <iframe src="color_BURGUNDY_ROSE.html"></iframe>
+            <div class="features">
+                <h3>Use Cases</h3>
+                <ul>
+                    <li>Luxury brands, premium</li>
+                    <li>High-end consulting</li>
+                    <li>Sophisticated, refined</li>
+                    <li>Executive presence</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

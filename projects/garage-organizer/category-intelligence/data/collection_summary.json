@@ -1,0 +1,112 @@
+{
+  "collection_date": "2025-10-24",
+  "search_term": "garage organizers",
+  "total_products": 248,
+  "retailers": {
+    "Etsy": {
+      "product_count": 104,
+      "status": "success",
+      "method": "Bright Data + Puppeteer",
+      "cost": "paid",
+      "file": "etsy_listings.json",
+      "queries": [
+        "garage organizer",
+        "slatwall storage",
+        "french cleat shelf",
+        "garage hook"
+      ]
+    },
+    "Target": {
+      "product_count": 144,
+      "status": "success",
+      "method": "Pre-existing data",
+      "cost": "free",
+      "file": "target_products.json",
+      "note": "Filtered from existing dataset"
+    },
+    "Lowes": {
+      "product_count": 0,
+      "status": "failed",
+      "method": "Bright Data + Puppeteer",
+      "error": "Timeout waiting for selectors",
+      "file": null
+    },
+    "Home Depot": {
+      "product_count": 0,
+      "status": "failed",
+      "method": "Bright Data + Puppeteer",
+      "error": "Timeout waiting for selectors",
+      "file": null
+    },
+    "Walmart": {
+      "product_count": 0,
+      "status": "failed",
+      "method": "Bright Data + Puppeteer",
+      "error": "Navigation timeout",
+      "file": null
+    },
+    "Amazon": {
+      "product_count": 0,
+      "status": "failed",
+      "method": "Simple HTTP + BeautifulSoup",
+      "error": "Anti-bot detection prevented data extraction",
+      "file": null
+    },
+    "Ace Hardware": {
+      "product_count": 0,
+      "status": "failed",
+      "method": "Bright Data + Puppeteer",
+      "error": "Timeout waiting for selectors",
+      "file": null
+    },
+    "Menards": {
+      "product_count": 0,
+      "status": "not_attempted",
+      "method": null,
+      "error": "Scraper incomplete",
+      "file": null
+    }
+  },
+  "output_files": {
+    "combined": "garage_organizers_combined.json",
+    "etsy": "etsy_listings.json",
+    "target": "target_products.json"
+  },
+  "data_schema": {
+    "retailer": "string",
+    "name": "string",
+    "url": "string",
+    "price": "float|null",
+    "rating": "float|null",
+    "brand": "string|null",
+    "sku": "string|null",
+    "reviews": "int|null",
+    "attributes": "object",
+    "taxonomy_path": "array",
+    "scraped_at": "string|null"
+  },
+  "tools_created": [
+    "collect_garage_organizer_products.py",
+    "scrape_simple_retailers.py",
+    "scrape_with_apify.py"
+  ],
+  "next_steps": [
+    "Fix Bright Data scrapers for Home Depot, Walmart, Lowes",
+    "Set up Apify API for additional retailers",
+    "Complete Menards scraper",
+    "Explore alternative free data sources"
+  ],
+  "recommendations": {
+    "free_expansion": [
+      "Debug existing Bright Data scrapers",
+      "Use Apify free tier (500 requests/month)",
+      "Scrape product review sites",
+      "Find public e-commerce datasets"
+    ],
+    "paid_expansion": [
+      "Apify paid plan ($49/month)",
+      "ScraperAPI for Amazon",
+      "Bright Data debugging and expansion"
+    ]
+  }
+}

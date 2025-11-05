@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Comparison - Side by Side</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a1a;
+            padding: 40px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 32px;
+            font-weight: 300;
+            letter-spacing: -0.02em;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            max-width: 4200px;
+            margin: 0 auto;
+        }
+
+        .aesthetic-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+
+        .aesthetic-label {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .aesthetic-label.current {
+            background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+        }
+
+        .aesthetic-label.bold {
+            background: linear-gradient(135deg, #0A0A0A 0%, #FCD34D 100%);
+        }
+
+        .aesthetic-label.minimal {
+            background: linear-gradient(135deg, #E5E5E5 0%, #666666 100%);
+        }
+
+        .aesthetic-label h2 {
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .aesthetic-label.minimal h2 {
+            color: #000;
+        }
+
+        .aesthetic-label p {
+            color: rgba(255,255,255,0.9);
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .aesthetic-label.minimal p {
+            color: rgba(0,0,0,0.7);
+        }
+
+        .score {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+            display: block;
+            background: white;
+        }
+
+        .features {
+            padding: 20px;
+            background: #f9f9f9;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 6px 0;
+            font-size: 13px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+
+        .features li:before {
+            content: "✓";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 2400px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+            iframe {
+                height: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>offbrain Design System — Aesthetic Comparison</h1>
+
+    <div class="comparison-grid">
+        <!-- CURRENT -->
+        <div class="aesthetic-card">
+            <div class="aesthetic-label current">
+                <h2>Current</h2>
+                <p>Subtle Sophistication</p>
+                <span class="score">94/100 Bain Caliber</span>
+            </div>
+            <iframe src="slide1_FINAL.html"></iframe>
+            <div class="features">
+                <ul>
+                    <li>Refined gradients & subtle shadows</li>
+                    <li>Blue/amber accent colors</li>
+                    <li>Professional executive polish</li>
+                    <li>Versatile across all clients</li>
+                    <li>Bain/BCG standard match</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- BOLD -->
+        <div class="aesthetic-card">
+            <div class="aesthetic-label bold">
+                <h2>Bold</h2>
+                <p>High-Impact Executive</p>
+                <span class="score">Maximum Visual Impact</span>
+            </div>
+            <iframe src="aesthetic_BOLD.html"></iframe>
+            <div class="features">
+                <ul>
+                    <li>Dramatic shadows & strong gradients</li>
+                    <li>Black/blue/yellow high contrast</li>
+                    <li>Heavy font weights (800-900)</li>
+                    <li>Blue background Hard Truth panel</li>
+                    <li>Best for tech/modern clients</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- MINIMAL -->
+        <div class="aesthetic-card">
+            <div class="aesthetic-label minimal">
+                <h2>Minimal</h2>
+                <p>McKinsey Ultra-Clean</p>
+                <span class="score">Premium Simplicity</span>
+            </div>
+            <iframe src="aesthetic_MINIMAL.html"></iframe>
+            <div class="features">
+                <ul>
+                    <li>Zero shadows, zero gradients</li>
+                    <li>Grayscale only (monochrome)</li>
+                    <li>Flat geometric design</li>
+                    <li>Thin borders (1-2pt)</li>
+                    <li>McKinsey aesthetic match</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

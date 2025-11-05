@@ -1,0 +1,59 @@
+{
+  "product": {
+    "rank": 9,
+    "asin": "B0FP25VWVB",
+    "title": "reliahom 2 Pack Broom Holder Wall Mount Mop and Broom Hanger Wall Mounted Garage Storage Rack Kitchen Garden Tool Organizer (5 Racks with 4 Hooks, Black)",
+    "brand": "reliahom",
+    "price": 22.99,
+    "bsr": 575,
+    "estimated_monthly_sales": 1350,
+    "total_reviews": 13207,
+    "avg_rating": 4.7,
+    "amazon_url": "https://www.amazon.com/dp/B0FP25VWVB"
+  },
+  "analysis": {
+    "videos_analyzed": 5,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 7,
+        "plastics/generic_plastic": 6,
+        "adhesives/generic_adhesive": 6,
+        "metals/stainless_steel": 4,
+        "plastics/abs": 4
+      },
+      "all_materials": {
+        "metals/steel": 7,
+        "metals/stainless_steel": 4,
+        "metals/brass": 1,
+        "plastics/abs": 4,
+        "plastics/generic_plastic": 6,
+        "adhesives/generic_adhesive": 6,
+        "coatings/powder_coat": 1,
+        "adhesives/3m_tape": 1,
+        "plastics/nylon": 1,
+        "coatings/rubber": 2
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": true
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        40
+      ],
+      "max_mentioned": 40,
+      "avg_mentioned": 40.0
+    },
+    "value_perception": {
+      "cheap": true
+    }
+  }
+}

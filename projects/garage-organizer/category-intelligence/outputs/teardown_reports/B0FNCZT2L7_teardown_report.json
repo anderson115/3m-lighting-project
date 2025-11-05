@@ -1,0 +1,53 @@
+{
+  "product": {
+    "rank": 2,
+    "asin": "B0FNCZT2L7",
+    "title": "LOVIMAG Magnetic Hooks, 12 Pack 30lbs+ Magnet Hook 2025 Cruise Cabin Ship Essentials Heavy Duty Strong Magnets Refrigerator Fridge Hanging for Classroom Beach Vacation Kitchen Grills Home (Black)",
+    "brand": "LOVIMAG",
+    "price": 6.28,
+    "bsr": 124,
+    "estimated_monthly_sales": 2252,
+    "total_reviews": 10371,
+    "avg_rating": 4.4,
+    "amazon_url": "https://www.amazon.com/dp/B0FNCZT2L7"
+  },
+  "analysis": {
+    "videos_analyzed": 2,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 13,
+        "adhesives/generic_adhesive": 4,
+        "plastics/generic_plastic": 2,
+        "magnets/generic_magnet": 2
+      },
+      "all_materials": {
+        "metals/steel": 13,
+        "plastics/generic_plastic": 2,
+        "adhesives/generic_adhesive": 4,
+        "magnets/generic_magnet": 2
+      }
+    },
+    "construction": {
+      "methods_mentioned": {},
+      "primary_method": null
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        15,
+        30,
+        100,
+        121
+      ],
+      "max_mentioned": 121,
+      "avg_mentioned": 66.5
+    },
+    "value_perception": {
+      "expensive": true
+    }
+  }
+}

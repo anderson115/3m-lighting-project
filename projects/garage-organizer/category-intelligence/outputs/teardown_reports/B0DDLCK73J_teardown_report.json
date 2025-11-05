@@ -1,0 +1,52 @@
+{
+  "product": {
+    "rank": 15,
+    "asin": "B0DDLCK73J",
+    "title": "4-Piece Garage Hooks Wall Mount Storage Hanger with 4 Extension Cord Holder Organizer, Heavy-Duty Steel, 7.5 inch Ladder Hooks for Garage Wall",
+    "brand": "Brand: GURADESIGN",
+    "price": 16.99,
+    "bsr": 954,
+    "estimated_monthly_sales": 592,
+    "total_reviews": 906,
+    "avg_rating": 4.6,
+    "amazon_url": "https://www.amazon.com/dp/B0DDLCK73J"
+  },
+  "analysis": {
+    "videos_analyzed": 3,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 9,
+        "coatings/rubber": 3,
+        "metals/aluminum": 2
+      },
+      "all_materials": {
+        "metals/steel": 9,
+        "metals/aluminum": 2,
+        "coatings/rubber": 3
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": true
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {
+        "thick_material": true
+      },
+      "negative": {},
+      "overall_sentiment": "positive"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        200,
+        600,
+        800
+      ],
+      "max_mentioned": 800,
+      "avg_mentioned": 533.3333333333334
+    },
+    "value_perception": {}
+  }
+}

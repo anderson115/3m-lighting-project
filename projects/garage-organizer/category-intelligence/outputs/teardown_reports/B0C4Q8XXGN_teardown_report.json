@@ -1,0 +1,51 @@
+{
+  "product": {
+    "rank": 18,
+    "asin": "B0C4Q8XXGN",
+    "title": "KURUI Metal Wall Hooks for Hanging Heavy Duty, 6Pcs Garage Organization and Storage Hook for Extension Cord Tool Coat Backpack Bag, Large Utility J Hooks, Black Wall Mount Hanges for Outdoor Indoor",
+    "brand": "KURUI",
+    "price": 7.89,
+    "bsr": 1833,
+    "estimated_monthly_sales": 1225,
+    "total_reviews": 1919,
+    "avg_rating": 4.6,
+    "amazon_url": "https://www.amazon.com/dp/B0C4Q8XXGN"
+  },
+  "analysis": {
+    "videos_analyzed": 6,
+    "materials": {
+      "primary_materials": {
+        "coatings/rubber": 3,
+        "metals/steel": 2,
+        "metals/stainless_steel": 2,
+        "plastics/nylon": 2,
+        "magnets/generic_magnet": 2
+      },
+      "all_materials": {
+        "metals/steel": 2,
+        "metals/stainless_steel": 2,
+        "plastics/nylon": 2,
+        "magnets/generic_magnet": 2,
+        "metals/aluminum": 2,
+        "coatings/rubber": 3
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": 3
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [],
+      "max_mentioned": null,
+      "avg_mentioned": null
+    },
+    "value_perception": {}
+  }
+}

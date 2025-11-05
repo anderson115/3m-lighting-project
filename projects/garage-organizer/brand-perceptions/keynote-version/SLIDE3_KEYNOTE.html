@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide 3 - Keynote Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FFFFFF;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        .slide { width: 1760px; height: 920px; margin: 80px; position: relative; }
+
+        :root {
+            --primary: #2D3748;
+            --accent: #14B8A6;
+            --text: #1A202C;
+            --text-light: #4A5568;
+        }
+
+        .headline {
+            font-size: 36pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 42pt;
+            margin-bottom: 36pt;
+            letter-spacing: -0.04em;
+            border-left: 6pt solid var(--accent);
+            padding-left: 24pt;
+        }
+
+        .content-container { display: flex; gap: 48px; }
+        .main-column { width: 1100px; }
+        .sidebar { width: 612px; }
+
+        /* Dark Insight Cards */
+        .insight-card {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-radius: 12pt;
+            padding: 32px 36px;
+            margin-bottom: 24pt;
+            box-shadow: 0 12px 32px rgba(45, 55, 72, 0.4);
+            border-left: 6pt solid var(--accent);
+        }
+
+        .card-header {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 14pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 10pt;
+        }
+
+        .card-icon { font-size: 18pt; font-weight: 400; }
+
+        .card-body {
+            font-size: 14pt;
+            font-weight: 500;
+            color: rgba(255,255,255,0.95);
+            line-height: 23pt;
+        }
+
+        .card-highlight {
+            font-size: 16pt;
+            font-weight: 700;
+            color: #FFFFFF;
+            line-height: 24pt;
+            margin-bottom: 14pt;
+        }
+
+        .card-explanation {
+            font-size: 11pt;
+            color: rgba(255,255,255,0.8);
+            line-height: 18pt;
+            margin-top: 12pt;
+        }
+
+        .card-explanation strong {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Light Section Card */
+        .light-card {
+            background: #FFFFFF;
+            border: 2pt solid #E5E7EB;
+            border-radius: 12pt;
+            padding: 28px 32px;
+            margin-bottom: 24pt;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .light-card-header {
+            font-size: 12pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 14pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .provocation-question {
+            font-size: 17pt;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 25pt;
+            margin-bottom: 16pt;
+            display: flex;
+            align-items: flex-start;
+            gap: 12pt;
+        }
+
+        .provocation-icon {
+            width: 32pt;
+            height: 32pt;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 2.5pt solid var(--primary);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            flex-shrink: 0;
+            box-shadow: 0 6px 16px rgba(20, 184, 166, 0.4);
+        }
+
+        .provocation-subheader {
+            font-size: 11pt;
+            color: var(--primary);
+            margin-bottom: 12pt;
+            font-weight: 700;
+        }
+
+        .provocation-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .provocation-list li {
+            font-size: 12pt;
+            color: var(--text);
+            line-height: 20pt;
+            margin-bottom: 10pt;
+            padding-left: 20pt;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .provocation-list li:before {
+            content: "▸";
+            color: var(--accent);
+            font-size: 14pt;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+
+        .conversation-list {
+            list-style: none;
+        }
+
+        .conversation-list li {
+            font-size: 12pt;
+            color: var(--text);
+            line-height: 20pt;
+            margin-bottom: 14pt;
+            display: flex;
+            gap: 10pt;
+            align-items: flex-start;
+            font-weight: 500;
+        }
+
+        .arrow-icon {
+            color: var(--accent);
+            font-size: 16pt;
+            flex-shrink: 0;
+            font-weight: 900;
+            margin-top: 1pt;
+        }
+
+        /* Sidebar Stats */
+        .stat-block {
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            border: 2pt solid var(--accent);
+            border-radius: 12pt;
+            padding: 28px;
+            margin-bottom: 20pt;
+            box-shadow: 0 8px 20px rgba(20, 184, 166, 0.15);
+        }
+
+        .stat-title {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 18pt;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+        }
+
+        /* Brand Territory Compact */
+        .territory-compact {
+            margin-bottom: 16pt;
+        }
+
+        .territory-item {
+            display: flex;
+            align-items: center;
+            gap: 12pt;
+            margin-bottom: 14pt;
+            padding-bottom: 14pt;
+            border-bottom: 2pt solid #E5E7EB;
+        }
+
+        .territory-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .territory-brand {
+            font-size: 11pt;
+            font-weight: 900;
+            color: var(--primary);
+            min-width: 80px;
+        }
+
+        .territory-desc {
+            font-size: 10pt;
+            font-weight: 600;
+            color: var(--text);
+            line-height: 15pt;
+        }
+
+        /* Data Pills Vertical */
+        .data-pills-vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 12pt;
+        }
+
+        .data-pill-vertical {
+            background: linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%);
+            border: 2pt solid #E5E7EB;
+            border-radius: 10pt;
+            padding: 14pt 18pt;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+
+        .pill-label-vertical {
+            font-size: 10pt;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 14pt;
+        }
+
+        .pill-value-vertical {
+            font-size: 24pt;
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        /* Opportunity Zones Compact */
+        .opportunity-compact {
+            background: linear-gradient(135deg, #F0FDF4 0%, #ECFDF5 100%);
+            border: 3pt solid var(--accent);
+            border-radius: 10pt;
+            padding: 18pt 22pt;
+        }
+
+        .opportunity-title-compact {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .opportunity-list-compact {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .opportunity-list-compact li {
+            font-size: 10pt;
+            color: var(--text);
+            line-height: 16pt;
+            margin-bottom: 8pt;
+            padding-left: 18pt;
+            position: relative;
+            font-weight: 600;
+        }
+
+        .opportunity-list-compact li:before {
+            content: "●";
+            color: var(--accent);
+            font-size: 12pt;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 52px;
+            border-top: 2pt solid var(--accent);
+            padding-top: 13pt;
+            display: flex;
+            justify-content: space-between;
+            font-size: 10pt;
+            color: #6B7280;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="headline">Natural Specialization is Emerging, But Significant White Space Remains Unaddressed</div>
+
+        <div class="content-container">
+            <div class="main-column">
+                <div class="insight-card">
+                    <div class="card-header"><span class="card-icon">✱</span><span>The Pattern</span></div>
+                    <div class="card-body">Content analysis reveals each brand gravitating toward distinct application territories: Command shows strength in rental-friendly contexts, Scotch dominates DIY projects, and 3M Claw is creators' go-to for heavy-duty applications. Picture hanging appears across 76% of content as the category's universal application.</div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="card-header"><span class="card-icon">✱</span><span>Insight</span></div>
+                    <div class="card-body">Current territories are clear but not optimized. Several high-value application areas show minimal content coverage across all brands, representing significant opportunity zones.</div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="card-header">Hard Truth</div>
+                    <div class="card-highlight">Rental households represent one-third of US households, but rental-specific content coverage is modest across all brands.</div>
+                    <div class="card-explanation"><strong>This suggests:</strong> Market opportunity exceeds current content marketing investment. First-mover advantage available for brand that commits to this audience.</div>
+                </div>
+
+                <div class="light-card">
+                    <div class="provocation-question"><span class="provocation-icon">?</span><span>Is picture hanging shared territory, with differentiation in secondary applications?</span></div>
+                    <div class="provocation-subheader">Consider segmentation by:</div>
+                    <ul class="provocation-list">
+                        <li>Weight: Light (<5 lbs: Command), Medium (5-15 lbs: Scotch), Heavy (15+ lbs: Claw)</li>
+                        <li>Surface: Smooth (Command), Textured (Scotch/Claw)</li>
+                        <li>Duration: Temporary (Command), Permanent (Scotch), Long-term (Claw)</li>
+                    </ul>
+                </div>
+
+                <div class="light-card">
+                    <div class="light-card-header">Conversation Starters</div>
+                    <ul class="conversation-list">
+                        <li><span class="arrow-icon">→</span><span>Should we view three brands as complementary portfolio or competing products?</span></li>
+                        <li><span class="arrow-icon">→</span><span>Kitchen and bathroom represent daily pain points with minimal coverage—who should own this?</span></li>
+                        <li><span class="arrow-icon">→</span><span>Rental market is one-third of households—is this Command's territory or open competition?</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="stat-block">
+                    <div class="stat-title">Brand Territories</div>
+                    <div class="territory-compact">
+                        <div class="territory-item">
+                            <div class="territory-brand">Command</div>
+                            <div class="territory-desc">Rental-friendly • Temporary installation</div>
+                        </div>
+                        <div class="territory-item">
+                            <div class="territory-brand">Scotch</div>
+                            <div class="territory-desc">DIY projects • Permanent mounting</div>
+                        </div>
+                        <div class="territory-item">
+                            <div class="territory-brand">3M Claw</div>
+                            <div class="territory-desc">Heavy-duty • Weight-focused apps</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-block">
+                    <div class="stat-title">Use Case Distribution</div>
+                    <div class="data-pills-vertical">
+                        <div class="data-pill-vertical">
+                            <span class="pill-label-vertical">Picture Hanging<br>(all brands)</span>
+                            <span class="pill-value-vertical">76%</span>
+                        </div>
+                        <div class="data-pill-vertical">
+                            <span class="pill-label-vertical">Kitchen/Bathroom<br>Coverage</span>
+                            <span class="pill-value-vertical"><10%</span>
+                        </div>
+                        <div class="data-pill-vertical">
+                            <span class="pill-label-vertical">Rental Market<br>(US households)</span>
+                            <span class="pill-value-vertical">36%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-block">
+                    <div class="opportunity-compact">
+                        <div class="opportunity-title-compact">White Space</div>
+                        <ul class="opportunity-list-compact">
+                            <li>Kitchen organization (high need, minimal coverage)</li>
+                            <li>Bathroom storage (moisture + no-drill ideal)</li>
+                            <li>Outdoor/extreme weather (market demand exists)</li>
+                            <li>Budget-accessible segment (price sensitivity evident)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>Source: Phase 2 Analysis, 193 videos across 3 brands</div>
+            <div>Slide 3 of 3</div>
+        </div>
+    </div>
+</body>
+</html>

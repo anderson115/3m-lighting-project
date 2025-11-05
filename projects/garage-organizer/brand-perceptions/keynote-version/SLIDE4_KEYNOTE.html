@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide 4 - Competitive Positioning (Keynote)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #FFFFFF;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        .slide { width: 1760px; height: 920px; margin: 80px; position: relative; }
+
+        :root {
+            --primary: #2D3748;
+            --accent: #14B8A6;
+            --text: #1A202C;
+            --text-light: #4A5568;
+        }
+
+        .headline {
+            font-size: 33pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 38pt;
+            margin-bottom: 24pt;
+            letter-spacing: -0.04em;
+            border-left: 6pt solid var(--accent);
+            padding-left: 24pt;
+        }
+
+        .content-container { display: flex; gap: 48pt; margin-bottom: 60pt; }
+        .main-column { width: 1100pt; }
+        .sidebar { width: 612pt; }
+
+        /* Dark Insight Cards */
+        .insight-card {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-radius: 10pt;
+            padding: 28pt 32pt;
+            margin-bottom: 20pt;
+            box-shadow: 0 12pt 32pt rgba(45, 55, 72, 0.4);
+            border-left: 6pt solid var(--accent);
+        }
+
+        .card-header {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 12pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .card-body {
+            font-size: 13pt;
+            font-weight: 500;
+            color: rgba(255,255,255,0.95);
+            line-height: 21pt;
+        }
+
+        /* Light Card */
+        .light-card {
+            background: #FFFFFF;
+            border: 2pt solid #E5E7EB;
+            border-radius: 10pt;
+            padding: 24pt 28pt;
+            margin-bottom: 20pt;
+            box-shadow: 0 4pt 12pt rgba(0,0,0,0.08);
+        }
+
+        .provocation-question {
+            font-size: 16pt;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 22pt;
+            margin-bottom: 14pt;
+            display: flex;
+            gap: 10pt;
+            align-items: flex-start;
+        }
+
+        .provocation-icon {
+            width: 28pt;
+            height: 28pt;
+            border-radius: 50%;
+            background: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            flex-shrink: 0;
+        }
+
+        .provocation-subheader {
+            font-size: 11pt;
+            color: var(--primary);
+            margin-bottom: 8pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .provocation-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .provocation-list li {
+            font-size: 12pt;
+            color: var(--text);
+            line-height: 18pt;
+            margin-bottom: 8pt;
+            padding-left: 18pt;
+            position: relative;
+            font-weight: 500;
+        }
+
+        .provocation-list li:before {
+            content: "▸";
+            color: var(--accent);
+            font-size: 13pt;
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+
+        /* Competitive Matrix Compact */
+        .matrix-container {
+            width: 100%;
+            height: 280pt;
+            position: relative;
+        }
+
+        .matrix-grid {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 0;
+            border: 2pt solid #E5E7EB;
+            border-radius: 10pt;
+            overflow: hidden;
+        }
+
+        .quadrant {
+            background: #FAFBFC;
+            padding: 14pt;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-right: 1.5pt solid #E5E7EB;
+            border-bottom: 1.5pt solid #E5E7EB;
+        }
+
+        .quadrant:nth-child(2n) { border-right: none; }
+        .quadrant:nth-child(n+3) { border-bottom: none; }
+
+        .quadrant-label {
+            font-size: 9pt;
+            font-weight: 700;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 6pt;
+            opacity: 0.7;
+        }
+
+        .brand-bubble {
+            width: 48pt;
+            height: 48pt;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20pt;
+            font-weight: 900;
+            color: #FFFFFF;
+            box-shadow: 0 6pt 18pt rgba(0,0,0,0.12);
+            margin-bottom: 6pt;
+        }
+
+        .brand-label {
+            font-size: 9pt;
+            font-weight: 700;
+            color: var(--text);
+            text-align: center;
+            line-height: 12pt;
+        }
+
+        /* Legend */
+        .legend {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 8pt;
+            margin-top: 12pt;
+        }
+
+        .legend-item {
+            display: flex;
+            gap: 8pt;
+            align-items: center;
+            font-size: 10pt;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .legend-dot {
+            width: 12pt;
+            height: 12pt;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .conversation-list {
+            list-style: none;
+        }
+
+        .conversation-list li {
+            font-size: 11pt;
+            color: var(--text);
+            line-height: 18pt;
+            margin-bottom: 12pt;
+            display: flex;
+            gap: 8pt;
+            align-items: flex-start;
+            font-weight: 500;
+        }
+
+        .arrow-icon {
+            color: var(--accent);
+            font-size: 14pt;
+            flex-shrink: 0;
+            font-weight: 900;
+            margin-top: 2pt;
+        }
+
+        /* Conversation Section */
+        .section.conversation-section {
+            width: 1760pt;
+            margin-left: -80pt;
+            padding: 0 80pt;
+            margin-bottom: 48pt;
+        }
+
+        .section-header {
+            font-size: 12pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 14pt;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .conversation-grid {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32pt;
+        }
+
+        .conversation-grid li {
+            font-size: 11pt;
+            color: var(--text);
+            line-height: 18pt;
+            display: flex;
+            gap: 8pt;
+            align-items: flex-start;
+            font-weight: 500;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 52pt;
+            border-top: 2pt solid var(--accent);
+            padding-top: 13pt;
+            font-size: 10pt;
+            color: #6B7280;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="headline">Garage Organizer Market Reveals Strategic Positioning Gaps—Where the Real Opportunity Lies</div>
+
+        <div class="content-container">
+            <div class="main-column">
+                <div class="insight-card">
+                    <div class="card-header">The Pattern</div>
+                    <div class="card-body">Three distinct market positions have emerged. Command dominates rental/temporary applications with mainstream presence. Scotch owns the DIY permanent mounting segment with strong creator advocacy. 3M Claw specializes in heavy-duty/extreme environments. Budget alternatives remain fragmented with minimal creator visibility.</div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="card-header">Insight</div>
+                    <div class="card-body">The market has naturally segmented by use case rather than price. Brands succeed by owning clear specialization, not by competing on cost. Creator commentary reveals strong category loyalty—customers choose brands for capability fit, not discounts.</div>
+                </div>
+
+                <div class="insight-card">
+                    <div class="card-header">Hard Truth</div>
+                    <div class="card-body">Two positioning gaps exist: (1) Premium all-purpose organizer for DIY enthusiasts wanting one trusted brand, (2) Mass-market accessibility—current leaders are under-indexed in budget/retail visibility. First-mover advantage available.</div>
+                </div>
+
+                <div class="light-card">
+                    <div class="provocation-question"><span class="provocation-icon">?</span><span>Which gap is more valuable to pursue?</span></div>
+                    <div class="provocation-subheader">Consider:</div>
+                    <ul class="provocation-list">
+                        <li>Premium play: Expand Scotch into outdoor/heavy-duty (cannibalize 3M Claw?)</li>
+                        <li>Volume play: Launch budget sub-brand for mass retail + Amazon</li>
+                        <li>Niche expansion: Own kitchen/bathroom organizer category instead</li>
+                    </ul>
+                </div>
+
+                <div class="light-card">
+                    <div style="font-size: 12pt; font-weight: 800; color: var(--primary); margin-bottom: 12pt; text-transform: uppercase; letter-spacing: 0.1em;">Conversation Starters</div>
+                    <ul class="conversation-list">
+                        <li><span class="arrow-icon">→</span><span>Is Scotch's premium DIY positioning strong enough to expand into heavy-duty/outdoor without damaging brand equity?</span></li>
+                        <li><span class="arrow-icon">→</span><span>Could a budget sub-brand (Command XT / Scotch Value) capture mainstream retail without complexity?</span></li>
+                        <li><span class="arrow-icon">→</span><span>What happens if we exit garage organizers and own kitchen/bathroom storage instead—lower competition?</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="matrix-container">
+                    <div class="matrix-grid">
+                        <div class="quadrant">
+                            <div class="quadrant-label">Budget Niche</div>
+                            <div class="brand-bubble" style="background: linear-gradient(135deg, #94A3B8 0%, #64748B 100%); width: 38pt; height: 38pt; font-size: 16pt;">🏷️</div>
+                            <div class="brand-label">Generic</div>
+                        </div>
+
+                        <div class="quadrant">
+                            <div class="quadrant-label">Premium Mainstream</div>
+                            <div class="brand-bubble" style="background: linear-gradient(135deg, var(--accent) 0%, #0d9488 100%);">S</div>
+                            <div class="brand-label">Scotch</div>
+                        </div>
+
+                        <div class="quadrant">
+                            <div class="quadrant-label">Budget Mainstream</div>
+                            <div class="brand-bubble" style="background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);">C</div>
+                            <div class="brand-label">Command</div>
+                        </div>
+
+                        <div class="quadrant">
+                            <div class="quadrant-label">Premium Niche</div>
+                            <div class="brand-bubble" style="background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);">3C</div>
+                            <div class="brand-label">3M Claw</div>
+                        </div>
+                    </div>
+
+                    <div class="legend">
+                        <div class="legend-item">
+                            <div class="legend-dot" style="background: linear-gradient(135deg, var(--accent) 0%, #0d9488 100%);"></div>
+                            <span>Creator Advocacy</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-dot" style="background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);"></div>
+                            <span>Mainstream</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-dot" style="background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);"></div>
+                            <span>Specialist</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section conversation-section">
+            <div class="section-header">Conversation Starters</div>
+            <ul class="conversation-grid">
+                <li><span class="arrow-icon">→</span><span>Is Scotch's premium DIY positioning strong enough to expand into heavy-duty/outdoor without damaging brand equity?</span></li>
+                <li><span class="arrow-icon">→</span><span>Could a budget sub-brand (Command XT / Scotch Value) capture mainstream retail without complexity?</span></li>
+                <li><span class="arrow-icon">→</span><span>What happens if we exit garage organizers and own kitchen/bathroom storage instead—lower competition?</span></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <div>Source: Phase 2 Analysis, Competitive positioning matrix from 193 creator videos</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "product": {
+    "rank": 19,
+    "asin": "B0DPHY9Z4R",
+    "title": "FRIMOONY Pegboard Hooks Assortment with Pegboard Bins, Peg Locks, for Organizing Various Tools, 80 Piece",
+    "brand": "FRIMOONY",
+    "price": 16.99,
+    "bsr": 1954,
+    "estimated_monthly_sales": 1206,
+    "total_reviews": 28486,
+    "avg_rating": 4.4,
+    "amazon_url": "https://www.amazon.com/dp/B0DPHY9Z4R"
+  },
+  "analysis": {
+    "videos_analyzed": 5,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 16,
+        "plastics/generic_plastic": 9,
+        "coatings/powder_coat": 1
+      },
+      "all_materials": {
+        "metals/steel": 16,
+        "plastics/generic_plastic": 9,
+        "coatings/powder_coat": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "injection_molding": true
+      },
+      "primary_method": "injection_molding"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [],
+      "max_mentioned": null,
+      "avg_mentioned": null
+    },
+    "value_perception": {}
+  }
+}

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Layout Comparison - 4 Options</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #0a0a0a;
+            padding: 40px 20px;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: 300;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 60px;
+            font-size: 14px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            max-width: 3900px;
+            margin: 0 auto;
+        }
+
+        .layout-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+        }
+
+        .layout-header {
+            background: linear-gradient(135deg, #2D3748 0%, #1a2332 100%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .layout-header h2 {
+            color: #14B8A6;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .layout-header p {
+            color: rgba(255,255,255,0.7);
+            font-size: 12px;
+        }
+
+        .slide-preview {
+            background: #FFFFFF;
+            padding: 50px;
+            height: 900px;
+            overflow-y: auto;
+        }
+
+        /* Common styles */
+        :root {
+            --primary: #2D3748;
+            --accent: #14B8A6;
+            --text: #1A202C;
+        }
+
+        /* ============================================
+           LAYOUT 1: TWO-COLUMN CLASSIC (Current)
+           ============================================ */
+
+        .layout-1 {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .layout-1 .headline {
+            font-size: 32pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 40pt;
+            margin-bottom: 32pt;
+            letter-spacing: -0.04em;
+        }
+
+        .layout-1 .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .layout-1 .section {
+            margin-bottom: 28pt;
+        }
+
+        .layout-1 .section-header {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .layout-1 .body-text {
+            font-size: 13pt;
+            line-height: 21pt;
+            color: var(--text);
+        }
+
+        .layout-1 .hard-truth-panel {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-left: 5pt solid var(--accent);
+            padding: 20px 24px;
+            border-radius: 8pt;
+            box-shadow: 0 8px 24px rgba(45, 55, 72, 0.3);
+        }
+
+        .layout-1 .panel-header {
+            font-size: 11pt;
+            font-weight: 800;
+            color: var(--accent);
+            margin-bottom: 10pt;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .layout-1 .panel-text {
+            font-size: 14pt;
+            font-weight: 700;
+            color: white;
+            line-height: 22pt;
+            margin-bottom: 12pt;
+        }
+
+        .layout-1 .data-card {
+            background: #F7FAFC;
+            border: 2pt solid #E5E7EB;
+            border-radius: 8pt;
+            padding: 20px;
+        }
+
+        .layout-1 .data-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 12pt 0;
+            border-bottom: 1pt solid #CBD5E0;
+        }
+
+        .layout-1 .data-row:last-child {
+            border-bottom: none;
+        }
+
+        .layout-1 .data-label {
+            font-size: 12pt;
+            color: var(--text);
+        }
+
+        .layout-1 .data-value {
+            font-size: 18pt;
+            font-weight: 800;
+            color: var(--accent);
+        }
+
+        /* ============================================
+           LAYOUT 2: ASYMMETRIC DYNAMIC
+           ============================================ */
+
+        .layout-2 {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .layout-2 .headline {
+            font-size: 38pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 44pt;
+            margin-bottom: 20pt;
+            letter-spacing: -0.05em;
+            border-left: 8pt solid var(--accent);
+            padding-left: 20pt;
+        }
+
+        .layout-2 .content-asymmetric {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 50px;
+        }
+
+        .layout-2 .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20pt;
+        }
+
+        .layout-2 .insight-card {
+            background: var(--primary);
+            color: white;
+            padding: 24px;
+            border-radius: 12pt;
+            border-top: 4pt solid var(--accent);
+            box-shadow: 0 10px 30px rgba(45, 55, 72, 0.4);
+        }
+
+        .layout-2 .insight-label {
+            font-size: 10pt;
+            font-weight: 800;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 12pt;
+        }
+
+        .layout-2 .insight-text {
+            font-size: 16pt;
+            font-weight: 700;
+            line-height: 24pt;
+        }
+
+        .layout-2 .sidebar {
+            background: #F7FAFC;
+            padding: 24px;
+            border-radius: 12pt;
+            border: 3pt solid var(--primary);
+        }
+
+        .layout-2 .stat-block {
+            margin-bottom: 24pt;
+        }
+
+        .layout-2 .stat-value {
+            font-size: 48pt;
+            font-weight: 900;
+            color: var(--accent);
+            line-height: 1;
+        }
+
+        .layout-2 .stat-label {
+            font-size: 11pt;
+            color: var(--primary);
+            font-weight: 600;
+            margin-top: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+
+        /* ============================================
+           LAYOUT 3: CENTERED MINIMAL
+           ============================================ */
+
+        .layout-3 {
+            font-family: 'Inter', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .layout-3 .headline {
+            font-size: 34pt;
+            font-weight: 800;
+            color: var(--text);
+            line-height: 42pt;
+            margin-bottom: 40pt;
+            text-align: center;
+            letter-spacing: -0.03em;
+        }
+
+        .layout-3 .section {
+            margin-bottom: 40pt;
+            text-align: center;
+        }
+
+        .layout-3 .section-divider {
+            width: 80px;
+            height: 4pt;
+            background: var(--accent);
+            margin: 30pt auto;
+        }
+
+        .layout-3 .body-text {
+            font-size: 14pt;
+            line-height: 26pt;
+            color: var(--text);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .layout-3 .callout-box {
+            background: var(--primary);
+            color: white;
+            padding: 32px;
+            border-radius: 16pt;
+            margin: 30pt 0;
+            box-shadow: 0 12px 40px rgba(45, 55, 72, 0.35);
+        }
+
+        .layout-3 .callout-icon {
+            font-size: 32pt;
+            margin-bottom: 16pt;
+        }
+
+        .layout-3 .callout-text {
+            font-size: 16pt;
+            font-weight: 700;
+            line-height: 26pt;
+        }
+
+        .layout-3 .data-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24pt;
+            margin-top: 30pt;
+        }
+
+        .layout-3 .data-pill {
+            background: #F7FAFC;
+            border: 2pt solid var(--accent);
+            border-radius: 100px;
+            padding: 16pt 24pt;
+            text-align: center;
+        }
+
+        .layout-3 .pill-value {
+            font-size: 24pt;
+            font-weight: 900;
+            color: var(--accent);
+            display: block;
+        }
+
+        .layout-3 .pill-label {
+            font-size: 11pt;
+            color: var(--primary);
+            font-weight: 600;
+            margin-top: 4pt;
+        }
+
+        /* ============================================
+           LAYOUT 4: CARD-BASED MODULAR
+           ============================================ */
+
+        .layout-4 {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .layout-4 .headline {
+            font-size: 30pt;
+            font-weight: 900;
+            color: var(--text);
+            line-height: 38pt;
+            margin-bottom: 32pt;
+            letter-spacing: -0.03em;
+        }
+
+        .layout-4 .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20pt;
+        }
+
+        .layout-4 .card {
+            background: white;
+            border: 3pt solid #E5E7EB;
+            border-radius: 12pt;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: all 0.2s;
+        }
+
+        .layout-4 .card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 8px 24px rgba(20, 184, 166, 0.2);
+        }
+
+        .layout-4 .card-type {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 9pt;
+            font-weight: 800;
+            padding: 6pt 12pt;
+            border-radius: 4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 14pt;
+        }
+
+        .layout-4 .card-title {
+            font-size: 14pt;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 12pt;
+            line-height: 20pt;
+        }
+
+        .layout-4 .card-content {
+            font-size: 12pt;
+            line-height: 20pt;
+            color: var(--text);
+        }
+
+        .layout-4 .metric-card {
+            background: linear-gradient(135deg, var(--primary) 0%, #1a2332 100%);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        .layout-4 .metric-card .card-type {
+            background: var(--accent);
+        }
+
+        .layout-4 .metric-card .card-title {
+            color: white;
+        }
+
+        .layout-4 .metric-number {
+            font-size: 36pt;
+            font-weight: 900;
+            color: var(--accent);
+            line-height: 1;
+            margin: 12pt 0;
+        }
+
+        .layout-4 .metric-label {
+            font-size: 11pt;
+            color: rgba(255,255,255,0.8);
+        }
+
+        @media (max-width: 2400px) {
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+            .slide-preview {
+                height: 1100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Visual Layout Comparison — Inter / Charcoal-Teal</h1>
+    <p class="subtitle">4 Layout Structures • Same Colors & Font</p>
+
+    <div class="grid">
+        <!-- LAYOUT 1: TWO-COLUMN CLASSIC -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <h2>Two-Column Classic</h2>
+                <p>Traditional Consulting Layout</p>
+            </div>
+            <div class="slide-preview layout-1">
+                <div class="headline">Command's Market Presence is Strong, But Creator Discussions Reveal a Tension Worth Exploring</div>
+
+                <div class="content-grid">
+                    <div>
+                        <div class="section">
+                            <div class="section-header">The Pattern</div>
+                            <div class="body-text">Command appears frequently in YouTube content—particularly in instructional videos. However, surface damage appears as a topic in creator feedback more frequently than damage-free benefits are highlighted.</div>
+                        </div>
+
+                        <div class="section">
+                            <div class="hard-truth-panel">
+                                <div class="panel-header">Hard Truth</div>
+                                <div class="panel-text">Surface damage concerns outweigh damage-free benefit emphasis in creator content.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="section">
+                            <div class="section-header">Data Snapshot</div>
+                            <div class="data-card">
+                                <div class="data-row">
+                                    <span class="data-label">Surface Damage</span>
+                                    <span class="data-value">24</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">Damage-Free Focus</span>
+                                    <span class="data-value">11</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">Neutral Sentiment</span>
+                                    <span class="data-value">84%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAYOUT 2: ASYMMETRIC DYNAMIC -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <h2>Asymmetric Dynamic</h2>
+                <p>Modern Editorial Style</p>
+            </div>
+            <div class="slide-preview layout-2">
+                <div class="headline">Command's Market Presence is Strong, But Creator Discussions Reveal a Tension Worth Exploring</div>
+
+                <div class="content-asymmetric">
+                    <div class="main-content">
+                        <div class="insight-card">
+                            <div class="insight-label">⬥ The Pattern</div>
+                            <div class="insight-text">Command appears frequently in YouTube content—particularly in instructional videos. However, surface damage appears as a topic in creator feedback more frequently than damage-free benefits are highlighted.</div>
+                        </div>
+
+                        <div class="insight-card">
+                            <div class="insight-label">⬥ Hard Truth</div>
+                            <div class="insight-text">Surface damage concerns outweigh damage-free benefit emphasis. When creator feedback contradicts positioning, marketing ROI is compromised.</div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar">
+                        <div class="stat-block">
+                            <div class="stat-value">24</div>
+                            <div class="stat-label">Surface Damage<br>Discussions</div>
+                        </div>
+
+                        <div class="stat-block">
+                            <div class="stat-value">11</div>
+                            <div class="stat-label">Damage-Free<br>Emphasis</div>
+                        </div>
+
+                        <div class="stat-block">
+                            <div class="stat-value">84%</div>
+                            <div class="stat-label">Neutral<br>Sentiment</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAYOUT 3: CENTERED MINIMAL -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <h2>Centered Minimal</h2>
+                <p>Premium Focused Storytelling</p>
+            </div>
+            <div class="slide-preview layout-3">
+                <div class="headline">Command's Market Presence is Strong, But Creator Discussions Reveal a Tension Worth Exploring</div>
+
+                <div class="section">
+                    <div class="body-text">Command appears frequently in YouTube content—particularly in instructional videos where creators demonstrate picture hanging and organization techniques. However, surface damage appears as a topic more frequently than damage-free benefits are highlighted.</div>
+                </div>
+
+                <div class="section-divider"></div>
+
+                <div class="section">
+                    <div class="callout-box">
+                        <div class="callout-icon">⬥</div>
+                        <div class="callout-text">Surface damage concerns outweigh damage-free benefit emphasis in creator content. When feedback contradicts positioning, marketing ROI is compromised.</div>
+                    </div>
+                </div>
+
+                <div class="data-grid">
+                    <div class="data-pill">
+                        <span class="pill-value">24</span>
+                        <div class="pill-label">Surface Damage</div>
+                    </div>
+                    <div class="data-pill">
+                        <span class="pill-value">11</span>
+                        <div class="pill-label">Damage-Free Focus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LAYOUT 4: CARD-BASED MODULAR -->
+        <div class="layout-card">
+            <div class="layout-header">
+                <h2>Card-Based Modular</h2>
+                <p>Scannable Component System</p>
+            </div>
+            <div class="slide-preview layout-4">
+                <div class="headline">Command's Market Presence is Strong, But Creator Discussions Reveal a Tension Worth Exploring</div>
+
+                <div class="card-grid">
+                    <div class="card">
+                        <span class="card-type">Pattern</span>
+                        <div class="card-title">Surface Damage Dominates Discussion</div>
+                        <div class="card-content">Command appears frequently in YouTube content. However, surface damage appears as a topic more frequently than damage-free benefits.</div>
+                    </div>
+
+                    <div class="card metric-card">
+                        <span class="card-type">Data</span>
+                        <div class="card-title">Discussion Volume</div>
+                        <div class="metric-number">24</div>
+                        <div class="metric-label">Surface damage mentions</div>
+                    </div>
+
+                    <div class="card metric-card">
+                        <span class="card-type">Data</span>
+                        <div class="card-title">Brand Promise</div>
+                        <div class="metric-number">11</div>
+                        <div class="metric-label">Damage-free emphasis</div>
+                    </div>
+
+                    <div class="card">
+                        <span class="card-type">Insight</span>
+                        <div class="card-title">ROI Challenge</div>
+                        <div class="card-content">When creator feedback contradicts positioning, marketing ROI is compromised. High expectations may amplify perception of failure.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,334 @@
+{
+  "feature_importance": {
+    "has_3m": 0.9085517127653114,
+    "has_claw": 0.8177511321375014,
+    "has_hook": 0.5958315271426416,
+    "has_numbers": 0.5314378724387336,
+    "query_title_overlap": 0.4973404610050727,
+    "query_has_brand": 0.47295364076619223,
+    "has_garage": 0.45006740981969706,
+    "query_specificity": 0.4098640277847277,
+    "channel_is_brand": 0.3385724024826277,
+    "has_review": 0.29040212315512365,
+    "query_title_ratio": 0.2856439256148225,
+    "has_storage": 0.26633840477834736,
+    "channel_length": 0.25552992550435,
+    "has_installation": 0.16839813850604018,
+    "has_year": 0.1672746124404229,
+    "has_emoji": 0.16131286722653396,
+    "has_transformation": 0.15225458137608328,
+    "has_hashtags": 0.14722857861923724,
+    "has_organization": 0.09500074635749074,
+    "query_is_category": 0.08362678385964795,
+    "has_diy": 0.08061095807698256,
+    "title_length": 0.04946436957363472,
+    "title_word_count": 0.042570485338763224,
+    "all_caps_ratio": 0.0
+  },
+  "query_performance": {
+    "3M Claw review": {
+      "count": 37,
+      "avg_relevance": 0.835135135135135,
+      "total_relevance": 30.9,
+      "hit_rate": 0.835135135135135
+    },
+    "3M Claw drywall hangers": {
+      "count": 10,
+      "avg_relevance": 0.9,
+      "total_relevance": 9.0,
+      "hit_rate": 0.9
+    },
+    "3M Claw installation": {
+      "count": 8,
+      "avg_relevance": 0.75,
+      "total_relevance": 6.0,
+      "hit_rate": 0.75
+    },
+    "3M Claw vs Command hooks": {
+      "count": 4,
+      "avg_relevance": 0.875,
+      "total_relevance": 3.5,
+      "hit_rate": 0.875
+    },
+    "3M Claw product review": {
+      "count": 6,
+      "avg_relevance": 0.9166666666666666,
+      "total_relevance": 5.5,
+      "hit_rate": 0.9166666666666666
+    },
+    "3M Claw unboxing": {
+      "count": 20,
+      "avg_relevance": 0.6599999999999999,
+      "total_relevance": 13.2,
+      "hit_rate": 0.6599999999999999
+    },
+    "3M Claw hanging pictures": {
+      "count": 3,
+      "avg_relevance": 0.6666666666666666,
+      "total_relevance": 2.0,
+      "hit_rate": 0.6666666666666666
+    },
+    "3M Claw drywall repair": {
+      "count": 6,
+      "avg_relevance": 0.5833333333333334,
+      "total_relevance": 3.5,
+      "hit_rate": 0.5833333333333334
+    },
+    "3M Claw hooks": {
+      "count": 3,
+      "avg_relevance": 1.0,
+      "total_relevance": 3.0,
+      "hit_rate": 1.0
+    },
+    "3M Claw drywall hooks": {
+      "count": 1,
+      "avg_relevance": 1.0,
+      "total_relevance": 1.0,
+      "hit_rate": 1.0
+    },
+    "3M Claw vs Command": {
+      "count": 1,
+      "avg_relevance": 1.0,
+      "total_relevance": 1.0,
+      "hit_rate": 1.0
+    },
+    "3M Claw heavy duty": {
+      "count": 2,
+      "avg_relevance": 1.0,
+      "total_relevance": 2.0,
+      "hit_rate": 1.0
+    },
+    "3M Claw test": {
+      "count": 2,
+      "avg_relevance": 0.75,
+      "total_relevance": 1.5,
+      "hit_rate": 0.75
+    },
+    "3M Claw picture hanger": {
+      "count": 1,
+      "avg_relevance": 0.5,
+      "total_relevance": 0.5,
+      "hit_rate": 0.5
+    },
+    "3M Claw garage organization": {
+      "count": 5,
+      "avg_relevance": 0.6,
+      "total_relevance": 3.0,
+      "hit_rate": 0.6
+    },
+    "3M Claw garage": {
+      "count": 9,
+      "avg_relevance": 0.5111111111111111,
+      "total_relevance": 4.6,
+      "hit_rate": 0.5111111111111111
+    },
+    "": {
+      "count": 12,
+      "avg_relevance": 0.5,
+      "total_relevance": 6.0,
+      "hit_rate": 0.5
+    },
+    "garage organization": {
+      "count": 25,
+      "avg_relevance": 0.6279999999999998,
+      "total_relevance": 15.699999999999996,
+      "hit_rate": 0.6279999999999998
+    },
+    "garage makeover": {
+      "count": 28,
+      "avg_relevance": 0.5749999999999998,
+      "total_relevance": 16.099999999999994,
+      "hit_rate": 0.5749999999999998
+    },
+    "organize garage": {
+      "count": 14,
+      "avg_relevance": 0.5214285714285715,
+      "total_relevance": 7.3,
+      "hit_rate": 0.5214285714285715
+    },
+    "garage storage ideas": {
+      "count": 15,
+      "avg_relevance": 0.5133333333333333,
+      "total_relevance": 7.7,
+      "hit_rate": 0.5133333333333333
+    },
+    "garage transformation": {
+      "count": 24,
+      "avg_relevance": 0.5291666666666666,
+      "total_relevance": 12.699999999999998,
+      "hit_rate": 0.5291666666666666
+    },
+    "DIY garage organization": {
+      "count": 7,
+      "avg_relevance": 0.5,
+      "total_relevance": 3.5,
+      "hit_rate": 0.5
+    },
+    "garage organization ideas 2024": {
+      "count": 3,
+      "avg_relevance": 0.6999999999999998,
+      "total_relevance": 2.0999999999999996,
+      "hit_rate": 0.6999999999999998
+    },
+    "best garage storage systems": {
+      "count": 3,
+      "avg_relevance": 0.6999999999999998,
+      "total_relevance": 2.0999999999999996,
+      "hit_rate": 0.6999999999999998
+    },
+    "garage tool organization": {
+      "count": 3,
+      "avg_relevance": 0.6999999999999998,
+      "total_relevance": 2.0999999999999996,
+      "hit_rate": 0.6999999999999998
+    },
+    "diy garage shelving": {
+      "count": 3,
+      "avg_relevance": 0.6999999999999998,
+      "total_relevance": 2.0999999999999996,
+      "hit_rate": 0.6999999999999998
+    },
+    "garage makeover before after": {
+      "count": 3,
+      "avg_relevance": 0.6999999999999998,
+      "total_relevance": 2.0999999999999996,
+      "hit_rate": 0.6999999999999998
+    },
+    "pegboard garage organization": {
+      "count": 2,
+      "avg_relevance": 0.7,
+      "total_relevance": 1.4,
+      "hit_rate": 0.7
+    },
+    "overhead garage storage": {
+      "count": 2,
+      "avg_relevance": 0.7,
+      "total_relevance": 1.4,
+      "hit_rate": 0.7
+    },
+    "small garage organization": {
+      "count": 2,
+      "avg_relevance": 0.7,
+      "total_relevance": 1.4,
+      "hit_rate": 0.7
+    },
+    "garage wall storage ideas": {
+      "count": 2,
+      "avg_relevance": 0.7,
+      "total_relevance": 1.4,
+      "hit_rate": 0.7
+    },
+    "professional garage organization": {
+      "count": 2,
+      "avg_relevance": 0.7,
+      "total_relevance": 1.4,
+      "hit_rate": 0.7
+    }
+  },
+  "bigram_patterns": {
+    "3m claw": 30,
+    "drywall picture": 26,
+    "picture hanger": 23,
+    "3m claw\u2122": 14,
+    "claw drywall": 14,
+    "how to": 7,
+    "the 3m": 7,
+    "claw\u2122 drywall": 7,
+    "3m command": 5,
+    "to use": 4,
+    "to hang": 4,
+    "hanger with": 4,
+    "with temporary": 4,
+    "temporary spot": 4,
+    "spot marker,": 4,
+    "heavy items": 3,
+    "command strips": 3,
+    "way to": 3,
+    "3m\u2122 claw": 3,
+    "picture hangers": 3,
+    "amazon review": 3,
+    "marker, holds": 3,
+    "holds 15": 3,
+    "15 lbs,": 3,
+    "lbs, 6": 3,
+    "6 hangers,": 3,
+    "hangers, 6": 3,
+    "claw\u2122 plasterboard": 3,
+    "plasterboard and": 3,
+    "and drywall": 3,
+    "hanger -": 3,
+    "english video": 3,
+    "with the": 3,
+    "claw vs.": 2,
+    "drywall anchor": 2,
+    "items on": 2,
+    "to install": 2,
+    "install the": 2,
+    "picture hanging": 2,
+    "use claw": 2,
+    "best way": 2,
+    "hang heavy": 2,
+    "hanger video": 2,
+    "easy diy": 2,
+    "claw 15,": 2,
+    "15, 25": 2,
+    "25 and": 2,
+    "and 45": 2,
+    "45 lb.": 2,
+    "lb. drywall": 2
+  },
+  "trigram_patterns": {
+    "drywall picture hanger": 21,
+    "claw drywall picture": 12,
+    "3m claw drywall": 10,
+    "3m claw\u2122 drywall": 7,
+    "claw\u2122 drywall picture": 5,
+    "the 3m claw": 5,
+    "how to use": 4,
+    "picture hanger with": 4,
+    "hanger with temporary": 4,
+    "with temporary spot": 4,
+    "temporary spot marker,": 4,
+    "3m command strips": 3,
+    "way to hang": 3,
+    "3m\u2122 claw drywall": 3,
+    "drywall picture hangers": 3,
+    "spot marker, holds": 3,
+    "marker, holds 15": 3,
+    "holds 15 lbs,": 3,
+    "15 lbs, 6": 3,
+    "lbs, 6 hangers,": 3,
+    "6 hangers, 6": 3,
+    "3m claw\u2122 plasterboard": 3,
+    "claw\u2122 plasterboard and": 3,
+    "plasterboard and drywall": 3,
+    "and drywall picture": 3,
+    "picture hanger -": 3,
+    "3m claw vs.": 2,
+    "heavy items on": 2,
+    "how to install": 2,
+    "to install the": 2,
+    "install the 3m": 2,
+    "the 3m claw\u2122": 2,
+    "to use claw": 2,
+    "best way to": 2,
+    "picture hanger video": 2,
+    "3m claw 15,": 2,
+    "claw 15, 25": 2,
+    "15, 25 and": 2,
+    "25 and 45": 2,
+    "and 45 lb.": 2,
+    "45 lb. drywall": 2,
+    "lb. drywall picture": 2,
+    "3m claw hooks": 2,
+    "claw\u2122 drywall hooks": 2,
+    "3m claw strong": 2,
+    "claw strong durable": 2,
+    "strong durable drywall": 2,
+    "durable drywall picture": 2,
+    "hangers, 6 markers/pack": 2,
+    "3m claw\u2122 heavy": 2
+  },
+  "training_size": 268,
+  "model_version": "1.0"
+}

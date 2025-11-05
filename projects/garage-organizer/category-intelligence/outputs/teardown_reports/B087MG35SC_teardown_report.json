@@ -1,0 +1,56 @@
+{
+  "product": {
+    "rank": 12,
+    "asin": "B087MG35SC",
+    "title": "Amazon Basics Rectangular Heavy Duty, Wall Mount Storage Broom, Mop Holder or Tool Organizer with Hooks and Slots for Home, Garage, Garden, Laundry, or Kitchen, 2.36 x 16.9 x 3.35 in, Gray",
+    "brand": "Amazon Basics",
+    "price": 11.99,
+    "bsr": 744,
+    "estimated_monthly_sales": 1012,
+    "total_reviews": 5990,
+    "avg_rating": 4.7,
+    "amazon_url": "https://www.amazon.com/dp/B087MG35SC"
+  },
+  "analysis": {
+    "videos_analyzed": 8,
+    "materials": {
+      "primary_materials": {
+        "plastics/generic_plastic": 8,
+        "metals/steel": 3,
+        "coatings/rubber": 2,
+        "coatings/powder_coat": 1,
+        "coatings/paint": 1
+      },
+      "all_materials": {
+        "metals/steel": 3,
+        "plastics/generic_plastic": 8,
+        "coatings/powder_coat": 1,
+        "coatings/paint": 1,
+        "coatings/vinyl": 1,
+        "coatings/rubber": 2
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": 2
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        132,
+        300
+      ],
+      "max_mentioned": 300,
+      "avg_mentioned": 216.0
+    },
+    "value_perception": {
+      "cheap": 2
+    }
+  }
+}

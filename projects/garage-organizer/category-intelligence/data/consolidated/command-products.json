@@ -1,0 +1,1456 @@
+{
+  "brand": "Command",
+  "total_products": 58,
+  "products": [
+    {
+      "product_id": "14881954",
+      "name": "Command Large Utility Hook, White, Damage Free Decorating, 1 Hook and 2 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 3.28,
+      "rating": 4.6,
+      "review_count": 2064,
+      "url": "https://www.walmart.com/ip/Command-Large-Utility-Hook-White-Damage-Free-Decorating-1-Hook-and-2-Command-Strips/14881954",
+      "sku": "14881954",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 3,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693468",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "13996099",
+      "name": "Command Medium Designer Hooks, White, 2 Wall Hooks",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 3.2,
+      "rating": 4.6,
+      "review_count": 1867,
+      "url": "https://www.walmart.com/ip/Command-Medium-Designer-Hooks-White-2-Wall-Hooks/13996099",
+      "sku": "13996099",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 4,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693475",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "22700297",
+      "name": "Command Small Wire Toggle Hooks, White, Damage Free Organizing, 14 Hooks and 24 Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 9.28,
+      "rating": 4.5,
+      "review_count": 1420,
+      "url": "https://www.walmart.com/ip/Command-Small-Wire-Toggle-Hooks-White-Damage-Free-Organizing-14-Hooks-and-24-Strips/22700297",
+      "sku": "22700297",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 8,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693481",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "472777021",
+      "name": "Command Broom and Mop Grippers Wall Hook, White, Damage Free Organizing, 3 Hangers",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 11.32,
+      "rating": 4.6,
+      "review_count": 682,
+      "url": "https://www.walmart.com/ip/Command-Broom-and-Mop-Grippers-Wall-Hook-White-Damage-Free-Organizing-3-Hangers/472777021",
+      "sku": "472777021",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 27,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693494",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "47337790",
+      "name": "Command Broom and Mop Grippers Wall Hook, White, Damage Free Organizing, 1 Hanger",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 7.98,
+      "rating": 4.6,
+      "review_count": 682,
+      "url": "https://www.walmart.com/ip/Command-Broom-and-Mop-Grippers-Wall-Hook-White-Damage-Free-Organizing-1-Hanger/47337790",
+      "sku": "47337790",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 9,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693497",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "951239973",
+      "name": "Command 10 Lb XL Heavyweight Wall Hook, White, Damage Free Decorating, 2 Command Hooks",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 4.87,
+      "rating": 4.5,
+      "review_count": 601,
+      "url": "https://www.walmart.com/ip/Command-10-Lb-XL-Heavyweight-Wall-Hook-White-Damage-Free-Decorating-2-Command-Hooks/951239973",
+      "sku": "951239973",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 10,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693504",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "22700298",
+      "name": "Command Medium Utility Hooks, White, Damage Free Organizing, 8 Hooks and 16 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 9.28,
+      "rating": 4.5,
+      "review_count": 577,
+      "url": "https://www.walmart.com/ip/Command-Medium-Utility-Hooks-White-Damage-Free-Organizing-8-Hooks-and-16-Command-Strips/22700298",
+      "sku": "22700298",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 11,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693507",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "14881953",
+      "name": "Command Medium Utility Hooks, White, Damage Free Organizing, 2 Hooks and 4 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 3.28,
+      "rating": 4.3,
+      "review_count": 433,
+      "url": "https://www.walmart.com/ip/Command-Medium-Utility-Hooks-White-Damage-Free-Organizing-2-Hooks-and-4-Command-Strips/14881953",
+      "sku": "14881953",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 3,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693511",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "13996090",
+      "name": "Command Small Hooks, White, 2 Plastic Hooks",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 3.28,
+      "rating": 4.5,
+      "review_count": 199,
+      "url": "https://www.walmart.com/ip/Command-Small-Hooks-White-2-Plastic-Hooks/13996090",
+      "sku": "13996090",
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "white",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693523",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "15232722329",
+      "name": "Command Large White Utility Hook Value Pack 6 Hooks, 12 Strips holds up to 5 pounds",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 14.96,
+      "rating": 5.0,
+      "review_count": 2,
+      "url": "https://www.walmart.com/ip/Command-Large-White-Utility-Hook-Value-Pack-6-Hooks-12-Strips-holds-up-to-5-pounds/15232722329",
+      "sku": "15232722329",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 5,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694443",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "728106",
+      "name": "3 lbs. Medium White Utility Hooks (2-Hooks, 4-Strips)",
+      "brand": "Command",
+      "retailer": "Home Depot",
+      "price": 3.93,
+      "rating": 4.4,
+      "review_count": 427,
+      "url": "https://www.homedepot.com/p/Command-3-lbs-Medium-White-Utility-Hooks-2-Hooks-4-Strips-17001ES/100353668",
+      "sku": "728106",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 3,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695243",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "f72f5a32-fd64-4de0-950c-92dbd7e2d668",
+      "name": "Command 2pk X-Large Matte Black Triple Hook",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 16.89,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-2pk-extra-large-matte-black-triple-hook/-/A-94474014#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696577",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "e41cf408-bd30-4101-8a19-8c3afd8d37c7",
+      "name": "Command Broom & Mop Gripper 2 Grippers - 4 Strips/Pack",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 14.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-broom-38-mop-gripper-2-grippers-4-strips-pack/-/A-47981908#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696592",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2ef6cd3d-b7a2-4b0e-8818-f7443fcca649",
+      "name": "### [![Image 34: Command 16ct Damage-Free Hanging Outdoor Light Clips with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_3e1d1367-9fc6-47ab-a8ee-210631f136f4?qlt=65&fmt=webp&hei=350&wid=350) ![Image 35: Command 16ct Damage-Free Hanging Outdoor Light Clips with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_1c95b34f-3046-4f91-a417-cc64a413f884?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-16-clips-20-strips-outdoor-light-clips-with-foam-all-weather-strips-decorative-hooks-clear/-/A-14769162#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 6.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-16-clips-20-strips-outdoor-light-clips-with-foam-all-weather-strips-decorative-hooks-clear/-/A-14769162#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696602",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "eb0e0a30-d099-45a2-b0ef-3b6cefbc6274",
+      "name": "Command Damage-Free Medium 2 Hooks and 4 Strips",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 12.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-damage-free-medium-2-hooks-and-4-strips/-/A-94788352?preselect=94474000#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696620",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "d6f74805-6de7-4875-ab17-4df1f96fea87",
+      "name": "### [![Image 48: Command Jumbo Double Hook: Heavy Duty Adhesive Hooks, 15 lb Capacity, White, 2 Pack](https://target.scene7.com/is/image/Target/GUEST_fdc6f63b-d944-4bca-a796-6b4f171418b3?qlt=65&fmt=webp&hei=350&wid=350) ![Image 49: Command Jumbo Double Hook: Heavy Duty Adhesive Hooks, 15 lb Capacity, White, 2 Pack](https://target.scene7.com/is/image/Target/GUEST_12ba8920-ef9a-4f84-9e3c-5aa66c7a3373?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-jumbo-double-hook/-/A-84891498#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 6.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-jumbo-double-hook/-/A-84891498#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 15,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696630",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "f431cbd7-7a41-4db0-a33d-ea8c0899167f",
+      "name": "### [![Image 50: Command Refill Strips Tape: 3M Command Hook Refills, Adhesive Hooks, White, 16 Pack, 4 lb Capacity](https://target.scene7.com/is/image/Target/GUEST_b18aa3a4-5a07-4408-84c2-d11909361642?qlt=65&fmt=webp&hei=350&wid=350) ![Image 51: Command Refill Strips Tape: 3M Command Hook Refills, Adhesive Hooks, White, 16 Pack, 4 lb Capacity](https://target.scene7.com/is/image/Target/GUEST_6724b828-64a3-48e7-98c3-07e60040fc6c?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-refill-strips-tape/-/A-14436958#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 4.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-refill-strips-tape/-/A-14436958#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 4,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696635",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "a4a9a0dc-ba39-48f2-80d8-b299ddd87397",
+      "name": "### [![Image 52: Command Refill Strips White: Adhesive Hooks, Plastic, 16 Pack, Max 5 lb Capacity](https://target.scene7.com/is/image/Target/GUEST_2da28ed3-eafb-4b7a-a5e4-a24f43d42e10?qlt=65&fmt=webp&hei=350&wid=350) ![Image 53: Command Refill Strips White: Adhesive Hooks, Plastic, 16 Pack, Max 5 lb Capacity](https://target.scene7.com/is/image/Target/GUEST_551b00d3-9857-476d-8224-9137d5261d1c?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-refill-strips-8-small-4-medium-4-large-white/-/A-13713711#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.69,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-refill-strips-8-small-4-medium-4-large-white/-/A-13713711#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "white",
+        "weight_capacity_lbs": 5,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696640",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "9a4f593d-6fd5-4888-8070-08dcf0774f8e",
+      "name": "### [![Image 56: Command Damage-Free Hanging Medium Wire Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_21220b1b-1e5c-413f-bfb5-5b70ab3ef980?qlt=65&fmt=webp&hei=350&wid=350) ![Image 57: Command Damage-Free Hanging Medium Wire Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_b99fd065-41c6-4a64-b05d-27462cf7c6b9?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-medium-sized-wire-toggle-hooks-value-pack-white/-/A-47974085#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 6.29,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-medium-sized-wire-toggle-hooks-value-pack-white/-/A-47974085#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696649",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "26b5834c-1459-4447-af10-e52050e37945",
+      "name": "### [![Image 58: Command Damage-Free Hanging Medium Utility Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_a0e2ec7c-a832-4c9b-ac35-e732bfc944b6?qlt=65&fmt=webp&hei=350&wid=350) ![Image 59: Command Damage-Free Hanging Medium Utility Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_a7c742d3-bff4-4be7-8cb4-d2ed40b7b389?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-6-hooks-12-strips-medium-sized-utility-hooks-value-pack-white/-/A-14887336#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 6.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-6-hooks-12-strips-medium-sized-utility-hooks-value-pack-white/-/A-14887336#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696654",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "4bca5da2-4cb9-4f6d-9f4a-e13dcb6814ec",
+      "name": "### [![Image 24: Command Extra Large Satin Brass Triple Hook](https://target.scene7.com/is/image/Target/GUEST_79c063f7-babd-4049-bc3d-6d9bba4ed357?qlt=65&fmt=webp&hei=350&wid=350) ![Image 25: Command Extra Large Satin Brass Triple Hook](https://target.scene7.com/is/image/Target/GUEST_93c719de-f73a-4704-b01b-621f2a2b885f?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-extra-large-satin-brass-triple-hook/-/A-94474007#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 9.59,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-extra-large-satin-brass-triple-hook/-/A-94474007#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696659",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "5e3348e7-6370-4dc4-a110-4181fdff9c65",
+      "name": "Command Damage-Free Medium 6 Wire Hooks and 8 Strips",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 10.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-damage-free-medium-6-wire-hooks-and-8-strips/-/A-94788350?preselect=94474011#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696665",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "d334a901-64b4-41f3-9b10-f0cf824666ea",
+      "name": "### [![Image 30: Command Medium Satin Brass Damage-Free Hook](https://target.scene7.com/is/image/Target/GUEST_fb87f309-4528-4a39-b428-d0ef928c84c0?qlt=65&fmt=webp&hei=350&wid=350) ![Image 31: Command Medium Satin Brass Damage-Free Hook](https://target.scene7.com/is/image/Target/GUEST_fb76e599-ca66-4fc2-90e7-8bcf043ec722?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-medium-satin-brass-wire-hooks/-/A-94474008#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-medium-satin-brass-wire-hooks/-/A-94474008#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696670",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "7ac1e5e4-ae11-427d-851b-785ef3bbda39",
+      "name": "### [![Image 32: Command Extra Large Satin Nickel Triple Hook: Heavy Duty Adhesive Towel Holder, Plastic, Clear, 6.7\" Height, 1 Pack](https://target.scene7.com/is/image/Target/GUEST_fafcfa5a-46cd-424f-a285-ea52f4fd879c?qlt=65&fmt=webp&hei=350&wid=350) ![Image 33: Command Extra Large Satin Nickel Triple Hook: Heavy Duty Adhesive Towel Holder, Plastic, Clear, 6.7\" Height, 1 Pack](https://target.scene7.com/is/image/Target/GUEST_d2bd27a5-785c-4363-a591-b8b762e7d381?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-extra-large-satin-nickel-triple-hook/-/A-90147756#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 6.29,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-extra-large-satin-nickel-triple-hook/-/A-90147756#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696675",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "fbed9ba9-a82c-4864-a3e4-da483c895162",
+      "name": "Command Large Sized Decorative Hooks with Strips Value Clear: Adhesive Hooks for Wreaths & Stockings, Heavy Duty, 4 lb Capacity",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 8.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-large-sized-decorative-hooks-with-strips-value-clear/-/A-14768683#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 4,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696680",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "d550bc41-08ca-4394-a19a-3a0cfc5f8ab9",
+      "name": "### [![Image 36: Command Strips Small Sized Designer Hooks White: Adhesive Wall Hooks, Plastic, 1 lb Capacity, 8 Pack](https://target.scene7.com/is/image/Target/GUEST_28747715-8d73-4a07-b2e8-d253e2699fce?qlt=65&fmt=webp&hei=350&wid=350) ![Image 37: Command Strips Small Sized Designer Hooks White: Adhesive Wall Hooks, Plastic, 1 lb Capacity, 8 Pack](https://target.scene7.com/is/image/Target/GUEST_d664ff35-27df-43dc-9aa6-f64c37e723d7?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-strips-small-sized-designer-hooks-white/-/A-16796684#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 8.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-strips-small-sized-designer-hooks-white/-/A-16796684#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "white",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696686",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "48a10a38-de63-444a-9605-99e356343661",
+      "name": "Command 2pk X-Large Satin Nickel Triple Hook",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 21.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-2pk-extra-large-satin-nickel-triple-hook/-/A-94474006#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696698",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "402bb4d0-1869-4c8e-83eb-95501d55399f",
+      "name": "### [![Image 50: Command JSticky Nail Wire Back Hanger White: Adhesive Hooks, Metal, 8 lb Capacity, Light Silver, 1 Pack](https://target.scene7.com/is/image/Target/GUEST_98615bab-011c-4c48-a44d-748a82a95f48?qlt=65&fmt=webp&hei=350&wid=350) ![Image 51: Command JSticky Nail Wire Back Hanger White: Adhesive Hooks, Metal, 8 lb Capacity, Light Silver, 1 Pack](https://target.scene7.com/is/image/Target/GUEST_6ea307e1-c92d-43ef-b2f4-677d55117b8b?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-jumbo-universal-picture-hanger-white/-/A-13713764#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.89,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-jumbo-universal-picture-hanger-white/-/A-13713764#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "white",
+        "weight_capacity_lbs": 8,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696708",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "553eff35-52b9-4079-abf2-2f9b421eb9af",
+      "name": "### [![Image 52: Command Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_80f5a6d1-fcbc-44c5-8848-bc976bc92b2c?qlt=65&fmt=webp&hei=350&wid=350) ![Image 53: Command Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_fb113db9-0b7f-483d-8b90-dc2148d8bfbf?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-12-hooks-16-strips-clear-mini-decorative-hooks/-/A-14771784#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 7.29,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-12-hooks-16-strips-clear-mini-decorative-hooks/-/A-14771784#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696713",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "2378df25-57c4-47b2-aaa9-379b7426a81e",
+      "name": "Command 6 Hooks 12 Strips Small Sized UtilityDecorative Hooks Value Pack White: Adhesive Wall Hooks, 1 lb Capacity",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 8.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-6-hooks-12-strips-small-sized-utilitydecorative-hooks-value-pack-white/-/A-14790631#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696718",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3c5587f5-d1f7-474c-87b0-f6f5edc3c1e7",
+      "name": "### [![Image 56: Command Extra Large Satin Brass Triple Hook](https://target.scene7.com/is/image/Target/GUEST_79c063f7-babd-4049-bc3d-6d9bba4ed357?qlt=65&fmt=webp&hei=350&wid=350) ![Image 57: Command Extra Large Satin Brass Triple Hook](https://target.scene7.com/is/image/Target/GUEST_93c719de-f73a-4704-b01b-621f2a2b885f?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-extra-large-satin-brass-triple-hook/-/A-94474007#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 9.59,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-extra-large-satin-brass-triple-hook/-/A-94474007#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696723",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "b835378a-29c5-4228-bdef-5c2d2bfdeb6c",
+      "name": "### [![Image 58: Command Large Utility Hooks Value Pack](https://target.scene7.com/is/image/Target/GUEST_33454d61-69d9-46a7-89af-d04e3f90e913?qlt=65&fmt=webp&hei=350&wid=350) ![Image 59: Command Large Utility Hooks Value Pack](https://target.scene7.com/is/image/Target/GUEST_308ea7e5-ac1e-4a0c-ba36-7494bc723550?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-6-hooks-12-strips-large-sized-utility-decorative-hooks-value-pack-white/-/A-13281824#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 8.88,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-6-hooks-12-strips-large-sized-utility-decorative-hooks-value-pack-white/-/A-13281824#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696728",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "4e5e6879-199b-4aef-b181-d5861aa6ec54",
+      "name": "### [![Image 60: Command Cord Bundlers: Adhesive Hooks for Cable Management, Plastic, White, 2-Pack](https://target.scene7.com/is/image/Target/GUEST_47d729de-a491-42b9-b784-c1ba89cf0274?qlt=65&fmt=webp&hei=350&wid=350) ![Image 61: Command Cord Bundlers: Adhesive Hooks for Cable Management, Plastic, White, 2-Pack](https://target.scene7.com/is/image/Target/GUEST_bf97855c-5a1b-4819-a591-d5e7e5fec523?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-cord-bundlers/-/A-90147752#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-cord-bundlers/-/A-90147752#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "white",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696733",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "f47fc0d4-dacc-476b-bf49-8069249342b8",
+      "name": "Command Damage-Free Medium Wire Hooks and Strips",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 10.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-damage-free-medium-6-wire-hooks-and-8-strips/-/A-94788355?preselect=94474022#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696738",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "fe23be48-d3ab-4193-bcb5-da44ddcc7027",
+      "name": "### [![Image 29: Command 2pk Small Satin Brass Damage-Free Hooks](https://target.scene7.com/is/image/Target/GUEST_3c649f7a-910e-4372-a36e-0859ca7f2cec?qlt=65&fmt=webp&hei=350&wid=350) ![Image 30: Command 2pk Small Satin Brass Damage-Free Hooks](https://target.scene7.com/is/image/Target/GUEST_479021a8-b82b-4f07-bc28-1e440998d16b?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-small-satin-brass-wire-hooks/-/A-94474019#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-small-satin-brass-wire-hooks/-/A-94474019#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696743",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "b6005252-c832-4700-9e12-81ba0f9108e1",
+      "name": "Command 2pk Medium Satin Brass Damage-Free Hooks",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 12.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-medium-satin-brass-finish-wire-hooks/-/A-94474005#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696748",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1f504143-bca5-4edb-be94-732ae06278b8",
+      "name": "### [![Image 33: Command Medium Sized Wire Toggle Decorative Hook Clear: Adhesive Hooks, 2 Pack, 2 lb Capacity, Plastic, 2.169\" Height](https://target.scene7.com/is/image/Target/GUEST_a0a69a86-e1cb-46b6-a06f-6221ecbc0ea2?qlt=65&fmt=webp&hei=350&wid=350) ![Image 34: Command Medium Sized Wire Toggle Decorative Hook Clear: Adhesive Hooks, 2 Pack, 2 lb Capacity, Plastic, 2.169\" Height](https://target.scene7.com/is/image/Target/GUEST_9a6054b4-2c26-4c24-9dc7-c4aab366e290?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-medium-sized-wire-toggle-decorative-hook-clear/-/A-47974253#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-medium-sized-wire-toggle-decorative-hook-clear/-/A-47974253#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": 2,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696753",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "0160f076-6124-421c-b460-aea8937233e0",
+      "name": "### [![Image 39: Command Mega Pack Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_2afcfc04-7093-4172-96e8-748d5fef4f3b?qlt=65&fmt=webp&hei=350&wid=350) ![Image 40: Command Value Pack Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_fb113db9-0b7f-483d-8b90-dc2148d8bfbf?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-mini-hooks-clear/-/A-87933416#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 17.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-mini-hooks-clear/-/A-87933416#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696768",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "03b63789-2b64-4086-b31a-3b1b998544ef",
+      "name": "### [![Image 41: Command Value Pack Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_13271a88-9f6f-44d4-9a7e-afa0928ece46?qlt=65&fmt=webp&hei=350&wid=350) ![Image 42: Command Value Pack Damage-Free Hanging Clear Mini Hooks with Adhesive Strips](https://target.scene7.com/is/image/Target/GUEST_fb113db9-0b7f-483d-8b90-dc2148d8bfbf?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-mini-decorative-hooks-with-strips-clear/-/A-47981050#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 9.28,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-mini-decorative-hooks-with-strips-clear/-/A-47981050#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696783",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "dc37e6ff-64a6-4488-bcaa-5f442a1570d2",
+      "name": "### [![Image 43: Command Medium Satin Brass Damage-Free Hook](https://target.scene7.com/is/image/Target/GUEST_fb87f309-4528-4a39-b428-d0ef928c84c0?qlt=65&fmt=webp&hei=350&wid=350) ![Image 44: Command Medium Satin Brass Damage-Free Hook](https://target.scene7.com/is/image/Target/GUEST_fb76e599-ca66-4fc2-90e7-8bcf043ec722?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-medium-satin-brass-wire-hooks/-/A-94474008#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 3.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-medium-satin-brass-wire-hooks/-/A-94474008#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696787",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "04f45437-d65e-4ba7-b507-3a9bfb2390dd",
+      "name": "Command Small Sized Wire Hooks (4 Hooks/5 Strips) - Clear: Adhesive Wall Hooks, Plastic, 0.5 lb Capacity, 1.18\" Height",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 5.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-small-sized-wire-hooks-4-hooks-5-strips-clear/-/A-51714533#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": 5,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696811",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "ced2de58-09b3-45bc-a909-7b54075e256c",
+      "name": "Command 10pk Small Stainless Steel Hooks: Adhesive Hat & Comando Hooks, 0.5 lb Capacity, Silver, Metal, 90-Day Warranty",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 12.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-10pk-small-stainless-steel-hooks/-/A-81531980#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": 5,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696820",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "8892d0d6-21c4-44b6-a25b-bc211df4869e",
+      "name": "### [![Image 57: Command and CLAW Picture Hanging Bundle, 3 45lb Hangers, 3 Markers and 10 Command 10lb Medium Picture Hanging Strips](https://target.scene7.com/is/image/Target/GUEST_afb4ada0-56a5-49df-858b-2e099fa170a9?qlt=65&fmt=webp&hei=350&wid=350) ![Image 58: Command and CLAW Picture Hanging Bundle, 3 45lb Hangers, 3 Markers and 10 Command 10lb Medium Picture Hanging Strips](https://target.scene7.com/is/image/Target/GUEST_cc79a047-af22-4a64-874d-e4a0b9e1c7ba?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/comma-hanging-solutions-kit/-/A-90147766#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 10.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/comma-hanging-solutions-kit/-/A-90147766#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 45,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696825",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "b0e904a8-c4d1-4479-b901-1369b266e3d7",
+      "name": "Command Limited Addition Holiday Mixed Hooks Pack Soot 10 Hooks 12 Strips: Plastic Adhesive Hooks & Hangers, 10 Pack",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 9.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-limited-addition-holiday-mixed-hooks-pack-stmhp-10esf-soot-10-hooks-12-strips/-/A-92502774#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696855",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "318f5485-4d4b-4007-b2f7-f05b6fb16f8c",
+      "name": "### [![Image 26: Command Limited Addition Holiday Mixed Hooks Pack Sage 10 Hooks 12 Strips: Plastic Adhesive Hangers, 10 Pack](https://target.scene7.com/is/image/Target/GUEST_269dab06-b8b9-4287-bd8a-5503f347c8d0?qlt=65&fmt=webp&hei=350&wid=350) ![Image 27: Command Limited Addition Holiday Mixed Hooks Pack Sage 10 Hooks 12 Strips: Plastic Adhesive Hangers, 10 Pack](https://target.scene7.com/is/image/Target/GUEST_7c068ec1-fdb8-4090-9f35-8b802e1895eb?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/command-mixed-hooks-pack-sgmhp-10esf-sage-10-hooks-12-strips/-/A-92502775#lnk=sametab)",
+      "brand": "Command",
+      "retailer": "Unknown",
+      "price": 9.79,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/command-mixed-hooks-pack-sgmhp-10esf-sage-10-hooks-12-strips/-/A-92502775#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696997",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1064963055",
+      "name": "Command Medium Utility Hooks, Damage Free Hanging Wall Hooks with Adhesive Strips, No Tools Wall Hooks for Hanging Organizational Items in Living Spaces, 20 White Hooks and 24 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 24.5,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Medium-Utility-Hooks-Damage-Free-Hanging-Wall-Hooks-Adhesive-Strips-Tools-Wall-Hooks-Hanging-Organizational-Items-Living-Spaces-20-White-Hook/1064963055",
+      "sku": "1064963055",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.785519",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "15334321548",
+      "name": "(3 pack) Command Large Utility Hooks, White, Damage Free Decorating, 6 Hooks and 12 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 27.84,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/3-pack-Command-Large-Utility-Hooks-White-Damage-Free-Decorating-6-Hooks-and-12-Command-Strips/15334321548",
+      "sku": "15334321548",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.788614",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "868541786",
+      "name": "Command Utility Hooks, 3 hooks, 6 strips, Indoor Use, Organize Damage-Free 17003-3ES",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 13.71,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Utility-Hooks-3-hooks-6-strips-Indoor-Use-Organize-Damage-Free-17003-3ES/868541786",
+      "sku": "868541786",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.788630",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "684026161",
+      "name": "Command 023202 Reusable Utility Hook With Removable Adhesive Strips&#44; Large",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 16.65,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-023202-Reusable-Utility-Hook-With-Removable-Adhesive-Strips-44-Large/684026161",
+      "sku": "684026161",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.788651",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "15568857989",
+      "name": "(3 pack) Command Large Utility Hooks, White, Damage Free Decorating, 14 Hooks and 16 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 65.22,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/3-pack-Command-Large-Utility-Hooks-White-Damage-Free-Decorating-14-Hooks-and-16-Command-Strips/15568857989",
+      "sku": "15568857989",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.788709",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "921423805",
+      "name": "Command Small Utility Hooks, 2-Hook, 6-Pack, Organize your dorm",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 32.35,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Small-Utility-Hooks-2-Hook-6-Pack-Organize-your-dorm/921423805",
+      "sku": "921423805",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.788880",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "481908228",
+      "name": "Command 1 lb Capacity Utility Hooks, 6 hooks, 12 strips, Indoor Use 17002-6ES",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 13.26,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-1-lb-Capacity-Utility-Hooks-6-hooks-12-strips-Indoor-Use-17002-6ES/481908228",
+      "sku": "481908228",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789103",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "15370560505",
+      "name": "(3 pack) Command Medium Utility Hooks, White, Damage Free Organizing, 8 Hooks and 16 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 26.64,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/3-pack-Command-Medium-Utility-Hooks-White-Damage-Free-Organizing-8-Hooks-and-16-Command-Strips/15370560505",
+      "sku": "15370560505",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.790515",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "15044255460",
+      "name": "(2 pack) Command Large Utility Hook, White, Damage Free Decorating, 1 Hook and 2 Command Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 6.56,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/2-pack-Command-Large-Utility-Hook-White-Damage-Free-Decorating-1-Hook-and-2-Command-Strips/15044255460",
+      "sku": "15044255460",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.790910",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "473063514",
+      "name": "Command Large Utility Hook, White, 4-Hook, 8-Strips",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 17.57,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Large-Utility-Hook-White-4-Hook-8-Strips/473063514",
+      "sku": "473063514",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.791364",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "775453700",
+      "name": "Command Large Utility Hook, White, 1-Hook, 2-Strips 17003ES, 2 Pack",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 19.42,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Large-Utility-Hook-White-1-Hook-2-Strips-17003ES-2-Pack/775453700",
+      "sku": "775453700",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.794317",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "16232612683",
+      "name": "Command Large Utility Hook Mega Pack, White, 14-Hooks, 16-Strips, Organize Damage-Free",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 39.2,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Command-Large-Utility-Hook-Mega-Pack-White-14-Hooks-16-Strips-Organize-Damage-Free/16232612683",
+      "sku": "16232612683",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.796859",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "17350809470",
+      "name": "Large Utility Hook Mega Pack, White, 14-Hooks, 16-Strips, Organize Damage-Free",
+      "brand": "Command",
+      "retailer": "Walmart",
+      "price": 28.69,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Large-Utility-Hook-Mega-Pack-White-14-Hooks-16-Strips-Organize-Damage-Free/17350809470",
+      "sku": "17350809470",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.797414",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    }
+  ]
+}

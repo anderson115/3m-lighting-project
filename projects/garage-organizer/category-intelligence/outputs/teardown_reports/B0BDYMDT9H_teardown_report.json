@@ -1,0 +1,61 @@
+{
+  "product": {
+    "rank": 17,
+    "asin": "B0BDYMDT9H",
+    "title": "IMILLET Mop and Broom Holder, Wall Mounted Organizer-Mop and broom Storage Tool Rack with 5 Ball Slots and 6 Hooks (Black)",
+    "brand": "IMILLET",
+    "price": 16.59,
+    "bsr": 1818,
+    "estimated_monthly_sales": 1227,
+    "total_reviews": 13523,
+    "avg_rating": 4.6,
+    "amazon_url": "https://www.amazon.com/dp/B0BDYMDT9H"
+  },
+  "analysis": {
+    "videos_analyzed": 7,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 18,
+        "coatings/rubber": 5,
+        "metals/stainless_steel": 5,
+        "plastics/abs": 2,
+        "plastics/generic_plastic": 2
+      },
+      "all_materials": {
+        "plastics/abs": 2,
+        "coatings/rubber": 5,
+        "metals/steel": 18,
+        "metals/stainless_steel": 5,
+        "plastics/generic_plastic": 2,
+        "adhesives/generic_adhesive": 2,
+        "metals/zinc": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": true
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        22,
+        30,
+        50,
+        300,
+        550
+      ],
+      "max_mentioned": 550,
+      "avg_mentioned": 147.42857142857142
+    },
+    "value_perception": {
+      "cheap": 2,
+      "expensive": 1
+    }
+  }
+}

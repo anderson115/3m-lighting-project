@@ -1,0 +1,40 @@
+{
+  "product": {
+    "rank": 14,
+    "asin": "B0DL697124",
+    "title": "Extension Cord Holder Organizer(4 Pack L), Extension Cord Hanger for Garage Organization and Storage, 16-Inch Heavy Duty Storage Straps, Garage Gadgets for Men",
+    "brand": "ZTSXLLIM",
+    "price": 8.99,
+    "bsr": 845,
+    "estimated_monthly_sales": 810,
+    "total_reviews": 5100,
+    "avg_rating": 4.7,
+    "amazon_url": "https://www.amazon.com/dp/B0DL697124"
+  },
+  "analysis": {
+    "videos_analyzed": 6,
+    "materials": {
+      "primary_materials": {
+        "plastics/nylon": 1
+      },
+      "all_materials": {
+        "plastics/nylon": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {},
+      "primary_method": null
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [],
+      "max_mentioned": null,
+      "avg_mentioned": null
+    },
+    "value_perception": {}
+  }
+}

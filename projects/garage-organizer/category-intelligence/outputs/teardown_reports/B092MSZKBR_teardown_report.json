@@ -1,0 +1,53 @@
+{
+  "product": {
+    "rank": 16,
+    "asin": "B092MSZKBR",
+    "title": "Garage Hooks Heavy Duty, 12 Pack Anti-Slip Coating Garage Wall Storage Hooks for Hanging Bike, Ladder, Garden Tools",
+    "brand": "KOFANI",
+    "price": 23.99,
+    "bsr": 1383,
+    "estimated_monthly_sales": 1292,
+    "total_reviews": 2525,
+    "avg_rating": 4.8,
+    "amazon_url": "https://www.amazon.com/dp/B092MSZKBR"
+  },
+  "analysis": {
+    "videos_analyzed": 8,
+    "materials": {
+      "primary_materials": {
+        "metals/steel": 21,
+        "coatings/rubber": 12,
+        "plastics/pvc": 4,
+        "plastics/generic_plastic": 1,
+        "coatings/powder_coat": 1
+      },
+      "all_materials": {
+        "metals/steel": 21,
+        "plastics/pvc": 4,
+        "plastics/generic_plastic": 1,
+        "coatings/powder_coat": 1,
+        "coatings/rubber": 12,
+        "plastics/nylon": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {
+        "fasteners": 3
+      },
+      "primary_method": "fasteners"
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        100
+      ],
+      "max_mentioned": 100,
+      "avg_mentioned": 100.0
+    },
+    "value_perception": {}
+  }
+}

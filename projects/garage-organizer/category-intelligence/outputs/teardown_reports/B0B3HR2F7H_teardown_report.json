@@ -1,0 +1,48 @@
+{
+  "product": {
+    "rank": 3,
+    "asin": "B0B3HR2F7H",
+    "title": "Large Adhesive Hooks for Hanging Heavy Duty Wall Hooks Self Adhesive Towel Coat Hooks Waterproof Transparent Hook for Bathroom Shower Kitchen Keys Door Outdoor Home Improvement Utility Hook 8 Pack",
+    "brand": "JINSHUNFA",
+    "price": 11.99,
+    "bsr": 137,
+    "estimated_monthly_sales": 2226,
+    "total_reviews": 47691,
+    "avg_rating": 4.5,
+    "amazon_url": "https://www.amazon.com/dp/B0B3HR2F7H"
+  },
+  "analysis": {
+    "videos_analyzed": 2,
+    "materials": {
+      "primary_materials": {
+        "adhesives/3m_tape": 6,
+        "coatings/rubber": 6,
+        "plastics/generic_plastic": 2,
+        "coatings/paint": 1
+      },
+      "all_materials": {
+        "plastics/generic_plastic": 2,
+        "adhesives/3m_tape": 6,
+        "coatings/rubber": 6,
+        "coatings/paint": 1
+      }
+    },
+    "construction": {
+      "methods_mentioned": {},
+      "primary_method": null
+    },
+    "quality_signals": {
+      "positive": {},
+      "negative": {},
+      "overall_sentiment": "negative"
+    },
+    "weight_capacity": {
+      "mentioned_capacities_lbs": [
+        10
+      ],
+      "max_mentioned": 10,
+      "avg_mentioned": 10.0
+    },
+    "value_perception": {}
+  }
+}

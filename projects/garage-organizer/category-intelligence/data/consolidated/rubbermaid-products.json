@@ -1,0 +1,1974 @@
+{
+  "brand": "Rubbermaid",
+  "total_products": 78,
+  "products": [
+    {
+      "product_id": "B07L19L8MK",
+      "name": "Rubbermaid FastTrack Rail Garage Organization Multi-Purpose Hook 50 lbs Capacity Satin Nickel Wall Mounted Storage System Direct Mount into FastTrack Garage Rail for Home/Garage Organization",
+      "brand": "Rubbermaid",
+      "retailer": "Amazon",
+      "price": 15.5,
+      "rating": 4.8,
+      "review_count": 6303,
+      "url": "https://www.amazon.com/Rubbermaid-1784459-Fasttrack-Multi-Purpose-Hook/dp/B0009JQRYA?th=1&psc=1&language=en_US&currency=USD",
+      "sku": "B07L19L8MK",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ],
+        "seller": "Amazon.com",
+        "availability": "In Stock"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.691458",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "B0FLKH82N3",
+      "name": "Rubbermaid FastTrack Garage Storage Utility Hooks 5 Piece Black All in One Rail Hook Kit and Tool Organizer Heavy Duty for Home/Garage/Shed/Garden",
+      "brand": "Rubbermaid",
+      "retailer": "Amazon",
+      "price": 36.05,
+      "rating": 4.7,
+      "review_count": 1154,
+      "url": "https://www.amazon.com/Rubbermaid-FastTrack-Storage-5-Piece-1784417/dp/B003VTZ700?th=1&psc=1&language=en_US&currency=USD",
+      "sku": "B0FLKH82N3",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ],
+        "seller": "Amazon.com",
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.691623",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "B085LQ5N1T",
+      "name": "Rubbermaid 1784456 FastTrack Wall Mounted Rope, Hose, or Tool Garage Storage Utility Hook, Supports Up to 25 Pounds Each (4 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Amazon",
+      "price": 45.29,
+      "rating": 4.7,
+      "review_count": 92,
+      "url": "https://www.amazon.com/Rubbermaid-1784456-Mounted-Storage-Utility/dp/B085LQ5N1T?th=1&psc=1&language=en_US&currency=USD",
+      "sku": "B085LQ5N1T",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 25,
+        "installation_type": "hook_hanger",
+        "categories": [
+          "Tools & Home Improvement",
+          "Storage & Home Organization",
+          "Garage Storage",
+          "System Attachments",
+          "Hooks"
+        ],
+        "seller": "Spreetail",
+        "availability": "In Stock"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.692190",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "38590970",
+      "name": "Rubbermaid Garage FastTrack 5-Piece Starter Kit, Black/Grey",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 36.05,
+      "rating": 4.3,
+      "review_count": 150,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-5-Piece-Starter-Kit-Black-Grey/38590970",
+      "sku": "38590970",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693555",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "111788719",
+      "name": "Rubbermaid Garage FastTrack 15-Piece Medium Kit, Black/Grey",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 139.99,
+      "rating": 4.1,
+      "review_count": 93,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-15-Piece-Medium-Kit-Hanging-Organizers-Black-Grey/111788719",
+      "sku": "111788719",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": 21,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693652",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "611074611",
+      "name": "Rubbermaid Garage FastTrack Rail Compact Hook Bundle, 3-Pack, Satin Nickel",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 19.98,
+      "rating": 4.9,
+      "review_count": 65,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Rail-Compact-Hook-Bundle-3-Pack-Satin-Nickel/611074611",
+      "sku": "611074611",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693710",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "488444469",
+      "name": "Rubbermaid Garage FastTrack Rail Multi-Purpose Hook Bundle, 2-Pack, Satin Nickel",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 20.98,
+      "rating": 4.9,
+      "review_count": 63,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Rail-Multi-Purpose-Hook-Bundle-2-Pack-Satin-Nickel/488444469",
+      "sku": "488444469",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693717",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "837404492",
+      "name": "Rubbermaid Garage FastTrack Bike Kit, 3-Piece Bike Kit, Black/Grey",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 37.98,
+      "rating": 4.8,
+      "review_count": 52,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Bike-Kit-3-Piece-Bike-Kit-Black-Grey/837404492",
+      "sku": "837404492",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693746",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "757968524",
+      "name": "Rubbermaid Garage FastTrack Rail Dual Handle Hook Bundle, 2-Pack, Satin Nickel",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 12.98,
+      "rating": 4.41,
+      "review_count": 44,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Rail-Dual-Handle-Hook-Bundle-2-Pack-Satin-Nickel/757968524",
+      "sku": "757968524",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693811",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "146811451",
+      "name": "Rubbermaid FastTrack Garage Storage System All-in-One Rail & Hook Kit, 5-Piece, (1784417),Black",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 78.55,
+      "rating": 3.15,
+      "review_count": 34,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-System-All-in-One-Rail-Hook-Kit-5-Piece-1784417-Black/146811451",
+      "sku": "146811451",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693905",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "8112319",
+      "name": "Rubbermaid Garage FastTrack\u00ae Rail Multi-Purpose Hook, Satin Nickel",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 15.5,
+      "rating": 4.74,
+      "review_count": 31,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Rail-Multi-Purpose-Hook-Satin-Nickel/8112319",
+      "sku": "8112319",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693927",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "8112311",
+      "name": "Rubbermaid FastTrack Garage Storage Wall Mounted Power Tool Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 19.99,
+      "rating": 4.69,
+      "review_count": 29,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-Wall-Mounted-Power-Tool-Hook/8112311",
+      "sku": "8112311",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": 15,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.693939",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "410170864",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (2 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 35.69,
+      "rating": 4.96,
+      "review_count": 28,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-2-Pack/410170864",
+      "sku": "410170864",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": 64,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694086",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "38590972",
+      "name": "Rubbermaid FastTrack Garage Storage Wall Mounted Metallic Compact Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 8.09,
+      "rating": 4.93,
+      "review_count": 28,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-Wall-Mounted-Metallic-Compact-Hook/38590972",
+      "sku": "38590972",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694089",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "19869111",
+      "name": "Rubbermaid Fast Track Garage Storage Wall Mounted Bike Hook, Vertical",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 24.99,
+      "rating": 4.11,
+      "review_count": 27,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Garage-Storage-Wall-Mounted-Bike-Hook-Vertical/19869111",
+      "sku": "19869111",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694104",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "780020046",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage Storage Utility Multi Hook (4 Pk)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 63.99,
+      "rating": 4.96,
+      "review_count": 25,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Storage-Utility-Multi-Hook-4-Pk/780020046",
+      "sku": "780020046",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": 59,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694128",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "8112316",
+      "name": "Rubbermaid FastTrack Garage Storage Wall Mounted Garage Dual Handle Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 24.99,
+      "rating": 3.73,
+      "review_count": 22,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-Wall-Mounted-Garage-Dual-Handle-Hook/8112316",
+      "sku": "8112316",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": 1,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694158",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "8112312",
+      "name": "Rubbermaid FastTrack Garage Storage Wall Mounted Ladder Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 13.2,
+      "rating": 4.88,
+      "review_count": 17,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-Wall-Mounted-Ladder-Hook/8112312",
+      "sku": "8112312",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": 9,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694212",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "778518573",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (4 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 65.99,
+      "rating": 5.0,
+      "review_count": 5,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-4-Pack/778518573",
+      "sku": "778518573",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694331",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "315478065",
+      "name": "Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (6 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 94.99,
+      "rating": 5.0,
+      "review_count": 3,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-6-Pack/315478065",
+      "sku": "315478065",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "silver",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694380",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "206212183",
+      "name": "Rubbermaid 2013152",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 79.58,
+      "rating": 3.0,
+      "review_count": 2,
+      "url": "https://www.walmart.com/ip/Rubbermaid-2013152/206212183",
+      "sku": "206212183",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694449",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "904390223",
+      "name": "Rubbermaid FastTrack Garage Storage Vertical Wall Hook Bike Rack (4 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 57.99,
+      "rating": 5.0,
+      "review_count": 1,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-Vertical-Wall-Hook-Bike-Rack-4-Pack/904390223",
+      "sku": "904390223",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694614",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "551200021",
+      "name": "Rubbermaid FastTrack Rail Garage Storage System Water Hose Hook, Black (2 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 40.29,
+      "rating": 5.0,
+      "review_count": 1,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Rail-Garage-Storage-System-Water-Hose-Hook-Black-2-Pack/551200021",
+      "sku": "551200021",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "black",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.694617",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "646436",
+      "name": "Fasttrack 48 in. Hang Rail, Wall Mounted Storage and Organization System Rail for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 16.47,
+      "rating": 4.7,
+      "review_count": 941,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-48-in-Hang-Rail-Wall-Mounted-Storage-and-Organization-System-Rail-for-Home-Garage-1784415/100498598",
+      "sku": "646436",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695167",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508527",
+      "name": "Fasttrack Garage Dual Handle Utility Hook,50 lbs. Capacity, Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 11.24,
+      "rating": 4.7,
+      "review_count": 247,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-Dual-Handle-Utility-Hook-50-lbs-Capacity-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784454/100387754",
+      "sku": "508527",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695370",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508414",
+      "name": "Fasttrack Garage Utility Hook, 50 lbs. Capacity, Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 14.98,
+      "rating": 4.8,
+      "review_count": 237,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-Utility-Hook-50-lbs-Capacity-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784461/100387751",
+      "sku": "508414",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695376",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "714447",
+      "name": "FastTrack Garage Silver Metallic Compact Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 8.09,
+      "rating": 4.7,
+      "review_count": 237,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Silver-Metallic-Compact-Hook-1784455/203419431",
+      "sku": "714447",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695379",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "714612",
+      "name": "FastTrack Garage Cooler Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 11.62,
+      "rating": 4.6,
+      "review_count": 235,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Cooler-Hook-1784456/203419433",
+      "sku": "714612",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695382",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508284",
+      "name": "Fasttrack Garage Ladder Utility Hook, 50 lbs. Capacity, Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 12.8,
+      "rating": 4.8,
+      "review_count": 233,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-Ladder-Utility-Hook-50-lbs-Capacity-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784458/100387748",
+      "sku": "508284",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695388",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508136",
+      "name": "Fasttrack Power Tool Holder Utility Hook, 50 lbs. Capacity, Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 9.98,
+      "rating": 4.8,
+      "review_count": 232,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Power-Tool-Holder-Utility-Hook-50-lbs-Capacity-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784460/100387747",
+      "sku": "508136",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695392",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508098",
+      "name": "Fasttrack Garage Vertical Single Bike Hook, Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 14.98,
+      "rating": 4.5,
+      "review_count": 224,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-Vertical-Single-Bike-Hook-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784463/100387745",
+      "sku": "508098",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695414",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1004547931",
+      "name": "Fasttrack Garage 7-Piece, All-in-One Rail and Hook Track System Kit, Wall Mounted Storage and Organization Solution",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 50.8,
+      "rating": 4.6,
+      "review_count": 221,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-7-Piece-All-in-One-Rail-and-Hook-Track-System-Kit-Wall-Mounted-Storage-and-Organization-Solution-2087482/309543748",
+      "sku": "1004547931",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695417",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "531588",
+      "name": "FastTrack Garage Rail Hardware Pack",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 3.0,
+      "rating": 4.1,
+      "review_count": 196,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Rail-Hardware-Pack-1784975/202868026",
+      "sku": "531588",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695446",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "508491",
+      "name": "FastTrack Garage Hose Hook",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 14.98,
+      "rating": 4.8,
+      "review_count": 175,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Hose-Hook-1785478/100387753",
+      "sku": "508491",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695496",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1003381064",
+      "name": "FastTrack Garage Storage Rail System All-In-1 Kit (8-piece)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 64.54,
+      "rating": 4.3,
+      "review_count": 129,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Storage-Rail-System-All-In-1-Kit-8-piece-2013151/306103839",
+      "sku": "1003381064",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695586",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1784415X3",
+      "name": "FastTrack Garage 48 in. Hang Rail (3-Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 30.99,
+      "rating": 4.8,
+      "review_count": 128,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-48-in-Hang-Rail-3-Pack-1784415X3/205876854",
+      "sku": "1784415X3",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695593",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1000714757",
+      "name": "Fasttrack Garage 24 in. H x 13.13 in. W Wire Mesh Basket,Wall Mounted Storage, Organization Track System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 21.98,
+      "rating": 4.3,
+      "review_count": 127,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-24-in-H-x-13-13-in-W-Wire-Mesh-Basket-Wall-Mounted-Storage-Organization-Track-System-for-Home-Garage-1784453/100387750",
+      "sku": "1000714757",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695598",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "496842",
+      "name": "Fasttrack Garage 16 in. Deep Shelf Bracket with Speed Clips, 350 lbs. Capacity,Wall Mounted Storage, Organization System",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 12.98,
+      "rating": 4.5,
+      "review_count": 118,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-16-in-Deep-Shelf-Bracket-with-Speed-Clips-350-lbs-Capacity-Wall-Mounted-Storage-Organization-System-FG5E20FTSNCKL/100387763",
+      "sku": "496842",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 350,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695628",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "737610",
+      "name": "FastTrack Garage 47.5 in. Upright Extension Track",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 16.47,
+      "rating": 4.2,
+      "review_count": 90,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-47-5-in-Upright-Extension-Track-1784367/100592310",
+      "sku": "737610",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695733",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "735345",
+      "name": "Fasttrack Garage Track System Upright 25 in. Wall Mounted Storage and Organization System for Home/Garage",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 11.17,
+      "rating": 4.5,
+      "review_count": 87,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Fasttrack-Garage-Track-System-Upright-25-in-Wall-Mounted-Storage-and-Organization-System-for-Home-Garage-1784365/100592309",
+      "sku": "735345",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.695779",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002757196",
+      "name": "FastTrack Garage Wall Storage Slat Panel System Paper Towel Holder",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 41.69,
+      "rating": 4.2,
+      "review_count": 40,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Wall-Storage-Slat-Panel-System-Paper-Towel-Holder-2001934/303077954",
+      "sku": "1002757196",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696222",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002832515",
+      "name": "Tough Stuff 20 in. Gray Shelf Bracket for Wire Shelving",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 9.98,
+      "rating": 3.7,
+      "review_count": 40,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Tough-Stuff-20-in-Gray-Shelf-Bracket-for-Wire-Shelving-1963396/303623564",
+      "sku": "1002832515",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696226",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002153470",
+      "name": "Tough Stuff 16 in. Gray Bracket",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 6.98,
+      "rating": 3.7,
+      "review_count": 38,
+      "url": "https://www.homedepot.com/p/Rubbermaid-Tough-Stuff-16-in-Gray-Bracket-1963395/300535127",
+      "sku": "1002153470",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696244",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002757194",
+      "name": "FastTrack Garage Wall Storage Magnetic Strip Slat Panel System",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 29.98,
+      "rating": 4.0,
+      "review_count": 36,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Wall-Storage-Magnetic-Strip-Slat-Panel-System-2001935/303077955",
+      "sku": "1002757194",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696254",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1004823377",
+      "name": "FastTrack Garage Accessory Hook Bundle (5-Piece)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 14.98,
+      "rating": 4.4,
+      "review_count": 34,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Accessory-Hook-Bundle-5-Piece-2078870/311277070",
+      "sku": "1004823377",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696278",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1004823379",
+      "name": "FastTrack Garage Accessory Tray Bundle (7-Piece)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 20.37,
+      "rating": 4.5,
+      "review_count": 29,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Accessory-Tray-Bundle-7-Piece-2078869/311277075",
+      "sku": "1004823379",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696344",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1010432842",
+      "name": "4.8 in H Fast Track Wall Mounted Garage/Garden Storage Utility Hook, 50 lbs. Load Capacity, Satin (2-Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 35.69,
+      "rating": 5.0,
+      "review_count": 28,
+      "url": "https://www.homedepot.com/p/Rubbermaid-4-8-in-H-Fast-Track-Wall-Mounted-Garage-Garden-Storage-Utility-Hook-50-lbs-Load-Capacity-Satin-2-Pack-2-x-1784461/323617998",
+      "sku": "1010432842",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": 50,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696354",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "1002757195",
+      "name": "FastTrack Garage Wall Storage Slat Panel System Cup Organizer",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 9.98,
+      "rating": 4.6,
+      "review_count": 20,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Wall-Storage-Slat-Panel-System-Cup-Organizer-2001936/303077956",
+      "sku": "1002757195",
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696548",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "58c30496-321b-46c3-9990-69ab4a2acbfa",
+      "name": "### [![Image 46: Rubbermaid FastTrack Wall Mounted Garage Storage Utility Multi Hook (4 Pack)](https://target.scene7.com/is/image/Target/GUEST_e8116230-0f51-41c4-be04-7b01a0c19bd2?qlt=65&fmt=webp&hei=350&wid=350) ![Image 47: Rubbermaid FastTrack Wall Mounted Garage Storage Utility Multi Hook (4 Pack)](https://target.scene7.com/is/image/Target/GUEST_d8b2785f-771b-4af7-9726-0a784f7e06d7?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-fasttrack-wall-mounted-garage-storage-utility-multi-hook-for-tools-chairs-hose-equipment-and-other-items-supports-50-lbs-each-4-pack/-/A-80311481#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 63.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-fasttrack-wall-mounted-garage-storage-utility-multi-hook-for-tools-chairs-hose-equipment-and-other-items-supports-50-lbs-each-4-pack/-/A-80311481#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696625",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "b7b035b9-b260-49c9-a74c-d94d2498bda8",
+      "name": "### [![Image 54: Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (4 Pack)](https://target.scene7.com/is/image/Target/GUEST_4da88220-0295-4f8d-9d09-a9d258f3a76e?qlt=65&fmt=webp&hei=350&wid=350) ![Image 55: Rubbermaid Fast Track Wall Mounted Garage/Garden Storage Utility Hook (4 Pack)](https://target.scene7.com/is/image/Target/GUEST_2b3080ed-8b64-40ae-b19f-e5cde7373f91?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-fast-track-wall-mounted-multi-purpose-garage-utility-hooks-for-tools-sports-equipment-and-gardening-supplies-satin-nickel-4-pack/-/A-80311485#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 65.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-fast-track-wall-mounted-multi-purpose-garage-utility-hooks-for-tools-sports-equipment-and-gardening-supplies-satin-nickel-4-pack/-/A-80311485#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.696645",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "ed6f1dac-739c-40d4-9dd4-979532f063e3",
+      "name": "### [![Image 19: Rubbermaid 20pc TakeAlongs Meal Prep Divided Rectangle Containers Set: Microwave & Freezer Safe, Lunch Containers](https://target.scene7.com/is/image/Target/GUEST_61a45259-5993-4769-a618-b37a1d51ba71?qlt=65&fmt=webp&hei=350&wid=350) ![Image 20: Rubbermaid 20pc TakeAlongs Meal Prep Divided Rectangle Containers Set: Microwave & Freezer Safe, Lunch Containers](https://target.scene7.com/is/image/Target/GUEST_73f77ed5-b2b4-4e79-9d8f-1ff647a029fc?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-20pc-takealongs-meal-prep-divided-rectangle-containers-set/-/A-76539604#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 12.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-20pc-takealongs-meal-prep-divided-rectangle-containers-set/-/A-76539604#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698343",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "a9ea9ef4-9805-4ada-ad72-1b717e1d509d",
+      "name": "### [![Image 25: Rubbermaid 4pk 5.2c TakeAlongs Deep Square Food Storage Containers Ruby Red: Plastic Containers with Lids, Dishwasher-Safe](https://target.scene7.com/is/image/Target/GUEST_a56d6ea0-8c61-40b6-b47f-b6669e950090?qlt=65&fmt=webp&hei=350&wid=350) ![Image 26: Rubbermaid 4pk 5.2c TakeAlongs Deep Square Food Storage Containers Ruby Red: Plastic Containers with Lids, Dishwasher-Safe](https://target.scene7.com/is/image/Target/GUEST_1e11caee-4a01-4a0a-942f-5cefe541ed9d?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-4pk-5-2c-takealongs-deep-square-food-storage-containers-ruby-red/-/A-90246025#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 4.79,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-4pk-5-2c-takealongs-deep-square-food-storage-containers-ruby-red/-/A-90246025#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "red",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698354",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "a8c81647-867f-4842-8cd7-fe9a8f0bbc81",
+      "name": "### [![Image 29: Rubbermaid 3.2 cup 2pk Brillance Food Storage Container: Clear Plastic, Microwave & Freezer Safe, Dishwasher Top-Rack Safe](https://target.scene7.com/is/image/Target/GUEST_76518eba-39c7-4d40-b123-7405a84e69ff?qlt=65&fmt=webp&hei=350&wid=350) ![Image 30: Rubbermaid 3.2 cup 2pk Brillance Food Storage Container: Clear Plastic, Microwave & Freezer Safe, Dishwasher Top-Rack Safe](https://target.scene7.com/is/image/Target/GUEST_12f9cdcf-2717-46a0-88ba-fdfe446b74f5?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-3-2-cup-2pk-brillance-food-storage-container/-/A-53493970#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 11.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-3-2-cup-2pk-brillance-food-storage-container/-/A-53493970#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698370",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "282491c1-d58a-4e76-b87f-a802b5d2cafc",
+      "name": "### [![Image 31: Rubbermaid TakeAlong 15.7 Cup Plastic 2pk Serving Bowls Clear: Food Storage Containers, Microwave & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_d778af2a-081e-447d-beca-87e61ad02276?qlt=65&fmt=webp&hei=350&wid=350) ![Image 32: Rubbermaid TakeAlong 15.7 Cup Plastic 2pk Serving Bowls Clear: Food Storage Containers, Microwave & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_d5dd70e9-e56d-475b-b23f-caa107996e88?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-takealong-15-7-cup-plastic-2pk-serving-bowls-clear/-/A-87886898#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 6.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-takealong-15-7-cup-plastic-2pk-serving-bowls-clear/-/A-87886898#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698377",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "40a657bc-cbb6-423d-ac1a-5d2c9efb2225",
+      "name": "### [![Image 33: Rubbermaid 1.3 cup 2pk Brillance Food Storage Container: Clear Plastic, Freezer & Microwave Safe, Dishwasher Safe, Lunch & Snack](https://target.scene7.com/is/image/Target/GUEST_e399c28d-4733-469b-874a-9865ac210dca?qlt=65&fmt=webp&hei=350&wid=350) ![Image 34: Rubbermaid 1.3 cup 2pk Brillance Food Storage Container: Clear Plastic, Freezer & Microwave Safe, Dishwasher Safe, Lunch & Snack](https://target.scene7.com/is/image/Target/GUEST_17772cb6-6701-4efb-b232-b10b3c8d4514?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-1-3-cup-2pk-brillance-food-storage-container/-/A-53494061#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 11.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-1-3-cup-2pk-brillance-food-storage-container/-/A-53494061#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698384",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "353c2e13-b280-4156-aed4-2a45513ef676",
+      "name": "### [![Image 45: Rubbermaid TakeAlong 2pk 1.1gal Plastic Rectangle Food Storage Containers - Ruby Red: Microwave & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_9b2a30c1-20bd-4260-905d-252556020556?qlt=65&fmt=webp&hei=350&wid=350) ![Image 46: Rubbermaid TakeAlong 2pk 1.1gal Plastic Rectangle Food Storage Containers - Ruby Red: Microwave & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_85f983fd-70af-4e47-a316-b9ab94fa62d0?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-takealong-2pk-1-1gal-plastic-rectangle-food-storage-containers-ruby-red/-/A-87886897#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 5.59,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-takealong-2pk-1-1gal-plastic-rectangle-food-storage-containers-ruby-red/-/A-87886897#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "red",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698411",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "a4cf14bd-7567-4973-b0a4-4e73230f6c21",
+      "name": "### [![Image 31: Rubbermaid 3.2 Cup/757ml Medium Brilliance Glass Clear: Glass Food Storage Container, Microwave & Oven Safe, Dishwasher Safe](https://target.scene7.com/is/image/Target/GUEST_6ab9dff8-d59b-4bda-9e59-c35c5b6dd50b?qlt=65&fmt=webp&hei=350&wid=350) ![Image 32: Rubbermaid 3.2 Cup/757ml Medium Brilliance Glass Clear: Glass Food Storage Container, Microwave & Oven Safe, Dishwasher Safe](https://target.scene7.com/is/image/Target/GUEST_96158228-72ce-4645-9ebb-4b6da054a6d0?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-3-2-cup-757ml-medium-brilliance-glass-clear/-/A-79652785#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 11.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-3-2-cup-757ml-medium-brilliance-glass-clear/-/A-79652785#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698446",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "3cb4bd45-bb3b-47c5-87de-a02b184c3b64",
+      "name": "### [![Image 41: Rubbermaid Brilliance 16 cup Pantry Airtight Food Storage Container: Clear Plastic, Freezer & Dishwasher-Safe](https://target.scene7.com/is/image/Target/GUEST_1a0cbb58-8ef0-4765-91e2-24286e7a017f?qlt=65&fmt=webp&hei=350&wid=350) ![Image 42: Rubbermaid Brilliance 16 cup Pantry Airtight Food Storage Container: Clear Plastic, Freezer & Dishwasher-Safe](https://target.scene7.com/is/image/Target/GUEST_0fb5d94b-4d7b-4925-9ddd-9d528a7a0af7?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-brilliance-16-cup-pantry-airtight-food-storage-container/-/A-53661105#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 13.29,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-brilliance-16-cup-pantry-airtight-food-storage-container/-/A-53661105#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "plastic",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698475",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "e004be46-fcc3-4a0d-b181-b27c31205e0a",
+      "name": "### [![Image 29: Rubbermaid 5pk 2.85 cup Brilliance Meal Prep Containers, 2-Compartment Food Storage Containers: Kitchen, Lunch, Clear](https://target.scene7.com/is/image/Target/GUEST_54636186-4b2f-4f25-a77d-6f247d76838d?qlt=65&fmt=webp&hei=350&wid=350) ![Image 30: Rubbermaid 5pk 2.85 cup Brilliance Meal Prep Containers, 2-Compartment Food Storage Containers: Kitchen, Lunch, Clear](https://target.scene7.com/is/image/Target/GUEST_2ac1b126-3679-4d2c-8598-fc5304135dea?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-5pk-2-85-cup-brilliance-meal-prep-containers-2-compartment-food-storage-containers/-/A-82288366#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 23.49,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-5pk-2-85-cup-brilliance-meal-prep-containers-2-compartment-food-storage-containers/-/A-82288366#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698555",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "4fc587c5-75e3-4175-8e3a-9409fefeab48",
+      "name": "Rubbermaid OS 4.7 Cup/1.1 Liter Brilliance Glass: Microwave, Freezer & Oven Safe Food Storage Container",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 14.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-os-4-7-cup-1-1-liter-brilliance-glass/-/A-79652751#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": "unknown",
+        "color": "unknown",
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.698577",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "29",
+      "name": "FastTrack Garage 16 -Piece 48-in Gray Steel Multipurpose Storage rail system",
+      "brand": "Rubbermaid",
+      "retailer": "Lowes",
+      "price": 129.0,
+      "rating": 4.1,
+      "review_count": 157,
+      "url": "https://www.lowes.com/search?searchTerm=garage+organizer",
+      "sku": "29",
+      "asin": null,
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2024-10-27",
+        "source_file": "data/retailers/all_products_final_with_lowes.json"
+      }
+    },
+    {
+      "product_id": "294fe53a-49a2-4009-b123-3947ee744e68",
+      "name": "Rubbermaid 2pk 3.5c Brilliance Round Food Storage Containers: Clear Plastic, Dishwasher-Safe",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 19.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-2pk-3-5c-brilliance-round-food-storage-containers/-/A-90246037#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.722119",
+        "source_file": "data/target_products.json"
+      }
+    },
+    {
+      "product_id": "b3d616dc-c344-4f92-b081-5792b2e59328",
+      "name": "### [![Image 29: Rubbermaid Brilliance Pantry 18 Cup Cereal Keeper: Clear Plastic Food Storage Container, Dishwasher & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_24479787-6aab-4580-9e01-fbe70b755f54?qlt=65&fmt=webp&hei=350&wid=350) ![Image 30: Rubbermaid Brilliance Pantry 18 Cup Cereal Keeper: Clear Plastic Food Storage Container, Dishwasher & Freezer Safe](https://target.scene7.com/is/image/Target/GUEST_42928875-6f54-48cd-b49e-de0cb2cd1d6f?qlt=65&fmt=webp&hei=350&wid=350)](https://www.target.com/p/rubbermaid-brilliance-pantry-18-cup-cereal-keeper/-/A-85388181#lnk=sametab)",
+      "brand": "Rubbermaid",
+      "retailer": "Unknown",
+      "price": 35.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.target.com/p/rubbermaid-brilliance-pantry-18-cup-cereal-keeper/-/A-85388181#lnk=sametab",
+      "sku": null,
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.722178",
+        "source_file": "data/target_products.json"
+      }
+    },
+    {
+      "product_id": "15984362881",
+      "name": "Rubbermaid FastTrack Garage Accessory Hook Bundle (5-Piece)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 19.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Accessory-Hook-Bundle-5-Piece/15984362881",
+      "sku": "15984362881",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789228",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "218276177",
+      "name": "Rubbermaid Vertical FastTrack Hanging Wall Mount Hook Garage Organizer (6 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 75.79,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Vertical-FastTrack-Hanging-Wall-Mount-Hook-Garage-Organizer-6-Pack/218276177",
+      "sku": "218276177",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789231",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "3940952884",
+      "name": "Rubbermaid Garage FastTrack Wall Bench Blox Bin Hardware Hooks (2-Pack), Gray",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 4.61,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Garage-FastTrack-Wall-Bench-Blox-Bin-2-pack-Gray/3940952884",
+      "sku": "3940952884",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789235",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "957687213",
+      "name": "Rubbermaid FastTrack Garage Storage System 5 Piece Rail and Hook Kit (2 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 145.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-Storage-System-5-Piece-Rail-and-Hook-Kit-2-Pack/957687213",
+      "sku": "957687213",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789241",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "277349697",
+      "name": "Rubbermaid FastTrack Garage 5 Piece Rail and Hook Kit Storage System (3 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 222.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-FastTrack-Garage-5-Piece-Rail-and-Hook-Kit-Storage-System-3-Pack/277349697",
+      "sku": "277349697",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789245",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "5238422614",
+      "name": "Rubbermaid Fasttrack Garage Storage Utility Hooks 7 Piece Black All in One Rail Hook Kit and Tool Organizer Heavy Duty for Home/Garage/Shed/Garden",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 68.0,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-All-In-One-FastTrack-Garage-Storage-Rail-System-Tool-Kit-7-Piece/5238422614",
+      "sku": "5238422614",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "rail_system",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789518",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "535319910",
+      "name": "Rubbermaid Vertical FastTrack Hanging Wall Mount Hook Garage Organizer  (2 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 36.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Vertical-FastTrack-Hanging-Wall-Mount-Hook-Garage-Organizer-2-Pack/535319910",
+      "sku": "535319910",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.789676",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "15386865431",
+      "name": "(2 pack) Rubbermaid Garage FastTrack 5-Piece Starter Kit, Black/Grey",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 72.1,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/2-pack-Rubbermaid-Garage-FastTrack-5-Piece-Starter-Kit-Black-Grey/15386865431",
+      "sku": "15386865431",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.791296",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "716228242",
+      "name": "Rubbermaid 1784455 FastTrack Compact Hook, Steel, Each",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 24.47,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-1784455-FastTrack-Compact-Hook-Steel-Each/716228242",
+      "sku": "716228242",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.791348",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "963816913",
+      "name": "Rubbermaid 1784463 FastTrack Vertical Bike Hook, Steel, Each",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 30.36,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-1784463-FastTrack-Vertical-Bike-Hook-Steel-Each/963816913",
+      "sku": "963816913",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.794289",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "621840311",
+      "name": "Rubbermaid Vertical FastTrack Hanging Wall Mount Hook Garage Organizer (12 Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Walmart",
+      "price": 147.99,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.walmart.com/ip/Rubbermaid-Vertical-FastTrack-Hanging-Wall-Mount-Hook-Garage-Organizer-12-Pack/621840311",
+      "sku": "621840311",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.794979",
+        "source_file": "data/retailers/walmart_products.json"
+      }
+    },
+    {
+      "product_id": "1011815604",
+      "name": "FastTrack 3.1 in. H Silver Nickel Wall Mounted Garage Storage Utility Multi-Hook 50 lb Cap., Satin Material (8-Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 166.36,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-3-1-in-H-Silver-Nickel-Wall-Mounted-Garage-Storage-Utility-Multi-Hook-50-lb-Cap-Satin-Material-8-Pack-8-x-1784459/324187378",
+      "sku": "1011815604",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.823036",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    },
+    {
+      "product_id": "1001694471",
+      "name": "FastTrack Garage Wall Panel Hardware Pack",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 4.15,
+      "rating": 3.0,
+      "review_count": 10,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Wall-Panel-Hardware-Pack-1973922/206792098",
+      "sku": "1001694471",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.823044",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    },
+    {
+      "product_id": "1001691266",
+      "name": "FastTrack Garage Wall Bench Blox Bin (2-Pack)",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 4.47,
+      "rating": 4.4,
+      "review_count": 8,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Wall-Bench-Blox-Bin-2-Pack-1960416/206720823",
+      "sku": "1001691266",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "unknown",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.823410",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    },
+    {
+      "product_id": "1005204369",
+      "name": "FastTrack Garage Hook Adaptor",
+      "brand": "Rubbermaid",
+      "retailer": "Home Depot",
+      "price": 3.98,
+      "rating": 4.3,
+      "review_count": 8,
+      "url": "https://www.homedepot.com/p/Rubbermaid-FastTrack-Garage-Hook-Adaptor-2099468/311277061",
+      "sku": "1005204369",
+      "asin": null,
+      "attributes": {
+        "material": null,
+        "color": null,
+        "weight_capacity_lbs": null,
+        "installation_type": "hook_hanger",
+        "categories": [],
+        "seller": null,
+        "availability": null
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T18:40:57.824034",
+        "source_file": "data/retailers/homedepot_products.json"
+      }
+    }
+  ]
+}
