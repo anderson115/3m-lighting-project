@@ -1,125 +1,95 @@
-# 3M Garage Organization Category Intelligence - Final Deliverable
+# Category Intelligence Module v2.0
 
-**Project:** Category Intelligence for Garage Organization Market
-**Client:** 3M Innovation Team
-**Date:** November 3, 2025
-**Status:** ✅ Certified - Top 1% Category Strategy Document
+Scalable end-to-end system for professional market research deliverables.
 
----
+## What This Is
 
-## 📋 Reading Order
+A modular, repeatable process for creating consistent, high-quality market intelligence reports for clients. Handles:
+- Multi-source data collection
+- Data cleaning & consolidation
+- Statistical analysis & insights
+- Complete audit trails with source verification
+- Professional HTML deliverables with frozen design system
 
-**Read these documents in order:**
+## Quick Start
 
-### **00_EXECUTIVE_SUMMARY_5_BIG_BOULDERS.md**
-Start here. Five immutable category constraints that determine innovation success or failure. Each boulder includes actionable litmus test questions.
+```bash
+# Initialize new project
+cd _orchestration/workflows
+./init-project.sh "Client Name" "Product Category"
 
-### **01_EXECUTIVE_BRIEFING.md**
-Category overview, market opportunity, consumer insights, and white space analysis. Comprehensive introduction to the garage organization market.
+# Run full pipeline
+./run-full-pipeline.sh "Client Name"
 
-### **02_CATEGORY_INTELLIGENCE_DEEP_DIVE.md**
-Market structure, competitive landscape, channel economics, and strategic framework. Deep competitive intelligence.
+# Or run individual phases
+./01-collect-data.sh "Client Name"
+./02-process-data.sh "Client Name"
+./03-run-analysis.sh "Client Name"
+./04-generate-audit.sh "Client Name"
+./05-build-deliverable.sh "Client Name"
+```
 
-### **03_OUTSIDER_PERSPECTIVE_BRAND_MAPPING.md**
-Brand-specific white space mapping for Scotch/Command/Claw with intellectual honesty caveats. The one "prescriptive" slide acknowledging we don't know 3M's business priorities.
-
-### **04_APPENDIX_DATA_CITATIONS_AND_AUDIT_TRAIL.md**
-Complete audit trail for every claim. Addresses "AI is not trusted" with step-by-step verification paths to raw data sources.
-
-### **05_FINAL_CERTIFICATION_AND_DELIVERY.md**
-Expert panel certification process, quality standards achieved, next steps for 3M innovation team, and how to use this deliverable.
-
----
-
-## 🎯 Quick Start
-
-**For Innovation Teams:**
-→ Start with `00_EXECUTIVE_SUMMARY_5_BIG_BOULDERS.md`
-→ Answer litmus test questions for each boulder
-→ Use as strategic conversation framework
-
-**For Executive Leadership:**
-→ Review 5 Big Boulders for category constraints
-→ Read `05_FINAL_CERTIFICATION_AND_DELIVERY.md` for summary
-→ Decide: Premium (HD/Lowe's) or Mass (Walmart) channel?
-
-**For Verification:**
-→ Use `04_APPENDIX_DATA_CITATIONS_AND_AUDIT_TRAIL.md`
-→ Follow audit trails to verify any claim
-
----
-
-## 📊 Data Foundation
-
-- **9,555 products** analyzed across 5 major retailers
-- **571 consumer videos** (47.9M cumulative views) - primary ethnographic source
-- **5 major retailers:** Walmart, Home Depot, Lowe's, Amazon, Target
-- **Market-weighted analysis** correcting for sampling bias
-- **Complete audit trail** for all quantitative claims
-
----
-
-## ✅ Quality Standards
-
-**Certified by expert panel (5/6 APPROVE, 1/6 CONDITIONAL APPROVE):**
-
-✅ **Northstar:** Category intelligence, not prescriptive recommendations
-✅ **Quantitative rigor:** Round numbers, footnotes, confidence levels, sample sizes
-✅ **Consumer voice:** Elevated ethnographic insights over sparse review data
-✅ **Audit trail:** Complete traceability from claim → data source
-✅ **Strategic framework:** 5 Big Boulders with actionable litmus tests
-✅ **Intellectual honesty:** Clear caveats on unknowns and data limitations
-
----
-
-## 📁 Folder Structure
+## Module Structure
 
 ```
 category-intelligence/
-├── 00_EXECUTIVE_SUMMARY_5_BIG_BOULDERS.md     [START HERE]
-├── 01_EXECUTIVE_BRIEFING.md
-├── 02_CATEGORY_INTELLIGENCE_DEEP_DIVE.md
-├── 03_OUTSIDER_PERSPECTIVE_BRAND_MAPPING.md
-├── 04_APPENDIX_DATA_CITATIONS_AND_AUDIT_TRAIL.md
-├── 05_FINAL_CERTIFICATION_AND_DELIVERY.md
-├── 04_CATEGORY_DATA_ALL_PRODUCTS.xlsx         [Raw data]
-├── _supporting_docs/                          [Methodology documentation]
-│   ├── BIAS_CORRECTION_GUIDE.md
-│   ├── DATA_METHODOLOGY_AND_CORRECTIONS.md
-│   ├── STATISTICAL_ANALYSIS_SUMMARY.md
-│   └── [other methodology files]
-├── _archive/                                  [Old versions and status docs]
-├── data/                                      [Raw data sources]
-├── outputs/                                   [Analysis outputs]
-└── analysis/                                  [Statistical analysis files]
+├── 01-data-gathering/          Raw data collection from sources
+├── 02-data-processing/         Data consolidation & cleaning
+├── 03-analysis/                Statistical insights generation
+├── 04-audit-trail/             Source verification & validation
+├── 05-final-mile/              HTML deliverables & design
+├── _templates/                 Master templates (v1.0 frozen)
+├── _orchestration/             Workflow automation
+├── _archive/                   Legacy code (organized)
+├── projects/                   Active client projects
+├── tests/                      Test suite
+└── ARCHITECTURE.md             System design documentation
+```
+
+## The 5 Phases
+
+1. **Data Gathering** - Collect from multiple sources
+2. **Data Processing** - Consolidate & clean
+3. **Analysis** - Extract insights & statistics
+4. **Audit Trail** - Verify claims & generate report
+5. **Final Mile** - Generate HTML deliverables
+
+## Design System (Frozen v1.0)
+
+Professional, consistent HTML deliverables:
+- **HTML:** master-template.html (immutable)
+- **CSS:** design-system.css (locked colors, typography, spacing)
+- **Icons:** SVG library (20+ professional icons)
+- **Config:** project-template.yaml (project-specific overrides)
+
+**Result:** 80% identical structure, 20% project-variable content
+
+## Key Features
+
+✓ **Modular:** Run phases independently
+✓ **Scalable:** Add new data sources easily
+✓ **Consistent:** Frozen design system
+✓ **Traceable:** Complete audit trail
+✓ **Automated:** Orchestration scripts
+✓ **Documented:** Architecture & process docs
+✓ **Tested:** QA gates built-in
+✓ **Extensible:** Add custom analysis
+
+## Documentation
+
+- **ARCHITECTURE.md** - System design & complete flow
+- **_orchestration/README.md** - Workflow details
+- **05-final-mile/README.md** - Deliverable system
+- **_templates/** - Configuration examples
+
+## Configuration for New Projects
+
+```bash
+./init-project.sh "Client Name" "Product Category"
+# Creates project folder with config template
+# Edit projects/ClientName/configs/project.yaml
 ```
 
 ---
 
-## 🔑 The 5 Big Boulders (Summary)
-
-1. **Channel Bifurcation Is Structural** - Premium vs. Mass are different markets
-2. **Installation Is The Universal Barrier** - 64% of consumers cite this
-3. **Quality Skepticism From Prior Failures** - Category-wide trust deficit
-4. **Category Is Platform, Not Product** - 73% make follow-on purchases (LTV 3.2x)
-5. **Customer Segments Are Bifurcated** - Not a pricing spectrum
-
-Each boulder has an actionable litmus test question in the full document.
-
----
-
-## 📞 Next Steps for 3M
-
-1. **Internal Alignment Workshop** - Decide channel and customer segment
-2. **Brand Strategy Clarification** - How do Scotch/Command/Claw map to opportunities?
-3. **Technical Feasibility Assessment** - Can VHB/adhesives handle garage environments?
-4. **Consumer Concept Testing** - Validate white space hypotheses
-5. **Retailer Partnership Discussions** - HD/Lowe's or Walmart/Target?
-
-See `05_FINAL_CERTIFICATION_AND_DELIVERY.md` for detailed next steps.
-
----
-
-**Document Classification:** 3M Internal Use - Strategic Category Intelligence
-**Prepared By:** offbrain Category Intelligence Team
-**Certification Date:** November 3, 2025
+**Version:** 2.0 | **Status:** Production Ready | **Updated:** November 2025

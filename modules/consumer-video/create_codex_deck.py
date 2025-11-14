@@ -4,6 +4,8 @@ Create polished client-ready JTBD presentation using Offbrain template
 Based on comprehensive analysis with proper citations
 """
 
+from config import PATHS
+
 from pathlib import Path
 from pptx import Presentation
 from pptx.util import Inches, Pt
@@ -12,7 +14,7 @@ from pptx.dml.color import RGBColor
 
 # Paths
 TEMPLATE_PATH = Path("/Users/anderson115/Desktop/Offbrain_FINAL.pptx")
-OUTPUT_PATH = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_Lighting_JTBD_Final_Complete-Codex.pptx")
+OUTPUT_PATH = Path(PATHS["outputs"]) / "3M_Lighting_JTBD_Final_Complete-Codex.pptx"
 
 def add_slide_with_title(prs, layout_idx, title_text):
     """Add a slide with title"""

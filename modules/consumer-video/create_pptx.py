@@ -9,6 +9,8 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
+from config import PATHS
+
 # Auto-install python-pptx if needed
 try:
     from pptx import Presentation
@@ -24,7 +26,7 @@ except ImportError:
     from pptx.dml.color import RGBColor
 
 # Load analysis
-PROCESSED_DIR = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+PROCESSED_DIR = Path(PATHS["processed"])
 ANALYSIS_PATH = PROCESSED_DIR / "jtbd_analysis.json"
 
 def load_analysis():
@@ -325,7 +327,9 @@ def main():
 
     # Save with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_Lighting_JTBD_Presentation_{timestamp}.pptx"
+    output_dir = Path(PATHS["outputs"])
+    output_dir.mkdir(parents=True, exist_ok=True)
+    filename = output_dir / f"3M_Lighting_JTBD_Presentation_{timestamp}.pptx"
     prs.save(filename)
 
     print(f"\n✓ PowerPoint created successfully!")

@@ -1,0 +1,198 @@
+COMPREHENSIVE QUOTE SOURCE AUDIT - GARAGE ORGANIZER PROJECT
+============================================================
+
+Generated: November 12, 2025
+Project: 3M Garage Organization Strategy - V3 Presentation (54 slides)
+File: V3-3m_garage_organization_strategy_20251105095318.pptx
+Critical Issue: Consumer verbatims lack verifiable source documentation
+
+====================================================================
+SECTION 1: FOUR QUOTED CONSUMER VERBATIMS (Slide 26)
+====================================================================
+
+QUOTE #1: "I won't drill holes in my rental garage..."
+Location: Slide 26, Consumer Verbatim Box #1
+Full Text: "I won't drill holes in my rental garage. The landlord would kill me, but I still need somewhere to put all my stuff."
+Attribution: "Renter" persona, 31% of market
+Data Source Cited: "571-video ethnography study with 47.9M cumulative views"
+
+SEARCH RESULTS:
+- Searched in: social_media_posts_final.json ❌ NOT FOUND
+- Searched in: youtube_videos.json ❌ NOT FOUND
+- Searched in: full_garage_organizer_videos.json ❌ NOT FOUND
+- Searched in: tiktok_videos.json ❌ NOT FOUND
+- Searched in: all_products_final_with_lowes.json ❌ NOT FOUND
+- Searched in git history ❌ NOT FOUND
+- Status: UNVERIFIABLE - NO SOURCE DATA LOCATED
+
+---
+
+QUOTE #2: "Should be 10 minutes, took 2 hours..."
+Location: Slide 26, Consumer Verbatim Box #2
+Full Text: "Should be 10 minutes, took 2 hours. The instructions said 'easy installation' but I had to buy special tools just to mount it."
+Attribution: "DIYer" persona, 64% cite installation barriers
+Data Source Cited: "571-video ethnography study"
+
+SEARCH RESULTS:
+- Searched in: all data files ❌ NOT FOUND
+- Searched in git history ❌ NOT FOUND
+- Status: UNVERIFIABLE - NO SOURCE DATA LOCATED
+
+---
+
+QUOTE #3: "Said 50 lbs, failed at 15..."
+Location: Slide 26, Consumer Verbatim Box #3
+Full Text: "Said 50 lbs, failed at 15. I lost an expensive power tool when it fell off the wall in the middle of the night."
+Attribution: "Quality Skeptic" persona, 58% mention weight failures
+Data Source Cited: "571-video ethnography study"
+
+SEARCH RESULTS:
+- Searched in: all data files ❌ NOT FOUND
+- Searched in git history ❌ NOT FOUND
+- Status: UNVERIFIABLE - NO SOURCE DATA LOCATED
+
+---
+
+QUOTE #4: "Brand new last spring, rusted by fall..."
+Location: Slide 26, Consumer Verbatim Box #4
+Full Text: "Brand new last spring, rusted by fall. The garage temperature swings must have done it in, but that shouldn't happen so quickly."
+Attribution: "Homeowner" persona, 39% cite rust/durability concerns
+Data Source Cited: "571-video ethnography study"
+
+SEARCH RESULTS:
+- Searched in: all data files ❌ NOT FOUND
+- Searched in git history ❌ NOT FOUND
+- Status: UNVERIFIABLE - NO SOURCE DATA LOCATED
+
+====================================================================
+SECTION 2: COMMAND HOOKS QUOTES (Found in Raw Data)
+====================================================================
+
+SOURCE FILE: /01-raw-data/social_media_posts_final.json
+Total Records: 1,829 (Reddit posts, YouTube comments, YouTube videos)
+Format: JSON array of social media posts with: post_text, author, source, post_url, created_date
+
+QUOTE A: "Command hooks left marks on the ceiling"
+Location: social_media_posts_final.json, Record #1
+Full Text: "We recently had some command hooks on the ceiling that did not release as easily as was advertised. Any suggestions on how to quickly repair this? Is painting over it enough? Just the paper was torn from the ceiling. Any help is really appreciated! They're only small but are kind of an eye sore."
+Author: WyattTehRobot
+Source: Reddit
+Post URL: https://www.reddit.com/r/DIY/comments/154p7e8/command_hooks_left_marks_on_the_ceiling/
+Created Date: 2023-07-20T12:11:17.000Z
+Status: ✅ VERIFIED IN RAW DATA
+
+QUOTE B: "3M Command large 5lb Hooks fell along with Ikea curtain and rod"
+Location: social_media_posts_final.json, Record #4
+Full Text: [Long detailed Reddit post about Command hooks falling and causing damage, includes discussion of paint damage from wall]
+Author: simochiology
+Source: Reddit
+Post URL: https://www.reddit.com/r/DIY/comments/151nhse/3m_command_large_5lb_hooks_fell_along_with_ikea/
+Created Date: 2023-07-17T01:11:04.000Z
+Status: ✅ VERIFIED IN RAW DATA
+
+QUOTE C: "Command strip hooks tend to take the paint with them when you pull them off"
+Location: social_media_posts_final.json
+Full Text: "Command strip hooks tend to take the paint with them when you pull them off, from my experience. My current lease specifies NO command strips, but small picture-hanging nails are fine."
+Source: Reddit
+Status: ✅ VERIFIED IN RAW DATA
+
+QUOTE D: "My experience with command hooks as they tear the paint and drywall"
+Location: social_media_posts_final.json
+Full Text: "My experience with command hooks as they tear the paint and drywall off when you remove them .. and they only stick smooth glossy paint ..I would not use those unless you use them for a very short period of time like a few weeks.. I regret using them honestly they ruined the wall."
+Author: (Reddit user)
+Source: Reddit, HomeImprovement subreddit
+Post URL: https://www.reddit.com/r/HomeImprovement/comments/1n92jfo/how_do_i_hang_command_hooks_on_painted_walls/ncr8d8w/
+Created Date: (embedded in file)
+Status: ✅ VERIFIED IN RAW DATA
+
+====================================================================
+SECTION 3: DATA AVAILABILITY SUMMARY
+====================================================================
+
+VERIFIED REAL DATA:
+✅ social_media_posts_final.json - 1,829 records (Reddit/YouTube)
+   - Contains multiple Command/Scotch hook mentions
+   - Contains real consumer pain points about paint damage
+   - All posts traceable to actual URLs
+
+✅ garage_organizers_complete.json - 11,251 products
+   - Product database from 6 retailers
+   - Actual price, rating, brand information
+
+❌ 571-VIDEO ETHNOGRAPHY DATASET
+   - Claimed in 20+ slides
+   - Cited as basis for: 64% installation barrier, 58% weight failures, 39% rust concerns
+   - Purported 47.9M cumulative views
+   - ACTUAL DATA FOUND: 12 videos maximum (in full_garage_organizer_videos.json)
+   - DISCREPANCY: 571 claimed vs 12 found = 95% shortfall
+
+====================================================================
+SECTION 4: PROBLEMATIC PERCENTAGES & ATTRIBUTIONS
+====================================================================
+
+The following percentages are cited as coming from the "571-video ethnography" which DOES NOT EXIST with sufficient data:
+
+64% - "cite installation difficulty as primary barrier"
+58% - "mention weight capacity failures"  
+39% - "cite rust/durability issues"
+73% - "make follow-on purchases within 6 months"
+31% - "cannot drill/mount permanently on walls" (renters)
+
+STATUS: All percentages UNVERIFIABLE due to missing source dataset
+
+====================================================================
+SECTION 5: CRITICAL FINDINGS - DATA INTEGRITY ISSUES
+====================================================================
+
+FINDING #1: THE SCOTCH HOOKS QUOTE ISSUE
+- Client questioned: "Is this a real comment? Scotch doesn't make hooks"
+- RESULT: NO - Scotch brand hooks do not appear to be a real 3M product
+- The company makes "Scotch Tape" (masking/duct tape), not wall hooks
+- "3M Claw" is the actual hook product line from 3M
+- IMPLICATION: If verbatims mentioned Scotch hooks, they would be fabricated or from confused consumers
+
+FINDING #2: CONSUMER VERBATIMS UNTRACEABLE
+Four verbatims on Slide 26 claiming to come from "571-video ethnography":
+- "I won't drill holes in my rental garage..." ❌ SOURCE NOT FOUND
+- "Should be 10 minutes, took 2 hours..." ❌ SOURCE NOT FOUND  
+- "Said 50 lbs, failed at 15..." ❌ SOURCE NOT FOUND
+- "Brand new last spring, rusted by fall..." ❌ SOURCE NOT FOUND
+
+These quotes do not appear in:
+- Raw data files (social_media_posts_final.json, youtube_videos.json, tiktok_videos.json)
+- Git history
+- Any project documentation
+- Any archived analysis files
+
+FINDING #3: PERCENTAGE METRICS UNVERIFIABLE
+20+ slides cite statistics from the missing 571-video dataset:
+- 64% installation difficulty
+- 58% weight failures
+- 39% rust/durability
+- 73% follow-on purchases
+- 31% rental restrictions
+
+CANNOT BE VERIFIED without access to the actual 571 videos and transcripts.
+
+====================================================================
+SECTION 6: VERDICT
+====================================================================
+
+REAL DATA AVAILABLE:
+- 1,829 social media posts about garage organization (Reddit/YouTube)
+- Contains real Command hooks negative reviews (paint damage, adhesion failure)
+- Contains real user frustrations and pain points
+- All socially-sourced quotes are traceable to public URLs
+
+SUSPECT DATA:
+- Four "representative" consumer verbatims on Slide 26
+- Cannot be traced to any source file in project
+- Attributed to a "571-video ethnography" that maxes out at 12 actual videos
+- Percentages (64%, 58%, 39%) derived from non-existent dataset
+
+RECOMMENDATION:
+1. Provide source video URLs/timestamps for all four verbatims
+2. Clarify how 571 video claims were derived from 12 actual videos
+3. Revise any percentages that cannot be backed by available data
+4. Either recover missing video data or revise claims to match 12-video baseline
+

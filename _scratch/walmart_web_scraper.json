@@ -1,0 +1,16 @@
+{
+  "startUrls": [
+    {"url": "https://www.walmart.com/search?q=accent+lighting"}
+  ],
+  "maxRequestsPerCrawl": 3,
+  "maxConcurrency": 2,
+  "maxCrawlingDepth": 0,
+  "proxyConfiguration": {"useApifyProxy": true},
+  "requestHandlerTimeoutSecs": 60,
+  "requestHandler": "async ({ request, page, log }) => {\n  await page.waitForSelector('[data-testid=\\'item\\'] a', { timeout: 20000 });\n  const items = await page.$$eval('[data-testid=\\'item\\']', (cards) => {\n    const includeTerms = ['strip', 'puck', 'neon', 'rope', 'accent', 'glow'];\n    const excludeTerms = ['table lamp', 'floor lamp', 'desk lamp', 'lantern', 'sconce'];\n    return cards.map((card) => {\n      const titleEl = card.querySelector('[data-testid=\\'product-title\\'] span') || card.querySelector('a span');\n      if (!titleEl) return null;\n      const name = titleEl.textContent.trim();\n      const lowered = name.toLowerCase();\n      if (!includeTerms.some((term) => lowered.includes(term))) return null;\n      if (excludeTerms.some((term) => lowered.includes(term))) return null;\n      const link = card.querySelector('a');\n      const priceEl = card.querySelector('[data-automation-id=\\'product-price\\'] span');\n      const badgeEl = card.querySelector('[data-testid=\\'sponsored\\']');\n      return {\n        retailer: 'Walmart',\n        name,\n        url: link ? new URL(link.getAttribute('href'), 'https://www.walmart.com').href : null,\n        price: priceEl ? priceEl.textContent.trim() : null,\n        badge: badgeEl ? badgeEl.textContent.trim() : null\n      };\n    }).filter(Boolean);\n  });\n  log.info(`Extracted ${items.length} items from ${request.url}`);\n  await Apify.pushData(items);
+}",
+  "preNavigationHooks": [
+    "async ({ page }) => { await page.setViewport({ width: 1280, height: 800 }); }"
+  ],
+  "postNavigationHooks": []
+}

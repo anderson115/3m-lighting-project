@@ -11,6 +11,8 @@ Analysis Requirements:
 - 100% citation completeness
 """
 
+from config import PATHS
+
 import json
 import os
 import glob
@@ -20,7 +22,7 @@ from typing import Dict, List, Tuple
 import re
 
 # Base path for processed data
-BASE_PATH = "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed"
+BASE_PATH = Path(PATHS["processed"])
 
 class JTBDAnalyzer:
     def __init__(self, base_path: str):

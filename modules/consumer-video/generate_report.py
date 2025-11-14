@@ -3,12 +3,14 @@
 Generate comprehensive JTBD "Rungs of the Ladder" MD report
 """
 
+from config import PATHS
+
 import json
 from pathlib import Path
 from collections import defaultdict
 
 # Load analysis results
-PROCESSED_DIR = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+PROCESSED_DIR = Path(PATHS["processed"])
 ANALYSIS_PATH = PROCESSED_DIR / "jtbd_analysis.json"
 
 def load_analysis():
@@ -399,7 +401,7 @@ def main():
     print("Generating comprehensive report...")
     report = generate_report(analysis)
 
-    output_path = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/JTBD_Analysis_Report.md")
+    output_path = Path(PATHS["outputs"]) / "JTBD_Analysis_Report.md"
     with open(output_path, 'w') as f:
         f.write(report)
 

@@ -20,6 +20,7 @@ class DuckDBWriter:
     """Stores brand and product tables in a DuckDB file."""
 
     db_path: Path
+    project_key: str | None = None
 
     def __post_init__(self) -> None:
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -30,6 +31,7 @@ class DuckDBWriter:
         self._conn.execute(
             """
             CREATE TABLE IF NOT EXISTS category_brands (
+                project_key TEXT,
                 category TEXT,
                 name TEXT,
                 tier TEXT,
@@ -41,6 +43,7 @@ class DuckDBWriter:
         self._conn.execute(
             """
             CREATE TABLE IF NOT EXISTS category_products (
+                project_key TEXT,
                 category TEXT,
                 retailer TEXT,
                 sku TEXT,
@@ -57,14 +60,14 @@ class DuckDBWriter:
 
     def write_brands(self, category: str, brands: Iterable[BrandRecord]) -> None:
         rows = [
-            (category, b.name, b.tier, b.source_url)
+            (self.project_key, category, b.name, b.tier, b.source_url)
             for b in brands
         ]
         if not rows:
             _LOGGER.info("No brands to persist to DuckDB")
             return
         self._conn.executemany(
-            "INSERT INTO category_brands (category, name, tier, source_url) VALUES (?, ?, ?, ?)",
+            "INSERT INTO category_brands (project_key, category, name, tier, source_url) VALUES (?, ?, ?, ?, ?)",
             rows,
         )
 
@@ -73,6 +76,7 @@ class DuckDBWriter:
         for p in products:
             rows.append(
                 (
+                    self.project_key,
                     category,
                     p.retailer,
                     p.sku,
@@ -90,12 +94,20 @@ class DuckDBWriter:
         self._conn.executemany(
             """
             INSERT INTO category_products (
-                category, retailer, sku, name, url, price, rating, taxonomy_path, attributes
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                project_key,
+                category,
+                retailer,
+                sku,
+                name,
+                url,
+                price,
+                rating,
+                taxonomy_path,
+                attributes
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             rows,
         )
 
     def close(self) -> None:
         self._conn.close()
-

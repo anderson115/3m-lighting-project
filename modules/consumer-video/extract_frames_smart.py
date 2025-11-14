@@ -6,13 +6,15 @@ Extracts frames at intelligently chosen timestamps based on:
 - Key moments (detected from transcript content)
 - Uniform sampling for visual continuity
 """
+
+from config import PATHS
 import json
 import sys
 import cv2
 from pathlib import Path
 import re
 
-OUTPUT_BASE = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+OUTPUT_BASE = Path(PATHS["processed"])
 
 def extract_frames_smart(video_stem, mode="segment_boundaries", custom_timestamps=None):
     """

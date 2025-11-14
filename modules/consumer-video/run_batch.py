@@ -3,6 +3,8 @@
 Batch processor for 82 consumer videos
 Processes videos in batches of 8 for error monitoring
 """
+
+from config import DATA_ROOT, PATHS
 import json
 import time
 from pathlib import Path
@@ -81,7 +83,7 @@ def process_batch(batch_number, videos):
         "results": results
     }
 
-    summary_path = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data") / f"batch_{batch_number}_summary.json"
+    summary_path = DATA_ROOT / f"batch_{batch_number}_summary.json"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     with open(summary_path, "w") as f:
         json.dump(batch_summary, f, indent=2)

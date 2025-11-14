@@ -3,6 +3,8 @@
 Batch video processor for 3M Lighting consumer videos
 Extracts: transcripts, audio, frames, emotion features
 """
+
+from config import PATHS
 import os
 import json
 import sys
@@ -14,7 +16,7 @@ import numpy as np
 from datetime import datetime
 
 # Configuration
-OUTPUT_BASE = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+OUTPUT_BASE = Path(PATHS["processed"])
 FRAME_INTERVAL = 5  # seconds
 
 def process_video(video_path, output_dir):

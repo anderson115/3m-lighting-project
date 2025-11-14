@@ -4,8 +4,13 @@ Batch 1 Processing Runner
 Processes 5 priority videos for verification
 """
 
+from config import PATHS
+
 import sys
-sys.path.append('/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video')
+from pathlib import Path
+MODULE_ROOT = Path(__file__).resolve().parent
+if str(MODULE_ROOT) not in sys.path:
+    sys.path.append(str(MODULE_ROOT))
 
 from process_batch import process_batch
 
@@ -39,7 +44,7 @@ BATCH_1_VIDEOS = [
     }
 ]
 
-OUTPUT_DIR = "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed"
+OUTPUT_DIR = Path(PATHS["processed"])
 
 if __name__ == "__main__":
     print("=" * 70)

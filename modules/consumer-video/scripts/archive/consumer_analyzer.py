@@ -6,6 +6,7 @@ Analyzes downloaded videos using Whisper and LLaVA vision models
 Input: data/videos/{video_id}/video.mp4
 Output: data/analysis/{video_id}/analysis.json
 """
+
 import os
 import sys
 import json

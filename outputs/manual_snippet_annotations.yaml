@@ -1,0 +1,1428 @@
+  - post_id: RD-041
+    snippet_id: RD-041_S1
+    atomic_snippet: >
+      Cites Adam Mosseri explaining that "sends per reach" is now one of Instagram's strongest
+      ranking signals.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Creators are recalibrating KPIs toward share velocity.
+  - post_id: RD-041
+    snippet_id: RD-041_S2
+    atomic_snippet: >
+      Instagram wants content that prompts DM shares so people "bring friends together" instead of
+      passively scrolling.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Establishes the community-first aspiration IG wants creators to echo.
+  - post_id: RD-041
+    snippet_id: RD-041_S3
+    atomic_snippet: >
+      Notes that the prior focus on "saves" led to prompts like "save this for later," so a new
+      share-centric CTA playbook is required.
+    driver_topic: Creative_Tools
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows creators adapt scripts based on whichever engagement metric is rewarded.
+  - post_id: RD-041
+    snippet_id: RD-041_S4
+    atomic_snippet: >
+      Requests non-spammy ideas for encouraging people to send posts to friends without hurting
+      authenticity.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Need to balance growth hacks with genuine tone.
+  - post_id: RD-062
+    snippet_id: RD-062_S1
+    atomic_snippet: >
+      Freelancer says hands-on testing let them hack TikTok and Instagram algorithms, citing 40K+
+      followers from three videos as proof.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: YoungAdult_18_24
+    insight_note: Signals that perceived mastery over IG's system can be commercialized.
+  - post_id: RD-062
+    snippet_id: RD-062_S2
+    atomic_snippet: >
+      Offers a "pay only if satisfied" first month of growth work to fund their long-form video
+      project.
+    driver_topic: Monetization_Path
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: YoungAdult_18_24
+    insight_note: Ties IG performance directly to creator livelihood.
+  - post_id: RD-062
+    snippet_id: RD-062_S3
+    atomic_snippet: >
+      Package includes profile optimization and platform-specific growth strategies for each
+      business.
+    driver_topic: User_Experience
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: YoungAdult_18_24
+    insight_note: Emphasizes operational discipline as a differentiator.
+  - post_id: RD-062
+    snippet_id: RD-062_S4
+    atomic_snippet: >
+      Promises one viral-format video idea plus script per day (scalable up or down as needed).
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: YoungAdult_18_24
+    insight_note: Shows appetite for turnkey creative systems.
+  - post_id: RD-072
+    snippet_id: RD-072_S1
+    atomic_snippet: >
+      Built a system that auto-generates quiz-style videos for Instagram Reels and YouTube Shorts in
+      any niche.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Shows appetite for scalable interactive formats.
+  - post_id: RD-072
+    snippet_id: RD-072_S2
+    atomic_snippet: >
+      Already deploying these quizzes for local businesses and reports "positive results."
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Suggests IG audiences engage with participatory storytelling.
+  - post_id: RD-072
+    snippet_id: RD-072_S3
+    atomic_snippet: >
+      Offering 10 free collaborations to test more variations and inviting DMs.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights co-creation as growth lever.
+  - post_id: RD-072
+    snippet_id: RD-072_S4
+    atomic_snippet: >
+      Believes quizzes are the best vehicle to educate prospective customers about a business.
+    driver_topic: Education_Value
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Links interactive learning with preference formation.
+  - post_id: RD-006
+    snippet_id: RD-006_S1
+    atomic_snippet: >
+      Grok (Elon’s chatbot) claims a paid tier can remix IG/YouTube/TikTok videos enough to avoid
+      Instagram's originality detector.
+    driver_topic: Creative_Tools
+    sentiment: Mixed
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Shows creators exploring AI workarounds for content fingerprinting.
+  - post_id: RD-006
+    snippet_id: RD-006_S2
+    atomic_snippet: >
+      Creator hears that Instagram is cracking down on repurposed content and withholding it from
+      non-followers.
+    driver_topic: Safety_Governance
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces fear that IG punishes reused media even when credited.
+  - post_id: RD-006
+    snippet_id: RD-006_S3
+    atomic_snippet: >
+      Admits their best-performing posts are repurposed clips (with credit) even though they also
+      make originals, so enforcement feels misaligned with outcomes.
+    driver_topic: Content_Quality
+    sentiment: Mixed
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights tension between originality goals and real-world performance.
+  - post_id: RD-006
+    snippet_id: RD-006_S4
+    atomic_snippet: >
+      Requests feedback on whether using AI to obfuscate reposts is worth it under the new rules.
+    driver_topic: Ethics_Transparency
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Points to ethical gray zones creators are navigating.
+  - post_id: X-032
+    snippet_id: X-032_S1
+    atomic_snippet: >
+      Declares that "old hacks" no longer work because the 2025 Instagram algorithm is a whole new
+      game.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Signals urgency to relearn IG's ranking logic.
+  - post_id: IG-048
+    snippet_id: IG-048_S1
+    atomic_snippet: >
+      Notes that "shares have become a new metric to grow on IG," nudging creators to craft
+      content worth sharing.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces the share-per-reach focus.
+  - post_id: IG-048
+    snippet_id: IG-048_S2
+    atomic_snippet: >
+      Credits Pawan for the update and frames share-worthy storytelling as synonymous with "high
+      quality" content.
+    driver_topic: Content_Quality
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights peer-to-peer transmission of algorithm intel.
+  - post_id: RD-060
+    snippet_id: RD-060_S1
+    atomic_snippet: >
+      Positions themselves as an algorithm expert who can "boost your business" on both TikTok and
+      Instagram.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Clients value consultants who understand multiple feeds at once.
+  - post_id: RD-060
+    snippet_id: RD-060_S2
+    atomic_snippet: >
+      Offers a risk-free first month—if desired results don’t show up, the client pays nothing.
+    driver_topic: Monetization_Path
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Demonstrates confidence that IG can produce measurable gains quickly.
+  - post_id: RD-060
+    snippet_id: RD-060_S3
+    atomic_snippet: >
+      Monthly retainer is $430 but only triggered once performance goals are met.
+    driver_topic: Monetization_Path
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces ROI-driven decision-making for IG spend.
+  - post_id: RD-060
+    snippet_id: RD-060_S4
+    atomic_snippet: >
+      Deliverables include profile cleanup, platform-optimized growth plans, and a viral-ready
+      video idea plus script every day.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Links systematic creative operations with algorithm wins.
+  - post_id: RD-004
+    snippet_id: RD-004_S1
+    atomic_snippet: >
+      Frames Instagram as the veteran backed by Meta that now outperforms Facebook on engagement.
+    driver_topic: Competitive_Positioning
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces IG's establishment credibility.
+  - post_id: RD-004
+    snippet_id: RD-004_S2
+    atomic_snippet: >
+      Describes TikTok as the "new kid" that Gen Z loves despite ongoing data concerns.
+    driver_topic: Competitive_Positioning
+    sentiment: Positive
+    app_signal: Prefers_TikTok
+    age_inference: Not_Stated
+    insight_note: Captures trust vs novelty tradeoff.
+  - post_id: RD-004
+    snippet_id: RD-004_S3
+    atomic_snippet: >
+      Notes that countless TikToks show up on Instagram, suggesting creators try to get the best of
+      both worlds.
+    driver_topic: Cross_App_Strategy
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Highlights remix culture.
+  - post_id: RD-004
+    snippet_id: RD-004_S4
+    atomic_snippet: >
+      Invites people to rate TikTok vs Instagram across attributes like Content, Community,
+      Creation Tools, Filters, Addictiveness, and Cringe.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Encourages structured debate of preference drivers.
+  - post_id: X-016
+    snippet_id: X-016_S1
+    atomic_snippet: >
+      Sets up 2025 showdown: TikTok offers explosive viral reach while Instagram owns the
+      established base plus e-commerce muscle.
+    driver_topic: Competitive_Positioning
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Captures strategic trade-offs creators weigh.
+  - post_id: X-016
+    snippet_id: X-016_S2
+    atomic_snippet: >
+      Highlights Google's projected $288B ad revenue driven by AI, implying smarter targeting across
+      social platforms.
+    driver_topic: Ad_Ecosystem
+    sentiment: Positive
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Connects AI investments to future of IG media buying.
+  - post_id: X-016
+    snippet_id: X-016_S3
+    atomic_snippet: >
+      Asks marketers which platform they will prioritize given these dynamics.
+    driver_topic: Cross_App_Strategy
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Encourages explicit prioritization choices.
+  - post_id: X-033
+    snippet_id: X-033_S1
+    atomic_snippet: >
+      Complains that the entire Instagram feed is just Edmund Fitzgerald memes, implying the
+      algorithm got stuck.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Personalization fatigue undermines preference.
+  - post_id: RD-048
+    snippet_id: RD-048_S1
+    atomic_snippet: >
+      Business owner prefers Instagram's Story tool over Facebook's and wants to repost IG Stories
+      to a personal FB profile.
+    driver_topic: User_Experience
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: IG's creation UX is seen as superior.
+  - post_id: RD-048
+    snippet_id: RD-048_S2
+    atomic_snippet: >
+      Discovers Business IG accounts can only auto-share to FB Pages, not individual profiles, even
+      after unlinking and toggling account types.
+    driver_topic: Cross_App_Strategy
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Platform restrictions complicate storytelling.
+  - post_id: RD-048
+    snippet_id: RD-048_S3
+    atomic_snippet: >
+      Crowd-sources hacks from anyone who successfully pushed Business IG stories to a personal FB
+      account.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Illustrates friction in cross-network posting.
+  - post_id: X-023
+    snippet_id: X-023_S1
+    atomic_snippet: >
+      Sees endless AI Charlie Kirk reels from a random Chinese account and refuses to believe it's
+      just "the algorithm."
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces suspicions about low-quality political spam.
+  - post_id: X-029
+    snippet_id: X-029_S1
+    atomic_snippet: >
+      Tired of the Instagram algorithm pushing corny, exaggerated everyday scenarios that feel "extremely cringe."
+    driver_topic: Content_Quality
+    sentiment: Negative
+    app_signal: Anti_Instagram
+    age_inference: Not_Stated
+    insight_note: Signals craving for authenticity.
+  - post_id: X-038
+    snippet_id: X-038_S1
+    atomic_snippet: >
+      Says Instagram's algorithm feels "so good lately" it's almost at singularity level.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Counter-example showing delight when personalization works.
+  - post_id: IG-014
+    snippet_id: IG-014_S1
+    atomic_snippet: >
+      Claims small creators "win big" when they post consistently and align with what Instagram
+      wants.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages discipline as the path to IG preference.
+  - post_id: RD-029
+    snippet_id: RD-029_S1
+    atomic_snippet: >
+      Calls out Instagram's UX for lacking bookmarks/history, making it "nearly impossible" to
+      return to a reel once you scroll away.
+    driver_topic: User_Experience
+    sentiment: Negative
+    app_signal: Anti_Instagram
+    age_inference: Not_Stated
+    insight_note: Reveals retention friction.
+  - post_id: RD-029
+    snippet_id: RD-029_S2
+    atomic_snippet: >
+      Introduces the JustWatched Chrome extension that records your last viewed reel and jumps back
+      with one click plus smart auto-scrolling.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows community-built fixes.
+  - post_id: RD-029
+    snippet_id: RD-029_S3
+    atomic_snippet: >
+      Features include adjustable scroll speed, local-only storage, and support across profiles,
+      Explore, and hashtag views.
+    driver_topic: User_Experience
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Emphasizes privacy + coverage expectations.
+  - post_id: RD-029
+    snippet_id: RD-029_S4
+    atomic_snippet: >
+      Requests feedback on edge cases/performance improvements.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights iterative building with user input.
+  - post_id: RD-069
+    snippet_id: RD-069_S1
+    atomic_snippet: >
+      Veteran strategist spends days perfecting Instagram Reels only to watch them pull "12 views,"
+      highlighting how risky posting without feedback feels.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Underlines anxiety about resonance before publishing.
+  - post_id: RD-069
+    snippet_id: RD-069_S2
+    atomic_snippet: >
+      Clients debate whether campaign hashtags are quirky or confusing; marketers crave answers
+      before something bombs.
+    driver_topic: Content_Quality
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows need for pretesting creative fit.
+  - post_id: RD-069
+    snippet_id: RD-069_S3
+    atomic_snippet: >
+      Built AYA (Ask Your Audience) to get near-instant feedback on Reels, ads, and campaign angles
+      via AI "digital twin" personas.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Illustrates tech-enabled validation loops.
+  - post_id: RD-069
+    snippet_id: RD-069_S4
+    atomic_snippet: >
+      Founder candidly shares the struggle of training LLMs like Gemini/Claude for specific
+      personas while juggling client work.
+    driver_topic: Education_Value
+    sentiment: Mixed
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Emphasizes expertise required to simulate audiences.
+  - post_id: RD-069
+    snippet_id: RD-069_S5
+    atomic_snippet: >
+      AYA lets marketers test whether tone feels cringey or compelling for tailored groups (e.g.,
+      Gen Z TikTokers, millennial parents) within minutes.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Aligns persona empathy with preference coding.
+  - post_id: RD-069
+    snippet_id: RD-069_S6
+    atomic_snippet: >
+      Offers three free tokens for sign-ups and more credit via DM to gather pro feedback.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Encourages practitioner validation loops.
+  - post_id: RD-036
+    snippet_id: RD-036_S1
+    atomic_snippet: >
+      Press company SMM was doing fine with a few IG posts per week, but when the boss demanded
+      multiple posts a day, views cratered.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Indicates overposting penalty concerns.
+  - post_id: RD-036
+    snippet_id: RD-036_S2
+    atomic_snippet: >
+      Already engages with other accounts and reposts author content in Stories to keep community
+      ties strong.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows best practices are in place despite reach loss.
+  - post_id: RD-036
+    snippet_id: RD-036_S3
+    atomic_snippet: >
+      Unsure whether the reach drop is temporary or if the entire content strategy needs an overhaul
+      and asks peers for insight.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights desire for benchmarks.
+  - post_id: RD-043
+    snippet_id: RD-043_S1
+    atomic_snippet: >
+      New creator worries that posting a reel, a feed post, and multiple stories daily will get
+      flagged as bot-like and limit reach.
+    driver_topic: Safety_Governance
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Fear of invisible thresholds shapes posting cadence.
+  - post_id: RD-017
+    snippet_id: RD-017_S1
+    atomic_snippet: >
+      Notices that if they see a friend's IG post cross-posted on Facebook first, Instagram never
+      shows that post in their feed afterwards.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Suggests IG deduplicates against FB viewership, costing engagement.
+  - post_id: RD-017
+    snippet_id: RD-017_S2
+    atomic_snippet: >
+      Can't find any settings or support to fix it and hates missing interactions on Instagram,
+      which they prefer over Facebook.
+    driver_topic: User_Experience
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Feed filtering threatens loyalty.
+  - post_id: X-055
+    snippet_id: X-055_S1
+    atomic_snippet: >
+      Simply asks "what do they have going on on Instagram bruh," signaling confusion about the
+      current vibe.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Shows ambient curiosity when IG culture shifts.
+  - post_id: X-039
+    snippet_id: X-039_S1
+    atomic_snippet: >
+      Reminds creators that only ~2% of followers watch Stories—about 20 views per 1,000 followers.
+    driver_topic: Growth_Reach
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Sets realistic baselines for IG Stories.
+  - post_id: X-039
+    snippet_id: X-039_S2
+    atomic_snippet: >
+      Says the feature isn't broken; it's just how attention and the algorithm allocate reach.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages analytics literacy to reduce panic.
+  - post_id: X-004
+    snippet_id: X-004_S1
+    atomic_snippet: >
+      Teases a side-by-side comparison of Instagram vs TikTok results just two hours after posting.
+    driver_topic: Competitive_Positioning
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Reinforces habit of benchmarking platforms in near real time.
+  - post_id: X-015
+    snippet_id: X-015_S1
+    atomic_snippet: >
+      Shares a guide on "Instagram vs TikTok" for UAE service businesses, covering branding vs viral growth priorities.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Signals need for region-specific playbooks.
+  - post_id: RD-063
+    snippet_id: RD-063_S1
+    atomic_snippet: >
+      About to manage a small business IG and debating whether to revive an old dormant account or
+      start fresh.
+    driver_topic: Growth_Reach
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights account-age dilemma.
+  - post_id: RD-063
+    snippet_id: RD-063_S2
+    atomic_snippet: >
+      Notices on YouTube that new channels often get more exposure and wonders if Instagram's
+      algorithm behaves similarly.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Cross-platform analogies guide expectations.
+  - post_id: RD-063
+    snippet_id: RD-063_S3
+    atomic_snippet: >
+      Considered creating a new IG and migrating content/audience but isn't sure that's smartest and
+      asks for advice.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces need for best-practice guidance.
+  - post_id: X-013
+    snippet_id: X-013_S1
+    atomic_snippet: >
+      Advises marketers to study cultural habits and platform preferences (LinkedIn vs Instagram vs
+      TikTok) when targeting new countries.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Shows platform choice as part of market entry.
+  - post_id: RD-042
+    snippet_id: RD-042_S1
+    atomic_snippet: >
+      Skipping influencers for now but open to collaborations.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Prefers peer co-creation over paid shoutouts.
+  - post_id: RD-042
+    snippet_id: RD-042_S2
+    atomic_snippet: >
+      Asks for concrete guidance on what post types, formats, and frequency the Instagram algorithm
+      rewards to go from 140 to 5K followers.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights early-stage scaling pain.
+  - post_id: RD-042
+    snippet_id: RD-042_S3
+    atomic_snippet: >
+      Also wants realistic timelines tied to sticking with a recommended plan.
+    driver_topic: Growth_Reach
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Seeking expectation-setting to stay motivated.
+  - post_id: RD-057
+    snippet_id: RD-057_S1
+    atomic_snippet: >
+      Asks whether two 2–3K follower accounts perform differently if one is fully monetized with KYC
+      data and the other is a bare-bones email-only profile.
+    driver_topic: Safety_Governance
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights curiosity about account trust signals.
+  - post_id: RD-057
+    snippet_id: RD-057_S2
+    atomic_snippet: >
+      Suspects Instagram might boost the fully verified account because it signals a business
+      relationship.
+    driver_topic: Monetization_Path
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Indicates belief that IG rewards revenue-aligned creators.
+  - post_id: RD-057
+    snippet_id: RD-057_S3
+    atomic_snippet: >
+      Also wonders if the opposite could be true—Instagram pushing unmonetized accounts because all
+      traffic they earn is "free money" for Meta.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows uncertainty around incentives.
+  - post_id: RD-078
+    snippet_id: RD-078_S1
+    atomic_snippet: >
+      Explains Instagram now leans on "Read Path Models" that use keywords and photo recognition to
+      source Explore content.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reveals how metadata fuels discovery.
+  - post_id: RD-078
+    snippet_id: RD-078_S2
+    atomic_snippet: >
+      Recommends market research to identify viral topics/design patterns, then optimizing posts to
+      match those cues.
+    driver_topic: Content_Quality
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages data-backed creative choices.
+  - post_id: RD-078
+    snippet_id: RD-078_S3
+    atomic_snippet: >
+      Notes that engagement problems are widespread; collaborating and DM'ing within the community
+      helps revive signals.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces active relationship-building.
+  - post_id: RD-078
+    snippet_id: RD-078_S4
+    atomic_snippet: >
+      Describes the legacy "Write Path" classifier: guideline check, classify by design/caption,
+      compare to followers' interaction history, then seed the feed.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Provides historical context for algorithm shifts.
+  - post_id: RD-078
+    snippet_id: RD-078_S5
+    atomic_snippet: >
+      New algorithm first calculates real-time engagement against peers and recommends posting 40–70
+      minutes before peak follower activity.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Ties timing to Explore eligibility.
+  - post_id: RD-078
+    snippet_id: RD-078_S6
+    atomic_snippet: >
+      Content sourcing step maps user search queries (e.g., "entrepreneurship") to relevant posts
+      for Explore placement.
+    driver_topic: Discovery_Power
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights SEO-like behavior.
+  - post_id: RD-078
+    snippet_id: RD-078_S7
+    atomic_snippet: >
+      Ranking longevity depends on engagement growth once the post hits Explore; sustained metrics
+      keep it visible.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages post-launch optimization.
+  - post_id: RD-078
+    snippet_id: RD-078_S8
+    atomic_snippet: >
+      Sensitivity control adds high/low precision filters so Explore avoids "bad" content and swaps
+      pieces every minute.
+    driver_topic: Safety_Governance
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows Instagram policing feed quality.
+  - post_id: RD-078
+    snippet_id: RD-078_S9
+    atomic_snippet: >
+      Claims "Instagram hashtags algorithm doesn’t exist"—ranking is still just relevancy between
+      image/caption and hashtag.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Downplays hashtag obsession.
+  - post_id: RD-078
+    snippet_id: RD-078_S10
+    atomic_snippet: >
+      Cites research showing only ~0.7% engagement difference between 3–4 hashtags and 19–20
+      hashtags.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages focusing elsewhere.
+  - post_id: RD-078
+    snippet_id: RD-078_S11
+    atomic_snippet: >
+      Breaks down story "navigation" metrics—forward, next story, exited—and says more forwards
+      keep stories pushed because IG wants people to keep watching.
+    driver_topic: User_Experience
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Clarifies what metrics IG rewards in stories.
+  - post_id: RD-078
+    snippet_id: RD-078_S12
+    atomic_snippet: >
+      Interaction stickers (polls, questions, quizzes) plus profile visits from stories drive extra
+      distribution.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages interactive storytelling.
+  - post_id: RD-078
+    snippet_id: RD-078_S13
+    atomic_snippet: >
+      Only reel tip the author got from IG employees: upload in highest quality because processing
+      can degrade video.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Quality control matters for reach.
+  - post_id: RD-068
+    snippet_id: RD-068_S1
+    atomic_snippet: >
+      Built a social media marketing agent that ties any query back to exact Instagram reels/videos
+      from leading brands.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Automates inspiration sourcing.
+  - post_id: RD-068
+    snippet_id: RD-068_S2
+    atomic_snippet: >
+      Already indexed 200+ Indian beauty brands and is inviting Reddit to test the laptop-friendly
+      tool and share feedback.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows co-building with practitioners.
+  - post_id: IG-036
+    snippet_id: IG-036_S1
+    atomic_snippet: >
+      Australian participant asks if the Instagram course recording can be accessed during their
+      local business hours.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows need for async learning options in global programs.
+  - post_id: RD-081
+    snippet_id: RD-081_S1
+    atomic_snippet: >
+      Shares an infographic from Later.com explaining how the Instagram algorithm works.
+    driver_topic: Education_Value
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights hunger for visual explainers.
+  - post_id: RD-065
+    snippet_id: RD-065_S1
+    atomic_snippet: >
+      Bollywood/lifestyle page saw views collapse from thousands to barely 2K even though content
+      cadence and style stayed the same.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Mirrors widespread reach drop narratives.
+  - post_id: RD-065
+    snippet_id: RD-065_S2
+    atomic_snippet: >
+      Believes posts remain high-quality and relevant, so blames hidden algorithm/shadowban factors.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces distrust of opaque rules.
+  - post_id: RD-065
+    snippet_id: RD-065_S3
+    atomic_snippet: >
+      Solicits community advice on recovering engagement before abandoning IG.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows reliance on peer troubleshooting.
+  - post_id: RD-025
+    snippet_id: RD-025_S1
+    atomic_snippet: >
+      Non-IG user notices a reel with only 14 likes in her boyfriend's feed and assumes IG mostly
+      serves viral videos, so wonders if it's someone he knows.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Shows how personalization can spark relationship suspicion.
+  - post_id: RD-025
+    snippet_id: RD-025_S2
+    atomic_snippet: >
+      Says they usually watch reels together and have never seen a non-influencer clip appear,
+      making this anomaly unsettling.
+    driver_topic: User_Experience
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights expectation of algorithm consistency.
+  - post_id: RD-025
+    snippet_id: RD-025_S3
+    atomic_snippet: >
+      Debates whether insecurity from past experiences is clouding judgment or if she should
+      investigate further.
+    driver_topic: Mental_Wellbeing
+    sentiment: Negative
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Illustrates emotional impact of feed anomalies.
+  - post_id: RD-075
+    snippet_id: RD-075_S1
+    atomic_snippet: >
+      Influencer with 1M followers normally gets 70K Story views but only 5K when a UTM link is
+      added.
+    driver_topic: Ad_Ecosystem
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Suggests link sticker throttling.
+  - post_id: RD-075
+    snippet_id: RD-075_S2
+    atomic_snippet: >
+      Two 200K-follower influencers saw views plunge from 10–40K down to 2–5K when they added the
+      UTM link.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows pattern across creators.
+  - post_id: RD-075
+    snippet_id: RD-075_S3
+    atomic_snippet: >
+      Wonders whether Instagram changed the algorithm recently because the issue hit two campaigns.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights frustration with paywalled links.
+  - post_id: RD-040
+    snippet_id: RD-040_S1
+    atomic_snippet: >
+      Describes how Facebook/Instagram ads went from "only restaurant in town" in 2017 to a 100-
+      restaurant dogfight in 2024, implying 2025–26 will be even harder.
+    driver_topic: Competitive_Positioning
+    sentiment: Negative
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Sets urgency for adapting Meta strategies now.
+  - post_id: RD-040
+    snippet_id: RD-040_S2
+    atomic_snippet: >
+      Says they tested 400+ creatives this year and it's still not enough; winning ads die faster so
+      brands should launch roughly two new ads per day.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces need for relentless experimentation.
+  - post_id: RD-040
+    snippet_id: RD-040_S3
+    atomic_snippet: >
+      Advises creators to study Instagram Reels for 30 minutes because Facebook will retarget you
+      with related ads the next day, proving cross-signal learning.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Highlights how IG behavior seeds Meta ad opportunities.
+  - post_id: RD-040
+    snippet_id: RD-040_S4
+    atomic_snippet: >
+      Research tactic: scrape 1–3 star reviews of competitors to find pain points (e.g., shoes cause
+      blisters) and turn them into ad angles.
+    driver_topic: Education_Value
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows insight mining for resonant creative.
+  - post_id: RD-040
+    snippet_id: RD-040_S5
+    atomic_snippet: >
+      Plans to test at least three improvements plus five new ad angles every week, using AI tools
+      like Claude and Photoshop to match teams testing 100 ads weekly.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Demonstrates AI-enabled scaling.
+  - post_id: RD-040
+    snippet_id: RD-040_S6
+    atomic_snippet: >
+      When a video wins, they immediately refilm it in different environments with multiple age
+      groups so each audience sees someone relatable.
+    driver_topic: Content_Quality
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Ties representation to conversion.
+  - post_id: RD-040
+    snippet_id: RD-040_S7
+    atomic_snippet: >
+      Lesson: don't just raise budget; create dozens of variations around the winning message to
+      stop fatigue.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages creative-based scaling.
+  - post_id: RD-040
+    snippet_id: RD-040_S8
+    atomic_snippet: >
+      Biggest 2024 takeaway was testing more landing pages/advertorials that extend the exact ad
+      problem-solution narrative.
+    driver_topic: Ad_Ecosystem
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Aligns post-click experience with ad hook.
+  - post_id: RD-040
+    snippet_id: RD-040_S9
+    atomic_snippet: >
+      Organic social content also matters—aim for up to ten Reels per day because organic
+      engagement lowers CPM and CAC.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Connects organic vigor to paid efficiency.
+  - post_id: RD-040
+    snippet_id: RD-040_S10
+    atomic_snippet: >
+      Engagement tip: reply quickly to comments, end with questions, and even have support teams
+      answer within 30 minutes since more comments drop CPMs.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights comment velocity as cost lever.
+  - post_id: RD-040
+    snippet_id: RD-040_S11
+    atomic_snippet: >
+      Summary: 2024 has been the hardest Meta ads year; now they test 50 creatives a month and log
+      2+ hours of research weekly just to keep up before competition explodes by 2026.
+    driver_topic: Competitive_Positioning
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Sets bar for future readiness.
+  - post_id: RD-069
+    snippet_id: RD-069_S1
+    atomic_snippet: >
+      After spending days perfecting Reels, the strategist still sees them flop with "12 views," so
+      posting feels like a gamble.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Captures anxiety about resonance.
+  - post_id: RD-069
+    snippet_id: RD-069_S2
+    atomic_snippet: >
+      Client debates (e.g., hashtag tone for London commuters) underscore the need for pretesting
+      before launch.
+    driver_topic: Content_Quality
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows desire for fast feedback.
+  - post_id: RD-069
+    snippet_id: RD-069_S3
+    atomic_snippet: >
+      Built AYA (Ask Your Audience) to get near-instant reactions from AI "digital twin" personas.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Illustrates tech-enabled validation loops.
+  - post_id: RD-069
+    snippet_id: RD-069_S4
+    atomic_snippet: >
+      Shares the slog of training LLMs like Gemini/Claude for personas while juggling client work.
+    driver_topic: Education_Value
+    sentiment: Mixed
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Emphasizes expertise required to simulate audiences.
+  - post_id: RD-069
+    snippet_id: RD-069_S5
+    atomic_snippet: >
+      AYA lets marketers test whether tone feels cringey or compelling for cohorts like "Gen Z
+      TikTokers" or "Millennial parents."
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Aligns persona empathy with preference coding.
+  - post_id: RD-069
+    snippet_id: RD-069_S6
+    atomic_snippet: >
+      Offers three free tokens to attract SMM pros and gather feedback.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Encourages practitioner validation loops.
+  - post_id: RD-072
+    snippet_id: RD-072_S1
+    atomic_snippet: >
+      Built a system that auto-generates quiz-style videos for Instagram Reels and YouTube Shorts
+      in any niche.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Shows appetite for scalable interactive formats.
+  - post_id: RD-072
+    snippet_id: RD-072_S2
+    atomic_snippet: >
+      Already using the quizzes for local businesses and reporting positive results.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Suggests IG audiences engage with participatory storytelling.
+  - post_id: RD-072
+    snippet_id: RD-072_S3
+    atomic_snippet: >
+      Offering 10 free collaborations to test more variations and inviting DMs.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights co-creation as a growth lever.
+  - post_id: RD-072
+    snippet_id: RD-072_S4
+    atomic_snippet: >
+      Believes quizzes are the best way to educate potential customers about a business.
+    driver_topic: Education_Value
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Links interactive learning with preference signals.
+  - post_id: RD-075
+    snippet_id: RD-075_S1
+    atomic_snippet: >
+      A 1M-follower influencer normally gets 70K Story views but only 5K when a UTM link is added.
+    driver_topic: Ad_Ecosystem
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Suggests link stickers throttle reach.
+  - post_id: RD-075
+    snippet_id: RD-075_S2
+    atomic_snippet: >
+      Two 200K-follower influencers saw Story views plunge from 10–40K down to 2–5K once the links
+      were included.
+    driver_topic: Growth_Reach
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows repeated pattern.
+  - post_id: RD-075
+    snippet_id: RD-075_S3
+    atomic_snippet: >
+      Wonders whether Instagram changed the algorithm recently because the issue hit two separate
+      campaigns.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights frustration with opaque enforcement.
+  - post_id: RD-078
+    snippet_id: RD-078_S1
+    atomic_snippet: >
+      Explains Instagram now leans on "Read Path Models" that use keywords and photo recognition to
+      source Explore content.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reveals how metadata fuels discovery.
+  - post_id: RD-078
+    snippet_id: RD-078_S2
+    atomic_snippet: >
+      Recommends market research to identify viral topics/design patterns and optimize posts to
+      match those cues.
+    driver_topic: Content_Quality
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages data-backed creative choices.
+  - post_id: RD-078
+    snippet_id: RD-078_S3
+    atomic_snippet: >
+      Notes engagement issues are widespread; collaborating and DMing within the community helps
+      revive signals.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces active relationship building.
+  - post_id: RD-078
+    snippet_id: RD-078_S4
+    atomic_snippet: >
+      Describes the legacy "Write Path" classifier: guideline check, classify by design/caption,
+      compare to past interactions, then seed the feed.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Gives historical context.
+  - post_id: RD-078
+    snippet_id: RD-078_S5
+    atomic_snippet: >
+      New algorithm first calculates real-time engagement relative to peers and suggests posting 40–70 minutes before follower peak.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Ties timing to Explore eligibility.
+  - post_id: RD-078
+    snippet_id: RD-078_S6
+    atomic_snippet: >
+      Content sourcing step maps search queries (e.g., entrepreneurship) to relevant posts for
+      Explore placement.
+    driver_topic: Discovery_Power
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights SEO-like behavior.
+  - post_id: RD-078
+    snippet_id: RD-078_S7
+    atomic_snippet: >
+      Ranking longevity depends on engagement growth once the post hits Explore.
+    driver_topic: Growth_Reach
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages post-launch optimization.
+  - post_id: RD-078
+    snippet_id: RD-078_S8
+    atomic_snippet: >
+      Sensitivity control adds high/low precision filters so Explore avoids "bad" content and
+      refreshes constantly.
+    driver_topic: Safety_Governance
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Shows Instagram policing feed quality.
+  - post_id: RD-078
+    snippet_id: RD-078_S9
+    atomic_snippet: >
+      Claims there isn't a separate hashtag algorithm; relevancy between image/caption and hashtag
+      still drives ranking.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Downplays hashtag obsession.
+  - post_id: RD-078
+    snippet_id: RD-078_S10
+    atomic_snippet: >
+      Notes only ~0.7% engagement difference between using 3–4 hashtags and 19–20, so stop
+      stressing the count.
+    driver_topic: Education_Value
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages focus elsewhere.
+  - post_id: RD-078
+    snippet_id: RD-078_S11
+    atomic_snippet: >
+      Story distribution is guided by "navigation" metrics—more forwards/next stories keep views
+      rising because IG wants users to stay in Stories.
+    driver_topic: User_Experience
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Clarifies what metrics IG rewards in Stories.
+  - post_id: RD-078
+    snippet_id: RD-078_S12
+    atomic_snippet: >
+      Interaction stickers and profile visits from Stories give extra distribution.
+    driver_topic: Community_Culture
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages interactive storytelling.
+  - post_id: RD-078
+    snippet_id: RD-078_S13
+    atomic_snippet: >
+      Only reel tip gleaned from IG employees: upload at the highest quality because processing can
+      degrade video.
+    driver_topic: Creative_Tools
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Quality control matters for reach.
+  - post_id: RD-081
+    snippet_id: RD-081_S1
+    atomic_snippet: >
+      Shares an infographic from Later.com explaining how the Instagram algorithm works.
+    driver_topic: Education_Value
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Highlights hunger for visual explainers.
+  - post_id: X-004
+    snippet_id: X-004_S1
+    atomic_snippet: >
+      Teases a side-by-side comparison of Instagram vs TikTok performance two hours after posting.
+    driver_topic: Competitive_Positioning
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Reinforces habit of real-time benchmarking.
+  - post_id: X-013
+    snippet_id: X-013_S1
+    atomic_snippet: >
+      Advises marketers to study cultural habits and platform preferences (LinkedIn vs Instagram vs
+      TikTok) when targeting new countries.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Platform choice is part of market entry.
+  - post_id: X-015
+    snippet_id: X-015_S1
+    atomic_snippet: >
+      Shares a guide on "Instagram vs TikTok" for UAE service businesses covering branding vs viral
+      priorities.
+    driver_topic: Cross_App_Strategy
+    sentiment: Positive
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Signals need for region-specific playbooks.
+  - post_id: X-016
+    snippet_id: X-016_S1
+    atomic_snippet: >
+      Sets up a 2025 showdown: TikTok offers explosive viral reach while Instagram owns the
+      established base plus e-commerce muscle.
+    driver_topic: Competitive_Positioning
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Captures strategic trade-offs.
+  - post_id: X-016
+    snippet_id: X-016_S2
+    atomic_snippet: >
+      Highlights Google's projected $288B ad revenue driven by AI, implying smarter targeting across
+      social platforms.
+    driver_topic: Ad_Ecosystem
+    sentiment: Positive
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Connects AI investment to future marketing.
+  - post_id: X-016
+    snippet_id: X-016_S3
+    atomic_snippet: >
+      Asks marketers which platform they will prioritize given these dynamics.
+    driver_topic: Cross_App_Strategy
+    sentiment: Neutral
+    app_signal: Multi_App_Mix
+    age_inference: Not_Stated
+    insight_note: Encourages explicit prioritization.
+  - post_id: X-023
+    snippet_id: X-023_S1
+    atomic_snippet: >
+      Refuses to believe the algorithm randomly serves endless AI Charlie Kirk reels from a Chinese
+      account.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Reinforces suspicions about low-quality political spam.
+  - post_id: X-029
+    snippet_id: X-029_S1
+    atomic_snippet: >
+      Tired of Instagram serving corny, exaggerated everyday scenarios and wants the bubble to burst.
+    driver_topic: Content_Quality
+    sentiment: Negative
+    app_signal: Anti_Instagram
+    age_inference: Not_Stated
+    insight_note: Signals craving for authenticity.
+  - post_id: X-032
+    snippet_id: X-032_S1
+    atomic_snippet: >
+      Declares the 2025 Instagram algorithm is a whole new game, so "old hacks" no longer work.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Creates urgency to relearn IG's ranking logic.
+  - post_id: X-033
+    snippet_id: X-033_S1
+    atomic_snippet: >
+      Complains their feed is nothing but Edmund Fitzgerald memes, implying personalization got
+      stuck.
+    driver_topic: Algorithm_Trust
+    sentiment: Negative
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Personalization fatigue undermines preference.
+  - post_id: X-038
+    snippet_id: X-038_S1
+    atomic_snippet: >
+      Praises Instagram's algorithm as "so good lately" it's almost at singularity level.
+    driver_topic: Algorithm_Trust
+    sentiment: Positive
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Counter-example showing delight when personalization works.
+  - post_id: X-039
+    snippet_id: X-039_S1
+    atomic_snippet: >
+      Reminds creators that only ~2% of followers watch Stories (20 views per 1,000).
+    driver_topic: Growth_Reach
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Sets realistic baselines for IG Stories.
+  - post_id: X-039
+    snippet_id: X-039_S2
+    atomic_snippet: >
+      Says the feature isn't broken; it's just how attention and the algorithm allocate reach.
+    driver_topic: Algorithm_Trust
+    sentiment: Neutral
+    app_signal: Prefers_Instagram
+    age_inference: Not_Stated
+    insight_note: Encourages analytics literacy to reduce panic.
+  - post_id: X-055
+    snippet_id: X-055_S1
+    atomic_snippet: >
+      Simply asks "what do they have going on on Instagram bruh," signaling confusion about the
+      current vibe.
+    driver_topic: Community_Culture
+    sentiment: Neutral
+    app_signal: App_Neutral
+    age_inference: Not_Stated
+    insight_note: Shows ambient curiosity when IG culture shifts.

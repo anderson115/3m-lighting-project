@@ -79,6 +79,7 @@ class TargetParser:
     LINK_TEXT_RE = re.compile(r"\[(.*?)\]\(https://www.target.com/[^\)]*\)")
     BRAND_RE = re.compile(r"^\[(.*?)\]\(https://www.target.com/b/")
     RATING_RE = re.compile(r"^(\[.*?out of.*?reviews\])")
+    IMAGE_RE = re.compile(r"!\[.*?\]\([^)]*\)")
 
     def parse(self, markdown: str) -> List[TargetProduct]:
         products: List[TargetProduct] = []
@@ -110,12 +111,18 @@ class TargetParser:
         return TargetProduct(title=title, url=url, price=price, brand=brand, rating=rating)
 
     def _extract_title(self, lines: List[str]) -> str:
-        for line in lines[1:6]:
+        for line in lines[1:15]:
             match = self.LINK_TEXT_RE.match(line.strip())
             if match and not line.startswith('[!') and 'target.com/p/' in line and 'scroll_to_review_section' not in line:
-                return match.group(1)
+                cleaned = self._clean_text(match.group(1))
+                if cleaned:
+                    return cleaned
         header_match = self.LINK_TEXT_RE.match(lines[0].strip())
-        return header_match.group(1) if header_match else lines[0]
+        if header_match:
+            cleaned = self._clean_text(header_match.group(1))
+            if cleaned:
+                return cleaned
+        return self._clean_text(lines[0])
 
     @staticmethod
     def _extract_price(lines: List[str]) -> str | None:
@@ -137,17 +144,47 @@ class TargetParser:
             if match:
                 return match.group(1)
         return None
+
+    def _clean_text(self, text: str) -> str:
+        cleaned = self.IMAGE_RE.sub('', text)
+        cleaned = cleaned.replace('###', '')
+        return cleaned.replace('\u00a0', ' ').strip()
+def _normalise_terms(terms: Iterable[str] | None) -> tuple[str, ...]:
+    if not terms:
+        return ()
+    return tuple(term.lower() for term in terms if term)
+
+
+def _should_include(title: str, include_terms: tuple[str, ...], exclude_terms: tuple[str, ...]) -> bool:
+    lowered = title.lower()
+    if include_terms and not any(term in lowered for term in include_terms):
+        return False
+    if exclude_terms and any(term in lowered for term in exclude_terms):
+        return False
+    return True
+
+
 class TargetBrandCollector(BrandCollector):
     """Extracts unique brands from Target search results."""
 
-    def __init__(self, scraper: TargetScraper | None = None, parser: TargetParser | None = None) -> None:
+    def __init__(
+        self,
+        scraper: TargetScraper | None = None,
+        parser: TargetParser | None = None,
+        include_terms: Iterable[str] | None = None,
+        exclude_terms: Iterable[str] | None = None,
+    ) -> None:
         self._scraper = scraper or TargetScraper()
         self._parser = parser or TargetParser()
+        self._include_terms = _normalise_terms(include_terms)
+        self._exclude_terms = _normalise_terms(exclude_terms)
 
     def collect(self, category: str) -> Iterable[BrandRecord]:  # pylint: disable=unused-argument
         seen: set[str] = set()
         for page in self._scraper.fetch_pages():
             for product in self._parser.parse(page):
+                if not _should_include(product.title, self._include_terms, self._exclude_terms):
+                    continue
                 if not product.brand:
                     continue
                 key = product.brand.strip().lower()
@@ -159,9 +196,17 @@ class TargetBrandCollector(BrandCollector):
 class TargetProductCatalog(ProductCatalogBuilder):
     """Collects product metadata from Target search results."""
 
-    def __init__(self, scraper: TargetScraper | None = None, parser: TargetParser | None = None) -> None:
+    def __init__(
+        self,
+        scraper: TargetScraper | None = None,
+        parser: TargetParser | None = None,
+        include_terms: Iterable[str] | None = None,
+        exclude_terms: Iterable[str] | None = None,
+    ) -> None:
         self._scraper = scraper or TargetScraper()
         self._parser = parser or TargetParser()
+        self._include_terms = _normalise_terms(include_terms)
+        self._exclude_terms = _normalise_terms(exclude_terms)
 
     @staticmethod
     def _classify_hook(title: str) -> bool:
@@ -176,6 +221,8 @@ class TargetProductCatalog(ProductCatalogBuilder):
     def collect(self, category: str) -> Iterable[ProductRecord]:  # pylint: disable=unused-argument
         for page in self._scraper.fetch_pages():
             for product in self._parser.parse(page):
+                if not _should_include(product.title, self._include_terms, self._exclude_terms):
+                    continue
                 is_hook = self._classify_hook(product.title)
                 is_rail = self._classify_rail(product.title)
                 attributes = {

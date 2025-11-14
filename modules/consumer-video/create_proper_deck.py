@@ -3,13 +3,15 @@
 Properly use Offbrain template with correct layouts and formatting
 """
 
+from config import PATHS
+
 from pathlib import Path
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from copy import deepcopy
 
 TEMPLATE_PATH = Path("/Users/anderson115/Desktop/Offbrain_FINAL.pptx")
-OUTPUT_PATH = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_Lighting_JTBD_Final_Complete-Codex.pptx")
+OUTPUT_PATH = Path(PATHS["outputs"]) / "3M_Lighting_JTBD_Final_Complete-Codex.pptx"
 
 def duplicate_slide(prs, source_slide_idx):
     """Duplicate an existing slide to maintain formatting"""

@@ -3,9 +3,11 @@ import os, json, sys, cv2, librosa, numpy as np, whisper
 from pathlib import Path
 from datetime import datetime
 
+from config import PATHS
+
 os.environ['PATH'] = '/Users/anderson115/00-interlink/12-work/3m-lighting-project/bin:' + os.environ.get('PATH', '')
 
-OUTPUT_BASE = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+OUTPUT_BASE = Path(PATHS["processed"])
 FRAME_INTERVAL = 5
 
 video_path = sys.argv[1]

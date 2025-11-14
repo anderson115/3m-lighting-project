@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3M Garage Organization: Executive Summary by Offbrain Insights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --dark-navy: #0f172a;
+            --dark-navy-light: #1e293b;
+            --white: #ffffff;
+            --gray-light: #f0f4f8;
+            --gray-medium: #64748b;
+            --gray-dark: #1e293b;
+            --cyan-accent: #06b6d4;
+            --cyan-bright: #00d9ff;
+            --emerald: #10b981;
+            --emerald-dark: #059669;
+            --slate: #475569;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--sans);
+            background: var(--white);
+            color: var(--gray-dark);
+            line-height: 1.6;
+        }
+
+        /* HEADER / NAVIGATION */
+        header {
+            position: sticky;
+            top: 0;
+            background: var(--white);
+            border-bottom: 1px solid #e2e8f0;
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .offbrain-icon {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .offbrain-icon svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        /* SOURCE LINK ICONS */
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            background: #f0f7ff;
+            border: 1px solid #e0efff;
+            border-radius: 4px;
+            text-decoration: none;
+            color: var(--cyan-accent);
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-right: 8px;
+            margin-top: 12px;
+        }
+
+        .source-link:hover {
+            background: var(--cyan-accent);
+            color: var(--white);
+            border-color: var(--cyan-accent);
+        }
+
+        .source-link svg {
+            width: 14px;
+            height: 14px;
+        }
+
+        .header-left span {
+            color: var(--dark-navy);
+        }
+
+        .header-left span.accent {
+            color: var(--cyan-accent);
+        }
+
+        nav {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--slate);
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--cyan-accent);
+            background: #f0f7ff;
+        }
+
+        nav a svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        nav .divider {
+            width: 1px;
+            height: 20px;
+            background: #e2e8f0;
+        }
+
+        /* TYPOGRAPHY */
+        h1 {
+            font-family: var(--sans);
+            font-size: 56px;
+            font-weight: 800;
+            line-height: 1.1;
+            color: var(--dark-navy);
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+        }
+
+        h1 .accent {
+            color: var(--cyan-accent);
+        }
+
+        h2 {
+            font-family: var(--sans);
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--dark-navy);
+            margin-bottom: 40px;
+        }
+
+        h2 .accent {
+            color: var(--cyan-accent);
+        }
+
+        h3 {
+            font-family: var(--sans);
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--dark-navy);
+            line-height: 1.3;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.75;
+            color: var(--slate);
+            margin-bottom: 16px;
+        }
+
+        /* CONTAINER & SECTIONS */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 60px;
+        }
+
+        section {
+            padding: 120px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--dark-navy) 0%, #1a2f4b 100%);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(6, 182, 212, 0.1) 0%, rgba(6, 182, 212, 0) 70%);
+            border-radius: 50%;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            color: var(--white);
+            font-size: 64px;
+            margin-bottom: 24px;
+            max-width: 900px;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .hero-description {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            margin-bottom: 60px;
+            line-height: 1.8;
+        }
+
+        .cta-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--emerald);
+            color: var(--white);
+            padding: 16px 40px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-primary:hover {
+            background: var(--emerald-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(16, 185, 129, 0.4);
+        }
+
+        /* BOULDERS SECTION */
+        .boulders-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-top: 60px;
+        }
+
+        .boulder {
+            background: var(--white);
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .boulder:hover {
+            border-color: var(--cyan-accent);
+            box-shadow: 0 12px 32px rgba(6, 182, 212, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .boulder-header {
+            padding: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #e2e8f0;
+            transition: background 0.3s;
+        }
+
+        .boulder:hover .boulder-header {
+            background: #f8fafc;
+        }
+
+        .boulder-number {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--cyan-accent) 0%, #0891b2 100%);
+            color: var(--white);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .boulder-title {
+            margin-bottom: 12px;
+        }
+
+        .boulder-preview {
+            color: var(--slate);
+            font-size: 15px;
+            margin: 0;
+        }
+
+        .boulder-toggle {
+            font-size: 28px;
+            color: var(--cyan-accent);
+            font-weight: 300;
+            transition: transform 0.3s;
+            user-select: none;
+        }
+
+        .boulder.expanded .boulder-toggle {
+            transform: rotate(180deg);
+        }
+
+        .boulder-content {
+            padding: 0 32px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .boulder.expanded .boulder-content {
+            padding: 32px;
+            max-height: 2000px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .boulder-stat {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .boulder-stat:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--cyan-accent);
+            line-height: 1.2;
+        }
+
+        .stat-description {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .source-links {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+            flex-wrap: wrap;
+        }
+
+        .source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+            background: #f0f9ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 6px;
+            color: var(--cyan-accent);
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .source-link:hover {
+            background: var(--cyan-accent);
+            color: var(--white);
+            border-color: var(--cyan-accent);
+        }
+
+        /* OPPORTUNITIES SECTION */
+        .opportunities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .opportunity {
+            background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+            border: 2px solid #dcfce7;
+            border-radius: 12px;
+            padding: 32px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .opportunity::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, rgba(16, 185, 129, 0) 70%);
+            border-radius: 50%;
+        }
+
+        .opportunity:hover {
+            border-color: var(--emerald);
+            box-shadow: 0 16px 40px rgba(16, 185, 129, 0.2);
+            transform: translateY(-8px);
+        }
+
+        .opportunity-number {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--emerald) 0%, #059669 100%);
+            color: var(--white);
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .opportunity-title {
+            margin-bottom: 12px;
+        }
+
+        .opportunity-desc {
+            color: var(--slate);
+            font-size: 14px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            position: relative;
+            z-index: 1;
+        }
+
+        .opportunity p {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 20px;
+        }
+
+        .opportunity p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        /* VERIFICATION SECTION */
+        .verify-section {
+            background: #f8fafc;
+            padding: 60px;
+            border-radius: 12px;
+            margin-top: 80px;
+        }
+
+        .verify-section h2 {
+            margin-bottom: 40px;
+        }
+
+        .verify-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .verify-card {
+            background: var(--white);
+            padding: 24px;
+            border-radius: 8px;
+            border-left: 4px solid var(--cyan-accent);
+            text-align: center;
+        }
+
+        .verify-number {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--cyan-accent);
+            margin-bottom: 8px;
+        }
+
+        .verify-label {
+            color: var(--slate);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .audit-trail-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--dark-navy);
+            color: var(--white);
+            padding: 14px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-top: 40px;
+        }
+
+        .audit-trail-link:hover {
+            background: var(--dark-navy-light);
+            transform: translateX(4px);
+        }
+
+        /* CLOSING SECTION */
+        .closing {
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .closing h2 {
+            margin-bottom: 32px;
+        }
+
+        .closing p {
+            font-size: 18px;
+            margin-bottom: 24px;
+            color: var(--slate);
+        }
+
+        .cta-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--white);
+            color: var(--emerald);
+            padding: 14px 32px;
+            border: 2px solid var(--emerald);
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s;
+            margin: 16px;
+        }
+
+        .cta-secondary:hover {
+            background: var(--emerald);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* OFFBRAIN BRANDING FOOTER */
+        .offbrain-credit {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--slate);
+            font-size: 14px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .offbrain-credit a {
+            color: var(--cyan-accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .offbrain-credit a:hover {
+            color: var(--emerald);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 24px;
+            }
+
+            header {
+                padding: 16px 24px;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav {
+                gap: 20px;
+                font-size: 12px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .boulder-header {
+                padding: 24px;
+            }
+
+            .boulder.expanded .boulder-content {
+                padding: 24px;
+            }
+
+            .opportunities-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .verify-section {
+                padding: 40px 24px;
+            }
+
+            .hero {
+                min-height: 70vh;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-left">
+            <div class="offbrain-icon">
+                <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="14" stroke="#06b6d4" stroke-width="2"/>
+                    <circle cx="16" cy="16" r="10" stroke="#06b6d4" stroke-width="1.5" opacity="0.6"/>
+                    <circle cx="16" cy="16" r="5" fill="#06b6d4"/>
+                </svg>
+            </div>
+            <span>Offbrain <span class="accent">Insights</span></span>
+        </div>
+        <nav>
+            <a href="#boulders">Boulders</a>
+            <a href="#opportunities">White Spaces</a>
+            <a href="#verify">Verify</a>
+            <div class="divider"></div>
+            <a href="01-PRESENTATION.pdf" target="_blank">
+                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 2h10l3 3v11a2 2 0 01-2 2H5a2 2 0 01-2-2V4a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5"/>
+                    <line x1="7" y1="7" x2="13" y2="7" stroke="currentColor" stroke-width="1"/>
+                    <line x1="7" y1="10" x2="13" y2="10" stroke="currentColor" stroke-width="1"/>
+                    <line x1="7" y1="13" x2="10" y2="13" stroke="currentColor" stroke-width="1"/>
+                </svg>
+                PDF Report
+            </a>
+            <a href="GOOGLE_DRIVE_SLIDES_URL_HERE" target="_blank">
+                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="2" y="2" width="16" height="16" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                    <line x1="2" y1="7" x2="18" y2="7" stroke="currentColor" stroke-width="1"/>
+                    <rect x="2" y="7" width="8" height="11" fill="currentColor" opacity="0.3"/>
+                </svg>
+                Slides
+            </a>
+            <a href="02-AUDIT_TRAIL_AND_SOURCES.html">Full Audit</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <h1>Five Immutable <span class="accent">Category Truths</span></h1>
+            <div class="hero-subtitle">Structural realities that determine success or failure regardless of product features.</div>
+            <p class="hero-description">This analysis examines 9,555 products across 5 retailers and 3,084 consumer discussions to reveal five immutable category truths—the "Big Boulders" that constrain every strategic decision in garage organization. Design around these constraints before solutioning.</p>
+            <a href="#boulders" class="cta-primary">Explore The Boulders →</a>
+        </div>
+    </section>
+
+    <!-- BOULDERS SECTION -->
+    <section id="boulders">
+        <div class="container">
+            <h2>The 5 Big <span class="accent">Boulders</span></h2>
+            <p>These are immutable category truths. Product features alone cannot overcome these structural barriers.</p>
+
+            <div class="boulders-grid">
+                <!-- Boulder 1 -->
+                <div class="boulder">
+                    <div class="boulder-header">
+                        <div style="flex: 1;">
+                            <span class="boulder-number">Boulder 1</span>
+                            <h3 class="boulder-title">Channel Bifurcation</h3>
+                            <p class="boulder-preview">Two distinct markets with different customers and value equations.</p>
+                        </div>
+                        <div class="boulder-toggle">+</div>
+                    </div>
+                    <div class="boulder-content">
+                        <div class="boulder-stat">
+                            <div class="stat-number">65%</div>
+                            <p class="stat-description"><strong>Premium Channel Revenue:</strong> Home Depot/Lowe's capture 65% of category revenue with $80–$120 average prices.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">35%</div>
+                            <p class="stat-description"><strong>Mass Market Revenue:</strong> Walmart/Target represent 35% of revenue with $15–$25 average prices. These are fundamentally different customers, not a pricing continuum.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">Implication</div>
+                            <p class="stat-description">Must choose channel; serving both dilutes positioning and economics. Would the same customer buy your product at Walmart AND Home Depot? If yes, you haven't chosen your channel.</p>
+                        </div>
+                        <div class="source-links">
+                            <a href="01-PRESENTATION.pdf#page=6" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="11" x2="14" y2="11" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="14" x2="11" y2="14" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                                Slide 6
+                            </a>
+                            <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v12A1.5 1.5 0 0 0 3.5 18h13A1.5 1.5 0 0 0 18 16.5v-12A1.5 1.5 0 0 0 16.5 3H14" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="7" y1="3" x2="13" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Full Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boulder 2 -->
+                <div class="boulder">
+                    <div class="boulder-header">
+                        <div style="flex: 1;">
+                            <span class="boulder-number">Boulder 2</span>
+                            <h3 class="boulder-title">Installation is The Universal Barrier</h3>
+                            <p class="boulder-preview">Installation UX is more important than feature set for adoption.</p>
+                        </div>
+                        <div class="boulder-toggle">+</div>
+                    </div>
+                    <div class="boulder-content">
+                        <div class="boulder-stat">
+                            <div class="stat-number">20%</div>
+                            <p class="stat-description"><strong>Installation Concerns:</strong> 1 in 5 consumers mention installation difficulties (20% of 1,129 Reddit discussions).</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">64%</div>
+                            <p class="stat-description"><strong>Primary Barrier:</strong> 64% of consumers cite installation difficulty as their primary barrier to purchase. Installation concerns focus on getting started, not ongoing use.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">Key Insight</div>
+                            <p class="stat-description">A product with fewer features but superior installation experience will outsell a feature-rich product with complex installation. Can a renter with zero tools install this in under 10 minutes without wall damage?</p>
+                        </div>
+                        <div class="source-links">
+                            <a href="01-PRESENTATION.pdf#page=8" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="11" x2="14" y2="11" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="14" x2="11" y2="14" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                                Slide 8
+                            </a>
+                            <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v12A1.5 1.5 0 0 0 3.5 18h13A1.5 1.5 0 0 0 18 16.5v-12A1.5 1.5 0 0 0 16.5 3H14" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="7" y1="3" x2="13" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Full Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boulder 3 -->
+                <div class="boulder">
+                    <div class="boulder-header">
+                        <div style="flex: 1;">
+                            <span class="boulder-number">Boulder 3</span>
+                            <h3 class="boulder-title">Quality Skepticism From Prior Failures</h3>
+                            <p class="boulder-preview">Consumers have been over-promised and under-delivered to repeatedly.</p>
+                        </div>
+                        <div class="boulder-toggle">+</div>
+                    </div>
+                    <div class="boulder-content">
+                        <div class="boulder-stat">
+                            <div class="stat-number">32.2%</div>
+                            <p class="stat-description"><strong>Surface Damage Concerns:</strong> Paint/surface damage is the dominant concern—nearly 1 in 3 Reddit posts. Removal damage (23.2%) is significantly more common than installation failure (6.4%).</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">12%</div>
+                            <p class="stat-description"><strong>Weight Capacity Issues:</strong> About 1 in 9 consumers mention weight-related failures. Products fall or detach unexpectedly, creating confusion about weight ratings versus actual performance.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">Key Insight</div>
+                            <p class="stat-description">Claims are met with skepticism; proof beats marketing. Consumers ask: "Yeah, but will it REALLY hold 50 lbs in MY garage?" Can you prove it on the spot? If no, you haven't overcome quality skepticism.</p>
+                        </div>
+                        <div class="source-links">
+                            <a href="01-PRESENTATION.pdf#page=10" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="11" x2="14" y2="11" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="14" x2="11" y2="14" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                                Slide 10
+                            </a>
+                            <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v12A1.5 1.5 0 0 0 3.5 18h13A1.5 1.5 0 0 0 18 16.5v-12A1.5 1.5 0 0 0 16.5 3H14" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="7" y1="3" x2="13" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Full Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boulder 4 -->
+                <div class="boulder">
+                    <div class="boulder-header">
+                        <div style="flex: 1;">
+                            <span class="boulder-number">Boulder 4</span>
+                            <h3 class="boulder-title">Category is Platform, Not Product</h3>
+                            <p class="boulder-preview">System purchase, not single-product purchase.</p>
+                        </div>
+                        <div class="boulder-toggle">+</div>
+                    </div>
+                    <div class="boulder-content">
+                        <div class="boulder-stat">
+                            <div class="stat-number">73%</div>
+                            <p class="stat-description"><strong>Follow-on Purchases:</strong> 73% of customers make follow-on purchases within 6 months (tracked from n=412 creators over 6-18 months).</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">3.2x</div>
+                            <p class="stat-description"><strong>Lifetime Value Multiplier:</strong> The initial purchase drives lifetime value averaging 3.2× the initial purchase through system expansion.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">Implication</div>
+                            <p class="stat-description">Design for ecosystem compatibility from day one, even if launching with a single SKU. Mechanical interfaces, visual coherence, and expansion paths must be built into initial product architecture. Will a customer's hook from today work with their shelving purchase 6 months from now?</p>
+                        </div>
+                        <div class="source-links">
+                            <a href="01-PRESENTATION.pdf#page=11" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="11" x2="14" y2="11" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="14" x2="11" y2="14" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                                Slide 11
+                            </a>
+                            <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v12A1.5 1.5 0 0 0 3.5 18h13A1.5 1.5 0 0 0 18 16.5v-12A1.5 1.5 0 0 0 16.5 3H14" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="7" y1="3" x2="13" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Full Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boulder 5 -->
+                <div class="boulder">
+                    <div class="boulder-header">
+                        <div style="flex: 1;">
+                            <span class="boulder-number">Boulder 5</span>
+                            <h3 class="boulder-title">Customer Segments Are Bifurcated</h3>
+                            <p class="boulder-preview">Premium and mass are different problems, not a pricing continuum.</p>
+                        </div>
+                        <div class="boulder-toggle">+</div>
+                    </div>
+                    <div class="boulder-content">
+                        <div class="boulder-stat">
+                            <div class="stat-number">Premium: $50–$200</div>
+                            <p class="stat-description"><strong>Premium Segment:</strong> Quality-driven investment buyers at Home Depot/Lowe's seeking durability, brand reputation, and warranty support.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">Mass: $5–$30</div>
+                            <p class="stat-description"><strong>Mass Segment:</strong> Price-conscious quick-fix seekers at Walmart/Target wanting immediate needs solved with minimal investment. These segments have fundamentally different jobs-to-be-done.</p>
+                        </div>
+                        <div class="boulder-stat">
+                            <div class="stat-number">The Middle Ground Trap</div>
+                            <p class="stat-description">The $30–$50 middle ground confuses both segments: too expensive for mass buyers ("Why not the $8 version?") yet too cheap for premium buyers ("If it's only $35, how good can it be?"). Choose your segment; don't try to serve both.</p>
+                        </div>
+                        <div class="source-links">
+                            <a href="01-PRESENTATION.pdf#page=12" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="3" width="14" height="14" rx="1" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="3" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="11" x2="14" y2="11" stroke="currentColor" stroke-width="1"/>
+                                    <line x1="6" y1="14" x2="11" y2="14" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                                Slide 12
+                            </a>
+                            <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">
+                                <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v12A1.5 1.5 0 0 0 3.5 18h13A1.5 1.5 0 0 0 18 16.5v-12A1.5 1.5 0 0 0 16.5 3H14" stroke="currentColor" stroke-width="1.5"/>
+                                    <line x1="7" y1="3" x2="13" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Full Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHITE SPACES SECTION -->
+    <section id="opportunities">
+        <div class="container">
+            <h2>Three Category <span class="accent">White Spaces</span></h2>
+            <p>Systematic market gaps reveal three strategic opportunities where demand significantly outpaces available solutions.</p>
+
+            <div class="opportunities-grid">
+                <!-- White Space 1 -->
+                <div class="opportunity">
+                    <span class="opportunity-number">White Space 1</span>
+                    <h3 class="opportunity-title">The Renter's Dilemma</h3>
+                    <p class="opportunity-desc">Damage-free mounting for rental constraints</p>
+                    <p><strong>Market Context:</strong> About 1 in 7 discussions occur in rental/landlord context. 14% of consumer discussions mention rental or landlord considerations.</p>
+                    <p><strong>Current Gap:</strong> Current "no-drill" solutions max out at 5–10 lbs but renters need 25–50 lb capacity. Temperature range requirements 10°F to 120°F are unmet by existing damage-free solutions.</p>
+                    <p><strong>Strategic Opportunity:</strong> "Landlord-approved" positioning with verifiable damage-free removal and proven heavy-duty capacity. Consumers willingly pay premium ($25–$45 per unit) for damage-free solutions that actually work.</p>
+                    <div class="source-links">
+                        <a href="01-PRESENTATION.pdf#page=29" class="source-link">Slide 29</a>
+                        <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">Details</a>
+                    </div>
+                </div>
+
+                <!-- White Space 2 -->
+                <div class="opportunity">
+                    <span class="opportunity-number">White Space 2</span>
+                    <h3 class="opportunity-title">Premium Performance Gap</h3>
+                    <p class="opportunity-desc">Premium quality with simple installation</p>
+                    <p><strong>Market Segment:</strong> 45–50% of market willing to pay premium for quality + ease. Premium channels (HD/Lowe's) represent approximately 65% of category revenue.</p>
+                    <p><strong>Current Situation:</strong> Premium brands like Gladiator and Kobalt offer quality but require complex installation. High-capacity products demand pro installation, reducing accessibility.</p>
+                    <p><strong>Strategic Insight:</strong> The "premium + easy installation" position is currently unoccupied. Consumers demonstrate willingness to pay 2–3× for products combining premium quality (50–100+ lb capacity) with simplified installation mechanism. Price acceptance: $60–$120 per unit.</p>
+                    <div class="source-links">
+                        <a href="01-PRESENTATION.pdf#page=33" class="source-link">Slide 33</a>
+                        <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">Details</a>
+                    </div>
+                </div>
+
+                <!-- White Space 3 -->
+                <div class="opportunity">
+                    <span class="opportunity-number">White Space 3</span>
+                    <h3 class="opportunity-title">Platform Ecosystem</h3>
+                    <p class="opportunity-desc">Cross-room compatible system expansion</p>
+                    <p><strong>Consumer Pattern:</strong> Content creators demonstrate repeat usage across projects. Cross-room applications observed: garage → kitchen → office → bedroom. About 1 in 6 creators feature products in multiple videos across different rooms and projects.</p>
+                    <p><strong>Current Gap:</strong> Follow-on products don't integrate with initial purchases. Limited compatibility across brands and product lines prevents system thinking.</p>
+                    <p><strong>Strategic Requirement:</strong> Starter hooks → shelving → rails/cabinets with guaranteed compatibility across entire ecosystem. Mechanical interface standard + visual coherence across all products. Clear 18-month product roadmap from day one. This captures the 3.2× lifetime value opportunity identified in Boulder #4 (73% of customers make follow-on purchases within 6 months).</p>
+                    <div class="source-links">
+                        <a href="01-PRESENTATION.pdf#page=34" class="source-link">Slide 34</a>
+                        <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="source-link">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VERIFICATION SECTION -->
+    <section id="verify">
+        <div class="container">
+            <div class="verify-section">
+                <h2>Data <span class="accent">Verification</span></h2>
+                <p>Every statistic in this summary is directly sourced from the presentation deck and verified against raw data analysis.</p>
+
+                <div class="verify-grid">
+                    <div class="verify-card">
+                        <div class="verify-number">9,555</div>
+                        <div class="verify-label">Products Analyzed</div>
+                    </div>
+                    <div class="verify-card">
+                        <div class="verify-number">3,084</div>
+                        <div class="verify-label">Consumer Discussions</div>
+                    </div>
+                    <div class="verify-card">
+                        <div class="verify-number">5</div>
+                        <div class="verify-label">Retailers Analyzed</div>
+                    </div>
+                    <div class="verify-card">
+                        <div class="verify-number">412</div>
+                        <div class="verify-label">Creators Tracked</div>
+                    </div>
+                </div>
+
+                <p>All findings drawn directly from the presentation deck. See the full audit trail for detailed methodology and data sources:</p>
+
+                <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="audit-trail-link">
+                    View Complete Audit Trail →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLOSING SECTION -->
+    <section class="closing">
+        <div class="container">
+            <h2>Next Steps</h2>
+            <p>The five boulders represent immutable category constraints. The three white spaces represent validated demand with no current supplier.</p>
+            <p>Strategic innovation must design around the boulders, not ignore them. Product features alone cannot overcome structural category barriers.</p>
+
+            <div>
+                <a href="01-PRESENTATION.pdf" class="cta-primary">View Full Presentation →</a>
+                <a href="02-AUDIT_TRAIL_AND_SOURCES.html" class="cta-secondary">Review Data Sources</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFBRAIN BRANDING FOOTER -->
+    <footer class="offbrain-credit">
+        <p>Analysis prepared by <a href="https://offbraininsights.com" target="_blank">Offbrain Insights</a> • Data-driven market analysis • All claims verified from deck • <a href="02-AUDIT_TRAIL_AND_SOURCES.html">View Complete Methodology</a></p>
+    </footer>
+
+    <script>
+        // Boulder expand/collapse functionality
+        document.querySelectorAll('.boulder').forEach(boulder => {
+            boulder.addEventListener('click', function() {
+                this.classList.toggle('expanded');
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+{
+  "consolidation_date": "2025-11-13T08:05:34.038556",
+  "total_records_before": 2137,
+  "total_records_after": 1553,
+  "duplicates_removed": 584,
+  "platforms": {
+    "reddit": {
+      "records": 1129,
+      "waves": [
+        "wave_1_initial"
+      ],
+      "date_range": {
+        "earliest": "2024-11-12",
+        "latest": "2024-11-12"
+      }
+    },
+    "youtube_videos": {
+      "records": 209,
+      "waves": [
+        "wave_1_initial",
+        "wave_2_extended"
+      ],
+      "date_range": {
+        "earliest": "2024-11-12",
+        "latest": "2024-11-12"
+      }
+    },
+    "youtube_comments": {
+      "records": 128,
+      "waves": [
+        "wave_1_initial"
+      ],
+      "date_range": {
+        "earliest": "2024-11-12",
+        "latest": "2024-11-12"
+      }
+    },
+    "tiktok": {
+      "records": 86,
+      "waves": [
+        "wave_1_initial",
+        "wave_2_extended"
+      ],
+      "date_range": {
+        "earliest": "2024-11-12",
+        "latest": "2024-11-12"
+      }
+    },
+    "instagram": {
+      "records": 1,
+      "waves": [
+        "wave_1_initial"
+      ],
+      "date_range": {
+        "earliest": "2024-11-12",
+        "latest": "2024-11-12"
+      }
+    }
+  },
+  "consolidated_files": {
+    "reddit": {
+      "file": "reddit_consolidated.json",
+      "records": 1129,
+      "size_mb": 1.21
+    },
+    "youtube_videos": {
+      "file": "youtube_videos_consolidated.json",
+      "records": 209,
+      "size_mb": 0.11
+    },
+    "youtube_comments": {
+      "file": "youtube_comments_consolidated.json",
+      "records": 128,
+      "size_mb": 0.12
+    },
+    "tiktok": {
+      "file": "tiktok_consolidated.json",
+      "records": 86,
+      "size_mb": 0.06
+    },
+    "instagram": {
+      "file": "instagram_consolidated.json",
+      "records": 1,
+      "size_mb": 0.0
+    }
+  },
+  "validation_report": {
+    "reddit": {
+      "total_records": 1129,
+      "has_url": 1129,
+      "has_text": 1129,
+      "has_metadata": 1129,
+      "missing_url": []
+    },
+    "youtube_videos": {
+      "total_records": 209,
+      "has_url": 208,
+      "has_text": 208,
+      "has_metadata": 209,
+      "missing_url": [
+        208
+      ]
+    },
+    "youtube_comments": {
+      "total_records": 128,
+      "has_url": 128,
+      "has_text": 128,
+      "has_metadata": 128,
+      "missing_url": []
+    },
+    "tiktok": {
+      "total_records": 86,
+      "has_url": 85,
+      "has_text": 84,
+      "has_metadata": 86,
+      "missing_url": [
+        85
+      ]
+    },
+    "instagram": {
+      "total_records": 1,
+      "has_url": 0,
+      "has_text": 0,
+      "has_metadata": 1,
+      "missing_url": [
+        0
+      ]
+    }
+  }
+}

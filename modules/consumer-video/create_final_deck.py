@@ -4,6 +4,8 @@ Create final JTBD presentation using Offbrain template
 Following Clayton Christensen framework properly
 """
 
+from config import PATHS
+
 import json
 from pathlib import Path
 from pptx import Presentation
@@ -12,8 +14,8 @@ from pptx.enum.text import PP_ALIGN
 from collections import defaultdict
 
 # Paths
-PROCESSED_DIR = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
-TEMPLATE_PATH = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_Lighting_JTBD_Final.pptx")
+PROCESSED_DIR = Path(PATHS["processed"])
+TEMPLATE_PATH = Path(PATHS["outputs"]) / "3M_Lighting_JTBD_Final.pptx"
 
 def load_transcripts():
     """Load all transcripts with metadata"""

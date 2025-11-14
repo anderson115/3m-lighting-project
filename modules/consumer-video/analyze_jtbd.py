@@ -4,13 +4,15 @@ Jobs-to-be-Done "Rungs of the Ladder" Analysis
 Analyzes all consumer video transcripts to extract and categorize jobs
 """
 
+from config import PATHS
+
 import json
 from pathlib import Path
 from collections import defaultdict
 import re
 
 # Directory containing processed videos
-PROCESSED_DIR = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+PROCESSED_DIR = Path(PATHS["processed"])
 
 class JTBDAnalyzer:
     def __init__(self):

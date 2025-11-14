@@ -44,7 +44,7 @@ modules/
 
 **Entry Point:** `run_analysis.py`
 
-**Documentation:** `modules/category-intelligence/MODULE_GUIDE.md`
+**Documentation:** `clients/3m/projects/lighting-2025/docs/modules/category-intelligence/documentation/MODULE_GUIDE.md`
 
 ---
 
@@ -76,7 +76,7 @@ modules/
 
 **Entry Point:** `run_full_corpus_analysis.py`
 
-**Documentation:** `modules/consumer-video/ENHANCEMENT_SUMMARY.md`
+**Documentation:** `modules/consumer-video/docs/module_overview.md`
 
 ---
 

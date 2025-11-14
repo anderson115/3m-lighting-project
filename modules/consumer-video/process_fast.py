@@ -3,6 +3,8 @@
 Fast video processor - transcripts + audio only
 Frame extraction on-demand via separate tool
 """
+
+from config import PATHS
 import os
 import json
 import sys
@@ -12,7 +14,7 @@ import cv2
 from datetime import datetime
 import time
 
-OUTPUT_BASE = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+OUTPUT_BASE = Path(PATHS["processed"])
 WHISPER_MODEL_PATH = "/Volumes/TARS/llm-models/whisper"
 
 def process_video(video_path):

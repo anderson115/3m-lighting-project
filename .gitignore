@@ -84,3 +84,29 @@ clients/*/.env
 # System
 .DS_Store
 Thumbs.db
+
+# Secrets and credentials (NEVER commit)
+.env
+.env.local
+.env.*.local
+**/credentials.json
+**/*_token.json
+**/.youtube_token.json
+**/.api_key
+**/secrets/**
+
+# Large data files
+*.xlsx
+*.xls
+*.zip
+projects/**/*.json
+client-projects/**/*.json
+media-archive/**/*.json
+**/*.duckdb
+**/*.db
+
+# Logs and temporary files
+logs/
+*.log
+**/logs/
+**/*.tmp

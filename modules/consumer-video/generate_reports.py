@@ -4,6 +4,8 @@ Generate Professional JTBD Reports for 3M Lighting
 Includes MD report with full citations and PowerPoint presentation
 """
 
+from config import PATHS
+
 import json
 from datetime import datetime
 from pathlib import Path
@@ -40,13 +42,13 @@ def generate_comprehensive_md_report(output_path):
 
 **Supporting Evidence:**
 
-1. [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 01:33 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "I don't have any ability to create electrical work inside the walls. I would need to hire an electrician for that. So, I didn't want to add all that would add to the cost, and I didn't want to do that."
+1. [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 01:33 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "I don't have any ability to create electrical work inside the walls. I would need to hire an electrician for that. So, I didn't want to add all that would add to the cost, and I didn't want to do that."
 
-2. [FrederickK | FrederickK_Q1_2025-06-18_065110_1 | 00:47 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FrederickK_Q1_2025-06-18_065110_1/transcript.json]: "Hard wiring would have been expensive. I don't know. Maybe I had to tear up the wall."
+2. [FrederickK | FrederickK_Q1_2025-06-18_065110_1 | 00:47 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FrederickK_Q1_2025-06-18_065110_1/transcript.json]: "Hard wiring would have been expensive. I don't know. Maybe I had to tear up the wall."
 
-3. [FarahN | FarahN_Q1_2025-06-20_064419_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Q1_2025-06-20_064419_1/transcript.json]: "Every time you get somebody to come into your house, it's a thousand dollars... No need to hire an expensive installer."
+3. [FarahN | FarahN_Q1_2025-06-20_064419_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Q1_2025-06-20_064419_1/transcript.json]: "Every time you get somebody to come into your house, it's a thousand dollars... No need to hire an expensive installer."
 
-4. [TylrD | TylrD_Activity3ProjectMotivation_2025-06-30_045957_1 | 00:00 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/TylrD_Activity3ProjectMotivation_2025-06-30_045957_1/transcript.json]: "What inspired me to take on this project is to show that you don't need to invest a lot of money into your home design or your lighting home design."
+4. [TylrD | TylrD_Activity3ProjectMotivation_2025-06-30_045957_1 | 00:00 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/TylrD_Activity3ProjectMotivation_2025-06-30_045957_1/transcript.json]: "What inspired me to take on this project is to show that you don't need to invest a lot of money into your home design or your lighting home design."
 
 ### Strategic Priorities
 
@@ -86,33 +88,33 @@ So I can create visual focal points and showcase my style without hiring electri
 
 **Functional: Adding targeted light to artwork**
 
-- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:36 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "When I have guests over, I like to highlight my artwork in my house with the spotlight. And it kind of brings this element of this like focal point."
+- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:36 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "When I have guests over, I like to highlight my artwork in my house with the spotlight. And it kind of brings this element of this like focal point."
 
-- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:30 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "As people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel, as well as the new art that hangs right above it."
+- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:30 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "As people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel, as well as the new art that hangs right above it."
 
-- [DianaL | DianaL_Q1_2025-06-16_031723_1 | 00:20 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/DianaL_Q1_2025-06-16_031723_1/transcript.json]: "We like it in this corner and it is a plug-in so we have to go down here and plug it in every time we want to illuminate the art."
+- [DianaL | DianaL_Q1_2025-06-16_031723_1 | 00:20 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/DianaL_Q1_2025-06-16_031723_1/transcript.json]: "We like it in this corner and it is a plug-in so we have to go down here and plug it in every time we want to illuminate the art."
 
-- [AlysonT | AlysonT_Q1_2025-06-23_021844_1 | 01:20 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/AlysonT_Q1_2025-06-23_021844_1/transcript.json]: "This canned spotlight is in a hallway to illuminate various pieces of art. For example, this sculpture on the wall."
+- [AlysonT | AlysonT_Q1_2025-06-23_021844_1 | 01:20 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/AlysonT_Q1_2025-06-23_021844_1/transcript.json]: "This canned spotlight is in a hallway to illuminate various pieces of art. For example, this sculpture on the wall."
 
 **Emotional: Creating pride and satisfaction through showcasing**
 
-- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:58 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "It really helps to kind of showcase the artwork and almost bring the whole space to life, which is really great."
+- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:58 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "It really helps to kind of showcase the artwork and almost bring the whole space to life, which is really great."
 
-- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative."
+- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "I wanted to highlight the framing of these pictures that I got done about 10 years ago and I just wanted to be creative."
 
-- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:28 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "It really makes me feel just invited to sort of enjoy the artwork."
+- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:28 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "It really makes me feel just invited to sort of enjoy the artwork."
 
-- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:54 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "We just want to add a light source, something that's not too bright, but immediately draws your attention to that."
+- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:54 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "We just want to add a light source, something that's not too bright, but immediately draws your attention to that."
 
 **Social: Impressing guests and demonstrating taste**
 
-- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:36 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "When I have guests over, I like to highlight my artwork in my house with the spotlight."
+- [FarahN | FarahN_Activity3ProjectMotivation_2025-07-02_075539_1 | 00:36 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Activity3ProjectMotivation_2025-07-02_075539_1/transcript.json]: "When I have guests over, I like to highlight my artwork in my house with the spotlight."
 
-- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:30 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "So, as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel."
+- [GeneK | GeneK_Activity3ProjectMotivation_2025-06-30_124952_1 | 00:30 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/GeneK_Activity3ProjectMotivation_2025-06-30_124952_1/transcript.json]: "So, as people come in into the living room, we wanted accent lighting to draw attention to the fireplace mantel."
 
-- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "I wanted to highlight the framing of these pictures... because I do change my different rooms in my house a lot because my house is full of lots of color."
+- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "I wanted to highlight the framing of these pictures... because I do change my different rooms in my house a lot because my house is full of lots of color."
 
-- [RobinL | RobinL_Activity9FutureImprovements_2025-06-30_064350_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/RobinL_Activity9FutureImprovements_2025-06-30_064350_1/transcript.json]: "I can walk by my displays my artwork or whatever and they just light up and it's just kind of nice you know having that."
+- [RobinL | RobinL_Activity9FutureImprovements_2025-06-30_064350_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/RobinL_Activity9FutureImprovements_2025-06-30_064350_1/transcript.json]: "I can walk by my displays my artwork or whatever and they just light up and it's just kind of nice you know having that."
 
 **Consumer Insight (P&G CMK Format):**
 Homeowners with art collections stand in living rooms and bedrooms admiring paintings and photos on walls, frustrated these pieces fade into the background without proper illumination. They explore spotlight options but immediately reject hardwired solutions requiring electricians ($1,000+ cost, wall damage, scheduling hassle). They need wireless accent lighting that creates dramatic focal points showcasing their taste while allowing DIY installation. When guests visit, they feel pride seeing artwork properly lit, transforming spaces from ordinary to gallery-like. The emotional payoff is two-fold: personal enjoyment of treasured pieces and social validation of their aesthetic sensibility.
@@ -149,33 +151,33 @@ So I can complete projects quickly and feel capable without depending on profess
 
 **Functional: Installing without expertise or tools**
 
-- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:19 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "It was very idiot proof as I like to call it. I'm definitely not the handiest person, so I try and look for like the easy ways to do things."
+- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:19 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "It was very idiot proof as I like to call it. I'm definitely not the handiest person, so I try and look for like the easy ways to do things."
 
-- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:54 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "One of the things that kind of finalized my decision to buy these lights was that they had the adhesive strip... hanging them up was just as easy as taking the strip sticking it to the back of the light holder thing."
+- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:54 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "One of the things that kind of finalized my decision to buy these lights was that they had the adhesive strip... hanging them up was just as easy as taking the strip sticking it to the back of the light holder thing."
 
-- [CarrieS | CarrieS_Activity8PainPoints_2025-06-30_094337_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/CarrieS_Activity8PainPoints_2025-06-30_094337_1/transcript.json]: "It was pretty easy the technique I used. I just needed to make sure that I used tape that was sticky enough to stick not only to the lighting but also to the wall."
+- [CarrieS | CarrieS_Activity8PainPoints_2025-06-30_094337_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/CarrieS_Activity8PainPoints_2025-06-30_094337_1/transcript.json]: "It was pretty easy the technique I used. I just needed to make sure that I used tape that was sticky enough to stick not only to the lighting but also to the wall."
 
-- [MarkR | MarkR_Activity8PainPoints_2025-06-30_115448_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/MarkR_Activity8PainPoints_2025-06-30_115448_1/transcript.json]: "Didn't run into any issues, so that part was pretty easy for me, the install."
+- [MarkR | MarkR_Activity8PainPoints_2025-06-30_115448_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/MarkR_Activity8PainPoints_2025-06-30_115448_1/transcript.json]: "Didn't run into any issues, so that part was pretty easy for me, the install."
 
 **Emotional: Feeling capable and accomplished**
 
-- [DianaL | DianaL_Activity8PainPoints_2025-07-02_104321_1 | 00:05 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/DianaL_Activity8PainPoints_2025-07-02_104321_1/transcript.json]: "I hadn't done this before but I wanted to help design this room since we had just bought the house... now I feel pretty comfortable that I could do it again by myself without my husband's help."
+- [DianaL | DianaL_Activity8PainPoints_2025-07-02_104321_1 | 00:05 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/DianaL_Activity8PainPoints_2025-07-02_104321_1/transcript.json]: "I hadn't done this before but I wanted to help design this room since we had just bought the house... now I feel pretty comfortable that I could do it again by myself without my husband's help."
 
-- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "And I'm really just like really proud of them."
+- [TiffanyO | TiffanyO_Q1_2025-06-19_112125_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/TiffanyO_Q1_2025-06-19_112125_1/transcript.json]: "And I'm really just like really proud of them."
 
-- [MarkR | MarkR_Activity5LightingChoices_2025-06-30_114454_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/MarkR_Activity5LightingChoices_2025-06-30_114454_1/transcript.json]: "Nothing over the top, just something sort of simple, warm, and I feel as though I've accomplished it."
+- [MarkR | MarkR_Activity5LightingChoices_2025-06-30_114454_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/MarkR_Activity5LightingChoices_2025-06-30_114454_1/transcript.json]: "Nothing over the top, just something sort of simple, warm, and I feel as though I've accomplished it."
 
-- [WilliamS | WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1/transcript.json]: "I felt like a proud dad to do this for my son."
+- [WilliamS | WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/WilliamS_Activity3ProjectMotivation_2025-06-30_100418_1/transcript.json]: "I felt like a proud dad to do this for my son."
 
 **Social: Demonstrating DIY competence**
 
-- [FarahN | FarahN_Q1_2025-06-20_064419_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/FarahN_Q1_2025-06-20_064419_1/transcript.json]: "No need to hire an expensive installer. And I'm just so happy with it."
+- [FarahN | FarahN_Q1_2025-06-20_064419_1 | (context) | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/FarahN_Q1_2025-06-20_064419_1/transcript.json]: "No need to hire an expensive installer. And I'm just so happy with it."
 
-- [DianaL | DianaL_Activity8PainPoints_2025-07-02_104321_1 | 00:05 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/DianaL_Activity8PainPoints_2025-07-02_104321_1/transcript.json]: "I wanted to help design this room... now I feel pretty comfortable that I could do it again by myself."
+- [DianaL | DianaL_Activity8PainPoints_2025-07-02_104321_1 | 00:05 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/DianaL_Activity8PainPoints_2025-07-02_104321_1/transcript.json]: "I wanted to help design this room... now I feel pretty comfortable that I could do it again by myself."
 
-- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:19 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "I'm definitely not the handiest person so I try and look for like the easy ways to do things."
+- [EllenB | EllenB_Activity8PainPoints_2025-07-03_042058_1 | 00:19 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/EllenB_Activity8PainPoints_2025-07-03_042058_1/transcript.json]: "I'm definitely not the handiest person so I try and look for like the easy ways to do things."
 
-- [TylrD | TylrD_Activity3ProjectMotivation_2025-06-30_045957_1 | 00:07 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed/TylrD_Activity3ProjectMotivation_2025-06-30_045957_1/transcript.json]: "What inspired me to take on this project is to show that you don't need to invest a lot of money into your home design."
+- [TylrD | TylrD_Activity3ProjectMotivation_2025-06-30_045957_1 | 00:07 | /Users/anderson115/00-interlink/12-work/3m-lighting-project/clients/3m/projects/lighting-2025/runs/consumer-video/2025-10-22_initial/data/processed/TylrD_Activity3ProjectMotivation_2025-06-30_045957_1/transcript.json]: "What inspired me to take on this project is to show that you don't need to invest a lot of money into your home design."
 
 **Consumer Insight (P&G CMK Format):**
 Homeowners with limited DIY skills stand in home improvement aisles overwhelmed by hardwired lighting options, anxious about causing electrical fires or needing to hire expensive contractors. They lack confidence in their handyperson abilities but desperately want to improve their homes independently. They need lighting that installs in minutes with adhesive strips or simple mounting - no tools, no electrical work, no risk of failure. When installation succeeds in 15-20 minutes, they feel capable, proud, and empowered. The emotional transformation from "I can't do this" to "I did this myself" drives repeat purchases and recommendations to friends with similar skill anxieties.
@@ -472,7 +474,7 @@ def main():
     print("=" * 80)
 
     # Generate MD report
-    md_path = "/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_JTBD_Professional_Report.md"
+    md_path = Path(PATHS["outputs"]) / "3M_JTBD_Professional_Report.md"
     generate_comprehensive_md_report(md_path)
 
     print("\n" + "=" * 80)

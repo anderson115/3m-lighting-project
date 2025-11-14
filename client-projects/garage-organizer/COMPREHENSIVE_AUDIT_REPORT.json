@@ -1,0 +1,54 @@
+{
+  "consolidated_data": {
+    "reddit": 1129,
+    "youtube_videos": 209,
+    "youtube_comments": 128,
+    "tiktok": 86,
+    "total": 1552
+  },
+  "fabrications": {
+    "n=571_videos": {
+      "claimed": 571,
+      "actual": 337,
+      "status": "FABRICATED"
+    },
+    "installation_difficulty": {
+      "claimed": 64.0,
+      "actual": 26.0,
+      "count": 293,
+      "base": 1129,
+      "status": "CAN_RECALCULATE"
+    },
+    "weight_failures": {
+      "claimed": 58.0,
+      "actual": 14.6,
+      "count": 165,
+      "base": 1129,
+      "status": "CAN_RECALCULATE"
+    },
+    "rental_restrictions": {
+      "claimed": 31.0,
+      "actual": 14.2,
+      "count": 160,
+      "base": 1129,
+      "status": "CAN_RECALCULATE"
+    },
+    "rust_durability": {
+      "claimed": 39.0,
+      "actual": 16.8,
+      "count": 190,
+      "base": 1129,
+      "status": "DELETE - Not complaints"
+    },
+    "follow_on_purchases": {
+      "claimed": 73.0,
+      "actual": null,
+      "status": "DELETE - NO DATA"
+    },
+    "ltv": {
+      "claimed": 3.2,
+      "actual": null,
+      "status": "DELETE - NO DATA"
+    }
+  }
+}

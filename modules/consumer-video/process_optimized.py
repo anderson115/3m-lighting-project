@@ -4,6 +4,8 @@ Optimized video processor for 3M Lighting consumer videos
 Uses faster-whisper for 4x speed improvement
 Extracts: transcripts, audio, frames (10s intervals)
 """
+
+from config import PATHS
 import os
 import json
 import sys
@@ -14,7 +16,7 @@ from datetime import datetime
 import time
 
 # Configuration
-OUTPUT_BASE = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+OUTPUT_BASE = Path(PATHS["processed"])
 FRAME_INTERVAL = 10  # seconds (reduced from 5s for speed)
 WHISPER_MODEL_PATH = "/Volumes/TARS/llm-models/whisper"
 

@@ -3,12 +3,14 @@
 Generate PowerPoint presentation from JTBD analysis
 """
 
+from config import PATHS
+
 import json
 import subprocess
 from pathlib import Path
 
 # Load analysis results
-PROCESSED_DIR = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/data/processed")
+PROCESSED_DIR = Path(PATHS["processed"])
 ANALYSIS_PATH = PROCESSED_DIR / "jtbd_analysis.json"
 SKILL_PATH = Path("/Users/anderson115/.claude/skills/slide-text-to-pptx/skill.py")
 

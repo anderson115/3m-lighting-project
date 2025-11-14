@@ -3,12 +3,14 @@
 Use Offbrain template MASTER LAYOUTS (not custom slides) to create JTBD presentation
 """
 
+from config import PATHS
+
 from pathlib import Path
 from pptx import Presentation
 from pptx.util import Inches, Pt
 
 TEMPLATE_PATH = Path("/Users/anderson115/Desktop/Offbrain_FINAL.pptx")
-OUTPUT_PATH = Path("/Users/anderson115/00-interlink/12-work/3m-lighting-project/modules/consumer-video/3M_Lighting_JTBD_Final_Complete-Codex.pptx")
+OUTPUT_PATH = Path(PATHS["outputs"]) / "3M_Lighting_JTBD_Final_Complete-Codex.pptx"
 
 def create_presentation():
     """Create presentation using Offbrain MASTER layouts"""

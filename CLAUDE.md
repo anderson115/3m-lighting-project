@@ -1,0 +1,2 @@
+- You may never use synthetic data, fabricated data, hand written fake comments, simulated datasets.
+- you may never simulate, fabricate, falsify, hallucinate, or make-up date. all insights and analysis must be based on live real data.

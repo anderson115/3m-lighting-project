@@ -1,0 +1,95 @@
+# Final Mile Delivery Configuration Template
+# Copy and customize for each new project
+
+project:
+  name: "Client Brand Name"
+  category: "Product Category"
+  year: 2025
+  deliverable_date: "2025-11-13"
+
+agency:
+  name: "Offbrain Insights"
+  url: "https://offbraininsights.com"
+  logo_svg: "offbrain-logo.svg"
+
+branding:
+  colors:
+    primary: "#06b6d4"      # Cyan (default)
+    secondary: "#10b981"    # Emerald (default)
+    accent: "#0f172a"       # Navy (default)
+  fonts:
+    primary: "Inter"
+    fallback: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
+
+report:
+  type: "Market Intelligence"  # or "Executive Summary", "Audit Trail"
+  sections:
+    - id: "boulders"
+      title: "Key Constraints"
+      description: "Structural barriers identified in market research"
+    - id: "opportunities"
+      title: "White Spaces"
+      description: "Strategic opportunities for differentiation"
+    - id: "verify"
+      title: "Data Verification"
+      description: "Audit trail and source citations"
+
+sources:
+  pdf_report: "01-PRESENTATION.pdf"
+  slides: "https://docs.google.com/presentation/d/YOUR_SLIDES_ID"
+  audit_trail: "02-AUDIT_TRAIL_AND_SOURCES.html"
+  raw_data_dir: "09-raw-data"
+
+data:
+  total_data_points: 12756
+  sources_count: 6
+  package_size_mb: 15
+
+content:
+  hero_subtitle: "Comprehensive market analysis with 12,756 data points"
+  key_findings: 5
+  opportunities_count: 3
+
+  # Constraint/Boulder specifications
+  constraints:
+    - constraint_number: 1
+      title: "Constraint Title"
+      description: "Full description"
+      statistics: []
+      slides: [6]
+
+  # Opportunity/White Space specifications
+  opportunities:
+    - opportunity_number: 1
+      title: "Opportunity Title"
+      description: "Market description"
+      market_size: "$X billion"
+      target_segment: "Segment"
+      slides: [29]
+
+# Data source configuration
+data_sources:
+  - name: "reddit_consolidated.json"
+    records: 1129
+    size_mb: 1.2
+    source: "Reddit"
+  - name: "youtube_videos_consolidated.json"
+    records: 209
+    size_mb: 0.14
+    source: "YouTube"
+
+# Validation rules
+validation:
+  require_sources: true
+  min_sample_size: 100
+  verify_against_pdf: true
+  check_fabrication: true
+
+output:
+  build_dir: "builds/{{project.name}}"
+  html_files:
+    - executive_summary.html
+    - audit_trail.html
+  static_files:
+    - design-system.css
+    - master-icons.svg
